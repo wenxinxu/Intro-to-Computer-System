@@ -1,9 +1,0 @@
-# don't track these build products, anchored to top-level dir
-/*.d
-/*.o
-/*.a
-
-# explicitly name project executables here, anchored to top-level dir
-archive
-tptest
-tpcustomtest
