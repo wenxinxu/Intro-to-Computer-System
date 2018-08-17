@@ -1,0 +1,897 @@
+<!DOCTYPE html><html lang="en"><head>
+
+		<title>Then &amp; Now Archive - Stanford 125</title>
+
+		<meta charset="utf-8">
+	<meta name="author" content="Stanford 125">
+	<meta http-equiv="cleartype" content="on">
+	<link rel="pingback" href="/http://125.stanford.edu/xmlrpc.php">
+
+		<meta name="HandheldFriendly" content="True">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<meta name="apple-mobile-web-app-title" content="Stanford 125">
+
+		<meta name="application-name" content="Stanford 125">
+
+	
+	
+    <script type="text/javascript">
+        function is_browser() {
+            return (
+                navigator.userAgent.indexOf( "Chrome" ) !== -1 ||
+                navigator.userAgent.indexOf( "Opera" ) !== -1 ||
+                navigator.userAgent.indexOf( "Firefox" ) !== -1 ||
+                navigator.userAgent.indexOf( "MSIE" ) !== -1 ||
+                navigator.userAgent.indexOf( "Safari" ) !== -1
+            );
+        }
+        function not_excluded_page() {
+            return (
+                window.location.href.indexOf( "/unsupported-browser/" ) === -1 &&
+                document.title.toLowerCase().indexOf( 'page not found' ) === -1
+            );
+        }
+        if ( is_browser() && ! document.addEventListener && not_excluded_page() ) {
+            window.location = location.protocol + '//' + location.host + '/unsupported-browser/';
+        }
+    </script>
+
+    
+    <script>
+        WebFontConfig = {
+            google : { families: [ 'Source+Sans+Pro:200,300,400,700:latin' ] },
+            typekit: { id: 'ecr7jpu' }
+        };
+        (function() {
+            var wf = document.createElement( 'script' );
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName( 'script' )[0];
+            s.parentNode.insertBefore( wf, s );
+        })();
+    </script>
+
+    
+<!-- This site is optimized with the Yoast SEO plugin v5.8 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="/http://125.stanford.edu/then-and-now/">
+<link rel="next" href="/http://125.stanford.edu/then-and-now/page/2/">
+<link rel="publisher" href="/https://plus.google.com/102312438958695854492">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="object">
+<meta property="og:title" content="Then &amp; Now Archive - Stanford 125">
+<meta property="og:url" content="http://125.stanford.edu/then-and-now/">
+<meta property="og:site_name" content="Stanford 125">
+<meta property="og:image" content="http://125.stanford.edu/wp-content/uploads/2015/09/stanford125-social-share.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Then &amp; Now Archive - Stanford 125">
+<meta name="twitter:site" content="@stanford">
+<meta name="twitter:image" content="http://125.stanford.edu/wp-content/uploads/2015/09/stanford125-social-share.png">
+<!-- / Yoast SEO plugin. -->
+
+<link rel="dns-prefetch" href="/http://maps.googleapis.com">
+<link rel="dns-prefetch" href="/http://s.w.org">
+<link rel="stylesheet" id="google-maps-builder-plugin-styles-css" type="text/css" media="all" href="/http://125.stanford.edu/wp-content/plugins/google-maps-builder-pro/assets/css/google-maps-builder.min.css?ver=2.0.2">
+<link rel="stylesheet" id="google-maps-builder-map-icons-css" type="text/css" media="all" href="/http://125.stanford.edu/wp-content/plugins/google-maps-builder-pro/includes/libraries/map-icons/css/map-icons.css?ver=2.0.2">
+<link rel="stylesheet" id="stanford-125-theme-base-css" type="text/css" media="all" href="/http://125.stanford.edu/wp-content/themes/stanford-125/css/dist/master.min.css?ver=9.30.11.22.2017">
+<link rel="stylesheet" id="stanford-125-theme-print-css" type="text/css" media="print" href="/http://125.stanford.edu/wp-content/themes/stanford-125/css/dist/print.min.css?ver=9.30.11.22.2017">
+<script type="text/javascript" src="/http://125.stanford.edu/wp-content/themes/stanford-125/js/jquery.min.js?ver=9.30.11.22.2017"></script>
+<script type="text/javascript" src="/https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;libraries=places&amp;ver=4.9.7"></script>
+<link rel="https://api.w.org/" href="/http://125.stanford.edu/wp-json/">
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="http://125.stanford.edu"><link rel="https://theeventscalendar.com/" href="/http://125.stanford.edu/wp-json/tribe/events/v1/"><link rel="shortcut icon" href="/http://125.stanford.edu/wp-content/uploads/2015/10/favicon.ico"><link rel="apple-touch-icon-precomposed" href="/http://125.stanford.edu/wp-content/uploads/2015/10/apple-touch-icon-precomposed.png"><meta name="msapplication-TileImage" content="http://125.stanford.edu/wp-content/uploads/2015/10/ms-icon-144.png"><meta name="msapplication-TileColor" content="#ffffff">
+    <noscript>
+        <style>
+            body,
+            .site-header,
+            .sep-header,
+            .sep-trigger,
+            #sep-meta,
+            .js-aa-in {
+                opacity: 1;
+            }
+            #memory_image {
+                width: 100%;
+                height: auto;
+                opacity: 1;
+                overflow: visible;
+                position: static;
+                z-index: auto;
+                background-color: transparent;
+                margin: 0 auto;
+            }
+            #memory_image + label {
+                border: 0;
+                clip: rect(0 0 0 0);
+                height: 1px;
+                margin: -1px;
+                overflow: hidden;
+                padding: 0;
+                position: absolute;
+                width: 1px;
+            }
+            #memory_image ~ .form-helper {
+                margin-top: 10px;
+            }
+        </style>
+    </noscript>
+
+    <meta name="twitter:widgets:link-color" content="#000000"><meta name="twitter:widgets:border-color" content="#000000"><meta name="twitter:partner" content="tfwp">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Archives: Then &amp; Now">
+
+	<script>
+		(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function () {
+						(
+							i[r].q = i[r].q || []
+						).push(arguments)
+					}, i[r].l = 1 * new Date();
+				a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+		ga('create', 'UA-1860414-42', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+</head>
+<body class="archive post-type-archive post-type-archive-then-and-now tribe-no-js header-is-transparent">
+
+		<div class="hidden"><svg xmlns="http://www.w3.org/2000/svg"><symbol viewBox="-1006 759 33.6 19" id="icon-125-mark"><title>125th Anniversary</title><desc>The number 125 as an image.</desc>   <style type="text/css"> .st0{fill:#FFFFFF;} </style> <g> <g> <path class="st0" d="M-1005.9,773.7v-1c2.2-0.1,2.4-0.4,2.4-2.2v-7.6c0-1.3-0.1-1.5-1.2-1.6l-1.3-0.1v-0.8
+			c1.7-0.3,3.5-0.8,5.4-1.4v11.4c0,1.8,0.2,2.1,2.4,2.2v1h-7.7C-1005.9,773.6-1005.9,773.7-1005.9,773.7z"></path> </g> <g> <path class="st0" d="M-994.4,760.2c0.9-0.8,2-1.2,3.4-1.2"></path> <path class="st0" d="M-985.4,769.7c-0.3,1.3-0.6,2.6-0.9,3.7c0,0.2-0.2,0.3-0.4,0.3h-9.9V773c1.4-1.2,2.9-2.5,4.2-3.8
+			c1.8-1.8,3-3.4,3-5.2c0-1.7-1-2.7-2.8-2.7c-1.6,0-2.7,1.2-3.5,2.4l-0.8-0.7l1.6-2.2c0,0,0.4-0.5,0.5-0.6c0.9-0.8,2-1.2,3.4-1.2
+			c2.2,0,4.4,1.9,4.6,3.9c0.1,1.1-0.3,2.1-0.6,2.7c-0.4,0.9-0.9,1.4-1.5,2.1c-1.8,2-3.7,3-3.5,3.5l0,0h3c1.5,0,1.7-0.1,2.6-1.8
+			L-985.4,769.7z"></path> </g> <g> <path class="st0" d="M-982.4,766.2c1.1-0.4,2.4-0.8,3.1-0.8c3.4,0,5.2,2.2,5.2,4.5c0,1.6-0.8,3.2-2.5,4.5
+			c-1.4,1.1-3.3,1.8-4.8,1.8c-1.1,0-2.2-0.5-2.7-0.9c-0.4-0.4-0.5-0.7-0.5-1s0.3-0.8,0.7-1.1c0.3-0.2,0.5-0.2,0.8,0.1
+			c0.6,0.5,1.8,1.4,3.3,1.4c1.9,0,2.8-1.7,2.8-3.5c0-2.3-1.5-3.9-4.1-3.9c-1.1,0-2.2,0.3-2.8,0.5l1.1-8.3h7.9l0.2,0.2l-0.8,2.2h-6.3
+			L-982.4,766.2z"></path> </g> </g> </symbol><symbol viewBox="0 0 46.7 21" id="icon-arrow"><title>Right Arrow</title><desc>An arrow pointing right.</desc>   <style type="text/css"> .st0{fill:#FFFFFF;} </style> <polygon class="st0" points="44.2,10.3 36.3,2.4 35.1,3.7 39.2,7.7 40.9,9.4 38.4,9.4 3,9.4 3,11.2 38.5,11.2 40.9,11.2 39.2,12.9 
+	35.1,16.9 36.3,18.1 "></polygon> </symbol><symbol viewBox="0 0 32 23" id="icon-carrot"><title>Down Caret</title><desc>Caret icon pointing down.</desc>   <style type="text/css"> .st0{fill:#FFFFFF;} </style> <g> <path class="st0" d="M18,16.7c0,0.4-0.1,0.8-0.4,1.1c-0.6,0.6-1.5,0.6-2.1,0L6.9,9.3c-0.6-0.6-0.6-1.5,0-2.1c0.6-0.6,1.5-0.6,2.1,0
+		l8.5,8.5C17.8,16,18,16.3,18,16.7z"></path> <path class="st0" d="M26.5,8.2c0,0.4-0.1,0.8-0.4,1.1l-8.5,8.5c-0.6,0.6-1.5,0.6-2.1,0c-0.6-0.6-0.6-1.5,0-2.1l8.5-8.5
+		c0.6-0.6,1.5-0.6,2.1,0C26.3,7.5,26.5,7.9,26.5,8.2z"></path> </g> </symbol><symbol viewBox="0 0 75 75" id="icon-close"><title>Close Icon</title><desc>Icon with an X to denote closing.</desc>   <style type="text/css"> .st0{fill:#FFFFFF;} </style> <path class="st0" d="M65.8,70.5c-0.7,0.7-2,0.7-2.7,0L37.5,44.9L11.9,70.5c-0.7,0.7-2,0.7-2.7,0l-4.9-4.9c-0.7-0.7-0.7-2,0-2.7
+	l25.6-25.6L4.3,11.7c-0.7-0.7-0.7-2,0-2.7l4.9-4.9c0.7-0.7,2-0.7,2.7,0l25.6,25.6L63.1,4.1c0.7-0.7,2-0.7,2.7,0L70.7,9
+	c0.7,0.7,0.7,2,0,2.7L45.1,37.3l25.6,25.6c0.7,0.7,0.7,2,0,2.7L65.8,70.5z"></path> </symbol><symbol viewBox="5 -5 54 54" id="icon-facebook"><title>Facebook Icon</title><desc>Facebook logo as an icon.</desc>   <style type="text/css"> .st0{fill:#FFFFFF;} </style> <path class="st0" d="M27.5,19.6h1.9v-1.8c0-0.8,0-2.1,0.6-2.8c0.6-0.8,1.5-1.4,2.9-1.4c2.4,0,3.4,0.3,3.4,0.3l-0.5,2.8
+	c0,0-0.8-0.2-1.5-0.2s-1.4,0.3-1.4,1v2.1h3l-0.2,2.7H33v9.5h-3.6v-9.5h-1.9V19.6z"></path> <g> <path class="st0" d="M32-3C45.8-3,57,8.2,57,22S45.8,47,32,47S7,35.8,7,22S18.2-3,32-3 M32-5C17.1-5,5,7.1,5,22s12.1,27,27,27
+		s27-12.1,27-27S46.9-5,32-5L32-5z"></path> </g> </symbol><symbol viewBox="5 -5 54 54" id="icon-instagram"><title>Instagram Icon</title><desc>Instagram logo as an icon.</desc>   <style type="text/css"> .st0{fill:#FFFFFF;} </style> <path class="st0" d="M35.8,22.4c0,2.3-1.9,4.2-4.2,4.2s-4.2-1.9-4.2-4.2c0-0.5,0.1-1,0.3-1.5h-5.1v6.2c0,2.5,2,4.5,4.5,4.5h9
+	c2.5,0,4.5-2,4.5-4.5v-6.2h-5.1C35.7,21.4,35.8,21.9,35.8,22.4z"></path> <path class="st0" d="M34.2,22.4c0,1.4-1.1,2.5-2.5,2.5c-1.4,0-2.5-1.1-2.5-2.5s1.1-2.5,2.5-2.5C33,19.9,34.2,21,34.2,22.4"></path> <path class="st0" d="M38.2,17.9c0,0.3-0.2,0.5-0.5,0.5h-1.5c-0.3,0-0.5-0.2-0.5-0.5v-1.5c0-0.3,0.2-0.5,0.5-0.5h1.5
+	c0.3,0,0.5,0.2,0.5,0.5V17.9z M36.2,13.7h-8.8v4.7h-1v-4.6c-0.3,0.1-0.7,0.1-1,0.3v4.3h-1v-3.8c-1.1,0.8-1.8,2.1-1.8,3.6v1.3h6.1
+	c0.8-0.7,1.8-1.2,2.9-1.2c1.1,0,2.2,0.5,2.9,1.2h6.1v-1.3C40.7,15.7,38.6,13.7,36.2,13.7z"></path> <g> <path class="st0" d="M32-3C45.8-3,57,8.2,57,22S45.8,47,32,47S7,35.8,7,22S18.2-3,32-3 M32-5C17.1-5,5,7.1,5,22s12.1,27,27,27
+		s27-12.1,27-27S46.9-5,32-5L32-5z"></path> </g> </symbol><symbol viewBox="0 0 342 342" id="icon-play"><title>Play Icon</title><desc>Play icon in a circular border.</desc>   <metadata> <sfw xmlns="&amp;ns_sfw;"> <slices></slices> <slicesourcebounds width="339.9" height="339.9" y="1" x="1" bottomleftorigin="true"></slicesourcebounds> </sfw> </metadata> <path fill="#FFFFFF" d="M171,341C77.3,341,1,264.7,1,171S77.3,1,171,1s170,76.2,170,170S264.7,341,171,341z M171,19
+	C87.2,19,19,87.2,19,171c0,83.8,68.2,152,152,152c83.8,0,152-68.2,152-152C323,87.2,254.8,19,171,19z"></path> <polygon fill="#FFFFFF" points="123.1,95.8 246.2,171 123.1,245.8 "></polygon> </symbol><symbol viewBox="0 0 108.1 18.8" id="icon-stanford-125-logo"><title>Stanford University 125th Anniversary Logo</title><desc>Stanford University 125th Anniversary Logo.</desc>   <style type="text/css"> .st0{fill:#FFFFFF;} </style> <g id="stanford-125-logo-pipe"> <rect x="77.4" y="1" class="st0" width="0.6" height="15"></rect> </g> <g id="stanford-125-logo-logo"> <g> <g> <path class="st0" d="M20.7,16c-2.6,0-2.8-1.9-2.8-2.5c0-0.7,0.2-1.9,1.8-2.5c1.7-0.6,2-0.7,3.2-1.1V9.6c0-0.6,0-0.7-0.1-1
+				c-0.2-0.7-0.9-1.1-1.7-1.1c-1.3,0-1.8,1-1.8,1l-0.1,0.2l-0.5-0.4V8.2c0.2-0.7,1.2-2,3.2-2c1.3,0,2.2,0.4,2.7,1.2
+				C25,8,25,8.9,25,9.8c0,0.8,0,1.7,0,2.4c0,0.5,0,0.9,0,1.2c0,0.7,0.1,1.2,0.7,1.2c0.1,0,0.2,0,0.3-0.1l0.2-0.1l0.3,0.4l-0.1,0.1
+				c-0.5,0.6-1,1-1.9,1c-0.7,0-1.3-0.4-1.4-1C22.6,15.4,21.8,16,20.7,16z M22.9,11c-1.3,0.4-1.7,0.6-2.1,0.8
+				c-0.5,0.3-0.8,0.8-0.8,1.5c0,0.5,0.2,1.4,1.4,1.4c0.4,0,1-0.1,1.5-0.4C22.9,14.3,22.9,11,22.9,11z"></path> </g> </g> <g> <g> <g> <path class="st0" d="M5.1,15.9c-1.2,0-2.2-0.1-3.1-0.4H1.9v-0.7c0-0.9,0-1.3,0-1.6v-0.5h0.6v0.2c0,0.4,0.2,0.8,0.4,1.1
+					c0.4,0.5,1.3,0.7,2.2,0.7c1.8,0,2.6-0.7,2.6-2.1c0-1.2-0.8-1.8-1.8-2.5L5.7,10L4.4,9.3C2.8,8.3,2,7.4,2,5.8C2,5,2.3,2.3,6.3,2.3
+					c1.6,0,2.9,0.2,2.9,0.2h0.2v0.2c0,0,0,0.5,0,1.1c0,0.4,0,0.8,0,1.2v0.3H8.9V5.1c0-0.5-0.2-0.9-0.5-1.1C8,3.6,7.2,3.4,6.3,3.4
+					C4.2,3.4,4,4.5,4,5.3c0,1.1,0.6,1.5,1.8,2.3l1.4,0.9c1.2,0.8,2.4,1.6,2.4,3.6C9.6,15.6,6.4,15.9,5.1,15.9z"></path> </g> </g> <g> <g> <path class="st0" d="M14.4,16c-1.5,0-2.3-0.5-2.6-1.7c-0.1-0.5-0.1-1.4-0.1-1.9c0-1.5,0-2.7,0-4.1V7.6h-1.2V7.3h0.1
+					c0.6-0.2,0.8-0.4,1.1-0.6c0.9-0.7,1.5-1.9,1.5-1.9l0.2-0.4h0.4v2.1H17v1.2h-3.2v4.9c0,1.5,0.3,2.3,1.7,2.3
+					c0.6,0,1.1-0.3,1.2-0.3l0.2-0.1l0.2,0.4L17,15C16.9,15,16.1,16,14.4,16z"></path> </g> </g> <g> <g> <path class="st0" d="M27.2,15.9v-0.4h0.2c0.2,0,0.6-0.1,0.8-0.4c0.3-0.3,0.3-1.1,0.3-2.7V9.7c0-1.2,0-1.7-0.2-1.9
+					c-0.2-0.3-0.6-0.3-0.8-0.3h-0.1h-0.2V7h0.2h0.1c0.3,0,1,0,1.7-0.2c0.6-0.1,0.9-0.3,1-0.3h0.1l0.2,0.1v0.7
+					c0.5-0.4,1.4-0.9,2.7-0.9c1.7,0,2.8,0.8,3.1,2.2c0.1,0.4,0.1,1.2,0.1,1.7V13c0,1.6,0.1,2,0.4,2.3c0.1,0.1,0.5,0.2,0.7,0.3h0.2
+					V16h-0.5c-0.7,0-1.3-0.1-1.9-0.1c-0.7,0-1.3,0-2.1,0.1H33v-0.4h0.2c0.4-0.1,0.6-0.2,0.8-0.3c0.3-0.3,0.3-1,0.3-1.7
+					c0-0.1,0-0.2,0-0.3c0-0.4,0-1.1,0-1.6c0-0.7,0-1.4-0.1-2.2c-0.1-1.2-0.8-1.8-2-1.8c-0.8,0-1.4,0.2-1.8,0.4V13
+					c0,1.6,0.1,2,0.4,2.3c0.1,0.1,0.5,0.2,0.7,0.3h0.2V16h-0.5c-0.7,0-1.2-0.1-1.8-0.1C28.7,15.9,28.1,15.9,27.2,15.9L27.2,15.9
+					L27.2,15.9z"></path> </g> </g> <g> <g> <path class="st0" d="M39,15.9v-0.5h0.2c0.2,0,0.6-0.1,0.8-0.4c0.3-0.3,0.3-1.1,0.3-2.7V7.6h-1.2V7.1L39.2,7
+					c0.5-0.2,0.9-0.4,1.1-0.6c0-0.8,0-1.9,0.1-2.5C40.8,2,42,1,44.2,1c0.9,0,1.8,0.3,2.3,0.7l0.1,0.1V2l-0.9,1.3h-0.2l-0.1-0.1
+					c-0.4-0.8-0.9-1.1-1.6-1.1c-0.3,0-0.7,0.1-0.9,0.3c-0.4,0.4-0.5,1-0.5,2.2v1.8h2.1v1.2h-2.1v5.2c0,1.2,0,1.8,0.2,2.1
+					c0.3,0.4,1.1,0.4,1.3,0.4h0.2v0.5h-0.2c-1-0.1-1.8-0.1-2.4-0.1c-0.7,0-1.5,0-2.3,0.1L39,15.9z"></path> </g> </g> <g> <g> <path class="st0" d="M49.8,16c-2.9,0-4.6-1.8-4.6-4.8c0-2.3,1.3-5,4.8-5c2.9,0,4.6,1.8,4.6,4.8C54.6,13.3,53.3,16,49.8,16z
+					 M49.9,7.3c-0.6,0-1,0.1-1.3,0.4c-0.8,0.6-1.1,1.8-1.1,3.4c0,0.6,0.1,3.8,2.4,3.8c0.6,0,1-0.1,1.3-0.4c0.8-0.6,1.1-1.8,1.1-3.4
+					C52.4,10.5,52.2,7.3,49.9,7.3z"></path> </g> </g> <g> <g> <path class="st0" d="M55.5,15.9v-0.5h0.2c0.2,0,0.6-0.1,0.8-0.4c0.3-0.3,0.3-1.1,0.3-2.7V9.6c0-1.2,0-1.7-0.2-1.9
+					c-0.2-0.3-0.6-0.3-0.8-0.3h-0.1h-0.2V6.8h0.2c0,0,0.1,0,0.2,0c0.3,0,1,0,1.7-0.2c0.5-0.1,0.9-0.2,1-0.3h0.1l0.2,0.1v0.8
+					c0.4-0.4,1.2-0.9,2.2-0.9c0.7,0,1.2,0.2,1.6,0.5l0.1,0.1v0.3L62,8.7h-0.4l-0.1-0.1c-0.2-0.3-0.7-0.8-1.5-0.8
+					c-0.4,0-0.7,0.1-1,0.3v4.7c0,1.2,0,1.8,0.2,2.1c0.3,0.4,1.1,0.4,1.3,0.4h0.2v0.5h-0.2c-1-0.1-1.8-0.1-2.4-0.1
+					c-0.7,0-1.5,0-2.3,0.1L55.5,15.9z"></path> </g> </g> <g> <g> <path class="st0" d="M70.3,16l-0.2-0.1v-0.8c-0.5,0.3-1.4,0.9-2.6,0.9c-2.6,0-4.3-1.8-4.3-4.6c0-0.9,0.2-1.8,0.5-2.5
+					c0.8-1.7,2.4-2.7,4.5-2.7c0.8,0,1.4,0.1,1.8,0.2v-2c0-1.2,0-1.8-0.2-2.1S69.2,2,69,2h-0.1h-0.2V1.6h0.2c0,0,1.1-0.1,2-0.3
+					c0.4-0.1,0.7-0.1,0.9-0.2h0.1l0.2,0.1v0.1c0,0.7,0,2.4,0,3.6v7.7c0,1.1,0,1.9,0.2,2.1c0.2,0.3,0.6,0.3,0.8,0.3h0.1h0.2v0.5h-0.2
+					c-0.2,0-1,0.1-1.8,0.2C70.9,15.8,70.6,15.9,70.3,16L70.3,16z M68.1,7.3c-1.8,0-2.7,1.3-2.7,3.8c0,1,0.3,3.5,3,3.5h0.1
+					c0.3,0,1,0,1.5-0.4V7.9C69.9,7.8,69.3,7.3,68.1,7.3z"></path> </g> </g> </g> </g> <g> <g> <g> <path class="st0" d="M81.9,15.7V15c1.7-0.1,1.8-0.3,1.8-1.7V7.5c0-1-0.1-1.1-0.9-1.2h-1V5.7c1.3-0.2,2.7-0.6,4.2-1v8.6
+				c0,1.4,0.1,1.6,1.8,1.7v0.7C87.8,15.7,81.9,15.7,81.9,15.7z"></path> </g> </g> <g> <g> <path class="st0" d="M97.6,12.7c-0.3,1-0.5,2-0.7,2.8c0,0.1-0.2,0.2-0.3,0.2H89v-0.6c1.1-0.8,2.2-1.8,3.2-2.8
+				c1.4-1.4,2.3-2.6,2.3-4c0-1.3-0.8-2.1-2.1-2.1c-1.2,0-2.1,1-2.7,1.8l-0.6-0.5l1.2-1.7l0,0C91,5.1,92,4.6,93.2,4.6
+				c1.6,0,3.4,1.4,3.5,3c0.1,0.8-0.2,1.5-0.4,2c-0.3,0.7-0.7,1.1-1.2,1.6c-1.4,1.5-2.8,2.3-2.6,2.6l0,0h2.3c1.1,0,1.3-0.1,2-1.4
+				L97.6,12.7z"></path> </g> </g> <g> <g> <path class="st0" d="M99.8,10c0.9-0.3,1.8-0.6,2.3-0.6c2.6,0,4,1.7,4,3.4c0,1.2-0.6,2.4-1.9,3.4c-1.1,0.9-2.5,1.4-3.6,1.4
+				c-0.8,0-1.7-0.4-2.1-0.7c-0.3-0.3-0.4-0.5-0.4-0.8s0.2-0.6,0.5-0.9c0.2-0.1,0.4-0.1,0.6,0.1c0.5,0.4,1.3,1.1,2.5,1.1
+				c1.4,0,2.1-1.3,2.1-2.7c0-1.8-1.1-3-3.1-3c-0.9,0-1.7,0.2-2.1,0.4l0.8-6.3h6.1l0.1,0.2L105,6.7h-4.8L99.8,10z"></path> </g> </g> </g> </symbol><symbol viewBox="0 0 54 54" id="icon-twitter"><title>Twitter Icon</title><desc>Twitter logo as an icon.</desc>   <style type="text/css"> .st0{fill:#FFFFFF;} </style> <g> <path class="st0" d="M27,2c13.8,0,25,11.2,25,25S40.8,52,27,52S2,40.8,2,27S13.2,2,27,2 M27,0C12.1,0,0,12.1,0,27s12.1,27,27,27
+		s27-12.1,27-27S41.9,0,27,0L27,0z"></path> </g> <path class="st0" d="M37.9,21c-0.8,0.4-1.7,0.6-2.6,0.7c0.9-0.6,1.6-1.4,2-2.5c-0.9,0.5-1.8,0.9-2.8,1.1c-0.8-0.9-2-1.4-3.3-1.4
+	c-2.5,0-4.5,2-4.5,4.5c0,0.4,0,0.7,0.1,1c-3.7-0.2-7-2-9.2-4.7c-0.4,0.7-0.6,1.4-0.6,2.2c0,1.5,0.8,2.9,2,3.7c-0.7,0-1.4-0.2-2-0.6
+	v0.1c0,2.2,1.5,4,3.6,4.4c-0.4,0.1-0.8,0.2-1.2,0.2c-0.3,0-0.6,0-0.8-0.1c0.6,1.8,2.2,3.1,4.2,3.1c-1.5,1.2-3.4,1.9-5.5,1.9
+	c-0.4,0-0.7,0-1.1-0.1c2,1.3,4.3,2,6.8,2c8.2,0,12.7-6.8,12.7-12.7c0-0.2,0-0.4,0-0.6C36.6,22.7,37.3,21.9,37.9,21"></path> </symbol></svg></div>
+
+	<div id="site-wrap">
+
+		<header class="site-header">
+
+	<div class="sh-content-wrap">
+
+		<div class="sh-wrap">
+
+			<div class="logo"><a class="logo-wrap" rel="home" href="/http://125.stanford.edu"><svg><use href="/http://125.stanford.edu/then-and-now/"></use></svg><span class="accessibility">Stanford University 125</span></a></div>
+			<button id="trigger-nav" class="sn-trigger" role="button">
+				<i class="sn-icon"></i>
+				<span class="snt-open-text">Menu</span>
+				<span class="snt-close-text">Close</span>
+			</button>
+
+		</div>
+
+		
+	<nav id="navigation" class="site-navigation" aria-label="Site Navigation" itemscope="" itemtype="https://schema.org/SiteNavigationElement">
+
+		<div class="sn-wrap">
+			<ol class="sn-menu">
+				<li><a href="/http://125.stanford.edu/events/">Events</a></li>
+<li class="is-parent"><button id="menu-item-524" class="is-parent-trigger">Stories</button>
+<ul id="sub-menu-524" class="sub-menu">
+	<li><a href="/http://125.stanford.edu/125-stanford-stories/">125 Stanford Stories</a></li>
+	<li><a href="/http://125.stanford.edu/video-stories">Video Stories</a></li>
+	<li><a href="/http://125.stanford.edu/portraits">Portraits</a></li>
+</ul>
+</li>
+<li class="current-menu-parent is-parent"><button id="menu-item-525" class="is-parent-trigger">History</button>
+<ul id="sub-menu-525" class="sub-menu">
+	<li><a href="/http://125.stanford.edu/history/">Stanford History</a></li>
+	<li><a href="/http://125.stanford.edu/timelines/">Timelines</a></li>
+	<li class="is-current"><a href="/http://125.stanford.edu/then-and-now">Then &amp; Now</a></li>
+</ul>
+</li>
+<li><a href="/http://125.stanford.edu/stanford-memories">Memories</a></li>
+<li class="is-parent"><button id="menu-item-2075" class="is-parent-trigger">About</button>
+<ul id="sub-menu-2075" class="sub-menu">
+	<li><a href="/http://125.stanford.edu/about-stanford-125/">About Stanford 125</a></li>
+	<li><a href="/http://125.stanford.edu/stanford-125-news/">Stanford 125 News Archive</a></li>
+	<li><a href="/http://125.stanford.edu/book">Stanford 125 Book</a></li>
+</ul>
+</li>
+			</ol>
+
+		</div>
+
+	</nav><!-- nav -->
+
+
+		
+	</div><!-- .sh-content-wrap -->
+
+</header><!-- .site-header -->
+
+	<main>
+
+		<header class="header-sub">
+
+		
+	
+	<div class="content-wrap">
+
+		<div class="hs-wrapper h-vh h-mh-800">
+
+			
+			
+						
+			
+			
+<div class="hs-inner js-a-hero">
+
+		<h1 class="page-title hs-title h-t-nbm h-text-shadow js-aa-in">Then &amp; Now</h1>
+
+			<div class="hs-content js-aa-in">
+			<p>As the world has changed over the last 125 years so has Stanford, often leading the way with new ideas and discoveries.<br>
+Here’s a look at Stanford people, places and experiences – past and present.</p>
+		</div>
+	
+		<button id="tn-trigger-next" class="sep-trigger" type="button">
+		<i class="icon icon-carrot2"></i>
+		<span class="accessibility">Navigate to the archive's content</span>
+	</button>
+
+			<div class="hs-bgd-media hs-bgd-image lazyload" data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2015/12/then-now.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2015/12/then-now-1152x640.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2015/12/then-now.jpg" role="img" aria-label="Then &amp; Now">
+		</div>
+	
+</div><!-- .hs-inner -->
+			
+			
+			
+			
+			
+			
+			
+		</div>
+
+	</div><!-- .content-wrap -->
+
+</header><!-- .header-sub -->
+		<div class="content-wrap">
+
+			
+				<div class="loop-wrap lw-then-and-now">
+
+					
+						
+<article class="then-and-now-3443 has-no-photoblend tna-image-wrapper">
+
+	<a class="tna-link-wrapper" rel="bookmark" href="/http://125.stanford.edu/then-and-now/campus-panorama-alta-vista/">
+
+		<figure class="tna-inner-wrapper">
+
+			
+	<div class="tna-image-swap lazyload current" data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2016/11/8869645429_0b5c56ae40_o-600x420.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2016/11/8869645429_0b5c56ae40_o-1152x500.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2016/11/8869645429_0b5c56ae40_o-900x630.jpg" role="img" aria-label="8869645429_0b5c56ae40_o">
+	</div>
+
+
+	<div class="tna-image-swap lazyload " data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2016/11/Lathrop-pano-4-600x420.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2016/11/Lathrop-pano-4-1152x500.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2016/11/Lathrop-pano-4-900x630.jpg" role="img" aria-label="lathrop-pano-4">
+	</div>
+
+
+			<figcaption class="tna-caption">
+
+				<h3 class="tna-title">
+					Campus Panorama from Alta Vista				</h3>
+
+			</figcaption>
+
+		</figure><!--.tna-image-wrapper-->
+
+	</a><!--.tna-link-wrapper-->
+
+	
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"name": "Campus Panorama from Alta Vista",
+		"headline": "Campus Panorama from Alta Vista",
+		"url": "http://125.stanford.edu/then-and-now/campus-panorama-alta-vista/",
+							"description": "Alta Vista, the house constructed in 1900, was part of a 17-acre estate owned by Charles Lathrop, Jane Stanford\u2019s younger&hellip;",
+							"articleBody": "Alta Vista, the house constructed in 1900, was part of a 17-acre estate owned by Charles Lathrop, Jane Stanford\u2019s younger brother and the university\u2019s first treasurer and business manager. Located near the entrance to the Stanford Golf Course, the Alta Vista overlooks the Stanford campus, which has grown and changed significantly over the last 125 years. Left: View of the Stanford campus during its early years. The iconic Memorial Church has not been built yet. Right: Campus panorama from Alta Vista in 2015, with the Hoover Tower soaring\u00a0over the university.",
+			"text": "Alta Vista, the house constructed in 1900, was part of a 17-acre estate owned by Charles Lathrop, Jane Stanford\u2019s younger brother and the university\u2019s first treasurer and business manager. Located near the entrance to the Stanford Golf Course, the Alta Vista overlooks the Stanford campus, which has grown and changed significantly over the last 125 years. Left: View of the Stanford campus during its early years. The iconic Memorial Church has not been built yet. Right: Campus panorama from Alta Vista in 2015, with the Hoover Tower soaring\u00a0over the university.",
+								"author": "Daniel Dvorkin",
+		"copyrightHolder": "Stanford 125",
+		"creator": "Stanford 125",
+		"datePublished": "2016-11-29T23:55:53+00:00",
+		"dateCreated": "2016-11-29T23:55:53+00:00"
+	}
+	</script>
+
+
+</article><!-- .tna-image-wrapper -->
+					
+						
+<article class="then-and-now-2673 has-photoblend tna-image-wrapper">
+
+	<a class="tna-link-wrapper" rel="bookmark" href="/http://125.stanford.edu/then-and-now/serra-mall/">
+
+		<figure class="tna-inner-wrapper">
+
+			
+	<div class="tna-image-swap lazyload no-fade current" data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2016/09/photomerge1-600x420.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2016/09/photomerge1-1152x500.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2016/09/photomerge1-900x630.jpg" role="img" aria-label="Serra Mall then and now">
+	</div>
+
+
+			<figcaption class="tna-caption">
+
+				<h3 class="tna-title">
+					Serra Mall				</h3>
+
+			</figcaption>
+
+		</figure><!--.tna-image-wrapper-->
+
+	</a><!--.tna-link-wrapper-->
+
+	
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"name": "Serra Mall",
+		"headline": "Serra Mall",
+		"url": "http://125.stanford.edu/then-and-now/serra-mall/",
+					"image": "http://125.stanford.edu/wp-content/uploads/2016/09/photomerge1.jpg",
+			"thumbnailUrl": "http://125.stanford.edu/wp-content/uploads/2016/09/photomerge1.jpg",
+							"description": "Serra Mall serves as the university\u2019s front door, its face to the world. This image\u00a0hints how much that world has&hellip;",
+							"articleBody": "Serra Mall serves as the university\u2019s front door, its face to the world. This image\u00a0hints how much that world has changed since a photographer captured the scene\u00a0sometime after Hoover Tower\u2019s dedication in 1941. The United States had not yet\u00a0entered the war then raging in Europe that would transform so much of society. The\u00a0effect of world-changing Stanford research was just beginning to be felt.\r\n\r\nIn the years\u00a0the tower was being funded and constructed, the Varian brothers and William\u00a0Hansen developed the klystron, and David Packard and William Hewlett founded\u00a0H-P in a Palo Alto garage. In this photo, those changes seem to lie just under the\u00a0surface. Parking was not yet restricted near campus buildings, for the postwar\u00a0expansion that spurred it had not yet arrived. Today, energy-efficient <a href=\"http:\/\/125.stanford.edu\/then-and-now\/the-marguerite\/\" target=\"_blank\">Marguerite\u00a0shuttles<\/a> serve a campus that has grown to 16,000 students, 13,000 employees and\u00a0more than 2,000 faculty.\r\n\r\n<em>Photos:\u00a0Stanford University Archives\/Linda A. Cicero, Stanford News Service<\/em>\r\n\r\n<em>Montage: John Holleman\u00a0<\/em>",
+			"text": "Serra Mall serves as the university\u2019s front door, its face to the world. This image\u00a0hints how much that world has changed since a photographer captured the scene\u00a0sometime after Hoover Tower\u2019s dedication in 1941. The United States had not yet\u00a0entered the war then raging in Europe that would transform so much of society. The\u00a0effect of world-changing Stanford research was just beginning to be felt.\r\n\r\nIn the years\u00a0the tower was being funded and constructed, the Varian brothers and William\u00a0Hansen developed the klystron, and David Packard and William Hewlett founded\u00a0H-P in a Palo Alto garage. In this photo, those changes seem to lie just under the\u00a0surface. Parking was not yet restricted near campus buildings, for the postwar\u00a0expansion that spurred it had not yet arrived. Today, energy-efficient <a href=\"http:\/\/125.stanford.edu\/then-and-now\/the-marguerite\/\" target=\"_blank\">Marguerite\u00a0shuttles<\/a> serve a campus that has grown to 16,000 students, 13,000 employees and\u00a0more than 2,000 faculty.\r\n\r\n<em>Photos:\u00a0Stanford University Archives\/Linda A. Cicero, Stanford News Service<\/em>\r\n\r\n<em>Montage: John Holleman\u00a0<\/em>",
+								"author": "stocker",
+		"copyrightHolder": "Stanford 125",
+		"creator": "Stanford 125",
+		"datePublished": "2016-09-15T00:00:42+00:00",
+		"dateCreated": "2016-09-15T00:00:42+00:00"
+	}
+	</script>
+
+
+</article><!-- .tna-image-wrapper -->
+					
+						
+<article class="then-and-now-2676 has-photoblend tna-image-wrapper">
+
+	<a class="tna-link-wrapper" rel="bookmark" href="/http://125.stanford.edu/then-and-now/inner-quad/">
+
+		<figure class="tna-inner-wrapper">
+
+			
+	<div class="tna-image-swap lazyload no-fade current" data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2016/09/photomerge5-600x420.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2016/09/photomerge5-1152x500.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2016/09/photomerge5-900x630.jpg" role="img" aria-label="Inner quad then and now">
+	</div>
+
+
+			<figcaption class="tna-caption">
+
+				<h3 class="tna-title">
+					Inner Quad				</h3>
+
+			</figcaption>
+
+		</figure><!--.tna-image-wrapper-->
+
+	</a><!--.tna-link-wrapper-->
+
+	
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"name": "Inner Quad",
+		"headline": "Inner Quad",
+		"url": "http://125.stanford.edu/then-and-now/inner-quad/",
+					"image": "http://125.stanford.edu/wp-content/uploads/2016/09/photomerge5.jpg",
+			"thumbnailUrl": "http://125.stanford.edu/wp-content/uploads/2016/09/photomerge5.jpg",
+							"description": "The classrooms around the Inner Quad were Stanford\u2019s first campus buildings. They\u00a0enclose a space that was for years the only&hellip;",
+							"articleBody": "The classrooms around the Inner Quad were Stanford\u2019s first campus buildings. They\u00a0enclose a space that was for years the only place large enough to hold the growing\u00a0campus community \u2013\u00a0<a href=\"http:\/\/125.stanford.edu\/then-and-now\/the-quad\/\" target=\"_blank\">a place to meet<\/a>, to socialize, to hold\u00a0joyful assemblies and solemn ceremonies. White plug hats worn by these male students relaxing in 1902\u00a0identify them as members of the junior class.\r\n\r\nToday, the Quad remains the heart of\u00a0the university and scene of <a href=\"http:\/\/125.stanford.edu\/hidden-snapshots-history\/\" target=\"_blank\">cherished rites of passage<\/a>. Freshmen and transfer\u00a0students meet here in September for Convocation as they orient themselves to life at\u00a0Stanford. Later, as graduating seniors, they stream from Memorial Church into the\u00a0Quad for Baccalaureate in a passage that symbolizes their entrance into the wider\u00a0world.\r\n\r\n<em>Photos:\u00a0Stanford University Archives\/Linda A. Cicero, Stanford News Service<\/em>\r\n\r\n<em>Montage: John Holleman\u00a0<\/em>",
+			"text": "The classrooms around the Inner Quad were Stanford\u2019s first campus buildings. They\u00a0enclose a space that was for years the only place large enough to hold the growing\u00a0campus community \u2013\u00a0<a href=\"http:\/\/125.stanford.edu\/then-and-now\/the-quad\/\" target=\"_blank\">a place to meet<\/a>, to socialize, to hold\u00a0joyful assemblies and solemn ceremonies. White plug hats worn by these male students relaxing in 1902\u00a0identify them as members of the junior class.\r\n\r\nToday, the Quad remains the heart of\u00a0the university and scene of <a href=\"http:\/\/125.stanford.edu\/hidden-snapshots-history\/\" target=\"_blank\">cherished rites of passage<\/a>. Freshmen and transfer\u00a0students meet here in September for Convocation as they orient themselves to life at\u00a0Stanford. Later, as graduating seniors, they stream from Memorial Church into the\u00a0Quad for Baccalaureate in a passage that symbolizes their entrance into the wider\u00a0world.\r\n\r\n<em>Photos:\u00a0Stanford University Archives\/Linda A. Cicero, Stanford News Service<\/em>\r\n\r\n<em>Montage: John Holleman\u00a0<\/em>",
+								"author": "stocker",
+		"copyrightHolder": "Stanford 125",
+		"creator": "Stanford 125",
+		"datePublished": "2016-09-14T23:46:40+00:00",
+		"dateCreated": "2016-09-14T23:46:40+00:00"
+	}
+	</script>
+
+
+</article><!-- .tna-image-wrapper -->
+					
+						
+<article class="then-and-now-2679 has-photoblend tna-image-wrapper">
+
+	<a class="tna-link-wrapper" rel="bookmark" href="/http://125.stanford.edu/then-and-now/quad-arcades/">
+
+		<figure class="tna-inner-wrapper">
+
+			
+	<div class="tna-image-swap lazyload no-fade current" data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2016/09/photomerge3-600x420.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2016/09/photomerge3-1152x500.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2016/09/photomerge3-900x630.jpg" role="img" aria-label="Quad arcades then and now">
+	</div>
+
+
+			<figcaption class="tna-caption">
+
+				<h3 class="tna-title">
+					Quad arcades				</h3>
+
+			</figcaption>
+
+		</figure><!--.tna-image-wrapper-->
+
+	</a><!--.tna-link-wrapper-->
+
+	
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"name": "Quad arcades",
+		"headline": "Quad arcades",
+		"url": "http://125.stanford.edu/then-and-now/quad-arcades/",
+					"image": "http://125.stanford.edu/wp-content/uploads/2016/09/photomerge3.jpg",
+			"thumbnailUrl": "http://125.stanford.edu/wp-content/uploads/2016/09/photomerge3.jpg",
+							"description": "Stanford\u2019s sandstone arcades have seen 125 years of change, but define a place of\u00a0enduring ideals. The 1898 students may have&hellip;",
+							"articleBody": "Stanford\u2019s sandstone arcades have seen 125 years of change, but define a place of\u00a0enduring ideals. The 1898 students may have listed <a href=\"http:\/\/125.stanford.edu\/the-case-for-classics\/\" target=\"_blank\">Greek and Latin<\/a> in their college\u00a0applications instead of <a href=\"http:\/\/125.stanford.edu\/scaling-autisms-walls\/\" target=\"_blank\">app development<\/a> or <a href=\"http:\/\/125.stanford.edu\/stanford-service\/\" target=\"_blank\">international service<\/a>. Still, they and\u00a0their modern counterparts came to Stanford for the same reasons \u2013 an unparalleled\u00a0chance to change their lives, to explore new fields, to become both cultured and\u00a0useful. All benefit from the founders\u2019 intent to democratize access to education for\u00a0qualified students. The 1898 students paid no tuition, and <a href=\"http:\/\/125.stanford.edu\/making-dreams-possible\/\" target=\"_blank\">more than 80 percent of\u00a0today\u2019s students receive financial aid<\/a>.\r\n\r\n<em>Photos:\u00a0O.V. Lange, Stanford University Archives\/Linda A. Cicero, Stanford News\u00a0Service<\/em>\r\n\r\n<em>Montage: John Holleman\u00a0<\/em>",
+			"text": "Stanford\u2019s sandstone arcades have seen 125 years of change, but define a place of\u00a0enduring ideals. The 1898 students may have listed <a href=\"http:\/\/125.stanford.edu\/the-case-for-classics\/\" target=\"_blank\">Greek and Latin<\/a> in their college\u00a0applications instead of <a href=\"http:\/\/125.stanford.edu\/scaling-autisms-walls\/\" target=\"_blank\">app development<\/a> or <a href=\"http:\/\/125.stanford.edu\/stanford-service\/\" target=\"_blank\">international service<\/a>. Still, they and\u00a0their modern counterparts came to Stanford for the same reasons \u2013 an unparalleled\u00a0chance to change their lives, to explore new fields, to become both cultured and\u00a0useful. All benefit from the founders\u2019 intent to democratize access to education for\u00a0qualified students. The 1898 students paid no tuition, and <a href=\"http:\/\/125.stanford.edu\/making-dreams-possible\/\" target=\"_blank\">more than 80 percent of\u00a0today\u2019s students receive financial aid<\/a>.\r\n\r\n<em>Photos:\u00a0O.V. Lange, Stanford University Archives\/Linda A. Cicero, Stanford News\u00a0Service<\/em>\r\n\r\n<em>Montage: John Holleman\u00a0<\/em>",
+								"author": "stocker",
+		"copyrightHolder": "Stanford 125",
+		"creator": "Stanford 125",
+		"datePublished": "2016-09-14T22:45:19+00:00",
+		"dateCreated": "2016-09-14T22:45:19+00:00"
+	}
+	</script>
+
+
+</article><!-- .tna-image-wrapper -->
+					
+						
+<article class="then-and-now-2681 has-photoblend tna-image-wrapper">
+
+	<a class="tna-link-wrapper" rel="bookmark" href="/http://125.stanford.edu/then-and-now/inner-quad-2/">
+
+		<figure class="tna-inner-wrapper">
+
+			
+	<div class="tna-image-swap lazyload no-fade current" data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2016/09/photomerge2-600x420.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2016/09/photomerge2-1152x500.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2016/09/photomerge2-900x630.jpg" role="img" aria-label="Inner quad then and now">
+	</div>
+
+
+			<figcaption class="tna-caption">
+
+				<h3 class="tna-title">
+					Quad arcades 2				</h3>
+
+			</figcaption>
+
+		</figure><!--.tna-image-wrapper-->
+
+	</a><!--.tna-link-wrapper-->
+
+	
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"name": "Quad arcades 2",
+		"headline": "Quad arcades 2",
+		"url": "http://125.stanford.edu/then-and-now/inner-quad-2/",
+					"image": "http://125.stanford.edu/wp-content/uploads/2016/09/photomerge2.jpg",
+			"thumbnailUrl": "http://125.stanford.edu/wp-content/uploads/2016/09/photomerge2.jpg",
+							"description": "The 1895 women seem to enjoy a placid promenade, but the university was\u00a0enduring stormy days. Sen. Leland Stanford\u2019s death two&hellip;",
+							"articleBody": "The 1895 women seem to enjoy a placid promenade, but the university was\u00a0enduring stormy days. Sen. Leland Stanford\u2019s death two years earlier and legal\u00a0claims on his estate made keeping the university open a <a href=\"http:\/\/125.stanford.edu\/jane-stanfords-speech\/\" target=\"_blank\">monumental achievement\u00a0for his widow<\/a>, co-founder Jane Lathrop Stanford. Still, women like those strolling\u00a0here enjoyed freedoms and opportunities denied them at many other colleges. At\u00a0the turn of the 20th century, nearly a quarter\u00a0majored in what are today called\u00a0STEM fields. They rowed on <a href=\"http:\/\/125.stanford.edu\/lagunita\/\" target=\"_blank\">Lagunita<\/a>, <a href=\"http:\/\/125.stanford.edu\/the-first-game\/\" target=\"_blank\">helped launch women\u2019s intercollegiate\u00a0basketball<\/a> and, like today\u2019s students, found bicycles indispensable in navigating the\u00a0campus.\r\n\r\n<em>Credit:\u00a0Stanford University Archives\/John Holleman<\/em>",
+			"text": "The 1895 women seem to enjoy a placid promenade, but the university was\u00a0enduring stormy days. Sen. Leland Stanford\u2019s death two years earlier and legal\u00a0claims on his estate made keeping the university open a <a href=\"http:\/\/125.stanford.edu\/jane-stanfords-speech\/\" target=\"_blank\">monumental achievement\u00a0for his widow<\/a>, co-founder Jane Lathrop Stanford. Still, women like those strolling\u00a0here enjoyed freedoms and opportunities denied them at many other colleges. At\u00a0the turn of the 20th century, nearly a quarter\u00a0majored in what are today called\u00a0STEM fields. They rowed on <a href=\"http:\/\/125.stanford.edu\/lagunita\/\" target=\"_blank\">Lagunita<\/a>, <a href=\"http:\/\/125.stanford.edu\/the-first-game\/\" target=\"_blank\">helped launch women\u2019s intercollegiate\u00a0basketball<\/a> and, like today\u2019s students, found bicycles indispensable in navigating the\u00a0campus.\r\n\r\n<em>Credit:\u00a0Stanford University Archives\/John Holleman<\/em>",
+								"author": "stocker",
+		"copyrightHolder": "Stanford 125",
+		"creator": "Stanford 125",
+		"datePublished": "2016-09-14T22:03:15+00:00",
+		"dateCreated": "2016-09-14T22:03:15+00:00"
+	}
+	</script>
+
+
+</article><!-- .tna-image-wrapper -->
+					
+						
+<article class="then-and-now-2665 has-no-photoblend tna-image-wrapper">
+
+	<a class="tna-link-wrapper" rel="bookmark" href="/http://125.stanford.edu/then-and-now/commencement/">
+
+		<figure class="tna-inner-wrapper">
+
+			
+	<div class="tna-image-swap lazyload current" data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2016/09/00002426_0006-600x420.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2016/09/00002426_0006-1152x500.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2016/09/00002426_0006-900x630.jpg" role="img" aria-label="commencement then">
+	</div>
+
+
+	<div class="tna-image-swap lazyload " data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2016/09/160610-210-600x420.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2016/09/160610-210-1152x500.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2016/09/160610-210-900x630.jpg" role="img" aria-label="commencement now">
+	</div>
+
+
+			<figcaption class="tna-caption">
+
+				<h3 class="tna-title">
+					Commencement				</h3>
+
+			</figcaption>
+
+		</figure><!--.tna-image-wrapper-->
+
+	</a><!--.tna-link-wrapper-->
+
+	
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"name": "Commencement",
+		"headline": "Commencement",
+		"url": "http://125.stanford.edu/then-and-now/commencement/",
+							"description": "Stanford University\u2019s first Commencement ceremony was a small affair: on June 15, 1892, 38 students gathered in Encina Gymnasium to&hellip;",
+							"articleBody": "Stanford University\u2019s first <a href=\"http:\/\/125.stanford.edu\/commencement\/\" target=\"_blank\">Commencement<\/a> ceremony was a small affair: on June 15, 1892, 38 students gathered in Encina Gymnasium to receive their diplomas. The Commencement ceremony was held in the Main Quad\u2019s Assembly Hall for the first time in 1899. Over the years, as the student body grew, the location of Commencement ceremonies moved from the Quad to Frost Amphitheater in 1937, and to the Stadium in 1985.\r\n\r\nThough Commencement ceremonies were simple during Stanford\u2019s earliest years, they grew to encompass a week-long celebration, and over time evolved into the present weekend form. Through the years, some of the celebratory activities became cherished Commencement traditions: the Baccalaureate \u2013 a multifaith celebratory gathering in front of\u00a0<a href=\"http:\/\/125.stanford.edu\/then-and-now\/memorial-church-2\/\" target=\"_blank\">Memorial Church<\/a>; the <a href=\"http:\/\/125.stanford.edu\/then-and-now\/class-plaque-dedication-ceremony\/\" target=\"_blank\">class plaque dedication ceremony<\/a>;\u00a0senior dinner on the Quad; and the Commencement\u00a0procession popularly known as the Wacky Walk.\r\n\r\nLeft: The Class of 1900 Commencement was held in the Assembly Hall (now Building 120 in the Main Quad). Right: Stanford's 125th Commencement ceremony took place on June 12, 2016, in the Stanford Stadium.",
+			"text": "Stanford University\u2019s first <a href=\"http:\/\/125.stanford.edu\/commencement\/\" target=\"_blank\">Commencement<\/a> ceremony was a small affair: on June 15, 1892, 38 students gathered in Encina Gymnasium to receive their diplomas. The Commencement ceremony was held in the Main Quad\u2019s Assembly Hall for the first time in 1899. Over the years, as the student body grew, the location of Commencement ceremonies moved from the Quad to Frost Amphitheater in 1937, and to the Stadium in 1985.\r\n\r\nThough Commencement ceremonies were simple during Stanford\u2019s earliest years, they grew to encompass a week-long celebration, and over time evolved into the present weekend form. Through the years, some of the celebratory activities became cherished Commencement traditions: the Baccalaureate \u2013 a multifaith celebratory gathering in front of\u00a0<a href=\"http:\/\/125.stanford.edu\/then-and-now\/memorial-church-2\/\" target=\"_blank\">Memorial Church<\/a>; the <a href=\"http:\/\/125.stanford.edu\/then-and-now\/class-plaque-dedication-ceremony\/\" target=\"_blank\">class plaque dedication ceremony<\/a>;\u00a0senior dinner on the Quad; and the Commencement\u00a0procession popularly known as the Wacky Walk.\r\n\r\nLeft: The Class of 1900 Commencement was held in the Assembly Hall (now Building 120 in the Main Quad). Right: Stanford's 125th Commencement ceremony took place on June 12, 2016, in the Stanford Stadium.",
+								"author": "Daniel Dvorkin",
+		"copyrightHolder": "Stanford 125",
+		"creator": "Stanford 125",
+		"datePublished": "2016-09-14T20:12:49+00:00",
+		"dateCreated": "2016-09-14T20:12:49+00:00"
+	}
+	</script>
+
+
+</article><!-- .tna-image-wrapper -->
+					
+						
+<article class="then-and-now-2664 has-no-photoblend tna-image-wrapper">
+
+	<a class="tna-link-wrapper" rel="bookmark" href="/http://125.stanford.edu/then-and-now/memorial-church/">
+
+		<figure class="tna-inner-wrapper">
+
+			
+	<div class="tna-image-swap lazyload current" data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2016/09/church-then-1-600x420.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2016/09/church-then-1-1056x500.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2016/09/church-then-1-900x630.jpg" role="img" aria-label="Memorial Church 1903">
+	</div>
+
+
+	<div class="tna-image-swap lazyload " data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2016/09/church-now-1-600x420.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2016/09/church-now-1-1152x500.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2016/09/church-now-1-900x630.jpg" role="img" aria-label="Memorial Church 2015">
+	</div>
+
+
+			<figcaption class="tna-caption">
+
+				<h3 class="tna-title">
+					Memorial Church				</h3>
+
+			</figcaption>
+
+		</figure><!--.tna-image-wrapper-->
+
+	</a><!--.tna-link-wrapper-->
+
+	
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"name": "Memorial Church",
+		"headline": "Memorial Church",
+		"url": "http://125.stanford.edu/then-and-now/memorial-church/",
+							"description": "Since its completion in 1903, Memorial Church, non-sectarian from the start, has been a spiritual sanctuary on campus. Originally, it&hellip;",
+							"articleBody": "Since its completion in 1903, Memorial Church, non-sectarian from the start, has been a spiritual sanctuary on campus. Originally, it included an imposing bell tower. The church was devastated during the 1906 earthquake, and when it was reconstructed shortly after, its appearance was significantly transformed. The tower was never rebuilt.",
+			"text": "Since its completion in 1903, Memorial Church, non-sectarian from the start, has been a spiritual sanctuary on campus. Originally, it included an imposing bell tower. The church was devastated during the 1906 earthquake, and when it was reconstructed shortly after, its appearance was significantly transformed. The tower was never rebuilt.",
+								"author": "Daniel Dvorkin",
+		"copyrightHolder": "Stanford 125",
+		"creator": "Stanford 125",
+		"datePublished": "2016-09-14T20:07:51+00:00",
+		"dateCreated": "2016-09-14T20:07:51+00:00"
+	}
+	</script>
+
+
+</article><!-- .tna-image-wrapper -->
+					
+						
+<article class="then-and-now-2483 has-no-photoblend tna-image-wrapper">
+
+	<a class="tna-link-wrapper" rel="bookmark" href="/http://125.stanford.edu/then-and-now/main-quad-entrance/">
+
+		<figure class="tna-inner-wrapper">
+
+			
+	<div class="tna-image-swap lazyload current" data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2016/08/MemArch-600x420.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2016/08/MemArch-1152x500.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2016/08/MemArch-900x630.jpg" role="img" aria-label="MemArch">
+	</div>
+
+
+	<div class="tna-image-swap lazyload " data-bg-src="" data-src="http://125.stanford.edu/wp-content/uploads/2016/08/Innerquad-600x420.jpg" data-mobile-src="http://125.stanford.edu/wp-content/uploads/2016/08/Innerquad-1152x500.jpg" data-retina-src="http://125.stanford.edu/wp-content/uploads/2016/08/Innerquad-900x630.jpg" role="img" aria-label="Innerquad">
+	</div>
+
+
+			<figcaption class="tna-caption">
+
+				<h3 class="tna-title">
+					Main Quad Entrance				</h3>
+
+			</figcaption>
+
+		</figure><!--.tna-image-wrapper-->
+
+	</a><!--.tna-link-wrapper-->
+
+	
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		"name": "Main Quad Entrance",
+		"headline": "Main Quad Entrance",
+		"url": "http://125.stanford.edu/then-and-now/main-quad-entrance/",
+							"description": "The 100-foot-tall Memorial Arch, erected in memory of Leland Stanford Junior in 1899, soared over the entry to the Main&hellip;",
+							"articleBody": "The 100-foot-tall Memorial Arch, erected in memory of Leland Stanford Junior in 1899, soared over the entry to the Main Quadrangle for a short period during the university\u2019s early years. The upper section of the Arch contained two observation rooms, with narrow windows through which the Inner Quad could be seen. A circular iron stairway inside one of the arch columns was used to reach the upper levels. In 1902, a 12-foot-high frieze, \u201cThe Progress of Civilization in America,\u201d was completed at the top of the Arch. One of the idealized frieze panels depicted Leland and Jane Stanford on horseback, mapping a course over the Sierra Nevada for the Central Pacific Railroad.\r\n\r\nThe Memorial Arch crumbled during the 1906 earthquake. Because the work it would take to repair the Arch and protect it from future damage was extensive and expensive, the Board of Trustees decided not to reconstruct it. The top of the Arch was dismantled and the bases capped with pyramidal red tile roofs. Today, the two bases and the dedication plaque carved into the sandstone are all that remain of the original monument.",
+			"text": "The 100-foot-tall Memorial Arch, erected in memory of Leland Stanford Junior in 1899, soared over the entry to the Main Quadrangle for a short period during the university\u2019s early years. The upper section of the Arch contained two observation rooms, with narrow windows through which the Inner Quad could be seen. A circular iron stairway inside one of the arch columns was used to reach the upper levels. In 1902, a 12-foot-high frieze, \u201cThe Progress of Civilization in America,\u201d was completed at the top of the Arch. One of the idealized frieze panels depicted Leland and Jane Stanford on horseback, mapping a course over the Sierra Nevada for the Central Pacific Railroad.\r\n\r\nThe Memorial Arch crumbled during the 1906 earthquake. Because the work it would take to repair the Arch and protect it from future damage was extensive and expensive, the Board of Trustees decided not to reconstruct it. The top of the Arch was dismantled and the bases capped with pyramidal red tile roofs. Today, the two bases and the dedication plaque carved into the sandstone are all that remain of the original monument.",
+								"author": "Daniel Dvorkin",
+		"copyrightHolder": "Stanford 125",
+		"creator": "Stanford 125",
+		"datePublished": "2016-08-02T22:22:53+00:00",
+		"dateCreated": "2016-08-02T22:22:53+00:00"
+	}
+	</script>
+
+
+</article><!-- .tna-image-wrapper -->
+					
+				</div><!-- .loop-wrap -->
+
+				
+<nav class="loop-navigation" role="navigation" itemscope="" itemtype="https://schema.org/SiteNavigationElement">
+
+	<h3 class="accessibility">Posts Pagination</h3>
+
+	
+	
+	<span aria-current="page" class="page-numbers current">1</span><a class="page-numbers" href="/http://125.stanford.edu/then-and-now/page/2/">2</a><a class="page-numbers" href="/http://125.stanford.edu/then-and-now/page/3/">3</a><span class="page-numbers dots">…</span><a class="page-numbers" href="/http://125.stanford.edu/then-and-now/page/6/">6</a>
+			<a class="loop-nav-last icon icon-arrow" rel="archives" href="/http://125.stanford.edu/then-and-now/page/2/">
+			<span class="accessibility">Next Page</span>
+		</a>
+	
+</nav><!-- .loop-navigation -->
+			
+		</div><!-- .content-wrap -->
+
+	</main><!-- main -->
+
+	
+
+		<footer class="site-footer">
+
+	<div id="global-footer">
+
+	<div class="content-wrap">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div id="bottom-logo" class="span2">
+					<a href="/http://www.stanford.edu">
+						<img alt="Stanford University" width="105" height="49" src="/https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png">
+					</a>
+				</div><!-- #bottom-logo end -->
+
+				<div id="bottom-text" class="span10">
+					<ul>
+						<li class="home"><a href="/http://www.stanford.edu">SU Home</a></li>
+						<li class="maps alt"><a href="/http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+						<li class="search-stanford"><a href="/http://www.stanford.edu/search/">Search Stanford</a></li>
+						<li class="terms alt"><a href="/http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+						<li class="emergency-info"><a href="/http://emergency.stanford.edu">Emergency Info</a></li>
+					</ul>
+				</div><!-- .bottom-text end -->
+
+				<div class="clear"></div>
+
+				<p class="copyright vcard">© <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.&nbsp;&nbsp;
+					<span id="copyright-complaint"><a class="copyright-complaint" href="/http://www.stanford.edu/group/security/dmca.html">Copyright Complaints</a></span>
+				</p>
+
+			</div><!-- .row end -->
+
+		</div><!-- .container end -->
+
+	</div><!-- .content-wrap -->
+
+</div><!-- #global-footer end -->
+</footer><!-- .site-footer -->
+	</div><!-- #site-wrap -->
+
+	<script>
+	(function ($) {
+		// add :external filter to elements
+		$.expr[':'].external = function(obj) {
+			return obj.hostname && (obj.hostname != document.location.hostname);
+		};
+
+		// add event tracking
+		if (typeof ga == 'function') {
+			// add function to send an event to Google Analytics when a link is clicked
+			var trackClick = function(elem) {
+				var $elem    = $(elem)
+					, category = $elem.data('ga-category') || (elem.hostname.match(/stanford\.edu$/) ? 'stanfordLink' : 'externalLink')
+					, action   = $elem.data('ga-action')   || ($elem.is('a') && elem.hostname) || 'click'
+					, label    = $elem.data('ga-label')    || elem.href
+					;
+				//console.debug( 'tracking click: category=' + category + ', action=' + action + ', label=' + label );
+				ga('send', 'event', category, action, label);
+			};
+
+			// track clicks on external links
+			$('a:external').click(function(){ trackClick(this); });
+
+			// track clicks on links with, or within an element with, class 'data-ga-category'
+			$('[data-ga-category] a, a[data-ga-category]').on( 'click', function() { // consider 'click contextmenu' events
+				var $this    = $(this)
+					, category = $this.closest('[data-ga-category]').data('ga-category')
+					, action   = $this.closest('[data-ga-action]').data('ga-action') || 'click'
+					, label    = $this.data('ga-label') || this.href
+					;
+				//console.debug( 'tracking click: category=' + category + ', action=' + action + ', label=' + label );
+				ga('send', 'event', category, action, label);
+			})
+		}
+	})(jQuery);
+	</script>
+
+			<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script type="text/javascript"> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done"}};/* ]]> */ </script><script type="text/javascript">
+/* <![CDATA[ */
+var modern_tribe_i18n = {"help_text":{"msg_limit":"There is a limit to the messages you can post."},"tooltips":{"add_to_save":"Add Photo to Saved Items","in_this_photo":"Products in this photo"}};
+var modern_tribe_config = {"images_url":"http:\/\/125.stanford.edu\/wp-content\/themes\/stanford-125\/img\/","home_url":"http:\/\/125.stanford.edu","template_url":"http:\/\/125.stanford.edu\/wp-content\/themes\/stanford-125\/","post_type":"then-and-now","date_format":"F j, Y","is_user_logged_in":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/http://125.stanford.edu/wp-content/themes/stanford-125/js/dist/master.min.js?ver=9.30.11.22.2017"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var gmb_data = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="/http://125.stanford.edu/wp-content/plugins/google-maps-builder-pro/assets/js/frontend/google-maps-builder.min.js?ver=2.0.2"></script>
+<script type="text/javascript" src="/http://125.stanford.edu/wp-content/plugins/google-maps-builder-pro/includes/libraries/map-icons/js/map-icons.js?ver=2.0.2"></script>
+<script type="text/javascript" src="/http://125.stanford.edu/wp-content/plugins/google-maps-builder-pro/assets/js/plugins/markerclusterer.min.js?ver=2.0.2"></script>
+<script type="text/javascript" src="/http://125.stanford.edu/wp-content/plugins/google-maps-builder-pro/assets/js/plugins/infobubble.min.js?ver=2.0.2"></script>
+<script type="text/javascript" src="/http://125.stanford.edu/wp-includes/js/wp-embed.min.js?ver=4.9.7"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"stanford125"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/http://125.stanford.edu/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=4.9.7"></script>
+
+<!-- Hand crafted by Modern Tribe, Inc. (http://tri.be) -->
+
+
+	
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"name": "Stanford 125",
+		"url": "http://125.stanford.edu/",
+		"author": "Stanford 125",
+		"copyrightHolder": "Stanford 125",
+		"creator": "Stanford 125",
+		"potentialAction": {
+	        "@type": "SearchAction",
+	        "target": "http://125.stanford.edu/?s={search_term_string}",
+	        "query-input": "required name=search_term_string"
+		}
+	}
+	</script>
+
+
+	
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebPage",
+					"name": "Then & Now",
+				"url": "http://125.stanford.edu/",
+								"author": "Stanford 125",
+		"copyrightHolder": "Stanford 125",
+		"creator": "Stanford 125"
+	}
+	</script>
+
+
+	
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "Stanford 125",
+		"legalName": "Stanford University",
+		"url": "http://125.stanford.edu/",
+		"description": "Stanford 125",
+					"logo": "http://125.stanford.edu/wp-content/themes/stanford-125/img/logos/logo.png",
+						"address": [
+			{
+		        "@type": "PostalAddress",
+				"streetAddress": "450 Serra Mall",
+				"addressLocality": "Stanford",
+				"addressRegion": "CA",
+				"postalCode": "94305–2004",
+				"addressCountry": "USA"
+		    }
+		],
+				"contactPoint" : [
+		    {
+		        "@type": "ContactPoint",
+				"telephone": "+1-650-723-2300",
+				"contactType": "customer service"
+		    }
+		],
+					"sameAs" : [
+				"https://twitter.com/stanford","https://www.facebook.com/stanford","https://instagram.com/stanford/"	        ],
+				"parentOrganization": "Stanford University",
+		"brand": "Stanford University",
+		"memberOf": "Stanford University"
+	}
+	</script>
+
+
+
+</body></html>

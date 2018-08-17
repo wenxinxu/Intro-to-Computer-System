@@ -1,0 +1,476 @@
+<!DOCTYPE html><!--[if IE 7]> <html lang="en" class="ie7"> <![endif]--><!--[if IE 8]> <html lang="en" class="ie8"> <![endif]--><!--[if IE 9]> <html lang="en" class="ie9"> <![endif]--><!--[if !IE]><!--><html lang="en"><!--<![endif]--><head>
+  <title>Science &amp; Technology Archives | Stanford News</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Stanford University">
+
+
+  <!--
+    _____ _               __              _
+   / ____| |             / _|            | |
+  | (___ | |_ __ _ _ __ | |_ ___  _ __ __| |
+   \___ \| __/ _` | '_ \|  _/ _ \| '__/ _` |
+   ____) | || (_| | | | | || (_) | | | (_| |
+  |_____/ \__\__,_|_| |_|_| \___/|_|  \__,_|
+  -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/css/base.min.css?v=1.2.0">
+    <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/css/page.min.css?v=1.2.0">
+    <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/style.css?v=1.2.0">
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="//news.stanford.edu/wp-content/themes/news/css/ie/ie8.css?v=1.2.0" />
+  <![endif]-->
+  <!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="//news.stanford.edu/wp-content/themes/news/css/ie/ie7.css?v=1.2.0" />
+  <![endif]-->
+
+  <!-- JS and jQuery -->
+  <script src="/https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="/https://news.stanford.edu/wp-content/themes/news/js/modernizr.custom.17475.js"></script>
+  <script src="/https://news.stanford.edu/wp-content/themes/news/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="//news.stanford.edu/wp-content/themes/news/js/respond.js"></script>
+  <![endif]-->
+
+  <!-- custom JS -->
+  <script src="/https://news.stanford.edu/wp-content/themes/news/js/base.js?v=1.2.0"></script>
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-180x180.png">
+
+  <link rel="icon" type="image/png" sizes="196x196" href="/https://www-media.stanford.edu/assets/favicon/favicon-196x196.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/https://www-media.stanford.edu/assets/favicon/favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="/https://www-media.stanford.edu/assets/favicon/favicon-128.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/https://www-media.stanford.edu/assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/https://www-media.stanford.edu/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/https://www-media.stanford.edu/assets/favicon/favicon-16x16.png">
+
+  <link rel="mask-icon" color="#ffffff" href="/https://www-media.stanford.edu/assets/favicon/safari-pinned-tab.svg">
+  <meta name="application-name" content="Stanford University">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="//www-media.stanford.edu/assets/favicon/mstile-144x144.png">
+  <meta name="msapplication-square70x70logo" content="//www-media.stanford.edu/assets/favicon/mstile-70x70.png">
+  <meta name="msapplication-square150x150logo" content="//www-media.stanford.edu/assets/favicon/mstile-150x150.png">
+  <meta name="msapplication-square310x310logo" content="//www-media.stanford.edu/assets/favicon/mstile-310x310.png">
+
+  <!-- Google analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-1860414-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- wp_head(); -->
+  
+<!-- This site is optimized with the Yoast SEO Premium plugin v3.2.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="/https://news.stanford.edu/section/science-technology/">
+<link rel="next" href="/https://news.stanford.edu/section/science-technology/page/2/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="object">
+<meta property="og:title" content="Science &amp; Technology Archives | Stanford News">
+<meta property="og:url" content="https://news.stanford.edu/section/science-technology/">
+<meta property="og:site_name" content="Stanford News">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Science &amp; Technology Archives | Stanford News">
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel="dns-prefetch" href="/https://s.w.org">
+<link rel="alternate" type="application/rss+xml" title="Stanford News » Science &amp; Technology Category Feed" href="/https://news.stanford.edu/section/science-technology/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/news.stanford.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="awesome-weather-css" type="text/css" media="all" href="/https://news.stanford.edu/wp-content/plugins/awesome-weather-pro/awesome-weather.css?ver=4.9.7">
+<script type="text/javascript" src="/https://news.stanford.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/plugins/wp-retina-2x/js/picturefill.min.js?ver=3.0.2"></script>
+<link rel="https://api.w.org/" href="/https://news.stanford.edu/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/https://news.stanford.edu/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/https://news.stanford.edu/wp-includes/wlwmanifest.xml"> 
+<style>.post-thumbnail img[src$='.svg'] { width: 100%; height: auto; }</style>
+</head>
+<body class="archive category category-science-technology category-18">
+<div id="su-wrap"> <!-- used to force footer to bottom of short pages -->
+  <div id="su-content"> <!-- used to force footer to bottom of short pages -->
+
+    <!--=== Top ===-->
+    <div id="top" class="hidden-print nocontent" data-ga-category="header">
+      <div class="container">
+        <!--=== Skip links ===-->
+        <div id="skip"> <a onclick="$('#content').focus()" data-ga-action="skip-link" data-ga-label="content" href="/https://news.stanford.edu/section/science-technology/">Skip to content</a> </div>
+        <!-- /Skip links -->
+      </div>
+    </div>
+    <!--/top-->
+
+    <!--=== Header ===-->
+    <div id="header" class="clearfix" role="banner" data-ga-category="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <!-- Logo -->
+            <div id="logo" class="clearfix"> <a data-ga-action="logo" href="/http://www.stanford.edu/"><img class="img-responsive" alt="Stanford University" src="/https://news.stanford.edu/wp-content/themes/news/images/stanford-white@2x.png"></a> </div>
+            <!-- /logo -->
+            <div id="signature">
+              <div id="site-name">
+                <a data-ga-action="site-name" href="/https://news.stanford.edu/"><span id="site-name-1">News</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu -->
+    <div id="mainmenu" class="clearfix hidden-print nocontent" role="navigation" data-ga-category="header" data-ga-action="nav">
+      <div class="container">
+        <div class="navbar navbar-default">
+
+          <!-- main navigation -->
+          <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse">Menu</button>
+          <!-- /nav-collapse -->
+
+          <div id="nav-search" role="search">
+  <form action="/search" method="get" id="search-form" accept-charset="UTF-8">
+    <h2 class="hidden">Search form</h2>
+    <input type="hidden" name="cx" value="010498062362927390610:dlcoultwj8i">
+    <input type="hidden" name="cof" value="FORID:9">
+    <input type="hidden" name="ie" value="UTF-8">
+    <label class="hidden" for="search-field">Search term</label>
+    <input type="text" id="search-field" name="q" title="Search string" class="input-medium" placeholder="Search Stanford news…" value="" size="15" maxlength="128">
+    <button id="search-btn" type="submit" name="submit" aria-label="Search" formmethod="get"><i class="fa fa-search"></i></button>
+  </form>
+</div>
+
+          <div class="navbar-collapse collapse">
+            <div role="navigation">
+              <div id="primary-nav" class="menu-top-nav-container"><ul id="menu-top-nav" class="nav navbar-nav" aria-label="primary navigation"><li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-32"><a data-ga-label="Home" href="/https://news.stanford.edu/">Home</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a data-ga-label="Find Stories" href="/https://news.stanford.edu/find-stories/">Find Stories</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a data-ga-label="For Journalists" href="/https://news.stanford.edu/for-journalists/">For Journalists</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a data-ga-label="Contact" href="/https://news.stanford.edu/contact/">Contact</a></li>
+</ul></div>            </div>
+          </div>
+          <!-- /nav-collapse -->
+        </div>
+        <!-- /navbar -->
+
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /mainmenu -->
+
+    <!-- main content -->
+
+<div id="content" class="container non-story" role="main" tabindex="0" xmlns="http://www.w3.org/1999/html">
+	<!-- Main column -->
+
+	<div class="row">
+		<div class="col-sm-12 col-md-10 col-md-offset-1">
+			<h1>Science &amp; Technology</h1>
+			<div class="col-sm-8" id="post-list">
+				    <article class="card short list-item">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" href="/https://news.stanford.edu/2018/08/02/fishing-bans-protect-fish-dont-harm-fishing-communities/"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Fishing vessels like this one were tracked during a short-lived trawling moratorium in the Adriatic Sea as part of a Stanford study." srcset="https://news-media.stanford.edu/wp-content/uploads/2019/04/26101415/adriatic1-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2019/04/26101415/adriatic1-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2019/04/26101415/adriatic1-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta"><time datetime="2018-08-02T00:01:00+00:00">August 2, 2018</time></div>
+    <h3><a href="/https://news.stanford.edu/2018/08/02/fishing-bans-protect-fish-dont-harm-fishing-communities/">Fishing bans protect fish and don’t harm fishing communities</a></h3>
+    <p class="teaser">Fishers who complied with a moratorium in the Adriatic Sea maintained catch levels by fishing in other areas. The findings help justify extending regional protection and provide insight for ocean management elsewhere.</p>
+  </div>    </article>
+    <article class="card short list-item">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" href="/http://med.stanford.edu/news/all-news/2018/07/study-links-depression-to-low-blood-levels-of-acetyl-l-carnitine.html"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Depressed woman" srcset="https://news-media.stanford.edu/wp-content/uploads/2018/07/31095838/GettyImages-680693460-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/07/31095838/GettyImages-680693460-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/07/31095838/GettyImages-680693460-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta">Stanford Medicine — <time datetime="2018-07-31T09:59:50+00:00">July 31, 2018</time></div>
+    <h3><a href="/http://med.stanford.edu/news/all-news/2018/07/study-links-depression-to-low-blood-levels-of-acetyl-l-carnitine.html">Study links depression to low blood levels of acetyl-L-carnitine</a></h3>
+    <p class="teaser">Investigators at Stanford and elsewhere have shown, for the first time in humans, that low blood levels of acetyl-L-carnitine track with the severity and duration of depression.</p>
+  </div>    </article>
+    <article class="card short list-item">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" href="/http://med.stanford.edu/news/all-news/2018/07/osteoporosis-fracture-risk-predicted-with-genetic-screen.html"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="bone tissue with osteoporosis" srcset="https://news-media.stanford.edu/wp-content/uploads/2018/07/27144742/osteoporosis-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/07/27144742/osteoporosis-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/07/27144742/osteoporosis-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta">Stanford Medicine — <time datetime="2018-07-27T14:48:36+00:00">July 27, 2018</time></div>
+    <h3><a href="/http://med.stanford.edu/news/all-news/2018/07/osteoporosis-fracture-risk-predicted-with-genetic-screen.html">Osteoporosis, fracture risk predicted with genetic screen</a></h3>
+    <p class="teaser">A new genetic screen may be able to predict low bone-mineral density, osteoporosis and fracture risk prior to clinical symptoms, according to a retrospective study of nearly 400,000 people by a Stanford researcher.</p>
+  </div>    </article>
+    <article class="card short list-item">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" href="/https://news.stanford.edu/2018/07/26/novel-approach-cardiac-surgery/"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://news-media.stanford.edu/wp-content/uploads/2018/07/26134552/Picture1-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/07/26134552/Picture1-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/07/26134552/Picture1-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta"><time datetime="2018-07-26T16:45:04+00:00">July 26, 2018</time></div>
+    <h3><a href="/https://news.stanford.edu/2018/07/26/novel-approach-cardiac-surgery/">A novel approach to cardiac surgery</a></h3>
+    <p class="teaser">Stanford medical student Kevin Cyr is part of a team of researchers using 3D printing to build custom cardiac surgical devices.</p>
+  </div>    </article>
+    <article class="card short list-item">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" href="/http://med.stanford.edu/news/all-news/2018/07/gut-bacteria-byproduct-protects-against-salmonella.html"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="man with a food takeaway box clutching his belly in distress" srcset="https://news-media.stanford.edu/wp-content/uploads/2018/07/26104508/salmonella-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/07/26104508/salmonella-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/07/26104508/salmonella-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta">Stanford Medicine — <time datetime="2018-07-26T10:46:41+00:00">July 26, 2018</time></div>
+    <h3><a href="/http://med.stanford.edu/news/all-news/2018/07/gut-bacteria-byproduct-protects-against-salmonella.html">Gut bacteria byproduct protects against salmonella</a></h3>
+    <p class="teaser">A molecule called propionate inhibits the growth of Salmonella in mice and may be a promising new treatment for people sickened by the pathogen, according to a new Stanford study.</p>
+  </div>    </article>
+    <article class="card short list-item">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" href="/http://med.stanford.edu/news/all-news/2018/07/john-ioannidis-calls-for-more-rigorous-nutrition-research.html"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Healthy food" srcset="https://news-media.stanford.edu/wp-content/uploads/2018/07/25102538/GettyImages-694087098-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/07/25102538/GettyImages-694087098-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/07/25102538/GettyImages-694087098-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta">Stanford Medicine — <time datetime="2018-07-25T10:26:25+00:00">July 25, 2018</time></div>
+    <h3><a href="/http://med.stanford.edu/news/all-news/2018/07/john-ioannidis-calls-for-more-rigorous-nutrition-research.html">Why we need more rigorous nutrition research</a></h3>
+    <p class="teaser">Stanford's John Ioannidis recently discussed why the design of most nutrition studies impedes progress in the field and suggested a new kind of approach.</p>
+  </div>    </article>
+    <article class="card short list-item">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" href="/https://news.stanford.edu/2018/07/24/border-wall-threatens-biodiversity/"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="A family of javelinas encounters the wall on the U.S.-Mexico border near the San Pedro River in southeastern Arizona." srcset="https://news-media.stanford.edu/wp-content/uploads/2018/07/20112734/border_wall1-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/07/20112734/border_wall1-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/07/20112734/border_wall1-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta"><time datetime="2018-07-24T09:00:33+00:00">July 24, 2018</time></div>
+    <h3><a href="/https://news.stanford.edu/2018/07/24/border-wall-threatens-biodiversity/">Border wall threatens biodiversity</a></h3>
+    <p class="teaser">Federal plans to complete a continuous wall along the U.S.-Mexico boundary would threaten the existence of numerous plant and animal species, Stanford researchers say. Paul Ehrlich and Rodolfo Dirzo look at the region’s unique natural ecosystems, and what they have to lose.</p>
+  </div>    </article>
+    <article class="card short list-item">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" href="/https://news.stanford.edu/2018/07/23/warming-temperatures-linked-increased-suicide-rates/"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Silhouette of depressed man" srcset="https://news-media.stanford.edu/wp-content/uploads/2018/07/18144331/suicide-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/07/18144331/suicide-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/07/18144331/suicide-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta"><time datetime="2018-07-23T08:00:54+00:00">July 23, 2018</time></div>
+    <h3><a href="/https://news.stanford.edu/2018/07/23/warming-temperatures-linked-increased-suicide-rates/">Warming temperatures linked to increased suicide rates</a></h3>
+    <p class="teaser">By comparing historical temperature and suicide data, researchers found a strong correlation between warm weather and increased suicides. They estimate climate change could lead to suicide rate increases across the U.S. and Mexico.</p>
+  </div>    </article>
+    <article class="card short list-item">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" href="/https://news.stanford.edu/2018/07/23/widespread-groundwater-contamination-risk-chromium/"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Water gushes from a pipe into a farm irrigation canal in Central California." srcset="https://news-media.stanford.edu/wp-content/uploads/2018/07/20145138/chromium-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/07/20145138/chromium-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/07/20145138/chromium-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta"><time datetime="2018-07-23T00:01:42+00:00">July 23, 2018</time></div>
+    <h3><a href="/https://news.stanford.edu/2018/07/23/widespread-groundwater-contamination-risk-chromium/">Widespread groundwater contamination risk from chromium</a></h3>
+    <p class="teaser">Natural sources of the toxic form of chromium appear in wells that provide drinking water to a large population in California, offering a new perspective on California’s groundwater management challenges.</p>
+  </div>    </article>
+    <article class="card short list-item">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" href="/https://news.stanford.edu/2018/07/20/wearable-device-measures-cortisol-sweat/"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Sweaty athlete" srcset="https://news-media.stanford.edu/wp-content/uploads/2018/07/16140710/cortisol-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/07/16140710/cortisol-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/07/16140710/cortisol-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta"><time datetime="2018-07-20T11:00:38+00:00">July 20, 2018</time></div>
+    <h3><a href="/https://news.stanford.edu/2018/07/20/wearable-device-measures-cortisol-sweat/">A wearable device measures cortisol in sweat</a></h3>
+    <p class="teaser">By drawing in a bit of sweat, a patch developed in the lab of Alberto Salleo can reveal how much cortisol a person is producing. Cortisol is known as the stress hormone but is involved in many important physiological functions.</p>
+  </div>    </article>
+<div class="row" id="page-nav">
+  <div class="col-xs-6">
+    <div class="btn btn-su-alert"><a href="/https://news.stanford.edu/section/science-technology/page/2/">« Older stories</a></div>  </div>
+  <div class="col-xs-6">
+    &nbsp;  </div>
+</div>
+			</div>
+
+			<aside class="col-sm-4 col-md-3 col-md-offset-1 find-a-story find-stories sidebar">
+
+				
+        <section id="section-list">
+          <h2>Sections</h2>
+          
+      <ul>
+        <li id="spotlight"><a href="/https://news.stanford.edu/section/spotlight/">In the Spotlight</a></li>
+        <li><a href="/https://news.stanford.edu/section/arts-creativity/">Arts &amp; Creativity</a></li>
+        <li><a href="/http://gostanford.com/">Athletics</a></li>
+        <li><a href="/https://news.stanford.edu/section/awards/">Awards</a></li>
+        <li><a href="/https://gsb.stanford.edu/news/">Business</a></li>
+        <li><a href="/https://news.stanford.edu/section/campus-life/">Campus Life</a></li>
+        <li><a href="/https://ed.stanford.edu/news">Education</a></li>
+        <li><a href="/https://news.stanford.edu/section/faculty-staff/">Faculty &amp; Staff</a></li>
+        <li><a href="/https://news.stanford.edu/section/humanities/">Humanities</a></li>
+        <li><a href="/https://news.stanford.edu/section/law-policy/">Law &amp; Policy</a></li>
+        <li><a href="/https://med.stanford.edu/news/">Health &amp; Medicine</a></li>
+        <li><a href="/https://news.stanford.edu/section/obituaries/">Obituaries</a></li>
+        <li><a href="/https://news.stanford.edu/section/science-technology/">Science &amp; Technology</a></li>
+        <li><a href="/https://news.stanford.edu/section/social-sciences/">Social Sciences</a></li>
+        <li><a href="/https://news.stanford.edu/section/teaching-students/">Teaching &amp; Students</a></li>
+        <li><a href="/https://news.stanford.edu/section/university-affairs/">University Affairs</a></li>
+      </ul>
+        </section>
+
+        <section id="topics">
+          <h2>Featured Topics</h2>
+            <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/commencement/">Commencement (25)</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/cybersecurity/">Cybersecurity (22)</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/entrepreneurship/">Entrepreneurship (35)</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/environment/">Environment (132)</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/health/">Health (266)</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/interdisciplinary/">Interdisciplinary (102)</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/international/">International (253)</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/k-12/">K-12 Education (55)</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/long-range-planning/">Long-range planning (8)</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/undergraduate/">Undergraduate (38)</a></div>
+        </section>
+
+        <h2>Browse by year</h2>
+        <div class="well well-calendar-list pr-archive">
+
+					<ul>
+						  <li><a href="/https://news.stanford.edu/2018/">2018</a></li>
+  <li><a href="/https://news.stanford.edu/2017/">2017</a></li>
+  <li><a href="/https://news.stanford.edu/2016/">2016</a></li>
+  <li><a href="/https://news.stanford.edu/2015/">2015</a></li>
+						<li><a href="/https://news.stanford.edu/news/2014/">2014</a></li>
+						<li><a href="/https://news.stanford.edu/news/2013/">2013</a></li>
+						<li><a href="/https://news.stanford.edu/news/2012/">2012</a></li>
+						<li><a href="/https://news.stanford.edu/news/2011/">2011</a></li>
+						<li><a href="/https://news.stanford.edu/news/2010/">2010</a></li>
+						<li><a href="/https://news.stanford.edu/news/2009/">2009</a></li>
+						<li><a href="/https://news.stanford.edu/news/2008/">2008</a></li>
+						<li><a href="/https://news.stanford.edu/news/2007/">2007</a></li>
+						<li><a href="/https://news.stanford.edu/news/2006/">2006</a></li>
+						<li><a href="/https://news.stanford.edu/news/2005/">2005</a></li>
+						<li><a href="/https://news.stanford.edu/news/2004/">2004</a></li>
+						<li><a href="/https://news.stanford.edu/news/2003/">2003</a></li>
+						<li><a href="/https://news.stanford.edu/news/2002/">2002</a></li>
+						<li><a href="/https://news.stanford.edu/news/2001/">2001</a></li>
+						<li><a href="/https://news.stanford.edu/news/2000/">2000</a></li>
+						<li><a href="/https://news.stanford.edu/news/1999/">1999</a></li>
+						<li><a href="/https://news.stanford.edu/news/1998/">1998</a></li>
+						<li><a href="/https://news.stanford.edu/news/1997/">1997</a></li>
+					</ul>
+				</div>
+
+			</aside>
+		</div>
+	</div> <!-- .row -->
+</div> <!-- #content -->
+
+	</div><!-- #su-content -->
+</div><!-- #su-wrap -->
+
+<!-- BEGIN footer -->
+<div id="footer" class="clearfix footer hidden-print nocontent" role="contentinfo">
+
+	  <!-- Fat footer start -->
+  <div class="container">
+    <div id="footer-content" class="row" data-ga-category="footer">
+      <div class="col-sm-6 col-md-3">
+<h3 class="widgettitle">Stanford Report</h3>
+			<div class="textwidget"><div id="mc_embed_signup">
+  <form action="//stanford.us5.list-manage.com/subscribe/post?u=a8e6569da943904e9ac369cde&amp;id=29ce9f751e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <label for="mce-EMAIL">Receive daily Stanford news.</label><br>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" size="30" placeholder="your email address" required="">
+    <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default" style="margin-top: -3px; padding: 6px;">
+  </form>
+</div>
+<p><a href="/https://news.stanford.edu/stanford-report/">More about <em>Stanford Report</em></a></p></div>
+		</div>
+<div class="col-sm-6 col-md-3">
+<h3 class="widgettitle">For Journalists</h3>
+			<div class="textwidget"><ul>
+  <li><a href="/https://news.stanford.edu/press-releases/">Press Releases</a></li>
+  <li><a href="/https://news.stanford.edu/contact/media-contacts/">Media Contacts</a></li>
+  <li><a href="/https://news.stanford.edu/experts/">Stanford Experts</a></li>
+</ul></div>
+		</div>
+<div class="col-sm-6 col-md-3">
+<h3 class="widgettitle">See Also</h3>
+			<div class="textwidget"><ul>
+  <li><a href="/https://news.stanford.edu/contact/">Contact Stanford News</a></li>
+  <li><a target="_blank" href="/http://ucomm.stanford.edu/facstaff/">Faculty / Staff Resources <i class="fa fa-external-link"></i></a></li>
+</ul></div>
+		</div>
+<div class="col-sm-6 col-md-3">
+			<div class="textwidget"><div id="weather" class="col-xs-6">
+
+  <h3>Weather</h3>
+<div id="awesome-weather-widget">
+
+  
+  
+    <div class="awesome-weather-current-temp">
+      <i class="wi wi-yahoo-32" aria-label="sunny" title="sunny"></i>      67<sup>°</sup>
+    </div><!-- /.awesome-weather-current-temp -->
+    <div class="awesome-weather-more-weather-link" data-ga-category="footer"><a data-ga-action="weather" target="_blank" href="/http://www.weather.com/weather/tenday/l/Stanford+CA+94305:4:US">Stanford forecast</a></div></div><!-- /.awesome-weather-wrap: custom --> 
+
+</div>
+<div id="events" class="col-xs-6">
+  <h3>Events</h3>
+  <a href="/http://events.stanford.edu/">
+    <i class="fa fa-calendar fa-3x"></i><span class="sr-only">Events calendar</span>
+  </a>
+</div></div>
+		</div>
+			<div id="site-credit" class="col-xs-12">
+				<p>Stanford News is a publication of <a href="/https://ucomm.stanford.edu">Stanford University Communications</a></p>
+			</div>
+    </div>
+  </div>
+  <!-- Fat footer end -->
+      
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-sm-12 col-md-2">
+          <a href="/https://www.stanford.edu">
+            <img alt="Stanford University" width="105" height="49" src="/https://www-media.stanford.edu/su-identity/images/footer-stanford-logo@2x.png">
+          </a>
+        </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text">
+          <div class="col-xs-5 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-10">
+            <ul id="primary-links">
+              <li class="home"><a href="/https://www.stanford.edu">Stanford Home</a></li>
+              <li class="maps alt"><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+              <li class="search-stanford"><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+              <li class="emergency alt"><a href="/https://emergency.stanford.edu">Emergency Info</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-12 col-md-10">
+            <ul id="policy-links">
+              <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+              <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy/">Privacy</a></li>
+              <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+              <li><a title="Ownership and use of Stanford trademarks and images" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+              <li><a title="Non-discrimination policy" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+              <li><a title="Report web accessibility issues" href="/https://www.stanford.edu/site/accessibility">Accessibility</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-10 col-md-offset-2">
+            <p class="copyright vcard">© <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+          </div>
+        </div> <!-- .bottom-text end -->
+      </div><!-- .row end -->
+    </div><!-- .container end -->
+  </div><!-- Global footer snippet end -->
+
+</div>
+<!-- END footer -->
+
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/plugins/awesome-weather-pro/js/awesome-weather-widget-frontend.js?ver=1.1"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/plugins/awesome-weather-pro/js/js-cookie.js?ver=1.1"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-includes/js/wp-embed.min.js?ver=4.9.7"></script>
+
+
+</body></html>

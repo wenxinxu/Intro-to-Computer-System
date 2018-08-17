@@ -1,0 +1,453 @@
+<!DOCTYPE html><!--[if lt IE 9]><html class="lte-ie8"  lang="en"><![endif]--><!--[if gt IE 8]><!--><html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"><!--<![endif]--><head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/http://giving.stanford.edu/sites/default/files/favicon.ico">
+<meta name="generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="/http://giving.stanford.edu/">
+<link rel="shortlink" href="/http://giving.stanford.edu/">
+<meta property="og:site_name" content="Giving to Stanford">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://giving.stanford.edu/">
+<meta property="og:title" content="Giving to Stanford">
+<meta property="og:image" content="http://giving.stanford.edu/sites/default/files/stanford-s-130_2.jpg">
+<meta name="twitter:url" content="http://giving.stanford.edu/">
+<meta name="twitter:title" content="Giving to Stanford">
+    <title>Giving to Stanford |</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta property="fb:admins" content="714259691">
+    <link type="text/css" rel="stylesheet" media="all" href="/http://giving.stanford.edu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/http://giving.stanford.edu/sites/default/files/css/css_kcjI3nyJAy2RjX1JZXojITQmGigVevzBrTZ9NKRZsbM.css">
+<link type="text/css" rel="stylesheet" media="all" href="/http://giving.stanford.edu/sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ.css">
+<link type="text/css" rel="stylesheet" media="all" href="/http://giving.stanford.edu/sites/default/files/css/css_W0XLqX2VHWhOMoDvP9hYZ1_SoEmjzTNAHOWlKe9_fwU.css">
+<link type="text/css" rel="stylesheet" media="all" href="/http://giving.stanford.edu/sites/default/files/css/css_7OUl7P0ikcI23BMuTlHeSfkO0thahhwtJuK8D18MECY.css">
+<link type="text/css" rel="stylesheet" media="all" href="/http://giving.stanford.edu/sites/default/files/css/css__sDnAYtL09H92ERhcV84oK-r-OPbSJDDjYG7dIsrHwc.css">
+<link type="text/css" rel="stylesheet" media="all" href="/http://giving.stanford.edu/sites/default/files/css/css_ZtDLXgmkHR6QjbztBKU1xYCnQbf4hnd2YvBbn-Xll5A.css">
+    <script type="text/javascript" src="/http://giving.stanford.edu/sites/default/files/js/js_CaKYr7f09GZOhqE0q8wVhjJkvDJj5WNM80MVhKxqF4o.js"></script>
+<script type="text/javascript" src="/http://giving.stanford.edu/sites/default/files/js/js_xT3H5HOMowQoxXlD4bLQXGR7aboAx4qcHTJ0e26FGAM.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+Drupal.settings.ais = [{"name":"threshold-480","size":480},{"name":"threshold-768","size":768},{"name":"threshold-992","size":992},{"name":"threshold-1382","size":1382}];
+Drupal.settings.ais_method = "both-max";
+//--><!]]>
+</script>
+<script type="text/javascript" src="/http://giving.stanford.edu/sites/default/files/js/js_EJca-M2EcnfPWqXlFDvdXeXf2sggqfR3FDy4Pefc0K0.js"></script>
+<script type="text/javascript" src="/http://giving.stanford.edu/sites/default/files/js/js_KA2WUWecqqNTFcOVcKCs-KaEMvez0xGSwzWg4ZCY5-8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-34471806-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(function(){
+jQuery('#superfish-1').superfish({
+animation: {opacity:'show'},
+speed: 'fast',
+autoArrows: false,
+dropShadows: false});
+});
+//--><!]]>
+</script>
+<script type="text/javascript" src="/http://giving.stanford.edu/sites/default/files/js/js_mMm6IFcuxReBISIaRIsV1d6Nbn_lO4MJEbNgwbAenM0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"ood","theme_token":"iTzD-26qkgarCciNhlrD6bs5L2wJt_JkuOyGtbFu8fQ","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"sites\/all\/themes\/ood\/js\/jquery-1.11.backwards.compatibility.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"0":1,"sites\/all\/modules\/extlink\/extlink.js":1,"ais\/assets\/js\/ais.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/image_caption\/image_caption.min.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/jquery.bgiframe.min.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/flexslider\/assets\/js\/flexslider.load.js":1,"sites\/all\/modules\/flexslider\/flexslider_views_slideshow\/js\/flexslider_views_slideshow.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1,"2":1,"sites\/all\/themes\/ood\/js\/bootstrap.js":1,"sites\/all\/themes\/ood\/js\/bootstrap-orientation.js":1,"sites\/all\/themes\/ood\/js\/jquery-ui-1.8.23.custom.min.js":1,"sites\/all\/themes\/ood\/js\/superfish.js":1,"sites\/all\/themes\/ood\/js\/utils.js":1,"sites\/all\/themes\/ood\/js\/mobile-nav.js":1,"sites\/all\/themes\/ood\/js\/mobile-sub-nav.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/modules\/flexslider\/assets\/css\/flexslider_img.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/ais\/assets\/css\/ais.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox_alt.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-vertical.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/libraries\/superfish\/style\/white.css":1,"sites\/all\/themes\/ood\/css\/bootstrap.css":1,"sites\/all\/themes\/ood\/css\/application.css":1,"sites\/all\/themes\/ood\/css\/application-responsive.css":1,"sites\/all\/themes\/ood\/css\/new.css":1,"sites\/all\/themes\/ood\/css\/style.css":1,"sites\/all\/themes\/ood\/css\/gts-temp.css":1,"sites\/all\/themes\/ood\/css\/gts.css":1,"sites\/all\/themes\/ood\/css\/uniform.default.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"public:\/\/css_injector\/css_injector_2.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":1,"disable_resize":0,"disable_zoom":0,"force_show_nav":1,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"viewsSlideshow":{"nodequeue_1-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","flexsliderViewsSlideshow","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","flexsliderViewsSlideshow","viewsSlideshowCycle"],"play":["viewsSlideshowControls","flexsliderViewsSlideshow","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","flexsliderViewsSlideshow","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowPager":{"nodequeue_1-block_1":{"bottom":{"type":"viewsSlideshowPagerFields"}}},"viewsSlideshowPagerFields":{"nodequeue_1-block_1":{"bottom":{"activatePauseOnHover":0}}},"flexslider_views_slideshow":{"#flexslider_views_slideshow_main_nodequeue_1-block_1":{"num_divs":5,"id_prefix":"#flexslider_views_slideshow_main_","vss_id":"nodequeue_1-block_1","animation":"fade","animationDuration":600,"slideDirection":"horizontal","slideshow":1,"slideshowSpeed":7000,"animationLoop":1,"randomize":0,"slideToStart":0,"directionNav":1,"controlNav":1,"keyboardNav":1,"mousewheel":1,"prevText":"Previous","nextText":"Next","pausePlay":0,"pauseText":"Pause","playText":"Play","pauseOnAction":1,"controlsContainer":".flex-nav-container","manualControls":""}},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"urlIsAjaxTrusted":{"\/search\/search_by_page":true}});
+//--><!]]>
+</script>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!--[if gt IE 9]> <!-- -->
+    <link rel="stylesheet" media="screen" href="/http://giving.stanford.edu/sites/all/themes/ood/css/bootstrap-responsive.css">
+    <!-- <![endif]-->
+    <!--[if IE 8]>
+    <link rel="stylesheet" media="screen" href="/sites/all/themes/ood/css/ie-ate.css">
+    <![endif]-->
+        <!--[if IE 7]>
+    <link rel="stylesheet" media="screen" href="/sites/all/themes/ood/css/ie-seven.css">
+    <![endif]-->
+    <!-- Le styles 
+    <style>
+      body {
+				padding-top: 92px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	 <link rel="stylesheet" type="text/css" href="/http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700">
+	<link rel="stylesheet" type="text/css" href="/http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic">		
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/http://giving.stanford.edu/sites/all/themes/ood/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="/http://giving.stanford.edu/sites/all/themes/ood/ico/apple-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/http://giving.stanford.edu/sites/all/themes/ood/ico/apple-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/http://giving.stanford.edu/sites/all/themes/ood/ico/apple-114x114.png">
+    <script type="text/javascript" src="/http://giving.stanford.edu/sites/all/libraries/flexslider/jquery.flexslider.js"></script>
+    </head><body class="html front not-logged-in no-sidebars page-node page-node- page-node-109 node-type-page"><div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '24290235717', // App ID
+      channelUrl : '//giving.stanford.edu/channel.html', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      xfbml      : true  // parse XFBML
+    });
+
+    // Additional initialization code here
+  };
+
+  // Load the SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document));
+
+//function viewTube(triggerID,movieURL,movieWth,movieHt) {
+//	var embedcode = '<iframe height="' + movieHt + '" src="' + movieURL + '" frameborder="0" width="' + movieWth + '" allowfullscreen="allowfullscreen"></iframe>';
+//    document.getElementById(triggerID).innerHTML=embedcode;
+//  }
+
+var thisTrigger;
+var thisPoster;
+var thisMovieURL;
+function viewTube(triggerID,movieURL,movieWth,movieHt,poster) {
+	thisTrigger = triggerID;
+	thisPoster = poster;
+	thisMovieURL = movieURL;
+	var embedcode = '<iframe height="' + movieHt + '" src="' + movieURL + '" frameborder="0" width="' + movieWth + '" allowfullscreen="allowfullscreen"></iframe>';
+    document.getElementById(triggerID).innerHTML=embedcode;
+  }
+  
+function clearTube() {
+	var resetcode = '<a href="' + thisMovieURL + '" target="_blank" onclick="viewTube(this.parentNode.id,this.href,\'640\',\'360\'); return false"> <img src="' + thisPoster + '" alt="Click to Play" border="0" /></a>';	
+	document.getElementById(thisTrigger).innerHTML=resetcode;
+}
+</script>
+
+
+
+  
+
+
+    <div id="site-content">
+  <div id="skipnav">
+    <p>Skip to:</p>
+    <ul>
+      <li><a class="element-invisible element-focusable" href="/http://giving.stanford.edu/">Skip to main content</a></li>
+            <li><a class="element-invisible element-focusable" href="/http://giving.stanford.edu/">Skip to navigation</a></li>
+          </ul>
+  </div>
+  <!-- /#skipnav -->
+    <div id="header" class="navbar navbar-fixed-top">
+	    <div class="navbar-inner">
+				<div class="global">		
+		    	<div class="container">
+						<a class="stanford-logo" href="/http://www.stanford.edu">STANFORD UNIVERSITY</a>
+					</div>
+			  </div>					
+				<div class="subnav">
+						<div class="container">
+							<div class="blurb hidden-phone pull-right">
+								<a target="_blank" href="/https://givinghistory.stanford.edu/">My Giving History <i class="icon-chevron-right icon-white"></i></a>
+								<a target="_blank" href="/http://honorrolls.stanford.edu">Honor Rolls <i class="icon-chevron-right icon-white"></i></a>
+							</div>				
+							<h1 class="title"><a class="title-link" title="Giving to Stanford" href="/http://giving.stanford.edu/">GIVING <em>to</em> STANFORD</a></h1>					
+						</div>
+				</div>								
+			</div>
+   </div>
+		<div id="main">	  
+			<div id="main-holder">
+			<nav role="navigation">
+				<div class="container">
+					<div class="row-fluid">
+						<div class="pull-left">
+						<ul class="navbar">
+								<li class="dropdown visible-phone">
+									<a class="dropdown-toggle" data-toggle="dropdown" title="Menu" href="">Menu</a>
+									<div class="dropdown-menu">
+										<ul>
+											<li><a href="/http://giving.stanford.edu/how-to-give">How to Give</a></li>
+											<li><a href="/http://giving.stanford.edu/what-to-support">What to Support</a></li>
+											<li><a href="/http://giving.stanford.edu/why-giving-matters">Why Giving Matters</a></li>
+											<li><a target="_blank" href="/https://pgnet.stanford.edu/goto/webgivinghistory-">My Giving History</a></li>
+											<li><a target="_blank" href="/http://honorrolls.stanford.edu">Honor Rolls</a></li>
+										</ul>
+								    </div>
+    							</li>
+ <!--[if IE 7]><li class="ie-sev">  <![endif]-->
+							<a id="nav"></a>
+															  <div class="region region-nav">
+    <div id="block-superfish-1" class="block block-superfish hidden-phone">
+
+    
+  <div class="content">
+    <ul id="superfish-1" class="sf-menu main-menu sf-horizontal sf-style-white sf-total-items-3 sf-parent-items-3 sf-single-items-0"><li id="menu-541-1" class="first odd sf-item-1 sf-depth-1 sf-total-children-16 sf-parent-children-0 sf-single-children-16 menuparent"><a class="sf-depth-1  menuparent" href="/http://giving.stanford.edu/how-to-give">How to Give</a><ul><li id="menu-914-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><span title="" class="sf-depth-2  nolink">Make a Gift by...</span></li><li id="menu-1137-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a title="Make an online gift using your credit card" class="sf-depth-2 " href="/https://makeagift.stanford.edu?olc=06301">Credit Card</a></li><li id="menu-916-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a title="How to give to Stanford over the phone or by check" class="sf-depth-2 " href="/http://giving.stanford.edu/how-to-give/phone-check">Phone or Check</a></li><li id="menu-550-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a title="How to make an electronic funds transfer to Stanford" class="sf-depth-2 " href="/http://giving.stanford.edu/how-to-give/electronic-funds">Electronic Funds Transfer</a></li><li id="menu-3902-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a title="How to make a federal funds wire transfer to Stanford" class="sf-depth-2 " href="/http://giving.stanford.edu/how-to-give/federal-funds-wire-transfer">Federal Funds Wire Transfer</a></li><li id="menu-3903-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a title="How to make an appreciated securities transfer to Stanford" class="sf-depth-2 " href="/http://giving.stanford.edu/how-to-give/appreciated-securities-transfer">Appreciated Securities Transfer</a></li><li id="menu-1199-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><div title="" class="sf-depth-2  separator"><hr></div></li><li id="menu-915-1" class="middle even sf-item-8 sf-depth-2 sf-no-children"><span title="Log in to make or pay a pledge." class="sf-depth-2  nolink">Make or Pay a Pledge</span></li><li id="menu-917-1" class="middle odd sf-item-9 sf-depth-2 sf-no-children"><a title="Make a new pledge to Stanford" class="sf-depth-2 " href="/https://makeapledge.stanford.edu">New Pledge</a></li><li id="menu-918-1" class="middle even sf-item-10 sf-depth-2 sf-no-children"><a title="Make a payment on an existing pledge" class="sf-depth-2 " href="/https://makeapledgepayment.stanford.edu">Pledge Payment</a></li><li id="menu-1200-1" class="middle odd sf-item-11 sf-depth-2 sf-no-children"><div title="" class="sf-depth-2  separator"><hr></div></li><li id="menu-851-1" class="middle even sf-item-12 sf-depth-2 sf-no-children"><span title="" class="sf-depth-2  nolink">Learn about Planned Gifts</span></li><li id="menu-919-1" class="middle odd sf-item-13 sf-depth-2 sf-no-children"><a title="Information about making a planned gift to Stanford" class="sf-depth-2 " href="/http://giving.stanford.edu/planned-giving">Bequests, Trusts, and More</a></li><li id="menu-4861-1" class="middle even sf-item-14 sf-depth-2 sf-no-children"><div title="" class="sf-depth-2  separator"><hr></div></li><li id="menu-4851-1" class="middle odd sf-item-15 sf-depth-2 sf-no-children"><span title="" class="sf-depth-2  nolink">Help</span></li><li id="menu-4856-1" class="last even sf-item-16 sf-depth-2 sf-no-children"><a class="sf-depth-2 " href="/http://giving.stanford.edu/questions-comments/frequently-asked-questions">Frequently Asked Questions</a></li></ul></li><li id="menu-1151-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-8 sf-parent-children-0 sf-single-children-8 menuparent"><a class="sf-depth-1  menuparent" href="/http://giving.stanford.edu/what-to-support">What to Support</a><ul><li id="menu-3025-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a title="Information on The Stanford Fund for Undergraduate Education" class="sf-depth-2 " href="/http://giving.stanford.edu/the-stanford-fund">The Stanford Fund</a></li><li id="menu-599-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a title="Information on supporting Stanford athletics" class="sf-depth-2 " href="/http://giving.stanford.edu/what-to-support/athletics">Athletics</a></li><li id="menu-597-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a title="Information on supporting undergraduate education" class="sf-depth-2 " href="/http://giving.stanford.edu/what-to-support/support-undergraduate-education">Undergraduate Education</a></li><li id="menu-598-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a title="Information on supporting Stanford's schools &amp; graduate education" class="sf-depth-2 " href="/http://giving.stanford.edu/what-to-support/support-schools-graduate-education">Schools &amp; Graduate Education</a></li><li id="menu-600-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a title="Information on supporting Stanford's centers, institutes, and more" class="sf-depth-2 " href="/http://giving.stanford.edu/what-to-support/support-centers-institutes-and-more">Centers, Institutes, and More</a></li><li id="menu-3027-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><div title="" class="sf-depth-2  separator"><hr></div></li><li id="menu-3028-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><span title="" class="sf-depth-2  nolink">Learn about Planned Gifts</span></li><li id="menu-3029-1" class="last even sf-item-8 sf-depth-2 sf-no-children"><a title="Information about making a planned gift to Stanford" class="sf-depth-2 " href="/http://giving.stanford.edu/planned-giving">Bequests, Trusts, and More</a></li></ul></li><li id="menu-543-1" class="last odd sf-item-3 sf-depth-1 sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a class="sf-depth-1  menuparent" href="/http://giving.stanford.edu/why-giving-matters">Why Giving Matters</a><ul><li id="menu-3312-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a title="Seven reasons to support Stanford" class="sf-depth-2 " href="/http://giving.stanford.edu/why-giving-matters/why-does-stanford-need-money">Why Does Stanford Need Money?</a></li><li id="menu-952-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a title="" class="sf-depth-2 " href="/http://giving.stanford.edu/the-stanford-fund/archive">Stanford Fund Stories</a></li><li id="menu-1383-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a title="" class="sf-depth-2 " href="/http://giving.stanford.edu/topics/stories-video">Video Stories</a></li><li id="menu-951-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><span title="" class="sf-depth-2  nolink">Newsletters</span></li><li id="menu-852-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a title="" class="sf-depth-2 " href="/http://giving.stanford.edu/stanford-benefactor"><em>Stanford Benefactor</em></a></li><li id="menu-953-1" class="last even sf-item-6 sf-depth-2 sf-no-children"><a title="" class="sf-depth-2 " href="/http://giving.stanford.edu/remember-stanford"><em>Remember Stanford</em></a></li></ul></li></ul>  </div>
+</div>
+  </div>
+							 <!--[if IE 7]></li><![endif]-->						
+						</ul>
+						</div>
+						<div class="pull-right">
+							<a class="btn" target="_blank" href="/https://makeagift.stanford.edu/?olc=06301&amp;cturl=close">Make A Gift</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="container">
+								<div id="content-header" class="row">
+					<div class="span12">  																																							<div id="tabs-wrapper" class="clearfix"></div>
+												 																	</div>
+				</div>
+
+			<div class="row main-top-row">
+												<!-- /#sidebar-first -->
+						<div id="inside-main" role="main" class="span12">
+												
+																								  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div about="/home" typeof="foaf:Document" class="ds-1col node node-page view-mode-hub clearfix">
+
+  
+  </div>
+
+  </div>
+</div>
+<div id="block-views-nodequeue-1-block-1" class="block block-views carousel slide">
+
+    
+  <div class="content">
+    <div class="view view-nodequeue-1 view-id-nodequeue_1 view-display-id-block_1 fluid-row view-dom-id-377883bbf50f1ff9b546bed586021e85">
+        
+  
+  
+      <div class="view-content">
+      
+<div class="skin-default">
+  
+  <div id="flexslider_views_slideshow_main_nodequeue_1-block_1" class="flexslider_views_slideshow_main views_slideshow_main"><div class="flex-nav-container">
+  <div class="flexslider">
+    <ul id="flexslider_views_slideshow_nodequeue_1-block_1" class="flexslider-views-slideshow-main-frame slides">
+        <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-1 views-row-odd">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/http://giving.stanford.edu/stanford-benefactor/stories/new-structures-enhance-farm-program"><img class="adaptive" typeof="foaf:Image" width="613" height="344" alt="New Huffington barn at dusk" title="New Huffington barn at dusk" src="/http://giving.stanford.edu/sites/default/files/styles/adaptive/public/story_images/02-barn-dusk.jpg?itok=n-DU9SiA"></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="carousel-caption">
+<h4>School of Earth, Energy &amp; Environmental Sciences</h4>
+<p><a title="Link to story New Learning Spaces Enhance Farm Program" href="/http://giving.stanford.edu/stanford-benefactor/stories/new-structures-enhance-farm-program">New Learning Spaces Enhance Farm Program</a></p>
+</div>
+</span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/http://giving.stanford.edu/stanford-benefactor/stories/new-endowed-graduate-fellowship-honors-maryam-mirzakhani"><img class="adaptive" typeof="foaf:Image" width="1925" height="1080" alt="Maryam Mirzakhani" title="Maryam Mirzakhani" src="/http://giving.stanford.edu/sites/default/files/styles/adaptive/public/story_images/Maryam%20Mirzakhani_613x344.jpg?itok=HQzfjpEf"></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="carousel-caption">
+<h4>School of Humanities &amp; Sciences</h4>
+<p><a title="Link to story New Endowed Graduate Fellowship Established in Honor of Maryam Mirzakhani  " href="/http://giving.stanford.edu/stanford-benefactor/stories/new-endowed-graduate-fellowship-honors-maryam-mirzakhani">New Endowed Graduate Fellowship Established in Honor of Maryam Mirzakhani  </a></p>
+</div>
+</span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/http://giving.stanford.edu/remember-stanford/stories/kaiser-charitable-remainder-unitrust"><img class="adaptive" typeof="foaf:Image" width="613" height="344" alt="Kent Kaiser" title="Kent Kaiser" src="/http://giving.stanford.edu/sites/default/files/styles/adaptive/public/story_images/kaiser-charitable-remainder-unitrust.jpg?itok=FcoPFkoG"></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="carousel-caption">
+<h4>Planned Giving</h4>
+<p><a title="Link to story Every Day, a Stanford Connection" href="/http://giving.stanford.edu/remember-stanford/stories/kaiser-charitable-remainder-unitrust">Every Day, a Stanford Connection</a></p>
+</div>
+</span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/http://giving.stanford.edu/stanford-benefactor/stories/the-virtue-of-cardinal-service"><img class="adaptive" typeof="foaf:Image" width="613" height="344" alt="Education Achievement fellows" title="Education Achievement fellows " src="/http://giving.stanford.edu/sites/default/files/styles/adaptive/public/story_images/Education%20Achievement%20fellows_613x344.jpg?itok=-jO9L_lZ"></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="carousel-caption">
+<h4>Undergraduate Education</h4>
+<p><a title="Link to story The Virtue of Cardinal Service" href="/http://giving.stanford.edu/stanford-benefactor/stories/the-virtue-of-cardinal-service">The Virtue of Cardinal Service</a></p>
+</div>
+</span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-odd">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/http://giving.stanford.edu/stanford-benefactor/stories/meier-hall-and-norcliffe-hall-open-in-lagunita-court"><img class="adaptive" typeof="foaf:Image" width="613" height="344" alt="Meier Hall " title="Meier Hall " src="/http://giving.stanford.edu/sites/default/files/styles/adaptive/public/story_images/meier_613x344_LACicero.jpg?itok=2jKq1S4G"></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><div class="carousel-caption">
+<h4>University-Wide</h4>
+<p><a title="Link to story Two New Residences Open in Lagunita Court" href="/http://giving.stanford.edu/stanford-benefactor/stories/meier-hall-and-norcliffe-hall-open-in-lagunita-court">Two New Residences Open in Lagunita Court</a></p>
+</div>
+</span>  </div>  </li>
+    </ul>
+  </div>
+</div></div>
+      <div class="views-slideshow-controls-bottom clearfix">
+      <div id="widget_pager_bottom_nodequeue_1-block_1" class="views-slideshow-pager-fields widget_pager widget_pager_bottom views_slideshow_pager_field">
+  <div id="views_slideshow_pager_field_item_bottom_nodequeue_1-block_1_0" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views_slideshow_active_pager_field_item views-row-odd">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_nodequeue_1-block_1_1" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_nodequeue_1-block_1_2" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_nodequeue_1-block_1_3" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_nodequeue_1-block_1_4" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd">
+  </div>
+</div>
+    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+													<div class="row-fluid">
+					<div id="content-lower" class="span12">  <div class="region region-content-lower">
+    <div id="block-views-nodequeue-13-block" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-nodequeue-13 view-id-nodequeue_13 view-display-id-block view-dom-id-ae6abbba398388e484f70ecd9396ff0d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first span4 block">
+    <div about="/node/586" typeof="sioc:Item foaf:Document" class="ds-1col node node-highlight view-mode-home_highlight clearfix">
+
+  
+  <div class="field field-name-home-highlight-image-link field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><a alt="Seven Reasons to Support Stanford" target="" href="/http://giving.stanford.edu/why-giving-matters/why-does-stanford-need-money"><img alt="Seven Reasons to Support Stanford" src="/http://giving.stanford.edu/sites/default/files/styles/front_bottom_296x120/public/seven-reasons2.jpg"></a></div></div></div><div class="field field-name-field-title-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even">Why Does Stanford Need Money?</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><a href="/http://giving.stanford.edu/why-giving-matters/why-does-stanford-need-money">Seven Reasons to Support Stanford</a></p>
+</div></div></div></div>
+
+  </div>
+  <div class="views-row views-row-2 views-row-even span4 block">
+    <div about="/content/annual-giving-home" typeof="sioc:Item foaf:Document" class="ds-1col node node-highlight view-mode-home_highlight clearfix">
+
+  
+  <div class="field field-name-home-highlight-image-link field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><a alt="The Stanford Fund" target="" href="/http://giving.stanford.edu/the-stanford-fund"><img alt="The Stanford Fund" src="/http://giving.stanford.edu/sites/default/files/styles/front_bottom_296x120/public/tsf-students-2015-hp.jpg"></a></div></div></div><div class="field field-name-field-title-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even">The Stanford Fund</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><a href="/http://giving.stanford.edu/the-stanford-fund">Annual Giving and Reunion Campaigns</a></p>
+</div></div></div></div>
+
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last span4 block">
+    <div about="/node/251" typeof="sioc:Item foaf:Document" class="ds-1col node node-highlight view-mode-home_highlight clearfix">
+
+  
+  <div class="field field-name-home-highlight-image-link field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><a alt="Planned Giving" target="" href="/http://giving.stanford.edu/planned-giving"><img alt="Planned Giving" src="/http://giving.stanford.edu/sites/default/files/styles/front_bottom_296x120/public/pg-sitehome.jpg"></a></div></div></div><div class="field field-name-field-title-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even">Planned Giving</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><a href="/http://giving.stanford.edu/planned-giving">Bequests, Trusts, and More</a></p>
+</div></div></div></div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+</div>
+				</div>
+																		</div>
+						<!-- /#main -->
+												<!-- /#sidebar-second --> 
+
+					</div>
+				</div>
+			
+					 					
+				
+			</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="row-fluid">
+											  <div class="region region-footer">
+    <div id="block-menu-menu-footer" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first expanded"><span title="" class="nolink">Information For</span><ul class="menu"><li class="first leaf"><a href="/http://giving.stanford.edu/information/undergraduate-alumni">Undergraduate Alumni</a></li>
+<li class="leaf"><a href="/http://giving.stanford.edu/information/graduate-alumni">Graduate Alumni</a></li>
+<li class="leaf"><a href="/http://giving.stanford.edu/information/parents">Parents</a></li>
+<li class="leaf"><a href="/http://giving.stanford.edu/information/students">Students</a></li>
+<li class="last leaf"><a href="/http://giving.stanford.edu/information/international-donors">International Donors</a></li>
+</ul></li>
+<li class="expanded"><span title="" class="nolink">Questions</span><ul class="menu"><li class="first leaf"><a href="/http://giving.stanford.edu/questions-comments/frequently-asked-questions">FAQ</a></li>
+<li class="leaf"><a title="General Contact Us Page" href="/http://giving.stanford.edu/contact-us">Contact Us</a></li>
+<li class="last leaf"><a title="" href="/http://giving.stanford.edu/sitemap">Site Map</a></li>
+</ul></li>
+<li class="last expanded"><span title="" class="nolink">Share This Site</span><ul class="menu"><li class="first leaf"><a title="" href="/http://www.facebook.com/sharer.php?u=http://giving.stanford.edu&amp;t=Giving to Stanford">Facebook</a></li>
+<li class="leaf"><a title="" href="/http://twitter.com/share?url=http://giving.stanford.edu">Twitter</a></li>
+<li class="last leaf"><a title="Stanford on Google Plus" href="/https://plus.google.com/share?url=http%3A%2F%2Fgiving.stanford.edu">Google+</a></li>
+</ul></li>
+</ul>  </div>
+</div>
+  </div>
+										<div class="span3">
+						<!--<form>
+							<fieldset>
+								<input class="search" type="search" placeholder="Search this site..." />
+								
+							</fieldset>
+						</form>-->
+						<form class="search-form" action="/search/search_by_page" method="post" id="search-form" accept-charset="UTF-8"><div><div class="container-inline form-wrapper" id="edit-basic"><div class="form-item form-type-textfield form-item-keys">
+  <label for="edit-keys">Enter your keywords </label>
+ <input onblur="if (this.value == '') {this.value = 'Search this site...';}" onfocus="if (this.value == 'Search this site...') {this.value = '';}" onsubmit="if(this.search_block_form.value=='Search this site...'){ alert('Please enter a search'); return false; }" type="text" id="edit-keys" name="keys" value="Search this site..." size="40" maxlength="255" class="form-text">
+</div>
+<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit"></div><input type="hidden" name="form_build_id" value="form-UlMckWL78e1ih_7vezEiNLo8a3wsHhH_eoYBQvAjkvU">
+<input type="hidden" name="form_id" value="search_form">
+</div></form>
+						
+					</div>
+				</div>
+			</div>
+			<div class="divider">
+			<div class="container bottom" id="global-footer">
+				<div class="row-fluid">
+					
+            <div class="span2" id="bottom-logo">
+              <a href="/http://www.stanford.edu">
+                <img alt="Stanford University" alt="footer-stanford-logo" src="/http://giving.stanford.edu/sites/all/themes/ood/img/footer-stanford-logo.png">
+              </a>
+            </div> <!-- /# bottom-logo -->
+            <div class="span10" id="bottom-text">
+              <div class="clear-block" id="bottom-menu">
+                <ul>
+                  <li class="home"><a href="/http://www.stanford.edu">Stanford Home</a></li>
+                  <li class="maps"><a href="/http://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+                  <li class="search-stanford"><a href="/http://www.stanford.edu/search/">Search Stanford</a></li>
+                  <li class="emergency"><a href="/http://emergency.stanford.edu">Emergency Info</a></li>
+                </ul>
+				<ul>
+				  <li><a title="Terms of use for sites" style="font-size:.8em" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+				  <li><a title="Privacy and cookie policy" style="font-size:.8em" href="/https://www.stanford.edu/site/privacy/">Privacy</a></li>
+				  <li><a title="Report alleged copyright infringement" style="font-size:.8em" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+				  <li><a title="Ownership and use of Stanford trademarks and images" style="font-size:.8em" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademark</a></li>
+				  <li><a title="Non-discrimination policy" style="font-size:.8em" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+				  <li><a title="Report web accessibility issues" style="font-size:.8em" href="/https://www.stanford.edu/site/accessibility">Accessibility</a></li>
+				</ul>
+              </div> <!-- /#bottom-menu -->
+              <p class="vcard">
+                © <span class="fn org">Stanford University</span>.&nbsp; <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.
+              </p>
+            </div> <!-- /.bottom-text -->
+          </div>			
+					
+					
+				</div>
+			</div>
+			
+		</footer>
+  
+  <!--/#footer--> 
+
+<!-- /#site-content -->
+    
+</body></html>

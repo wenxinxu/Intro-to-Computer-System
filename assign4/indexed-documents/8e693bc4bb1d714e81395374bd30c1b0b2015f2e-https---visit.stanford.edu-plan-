@@ -1,0 +1,327 @@
+<!DOCTYPE html><!--[if IE 7]> <html lang="en" class="ie7"> <![endif]--><!--[if IE 8]> <html lang="en" class="ie8"> <![endif]--><!--[if IE 9]> <html lang="en" class="ie9"> <![endif]--><!--[if !IE]><!--><html lang="en"><!-- InstanceBegin template="/Templates/two-sidebars.dwt" codeOutsideHTMLIsLocked="false" --><!--<![endif]--><head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Maps &amp; Directions : Stanford University</title>
+<!-- InstanceEndEditable -->
+
+<!-- Meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- InstanceBeginEditable name="MetaTags" -->
+<meta name="description" content="Visitor Information Services at Stanford University--one of the world's leading research and teaching institutions. It is located in Palo Alto, California.">
+<meta name="author" content="Visitor Information Services at Stanford University">
+<link rel="icon" type="image/png" href="/http://www.stanford.edu/favicon.ico">
+<!-- These meta tags are used when someone shares a link to this page on Facebook,
+     Twitter or other social media sites. All tags are optional, but including them
+     and customizing the content for specific sites can help the visibility of your
+     content.
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Title when shared to social media sites" />
+<meta property="og:description" content="Snippet for social media sites." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@TwitterHandle" />
+<meta name="twitter:title" content="Title for Twitter" />
+<meta name="twitter:description" content="Snippet when tweet is expanded." />
+<meta name="twitter:image" content="http://stanford.edu/about/images/intro_about.jpg" />
+<link rel="publisher" href="https://plus.google.com/id# of Google+ entity associated with your department or group" />
+-->
+<!-- InstanceEndEditable -->
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/https://visit.stanford.edu/plan/../assets/cardinal/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/https://visit.stanford.edu/plan/../assets/cardinal/css/base.min.css?v=0.1">
+<link rel="stylesheet" type="text/css" href="/https://visit.stanford.edu/plan/../assets/cardinal/css/custom.css?v=0.1">
+<!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="../assets/cardinal/css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="../assets/cardinal/css/ie/ie7.css" />
+<![endif]-->
+<!-- JS and jQuery -->
+<script src="/https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="/https://visit.stanford.edu/plan/../assets/cardinal/js/modernizr.custom.17475.js"></script>
+<script src="/https://visit.stanford.edu/plan/../assets/cardinal/js/bootstrap.min.js"></script>
+
+<!--[if lt IE 9]>
+	<script src="../assets/cardinal/js/respond.js"></script>
+<![endif]-->
+
+<!-- custom JS -->
+<script src="/https://visit.stanford.edu/plan/../assets/cardinal/js/base.js?v=1.0"></script>
+<script src="/https://visit.stanford.edu/plan/../assets/cardinal/js/custom.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="site_name_1" type="text" value="Visitor Information at Stanford University" -->
+<!-- InstanceParam name="site_name_2" type="text" value="Signature Line 2" -->
+<!-- InstanceParam name="site_url" type="text" value="/" -->
+<!-- InstanceParam name="body_class" type="text" value="nav-3" -->
+<!-- InstanceParam name="h1" type="text" value="Plan Your Visit" -->
+</head>
+<!-- Stanford Cardinal Templates Version 1.0 -->
+<!-- Template Property Options:                       
+     body_class: "home", "nav-1", "nav-2", etc. - specifies which item in the top nav to underline
+                 "two-line-signature" - displays two line header signature
+     h1        : "hide" - creates a hidden <h1> element
+ -->
+
+<body class="nav-3">
+<div id="su-wrap"> <!-- used to force footer to bottom of short pages -->
+  <div id="su-content"> <!-- used to force footer to bottom of short pages --> 
+        <!--=== Top ===-->
+    <div id="top">
+      <div class="container"> 
+        <!--=== Skip links ===-->
+        <div id="skip"> <a onclick="$('#content').focus()" href="/https://visit.stanford.edu/plan/">Skip to content</a> </div>
+        <!-- /Skip links --> 
+      </div>
+    </div>
+    <!--/top--> 
+    
+    <!--=== Header ===-->
+    <div id="header" class="clearfix" role="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8"> 
+            <!-- Logo -->
+            <div id="logo" class="clearfix"> <a href="/https://www.stanford.edu/"><img class="img-responsive" alt="Stanford University" src="/https://visit.stanford.edu/assets/cardinal/images/stanford-white@2x.png"></a> </div>
+            <!-- /logo -->
+            <div id="signature">
+              <div id="site-name"> <a href="/https://visit.stanford.edu/"> <span id="site-name-1">Visitor Information</span> <span id="site-name-2">Optional line 2 - add two-line-signature to body class to display</span> </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Menu -->
+    <div id="mainmenu" class="clearfix" role="navigation">
+      <div class="container">
+        <div class="navbar navbar-default"> 
+          
+          <!-- main navigation -->
+          <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="menu-text">Menu</span></button>
+          <!-- /nav-collapse -->
+          
+          <div class="navbar-collapse collapse"> 
+           <!--search box-->
+          <div id="nav-search" role="search">
+            <form action="https://visit.stanford.edu/search/" method="get" id="search-form" accept-charset="UTF-8">
+              <h2 class="hidden">Search form</h2>
+              <label class="hidden" for="search-field">Search term</label>
+              <input name="cx" type="hidden" value="005252872952349847953:kny9yffw67s">
+              <input name="cof" type="hidden" value="FORID:9">
+              <input name="ie" type="hidden" value="UTF-8">
+              <!-- replace value in next line with your site URL -->
+              <input name="as_sitesearch" type="hidden" value="https://visit.stanford.edu/">
+              <input title="Search string" class="input-medium" placeholder="Search Visitor Info…" type="text" id="search-field" name="q" value="" size="15" maxlength="128">
+              <button id="search-btn" type="submit" name="submit" aria-label="Search" formmethod="get"><i class="fa fa-search"></i></button>          
+</form>
+            
+          </div>
+            <div role="navigation">
+              <div id="primary-nav">
+                <ul class="nav navbar-nav" aria-label="primary navigation">
+                  <li id="nav-1"> <a href="/https://visit.stanford.edu/basics/">The Basics</a></li>
+                  <li id="nav-2"> <a href="/https://visit.stanford.edu/tours/">Campus Tours</a> </li>
+                  <li id="nav-3"> <a href="/https://visit.stanford.edu/plan/">Plan Your Visit</a> </li>
+                  <li id="nav-4"> <a href="/https://visit.stanford.edu/activities/">Campus Activities</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- /nav-collapse --> 
+        </div>
+        <!-- /navbar --> 
+        
+      </div>
+      <!-- /container --> 
+    </div>
+    <!-- /mainmenu -->  
+    
+    <!-- main content -->
+    <div id="content" class="container" role="main" tabindex="0">
+      <h1 class="Maps &amp; Directions"><!-- InstanceBeginEditable name="Page Title" -->Plan Your Visit<!-- InstanceEndEditable --></h1>
+      <div class="row"> 
+        <!-- Main column -->
+        <div id="main-content" class="col-md-6 col-md-push-3" role="main"> <!-- InstanceBeginEditable name="content_main" -->
+          <h2>Maps &amp; Directions</h2>
+          <p class="lead">Stanford is easily accessible from throughout the San Francisco Bay area, including San Francisco, Berkeley, and San Jose.</p>
+          <h3>Maps</h3>
+          <p>We encourage you to download and print both the <a target="_blank" class="external" href="/https://stanford.app.box.com/v/Parking-and-Circulation-Map">Parking and Circulation Map</a> and the <a target="_blank" class="external" href="/https://visit.stanford.edu/plan/ https://stanford.box.com/v/Visitor-Map">Visitor Map</a> and bring them with you.&nbsp;</p>
+          <h4>Campus maps</h4>
+          <ul>
+            <li><a target="_blank" class="external" href="/http://campus-map.stanford.edu/">Searchable Campus Map</a></li>
+            <li><a target="_blank" class="external" href="/https://visit.stanford.edu/plan/ https://stanford.box.com/v/Visitor-Map">Visitor Map</a></li>
+          </ul>
+          <h4>Transportation maps</h4>
+          <ul>
+            <li><a target="_blank" class="external" href="/https://stanford.app.box.com/v/Parking-and-Circulation-Map">Parking and Circulation Map</a></li>
+            <!--<li><a href="http://maps.stanford.edu/sites/all/lbre-shared/files/maps/files/shared/file/maps_records/Bus_Parking_Map.pdf" target="_blank" class="external">Bus Parking &amp; Loading Map</a></li>-->
+            <li><a target="_blank" class="external" href="/https://lbre.stanford.edu/maps/what-we-do/maps/available-maps-library">Other Transportation-related Maps</a></li>
+          </ul>
+          <h4>Area maps</h4>
+          <ul>
+            <li><a target="_blank" class="external" href="/https://www.google.com/maps/place/Stanford,+CA/@37.4249378,-122.1703835,14z/data=!3m1!4b1!4m2!3m1!1s0x808fbac95ef1decd:0x6bad0d43152c9f52">Palo Alto/Stanford Area Map</a><br></li>
+            <li><a target="_blank" href="/https://lbre.stanford.edu/sites/default/files/sf_bayarea_map_0.pdf">San Francisco Bay Area Map</a><br>
+            </li>
+          </ul>
+          <p>If you are using a maps Web site to plan your route, the easiest way to locate Stanford is to enter our zip code <strong>94305</strong>.</p>
+          <h3 id="directions">Directions</h3>
+          <!--  Start Google Directions Gadget --> 
+          <!-- Tool: http://www.gmodules.com/ig/creator?url=http://hosting.gmodules.com/ig/gadgets/file/114281111391296844949/driving-directions.xml--> 
+          <!-- Examples: http://maps.google.com/help/maps/gadgets/directions/-->
+         <!-- <div id="google_directions"><script type="text/javascript" src="http://www.gmodules.com/ig/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/114281111391296844949/driving-directions.xml&amp;up_myLocations=295%20Galvez%20St%20Stanford%20(Stanford%20Visitor%20Center) | 355%20Galvez%20St%20Stanford%20(Admissions Office) | 519%20Lasuen%20Mall%20Stanford%20(Bookstore) |  459%20Lagunita%20Drive%20Stanford%20(Tresidder) | 380%20Panama%20Mall%20Stanford%20(Terman%20Engineering%20Center) | 450%20Serra%20Mall%20Stanford%20(Quad%20and%20Memorial%20Church) | 328%20Lomita%20Dr%20Stanford%20(Cantor%20Arts%20Museum) | 341%20Galvez%20St%20Stanford%20(Arrillaga%20Sports%20Center) | 198%20Junipero%20Serra%20Blvd%20Stanford%20(Stanford%20Golf%20Course)&amp;synd=open&amp;w=auto&amp;h=69&amp;lang=en&amp;title=&amp;brand=light&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script></div>-->
+          <!--  End Google Directions Gadget -->
+          <p>The following driving directions are to the Stanford Visitor Center.</p>
+          <h4>From Highway 101 North &amp; South</h4>
+          <p>Exit onto Embarcadero Road and travel west, following the signs directing you to Stanford University. About three miles after you exit the freeway, Embarcadero Road becomes Galvez Street as you cross El Camino Real. Stay in the left lane and continue past the stadium. The entrance to the Visitor Center Lot is on the left just beyond Nelson Road. </p>
+          <h4> From Highway 280 North &amp; South</h4>
+          <p>Exit onto Sand Hill Road and follow the signs for Stanford University. Heading east, drive approximately 3 miles to the Stanford Shopping Center. Turn right onto Arboretum Road (Nordstrom is on your right). Stay on Arboretum until it ends, then turn right onto Galvez Street. Move to the left lane and continue past the stadium. The entrance to the Visitor Center Lot is on the left just beyond Nelson Road.</p>
+          <h4> Parking</h4>
+          <p>The Visitor Center Lot (L-95 on the campus map) is located on Galvez Street between Nelson Road &amp; Campus Drive, near the Stanford Stadium. If the Visitor Center Lot is full (possible in the afternoon), purchase a permit at the Visitor Center Lot and drive to the Varsity Lot at the end of Nelson Road, behind the stadium. (*See additional important instructions below.) Permits are required in both lots. If you park in the Varsity Lot, you must first purchase a permit at the Visitor Center Lot. </p>
+          <p>Upon entering the Visitor Center Lot, turn right. The parking permit vending machine is located near the Stanford Athletics Store. Purchase a parking permit and display on your dashboard. The vending machine accepts credit cards, bills, or coins. You should allow at least three hours. Parking is free after 4 PM. Please note that the parking lots are monitored regularly and violations are expensive.</p>
+          <p>Park only in spaces designated "P" or "E". (Do not park in spaces with only a "C" sign.) "E" parking is located at the left end of the lot, along Nelson Road across from the stadium.</p>
+          <p>The Visitor Center is located at 295 Galvez Street at Campus Drive, adjacent to the parking lot and Athletics Store.</p>
+          <h4>Important instructions</h4>
+          <p>*If the Visitor Center Lot is full, overflow parking is usually available in the Galvez Lot, located across the street on the north side of Galvez Street. During the hours of 8:00am–4:00pm, Mon-Fri, be sure to pay for your space at the payment kiosks, located on the west side of the lot.</p>
+        <!-- InstanceEndEditable --><!-- #BeginLibraryItem "/Library/last_update.lbi" --><span style="font-size:10px;">Updated on <!-- #BeginDate format:Am1a -->July 27, 2017 11:40 AM<!-- #EndDate --></span><!-- #EndLibraryItem --></div>
+        <!-- Start #sidebar-first  --><!-- InstanceBeginEditable name="sidebar-first" -->
+        <div id="sidebar-first" class="col-md-3 col-md-pull-6">
+        <div class="sidebar-nav">
+          <h2>CONTENTS</h2>
+          <ul class="nav" role="navigation">
+            <li><a class="toc_current" title="Maps and Directions page" href="/https://visit.stanford.edu/plan/index.html">Maps &amp; Directions</a></li>
+            <li><a href="/https://visit.stanford.edu/plan/parking.html">Parking</a></li>
+            <li><a href="/https://visit.stanford.edu/plan/public_transit.html">Public Transit</a></li>
+            <li><a href="/https://visit.stanford.edu/plan/airports.html">Airports</a></li>
+            <li><a href="/https://visit.stanford.edu/plan/stay.html">Where to Stay</a></li>
+          </ul>
+        </div>
+        <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="sidebar_notice" --> <!-- InstanceEndEditable --> </div>
+      <!-- End #sidebar-first --> 
+      
+      <!-- Start #sidebar-second -->
+      <div id="sidebar-second" class="col-md-3" role="complementary"> <!-- InstanceBeginEditable name="sidebar_supplementary" --> 
+        
+<div class="info-box">
+  <div class="text-container"> <a class="btn btn-default btn-five btn-primary" href="/http://visit.stanford.edu/calendar/"> <i class="fa fa-chevron-right fa-lg"></i> <span style="margin-left: 10px;">View Schedule &amp; Register</span> </a> </div>
+</div>
+<div class="info-box">
+  <div class="icon-container"> <i class="fa fa-calendar fa-4x"></i> </div>
+  <div class="text-container">
+    <h2>Campus Tours &amp; Programs</h2>
+    <p>The schedule shows availability for all tours. Some tours and programs require reservations. Make or modify reservations using links located on the calendar.</p>
+  </div>
+</div>
+<div class="info-box">
+  <div class="icon-container"> <i class="fa fa-question-circle fa-4x"></i> </div>
+  <div class="text-container">
+    <h2>Frequently Asked Questions</h2>
+    <ul class="faq">
+      <li><a href="/http://visit.stanford.edu/faq/index.html">What kind of weather should I expect at Stanford?</a></li>
+      <li><a href="/http://visit.stanford.edu/faq/index.html">How should I dress for my campus visit?</a></li>
+      <li><a href="/http://visit.stanford.edu/faq/index.html">A member of our party has a mobility restriction. What resources are available to us while visiting Stanford?</a></li>
+    </ul>
+    <p><a class="more-link" href="/http://visit.stanford.edu/faq/"><i class="fa fa-chevron-circle-right"></i><span> See more</span></a></p>
+  </div>
+</div>
+ 
+        
+        <!-- InstanceEndEditable --></div>
+      <!-- End #sidebar-second --> 
+      
+    </div>
+  </div>
+  <!-- #content--> 
+  
+</div>
+<!-- #su-content -->
+</div>
+<!-- #su-wrap --> 
+
+<!-- BEGIN footer -->
+<div id="footer" class="clearfix footer" role="contentinfo"> 
+  <!-- Fat footer start -->
+  <div class="container">
+    <div id="footer-content" class="row">
+      <div class="col-xs-12 col-sm-3 col-sm-push-3">
+        <h3>Self-Guided Tours</h3>
+        <p>Explore the campus at your own pace and learn more about Stanford's rich history, distinctive architecture, and notable landmarks.</p>
+        <ul>
+          <!--<li><a href="https://itunes.apple.com/us/app/visit-stanford/id372934311?mt=8">Visit Stanford App</a></li>-->
+          <li><a href="/https://visit.stanford.edu/tours/virtual/">Virtual Tours</a></li>
+          <li><a target="_blank" href="/https://lbre.stanford.edu/sites/default/files/self_guided_tour_map_0.pdf">Self-Guided Tour Map</a></li>
+          <li><a target="_blank" href="/https://ucomm.stanford.edu/mobileapp/">Stanford Mobile App <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-sm-push-3">
+        <h3>Newsletter</h3>
+        <p>Subscribe to a free monthly email featuring upcoming concerts, lectures, sports, art exhibitions, family activities &amp; more.</p>
+        <ul>
+        <li><a href="/http://web.stanford.edu/dept/publicaffairs/stanfordforyou/">Stanford for You</a></li>
+        </ul>
+        <h3>Related Sites</h3>
+        <ul>
+        <li><a href="/https://financialaid.stanford.edu">Financial Aid</a></li>
+        <li><a href="/https://admission.stanford.edu">Undergraduate Admission</a></li>
+        <li><a href="/https://neighbors.stanford.edu">Neighbors</a></li>
+        </ul>
+      </div>
+       <div id="hp-buttons" class="col-xs-12 col-sm-3 col-sm-push-3">
+        <ul>
+        <li><a class="btn btn-u btn-block" href="/http://visit.stanford.edu/calendar"><i class="fa fa-calendar fa-fw"></i> <span>Visitor Calendar</span></a> </li>
+          <li><a class="btn btn-u btn-block" title="Maps and Directions link in global site footer" href="/http://visit.stanford.edu/plan"><i class="fa fa-map-marker fa-fw"></i> <span>Maps &amp; Directions</span></a> </li>
+          <li><a class="btn btn-u btn-block" title="Contact Us link in footer" href="/http://visit.stanford.edu/contact"><i class="fa fa-comment-o fa-fw"></i> <span>Contact Us</span></a> </li>
+        </ul>
+      </div>
+      <div id="social-icons" class="col-xs-12 col-sm-3 col-sm-pull-9">
+        <h3>Connect with us</h3>
+        <a href="/https://www.facebook.com/stanford"><img alt="Facebook" src="/https://visit.stanford.edu/assets/cardinal/images/social/facebook@2x.png"></a> <a href="/http://twitter.com/stanford"><img alt="Twitter" src="/https://visit.stanford.edu/assets/cardinal/images/social/twitter@2x.png"></a> <a href="/https://itunes.stanford.edu/"><img alt="iTunes" src="/https://visit.stanford.edu/assets/cardinal/images/social/apple@2x.png"></a><a href="/https://www.youtube.com/stanford"><img alt="YouTube" src="/https://visit.stanford.edu/assets/cardinal/images/social/youtube@2x.png"></a><a href="/https://instagram.com/stanford"><img alt="Instagram" src="/https://visit.stanford.edu/assets/cardinal/images/social/instagram@2x.png"></a><a href="/https://futurity.org/university/stanford-university/"><img alt="Futurity" src="/https://visit.stanford.edu/assets/cardinal/images/social/futurity@2x.png"></a> </div>
+    </div>
+  </div>
+  <!-- Fat footer end --> 
+  
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-xs-6 col-sm-2"> <a href="/http://www.stanford.edu"> <img alt="Stanford University" width="120" height="56" src="/https://visit.stanford.edu/assets/cardinal/images/footer-stanford-logo@2x.png"> </a> </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text" class="col-xs-6 col-sm-10">
+           <ul>
+      <li class="home"><a href="/https://www.stanford.edu">Stanford Home</a></li>
+      <li class="maps alt"><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+      <li class="search-stanford"><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+      <li class="emergency alt"><a href="/https://emergency.stanford.edu">Emergency Info</a></li>
+    </ul>
+    <ul id="policy-links">
+      <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+      <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy/">Privacy</a></li>
+      <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+      <li><a title="Ownership and use of Stanford trademarks and images" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+      <li><a title="Non-discrimination policy" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+      <li><a title="Report web accessibility issues" href="/https://www.stanford.edu/site/accessibility">Accessibility</a></li>
+    </ul>
+        </div>
+        <!-- .bottom-text end -->
+        <div class="clear"></div>
+        <p class="copyright vcard col-sm-10">© <span class="fn org">Stanford University</span>. <span class="adr"> <span class="locality"> Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+      </div>
+      <!-- .row end --> 
+    </div>
+    <!-- .container end --> 
+  </div>
+  <!-- Global footer snippet end --> 
+  
+</div>
+<!-- END footer -->
+<script src="/https://visit.stanford.edu/assets/cardinal/js/tracking.js?v=1.0"></script>
+
+
+
+
+
+</body><!-- InstanceEnd --></html>

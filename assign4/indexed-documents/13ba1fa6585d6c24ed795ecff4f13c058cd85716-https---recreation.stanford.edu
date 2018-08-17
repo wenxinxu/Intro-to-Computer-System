@@ -1,0 +1,588 @@
+<!DOCTYPE html><!--[if IE 7]> <html lang="en" class="ie7"> <![endif]--><!--[if IE 8]> <html lang="en" class="ie8"> <![endif]--><!--[if IE 9]> <html lang="en" class="ie9"> <![endif]--><!--[if !IE]><!--><html lang="en"><!--<![endif]--><head>
+<title>Stanford Recreation | Inspiring a Healthier Stanford</title>
+
+<!-- Meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="&nbsp; Facility Hours Fitness Centers&nbsp; |&nbsp;&nbsp;Pools&nbsp; |&nbsp;&nbsp;Climbing Wall&nbsp; |&nbsp; Outdoor Center &nbsp; News &amp; Updates Subscribe to our Newsletter!">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Stanford Recreation | Inspiring a Healthier Stanford">
+<meta property="og:description" content="&nbsp; Facility Hours Fitness Centers&nbsp; |&nbsp;&nbsp;Pools&nbsp; |&nbsp;&nbsp;Climbing Wall&nbsp; |&nbsp; Outdoor Center &nbsp; News &amp; Updates Subscribe to our Newsletter!">
+<meta property="og:url" content="https://recreation.stanford.edu/">
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/https://recreation.stanford.edu/wp-content/themes/lagunita/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/https://recreation.stanford.edu/wp-content/themes/lagunita/css/base.min.css?v=0.1">
+<link rel="stylesheet" type="text/css" href="/https://recreation.stanford.edu/wp-content/themes/lagunita/style.css?v=0.1">
+<!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="https://recreation.stanford.edu/wp-content/themes/lagunita/css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="https://recreation.stanford.edu/wp-content/themes/lagunita/css/ie/ie7.css" />
+<![endif]-->
+<!-- JS and jQuery --> 
+<script src="/https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="/https://recreation.stanford.edu/wp-content/themes/lagunita/js/bootstrap.min.js"></script> 
+
+<!--[if lt IE 9]>
+	<script src="https://recreation.stanford.edu/wp-content/themes/lagunita/js/respond.js"></script>
+<![endif]--> 
+
+<!-- custom JS -->
+<script src="/https://recreation.stanford.edu/wp-content/themes/lagunita/js/base.js"></script>
+<script src="/https://recreation.stanford.edu/wp-content/themes/lagunita/js/custom.js"></script>
+
+<!-- wp_head(); -->
+<link rel="dns-prefetch" href="/https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="/https://s.w.org">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/recreation.stanford.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.6"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="layerslider-css" type="text/css" media="all" href="/https://recreation.stanford.edu/wp-content/plugins/LayerSlider/static/layerslider/css/layerslider.css?ver=6.1.0">
+<link rel="stylesheet" id="ls-google-fonts-css" type="text/css" media="all" href="/https://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&amp;subset=latin%2Clatin-ext">
+<link rel="stylesheet" id="jquery-ui-css" type="text/css" media="all" href="/https://recreation.stanford.edu/wp-content/plugins/accordions/assets/frontend/css/jquery-ui.min.css?ver=4.9.6">
+<link rel="stylesheet" id="accordions_style-css" type="text/css" media="all" href="/https://recreation.stanford.edu/wp-content/plugins/accordions/assets/frontend/css/style.css?ver=4.9.6">
+<link rel="stylesheet" id="accordions_themes.style-css" type="text/css" media="all" href="/https://recreation.stanford.edu/wp-content/plugins/accordions/assets/global/css/themes.style.css?ver=4.9.6">
+<link rel="stylesheet" id="accordions_themes.Tabs.style-css" type="text/css" media="all" href="/https://recreation.stanford.edu/wp-content/plugins/accordions/assets/global/css/themesTabs.style.css?ver=4.9.6">
+<link rel="stylesheet" id="font-awesome-css" type="text/css" media="all" href="/https://recreation.stanford.edu/wp-content/plugins/accordions/assets/global/css/font-awesome.min.css?ver=4.9.6">
+<link rel="stylesheet" id="wpstatistics-css-css" type="text/css" media="all" href="/https://recreation.stanford.edu/wp-content/plugins/wp-statistics/assets/css/frontend.css?ver=12.3.6.1">
+<link rel="stylesheet" id="tablepress-default-css" type="text/css" media="all" href="/https://recreation.stanford.edu/wp-content/tablepress-combined.min.css?ver=8">
+<link rel="stylesheet" id="simcal-qtip-css" type="text/css" media="all" href="/https://recreation.stanford.edu/wp-content/plugins/google-calendar-events/assets/css/vendor/jquery.qtip.min.css?ver=3.1.17">
+<link rel="stylesheet" id="simcal-default-calendar-grid-css" type="text/css" media="all" href="/https://recreation.stanford.edu/wp-content/plugins/google-calendar-events/assets/css/default-calendar-grid.min.css?ver=3.1.17">
+<link rel="stylesheet" id="simcal-default-calendar-list-css" type="text/css" media="all" href="/https://recreation.stanford.edu/wp-content/plugins/google-calendar-events/assets/css/default-calendar-list.min.css?ver=3.1.17">
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-content/plugins/LayerSlider/static/layerslider/js/greensock.js?ver=1.19.0"></script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var LS_Meta = {"v":"6.1.0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.1.0"></script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitions.js?ver=6.1.0"></script>
+<meta name="generator" content="Powered by LayerSlider 6.1.0 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress.">
+<!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
+<link rel="https://api.w.org/" href="/https://recreation.stanford.edu/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/https://recreation.stanford.edu/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/https://recreation.stanford.edu/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.9.6">
+<link rel="canonical" href="/https://recreation.stanford.edu/">
+<link rel="shortlink" href="/https://recreation.stanford.edu/">
+<link rel="alternate" type="application/json+oembed" href="/https://recreation.stanford.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frecreation.stanford.edu%2F">
+<link rel="alternate" type="text/xml+oembed" href="/https://recreation.stanford.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frecreation.stanford.edu%2F&amp;format=xml">
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><link rel="icon" sizes="32x32" href="/https://recreation.stanford.edu/wp-content/uploads/2017/01/StanfordBlockS-150x150.png">
+<link rel="icon" sizes="192x192" href="/https://recreation.stanford.edu/wp-content/uploads/2017/01/StanfordBlockS.png">
+<link rel="apple-touch-icon-precomposed" href="/https://recreation.stanford.edu/wp-content/uploads/2017/01/StanfordBlockS.png">
+<meta name="msapplication-TileImage" content="https://recreation.stanford.edu/wp-content/uploads/2017/01/StanfordBlockS.png">
+		<style type="text/css" id="wp-custom-css">
+			#brandbar {
+    background: #B1040E;
+    box-shadow: none;
+    min-height: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+iframe {
+	width: 100%;
+}
+
+#rec-header {
+	display: inline-block;
+	color: #fff;
+	letter-spacing: .25px;
+	font-size: 18px;
+}
+
+#header {
+	display: none;
+}
+
+#mainmenu {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    padding: 0 5%;
+    top: 35px;
+}
+
+.navbar .nav>li {
+	padding: 10px 0;
+}
+
+.navbar .nav>li>a {
+    font-size: 18px;
+    margin-right: 40px;
+	  padding: 5px 0 0;
+}
+
+#primary-nav li.current-menu-item a {
+    border-bottom: 5px solid #f8f7f2;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	height: 48px;
+}
+
+#nav-search {
+	display: none;
+}
+
+#content {
+	padding-top: 78px;
+	width: 100%;
+}
+
+.margin-bottom-30, .rpwe-block  {
+	margin-bottom: 50px;
+}
+
+#layerslider_7 {
+	padding-bottom: 50px;
+}
+
+#main-content {
+	width: 100%;
+	left: 0;
+}
+
+#main-content>ul {
+	max-width: 690px;
+	margin: auto;
+}
+
+#hero-image, .post-attribution, .post-categories {
+	display: none;
+}
+
+#su-content, #footer {
+	background-color: #ffffff;
+}
+
+h1, h2, h3, p, li {
+	max-width: 690px;
+	text-align: center;
+	margin: auto;
+	line-height: 50px;
+}
+
+h1 {
+    line-height: 50px;
+    padding: 50px 0;
+}
+
+p, li {
+	font-size: 16px;
+	text-align: left;
+	line-height: 28px;
+	margin-bottom: 18px;
+}
+
+li {
+	margin-bottom: 0;
+}
+
+a {
+	color: #B1040E;
+}
+
+.rpwe-block ul {
+	list-style: none !important;
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0;
+}
+
+.rpwe-li {
+	text-align: center;
+}
+
+.rpwe-block li {
+	list-style-type: none;
+	width: 25%;
+	margin: 3%;
+}
+
+.rpwe-block a {
+	display: block !important;
+	text-decoration: none;
+}
+
+.rpwe-thumb {
+	border-radius: 50%;
+	width: 13vw;
+	transition: .5s ease-in-out;
+}
+
+.rpwe-thumb:hover {
+	opacity: .7;
+}
+
+.rpwe-block h3 {
+    background: none!important;
+    clear: none;
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+    font-weight: 400;
+    font-size: 16px!important;
+    line-height: 1.5em;
+    padding: 15px 0 5px;
+}
+
+.rpwe-time {
+	display: none;
+}
+
+.rpwe-comment {
+	display: none
+}
+
+.rpwe-alignleft {
+	display: inline;
+	float: left;
+}
+
+.rpwe-alignright {
+	display: inline;
+	float: right;
+}
+
+.rpwe-aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rpwe-clearfix:before,
+.rpwe-clearfix:after{
+	content: "";
+	display: table !important;
+}
+
+.rpwe-clearfix:after {
+	clear: both;
+}
+
+.rpwe-clearfix {
+	zoom: 1;
+}
+
+#main-content img {
+    margin: auto;
+}
+
+#main-content.accordions {
+	padding: 0 100px;
+}
+
+.accordions-head, .ui-accordion, .ui-accordion-header {
+    margin: auto;
+    max-width: 690px;
+}
+
+#accordions-7365 .accordion-content {
+    max-width: 690px;
+    margin: auto;
+}
+
+#social-icons {
+	text-align: center;
+}
+
+#social-icons a {
+	display: inline-block;
+	padding-top: 10px;
+}
+
+#global-footer {
+	background-color: #4d4f53;
+}
+
+#global-footer .container {
+    background-color: #4d4f53;
+    color: #e3dfd5;
+}
+
+#social-icons img {
+    margin: 0 10px 4px 10px;
+}
+
+@media (max-width: 991px) {
+	.navbar .navbar-toggle {
+		margin: 10px;
+}
+	.navbar .navbar-collapse.in {
+    overflow-y: visible;
+    background-color: #f8f7f2;
+}
+	#primary-nav li.current-menu-item a {
+    border-bottom: none
+}
+	#primary-nav li.current-menu-item a:hover {
+    border-bottom: none
+}
+	.navbar .nav>li>a {
+    border-radius: 0;
+		padding: 9px;
+		background-color: #e3dfd5;
+}
+}
+
+@media (max-width: 655px) {
+	.rpwe-thumb {
+		width: 18vw;
+}
+.navbar .navbar-collapse {
+    /* width: 100%; */
+}
+}
+
+@media (max-width: 491px) {
+	.rpwe-block li {
+    list-style-type: none;
+    width: 100%;
+    margin: 25px;
+}
+		.rpwe-thumb {
+		width: 40vw;
+}
+}
+		</style>
+	
+</head>
+
+<body class="home page-template-default page page-id-83 page-parent site-slogan">
+<div id="su-wrap"> <!-- used to force footer to bottom of short pages -->
+  <div id="su-content"> <!-- used to force footer to bottom of short pages --> 
+    
+    <!--=== Top ===-->
+    <div id="top">
+      <div class="container"> 
+        <!--=== Skip links ===-->
+        <div id="skip"> <a onclick="$('#content').focus()" href="/https://recreation.stanford.edu">Skip to content</a> </div>
+        <!-- /Skip links --> 
+      </div>
+    </div>
+    <!--/top-->
+
+    <!-- Brandbar snippet start -->
+    <div id="brandbar">
+      <div class="container">
+        <a href="/http://www.stanford.edu">
+          <img alt="Stanford University" width="153" height="22" src="/https://www.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png">
+        </a>
+		<p id="rec-header">
+			| Recreation
+		  </p>
+      </div> <!-- .container end -->
+    </div> <!-- #brandbar end -->
+    <!-- Brandbar snippet end -->
+
+    <!--=== Header ===-->
+    <div id="header" class="clearfix" role="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+                        <div id="signature">
+              <div id="site-name">
+                <a href="/https://recreation.stanford.edu/">Stanford Recreation</a>
+              </div>
+              <div id="site-slogan">
+                <a href="/https://recreation.stanford.edu/">Inspiring a Healthier Stanford</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Menu -->
+    <div id="mainmenu" class="clearfix" role="navigation">
+      <div class="container">
+        <div class="navbar navbar-default"> 
+          
+          <!-- main navigation -->
+          <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="menu-text">Menu</span></button>
+          <!-- /nav-collapse -->
+          
+          <div class="navbar-collapse collapse"> 
+            <!--search box-->
+            <div id="nav-search" role="search">
+              <form action="https://recreation.stanford.edu/" method="get" id="search-form" accept-charset="UTF-8">
+  <h2 class="screen-reader">Search form</h2>
+  <label class="screen-reader" for="search-field">Search term</label>
+  <input title="Search string" class="input-medium" placeholder="Search this site…" type="search" id="search-field" name="s" value="" size="15" maxlength="128">
+  <button id="search-btn" type="submit" name="submit" value="Search" aria-label="Search" formmethod="get"><i class="fa fa-search"></i></button>
+</form>
+            </div>
+            <div role="navigation">
+              <div id="primary-nav" class="menu-new-menu-container"><ul id="menu-new-menu" class="nav navbar-nav" aria-label="primary navigation"><li id="menu-item-8509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-83 current_page_item menu-item-8509"><a href="/https://recreation.stanford.edu/">Home</a></li>
+<li id="menu-item-8553" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-8553"><a class="dropdown-toggle" data-toggle="dropdown" href="/http://recreation.stanford.edu/">Programs <b class="caret"></b></a>
+<ul class="dropdown-menu">
+  <li id="menu-item-8521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8521"><a href="/https://recreation.stanford.edu/fitness-program">Fitness</a></li>
+  <li id="menu-item-8535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8535"><a href="/https://recreation.stanford.edu/aquatics-program/">Aquatics</a></li>
+  <li id="menu-item-8525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8525"><a href="/https://recreation.stanford.edu/climbing-program">Climbing</a></li>
+  <li id="menu-item-8541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8541"><a href="/https://recreation.stanford.edu/competitive-sports">Competitive Sports</a></li>
+  <li id="menu-item-9157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9157"><a href="/https://recreation.stanford.edu/recreational-program">Recreational Classes</a></li>
+  <li id="menu-item-8547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8547"><a href="/https://recreation.stanford.edu/adventure">Adventure</a></li>
+  <li id="menu-item-8997" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8997"><a href="/https://recreation.stanford.edu/youth-programs/">Youth Programs</a></li>
+</ul>
+</li>
+<li id="menu-item-8571" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-8571"><a class="dropdown-toggle" data-toggle="dropdown" href="/http://recreation.stanford.edu/">Facilities <b class="caret"></b></a>
+<ul class="dropdown-menu">
+  <li id="menu-item-8565" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8565"><a href="/https://recreation.stanford.edu/facilities/hours-and-locations">Hours</a></li>
+  <li id="menu-item-8567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8567"><a href="/https://recreation.stanford.edu/facilities/aoerc/">AOERC</a></li>
+  <li id="menu-item-8569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8569"><a href="/https://recreation.stanford.edu/facilities/acsr/">ACSR</a></li>
+  <li id="menu-item-8561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8561"><a href="/https://recreation.stanford.edu/facilities/pool/">Pools</a></li>
+  <li id="menu-item-8559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8559"><a href="/https://recreation.stanford.edu/facilities/lksc/">LKSC Fitness Center</a></li>
+  <li id="menu-item-8563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8563"><a href="/https://recreation.stanford.edu/facilities/slac/">SLAC</a></li>
+  <li id="menu-item-9285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9285"><a href="/https://recreation.stanford.edu/facilities/other">Other Rec Areas</a></li>
+</ul>
+</li>
+<li id="menu-item-8573" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-8573"><a class="dropdown-toggle" data-toggle="dropdown" href="/http://recreation.stanford.edu/">Services <b class="caret"></b></a>
+<ul class="dropdown-menu">
+  <li id="menu-item-8577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8577"><a href="/https://recreation.stanford.edu/services/access-and-passes">Access &amp; Passes</a></li>
+  <li id="menu-item-8581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8581"><a href="/https://recreation.stanford.edu/services/lockers/">Lockers</a></li>
+  <li id="menu-item-8583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8583"><a href="/https://recreation.stanford.edu/services/equipment-rentals">Equipment Checkout and Rental</a></li>
+  <li id="menu-item-8579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8579"><a href="/https://recreation.stanford.edu/services/policies/">Facility Policies</a></li>
+</ul>
+</li>
+<li id="menu-item-8585" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-8585"><a class="dropdown-toggle" data-toggle="dropdown" href="/http://recreation.stanford.edu/">About Us <b class="caret"></b></a>
+<ul class="dropdown-menu">
+  <li id="menu-item-8613" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8613"><a href="/https://recreation.stanford.edu/mission-statement/">Mission Statement</a></li>
+  <li id="menu-item-8607" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8607"><a href="/https://recreation.stanford.edu/community-partners/">Community Partners</a></li>
+  <li id="menu-item-8587" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8587"><a href="/https://recreation.stanford.edu/employment">Employment Opportunities</a></li>
+  <li id="menu-item-8589" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8589"><a href="/https://recreation.stanford.edu/staff/directory">Staff Directory</a></li>
+  <li id="menu-item-8615" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8615"><a href="/https://recreation.stanford.edu/staff-home/">Staff Resources</a></li>
+</ul>
+</li>
+</ul></div>            </div>
+          </div>
+          <!-- /nav-collapse --> 
+        </div>
+        <!-- /navbar --> 
+        
+      </div>
+      <!-- /container --> 
+    </div>
+    <!-- /mainmenu --> 
+    
+    <!-- main content -->
+    <div id="content" class="container" tabindex="0">
+      <div class="row">
+        <!-- Main column -->
+          <div id="main-content" class="col-md-12" role="main">
+            <script data-cfasync="false" type="text/javascript">var lsjQuery = jQuery;</script><script data-cfasync="false" type="text/javascript">lsjQuery(document).ready(function() {if(typeof lsjQuery.fn.layerSlider == "undefined") {if( window._layerSlider && window._layerSlider.showNotice) { window._layerSlider.showNotice('layerslider_9','jquery');}} else {lsjQuery("#layerslider_9").layerSlider({sliderVersion: '6.1.0', firstSlide: 'random', navStartStop: false, showCircleTimer: false, skinsPath: 'https://recreation.stanford.edu/wp-content/plugins/LayerSlider/static/layerslider/skins/'});}});</script><div id="layerslider_9" class="ls-wp-container fitvidsignore" style="width:1000px;height:300px;margin:0 auto;margin-bottom: 0px;"><div class="ls-slide" data-ls="duration:4500;kenburnsscale:1.2;"><img width="1560" height="433" class="ls-bg" alt="" srcset="https://recreation.stanford.edu/wp-content/uploads/2018/07/Mid-Quarter_Pricing_banner.png 1560w, https://recreation.stanford.edu/wp-content/uploads/2018/07/Mid-Quarter_Pricing_banner-600x167.png 600w, https://recreation.stanford.edu/wp-content/uploads/2018/07/Mid-Quarter_Pricing_banner-768x213.png 768w, https://recreation.stanford.edu/wp-content/uploads/2018/07/Mid-Quarter_Pricing_banner-1023x284.png 1023w" sizes="(max-width: 1560px) 100vw, 1560px" src="/https://recreation.stanford.edu/wp-content/uploads/2018/07/Mid-Quarter_Pricing_banner.png"><a target="_self" class="ls-link" href="/http://recreation.stanford.edu/fitness/group-fitness/"></a></div><div class="ls-slide" data-ls="bgsize:contain;duration:4500;kenburnsscale:1.2;"><img width="1560" height="433" class="ls-bg" alt="" srcset="https://recreation.stanford.edu/wp-content/uploads/2018/06/Summer_Hours_banner.png 1560w, https://recreation.stanford.edu/wp-content/uploads/2018/06/Summer_Hours_banner-600x167.png 600w, https://recreation.stanford.edu/wp-content/uploads/2018/06/Summer_Hours_banner-768x213.png 768w, https://recreation.stanford.edu/wp-content/uploads/2018/06/Summer_Hours_banner-1023x284.png 1023w" sizes="(max-width: 1560px) 100vw, 1560px" src="/https://recreation.stanford.edu/wp-content/uploads/2018/06/Summer_Hours_banner.png"><a target="_blank" class="ls-link" href="/http://recreation.stanford.edu/facility-summer-hours/"></a></div><div class="ls-slide" data-ls="duration:4500;kenburnsscale:1.2;"><img width="1000" height="300" class="ls-bg" alt="" srcset="https://recreation.stanford.edu/wp-content/uploads/2018/04/camp_cardinal.png 1000w, https://recreation.stanford.edu/wp-content/uploads/2018/04/camp_cardinal-600x180.png 600w, https://recreation.stanford.edu/wp-content/uploads/2018/04/camp_cardinal-768x230.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" src="/https://recreation.stanford.edu/wp-content/uploads/2018/04/camp_cardinal.png"><a target="_blank" class="ls-link" href="/http://recreation.stanford.edu/summer"></a></div><div class="ls-slide" data-ls="duration:4500;kenburnsscale:1.2;"><img width="1333" height="400" class="ls-bg" alt="" srcset="https://recreation.stanford.edu/wp-content/uploads/2018/04/Job_Post_banner2.png 1333w, https://recreation.stanford.edu/wp-content/uploads/2018/04/Job_Post_banner2-600x180.png 600w, https://recreation.stanford.edu/wp-content/uploads/2018/04/Job_Post_banner2-768x230.png 768w, https://recreation.stanford.edu/wp-content/uploads/2018/04/Job_Post_banner2-1023x307.png 1023w" sizes="(max-width: 1333px) 100vw, 1333px" src="/https://recreation.stanford.edu/wp-content/uploads/2018/04/Job_Post_banner2.png"><a target="_blank" class="ls-link" href="/https://recreation.stanford.edu/employment"></a></div><div class="ls-slide" data-ls="duration:4500;kenburnsscale:1.2;"><img width="1333" height="400" class="ls-bg" alt="" srcset="https://recreation.stanford.edu/wp-content/uploads/2018/04/Focused_Training_banner.png 1333w, https://recreation.stanford.edu/wp-content/uploads/2018/04/Focused_Training_banner-600x180.png 600w, https://recreation.stanford.edu/wp-content/uploads/2018/04/Focused_Training_banner-768x230.png 768w, https://recreation.stanford.edu/wp-content/uploads/2018/04/Focused_Training_banner-1023x307.png 1023w" sizes="(max-width: 1333px) 100vw, 1333px" src="/https://recreation.stanford.edu/wp-content/uploads/2018/04/Focused_Training_banner.png"><a target="_blank" class="ls-link" href="/http://recreation.stanford.edu/focused-training"></a></div></div>
+<p>&nbsp;</p>
+<h2 style="text-align: center;">Facility Hours</h2>
+<p style="text-align: center;"><a href="/https://recreation.stanford.edu/hours">Fitness Centers</a>&nbsp; |&nbsp;&nbsp;<a href="/http://recreation.stanford.edu/aquatics-program/swim-hours">Pools</a>&nbsp; |&nbsp;&nbsp;<a href="/http://recreation.stanford.edu/climbing-wall-hours">Climbing Wall</a>&nbsp; |&nbsp; <a href="/http://adventure.stanford.edu/center/">Outdoor Center</a></p>
+<p>&nbsp;</p>
+<h2 style="text-align: center;">News &amp; Updates</h2>
+<p style="text-align: center;"><a target="_blank" href="/https://signup.e2ma.net/signup/1773188/1743846/?v=a">Subscribe to our Newsletter!</a></p>
+<div class="rpwe-block "><ul class="rpwe-ul"><li class="rpwe-li rpwe-clearfix"><a class="rpwe-img" rel="bookmark" href="/https://recreation.stanford.edu/facility-summer-hours/"><img width="450" height="450" class="rpwe-aligncenter rpwe-thumb the-post-thumbnail wp-post-image" alt="Facility Summer Hours: 6/18-9/23" srcset="https://recreation.stanford.edu/wp-content/uploads/2018/06/AOERC_icon.png 450w, https://recreation.stanford.edu/wp-content/uploads/2018/06/AOERC_icon-45x45.png 45w" sizes="(max-width: 450px) 100vw, 450px" src="/https://recreation.stanford.edu/wp-content/uploads/2018/06/AOERC_icon.png"></a><h3 class="rpwe-title"><a title="Permalink to Facility Summer Hours: 6/18-9/23" rel="bookmark" href="/https://recreation.stanford.edu/facility-summer-hours/">Facility Summer Hours: 6/18-9/23</a></h3><time class="rpwe-time published" datetime="2018-06-04T13:02:18+00:00">June 4, 2018</time><div class="rpwe-summary">AOERC and ACSR summer hours will begin June 18th until September 23rd!<a class="more-link" href="/https://recreation.stanford.edu/facility-summer-hours/">Visit Page »</a></div></li><li class="rpwe-li rpwe-clearfix"><a class="rpwe-img" rel="bookmark" href="/https://recreation.stanford.edu/pool-hours-july-20-30/"><img width="450" height="450" class="rpwe-aligncenter rpwe-thumb the-post-thumbnail wp-post-image" alt="Pool Hours: July 20-30" srcset="https://recreation.stanford.edu/wp-content/uploads/2018/06/pool_hours_icon.png 450w, https://recreation.stanford.edu/wp-content/uploads/2018/06/pool_hours_icon-45x45.png 45w" sizes="(max-width: 450px) 100vw, 450px" src="/https://recreation.stanford.edu/wp-content/uploads/2018/06/pool_hours_icon.png"></a><h3 class="rpwe-title"><a title="Permalink to Pool Hours: July 20-30" rel="bookmark" href="/https://recreation.stanford.edu/pool-hours-july-20-30/">Pool Hours: July 20-30</a></h3><time class="rpwe-time published" datetime="2018-06-01T11:39:48+00:00">June 1, 2018</time><div class="rpwe-summary">The Avery Aquatic Center (AAC) will be closed July 20-30 Avery Rec Pool (ARP) will …<a class="more-link" href="/https://recreation.stanford.edu/pool-hours-july-20-30/">Visit Page »</a></div></li><li class="rpwe-li rpwe-clearfix"><a class="rpwe-img" rel="bookmark" href="/https://recreation.stanford.edu/summer"><img width="312" height="312" class="rpwe-aligncenter rpwe-thumb the-post-thumbnail wp-post-image" alt="Camp Cardinal" srcset="https://recreation.stanford.edu/wp-content/uploads/2018/04/youth_camp.png 312w, https://recreation.stanford.edu/wp-content/uploads/2018/04/youth_camp-45x45.png 45w" sizes="(max-width: 312px) 100vw, 312px" src="/https://recreation.stanford.edu/wp-content/uploads/2018/04/youth_camp.png"></a><h3 class="rpwe-title"><a title="Permalink to Camp Cardinal" rel="bookmark" href="/https://recreation.stanford.edu/summer">Camp Cardinal</a></h3><time class="rpwe-time published" datetime="2018-04-11T11:52:32+00:00">April 11, 2018</time><div class="rpwe-summary">&nbsp; REGISTER HERE Dates Session 1: June 4 – 8 Session 2: June 11 – …<a class="more-link" href="/https://recreation.stanford.edu/summer">Visit Page »</a></div></li></ul></div><!-- Generated by http://wordpress.org/plugins/recent-posts-widget-extended/ -->
+<h2><!-- END NEWS BLOCK --></h2>
+<div class="clearfix"></div>          </div>
+
+      </div> <!-- row -->
+    </div>
+    <!-- #content--> 
+    
+  </div>
+  <!-- #su-content --> 
+</div>
+<!-- #su-wrap --> 
+
+<!-- BEGIN footer -->
+<div id="footer" class="clearfix footer" role="contentinfo">
+    <!-- Fat footer start -->
+    <div class="container">      <div id="footer-content" class="row">
+<div class="col-xs-12 col-sm-12" id="social-icons">
+  <h3>Connect with us</h3>
+  <a href="/https://www.facebook.com/stanfordrecwell/"><img alt="Facebook" src="/https://recreation.stanford.edu/wp-content/themes/lagunita/images/social/facebook@2x.png"></a>
+  <a href="/https://twitter.com/stanfordrecwell/"><img alt="Twitter" src="/https://recreation.stanford.edu/wp-content/themes/lagunita/images/social/twitter@2x.png"></a>
+  <a href="/https://www.instagram.com/stanfordrecwell/"><img alt="Instagram" src="/https://recreation.stanford.edu/wp-content/themes/lagunita/images/social/instagram@2x.png"></a>
+</div>
+      </div>
+    </div>
+  <!-- Fat footer end -->
+  
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-xs-6 col-sm-2"> <a href="/http://www.stanford.edu"> <img alt="Stanford University" width="105" height="49" src="/https://recreation.stanford.edu/wp-content/themes/lagunita/images/footer-stanford-logo@2x.png"> </a> </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text" class="col-xs-6 col-sm-10">
+          <ul>
+            <li class="home"><a href="/http://www.stanford.edu">SU Home</a></li>
+            <li class="maps alt"><a class="su-link" data-ua-action="visit.stanford.edu/plan/maps" data-ua-label="global-footer" href="/http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+            <li class="search-stanford"><a href="/http://stanford.edu/search/">Search Stanford</a></li>
+            <li class="terms alt"><a href="/http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+            <li class="emergency-info"><a class="su-link" data-ua-label="global-footer" href="/http://emergency.stanford.edu/">Emergency Info</a></li>
+          </ul>
+        </div>
+        <!-- .bottom-text end -->
+        <div class="clear"></div>
+        <p class="copyright vcard col-sm-10">© <span class="fn org">Stanford University</span>.&nbsp; <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>. <span id="termsofuse"><a class="su-link" data-ua-action="copyright-complaints" data-ua-label="global-footer" href="/http://www.stanford.edu/group/security/dmca.html">Copyright Complaints</a>&nbsp;&nbsp;&nbsp;<a class="su-link" data-ua-action="trademark-notice" data-ua-label="global-footer" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademark Notice</a></span></p>
+      </div>
+      <!-- .row end --> 
+    </div>
+    <!-- .container end --> 
+  </div>
+  <!-- Global footer snippet end --> 
+  
+</div>
+<!-- END footer --> 
+
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4"></script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4"></script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4"></script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sta_settings = {"distance":"50","speed":"1000","exceptions":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-content/plugins/scroll-to-anchor/includes/../js/scroll-to-anchor.min.js?ver=4.9.6"></script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/jquery.qtip.min.js?ver=3.1.17"></script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/moment.min.js?ver=3.1.17"></script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/moment-timezone-with-data.min.js?ver=3.1.17"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var simcal_default_calendar = {"ajax_url":"\/wp-admin\/admin-ajax.php","nonce":"beab35bff2","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-content/plugins/google-calendar-events/assets/js/default-calendar.min.js?ver=3.1.17"></script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/imagesloaded.pkgd.min.js?ver=3.1.17"></script>
+<script type="text/javascript" src="/https://recreation.stanford.edu/wp-includes/js/wp-embed.min.js?ver=4.9.6"></script>
+
+
+</body></html>

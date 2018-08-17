@@ -1,0 +1,2192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="google-site-verification" content="MONL3Oq-NHL561i4NpuMUQ1OACdreXBB49t0hEIkijM">
+<title>Stanford University Explore Courses</title>
+<link rel="shortcut icon" href="/http://explorecourses.stanford.edu/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic,700italic">
+<link rel="stylesheet" type="text/css" href="/http://explorecourses.stanford.edu/css/crsearch.css.optimized.432d26bfd847cc7b.css">
+<script type="text/javascript" src="/https://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script> 
+<script type="text/javascript" src="/https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script> 
+		
+		<script type="text/javascript">
+		function flip(detailsBoxId)
+		{
+			if(document.getElementById(detailsBoxId).style.display == 'none') Effect.BlindDown(detailsBoxId);
+			else Effect.BlindUp(detailsBoxId);
+			return undefined;
+		}
+		</script>
+</head>
+<body id="mainpage">
+  
+  
+
+<!--  HEADER  -->
+
+	<div id="header">
+	  <div class="wrap">
+		<div id="topNav">
+			<div id="adminNav">&nbsp;</div>
+			<a href="/http://explorecourses.stanford.edu/about">About</a> |
+			
+				
+					<a href="/http://exploredegrees.stanford.edu">Explore Degrees</a>
+				
+				
+			
+			|
+			
+				
+					<a href="/https://explorecourses.stanford.edu/login?redirect=https%3A%2F%2Fexplorecourses.stanford.edu%2Fmyprofile">Sign in</a>
+				
+				
+			
+		</div>
+		<div id="logo">
+			<a href="/http://explorecourses.stanford.edu/"><img alt="Stanford University" src="/http://exploredegrees.stanford.edu/images/stanford-white.png"></a>
+		</div>
+		<div id="sitename">
+			<div id="bulletintext">
+				<a style="font-family: inherit; line-height: 1em;" href="/http://explorecourses.stanford.edu/">Bulletin<small style="font-family: inherit; line-height: 1.4em;">ExploreCourses</small></a>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+
+
+  <!--  MAIN PAGE CONTAINER  -->
+  <div id="container">	
+	  
+	  <!--  SEARCH / NAV BAR -->
+	  <div id="topRow">
+	    
+	    
+	
+		<table id="years">
+	      <tbody><tr>
+	      
+	      
+	      	
+	        
+	        	<td><a href="/http://explorecourses.stanford.edu/browse?academicYear=20142015">2014-2015</a></td>
+	        
+	      
+	      
+	      
+	      	
+	        
+	        	<td><a href="/http://explorecourses.stanford.edu/browse?academicYear=20152016">2015-2016</a></td>
+	        
+	      
+	      
+	      
+	      	
+	        
+	        	<td><a href="/http://explorecourses.stanford.edu/browse?academicYear=20162017">2016-2017</a></td>
+	        
+	      
+	      
+	      
+	      	
+	        
+	        	<td><a href="/http://explorecourses.stanford.edu/browse?academicYear=20172018">2017-2018</a></td>
+	        
+	      
+	      
+	      
+	      	
+	        	<td class="selected"><a onclick="return false;" href="/http://explorecourses.stanford.edu">2018-2019</a></td>
+	        
+	        
+	      
+	      
+	      </tr>
+	    </tbody></table>
+	
+	    
+	    <table id="topControls">
+	      <tbody><tr>
+	      	<td class="left"></td>
+	        <td class="content" id="searchbox">
+	    	  
+
+<form id="coursesearch" method="get" action="search" onsubmit="addCollapsed();">
+  <div>
+  	
+  		
+		    <input type="hidden" name="view" value="catalog">
+		
+		
+	
+	
+	<input type="hidden" name="filter-coursestatus-Active" value="on">
+	
+    <input type="hidden" name="page" value="0">
+    <input type="hidden" name="catalog" value="">
+    <input type="hidden" name="academicYear" value="">
+    <input class="inputBox" onfocus="searchFocus()" onblur="searchBlur()" type="text" title="search" value="" name="q" id="search_courses_input" alt="Search Courses">
+    <input type="hidden" name="collapse" id="collapsedFiltersSearch" value="">
+    <input id="submit" type="submit" value="go">
+  </div>
+</form>
+
+<script type="text/javascript">
+input = document.getElementById('search_courses_input');
+var defaultText = 'course name, instructor, title, or keyword...';
+
+searchFocus = function()
+{
+	if (input.value == defaultText)
+	{
+		input.value = '';
+	}
+};
+
+searchBlur = function()
+{
+	if (input.value == '')
+	{
+		input.value = defaultText;
+	}
+};
+
+searchBlur();
+
+addCollapsed = function()
+{
+	document.getElementById('collapsedFiltersSearch').value = collapsed;
+};
+</script>
+	        </td>
+	        <td class="right"></td>
+	         <td class="spacer">&nbsp;</td>
+	        <td id="bubbles"></td>
+	      </tr>
+	    </tbody></table>
+	  </div>
+
+		
+	
+	
+	
+	
+	
+	  
+	<!--  RESULTS HEADER -->
+	<div id="resultsHeader">
+	 	<div class="resultsSummary">
+	 	  <h1 class="searchTerm">Browse by Subject</h1>
+		</div>
+	</div>
+	
+	<div id="mainContent">
+		<div class="departmentsContainer">
+		
+			<h2 class="schoolName">Graduate School of Business</h2>
+			<ul title="Graduate School of Business departments - part 1"> 
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ACCT&amp;filter-departmentcode-ACCT=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Accounting (ACCT)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MGTECON&amp;filter-departmentcode-MGTECON=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Economic Analysis &amp; Policy (MGTECON)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=FINANCE&amp;filter-departmentcode-FINANCE=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Finance (FINANCE)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=GSBGEN&amp;filter-departmentcode-GSBGEN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						GSB General &amp; Interdisciplinary (GSBGEN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=HRMGT&amp;filter-departmentcode-HRMGT=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Human Resource Management (HRMGT)
+					</a></li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+			<ul title="Graduate School of Business departments - part 2">
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MKTG&amp;filter-departmentcode-MKTG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Marketing (MKTG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OIT&amp;filter-departmentcode-OIT=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Operations Information &amp; Technology (OIT)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OB&amp;filter-departmentcode-OB=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Organizational Behavior (OB)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=POLECON&amp;filter-departmentcode-POLECON=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Political Economics (POLECON)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=STRAMGT&amp;filter-departmentcode-STRAMGT=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Strategic Management (STRAMGT)
+					</a></li>
+				
+			
+			</ul>
+		
+			<h2 class="schoolName">School of Earth, Energy and Environmental Sciences</h2>
+			<ul title="School of Earth, Energy and Environmental Sciences departments - part 1"> 
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=EARTH&amp;filter-departmentcode-EARTH=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Earth, Energy, and Environmental Sciences (EARTH)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=EARTHSYS&amp;filter-departmentcode-EARTHSYS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Earth Systems (EARTHSYS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=EEES&amp;filter-departmentcode-EEES=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Earth, Energy, &amp; Environmental Sciences (EEES)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ENERGY&amp;filter-departmentcode-ENERGY=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Energy Resources Engineering (ENERGY)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ENVRES&amp;filter-departmentcode-ENVRES=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Environment and Resources (ENVRES)
+					</a></li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+			<ul title="School of Earth, Energy and Environmental Sciences departments - part 2">
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ESS&amp;filter-departmentcode-ESS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Earth System Science (ESS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=GEOLSCI&amp;filter-departmentcode-GEOLSCI=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Geological Sciences (GEOLSCI)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=GEOPHYS&amp;filter-departmentcode-GEOPHYS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Geophysics (GEOPHYS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SUST&amp;filter-departmentcode-SUST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Sustainability Science and Practice (SUST)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ENVRINST&amp;filter-departmentcode-ENVRINST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Woods Institute for the Environment (ENVRINST)
+					</a></li>
+				
+			
+			</ul>
+		
+			<h2 class="schoolName">School of Education</h2>
+			<ul title="School of Education departments - part 1"> 
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=EDUC&amp;filter-departmentcode-EDUC=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Education (EDUC)
+					</a></li>
+				
+			
+			</ul>
+			<ul title="School of Education departments - part 2">
+			
+				
+			
+			</ul>
+		
+			<h2 class="schoolName">School of Engineering</h2>
+			<ul title="School of Engineering departments - part 1"> 
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=AA&amp;filter-departmentcode-AA=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Aeronautics &amp; Astronautics (AA)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=BIOE&amp;filter-departmentcode-BIOE=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Bioengineering (BIOE)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CHEMENG&amp;filter-departmentcode-CHEMENG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Chemical Engineering (CHEMENG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CEE&amp;filter-departmentcode-CEE=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Civil &amp; Environmental Engineering (CEE)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CME&amp;filter-departmentcode-CME=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Computational &amp; Mathematical Engineering (CME)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CS&amp;filter-departmentcode-CS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Computer Science (CS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=DESINST&amp;filter-departmentcode-DESINST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Design Institute (DESINST)
+					</a></li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+			<ul title="School of Engineering departments - part 2">
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=EE&amp;filter-departmentcode-EE=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Electrical Engineering (EE)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ENGR&amp;filter-departmentcode-ENGR=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Engineering (ENGR)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MS%26E&amp;filter-departmentcode-MS%26E=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Management Science &amp; Engineering (MS&amp;E)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MATSCI&amp;filter-departmentcode-MATSCI=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Materials Science &amp; Engineer (MATSCI)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ME&amp;filter-departmentcode-ME=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Mechanical Engineering (ME)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SCCM&amp;filter-departmentcode-SCCM=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Scientific Computing &amp; Comput'l Math (SCCM)
+					</a></li>
+				
+			
+			</ul>
+		
+			<h2 class="schoolName">School of Humanities &amp; Sciences</h2>
+			<ul title="School of Humanities &amp; Sciences departments - part 1"> 
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=AFRICAAM&amp;filter-departmentcode-AFRICAAM=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						African &amp; African American Studies (AFRICAAM)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=AMELANG&amp;filter-departmentcode-AMELANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						African &amp; Middle Eastern Languages (AMELANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=AFRICAST&amp;filter-departmentcode-AFRICAST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						African Studies (AFRICAST)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=AMSTUD&amp;filter-departmentcode-AMSTUD=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						American Studies (AMSTUD)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ANTHRO&amp;filter-departmentcode-ANTHRO=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Anthropology (ANTHRO)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=APPPHYS&amp;filter-departmentcode-APPPHYS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Applied Physics (APPPHYS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ARABLANG&amp;filter-departmentcode-ARABLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Arabic Language (ARABLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ARCHLGY&amp;filter-departmentcode-ARCHLGY=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Archaeology (ARCHLGY)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ARTHIST&amp;filter-departmentcode-ARTHIST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Art History (ARTHIST)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ARTSINST&amp;filter-departmentcode-ARTSINST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Arts Institute (ARTSINST)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ARTSTUDI&amp;filter-departmentcode-ARTSTUDI=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Art Studio (ARTSTUDI)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ASNAMST&amp;filter-departmentcode-ASNAMST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Asian American Studies (ASNAMST)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ASNLANG&amp;filter-departmentcode-ASNLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Asian Languages (ASNLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=BIO&amp;filter-departmentcode-BIO=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Biology (BIO)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=BIOHOPK&amp;filter-departmentcode-BIOHOPK=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Biology/Hopkins Marine (BIOHOPK)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=BIOPHYS&amp;filter-departmentcode-BIOPHYS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Biophysics (BIOPHYS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CATLANG&amp;filter-departmentcode-CATLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Catalan Language Courses (CATLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CHEM&amp;filter-departmentcode-CHEM=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Chemistry (CHEM)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CHILATST&amp;filter-departmentcode-CHILATST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Chicana/o-Latina/o Studies (CHILATST)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CHINA&amp;filter-departmentcode-CHINA=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Chinese (CHINA)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CHINLANG&amp;filter-departmentcode-CHINLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Chinese Language (CHINLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CLASSICS&amp;filter-departmentcode-CLASSICS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Classics (CLASSICS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=COMM&amp;filter-departmentcode-COMM=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Communication (COMM)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=COMPLIT&amp;filter-departmentcode-COMPLIT=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Comparative Literature (COMPLIT)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CSRE&amp;filter-departmentcode-CSRE=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Comparative Studies in Race &amp; Ethnicity (CSRE)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=DANCE&amp;filter-departmentcode-DANCE=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Dance (DANCE)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=DLCL&amp;filter-departmentcode-DLCL=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Division of Literatures, Cultures, &amp; Languages (DLCL)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=TAPS&amp;filter-departmentcode-TAPS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Drama (TAPS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=EALC&amp;filter-departmentcode-EALC=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						East Asian Languages &amp; Cultures (EALC)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=EASTASN&amp;filter-departmentcode-EASTASN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						East Asian Studies (EASTASN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ECON&amp;filter-departmentcode-ECON=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Economics (ECON)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ENGLISH&amp;filter-departmentcode-ENGLISH=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						English (ENGLISH)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=EFSLANG&amp;filter-departmentcode-EFSLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						English for Foreign Students (EFSLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ETHICSOC&amp;filter-departmentcode-ETHICSOC=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Ethics in Society (ETHICSOC)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=FEMGEN&amp;filter-departmentcode-FEMGEN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Feminist, Gender and Sexuality Studies (FEMGEN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=FILMPROD&amp;filter-departmentcode-FILMPROD=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Film Production (FILMPROD)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=FILMSTUD&amp;filter-departmentcode-FILMSTUD=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Film Studies (FILMSTUD)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=FRENLANG&amp;filter-departmentcode-FRENLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						French Language (FRENLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=FRENCH&amp;filter-departmentcode-FRENCH=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						French Studies (FRENCH)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=GERLANG&amp;filter-departmentcode-GERLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						German Language (GERLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=GERMAN&amp;filter-departmentcode-GERMAN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						German Studies (GERMAN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=GLOBAL&amp;filter-departmentcode-GLOBAL=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Global Studies (GLOBAL)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=HISTORY&amp;filter-departmentcode-HISTORY=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						History (HISTORY)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=HPS&amp;filter-departmentcode-HPS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						History &amp; Philosophy of Science (HPS)
+					</a></li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+			<ul title="School of Humanities &amp; Sciences departments - part 2">
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=HUMBIO&amp;filter-departmentcode-HUMBIO=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Human Biology (HUMBIO)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=HUMRTS&amp;filter-departmentcode-HUMRTS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Human Rights (HUMRTS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=HUMCORE&amp;filter-departmentcode-HUMCORE=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Humanities Core (HUMCORE)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=HUMSCI&amp;filter-departmentcode-HUMSCI=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Humanities &amp; Sciences (HUMSCI)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ILAC&amp;filter-departmentcode-ILAC=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Iberian &amp; Latin American Cultures (ILAC)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=IIS&amp;filter-departmentcode-IIS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Institute for International Studies (FSI) (IIS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=INTLPOL&amp;filter-departmentcode-INTLPOL=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						International Policy (INTLPOL)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=INTNLREL&amp;filter-departmentcode-INTNLREL=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						International Relations (INTNLREL)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ITALLANG&amp;filter-departmentcode-ITALLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Italian Language (ITALLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ITALIAN&amp;filter-departmentcode-ITALIAN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Italian Studies (ITALIAN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=JAPAN&amp;filter-departmentcode-JAPAN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Japanese (JAPAN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=JAPANLNG&amp;filter-departmentcode-JAPANLNG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Japanese Language (JAPANLNG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=JEWISHST&amp;filter-departmentcode-JEWISHST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Jewish Studies (JEWISHST)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=KOREA&amp;filter-departmentcode-KOREA=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Korean (KOREA)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=KORLANG&amp;filter-departmentcode-KORLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Korean Language (KORLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=LATINAM&amp;filter-departmentcode-LATINAM=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Latin American Studies (LATINAM)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=LINGUIST&amp;filter-departmentcode-LINGUIST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Linguistics (LINGUIST)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MCS&amp;filter-departmentcode-MCS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Mathematical &amp; Computational Science (MCS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MATH&amp;filter-departmentcode-MATH=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Mathematics (MATH)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MEDVLST&amp;filter-departmentcode-MEDVLST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Medieval Studies (MEDVLST)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MTL&amp;filter-departmentcode-MTL=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Modern Thought &amp; Literature (MTL)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MUSIC&amp;filter-departmentcode-MUSIC=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Music (MUSIC)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=NATIVEAM&amp;filter-departmentcode-NATIVEAM=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Native American Studies (NATIVEAM)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=PHIL&amp;filter-departmentcode-PHIL=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Philosophy (PHIL)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=PHYSICS&amp;filter-departmentcode-PHYSICS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Physics (PHYSICS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=POLISCI&amp;filter-departmentcode-POLISCI=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Political Science (POLISCI)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=PORTLANG&amp;filter-departmentcode-PORTLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Portuguese Language (PORTLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=PSYCH&amp;filter-departmentcode-PSYCH=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Psychology (PSYCH)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=PUBLPOL&amp;filter-departmentcode-PUBLPOL=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Public Policy (PUBLPOL)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=RELIGST&amp;filter-departmentcode-RELIGST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Religious Studies (RELIGST)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=REES&amp;filter-departmentcode-REES=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Russian, East European, &amp; Eurasian Studies (REES)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=STS&amp;filter-departmentcode-STS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Science, Technology, &amp; Society (STS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SLAVLANG&amp;filter-departmentcode-SLAVLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Slavic Language (SLAVLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SLAVIC&amp;filter-departmentcode-SLAVIC=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Slavic Studies (SLAVIC)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SOC&amp;filter-departmentcode-SOC=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Sociology (SOC)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SPANLANG&amp;filter-departmentcode-SPANLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Spanish Language (SPANLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ILAC&amp;filter-departmentcode-ILAC=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Spanish, Portuguese, &amp; Catalan Literature (ILAC)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SPECLANG&amp;filter-departmentcode-SPECLANG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Special Language Program (SPECLANG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SIW&amp;filter-departmentcode-SIW=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Stanford in Washington (SIW)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=STATS&amp;filter-departmentcode-STATS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Statistics (STATS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SYMSYS&amp;filter-departmentcode-SYMSYS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Symbolic Systems (SYMSYS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=TAPS&amp;filter-departmentcode-TAPS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Theater and Performance Studies (TAPS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=TIBETLNG&amp;filter-departmentcode-TIBETLNG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Tibetan Language (TIBETLNG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=URBANST&amp;filter-departmentcode-URBANST=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Urban Studies (URBANST)
+					</a></li>
+				
+			
+			</ul>
+		
+			<h2 class="schoolName">Law School</h2>
+			<ul title="Law School departments - part 1"> 
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=LAW&amp;filter-departmentcode-LAW=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Law (LAW)
+					</a></li>
+				
+			
+				
+			
+			</ul>
+			<ul title="Law School departments - part 2">
+			
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=LAWGEN&amp;filter-departmentcode-LAWGEN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Law, Nonprofessional (LAWGEN)
+					</a></li>
+				
+			
+			</ul>
+		
+			<h2 class="schoolName">School of Medicine</h2>
+			<ul title="School of Medicine departments - part 1"> 
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ANES&amp;filter-departmentcode-ANES=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Anesthesia (ANES)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=BIOC&amp;filter-departmentcode-BIOC=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Biochemistry (BIOC)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=BIODS&amp;filter-departmentcode-BIODS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Biomedical Data Science (BIODS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=BIOMEDIN&amp;filter-departmentcode-BIOMEDIN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Biomedical Informatics (BIOMEDIN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=BIOS&amp;filter-departmentcode-BIOS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Biosciences Interdisciplinary (BIOS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CBIO&amp;filter-departmentcode-CBIO=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Cancer Biology (CBIO)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CTS&amp;filter-departmentcode-CTS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Cardiothoracic Surgery (CTS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CSB&amp;filter-departmentcode-CSB=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Chemical &amp; Systems Biology (CSB)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=CHPR&amp;filter-departmentcode-CHPR=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Community Health and Prevention Research (CHPR)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=COMPMED&amp;filter-departmentcode-COMPMED=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Comparative Medicine (COMPMED)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=DERM&amp;filter-departmentcode-DERM=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Dermatology (DERM)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=DBIO&amp;filter-departmentcode-DBIO=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Developmental Biology (DBIO)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=EMED&amp;filter-departmentcode-EMED=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Emergency Medicine (EMED)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=FAMMED&amp;filter-departmentcode-FAMMED=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Family and Community Medicine (FAMMED)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=GENE&amp;filter-departmentcode-GENE=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Genetics (GENE)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=HRP&amp;filter-departmentcode-HRP=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Health Research &amp; Policy (HRP)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=IMMUNOL&amp;filter-departmentcode-IMMUNOL=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Immunology (IMMUNOL)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MED&amp;filter-departmentcode-MED=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Medicine (MED)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=INDE&amp;filter-departmentcode-INDE=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Medicine Interdisciplinary (INDE)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MI&amp;filter-departmentcode-MI=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Microbiology &amp; Immunology (MI)
+					</a></li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+			<ul title="School of Medicine departments - part 2">
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MCP&amp;filter-departmentcode-MCP=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Molecular &amp; Cellular Physiology (MCP)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=NBIO&amp;filter-departmentcode-NBIO=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Neurobiology (NBIO)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=NENS&amp;filter-departmentcode-NENS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Neurology &amp; Neurological Sciences (NENS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=NEPR&amp;filter-departmentcode-NEPR=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Neurosciences Program (NEPR)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=NSUR&amp;filter-departmentcode-NSUR=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Neurosurgery (NSUR)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OBGYN&amp;filter-departmentcode-OBGYN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Obstetrics &amp; Gynecology (OBGYN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OPHT&amp;filter-departmentcode-OPHT=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Ophthalmology (OPHT)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ORTHO&amp;filter-departmentcode-ORTHO=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Orthopedic Surgery (ORTHO)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OTOHNS&amp;filter-departmentcode-OTOHNS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Otolaryngology (OTOHNS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=PATH&amp;filter-departmentcode-PATH=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Pathology (PATH)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=PEDS&amp;filter-departmentcode-PEDS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Pediatrics (PEDS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=PAS&amp;filter-departmentcode-PAS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Physician Assistant Studies (PAS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=PSYC&amp;filter-departmentcode-PSYC=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Psychiatry (PSYC)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=RADO&amp;filter-departmentcode-RADO=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Radiation Oncology (RADO)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=RAD&amp;filter-departmentcode-RAD=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Radiology (RAD)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SOMGEN&amp;filter-departmentcode-SOMGEN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						School of Medicine General (SOMGEN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=STEMREM&amp;filter-departmentcode-STEMREM=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Stem Cell Biology and Regenerative Medicine (STEMREM)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SBIO&amp;filter-departmentcode-SBIO=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Structural Biology (SBIO)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SURG&amp;filter-departmentcode-SURG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Surgery (SURG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=UROL&amp;filter-departmentcode-UROL=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Urology (UROL)
+					</a></li>
+				
+			
+			</ul>
+		
+			<h2 class="schoolName">Office of Vice Provost for Undergraduate Education</h2>
+			<ul title="Office of Vice Provost for Undergraduate Education departments - part 1"> 
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ESF&amp;filter-departmentcode-ESF=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Education as Self-Fashioning (ESF)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ITALIC&amp;filter-departmentcode-ITALIC=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Immersion in the Arts (ITALIC)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ORALCOMM&amp;filter-departmentcode-ORALCOMM=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Oral Communications (ORALCOMM)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPGEN&amp;filter-departmentcode-OSPGEN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies General (OSPGEN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPAUSTL&amp;filter-departmentcode-OSPAUSTL=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Australia (OSPAUSTL)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPBARCL&amp;filter-departmentcode-OSPBARCL=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Barcelona (CASB) (OSPBARCL)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPBEIJ&amp;filter-departmentcode-OSPBEIJ=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Beijing (OSPBEIJ)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPBER&amp;filter-departmentcode-OSPBER=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Berlin (OSPBER)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPCPTWN&amp;filter-departmentcode-OSPCPTWN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Cape Town (OSPCPTWN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPFLOR&amp;filter-departmentcode-OSPFLOR=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Florence (OSPFLOR)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPISTAN&amp;filter-departmentcode-OSPISTAN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Istanbul (OSPISTAN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPKYOTO&amp;filter-departmentcode-OSPKYOTO=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Kyoto (OSPKYOTO)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPKYOCT&amp;filter-departmentcode-OSPKYOCT=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Kyoto (KCJS) (OSPKYOCT)
+					</a></li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+			<ul title="Office of Vice Provost for Undergraduate Education departments - part 2">
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPMADRD&amp;filter-departmentcode-OSPMADRD=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Madrid (OSPMADRD)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPOXFRD&amp;filter-departmentcode-OSPOXFRD=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Oxford (OSPOXFRD)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPPARIS&amp;filter-departmentcode-OSPPARIS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Paris (OSPPARIS)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OSPSANTG&amp;filter-departmentcode-OSPSANTG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Overseas Studies in Santiago (OSPSANTG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=RESPROG&amp;filter-departmentcode-RESPROG=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Residential Programs (RESPROG)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ROTCAF&amp;filter-departmentcode-ROTCAF=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						ROTC Air Force (ROTCAF)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ROTCARMY&amp;filter-departmentcode-ROTCARMY=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						ROTC Army (ROTCARMY)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ROTCNAVY&amp;filter-departmentcode-ROTCNAVY=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						ROTC Navy (ROTCNAVY)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SINY&amp;filter-departmentcode-SINY=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Stanford in New York (SINY)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=SLE&amp;filter-departmentcode-SLE=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Structured Liberal Education (SLE)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=THINK&amp;filter-departmentcode-THINK=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Thinking Matters (THINK)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=UAR&amp;filter-departmentcode-UAR=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Undergraduate Advising and Research (UAR)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=PWR&amp;filter-departmentcode-PWR=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Writing &amp; Rhetoric, Program in (PWR)
+					</a></li>
+				
+			
+			</ul>
+		
+			<h2 class="schoolName">Office of Vice Provost for Teaching and Learning</h2>
+			<ul title="Office of Vice Provost for Teaching and Learning departments - part 1"> 
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=VPTL&amp;filter-departmentcode-VPTL=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Teaching and Learning (VPTL)
+					</a></li>
+				
+			
+			</ul>
+			<ul title="Office of Vice Provost for Teaching and Learning departments - part 2">
+			
+				
+			
+			</ul>
+		
+			<h2 class="schoolName">Health and Human Performance</h2>
+			<ul title="Health and Human Performance departments - part 1"> 
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=ATHLETIC&amp;filter-departmentcode-ATHLETIC=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Athletics and Club Sports (ATHLETIC)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=KIN&amp;filter-departmentcode-KIN=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Kinesiology (KIN)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=LEAD&amp;filter-departmentcode-LEAD=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Leadership Innovations (LEAD)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=LIFE&amp;filter-departmentcode-LIFE=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Lifeworks (LIFE)
+					</a></li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+			<ul title="Health and Human Performance departments - part 2">
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=OUTDOOR&amp;filter-departmentcode-OUTDOOR=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Outdoor Education (OUTDOOR)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=PE&amp;filter-departmentcode-PE=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Physical Education (PE)
+					</a></li>
+				
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=WELLNESS&amp;filter-departmentcode-WELLNESS=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Wellness Education (WELLNESS)
+					</a></li>
+				
+			
+			</ul>
+		
+			<h2 class="schoolName">Stanford Continuing Studies</h2>
+			<ul title="Stanford Continuing Studies departments - part 1"> 
+			
+				
+					
+					<li><a href="/http://explorecourses.stanford.edu/search;jsessionid=16za3ncjjzqah1xx6se6f2ddhf?view=catalog&amp;academicYear=&amp;page=0&amp;q=MLA&amp;filter-departmentcode-MLA=on&amp;filter-coursestatus-Active=on&amp;filter-term-Autumn=on">
+						Master of Liberal Arts (MLA)
+					</a></li>
+				
+			
+			</ul>
+			<ul title="Stanford Continuing Studies departments - part 2">
+			
+				
+			
+			</ul>
+		
+			<h2 class="schoolName">Undergraduate General Education Requirements</h2>
+			<ul title="WAYs">
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-WAYAII=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">WAY-A-II: Aesthetic and Interpretive Inquiry</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-WAYAQR=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">WAY-AQR: Applied Quantitative Reasoning</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-WAYCE=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">WAY-CE: Creative Expression</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-WAYED=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">WAY-ED: Engaging Diversity</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-WAYER=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">WAY-ER: Ethical Reasoning</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-WAYFR=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">WAY-FR: Formal Reasoning</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-WAYSI=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">WAY-SI: Social Inquiry</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-WAYSMA=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">WAY-SMA: Scientific Method and Analysis</a></li>
+			</ul>
+			<ul title="GERs">
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-GERDBEngrAppSci=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">DB-EngrAppSci: Engineering and Applied Sciences</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-GERDBHum=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">DB-Hum: Humanities</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-GERDBMath=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">DB-Math: Mathematics</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-GERDBNatSci=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">DB-NatSci: Natural Sciences</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-GERDBSocSci=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">DB-SocSci: Social Sciences</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-GERECAmerCul=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">EC-AmerCul: American Cultures</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-GERECGlobalCom=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">EC-GlobalCom: Global Community</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-GERECGender=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">EC-Gender: Gender Studies</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-GERECEthicReas=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">EC-EthicReas: Ethical Reasoning</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;catalog=&amp;filter-ger-GERECEthicReas=on&amp;collapse=,5,&amp;filter-coursestatus-Active=on&amp;academicYear=">EC-EthicReas: Ethical Reasoning</a></li>
+			</ul>
+			
+			<h2 class="schoolName">More Course Lists</h2>
+			<ul title="more course lists">
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;filter-component-IDS=on&amp;filter-component-ISF=on&amp;filter-component-ISS=on&amp;collapse=,6,&amp;filter-coursestatus-Active=on&amp;academicYear=">Introductory Seminars</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=all%20courses&amp;view=catalog&amp;page=0&amp;filter-component-API=on&amp;collapse=,6,&amp;filter-coursestatus-Active=on&amp;academicYear=">Arts Intensive Program</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?view=catalog&amp;filter-coursestatus-Active=on&amp;page=0&amp;catalog=&amp;q=CIGH%3A%3A*&amp;collapse=&amp;academicYear=">Community Global Health</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?view=catalog&amp;filter-coursestatus-Active=on&amp;page=0&amp;catalog=&amp;q=Design+Institute+class&amp;collapse=,6,&amp;academicYear=">Design Institute</a></li>
+				<li><a href="/http://explorecourses.stanford.edu/search?q=%25&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Summer=on&amp;filter-component-SCS=on&amp;collapse=%2C6%2C&amp;filter-coursestatus-Active=on">Sophomore College Courses (SCS)</a></li>
+				
+			</ul>
+			<ul title="more course lists">
+				<li>
+					<a href="/http://explorecourses.stanford.edu/javascript:flip('CardinalCourses')">Cardinal Courses</a>
+					<div id="CardinalCourses" style="display: none; padding-left: 20px;">
+						<ul title="Cardinal Courses" style="width: 100%;">
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CARDCOURSES%3A%3A*&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Cardinal Courses:All Courses</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CARDCOURSES%3A%3Aeduc&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Cardinal Courses:Education</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CARDCOURSES%3A%3Aeng&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Cardinal Courses:Engineering</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CARDCOURSES%3A%3Aenv&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Cardinal Courses:Environment</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CARDCOURSES%3A%3Ahealth&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Cardinal Courses:Health</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CARDCOURSES%3A%3Ahumanrights&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Cardinal Courses:Human Rights</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CARDCOURSES%3A%3Aidentity&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Cardinal Courses:Identity</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CARDCOURSES%3A%3Ageneral&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Cardinal Courses:General</a></li>
+						</ul>
+					</div>
+					
+				</li>
+				<li>
+					<a href="/http://explorecourses.stanford.edu/javascript:flip('Pathways')">Pathways</a>
+					<div id="Pathways" style="display: none; padding-left: 20px;">
+						<ul title="Pathways" style="width: 100%;">
+							<li><a href="/http://explorecourses.stanford.edu/search?q=PATHWAYS%3A%3A*&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Pathways: All Courses</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=PATHWAYS%3A%3Aactivism&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Pathways: Community Organizing and Activism</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=PATHWAYS%3A%3Acelr&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Pathways: Community Engaged Learning and Research</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=PATHWAYS%3A%3Aservice&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Pathways: Direct Service</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=PATHWAYS%3A%3Aphilan&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Pathways: Philanthropy</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=PATHWAYS%3A%3Apolicy&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Pathways: Policy and Governance</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=PATHWAYS%3A%3Aentre&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Pathways: Social Entrepreneurship and Corporate Social Responsibility</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a href="/http://explorecourses.stanford.edu/javascript:flip('GSB CSI Certificates')">GSB CSI Certificates</a>
+					<div id="GSB CSI Certificates" style="display: none; padding-left: 20px;">
+						<ul title="GSB CSI Certificates" style="width: 100%;">
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Acertificate&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">All Certificate Courses</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Aimpactfunding&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Impact Funding</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Apolicy-government&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Policy &amp; Government</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Anonprofit&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Nonprofit</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Aresponsiblebusiness&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Responsible Business</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Asocialentrepreneurship&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Social Entrepreneurship</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Adiversity&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Diversity</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Aeconomicdevelopment&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Economic Development</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Aeducation&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Education</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Aenergy-environment&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Energy &amp; Environment</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Afood-ag&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Food &amp; Agriculture</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Ahealth&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Health</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Ahumanrights&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Human Rights</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Apoverty&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Poverty Alleviation</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=CSI%3A%3Aprojectcourse&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Project Based Courses</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a onclick="flip('VPGE'); return false;" href="/http://explorecourses.stanford.edu/javascript: flip('VPGE')">Vice Provost for Graduate Education</a>
+					<div id="VPGE" style="display: none; padding-left: 20px;">
+						<ul title="Vice Provost for Graduate Education" style="width: 100%;">
+							<li><a href="/http://explorecourses.stanford.edu/search?q=VPGE%3A%3A*&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">All Professional Development Courses</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=VPGE%3A%3ASpecialized&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Specialized Content Knowledge &amp; Skills Courses</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=VPGE%3A%3ATeaching&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Teaching Courses</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=VPGE%3A%3ACommunication&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Communication Courses</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=VPGE%3A%3ALeadership&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Leadership &amp; Management Courses</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=VPGE%3A%3APersonal&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Personal Development Courses</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=VPGE%3A%3ACareer&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Career Development Courses</a></li>
+							<li><a href="/http://explorecourses.stanford.edu/search?q=VPGE%3A%3AInterdisciplinary&amp;view=catalog&amp;page=0&amp;academicYear=&amp;filter-term-Autumn=on&amp;filter-term-Winter=on&amp;filter-term-Spring=on&amp;filter-term-Summer=on&amp;collapse=&amp;filter-coursestatus-Active=on">Interdisciplinary Learning Courses</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+  </div>
+  <!--  FOOTER  -->    
+
+<div id="footerStripe">  	  	
+  	© Stanford University |
+  	<a href="/http://stanford.edu/site/terms.html">Terms of Use</a> |
+  	<a href="/http://stanford.edu/site/copyright.html">Copyright Complaints</a>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3165447-5");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+  <script type="text/javascript" src="/https://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"> </script>
+  <!-- TODO: Do this only after everything else has completely loaded. -->
+  <div><img style="width: 1px; height: 1px;" src="/http://explorecourses.stanford.edu/login?redirect=https%3A%2F%2Fexplorecourses.stanford.edu%2F"></div>
+
+
+</body></html>

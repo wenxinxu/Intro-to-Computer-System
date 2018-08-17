@@ -1,0 +1,1631 @@
+<!DOCTYPE html><!--[if lt IE 7]> <html class="ie6 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 7]>    <html class="ie7 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 8]>    <html class="ie8 ie" lang="en" dir="ltr"> <![endif]--><!--[if gt IE 8]> <!--><html class="" lang="en" dir="ltr"><!--<![endif]--><!--[if IE 9]>    <html class="ie9 ie" lang="en" dir="ltr"> <![endif]--><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/https://fsi.stanford.edu/sites/all/themes/fsird/favicon.ico">
+<meta name="description" content="The Freeman Spogli Institute (FSI) is Stanford University's primary forum for interdisciplinary research on key international issues and challenges.">
+<meta name="generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="/https://fsi.stanford.edu/fsi-front">
+<link rel="shortlink" href="/https://fsi.stanford.edu/node/221791">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site:id" content="@FSIStanford">
+<meta name="twitter:creator" content="@FSIStanford">
+<meta name="twitter:url" content="https://fsi.stanford.edu/fsi-front">
+<meta name="twitter:title" content="Freeman Spogli Institute">
+<meta name="twitter:description" content="The Freeman Spogli Institute for International Studies is a university-wide research and education institution at Stanford devoted to understanding the problems, policies, and processes that cross">
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=10.0,initial-scale=1.0">
+  <title>FSI - Freeman Spogli Institute</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/https://fsi.stanford.edu/sites/default/files/css/css_cwapSra-tGRaldlbuXE2MIbSgNEIWC3V0y65x2lOmxY.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://fsi.stanford.edu/sites/default/files/css/css_vNQuewmWCZHVX_p-W7Y4nwnFDeSb0vneUBkstHOUotg.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://fsi.stanford.edu/sites/default/files/css/css_k9RI261fQjXM1JTcc21NKyo8qSPWhDRZljt4Nu7BQ2g.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://fsi.stanford.edu/sites/default/files/css/css_G_2flrKAJbMGc_KyTiO85tLrL6zPQuRouvXYf7zuGcU.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://fsi.stanford.edu/sites/default/files/css/css_eziLFpdvAD3f4D1tYYCPtaXVCuJmG31_aSlfNUuJI8I.css">
+
+<!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="https://fsi.stanford.edu/sites/default/files/css/css_bcrRAPIK0BDh6skwekt9hJHM3YAqSScGSchpc2n5q3c.css" media="all" />
+<![endif]-->
+  <link rel="stylesheet" href="/https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(h,o,t,j,a,r){
+  h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+  h._hjSettings={hjid:"481449",hjsv:6};
+  a=o.getElementsByTagName('head')[0];
+  r=o.createElement('script');r.async=1;
+  r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+  a.appendChild(r);
+})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+//--><!]]>
+</script>
+<script type="text/javascript" src="/https://fsi.stanford.edu/sites/default/files/js/js_oTw2mccdSyi5Mu_UeNjwZZ2nsxd4cA8KM0jkogZEw68.js"></script>
+<script type="text/javascript" src="/https://fsi.stanford.edu/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="/https://fsi.stanford.edu/sites/default/files/js/js_Xk8TsyNfILciPNmQPp9sl88cjH71DQWyeHE0MB62KO4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.createElement( "picture" );
+//--><!]]>
+</script>
+<script type="text/javascript" src="/https://fsi.stanford.edu/sites/default/files/js/js_V8YQPaogrxq9tKke0ax5z8Iq4chX9NmXX29_om-xj1A.js"></script>
+<script type="text/javascript" src="/https://fsi.stanford.edu/sites/default/files/js/js_pr3h07kyR2yqdXd2nzSpIyedn5ATEijiQ9TrZEeHHMY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-25226167-1", {"cookieDomain":".fsi.stanford.edu"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="/https://fsi.stanford.edu/sites/default/files/js/js_ZwtHh_UtMhEyIZ7P23uU_tO_tZHXgPG1rk11b_m8s9Y.js"></script>
+<script type="text/javascript" src="/https://fsi.stanford.edu/sites/default/files/js/js_wJYGk67fY79TxuyENdpdno73PWMhbBqMR0eYTvQVDvc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fsird","theme_token":"KD8FwVNM0FCQ0V4Gl3Dl4Slsy-CMgCgmPhMxjNMzn0s","jquery_version":"1.7","js":{"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/themes\/fsi\/source\/js\/scripts.js":1,"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"1":1,"sites\/all\/modules\/contrib\/media_colorbox\/media_colorbox.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/modules\/contrib\/mediaelement\/mediaelement.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"2":1,"misc\/progress.js":1,"sites\/all\/themes\/open_framework\/js\/open_framework.js":1,"sites\/all\/themes\/open_framework\/js\/override.js":1,"sites\/all\/themes\/fsi\/js\/script.js":1,"sites\/all\/themes\/fsi\/js\/fsird-scripts.js":1,"sites\/all\/themes\/fsi\/js\/touch.js":1,"sites\/all\/themes\/fsi\/js\/jquery.collapser.min.js":1,"sites\/all\/themes\/fsi\/js\/readmore.js":1,"sites\/all\/themes\/fsi\/js\/jquery.once.js":1,"sites\/all\/themes\/fsi\/js\/jquery.resizestop.min.js":1,"sites\/all\/themes\/fsi\/source\/js\/lib\/froogaloop2.min.js":1,"sites\/all\/themes\/fsi\/source\/js\/lib\/iframe_api.js":1,"sites\/all\/themes\/fsi\/source\/js\/lib\/enquire.min.js":1,"sites\/all\/themes\/fsi\/source\/js\/lib\/media.match.min.js":1,"sites\/all\/themes\/fsi\/source\/js\/lib\/waypoints.min.js":1,"sites\/all\/themes\/fsi\/source\/js\/lib\/jquery.counterup.js":1,"sites\/all\/themes\/fsi\/source\/js\/lib\/jquery.matchHeight.js":1,"sites\/all\/themes\/fsi\/source\/js\/lib\/jquery.equalheights.js":1,"sites\/all\/themes\/fsi\/source\/js\/lib\/slick.min.js":1,"sites\/all\/themes\/fsi\/source\/js\/lib\/jquery.mousewheel.min.js":1,"sites\/all\/themes\/fsi\/source\/vendors\/lightGallery\/js\/lightgallery.min.js":1},"css":{"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"sites\/all\/modules\/contrib\/wfm\/styles.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/views_data_export\/views_data_export.css":1,"sites\/all\/themes\/fsi_old\/plugins\/layouts\/fsi_paragraph_views_twocol\/fsi-paragraph-views-twocol.css":1,"sites\/all\/themes\/open_framework\/bootstrap\/css\/bootstrap.min.css":1,"sites\/all\/themes\/open_framework\/bootstrap\/css\/bootstrap-responsive.min.css":1,"sites\/all\/themes\/open_framework\/fontawesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/fsi\/js\/chosen\/chosen.css":1,"sites\/all\/themes\/fsi\/css\/components\/buttons.css":1,"sites\/all\/themes\/fsi\/css\/components\/calendar.css":1,"sites\/all\/themes\/fsi\/css\/components\/events.css":1,"sites\/all\/themes\/fsi\/css\/components\/forms.css":1,"sites\/all\/themes\/fsi\/css\/components\/flexslider.css":1,"sites\/all\/themes\/fsi\/css\/components\/footer.css":1,"sites\/all\/themes\/fsi\/css\/components\/header.css":1,"sites\/all\/themes\/fsi\/css\/components\/menu.css":1,"sites\/all\/themes\/fsi\/css\/components\/search.css":1,"sites\/all\/themes\/fsi\/css\/components\/slideshow.css":1,"sites\/all\/themes\/fsi\/css\/components\/back-top.css":1,"sites\/all\/themes\/fsi\/fonts\/fonts.css":1,"sites\/all\/themes\/fsi\/css\/layout\/grid.css":1,"sites\/all\/themes\/fsi\/css\/layout\/panels.css":1,"sites\/all\/themes\/fsi\/css\/module\/forum.css":1,"sites\/all\/themes\/fsi\/css\/module\/fpp.css":1,"sites\/all\/themes\/fsi\/css\/module\/views.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/node-type-document.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/node-type-event.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/node-type-events-news.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/node-type-impact.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/node-type-multimedia.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/node-type-news.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/node-type-page.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/node-type-organization.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/node-type-webform.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-cart.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-checkout.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-events.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-impact-governance.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-multimedia.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-people.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-publications.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-research.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-research-search.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-reservation.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-search.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-taxonomy.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-topics.css":1,"sites\/all\/themes\/fsi\/css\/node-type\/page-user.css":1,"sites\/all\/themes\/fsi\/css\/theme\/skins.css":1,"sites\/all\/themes\/fsi\/css\/theme\/type.css":1,"sites\/all\/themes\/fsi\/css\/responsive.css":1,"sites\/all\/themes\/fsi\/css\/secondary.css":1,"sites\/all\/themes\/fsi\/css\/slider-type-1.css":1,"sites\/all\/themes\/fsi\/css\/icons.css":1,"sites\/all\/themes\/fsi\/css\/style.css":1,"sites\/all\/themes\/fsi\/source\/vendors\/lightGallery\/css\/lightgallery.min.css":1,"sites\/all\/themes\/fsi\/css\/subdomains\/iis.css":1,"sites\/all\/themes\/fsi\/css\/media.css":1,"sites\/all\/themes\/fsi\/source\/css\/styles.css":1,"sites\/all\/themes\/fsi\/css\/ie8.css":1}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"mediaelementAll":true,"domain_directory":{"directory":""},"better_exposed_filters":{"views":{"fsi_paragraph_views":{"displays":{"paragraphs_view_events":{"filters":[]},"paragraphs_view_news":{"filters":[]}}}}},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":0,"extSubdomains":1,"extExclude":"(s3\\.us-west-1)","extInclude":"((file\\\/\\d+\\\/download)|(download\\\/file\\\/\\d+))","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackDomainMode":1},"urlIsAjaxTrusted":{"https:\/\/fsi.stanford.edu\/":true}});
+//--><!]]>
+</script>
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-221791 node-type-front-page domain-fsi-wearepropeople-md i18n-en subdomain-iis header-fixed      ">
+  <script>/*<![CDATA[*/(function(w,a,b,d,s){w[a]=w[a]||{};w[a][b]=w[a][b]||{q:[],track:function(r,e,t){this.q.push({r:r,e:e,t:t||+new Date});}};var e=d.createElement(s);var f=d.getElementsByTagName(s)[0];e.async=1;e.src='//info-fsi.stanford.edu/cdnr/31/acton/bn/tracker/19053';f.parentNode.insertBefore(e,f);})(window,'ActOn','Beacon',document,'script');ActOn.Beacon.track();/*]]>*/</script>
+  <script>
+      (function(a, b, c, d, e, m) {
+          a['OktopostTrackerObject'] = d;
+          a[d] = a[d] || function() {
+                  (a[d].q = a[d].q || []).push(arguments);
+              };
+          e = b.createElement('script');
+          m = b.getElementsByTagName('script')[0];
+          e.async = 1;
+          e.src = ('https:' === document.location.protocol ? 'https://' : 'http://') + c;
+          m.parentNode.insertBefore(e, m);
+      })(window, document, 'static.oktopost.com/oktrk.js', '_oktrk');
+      _oktrk('create', '001mk8go3rjk2yx');
+  </script>
+    <div id="skipnav" class="element-invisible">
+  <div class="container">
+    <p>Skip to:</p>
+    <ul>
+      <li><a class="element-invisible element-focusable" href="/https://fsi.stanford.edu/">Skip to content</a></li>
+            <li><a class="element-invisible element-focusable" href="/https://fsi.stanford.edu/">Skip to navigation</a></li>
+          </ul>
+  </div>
+</div>
+
+<section class="js-header__top header__top bg--cardinal">
+  <div class="container">
+          <div class="header__top__left">
+          <div class="region region-topheader-left">
+    <div id="block-block-21" class="block block-block">
+
+    
+  <div class="content">
+    <p><span class="header__util_nav white"><a href="/http://www.stanford.edu/">Stanford University</a></span></p>
+  </div>
+</div>
+  </div>
+      </div>
+          </div>
+</section>
+
+
+<!-- /#skipnav -->
+<div class="box-nav hidden-on-desktop">
+  <div class="box-nav__logo">
+    <a title="Home" rel="home" href="/https://fsi.stanford.edu/"> <img alt="Home" role="presentation" src="/https://fsi.stanford.edu/sites/all/themes/fsird/images/stanford-logo-mobile.png"></a>
+  </div>
+  <span class="js-push-menu box-nav__close"></span>
+        
+
+<div id="block-search-form" class="block block-search search-box">
+
+    
+  <div class="content">
+    <form class="search-box__form" action="https://fsi.stanford.edu/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <input title="Enter the terms you wish to search for." class="input-medium search-query feild-search_block_form-textfield form-text" placeholder="Search FSI" data-label="" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128">
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input class="btn btn-search form-submit" type="submit" id="edit-submit" name="op" value="Search"></div><input type="hidden" name="form_build_id" value="form-KjeKYCckZDDeOfDjEYI8ZUGPOG1k5FvIS5d4VG2OPwA">
+<input type="hidden" name="form_id" value="search_block_form">
+</div>
+</div></form>  </div>
+</div>
+    <div class="navigation">
+                  <nav role="navigation">
+                                  <div class="region region-navigation">
+    <div id="block-fsi-custom-rewrites-fsi-domain-menu" class="block block-fsi-custom-rewrites">
+
+    
+  <div class="content">
+    <ul class="menu nav"><li class="first collapsed depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/content/research">Research</a></li>
+<li class="leaf depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/content/education">Education</a></li>
+<li class="leaf depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/people/institute-faculty">People</a></li>
+<li class="leaf depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/content/our-centers">Centers</a></li>
+<li class="leaf depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/news">News</a></li>
+<li class="leaf depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/events">Events</a></li>
+<li class="last leaf depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/about">About</a></li>
+</ul>  </div>
+</div>
+  </div>
+                  </nav>
+            </div>
+</div>
+<div id="header" class="js-header header">
+  <div class="js-header__nav header__nav">
+    <div class="header__nav__container container">
+              <div class="header__logo">
+          <a title="Home" rel="home" href="/https://fsi.stanford.edu/"> <img alt="Home" role="presentation" src="/https://fsi.stanford.edu/sites/all/themes/fsird/logo.png"></a>
+        </div>
+                  <span class="js-push-menu header__menu-button hidden-on-desktop"></span>
+      <div id="main-navigation" class="navigation hidden-on-mobiletabletonly">
+                              <nav role="navigation">
+                                              <div class="region region-navigation">
+      <div class="region region-navigation">
+    <div id="block-fsi-custom-rewrites-fsi-domain-menu" class="block block-fsi-custom-rewrites">
+
+    
+  <div class="content">
+    <ul class="menu nav"><li class="first collapsed depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/content/research">Research</a></li>
+<li class="leaf depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/content/education">Education</a></li>
+<li class="leaf depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/people/institute-faculty">People</a></li>
+<li class="leaf depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/content/our-centers">Centers</a></li>
+<li class="leaf depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/news">News</a></li>
+<li class="leaf depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/events">Events</a></li>
+<li class="last leaf depth-1 item-main-menu"><a href="/http://fsi.stanford.edu/about">About</a></li>
+</ul>  </div>
+</div>
+  </div>
+  </div>
+                          </nav>
+                        </div>
+              <div id="header-search" class="header__search hidden-on-mobiletabletonly">
+          <div class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+              
+
+<div id="block-search-form" class="block block-search search-box">
+
+    
+  <div class="content">
+    <form class="search-box__form" action="https://fsi.stanford.edu/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <input title="Enter the terms you wish to search for." class="input-medium search-query feild-search_block_form-textfield form-text" placeholder="Search FSI" data-label="" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128">
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input class="btn btn-search form-submit" type="submit" id="edit-submit" name="op" value="Search"></div><input type="hidden" name="form_build_id" value="form-KjeKYCckZDDeOfDjEYI8ZUGPOG1k5FvIS5d4VG2OPwA">
+<input type="hidden" name="form_id" value="search_block_form">
+</div>
+</div></form>  </div>
+</div>
+        </div>
+          </div>
+  </div>
+        <div class="subdomain-header-sticky">
+    <div class="container">
+      <div id="block-fsi-custom-rewrites-fsi-sticky-subnav" class="block block-fsi-custom-rewrites">
+
+    
+  <div class="content">
+    <div class="item-list"></div>  </div>
+</div>
+    </div>
+  </div>
+  </div>
+<!-- /#header -->
+
+  <section class="drop-content">
+            <div class="drop-pane menu-pane-1">
+        <section class="direction">
+          <div class="container">
+            <div class="container-fluid">
+                <div class="region region-menu-1">
+    <div id="block-menu-menu-fsi-regions-main-menu" class="block block-menu">
+
+    <h2>Regions</h2>
+  
+  <div class="content">
+    <ul class="menu nav"><li class="first leaf depth-1 item-menu-fsi-regions-main-menu"><a title="" href="/https://fsi.stanford.edu/research/region/americas">The Americas</a></li>
+<li class="leaf depth-1 item-menu-fsi-regions-main-menu"><a title="" href="/https://fsi.stanford.edu/research/region/asia-pacific">Asia-Pacific</a></li>
+<li class="leaf depth-1 item-menu-fsi-regions-main-menu"><a title="" href="/https://fsi.stanford.edu/research/region/europe">Europe</a></li>
+<li class="leaf depth-1 item-menu-fsi-regions-main-menu"><a title="" href="/https://fsi.stanford.edu/research/region/middle-east-and-north-africa">Middle East and North Africa</a></li>
+<li class="leaf depth-1 item-menu-fsi-regions-main-menu"><a title="" href="/https://fsi.stanford.edu/research/region/russia-and-eurasia">Russia and Eurasia</a></li>
+<li class="leaf depth-1 item-menu-fsi-regions-main-menu"><a title="" href="/https://fsi.stanford.edu/research/region/sub-saharan-africa">Sub-Saharan Africa</a></li>
+<li class="last leaf depth-1 item-menu-fsi-regions-main-menu"><a class="view-all" href="/https://fsi.stanford.edu/topics">View all topics and regions</a></li>
+</ul>  </div>
+</div>
+<div id="block-menu-menu-fsi-topics-main-menu" class="block block-menu">
+
+    <h2>Topics</h2>
+  
+  <div class="content">
+    <ul class="menu nav"><li class="first leaf depth-1 item-menu-fsi-topics-main-menu"><a href="/https://fsi.stanford.edu/research/search?topic=5916">Governance</a></li>
+<li class="leaf depth-1 item-menu-fsi-topics-main-menu"><a href="/https://fsi.stanford.edu/research/search?topic=5929">Security</a></li>
+<li class="leaf depth-1 item-menu-fsi-topics-main-menu"><a href="/https://fsi.stanford.edu/research/search?topic=5925">International Development</a></li>
+<li class="leaf depth-1 item-menu-fsi-topics-main-menu"><a href="/https://fsi.stanford.edu/research/search?topic=5918">Health and Medicine</a></li>
+<li class="leaf depth-1 item-menu-fsi-topics-main-menu"><a href="/https://fsi.stanford.edu/research/search?topic=5908">International Relations</a></li>
+<li class="leaf depth-1 item-menu-fsi-topics-main-menu"><a href="/https://fsi.stanford.edu/research/search?topic=5910">Energy</a></li>
+<li class="leaf depth-1 item-menu-fsi-topics-main-menu"><a href="/https://fsi.stanford.edu/research/search?topic=5931">Environment</a></li>
+<li class="last leaf depth-1 item-menu-fsi-topics-main-menu"><a href="/https://fsi.stanford.edu/research/search?topic=7035">Society</a></li>
+</ul>  </div>
+</div>
+<div id="block-menu-menu-fsi-publications-main-menu" class="block block-menu">
+
+    <h2>Publications</h2>
+  
+  <div class="content">
+    <ul class="menu nav"><li class="first last leaf depth-1 item-menu-fsi-publications-main-menu"><a class="view-all" href="/https://fsi.stanford.edu/publications">View all publications</a></li>
+</ul>  </div>
+</div>
+<div id="block-menu-menu-initiatives" class="block block-menu">
+
+    <h2>Initiatives</h2>
+  
+  <div class="content">
+    <ul class="menu nav"><li class="first leaf depth-1 item-menu-initiatives"><a href="/https://tec.fsi.stanford.edu/research/stanford-initiative-european-security">European Security</a></li>
+<li class="leaf depth-1 item-menu-initiatives"><a href="/http://gdp.stanford.edu">Global Development and Poverty</a></li>
+<li class="leaf depth-1 item-menu-initiatives"><a href="/http://fsi.stanford.edu/docs/international-and-comparative-education">International and Comparative Education</a></li>
+<li class="leaf depth-1 item-menu-initiatives"><a href="/http://fsi.stanford.edu/docs/international-policy-implementation-lab">International Policy Implementation Lab</a></li>
+<li class="leaf depth-1 item-menu-initiatives"><a href="/http://fsi.stanford.edu/research/mexico_initiative">Mexico Initiative</a></li>
+<li class="leaf depth-1 item-menu-initiatives"><a href="/http://fsi.stanford.edu/docs/social-science-history">Social Science History</a></li>
+<li class="leaf depth-1 item-menu-initiatives"><a href="/http://aparc.fsi.stanford.edu/research/us-asia-security-initiative">U.S.-Asia Security Initiative</a></li>
+<li class="last leaf depth-1 item-menu-initiatives"><a href="/http://fsi.stanford.edu/docs/working-groups-health-policy-challenges">Working Groups on Health Policy Challenges</a></li>
+</ul>  </div>
+</div>
+  </div>
+            </div>
+          </div>
+        </section>
+      </div>
+                <div class="drop-pane menu-pane-2">
+        <section class="direction">
+          <div class="container">
+            <div class="container-fluid">
+                <div class="region region-menu-2">
+    <div id="block-menu-menu-fsi-people" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu nav"><li class="first leaf depth-1 item-menu-fsi-people"><a title="" href="/https://fsi.stanford.edu/people/institute-faculty">Institute Faculty</a></li>
+<li class="leaf depth-1 item-menu-fsi-people"><a title="" href="/https://fsi.stanford.edu/people/faculty">All Faculty</a></li>
+<li class="leaf depth-1 item-menu-fsi-people"><a href="/https://fsi.stanford.edu/people/institute_staff">Institute Staff</a></li>
+<li class="leaf depth-1 item-menu-fsi-people"><a href="/https://fsi.stanford.edu/people/mediaguide">Media Guide</a></li>
+<li class="last leaf depth-1 item-menu-fsi-people"><a href="/https://fsi.stanford.edu/people/directory">Directory</a></li>
+</ul>  </div>
+</div>
+  </div>
+            </div>
+          </div>
+        </section>
+      </div>
+                <div class="drop-pane menu-pane-3">
+        <section class="direction">
+          <div class="container">
+            <div class="container-fluid">
+                <div class="region region-menu-3">
+    <div id="block-menu-menu-fsi-impact-main-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu nav"><li class="first leaf depth-1 item-menu-fsi-impact-main-menu"><a href="/https://fsi.stanford.edu/impact_governance">Governance</a></li>
+<li class="leaf depth-1 item-menu-fsi-impact-main-menu"><a href="/https://fsi.stanford.edu/impact/global-health">Global Health</a></li>
+<li class="last leaf depth-1 item-menu-fsi-impact-main-menu"><a href="/https://fsi.stanford.edu/content/crossing-disciplines-impacting-diplomacy">International Security</a></li>
+</ul>  </div>
+</div>
+  </div>
+            </div>
+          </div>
+        </section>
+      </div>
+                <div class="drop-pane menu-pane-4">
+        <section class="direction">
+          <div class="container">
+            <div class="container-fluid">
+                <div class="region region-menu-4">
+    <div id="block-menu-menu-fsi-centers" class="block block-menu">
+
+    <h2>Centers</h2>
+  
+  <div class="content">
+    <ul class="menu nav"><li class="first leaf depth-1 item-menu-fsi-centers"><a title="" href="/http://cddrl.fsi.stanford.edu">Center on Democracy, Development and the Rule of Law</a></li>
+<li class="leaf depth-1 item-menu-fsi-centers"><a title="" href="/http://fse.fsi.stanford.edu">Center on Food Security and the Environment</a></li>
+<li class="leaf depth-1 item-menu-fsi-centers"><a href="/http://healthpolicy.fsi.stanford.edu/">Center on Health Policy / Center for Primary Care and Outcomes Research</a></li>
+<li class="leaf depth-1 item-menu-fsi-centers"><a href="/http://cisac.fsi.stanford.edu">Center for International Security and Cooperation</a></li>
+<li class="leaf depth-1 item-menu-fsi-centers"><a href="/http://tec.fsi.stanford.edu">The Europe Center</a></li>
+<li class="last leaf depth-1 item-menu-fsi-centers"><a href="/http://aparc.fsi.stanford.edu">Walter H. Shorenstein Asia-Pacific Research Center</a></li>
+</ul>  </div>
+</div>
+<div id="block-menu-menu-fsi-programs" class="block block-menu">
+
+    <h2>Programs</h2>
+  
+  <div class="content">
+    <ul class="menu nav"><li class="first leaf depth-1 item-menu-fsi-programs"><a title="" href="/http://ips.stanford.edu/">Ford Dorsey Program in International Policy Studies</a></li>
+<li class="leaf depth-1 item-menu-fsi-programs"><a title="" href="/https://www.stanford.edu/dept/IUC/cgi-bin/index.php">Inter-University Center for Japanese Language Studies</a></li>
+<li class="leaf depth-1 item-menu-fsi-programs"><a title="" href="/http://pesd.fsi.stanford.edu">Program on Energy and Sustainable Development</a></li>
+<li class="leaf depth-1 item-menu-fsi-programs"><a title="" href="/http://reap.fsi.stanford.edu">Rural Education Action Program</a></li>
+<li class="leaf depth-1 item-menu-fsi-programs"><a title="" href="/http://scpku.fsi.stanford.edu">Stanford Center at Peking University</a></li>
+<li class="leaf depth-1 item-menu-fsi-programs"><a href="/https://fsi.stanford.edu/docs/international-policy-implementation-lab">International Policy Implementation Lab</a></li>
+<li class="last leaf depth-1 item-menu-fsi-programs"><a href="/http://spice.fsi.stanford.edu">Stanford Program on International and Cross-Cultural Education</a></li>
+</ul>  </div>
+</div>
+  </div>
+            </div>
+          </div>
+        </section>
+      </div>
+                                </section>
+
+<div id="main" class="clearfix">
+      <div id="main-content" class="row">
+        <div id="content" class="span12">
+      <div id="content-wrapper">
+        <div id="content-head" class="row-fluid">
+          <div class="container">
+            <div class="container-fluid">
+              <div id="highlighted" class="clearfix"></div>
+                              <div class="tabs">  </div>
+                                                                    </div>
+          </div>
+        </div>
+
+                                <div id="content-body" class="row-fluid">   <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-221791" class="node node-front-page clearfix" about="/fsi-front" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content="Freeman Spogli Institute" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  <div class="content">
+    
+  <div id="feature_banner_76" class="feature-banner bg--overlay">
+  <div class="feature-banner__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/banner__2x_desktop/public/rsd17_104_0199a.jpg?itok=6eGEVmXx&amp;timestamp=1530558050 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/banner__1x_desktop/public/rsd17_104_0199a.jpg?itok=cTZ8xcEP&amp;timestamp=1530558050 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/banner__2x_desktop/public/rsd17_104_0199a.jpg?itok=6eGEVmXx&amp;timestamp=1530558050 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/banner__2x_tablet/public/rsd17_104_0199a.jpg?itok=h6iBNvph&amp;timestamp=1530558050 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/banner__1x_tablet/public/rsd17_104_0199a.jpg?itok=eN0Lub0l&amp;timestamp=1530558050 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/banner__2x_tablet/public/rsd17_104_0199a.jpg?itok=h6iBNvph&amp;timestamp=1530558050 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/banner__2x_mobile/public/rsd17_104_0199a.jpg?itok=x4mzcCG8&amp;timestamp=1530558050 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/banner__1x_mobile/public/rsd17_104_0199a.jpg?itok=tmNSXnCc&amp;timestamp=1530558050 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/banner__2x_mobile/public/rsd17_104_0199a.jpg?itok=x4mzcCG8&amp;timestamp=1530558050 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/banner__1x_mobile/public/rsd17_104_0199a.jpg?itok=tmNSXnCc&amp;timestamp=1530558050">
+</picture>  </div>
+  <div class="container">
+    <div class="feature-banner__content text--left">
+      <h1 class="feature-banner__title">  The Freeman Spogli Institute for International Studies</h1>
+      <div class="feature-banner__body">
+        <p>
+            Stanford University's premier research institute for the study of international affairs        </p>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="demo-scroll-inner box-scroll--wrapper has--icon has--label-bottom">
+  <div class="box-scroll">
+    <div class="box-scroll__top ">
+              <div class="scroll__icon js-scroll-down">
+          <div class="mouse"><div class="wheel"></div></div>
+          <div>
+            <span class="unu"></span>
+            <span class="doi"></span>
+          </div>
+        </div>
+            <div class="scroll__content">
+                  <div class="scroll__title">
+              WHAT WE DO          </div>
+                <div class="scroll__sub">
+            Scroll Down        </div>
+      </div>
+      <div class="box-scroll__line"></div>
+    </div>
+          <div class="box-scroll__bottom">
+        <h2 class="scroll__heading">
+            What we Do        </h2>
+      </div>
+      </div>
+</div>
+  <div id="group_boxes_81" class="boxed-text col 3 bg--loblolly ">
+  <div class="container">
+    <h3 class=" "><span></span></h3>
+    <div class="boxed-text__grid">
+      
+
+  <div class="boxed-text__item">
+    <div class="boxed-text__inner js-boxed-text__item">
+          <div class="boxed-text__icon">
+        
+  <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_desktop/public/bt1_research.png?itok=nTL3YIwJ&amp;timestamp=1530892858 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__1x_desktop/public/bt1_research.png?itok=9oSb1zxf&amp;timestamp=1530892858 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_desktop/public/bt1_research.png?itok=nTL3YIwJ&amp;timestamp=1530892858 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_tablet/public/bt1_research.png?itok=f9Y1aDJ3&amp;timestamp=1530892858 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__1x_tablet/public/bt1_research.png?itok=NfevQoF_&amp;timestamp=1530892858 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_tablet/public/bt1_research.png?itok=f9Y1aDJ3&amp;timestamp=1530892858 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_mobile/public/bt1_research.png?itok=8lWZJxiB&amp;timestamp=1530892858 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__1x_mobile/public/bt1_research.png?itok=YI0PD6fc&amp;timestamp=1530892858 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_mobile/public/bt1_research.png?itok=8lWZJxiB&amp;timestamp=1530892858 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="Icon showing an open book with a magnifying glass." title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_mobile/public/bt1_research.png?itok=8lWZJxiB&amp;timestamp=1530892858">
+</picture>      </div>
+        <h2 class="boxed-text__title font--normal">
+  Research</h2>
+          <div class="boxed-text__content">
+        <p>
+  FSI is a hub for Stanford scholars who want to work across disciplines on research that has international impact. Our topics include governance, security, global health, energy and international development.</p>
+      </div>
+        <div class="boxed-text__link btn--responsive btn--uppercase">
+      
+  <a class="btn" href="/http://fsi.stanford.edu/content/research">Learn More</a>    </div>
+    <div class="boxed-text__link-hover">
+      
+  <a class="btn" href="/http://fsi.stanford.edu/content/research">Learn More</a>    </div>
+  </div>
+</div>
+  <div class="boxed-text__item">
+    <div class="boxed-text__inner js-boxed-text__item">
+          <div class="boxed-text__icon">
+        
+  <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_desktop/public/bt2_grad.png?itok=5KLHjNHy&amp;timestamp=1530893051 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__1x_desktop/public/bt2_grad.png?itok=Qzk8AM75&amp;timestamp=1530893051 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_desktop/public/bt2_grad.png?itok=5KLHjNHy&amp;timestamp=1530893051 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_tablet/public/bt2_grad.png?itok=HX0EcsK8&amp;timestamp=1530893051 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__1x_tablet/public/bt2_grad.png?itok=o2QFPgvF&amp;timestamp=1530893051 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_tablet/public/bt2_grad.png?itok=HX0EcsK8&amp;timestamp=1530893051 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_mobile/public/bt2_grad.png?itok=wi5iNzvQ&amp;timestamp=1530893051 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__1x_mobile/public/bt2_grad.png?itok=pNIG8wzN&amp;timestamp=1530893051 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_mobile/public/bt2_grad.png?itok=wi5iNzvQ&amp;timestamp=1530893051 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="Icon of a mortarboard. " title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_mobile/public/bt2_grad.png?itok=wi5iNzvQ&amp;timestamp=1530893051">
+</picture>      </div>
+        <h2 class="boxed-text__title font--normal">
+  Teaching</h2>
+          <div class="boxed-text__content">
+        <p>
+  Our faculty teach more than 65 classes a year, and mentor students through guided research.  FSI is also home to the Ford Dorsey Master's in International Policy, a two-year master's degree.</p>
+      </div>
+        <div class="boxed-text__link btn--responsive btn--uppercase">
+      
+  <a class="btn" href="/http://fsi.stanford.edu/content/education">Learn More</a>    </div>
+    <div class="boxed-text__link-hover">
+      
+  <a class="btn" href="/http://fsi.stanford.edu/content/education">Learn More</a>    </div>
+  </div>
+</div>
+  <div class="boxed-text__item">
+    <div class="boxed-text__inner js-boxed-text__item">
+          <div class="boxed-text__icon">
+        
+  <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_desktop/public/bt3_policy.png?itok=UkejTFeX&amp;timestamp=1530893158 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__1x_desktop/public/bt3_policy.png?itok=4SI_Ejha&amp;timestamp=1530893158 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_desktop/public/bt3_policy.png?itok=UkejTFeX&amp;timestamp=1530893158 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_tablet/public/bt3_policy.png?itok=24qYAghM&amp;timestamp=1530893158 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__1x_tablet/public/bt3_policy.png?itok=vTY9BuSX&amp;timestamp=1530893158 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_tablet/public/bt3_policy.png?itok=24qYAghM&amp;timestamp=1530893158 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_mobile/public/bt3_policy.png?itok=KQZYh4GH&amp;timestamp=1530893158 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__1x_mobile/public/bt3_policy.png?itok=foKLOMsk&amp;timestamp=1530893158 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_mobile/public/bt3_policy.png?itok=KQZYh4GH&amp;timestamp=1530893158 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="Icon showing a human figure connected to a network tree." title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/box__2x_mobile/public/bt3_policy.png?itok=KQZYh4GH&amp;timestamp=1530893158">
+</picture>      </div>
+        <h2 class="boxed-text__title font--normal">
+  Policy</h2>
+          <div class="boxed-text__content">
+        <p>
+  Our work provides context for decision-making in Washington, Geneva, Beijing and beyond. FSI's Policy Implementation Lab helps ensure that our faculty's research has real-world impact.</p>
+      </div>
+        <div class="boxed-text__link btn--responsive btn--uppercase">
+      
+  <a class="btn" href="/https://fsi.stanford.edu/docs/international-policy-implementation-lab">Learn More</a>    </div>
+    <div class="boxed-text__link-hover">
+      
+  <a class="btn" href="/https://fsi.stanford.edu/docs/international-policy-implementation-lab">Learn More</a>    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+  <div id="highlight_text_589" class="highlight-text bg--cardinal">
+  <div class="container">
+    <div class="highlight-text__contents">
+      
+  <div class="highlight-text__item">
+  <h2 class="big-title">
+  Join our mailing list</h2>
+  <div class="highlight-text__body">
+    
+  Learn about FSI scholars in the news, the latest research from our scholars, and more.  </div>
+  <div class="link-more-wrap">
+    
+  <a target="_blank" href="/http://info-fsi.stanford.edu/acton/form/19053/0001:d-0001/0/-/-/-/-/index.htm">Sign Up Now</a>  </div>
+</div>
+    </div>
+  </div>
+</div>  <div id="grid_mosaic_91">
+  <div class="bg--white">
+    <div class="block-grid-mosaic">
+      <div class="container">
+        <h3 class=" "><span></span></h3>
+        <div class="block-grid-mosaic__grid grid-6-box">
+                      <div class="block-grid-mosaic__item">
+  <div class="block-grid-mosaic__content">
+    <div class="block-grid-mosaic__image">
+        <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_desktop/public/fpp_slideshows/us_vs_russia_getty.jpg?itok=2B3eEl-s&amp;timestamp=1475690090 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__2x_desktop/public/fpp_slideshows/us_vs_russia_getty.jpg?itok=bA86g7yh&amp;timestamp=1475690090 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_mobile/public/fpp_slideshows/us_vs_russia_getty.jpg?itok=lWeBtx5s&amp;timestamp=1475690090 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__2x_mobile/public/fpp_slideshows/us_vs_russia_getty.jpg?itok=LrmX7gKj&amp;timestamp=1475690090 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="US vs Russia" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_mobile/public/fpp_slideshows/us_vs_russia_getty.jpg?itok=lWeBtx5s&amp;timestamp=1475690090">
+</picture>    </div>
+    <div class="block-grid-mosaic__link-hover"><a href="/https://fsi.stanford.edu/content/russia-election-hacking"></a></div>
+    <div class="type type--news">news</div>
+    <div class="block-grid-mosaic__group">
+      <h3 class="block-grid-mosaic__title">
+        <a href="/https://fsi.stanford.edu/content/russia-election-hacking">
+            FSI scholars comment on the Trump-Putin Summit        </a>
+      </h3>
+    </div>
+  </div>
+</div>
+                      <div class="block-grid-mosaic__item">
+  <div class="block-grid-mosaic__content">
+    <div class="block-grid-mosaic__image">
+        <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_desktop/public/istock-682825852.jpg?itok=BBnxj2cI&amp;timestamp=1532360775 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__2x_desktop/public/istock-682825852.jpg?itok=IwRnwH_j&amp;timestamp=1532360775 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_mobile/public/istock-682825852.jpg?itok=YdM6mglW&amp;timestamp=1532360775 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__2x_mobile/public/istock-682825852.jpg?itok=bkTmraFp&amp;timestamp=1532360775 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_mobile/public/istock-682825852.jpg?itok=YdM6mglW&amp;timestamp=1532360775">
+</picture>    </div>
+    <div class="block-grid-mosaic__link-hover"><a href="/https://fsi.stanford.edu/news/stanford-researchers-find-warming-temperatures-could-increase-suicide-rates-across-us-and"></a></div>
+    <div class="type type--news">news</div>
+    <div class="block-grid-mosaic__group">
+      <h3 class="block-grid-mosaic__title">
+        <a href="/https://fsi.stanford.edu/news/stanford-researchers-find-warming-temperatures-could-increase-suicide-rates-across-us-and">
+            Stanford researchers find warming temperatures could increase suicide rates across the U.S. and Mexico        </a>
+      </h3>
+    </div>
+  </div>
+</div>
+                      <div class="block-grid-mosaic__item">
+  <div class="block-grid-mosaic__content">
+    <div class="block-grid-mosaic__image">
+        <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_desktop/public/rsd18_051_0146a.jpg?itok=ijXouL92&amp;timestamp=1532448709 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__2x_desktop/public/rsd18_051_0146a.jpg?itok=V13U0CHF&amp;timestamp=1532448709 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_mobile/public/rsd18_051_0146a.jpg?itok=TDe-1C2v&amp;timestamp=1532448709 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__2x_mobile/public/rsd18_051_0146a.jpg?itok=MtqQmDmH&amp;timestamp=1532448709 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_mobile/public/rsd18_051_0146a.jpg?itok=TDe-1C2v&amp;timestamp=1532448709">
+</picture>    </div>
+    <div class="block-grid-mosaic__link-hover"><a href="/https://fsi.stanford.edu/news/michael-mcfaul-named-new-ken-olivier-and-angela-nomellini-professor-international-studies"></a></div>
+    <div class="type type--news">news</div>
+    <div class="block-grid-mosaic__group">
+      <h3 class="block-grid-mosaic__title">
+        <a href="/https://fsi.stanford.edu/news/michael-mcfaul-named-new-ken-olivier-and-angela-nomellini-professor-international-studies">
+            Michael McFaul named international studies chair        </a>
+      </h3>
+    </div>
+  </div>
+</div>
+                      <div class="block-grid-mosaic__item">
+  <div class="block-grid-mosaic__content">
+    <div class="block-grid-mosaic__image">
+        <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_desktop/public/getty-poverty_africa_1.jpg?itok=K6A4B-su&amp;timestamp=1532371307 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__2x_desktop/public/getty-poverty_africa_1.jpg?itok=4QhgpbrZ&amp;timestamp=1532371307 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_mobile/public/getty-poverty_africa_1.jpg?itok=N6jHeBls&amp;timestamp=1532371307 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__2x_mobile/public/getty-poverty_africa_1.jpg?itok=yGFjTh8F&amp;timestamp=1532371307 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_mobile/public/getty-poverty_africa_1.jpg?itok=N6jHeBls&amp;timestamp=1532371307">
+</picture>    </div>
+    <div class="block-grid-mosaic__link-hover"><a href="/https://fsi.stanford.edu/news/combine-health-economic-well-being-measure-progress-toward-un-sustainable-development-goals"></a></div>
+    <div class="type type--news">news</div>
+    <div class="block-grid-mosaic__group">
+      <h3 class="block-grid-mosaic__title">
+        <a href="/https://fsi.stanford.edu/news/combine-health-economic-well-being-measure-progress-toward-un-sustainable-development-goals">
+            A better way to measure progress toward the UN Sustainable Development Goals        </a>
+      </h3>
+    </div>
+  </div>
+</div>
+                      <div class="block-grid-mosaic__item">
+  <div class="block-grid-mosaic__content">
+    <div class="block-grid-mosaic__image">
+        <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_desktop/public/dh18.png?itok=trvdS9St&amp;timestamp=1527690515 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__2x_desktop/public/dh18.png?itok=8WXFuFG_&amp;timestamp=1527690515 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_mobile/public/dh18.png?itok=ih_-_TWo&amp;timestamp=1527690515 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__2x_mobile/public/dh18.png?itok=r90DGWXh&amp;timestamp=1527690515 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_mobile/public/dh18.png?itok=ih_-_TWo&amp;timestamp=1527690515">
+</picture>    </div>
+    <div class="block-grid-mosaic__link-hover"><a href="/https://fsi.stanford.edu/content/draper-hills-summer-fellows-class-2018"></a></div>
+    <div class="type type--event">event</div>
+    <div class="block-grid-mosaic__group">
+      <h3 class="block-grid-mosaic__title">
+        <a href="/https://fsi.stanford.edu/content/draper-hills-summer-fellows-class-2018">
+            The Draper Hills Summer Fellows are here!        </a>
+      </h3>
+    </div>
+  </div>
+</div>
+                      <div class="block-grid-mosaic__item">
+  <div class="block-grid-mosaic__content">
+    <div class="block-grid-mosaic__image">
+        <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_desktop/public/gettyimages-484812177_1_0.jpg?itok=-s9IJCEg&amp;timestamp=1521655507 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__2x_desktop/public/gettyimages-484812177_1_0.jpg?itok=MWSrxO4R&amp;timestamp=1521655507 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_mobile/public/gettyimages-484812177_1_0.jpg?itok=xdebSDVz&amp;timestamp=1521655507 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__2x_mobile/public/gettyimages-484812177_1_0.jpg?itok=Xo2I1fWP&amp;timestamp=1521655507 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/grid_mosaic__1x_mobile/public/gettyimages-484812177_1_0.jpg?itok=xdebSDVz&amp;timestamp=1521655507">
+</picture>    </div>
+    <div class="block-grid-mosaic__link-hover"><a href="/https://itunes.apple.com/us/podcast/world-class/id1178210152"></a></div>
+    <div class="type type--news">news</div>
+    <div class="block-grid-mosaic__group">
+      <h3 class="block-grid-mosaic__title">
+        <a href="/https://itunes.apple.com/us/podcast/world-class/id1178210152">
+            World Class: A democracy divided: The roots of our political polarization        </a>
+      </h3>
+    </div>
+  </div>
+</div>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="block-cta bg--white">
+  <div class="container">
+    <h3 class="gleam-title text--center"><span>World Class</span></h3>
+    <div class="block-cta__description">
+      <p>Listen to FSI's podcast on critical global issues, featuring FSI director Michael McFaul.</p>
+    </div>
+          <div class="block-cta__links">
+                  <a class="btn" href="/http://fsi.stanford.edu/content/world-class">See All Episodes</a>
+              </div>
+      </div>
+</div>
+  <div id="vertical_select_123" class="fsird-tabs distance-component  vertical-tabs bg--stanford-beige10">
+  <div class="container">
+    <h2 class="fsird-tabs__title text--center bg--title font--biggest">
+          </h2>
+    <div class="fsird-tabs__description text--center">
+      <p>
+              </p>
+    </div>
+    <ul class="fsird-tabs__list">
+    <div class="fsird-tabs__dropdown__text js-fsird-tabs__dropdown">  Research at FSI</div>
+  <div class="fsird-tabs__list__dropdown">
+                                <li class="fsird-tabs__list__item js-fsird-tabs__list__item active" data-index="0"><span>
+          Research at FSI</span>
+      </li>
+                              <li class="fsird-tabs__list__item js-fsird-tabs__list__item " data-index="1"><span>
+          Center on Democracy, Development and the Rule of Law</span>
+      </li>
+                              <li class="fsird-tabs__list__item js-fsird-tabs__list__item " data-index="2"><span>
+          Center on Food Security and the Environment</span>
+      </li>
+                              <li class="fsird-tabs__list__item js-fsird-tabs__list__item " data-index="3"><span>
+          Center for International Security and Cooperation</span>
+      </li>
+                              <li class="fsird-tabs__list__item js-fsird-tabs__list__item " data-index="4"><span>
+          The Europe Center</span>
+      </li>
+                              <li class="fsird-tabs__list__item js-fsird-tabs__list__item " data-index="5"><span>
+          Stanford Health Policy</span>
+      </li>
+                              <li class="fsird-tabs__list__item js-fsird-tabs__list__item " data-index="6"><span>
+          Walter H. Shorenstein Asia-Pacific Research Center</span>
+      </li>
+                              <li class="fsird-tabs__list__item js-fsird-tabs__list__item " data-index="7"><span>
+          Stanford Center at Peking University</span>
+      </li>
+                              <li class="fsird-tabs__list__item js-fsird-tabs__list__item " data-index="8"><span>
+          Program on Energy &amp; Sustainable Development</span>
+      </li>
+                              <li class="fsird-tabs__list__item js-fsird-tabs__list__item " data-index="9"><span>
+          Rural Education Action Program</span>
+      </li>
+                              <li class="fsird-tabs__list__item js-fsird-tabs__list__item " data-index="10"><span>
+          Educational Research Programs</span>
+      </li>
+      </div>
+</ul>
+<div class="fsird-tabs__section">
+    <div class="fsird-tabs__content active">
+  <h3 class="vertical-tabs__title">  Research at FSI</h3>
+  <div class="vertical-tabs__body list-in-article">
+      <p>Our interdisciplinary research centers and programs serve as the foundation for all the scholarly work that FSI produces. They enable faculty from a broad variety of backgrounds to take "deep dives" into complex challenges, producing the rigorous research that FSI is known for.&nbsp;</p>
+<h4><strong>Our Research Topics:</strong></h4>
+  </div>
+        <div class="vertical-tabs__list vertical-tabs__buttons">
+    <a class="btn btn--solid-crimson" href="/http://fsi.stanford.edu/research/search?topic=5916">Governance</a>  <a class="btn btn--solid-crimson" href="/http://fsi.stanford.edu/research/search?topic=5916">Security</a>  <a class="btn btn--solid-crimson" href="/http://fsi.stanford.edu/research/search?topic=5918">Global Health</a>  <a class="btn btn--solid-crimson" href="/http://fsi.stanford.edu/research/search?topic=5910">Energy &amp; Environment</a>  <a class="btn btn--solid-crimson" href="/http://fsi.stanford.edu/research/search?topic=5908">International Development</a>  <a class="btn btn--solid-crimson" href="/http://fsi.stanford.edu/research/search?topic=5910">Regional Expertise</a></div>
+  </div>
+  <div class="fsird-tabs__content ">
+  <h3 class="vertical-tabs__title">  Center on Democracy, Development and the Rule of Law</h3>
+  <div class="vertical-tabs__body list-in-article">
+      <p>The Center on Democracy, Development, and the Rule of Law bridges the worlds of scholarship, policy and practice to understand and advance the conditions for just, democratic, and sustainable development around the world.</p>  </div>
+  <div class="btn--responsive btn--uppercase">  <a class="btn" href="/http://cddrl.fsi.stanford.edu">Visit CDDRL Homepage</a></div>
+  <div class="vertical-tabs__list">
+          <div class="vertical-tabs__item odd">
+        
+<a href="/https://fsi.stanford.edu/  http://cddrl.fsi.stanford.edu/amdem">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_cddrl_t1_diamong.jpg?itok=A5uFonPJ&amp;timestamp=1476705311 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_cddrl_t1_diamong.jpg?itok=9YDG6aEU&amp;timestamp=1476705311 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_cddrl_t1_diamong.jpg?itok=A5uFonPJ&amp;timestamp=1476705311 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_cddrl_t1_diamong.jpg?itok=ab0WS-V0&amp;timestamp=1476705311 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_cddrl_t1_diamong.jpg?itok=lD36dzZB&amp;timestamp=1476705311 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_cddrl_t1_diamong.jpg?itok=ab0WS-V0&amp;timestamp=1476705311 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_cddrl_t1_diamong.jpg?itok=g62WzyBZ&amp;timestamp=1476705311 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_cddrl_t1_diamong.jpg?itok=S4K66ncf&amp;timestamp=1476705311 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_cddrl_t1_diamong.jpg?itok=g62WzyBZ&amp;timestamp=1476705311 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_cddrl_t1_diamong.jpg?itok=S4K66ncf&amp;timestamp=1476705311">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--research">research</span>
+  <a href="/https://fsi.stanford.edu/  http://cddrl.fsi.stanford.edu/amdem">
+    <span class="vertical-tabs__subtitle">
+        American Democracy in Comparative Perspective    </span>
+  </a>
+</div>
+
+      </div>
+          <div class="vertical-tabs__item even">
+        
+<a href="/https://fsi.stanford.edu/  http://cddrl.fsi.stanford.edu/povgov/?cid=36">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_cddrl_t2_povgov.jpg?itok=X1M0Yrh2&amp;timestamp=1476705368 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_cddrl_t2_povgov.jpg?itok=U3h5HPeH&amp;timestamp=1476705368 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_cddrl_t2_povgov.jpg?itok=X1M0Yrh2&amp;timestamp=1476705368 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_cddrl_t2_povgov.jpg?itok=yOqgdh0h&amp;timestamp=1476705368 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_cddrl_t2_povgov.jpg?itok=5yWTwDy-&amp;timestamp=1476705368 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_cddrl_t2_povgov.jpg?itok=yOqgdh0h&amp;timestamp=1476705368 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_cddrl_t2_povgov.jpg?itok=hCpbB8C6&amp;timestamp=1476705368 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_cddrl_t2_povgov.jpg?itok=TxNTv8sO&amp;timestamp=1476705368 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_cddrl_t2_povgov.jpg?itok=hCpbB8C6&amp;timestamp=1476705368 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_cddrl_t2_povgov.jpg?itok=TxNTv8sO&amp;timestamp=1476705368">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--research">research</span>
+  <a href="/https://fsi.stanford.edu/  http://cddrl.fsi.stanford.edu/povgov/?cid=36">
+    <span class="vertical-tabs__subtitle">
+        Program on Poverty and Governance      </span>
+  </a>
+</div>
+
+      </div>
+      </div>
+</div>
+  <div class="fsird-tabs__content ">
+  <h3 class="vertical-tabs__title">  Center on Food Security and the Environment</h3>
+  <div class="vertical-tabs__body list-in-article">
+      <p>The Center on Food Security and the Environment addresses critical global issues of hunger, poverty and environmental degradation.</p>  </div>
+  <div class="btn--responsive btn--uppercase">  <a class="btn" href="/http://fse.fsi.stanford.edu/">Visit FSE Homepage</a></div>
+  <div class="vertical-tabs__list">
+          <div class="vertical-tabs__item odd">
+        
+<a href="/https://fsi.stanford.edu/  https://fse.fsi.stanford.edu/news/stanford-scientists-combine-satellite-data-machine-learning-map-poverty">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_fse1_sat.jpg?itok=LuFlH-c9&amp;timestamp=1476705488 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_fse1_sat.jpg?itok=E-rIiisd&amp;timestamp=1476705488 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_fse1_sat.jpg?itok=LuFlH-c9&amp;timestamp=1476705488 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_fse1_sat.jpg?itok=yccQ7h5D&amp;timestamp=1476705488 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_fse1_sat.jpg?itok=uxUrO4RL&amp;timestamp=1476705488 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_fse1_sat.jpg?itok=yccQ7h5D&amp;timestamp=1476705488 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_fse1_sat.jpg?itok=DrFBnfbm&amp;timestamp=1476705488 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_fse1_sat.jpg?itok=XVqy2SHm&amp;timestamp=1476705488 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_fse1_sat.jpg?itok=DrFBnfbm&amp;timestamp=1476705488 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_fse1_sat.jpg?itok=XVqy2SHm&amp;timestamp=1476705488">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--research">research</span>
+  <a href="/https://fsi.stanford.edu/  https://fse.fsi.stanford.edu/news/stanford-scientists-combine-satellite-data-machine-learning-map-poverty">
+    <span class="vertical-tabs__subtitle">
+        Combining satellite imagery and machine learning to predict poverty    </span>
+  </a>
+</div>
+
+      </div>
+          <div class="vertical-tabs__item even">
+        
+<a href="/https://fsi.stanford.edu/  http://fse.fsi.stanford.edu/research/poverty-alleviation-through-sustainable-palm-oil-production">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_fse2_oil-palm-plantation-in-cigudeg-indonesia-attribution-achmad-rabin-taim_gallery.jpg?itok=ztDo57RR&amp;timestamp=1476705598 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_fse2_oil-palm-plantation-in-cigudeg-indonesia-attribution-achmad-rabin-taim_gallery.jpg?itok=1Lk-bMjh&amp;timestamp=1476705598 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_fse2_oil-palm-plantation-in-cigudeg-indonesia-attribution-achmad-rabin-taim_gallery.jpg?itok=ztDo57RR&amp;timestamp=1476705598 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_fse2_oil-palm-plantation-in-cigudeg-indonesia-attribution-achmad-rabin-taim_gallery.jpg?itok=ICyCdIe1&amp;timestamp=1476705598 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_fse2_oil-palm-plantation-in-cigudeg-indonesia-attribution-achmad-rabin-taim_gallery.jpg?itok=N8GzpxyR&amp;timestamp=1476705598 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_fse2_oil-palm-plantation-in-cigudeg-indonesia-attribution-achmad-rabin-taim_gallery.jpg?itok=ICyCdIe1&amp;timestamp=1476705598 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_fse2_oil-palm-plantation-in-cigudeg-indonesia-attribution-achmad-rabin-taim_gallery.jpg?itok=KB22HCE5&amp;timestamp=1476705598 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_fse2_oil-palm-plantation-in-cigudeg-indonesia-attribution-achmad-rabin-taim_gallery.jpg?itok=XqFiKVy0&amp;timestamp=1476705598 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_fse2_oil-palm-plantation-in-cigudeg-indonesia-attribution-achmad-rabin-taim_gallery.jpg?itok=KB22HCE5&amp;timestamp=1476705598 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_fse2_oil-palm-plantation-in-cigudeg-indonesia-attribution-achmad-rabin-taim_gallery.jpg?itok=XqFiKVy0&amp;timestamp=1476705598">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--research">research</span>
+  <a href="/https://fsi.stanford.edu/  http://fse.fsi.stanford.edu/research/poverty-alleviation-through-sustainable-palm-oil-production">
+    <span class="vertical-tabs__subtitle">
+        Poverty alleviation through sustainable palm oil production    </span>
+  </a>
+</div>
+
+      </div>
+      </div>
+</div>
+  <div class="fsird-tabs__content ">
+  <h3 class="vertical-tabs__title">  Center for International Security and Cooperation</h3>
+  <div class="vertical-tabs__body list-in-article">
+      <p>The Center for International Security and Cooperation (CISAC) is Stanford University’s hub for researchers tackling some of the world's most pressing security and international cooperation issues.</p>  </div>
+  <div class="btn--responsive btn--uppercase">  <a class="btn" href="/http://cisac.fsi.stanford.edu">Visit CISAC Homepage</a></div>
+  <div class="vertical-tabs__list">
+          <div class="vertical-tabs__item odd">
+        
+<a href="/https://fsi.stanford.edu/  http://cisac.fsi.stanford.edu/research/organization/6069/67120">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/cyber_news_0.jpg?itok=PvV3CW2Q&amp;timestamp=1476705714 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/cyber_news_0.jpg?itok=KPumHBUN&amp;timestamp=1476705714 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/cyber_news_0.jpg?itok=PvV3CW2Q&amp;timestamp=1476705714 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/cyber_news_0.jpg?itok=XscJjenM&amp;timestamp=1476705714 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/cyber_news_0.jpg?itok=Ur77nU-H&amp;timestamp=1476705714 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/cyber_news_0.jpg?itok=XscJjenM&amp;timestamp=1476705714 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/cyber_news_0.jpg?itok=dFdYi1H5&amp;timestamp=1476705714 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/cyber_news_0.jpg?itok=zz27m6jp&amp;timestamp=1476705714 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/cyber_news_0.jpg?itok=dFdYi1H5&amp;timestamp=1476705714 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/cyber_news_0.jpg?itok=zz27m6jp&amp;timestamp=1476705714">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--research">research</span>
+  <a href="/https://fsi.stanford.edu/  http://cisac.fsi.stanford.edu/research/organization/6069/67120">
+    <span class="vertical-tabs__subtitle">
+        Cyber Policy and Security    </span>
+  </a>
+</div>
+
+      </div>
+          <div class="vertical-tabs__item even">
+        
+<a href="/https://fsi.stanford.edu/  http://cisac.fsi.stanford.edu/research/organization/6069/67116">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/perry.jpg?itok=sVMpmJ8J&amp;timestamp=1476705787 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/perry.jpg?itok=z1TkTz4U&amp;timestamp=1476705787 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/perry.jpg?itok=sVMpmJ8J&amp;timestamp=1476705787 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/perry.jpg?itok=lpeCDT-o&amp;timestamp=1476705787 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/perry.jpg?itok=bU5hP_1L&amp;timestamp=1476705787 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/perry.jpg?itok=lpeCDT-o&amp;timestamp=1476705787 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/perry.jpg?itok=Kdesp7kp&amp;timestamp=1476705787 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/perry.jpg?itok=9RUnHxqU&amp;timestamp=1476705787 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/perry.jpg?itok=Kdesp7kp&amp;timestamp=1476705787 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/perry.jpg?itok=9RUnHxqU&amp;timestamp=1476705787">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--research">research</span>
+  <a href="/https://fsi.stanford.edu/  http://cisac.fsi.stanford.edu/research/organization/6069/67116">
+    <span class="vertical-tabs__subtitle">
+        Nuclear Risk and Cooperation    </span>
+  </a>
+</div>
+
+      </div>
+      </div>
+</div>
+  <div class="fsird-tabs__content ">
+  <h3 class="vertical-tabs__title">  The Europe Center</h3>
+  <div class="vertical-tabs__body list-in-article">
+      <p>The Europe Center at Stanford University provides an interdisciplinary platform for scholarship on the histories, cultures, institutions, and people of Europe.</p>  </div>
+  <div class="btn--responsive btn--uppercase">  <a class="btn" href="/http://tec.fsi-stage.stanford.edu">Visit TEC homepage</a></div>
+  <div class="vertical-tabs__list">
+          <div class="vertical-tabs__item odd">
+        
+<a href="/https://fsi.stanford.edu/  http://tec.fsi.stanford.edu/research/esi">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_ec_t1_globe_eastern_europe.jpg?itok=0HYm6ZPs&amp;timestamp=1476705905 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_ec_t1_globe_eastern_europe.jpg?itok=sYO69uG8&amp;timestamp=1476705905 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_ec_t1_globe_eastern_europe.jpg?itok=0HYm6ZPs&amp;timestamp=1476705905 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_ec_t1_globe_eastern_europe.jpg?itok=-3MeUJTm&amp;timestamp=1476705905 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_ec_t1_globe_eastern_europe.jpg?itok=WwEhB2Du&amp;timestamp=1476705905 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_ec_t1_globe_eastern_europe.jpg?itok=-3MeUJTm&amp;timestamp=1476705905 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_ec_t1_globe_eastern_europe.jpg?itok=LKWc-UKI&amp;timestamp=1476705905 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_ec_t1_globe_eastern_europe.jpg?itok=ybsP3y30&amp;timestamp=1476705905 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_ec_t1_globe_eastern_europe.jpg?itok=LKWc-UKI&amp;timestamp=1476705905 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_ec_t1_globe_eastern_europe.jpg?itok=ybsP3y30&amp;timestamp=1476705905">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--research">research</span>
+  <a href="/https://fsi.stanford.edu/  http://tec.fsi.stanford.edu/research/esi">
+    <span class="vertical-tabs__subtitle">
+        European Security Initiative    </span>
+  </a>
+</div>
+
+      </div>
+          <div class="vertical-tabs__item even">
+        
+<a href="/https://fsi.stanford.edu/  http://tec.fsi.stanford.edu/research/immigration-and-integration-project">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_ec_t2_14migrants2-web-master675.jpg?itok=4RWCRSq7&amp;timestamp=1476705963 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_ec_t2_14migrants2-web-master675.jpg?itok=20a1O1Ga&amp;timestamp=1476705963 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_ec_t2_14migrants2-web-master675.jpg?itok=4RWCRSq7&amp;timestamp=1476705963 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_ec_t2_14migrants2-web-master675.jpg?itok=7WKePPKO&amp;timestamp=1476705963 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_ec_t2_14migrants2-web-master675.jpg?itok=AOap5H8x&amp;timestamp=1476705963 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_ec_t2_14migrants2-web-master675.jpg?itok=7WKePPKO&amp;timestamp=1476705963 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_ec_t2_14migrants2-web-master675.jpg?itok=0ImvO489&amp;timestamp=1476705963 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_ec_t2_14migrants2-web-master675.jpg?itok=MxqBxxnj&amp;timestamp=1476705963 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_ec_t2_14migrants2-web-master675.jpg?itok=0ImvO489&amp;timestamp=1476705963 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_ec_t2_14migrants2-web-master675.jpg?itok=MxqBxxnj&amp;timestamp=1476705963">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--research">research</span>
+  <a href="/https://fsi.stanford.edu/  http://tec.fsi.stanford.edu/research/immigration-and-integration-project">
+    <span class="vertical-tabs__subtitle">
+        Immigration and Integration Project    </span>
+  </a>
+</div>
+
+      </div>
+      </div>
+</div>
+  <div class="fsird-tabs__content ">
+  <h3 class="vertical-tabs__title">  Stanford Health Policy</h3>
+  <div class="vertical-tabs__body list-in-article">
+      <p>Stanford Health Policy studies critical global health problems with the goal of understanding how policies, programs and interventions can improve health.</p>  </div>
+  <div class="btn--responsive btn--uppercase">  <a class="btn" href="/http://healthpolicy.fsi.stanford.edu/">Visit SHP Homepage</a></div>
+  <div class="vertical-tabs__list">
+          <div class="vertical-tabs__item odd">
+        
+<a href="/https://fsi.stanford.edu/  https://cdeha.stanford.edu/">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/aging_getty.jpg?itok=2EPQLAaH&amp;timestamp=1476726740 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/aging_getty.jpg?itok=dhreE-im&amp;timestamp=1476726740 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/aging_getty.jpg?itok=2EPQLAaH&amp;timestamp=1476726740 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/aging_getty.jpg?itok=o4y19TDi&amp;timestamp=1476726740 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/aging_getty.jpg?itok=JRmyYb9X&amp;timestamp=1476726740 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/aging_getty.jpg?itok=o4y19TDi&amp;timestamp=1476726740 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/aging_getty.jpg?itok=p19nJlWw&amp;timestamp=1476726740 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/aging_getty.jpg?itok=MPb66-ES&amp;timestamp=1476726740 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/aging_getty.jpg?itok=p19nJlWw&amp;timestamp=1476726740 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="Stock photo - aging" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/aging_getty.jpg?itok=MPb66-ES&amp;timestamp=1476726740">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--research">research</span>
+  <a href="/https://fsi.stanford.edu/  https://cdeha.stanford.edu/">
+    <span class="vertical-tabs__subtitle">
+        Center on the Demography and Economics of Health and Aging    </span>
+  </a>
+</div>
+
+      </div>
+          <div class="vertical-tabs__item even">
+        
+<a href="/https://fsi.stanford.edu/  https://cpopstanford.wordpress.com/">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_aparc_t2_health_policy_student_3.jpg?itok=UXYuInVP&amp;timestamp=1476706112 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_aparc_t2_health_policy_student_3.jpg?itok=D2kGlmy_&amp;timestamp=1476706112 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_aparc_t2_health_policy_student_3.jpg?itok=UXYuInVP&amp;timestamp=1476706112 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_aparc_t2_health_policy_student_3.jpg?itok=1oxbeJX8&amp;timestamp=1476706112 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_aparc_t2_health_policy_student_3.jpg?itok=hneHCY8M&amp;timestamp=1476706112 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_aparc_t2_health_policy_student_3.jpg?itok=1oxbeJX8&amp;timestamp=1476706112 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_aparc_t2_health_policy_student_3.jpg?itok=0Mm3pOnc&amp;timestamp=1476706112 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_aparc_t2_health_policy_student_3.jpg?itok=FZAghrVH&amp;timestamp=1476706112 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_aparc_t2_health_policy_student_3.jpg?itok=0Mm3pOnc&amp;timestamp=1476706112 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_aparc_t2_health_policy_student_3.jpg?itok=FZAghrVH&amp;timestamp=1476706112">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--research">research</span>
+  <a href="/https://fsi.stanford.edu/  https://cpopstanford.wordpress.com/">
+    <span class="vertical-tabs__subtitle">
+        Center for Policy, Outcomes and Prevention    </span>
+  </a>
+</div>
+
+      </div>
+      </div>
+</div>
+  <div class="fsird-tabs__content ">
+  <h3 class="vertical-tabs__title">  Walter H. Shorenstein Asia-Pacific Research Center</h3>
+  <div class="vertical-tabs__body list-in-article">
+      <p>Shorenstein APARC is focused on the interdisciplinary study of contemporary Asia. Our research spans the realms of scholarship, business, and government.</p>  </div>
+  <div class="btn--responsive btn--uppercase">  <a class="btn" href="/http://aparc.fsi.stanford.edu">Visit APARC Homepage</a></div>
+  <div class="vertical-tabs__list">
+          <div class="vertical-tabs__item odd">
+        
+<a href="/https://fsi.stanford.edu/  http://aparc.fsi.stanford.edu/research/us-asia-security-initiative">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_aparc_t1_south_china_sea_japansdf_uspacificfleet.jpg?itok=4Dm5Jn30&amp;timestamp=1476706209 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_aparc_t1_south_china_sea_japansdf_uspacificfleet.jpg?itok=8nUDe5cz&amp;timestamp=1476706209 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_aparc_t1_south_china_sea_japansdf_uspacificfleet.jpg?itok=4Dm5Jn30&amp;timestamp=1476706209 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_aparc_t1_south_china_sea_japansdf_uspacificfleet.jpg?itok=YXSvw1B_&amp;timestamp=1476706209 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_aparc_t1_south_china_sea_japansdf_uspacificfleet.jpg?itok=L_-4MnOS&amp;timestamp=1476706209 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_aparc_t1_south_china_sea_japansdf_uspacificfleet.jpg?itok=YXSvw1B_&amp;timestamp=1476706209 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_aparc_t1_south_china_sea_japansdf_uspacificfleet.jpg?itok=V2RO92im&amp;timestamp=1476706209 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_aparc_t1_south_china_sea_japansdf_uspacificfleet.jpg?itok=hZAt-m-F&amp;timestamp=1476706209 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_aparc_t1_south_china_sea_japansdf_uspacificfleet.jpg?itok=V2RO92im&amp;timestamp=1476706209 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_aparc_t1_south_china_sea_japansdf_uspacificfleet.jpg?itok=hZAt-m-F&amp;timestamp=1476706209">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--research">research</span>
+  <a href="/https://fsi.stanford.edu/  http://aparc.fsi.stanford.edu/research/us-asia-security-initiative">
+    <span class="vertical-tabs__subtitle">
+        U.S.-Asia Security Initiative    </span>
+  </a>
+</div>
+
+      </div>
+          <div class="vertical-tabs__item even">
+        
+<a href="/https://fsi.stanford.edu/  http://aparc.fsi.stanford.edu/asiahealthpolicy/">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_aparc_t2_health_world_bank_india.jpg?itok=bBOaARu2&amp;timestamp=1476706253 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_aparc_t2_health_world_bank_india.jpg?itok=VrcKI7t0&amp;timestamp=1476706253 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_aparc_t2_health_world_bank_india.jpg?itok=bBOaARu2&amp;timestamp=1476706253 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_aparc_t2_health_world_bank_india.jpg?itok=C7tvj8ni&amp;timestamp=1476706253 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_aparc_t2_health_world_bank_india.jpg?itok=5VzAcryH&amp;timestamp=1476706253 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_aparc_t2_health_world_bank_india.jpg?itok=C7tvj8ni&amp;timestamp=1476706253 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_aparc_t2_health_world_bank_india.jpg?itok=do_0MQOQ&amp;timestamp=1476706253 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_aparc_t2_health_world_bank_india.jpg?itok=HEOw4WIu&amp;timestamp=1476706253 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_aparc_t2_health_world_bank_india.jpg?itok=do_0MQOQ&amp;timestamp=1476706253 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_aparc_t2_health_world_bank_india.jpg?itok=HEOw4WIu&amp;timestamp=1476706253">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--research">research</span>
+  <a href="/https://fsi.stanford.edu/  http://aparc.fsi.stanford.edu/asiahealthpolicy/">
+    <span class="vertical-tabs__subtitle">
+        Asia Health Policy Program    </span>
+  </a>
+</div>
+
+      </div>
+      </div>
+</div>
+  <div class="fsird-tabs__content ">
+  <h3 class="vertical-tabs__title">  Stanford Center at Peking University</h3>
+  <div class="vertical-tabs__body list-in-article">
+      <p><span style="color: rgb(65, 65, 65); font-family: ss, Arial, sans-serif; font-size: 16px;">SCPKU is Stanford's&nbsp;</span><span style="font-family: ss, Arial, sans-serif; color: rgb(77, 79, 81); font-size: 18px;">headquarters for faculty and students engaged in research, teaching, training and outreach activities in China.</span></p>  </div>
+  <div class="btn--responsive btn--uppercase">  <a class="btn" href="/http://scpku.fsi.stanford.edu/">Visit SCPKU Homepage</a></div>
+  <div class="vertical-tabs__list">
+          <div class="vertical-tabs__item odd">
+        <a href="/https://fsi.stanford.edu/  http://scpku.fsi.stanford.edu/content/about-center">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_scpu_t1_rice_scpku_crop.jpeg?itok=Kwb06jPY&amp;timestamp=1476706345 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_scpu_t1_rice_scpku_crop.jpeg?itok=AZkkxect&amp;timestamp=1476706345 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_scpu_t1_rice_scpku_crop.jpeg?itok=Kwb06jPY&amp;timestamp=1476706345 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_scpu_t1_rice_scpku_crop.jpeg?itok=kZTuM8nl&amp;timestamp=1476706345 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_scpu_t1_rice_scpku_crop.jpeg?itok=UFwioFbF&amp;timestamp=1476706345 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_scpu_t1_rice_scpku_crop.jpeg?itok=kZTuM8nl&amp;timestamp=1476706345 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_scpu_t1_rice_scpku_crop.jpeg?itok=zQKDw3tL&amp;timestamp=1476706345 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_scpu_t1_rice_scpku_crop.jpeg?itok=H3Zfo799&amp;timestamp=1476706345 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_scpu_t1_rice_scpku_crop.jpeg?itok=zQKDw3tL&amp;timestamp=1476706345 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_scpu_t1_rice_scpku_crop.jpeg?itok=H3Zfo799&amp;timestamp=1476706345">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--feature">feature</span>
+  <a href="/https://fsi.stanford.edu/  http://scpku.fsi.stanford.edu/content/about-center">
+    <span class="vertical-tabs__subtitle">
+        Stanford's bridge across the Pacific    </span>
+  </a>
+</div>
+      </div>
+          <div class="vertical-tabs__item even">
+        <a href="/https://fsi.stanford.edu/  http://scpku.fsi.stanford.edu/news/video-showcases-scpkus-highly-immersive-classroom-enabling-co-teaching-across-pacific">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_scpu_t2_highly_immersive_classroom_scpku.jpg?itok=XPI9SwDi&amp;timestamp=1476706410 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_scpu_t2_highly_immersive_classroom_scpku.jpg?itok=wgraVFZ7&amp;timestamp=1476706410 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_scpu_t2_highly_immersive_classroom_scpku.jpg?itok=XPI9SwDi&amp;timestamp=1476706410 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_scpu_t2_highly_immersive_classroom_scpku.jpg?itok=KXf9Q8Bu&amp;timestamp=1476706410 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_scpu_t2_highly_immersive_classroom_scpku.jpg?itok=FVWz09ui&amp;timestamp=1476706410 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_scpu_t2_highly_immersive_classroom_scpku.jpg?itok=KXf9Q8Bu&amp;timestamp=1476706410 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_scpu_t2_highly_immersive_classroom_scpku.jpg?itok=9RZM8eXy&amp;timestamp=1476706410 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_scpu_t2_highly_immersive_classroom_scpku.jpg?itok=WQAdbUHk&amp;timestamp=1476706410 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_scpu_t2_highly_immersive_classroom_scpku.jpg?itok=9RZM8eXy&amp;timestamp=1476706410 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_scpu_t2_highly_immersive_classroom_scpku.jpg?itok=WQAdbUHk&amp;timestamp=1476706410">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--feature">feature</span>
+  <a href="/https://fsi.stanford.edu/  http://scpku.fsi.stanford.edu/news/video-showcases-scpkus-highly-immersive-classroom-enabling-co-teaching-across-pacific">
+    <span class="vertical-tabs__subtitle">
+        Highly Immersive Classroom    </span>
+  </a>
+</div>
+      </div>
+      </div>
+</div>
+  <div class="fsird-tabs__content ">
+  <h3 class="vertical-tabs__title">  Program on Energy &amp; Sustainable Development</h3>
+  <div class="vertical-tabs__body list-in-article">
+      <p><span style="color: rgb(77, 79, 81); font-family: ss, Arial, sans-serif; font-size: 18px;">PESD is an international, interdisciplinary program that draws on the fields of economics, political science, law, and management to investigate how real energy markets work.</span></p>  </div>
+  <div class="btn--responsive btn--uppercase">  <a class="btn" href="/http://pesd.fsi.stanford.edu">Visit PESD Homepage</a></div>
+  <div class="vertical-tabs__list">
+          <div class="vertical-tabs__item odd">
+        <a href="/https://fsi.stanford.edu/  http://pesd.fsi.stanford.edu/research/electricity_sector_reforms_impact_on_development_and_environment">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/power_lines_getty.jpg?itok=7v0CGCv8&amp;timestamp=1476706622 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/power_lines_getty.jpg?itok=LMOZZeI1&amp;timestamp=1476706622 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/power_lines_getty.jpg?itok=7v0CGCv8&amp;timestamp=1476706622 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/power_lines_getty.jpg?itok=uCqaGpQi&amp;timestamp=1476706622 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/power_lines_getty.jpg?itok=gMt5zvLN&amp;timestamp=1476706622 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/power_lines_getty.jpg?itok=uCqaGpQi&amp;timestamp=1476706622 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/power_lines_getty.jpg?itok=Ch79KoWB&amp;timestamp=1476706622 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/power_lines_getty.jpg?itok=OqAHvQDJ&amp;timestamp=1476706622 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/power_lines_getty.jpg?itok=Ch79KoWB&amp;timestamp=1476706622 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/power_lines_getty.jpg?itok=OqAHvQDJ&amp;timestamp=1476706622">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--feature">feature</span>
+  <a href="/https://fsi.stanford.edu/  http://pesd.fsi.stanford.edu/research/electricity_sector_reforms_impact_on_development_and_environment">
+    <span class="vertical-tabs__subtitle">
+        Electricity Sector Reforms    </span>
+  </a>
+</div>
+      </div>
+          <div class="vertical-tabs__item even">
+        <a href="/https://fsi.stanford.edu/  http://pesd.fsi.stanford.edu/research/climate_change_policy">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/climate_change.jpg?itok=fDvyaWDt&amp;timestamp=1476706680 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/climate_change.jpg?itok=QGLinpyn&amp;timestamp=1476706680 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/climate_change.jpg?itok=fDvyaWDt&amp;timestamp=1476706680 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/climate_change.jpg?itok=0seU3akl&amp;timestamp=1476706680 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/climate_change.jpg?itok=rpvfAvrE&amp;timestamp=1476706680 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/climate_change.jpg?itok=0seU3akl&amp;timestamp=1476706680 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/climate_change.jpg?itok=2KNalQFB&amp;timestamp=1476706680 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/climate_change.jpg?itok=J7Ia7rVr&amp;timestamp=1476706680 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/climate_change.jpg?itok=2KNalQFB&amp;timestamp=1476706680 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/climate_change.jpg?itok=J7Ia7rVr&amp;timestamp=1476706680">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--feature">feature</span>
+  <a href="/https://fsi.stanford.edu/  http://pesd.fsi.stanford.edu/research/climate_change_policy">
+    <span class="vertical-tabs__subtitle">
+        Climate Change Policy    </span>
+  </a>
+</div>
+      </div>
+      </div>
+</div>
+  <div class="fsird-tabs__content ">
+  <h3 class="vertical-tabs__title">  Rural Education Action Program</h3>
+  <div class="vertical-tabs__body list-in-article">
+      <p>REAP&nbsp;<span style="color: rgb(77, 79, 81); font-size: 18px;">is dedicated to discovering the causes of poverty in rural China, and creating simple, yet effective solutions in education, health and nutrition policy.</span></p>  </div>
+  <div class="btn--responsive btn--uppercase">  <a class="btn" href="/http://reap.fsi.stanford.edu/">Visit REAP Homepage</a></div>
+  <div class="vertical-tabs__list">
+          <div class="vertical-tabs__item odd">
+        <a href="/https://fsi.stanford.edu/  http://fsi.stanford.edu/research/seeing_is_learning">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_reap_t1_3._global_health_-_reap.jpg?itok=obRQwgji&amp;timestamp=1476706770 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_reap_t1_3._global_health_-_reap.jpg?itok=iNlymmKR&amp;timestamp=1476706770 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_reap_t1_3._global_health_-_reap.jpg?itok=obRQwgji&amp;timestamp=1476706770 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_reap_t1_3._global_health_-_reap.jpg?itok=YYSKgJxx&amp;timestamp=1476706770 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_reap_t1_3._global_health_-_reap.jpg?itok=B0o3AU2h&amp;timestamp=1476706770 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_reap_t1_3._global_health_-_reap.jpg?itok=YYSKgJxx&amp;timestamp=1476706770 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_reap_t1_3._global_health_-_reap.jpg?itok=dFVLZdiZ&amp;timestamp=1476706770 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_reap_t1_3._global_health_-_reap.jpg?itok=NuIEtx5Q&amp;timestamp=1476706770 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_reap_t1_3._global_health_-_reap.jpg?itok=dFVLZdiZ&amp;timestamp=1476706770 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_reap_t1_3._global_health_-_reap.jpg?itok=NuIEtx5Q&amp;timestamp=1476706770">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--feature">feature</span>
+  <a href="/https://fsi.stanford.edu/  http://fsi.stanford.edu/research/seeing_is_learning">
+    <span class="vertical-tabs__subtitle">
+        Seeing is Learning    </span>
+  </a>
+</div>
+      </div>
+          <div class="vertical-tabs__item even">
+        <a href="/https://fsi.stanford.edu/  http://fsi.stanford.edu/research/organization/6084/67097">
+  <div class="vertical-tabs__image">
+      <picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_reap_t2_reap_nutrition.jpg?itok=RLgdUVxa&amp;timestamp=1476706842 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_desktop/public/vs_reap_t2_reap_nutrition.jpg?itok=O-7LOx1Y&amp;timestamp=1476706842 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_desktop/public/vs_reap_t2_reap_nutrition.jpg?itok=RLgdUVxa&amp;timestamp=1476706842 2x" media="(min-width: 64em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_reap_t2_reap_nutrition.jpg?itok=U7nzBqnS&amp;timestamp=1476706842 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_tablet/public/vs_reap_t2_reap_nutrition.jpg?itok=GQxJLpZP&amp;timestamp=1476706842 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_tablet/public/vs_reap_t2_reap_nutrition.jpg?itok=U7nzBqnS&amp;timestamp=1476706842 2x" media="(min-width: 48em)">
+<source srcset="https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_reap_t2_reap_nutrition.jpg?itok=LGBtrMyM&amp;timestamp=1476706842 1.5x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_reap_t2_reap_nutrition.jpg?itok=RG0hXhrk&amp;timestamp=1476706842 1x, https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__2x_mobile/public/vs_reap_t2_reap_nutrition.jpg?itok=LGBtrMyM&amp;timestamp=1476706842 2x" media="(min-width: 0em)">
+<!--[if IE 9]></video><![endif]-->
+<img alt="" title="" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/vertical_select_tile__1x_mobile/public/vs_reap_t2_reap_nutrition.jpg?itok=RG0hXhrk&amp;timestamp=1476706842">
+</picture>  </div>
+</a>
+<div class="vertical-tabs__text">
+  <span class="type type--feature">feature</span>
+  <a href="/https://fsi.stanford.edu/  http://fsi.stanford.edu/research/organization/6084/67097">
+    <span class="vertical-tabs__subtitle">
+        Nutrition, Health and Education    </span>
+  </a>
+</div>
+      </div>
+      </div>
+</div>
+  <div class="fsird-tabs__content ">
+  <h3 class="vertical-tabs__title">  Educational Research Programs</h3>
+  <div class="vertical-tabs__body list-in-article">
+      <p>FSI's research units include programs with an instructional component. The Stanford Program on Cross-cultural and Internation Education (SPICE) develops K-12 curricula based on our research; the Inter-University Center for Japanese Language Studies is the only program in the world that focuses exclusively on advanced Japanese language training.</p>  </div>
+        <div class="vertical-tabs__list vertical-tabs__buttons">
+    <a class="btn btn--solid-crimson" href="/http://spice.fsi.stanford.edu">Stanford Program on International &amp; Cross-Cultural Education</a>  <a class="btn btn--solid-crimson" href="/https://web.stanford.edu/dept/IUC/cgi-bin/index.php">Inter-University Center for Japanese Language Studies</a></div>
+  </div>
+</div>
+  </div>
+</div>
+  <div id="biography_block_131" class="block-bio js-block-bio js-more-items col4 bg--white">
+  <div class="container">
+    <h2 class="block-bio__title font--biggest text--center">
+      Featured Scholars    </h2>
+    <div class="block-bio__body text--center">
+      FSI is home to approximately 150 researchers, including 49 appointed faculty. Our scholars include world-renowned political theorists, physicians, former ambassadors and Cabinet members, nuclear physicists, economists and generals.    </div>
+  </div>
+  <div class="block-bio__list more-items__content container bg--white">
+    
+  <div class="block-bio__item bg--white ">
+  <div class="block-bio__tab hidden-on-tablet">
+    <div class="block-bio__tab__image">
+      <img typeof="foaf:Image" width="66" height="66" alt="fsi_bio" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/66x66/public/news/3997/1-Zegart_Amy.jpg?itok=YzlS-XPG">    </div>
+    <div class="block-bio__tab__group">
+      <h3 class="block-bio__name">
+        
+  Amy Zegart      </h3>
+      <div class="block-bio__job">
+        
+  Co-director of CISAC      </div>
+    </div>
+  </div>
+  <div class="block-bio__content bg--white">
+    <span class="block-bio__btn-close icon-close hidden-on-tablet">close</span>
+    <div class="block-bio__image">
+              <a href="/https://fsi.stanford.edu/people/amy_zegart"><img typeof="foaf:Image" width="768" height="470" alt="fsi_bio" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/768x470/public/news/3997/1-Zegart_Amy.jpg?itok=O1rUKF3X"></a>
+          </div>
+    <div class="block-bio__group">
+      <h3 class="block-bio__name">
+                  <a href="/https://fsi.stanford.edu/people/amy_zegart">
+  Amy Zegart</a>
+              </h3>
+      <div class="block-bio__job">
+        
+  Co-director of CISAC      </div>
+      <div class="block-bio__academic">
+        
+  FSI Senior Fellow      </div>
+      <div class="block-bio__description">
+              </div>
+      <div class="block-bio__publication">
+        <label>
+  Recent Publication</label>
+        <div>
+          <a href="/https://fsi.stanford.edu/publication/political-risk-how-businesses-and-organizations-can-anticipate-global-insecurity">
+            Political Risk          </a>
+        </div>
+      </div>
+    </div>
+    <div class="block-bio__link">
+              <a href="/https://fsi.stanford.edu/people/amy_zegart">
+                      Full Bio                  </a>
+          </div>
+  </div>
+</div>
+  <div class="block-bio__item bg--white ">
+  <div class="block-bio__tab hidden-on-tablet">
+    <div class="block-bio__tab__image">
+      <img typeof="foaf:Image" width="66" height="66" alt="fsi_bio" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/66x66/public/bio_images/bb_burke_crop.jpeg?itok=qR2CESEv">    </div>
+    <div class="block-bio__tab__group">
+      <h3 class="block-bio__name">
+        
+  Marshall Burke      </h3>
+      <div class="block-bio__job">
+        
+  Center Fellow, FSE      </div>
+    </div>
+  </div>
+  <div class="block-bio__content bg--white">
+    <span class="block-bio__btn-close icon-close hidden-on-tablet">close</span>
+    <div class="block-bio__image">
+              <a href="/http://fsi.stanford.edu/people/Marshall_Burke"><img typeof="foaf:Image" width="768" height="470" alt="fsi_bio" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/768x470/public/bio_images/bb_burke_crop.jpeg?itok=9W5BosAA"></a>
+          </div>
+    <div class="block-bio__group">
+      <h3 class="block-bio__name">
+                  <a href="/http://fsi.stanford.edu/people/Marshall_Burke">
+  Marshall Burke</a>
+              </h3>
+      <div class="block-bio__job">
+        
+  Center Fellow, FSE      </div>
+      <div class="block-bio__academic">
+        
+  Assistant Professor of Earth System Science      </div>
+      <div class="block-bio__description">
+              </div>
+      <div class="block-bio__publication">
+        <label>
+  Recent Publication</label>
+        <div>
+          <a href="/https://fsi.stanford.edu/news/stanford-scientists-combine-satellite-data-machine-learning-map-poverty">
+            Combining satellite imagery and machine learning to predict poverty          </a>
+        </div>
+      </div>
+    </div>
+    <div class="block-bio__link">
+              <a href="/http://fsi.stanford.edu/people/Marshall_Burke">
+                      Full Bio                  </a>
+          </div>
+  </div>
+</div>
+  <div class="block-bio__item bg--white ">
+  <div class="block-bio__tab hidden-on-tablet">
+    <div class="block-bio__tab__image">
+      <img typeof="foaf:Image" width="66" height="66" alt="fsi_bio" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/66x66/public/lobell_2013_hi-res-download_3_1_0.jpg?itok=cCssKLHU">    </div>
+    <div class="block-bio__tab__group">
+      <h3 class="block-bio__name">
+        
+  David Lobell      </h3>
+      <div class="block-bio__job">
+        
+  Deputy Director of FSE      </div>
+    </div>
+  </div>
+  <div class="block-bio__content bg--white">
+    <span class="block-bio__btn-close icon-close hidden-on-tablet">close</span>
+    <div class="block-bio__image">
+              <a href="/https://fsi.stanford.edu/people/david_lobell"><img typeof="foaf:Image" width="768" height="470" alt="fsi_bio" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/768x470/public/lobell_2013_hi-res-download_3_1_0.jpg?itok=jj7RbpDm"></a>
+          </div>
+    <div class="block-bio__group">
+      <h3 class="block-bio__name">
+                  <a href="/https://fsi.stanford.edu/people/david_lobell">
+  David Lobell</a>
+              </h3>
+      <div class="block-bio__job">
+        
+  Deputy Director of FSE      </div>
+      <div class="block-bio__academic">
+        
+  Professor of Earth System Science      </div>
+      <div class="block-bio__description">
+              </div>
+      <div class="block-bio__publication">
+        <label>
+  Recent Publication</label>
+        <div>
+          <a href="/https://fsi.stanford.edu/publication/differences-or-lack-thereof-wheat-and-maize-yields-under-three-low-warming-scenarios">
+            Differences, or lack thereof, in wheat and maize yields under three low-warming scenarios          </a>
+        </div>
+      </div>
+    </div>
+    <div class="block-bio__link">
+              <a href="/https://fsi.stanford.edu/people/david_lobell">
+                      Full Bio                  </a>
+          </div>
+  </div>
+</div>
+  <div class="block-bio__item bg--white ">
+  <div class="block-bio__tab hidden-on-tablet">
+    <div class="block-bio__tab__image">
+      <img typeof="foaf:Image" width="66" height="66" alt="fsi_bio" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/66x66/public/grzymala-busse.jpg?itok=gf_EEaEs">    </div>
+    <div class="block-bio__tab__group">
+      <h3 class="block-bio__name">
+        
+  Anna Grzymala-Busse      </h3>
+      <div class="block-bio__job">
+        
+  FSI Senior Fellow      </div>
+    </div>
+  </div>
+  <div class="block-bio__content bg--white">
+    <span class="block-bio__btn-close icon-close hidden-on-tablet">close</span>
+    <div class="block-bio__image">
+              <a href="/http://fsi.stanford.edu/people/anna-grzymala-busse"><img typeof="foaf:Image" width="768" height="470" alt="fsi_bio" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/styles/768x470/public/grzymala-busse.jpg?itok=_E__F3w_"></a>
+          </div>
+    <div class="block-bio__group">
+      <h3 class="block-bio__name">
+                  <a href="/http://fsi.stanford.edu/people/anna-grzymala-busse">
+  Anna Grzymala-Busse</a>
+              </h3>
+      <div class="block-bio__job">
+        
+  FSI Senior Fellow      </div>
+      <div class="block-bio__academic">
+        
+  Michelle and Kevin Douglas Professor of International Studies      </div>
+      <div class="block-bio__description">
+              </div>
+      <div class="block-bio__publication">
+        <label>
+  Recent Publication</label>
+        <div>
+          <a href="/http://fsi.stanford.edu/publication/hoist-their-own-petards-reinvention-and-collapse-authoritarian-successor-parties">
+            Hoist on their own petards? The reinvention and collapse of authoritarian successor parties          </a>
+        </div>
+      </div>
+    </div>
+    <div class="block-bio__link">
+              <a href="/http://fsi.stanford.edu/people/anna-grzymala-busse">
+                      Full Bio                  </a>
+          </div>
+  </div>
+</div>
+  </div>
+        <div class="block-bio__link-more container text--center bio-cta hidden">
+      
+  <a class="btn" href="/http://fsi.stanford.edu/people/institute-faculty">All FSI Faculty</a>    </div>
+  </div>
+  <div id="stats_block_137" class="block-stats">
+  <div class="container">
+    <div class="block-stats__inner">
+      <h2 class="gleam-title"><span>
+  FSI By the Numbers</span></h2>
+      <div class="block-stats__list">
+  
+  <div class="block-stats__item text--center">
+  <span class="block-stats__counter js-stats-counter">
+      150  </span>
+  <span class="block-stats__name">
+    
+  Researchers  </span>
+</div>
+  <div class="block-stats__item text--center">
+  <span class="block-stats__counter js-stats-counter">
+      48  </span>
+  <span class="block-stats__name">
+    
+  Research programs  </span>
+</div>
+  <div class="block-stats__item text--center">
+  <span class="block-stats__counter js-stats-counter">
+      49  </span>
+  <span class="block-stats__name">
+    
+  Appointed faculty  </span>
+</div>
+  <div class="block-stats__item text--center">
+  <span class="block-stats__counter js-stats-counter">
+      43  </span>
+  <span class="block-stats__name">
+    
+  Disciplines studied  </span>
+</div>
+  <div class="block-stats__item text--center">
+  <span class="block-stats__counter js-stats-counter">
+      25  </span>
+  <span class="block-stats__name">
+    
+  Fellowships offered  </span>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+  <div id="two_column_views_144" class="block-two-column-views distance-component bg--white">
+  <div class="container">
+    <h2 class="block-two-column-views__title text-center hidden-on-tablet font--biggest">News &amp; Events</h2>
+    <div class="fsird-tabs fsird-tabs--horizontal">
+      <ul class="fsird-tabs__list hidden-on-tablet">
+        <li class="fsird-tabs__list__item js-fsird-tabs__list__item active" data-index="0">News</li>
+        <li class="fsird-tabs__list__item js-fsird-tabs__list__item" data-index="1">Events</li>
+      </ul>
+      <div class="fsird-tabs__section">
+        <div class="fsird-tabs__content active">
+          
+  
+  
+<div class="block-news">
+  <h2 class="gleam-title"><span>News</span></h2>
+  
+  
+  
+      <div class="block-news__list">
+        <div class="block-news__item">
+      
+            <h3 class="block-news__name">
+  <a href="/https://fsi.stanford.edu/news/should-we-enroll-kids-coding-classes">Should we enroll kids in coding classes?</a></h3>          
+            <div class="block-news__date"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-01T00:00:00-07:00">August 1, 2018</span></div>      </div>  <div class="block-news__item">
+      
+            <h3 class="block-news__name">
+  <a href="/https://fsi.stanford.edu/news/cybersecurity-expert-alex-stamos-joins-stanford-university-fellow">Cybersecurity expert Alex Stamos joins Stanford University as fellow</a></h3>          
+            <div class="block-news__date"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-01T00:00:00-07:00">August 1, 2018</span></div>      </div>  <div class="block-news__item">
+      
+            <h3 class="block-news__name">
+  <a href="/https://fsi.stanford.edu/news/what%E2%80%99s-wrong-public-policy-education">What’s Wrong with Public Policy Education</a></h3>          
+            <div class="block-news__date"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-01T00:00:00-07:00">August 1, 2018</span></div>      </div>  <div class="block-news__item">
+      
+            <h3 class="block-news__name">
+  <a href="/https://fsi.stanford.edu/news/michael-mcfaul-named-new-ken-olivier-and-angela-nomellini-professor-international-studies">Michael McFaul named the new Ken Olivier and Angela Nomellini Professor of International Studies</a></h3>          
+            <div class="block-news__date"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-07-24T00:00:00-07:00">July 24, 2018</span></div>      </div>  <div class="block-news__item">
+      
+            <h3 class="block-news__name">
+  <a href="/https://fsi.stanford.edu/news/digital-media-combatting-threats-era-fake-news">Digital Media: Combatting Threats in the Era of Fake News</a></h3>          
+            <div class="block-news__date"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-07-24T00:00:00-07:00">July 24, 2018</span></div>      </div>    </div>
+  
+  
+          <div class="block-news__link text--center">
+  <a class="btn" href="/https://fsi.stanford.edu/news">
+    See All News  </a>
+</div>
+    </div>
+        </div>
+        <div class="fsird-tabs__content">
+          
+  
+  <div class="block-events">
+  <h2 class="gleam-title"><span>Events</span></h2>
+  
+  
+  
+      <div class="block-events__list">
+        <div class="block-events__item">
+      <div class="block-events__date text--center">
+    
+      <div class="date-box text--center"><span class="date-box__text-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-09T09:30:00-07:00">Thu</span></span>
+<span class="date-box__month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-09T09:30:00-07:00">Aug</span></span>
+<span class="date-box__number-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-09T09:30:00-07:00">9</span></span></div>    
+      <div class="block-events__content"><div class="block-events__time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-09T09:30:00-07:00">9:30 AM</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-09T09:30:00-07:00">4:30 PM</span></div>
+<h3 class="block-events__title"><a href="/https://fsi.stanford.edu/events/break-through-women-silicon-valley-womenomics-japan">Break Through: Women in Silicon Valley, Womenomics in Japan</a></h3>
+<div class="block-events__body"></div></div>  </div>
+<div class="block-events__content">
+  </div>
+  </div>
+  <div class="block-events__item">
+      <div class="block-events__date text--center">
+    
+      <div class="date-box text--center"><span class="date-box__text-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-23T17:00:00-07:00">Thu</span></span>
+<span class="date-box__month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-23T17:00:00-07:00">Aug</span></span>
+<span class="date-box__number-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-23T17:00:00-07:00">23</span></span></div>    
+      <div class="block-events__content"><div class="block-events__time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-23T17:00:00-07:00">5:00 PM</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-23T17:00:00-07:00">2:00 PM</span></div>
+<h3 class="block-events__title"><a href="/https://fsi.stanford.edu/events/essential-interpersonal-dynamics-china-program">Essential Interpersonal Dynamics China Program</a></h3>
+<div class="block-events__body"></div></div>  </div>
+<div class="block-events__content">
+  </div>
+  </div>
+  <div class="block-events__item">
+      <div class="block-events__date text--center">
+    
+      <div class="date-box text--center"><span class="date-box__text-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-05T18:30:00-07:00">Wed</span></span>
+<span class="date-box__month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-05T18:30:00-07:00">Sep</span></span>
+<span class="date-box__number-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-05T18:30:00-07:00">5</span></span></div>    
+      <div class="block-events__content"><div class="block-events__time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-05T18:30:00-07:00">6:30 PM</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-05T18:30:00-07:00">8:30 PM</span></div>
+<h3 class="block-events__title"><a href="/https://fsi.stanford.edu/events/tokyo-alumni-reception">Tokyo Alumni Reception</a></h3>
+<div class="block-events__body"></div></div>  </div>
+<div class="block-events__content">
+  </div>
+  </div>
+  <div class="block-events__item">
+      <div class="block-events__date text--center">
+    
+      <div class="date-box text--center"><span class="date-box__text-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-10T18:30:00-07:00">Mon</span></span>
+<span class="date-box__month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-10T18:30:00-07:00">Sep</span></span>
+<span class="date-box__number-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-10T18:30:00-07:00">10</span></span></div>    
+      <div class="block-events__content"><div class="block-events__time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-10T18:30:00-07:00">6:30 PM</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-10T18:30:00-07:00">8:30 PM</span></div>
+<h3 class="block-events__title"><a href="/https://fsi.stanford.edu/events/beijing-alumni-reception">Beijing Alumni Reception</a></h3>
+<div class="block-events__body"></div></div>  </div>
+<div class="block-events__content">
+  </div>
+  </div>
+  <div class="block-events__item">
+      <div class="block-events__date text--center">
+    
+      <div class="date-box text--center"><span class="date-box__text-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-10-22T15:30:00-07:00">Mon</span></span>
+<span class="date-box__month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-10-22T15:30:00-07:00">Oct</span></span>
+<span class="date-box__number-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-10-22T15:30:00-07:00">22</span></span></div>    
+      <div class="block-events__content"><div class="block-events__time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-10-22T15:30:00-07:00">3:30 PM</span> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-10-22T15:30:00-07:00">5:00 PM</span></div>
+<h3 class="block-events__title"><a href="/https://fsi.stanford.edu/events/nuclear-disarmament-verification-resonant-phenomena">Nuclear Disarmament Verification via Resonant Phenomena</a></h3>
+<div class="block-events__body">William J. Perry Conference Room, Encina Hall, 2nd Floor, 616 Serra St, Stanford, CA 94305</div></div>  </div>
+<div class="block-events__content">
+  </div>
+  </div>
+    </div>
+  
+  
+          <div class="block-events__link text--center">
+  <a class="btn" href="/https://fsi.stanford.edu/events">
+    See All Events  </a>
+</div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+  </div>
+                                                                              </div>
+      <!-- /#content-wrap -->
+    </div>
+    <!-- /#content -->
+      </div>
+    </div>
+<!-- /#main, /#main-wrapper -->
+
+<section class="direction minusMargin">
+  </section>
+
+  <footer class="footer">
+          <section class="footer-panel bg--outer-space">
+        <div class="container">
+            <div class="region region-footer-center">
+    <div id="block-block-17" class="block block-block footer-panel__top__item">
+        <h3 class="footer-panel__title">Our Address</h3><div class="logo-footer"><a href="/https://fsi.stanford.edu"><img height="52" width="517" src="/https://fsi.stanford.edu/sites/all/themes/fsi/images/logo-white.png"></a></div><div class="footer-panel__body">Encina Hall<br>616 Serra St C100<br>Stanford University<br>Stanford, CA 94305-6055</div></div>
+<div id="block-block-19" class="block block-block footer-panel__top__item">
+        <h3 class="footer-panel__title">Navigate</h3><div class="nav-footer"><ul><li><a href="/http://fsi.stanford.edu/content/research">Research</a></li><li><a href="/http://fsi.stanford.edu/content/education">Education</a></li><li><a href="/http://fsi.stanford.edu/people/faculty">People</a></li><li><a href="/http://fsi.stanford.edu/content/our-centers">Centers</a></li><li><a href="/http://fsi.stanford.edu/news">News</a></li><li><a href="/http://fsi.stanford.edu/events">Events</a></li><li><a href="/http://fsi.stanford.edu/docs/about_fsi">About</a></li></ul></div></div>
+<div id="block-block-18" class="block block-block footer-panel__top__item">
+        <h3 class="footer-panel__title">Follow Us</h3>
+<p><strong>General inquiries</strong><br>
+	650-723-4581</p>
+<div class="social-links">
+	<ul><li><a class="icon-envelope" href="/http://fsi.stanford.edu/fsi-newsletter-signup">Mail</a></li>
+		<li><a class="icon-twitter" target="_blank" href="/https://twitter.com/FSIStanford">Twitter</a></li>
+	</ul></div>
+</div>
+<div id="block-block-20" class="block block-block footer-panel__top__item">
+        <h3 class="footer-panel__title">Support Us</h3><div class="support-us"><p>Learn more about how your support makes a difference or make a gift now</p><a class="btn btn--small" href="/http://fsi.stanford.edu/docs/supporting_fsi">Make a gift</a></div><p>&nbsp;</p></div>
+  </div>
+        </div>
+      </section>
+        <div id="back-top" class="back-top hidden-on-tablet">
+      <div class="back-top__inner">
+        <span class="back-top__item back-top__icon js-back-top icon-chevron-up"></span>
+        <span class="back-top__item">Top</span>
+      </div>
+    </div>
+          <section class="footer-global bg--cardinal">
+        <div class="container">
+            <div class="region region-footer-copyrights">
+    <div id="block-imageblock-1" class="block block-imageblock">
+
+    
+  <div class="content">
+      <div class="footer-global__logo">
+    <img class="imageblock-image" typeof="foaf:Image" alt="Logo footer" title="footer-stanford-logo" src="/https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/imageblock/footer-stanford-logo2x.png">  </div>
+
+  <ul class="footer-global__nav"><li><a href="/http://www.stanford.edu">SU Home</a></li><li><a href="/http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li><li><a href="/http://www.stanford.edu/search/">Search Stanford</a></li><li><a href="/http://www.stanford.edu/site/terms.html">Terms of Use</a></li><li><a href="/http://emergency.stanford.edu/">Emergency Info</a></li></ul><div class="footer-global__copyright"><p class="vcard">© <span class="fn org">Stanford University</span>, <span class="adr"><span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>. <span class="copyright-links"><a href="/http://www.stanford.edu/site/copyright.html">Copyright Complaints</a></span></p></div>  </div>
+</div>
+  </div>
+        </div>
+      </section>
+      </footer>
+  <script type="text/javascript" src="/https://fsi.stanford.edu/sites/default/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js"></script>
+<script type="text/javascript" src="/https://fsi.stanford.edu/sites/all/themes/fsi/source/js/scripts.js?pcs6mv"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"875eb0646b","applicationID":"111342907","transactionName":"ZAdWMkFWWEBSBUUPW11NdQVHXlldHBZQAVFsD1UIUlBTQWwIXgJRbBRdA0RoRlJUAw==","queueTime":0,"applicationTime":2748,"atts":"SEBVRAlMS04=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+
+</body></html>

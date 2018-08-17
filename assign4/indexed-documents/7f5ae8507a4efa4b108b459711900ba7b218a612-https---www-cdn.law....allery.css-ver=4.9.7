@@ -1,0 +1,208 @@
+.wc-gallery li:before {
+    display: none;
+}
+
+.wcflex-direction-nav {
+    position: relative;
+    top: 200px;
+}
+
+.wc-gallery .gallery {
+    overflow: initial;
+}
+
+.gallery-caption {
+    margin-top: -39px;
+}
+
+.wc-gallery .gallery .gallery-icon a {
+    border-bottom: none;
+}
+
+.wc-gallery .gallery-caption p {
+    white-space: inherit;
+}
+
+.wc-gallery .wcflexslider .slides .gallery-caption {
+    min-width: 100% !important;
+    background-color: #252b2c;
+}
+
+.mfp-wrap {
+    width: 90%;
+    margin: 0 auto;
+    left: 5%;
+}
+
+.mfp-arrow:after {
+    content: no-close-quote;
+}
+
+.wcslider .gallery-item {
+    padding: 0 50px !important;
+}
+
+
+ul.slides {
+    counter-reset: slidenum;   
+}
+
+ul.slides > li {
+    counter-increment: slidenum;
+}
+
+.countertext {
+        margin-top: 10px;
+}
+
+.countertext::before {
+    content: counter(slidenum);
+}
+
+.wcflex-direction-nav .wcflex-next {
+    background: url("https://law.stanford.edu/wp-content/uploads/2016/08/gallery-arrows_better-02.png") no-repeat center center !important ;
+}
+
+.wcflex-direction-nav .wcflex-prev {
+    background: url("https://law.stanford.edu/wp-content/uploads/2016/08/gallery-arrows_better-01.png") no-repeat center center !important ;
+}
+
+.wcflex-direction-nav a {
+    border: none;
+}
+
+.wcflex-direction-nav a:focus {
+    outline: none;
+}
+
+.slides .gallery-icon a {
+    min-height: 410px;
+    background: #1a1a1a;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 36px;
+}
+
+.slides .gallery-icon img {
+    margin: 0 auto;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    
+/*masonary styles */
+
+.gallery-masonry .gallery-item {
+    padding: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.gallery-masonry div:nth-child(n+5) {
+    display: none !important;
+}
+
+.gallery-masonry .gallery-item-position-4 img{
+    opacity: .2 !important;
+}
+
+.masonrytext {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    display: block;
+    text-align: center;
+}
+
+.gallery-masonry .gallery-icon a {
+    min-height: 245px;
+    max-width: 437px;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.gallery-masonry img {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 245px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-masonry .wp-image-wrap {
+    margin: 0px;
+}
+
+/* owl slider styles */ 
+
+.owl-carousel .gallery-caption {
+    display: none;
+}
+
+/* media queries */
+
+
+@media (min-width: 1000px) {
+  
+/*
+    .gallery-masonry .gallery-item-position-3 {
+        position: relative !important;
+        top: 250px !important;
+    }
+
+    .gallery-masonry .gallery-item-position-4 {
+        position: relative !important;
+        top: 250px !important;
+        left: -436px !important;
+    }
+*/
+
+}
+
+@media (max-width: 600px) {
+    
+    .slides .gallery-caption {
+        display: none;
+    }
+    
+    .countertext {
+        text-align: center;
+    }
+    
+    .gallery-item-position-3, .gallery-item-position-1, .gallery-item-position-2 {
+        display: none;
+    }
+    
+    .gallery-item-position-4 {
+        width: 100%;
+    }
+    
+    .gallery-masonry a {
+        border: none !important;
+        max-width: 100% !important;
+    }
+    
+    .gallery-masonry .gallery-item {
+        border: none !important;
+    }
+    
+    .wcflex-direction-nav {
+        top: 200px;
+    }
+    
+    .slides .gallery-icon a {
+        min-height: 200px;
+        background: #fff;
+    }
+    
+    .slides .gallery-icon img {
+        max-height: 200px;
+    }
+
+    
+}

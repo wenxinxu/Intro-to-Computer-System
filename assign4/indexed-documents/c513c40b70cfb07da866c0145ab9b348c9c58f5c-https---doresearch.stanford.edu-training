@@ -1,0 +1,599 @@
+<!DOCTYPE html><!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]--><!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html lang="en" dir="ltr"><!--<![endif]--><head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="Generator" content="Drupal 7 (http://drupal.org)">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/https://doresearch.stanford.edu/sites/all/themes/stanford_dor/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js" />
+<![endif]--><!--[if IE 8]><link rel="stylesheet" href="https://www-media.stanford.edu/su-identity/css/ie/ie8.css" type="text/css" />
+<![endif]--><!--[if IE 7]><link rel="stylesheet" href="https://www-media.stanford.edu/su-identity/css/ie/ie7.css" type="text/css" />
+<![endif]-->  <title>Compliance Training | DoResearch</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <link type="text/css" rel="stylesheet" media="all" href="/https://doresearch.stanford.edu/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://doresearch.stanford.edu/sites/default/files/css/css_i51XE-L4xRYqUa-30n_jX0YKWNp6So_btVb1ZSdoSgA.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://doresearch.stanford.edu/sites/default/files/css/css_fMUuJN-G9sCYQ7bNg3oZ6qn0vdaGaGqFMBL98a6lVDg.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://doresearch.stanford.edu/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/https://doresearch.stanford.edu/sites/default/files/css/css_2phnfvFkXHs7XdpKA83ubiihIEPZPdc8pSce_1Qdrm4.css">
+<link type="text/css" rel="stylesheet" media="print" href="/https://doresearch.stanford.edu/sites/default/files/css/css_tRmumCp2Yrvkb2Dj3g6aVqppsrXGPvfvEHWyJa6b9vM.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://www-media.stanford.edu/su-identity/css/su-identity.css">
+  <script src="/https://doresearch.stanford.edu/sites/default/files/js/js_oTw2mccdSyi5Mu_UeNjwZZ2nsxd4cA8KM0jkogZEw68.js"></script>
+<script src="/https://doresearch.stanford.edu/sites/default/files/js/js_BLxotNs2yt7YGlf9QRI9L9AMfdnkQfnN-_ADBTW3SiE.js"></script>
+<script src="/https://doresearch.stanford.edu/sites/default/files/js/js_Z_ZWcfJxHiWu4g-PrGdLBS1F776mz9AfM_5V4XwnDU0.js"></script>
+<script src="/https://doresearch.stanford.edu/sites/default/files/js/js_LopHUZka6DJE9pOg1hauPWG0-QXBQyPMo7_SZcs-xYA.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-35626328-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="/https://doresearch.stanford.edu/sites/default/files/js/js_z8DRs4RSSqegPomH9Y9j2tpiZoClu3p0w-5l8aT6W0I.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stanford_dor","theme_token":"CUUp96xzT417qob8NIw1_A8Ig3Z-hyj9wU0tMzrzy3w","jquery_version":"1.7","js":{"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/features\/dor_certification_databases\/js\/script.js":1,"sites\/all\/modules\/custom\/dor_link_filter\/dor_link_filter.js":1,"sites\/all\/modules\/custom\/stanford_search\/js\/google_cse.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.js":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/quicktabs\/js\/quicktabs.js":1,"sites\/all\/modules\/features\/dor_training\/js\/filters.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/contrib\/views_flag_refresh\/views_flag_refresh.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/stanford_dor\/js\/script.js":1,"sites\/all\/themes\/stanford_dor\/js\/dorlightbox.js":1,"sites\/all\/themes\/stanford_dor\/js\/jquery.isotope.min.js":1,"sites\/all\/themes\/stanford_dor\/js\/hotjar.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/quiz\/quiz.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/custom\/stanford_search\/css\/google_cse.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/modules\/contrib\/quicktabs\/css\/quicktabs.css":1,"sites\/all\/modules\/contrib\/dismiss\/css\/dismiss.base.css":1,"sites\/all\/modules\/contrib\/node_embed\/plugins\/node_embed\/node_embed.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/stanford_dor\/unset\/system.menus.css":1,"sites\/all\/themes\/stanford_dor\/unset\/search.css":1,"sites\/all\/themes\/stanford_dor\/unset\/dortwocol.css":1,"sites\/all\/themes\/stanford_dor\/unset\/dorthreecol.css":1,"sites\/all\/themes\/stanford_dor\/unset\/dorthreecol-alt.css":1,"sites\/all\/themes\/stanford_dor\/unset\/dorthreecol-even.css":1,"sites\/all\/themes\/stanford_dor\/css\/normalize.css":1,"sites\/all\/themes\/stanford_dor\/css\/styles.css":1,"sites\/all\/themes\/stanford_dor\/css\/oembed.base.css":1,"sites\/all\/themes\/stanford_dor\/css\/oembed.theme.css":1,"sites\/all\/themes\/stanford_dor\/css\/print.css":1,"https:\/\/www-media.stanford.edu\/su-identity\/css\/su-identity.css":1}},"apachesolr_autocomplete":{"path":"\/apachesolr_autocomplete"},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"stanford_search":{"id":"003449814508050799506:xk8-6r_uwsa"},"quicktabs":{"qt_view___training_topics__panel_pane_2":{"name":"view___training_topics__panel_pane_2","tabs":[[],[],[]],"stanford_search":{"id":"003449814508050799506:xk8-6r_uwsa"}}},"better_exposed_filters":{"views":{"_training_topics":{"displays":{"attachment_1":{"filters":[]},"panel_pane_2":{"filters":[]}}},"trainings_list":{"displays":{"panel_pane_1":{"filters":{"field_training_topics_tid":{"required":false},"field_training_cert_prog_tid":{"required":false},"field_topic_audience_tid":{"required":false}}}}},"policy_notification_block":{"displays":{"attachment_1":{"filters":[]},"block":{"filters":[]}}}}},"urlIsAjaxTrusted":{"\/":true,"\/views\/ajax":true},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:88421622666104e7414f2ddb6b043f02":{"view_name":"trainings_list","view_display_id":"panel_pane_1","view_args":"","view_path":"training","view_base_path":null,"view_dom_id":"88421622666104e7414f2ddb6b043f02","pager_element":0}}},"viewsFlagRefresh":{"imagePath":"\/sites\/all\/modules\/contrib\/views_flag_refresh\/images"},"dismiss":{"fadeout":0},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":0,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"dor_header_info":{"desc":"A herd of elephants crosses the Silale Swamp of Tarangire National Park, Tanzania. This photograph was taken while studying the interactions between protected areas, peoples, and wildlife in northern Tanzania through Stanford\u0026#039;s Sophomore College program.","title":"Elephant River Crossing","photo":"\/sites\/default\/files\/header_original\/sta-gibson-overlay.jpg","credits":"Image by Lauren Gibson, BA Candidate Earth Systems, Stanford University"}});</script>
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5.js"></script>
+    <![endif]-->
+  	<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="/sites/all/themes/stanford_dor/css/no-mq.css" />
+	<![endif]-->
+  <script>
+    (function() {
+      var config = {
+        kitId: 'wvr8mie',
+        scriptTimeout: 3000
+      };
+      var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+    })();
+  </script>
+  <link rel="apple-touch-icon" href="/https://doresearch.stanford.edu/sites/all/themes/stanford_dor/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/https://doresearch.stanford.edu/sites/all/themes/stanford_dor/apple-touch-icon-precomposed-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/https://doresearch.stanford.edu/sites/all/themes/stanford_dor/apple-touch-icon-precomposed-114x114.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/https://doresearch.stanford.edu/sites/all/themes/stanford_dor/apple-touch-icon-precomposed-144x144.png">
+</head>
+<body class="html not-front not-logged-in no-sidebars page-training section-training page-panels big-landing-page-title">
+      <p id="skip-link">
+      <a class="element-invisible element-focusable" href="/https://doresearch.stanford.edu/training">Jump to navigation</a>
+    </p>
+      <div id="su-wrap"> <!-- #su-wrap start -->
+<div id="su-content"> <!-- #su-content start -->
+<div id="page">
+  <header id="header" role="banner" style="background-image: url('/sites/default/files/header/sta-gibson-header_0.jpg')">
+    <div id="stripe">
+      <section class="container">
+        <div id="pip-camera"></div>
+        <h2 class="stanford-university">
+          <a href="/http://stanford.edu"><img width="153" height="22" alt="Stanford University" src="/https://doresearch.stanford.edu/sites/all/themes/stanford_dor/images/stanford-university.png"></a>
+        </h2>
+                  <nav id="secondary-menu" role="navigation">
+            <ul>
+                            <li><a href="/https://doresearch.stanford.edu/saml_login?destination=training">Log in</a></li>
+            </ul>
+          </nav>
+              </section><!-- .container -->
+    </div><!-- #stripe -->
+
+    <div class="container">
+
+    
+          <hgroup id="name-and-slogan">
+                  <h1 id="site-name">
+            <a title="Home" rel="home" href="/https://doresearch.stanford.edu/"><span>DoResearch</span></a>
+          </h1>
+        
+              </hgroup><!-- /#name-and-slogan -->
+    
+    <div id="navigation" class="collapsed">
+
+              <nav id="main-menu" role="navigation">
+          <h2 class="element-invisible">Main menu</h2><ul class="links inline clearfix"><li class="menu-1670 first"><a href="/https://doresearch.stanford.edu/research-scholarship">Research &amp; Scholarship</a></li>
+<li class="menu-658"><a href="/https://doresearch.stanford.edu/funding">Funding</a></li>
+<li class="menu-655 active-trail active"><a title="" class="active-trail active" href="/https://doresearch.stanford.edu/training">Training</a></li>
+<li class="menu-1669"><a href="/https://doresearch.stanford.edu/research-administration">Research Administration</a></li>
+<li class="menu-659"><a title="" href="/https://doresearch.stanford.edu/howto">How To</a></li>
+<li class="menu-657"><a href="/https://doresearch.stanford.edu/policies">Policies</a></li>
+<li class="menu-1227 last"><a href="/https://doresearch.stanford.edu/contact">Contact</a></li>
+</ul>        </nav>
+      
+      
+    </div><!-- /#navigation -->
+
+      <div class="header__region region region-header">
+    <div id="block-stanford-search-stanford-search-search" class="block block-stanford-search first last odd">
+
+      
+  <gcse:searchbox-only queryparametername="as_q" resultsurl="https://doresearch.stanford.edu/find"></gcse:searchbox-only>
+</div><!-- /.block -->
+  </div>
+
+    </div><!-- .container -->
+  </header>
+
+    
+  <div id="main">
+
+    <div id="content" class="column" role="main">
+            <nav class="breadcrumb short-breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li class="crumb-wrap-outer"><a href="/https://doresearch.stanford.edu/">Home</a></li><li class="crumb-wrap-outer"><span>Compliance Training</span></li></ol></nav>      <a id="main-content"></a>
+                    <h1 class="title" id="page-title">Compliance Training</h1>
+                                <div class="region region-help">
+    <div id="block-views-policy-notification-block-block" class="block block-views first last odd">
+
+      
+  <div class="view view-policy-notification-block view-id-policy_notification_block view-display-id-block view-dom-id-78fe28d7bce404bb49c893ad071835ad">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-policy-notification-block view-id-policy_notification_block view-display-id-attachment_1 view-dom-id-ee1ca498a38e8414355dd3dfb351ed20">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div><!-- /.block -->
+  </div>
+            
+<div id="block-workbench-block" class="block block-workbench first odd">
+
+      
+  <div class="workbench-info-block"></div>
+</div><!-- /.block -->
+
+
+<div class="panel-display panel-1col clearfix">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-node training_intro">
+    
+      
+  
+  <div class="pane-content">
+    <article class="node-92650 node node-intro view-mode-full clearfix">
+
+  
+  <div class="field field-name-field-intro-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Research,&nbsp;managing the financial aspects of research,&nbsp;and research administration must be carried out in compliance with Stanford policy, federal and state laws, sponsor requirements and the award terms and conditions.&nbsp;These courses will help individuals understand and implement those compliance responsibilities.</p>
+<div class="embeds" style="display:none"></div></div></div></div>
+  
+  
+</article>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-views-panes pane-training-topics-panel-pane-2">
+    
+        <h2 class="pane-title">Browse courses by</h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view--training-topics view-id-_training_topics view-display-id-panel_pane_2 view-dom-id-697a83c129ef9b5acd88de36369c1979">
+        
+  
+  
+      <div class="view-content">
+      <div id="quicktabs-view___training_topics__panel_pane_2" class="quicktabs-wrapper quicktabs-style-nostyle"><div class="item-list"><ul class="quicktabs-tabs quicktabs-style-nostyle"><li class="active first"><a id="quicktabs-tab-view___training_topics__panel_pane_2-0" class="active" href="/https://doresearch.stanford.edu/training?qt-view___training_topics__panel_pane_2=0">Topic</a></li>
+<li><a id="quicktabs-tab-view___training_topics__panel_pane_2-1" class="active" href="/https://doresearch.stanford.edu/training?qt-view___training_topics__panel_pane_2=1">Certificate program</a></li>
+<li class="last"><a id="quicktabs-tab-view___training_topics__panel_pane_2-2" class="active" href="/https://doresearch.stanford.edu/training?qt-view___training_topics__panel_pane_2=2">Audience</a></li>
+</ul></div><div id="quicktabs-container-view___training_topics__panel_pane_2" class="quicktabs_main quicktabs-style-nostyle"><div id="quicktabs-tabpage-view___training_topics__panel_pane_2-0" class="quicktabs-tabpage "><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/animal-care-and-use"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-animalcare.png?itok=S2E9coCu">
+<span class="title">Animal Care and Use</span>
+<span class="short-description">Veterinary Service Center Training Programs</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/conflicts-interest"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-coi.png?itok=WXYidesK">
+<span class="title">Conflicts of Interest</span>
+<span class="short-description">Required for new faculty and recipients of PHS funding</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/environmental-health-and-safety"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-ehs.png?itok=Ck_mK7PQ">
+<span class="title">Environmental Health and Safety</span>
+<span class="short-description">Use the Training Advisor to find courses for specific job duties</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/export-controls"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-exportcontrol.png?itok=uDhPFVor">
+<span class="title">Export Controls</span>
+<span class="short-description">Recognize and address export control issues.
+Required for H1-B visa sponsors</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/finance"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-finance.png?itok=Q_9fockq">
+<span class="title">Finance</span>
+<span class="short-description">Learn how to use Stanford Financial Systems</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/human-subjects-and-good-clinical-practice"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-humansubjects.png?itok=reAaTwo7">
+<span class="title">Human Subjects and Good Clinical Practice</span>
+<span class="short-description">Required for research with human subjects</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/industry-sponsored-clinical-trial-financial-administration"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-clinicaltrial.png?itok=PkgyCjd4">
+<span class="title">Industry Sponsored Clinical Trial Financial Administration</span>
+<span class="short-description"></span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/international-activities"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-internationaltravel.png?itok=E5ik426K">
+<span class="title">International Activities</span>
+<span class="short-description">Crucial resources students need to use before traveling abroad</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/national-institutes-health-nih"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-nih.png?itok=fLBtZi8e">
+<span class="title">National Institutes of Health (NIH)</span>
+<span class="short-description">Find all NIH training</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/nih-k-awards"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-kawards.png?itok=bPHbRtuk">
+<span class="title">NIH K Awards</span>
+<span class="short-description">Required for postdoctoral fellows submitting to NIH</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/nih-nrsa"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-nrsa.png?itok=lBXt6G03">
+<span class="title">NIH NRSA</span>
+<span class="short-description">Grants.gov training for those submitting a NIH NRSA F proposal</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/piship"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-pitraining.png?itok=9x9B5A6i">
+<span class="title">PIship</span>
+<span class="short-description">Key courses for those new to PIship at Stanford</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/privacy-and-security"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-security.png?itok=kMYSBIx9">
+<span class="title">Privacy and Security</span>
+<span class="short-description">Stanford University Privacy and Security Training (includes HIPAA content)</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/property-management"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-property.png?itok=q-DLzRQr">
+<span class="title">Property Management</span>
+<span class="short-description">Required to access property systems</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/research-administration"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-reasearchadmin.png?itok=52mAVujw">
+<span class="title">Research Administration</span>
+<span class="short-description">Learn to submit proposals, and administer sponsored projects</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/responsible-conduct-research"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-responsibleconduct_1.png?itok=5Z62gCFX">
+<span class="title">Responsible Conduct of Research</span>
+<span class="short-description">Required for NIH trainees and NSF graduate Students</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/sexual-harassment-prevention"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-harrassment.png?itok=aWHmpFfl">
+<span class="title">Sexual Harassment Prevention</span>
+<span class="short-description">Required for faculty, staff, and visiting academics</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/shared-scientific-facilitiescores-and-service-centers"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-servicecenter.png?itok=ruTGT5LV">
+<span class="title">Shared Scientific Facilities/Cores and Service Centers</span>
+<span class="short-description">Required for administering service centers, or those administrators using iLabs</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/space-inventory"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-topic-spaceinventory.png?itok=5BCfeEK_">
+<span class="title">Space Inventory</span>
+<span class="short-description">Required to access and use Space Inventory systems</span></a>  </div></div><div id="quicktabs-tabpage-view___training_topics__panel_pane_2-1" class="quicktabs-tabpage quicktabs-hide"><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/certificate-program/cardinal-curriculum-level-1-dor-prog-1001"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-program-cc1_0.png?itok=dxxcpfbO">
+<span class="title">Cardinal Curriculum Level 1 DoR-Prog-1001</span>
+<span class="short-description">Beginning courses in research administration</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/certificate-program/cardinal-curriculum-level-2-dor-prog-2002"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-program-cc2.png?itok=sbEUD4YR">
+<span class="title">Cardinal Curriculum Level 2 DoR-Prog-2002</span>
+<span class="short-description">Advanced courses in research administration</span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/certificate-program/dpa-property-certification"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-program-dpa.png?itok=OTZHpn_b">
+<span class="title">DPA Property Certification</span>
+<span class="short-description">Courses required to access property systems</span></a>  </div></div><div id="quicktabs-tabpage-view___training_topics__panel_pane_2-2" class="quicktabs-tabpage quicktabs-hide"><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/audience/pi-and-research-team"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-audience-pi.png?itok=J_HodDds">
+<span class="title">PI and research team</span>
+<span class="short-description"></span></a>  </div><div class="quicktabs-views-group">  
+          <a class="term-card" href="/https://doresearch.stanford.edu/training/audience/administrators"><img width="80" height="80" alt="" src="/https://doresearch.stanford.edu/sites/default/files/styles/term_icon/public/icon-audience-admin.png?itok=BEhXK8Cc">
+<span class="title">Administrators</span>
+<span class="short-description"></span></a>  </div></div></div></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="view view--training-topics view-id-_training_topics view-display-id-attachment_1 view-dom-id-4c37fef7757ff0be37c29b14ed510de3">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-audience-color">        <div class="field-content"><div class="color-swatch" style="background-color: #1b6491; width: 12px; height: 12px;"></div></div>  </div>  
+  <span class="views-field views-field-name">        <span class="field-content">PI and research team</span>  </span>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-audience-color">        <div class="field-content"><div class="color-swatch" style="background-color: #5aa000; width: 12px; height: 12px;"></div></div>  </div>  
+  <span class="views-field views-field-name">        <span class="field-content">Administrators</span>  </span>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-pane pane-views-panes pane-trainings-list-panel-pane-1">
+    
+        <h2 class="pane-title">View and filter all courses</h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-trainings-list view-id-trainings_list view-display-id-panel_pane_1 view-dom-id-88421622666104e7414f2ddb6b043f02">
+  <a id="training-list-view"></a>
+        
+      <div class="view-filters">
+      <span class="title">Add Filters:</span> <form class="ctools-auto-submit-full-form" action="/" method="get" id="views-exposed-form-trainings-list-panel-pane-1" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-field-training-topics-tid-wrapper" class="views-exposed-widget views-widget-filter-field_training_topics_tid">
+                  <label for="edit-field-training-topics-tid">
+            Topics          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-training-topics-tid">
+ <select id="edit-field-training-topics-tid" name="field_training_topics_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="216">Animal Care and Use</option><option value="218">Conflicts of Interest</option><option value="219">Environmental Health and Safety</option><option value="685">Export Controls</option><option value="1831">Finance</option><option value="220">Human Subjects and Good Clinical Practice</option><option value="2540">Industry Sponsored Clinical Trial Financial Administration</option><option value="1883">International Activities</option><option value="1869">National Institutes of Health (NIH)</option><option value="1832">NIH K Awards</option><option value="1847">NIH NRSA</option><option value="223">PIship</option><option value="369">Privacy and Security</option><option value="335">Property Management</option><option value="337">Research Administration</option><option value="336">Responsible Conduct of Research</option><option value="1006">Sexual Harassment Prevention</option><option value="701">Shared Scientific Facilities/Cores and Service Centers</option><option value="696">Space Inventory</option></select>
+</div>
+        </div>
+              </div>
+          <div id="edit-field-training-cert-prog-tid-wrapper" class="views-exposed-widget views-widget-filter-field_training_cert_prog_tid">
+                  <label for="edit-field-training-cert-prog-tid">
+            Certificate Programs          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-training-cert-prog-tid">
+ <select id="edit-field-training-cert-prog-tid" name="field_training_cert_prog_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="1819">Cardinal Curriculum Level 1 DoR-Prog-1001</option><option value="1820">Cardinal Curriculum Level 2 DoR-Prog-2002</option><option value="1821">DPA Property Certification</option></select>
+</div>
+        </div>
+              </div>
+          <div id="edit-field-topic-audience-tid-wrapper" class="views-exposed-widget views-widget-filter-field_topic_audience_tid">
+                  <label for="edit-field-topic-audience-tid">
+            Audience          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-topic-audience-tid">
+ <select id="edit-field-topic-audience-tid" name="field_topic_audience_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="1822">PI and research team</option><option value="1823">Administrators</option></select>
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input class="ctools-use-ajax ctools-auto-submit-click js-hide form-submit" type="submit" id="edit-submit-trainings-list" name="" value="Apply">    </div>
+      </div>
+</div>
+</div></form>    </div>
+  
+  
+
+  
+      <div class="view-content">
+      <table class="views-table cols-2">
+         <thead>
+      <tr>
+                  <th class="views-field views-field-title" scope="col">
+            <a title="sort by Name" class="active" href="/https://doresearch.stanford.edu/training?field_training_topics_tid=All&amp;field_training_cert_prog_tid=All&amp;field_topic_audience_tid=All&amp;order=title&amp;sort=asc">Name</a>          </th>
+                  <th class="views-field views-field-field-course-id-1 active" scope="col">
+            <a title="sort by Number" class="active" href="/https://doresearch.stanford.edu/training?field_training_topics_tid=All&amp;field_training_cert_prog_tid=All&amp;field_topic_audience_tid=All&amp;order=field_course_id_1&amp;sort=desc">Number<img width="13" height="13" alt="sort descending" title="sort descending" src="/https://doresearch.stanford.edu/misc/arrow-desc.png"></a>          </th>
+              </tr>
+    </thead>
+    <tbody>
+          <tr class="odd views-row-first">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/industry-sponsored-clinical-trial-financial-administration/crisp-video-tutorials-and-faqs">CRISP Video Tutorials and FAQs</a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+                      </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/human-subjects-and-good-clinical-practice-national-institutes-health-nih-nih-k-awards-nih-nrsa/spectrum-education">Spectrum Education</a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+                      </td>
+              </tr>
+          <tr class="odd">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/research-administration/nsf-guided-tour">NSF: A Guided Tour</a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+                      </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/international-activities/international-travel-preparation-guidelines-database-administrators-only">International Travel Preparation Guidelines: Database (for administrators only)</a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+                      </td>
+              </tr>
+          <tr class="odd">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/conflicts-interest-piship/stanford-university-conflict-interest-training-principal-investigators-and-new-faculty">Stanford University Conflict of Interest Training for Principal Investigators and New Faculty  </a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+                      </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/animal-care-and-use/animal-care-and-use-training-program">Animal Care and Use Training Program</a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+             VSC-PROG-0001          </td>
+              </tr>
+          <tr class="odd">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/human-subjects-national-institutes-health-nih-piship/human-research-subjects-and-good-clinical-practice">Human Research Subjects and Good Clinical Practice</a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+            CITI          </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/research-administration/ecertification-system-hands-workshops-school-overseers-and-task-managers">eCertification System Hands-On Workshops for School Overseers and Task Managers</a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+            DoR - 1600          </td>
+              </tr>
+          <tr class="odd">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/national-institutes-health-nih-research-administration/nih-big-picture-video">NIH The Big Picture Video</a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+            DOR-01          </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/pi-training-stewardship-and-compliance-principal-investigators-dor-680/pi-training-stewardship-and-compliance-principal-investigators-dor-680"> PI Training: Stewardship and Compliance for Principal Investigators</a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+            DOR-0680          </td>
+              </tr>
+          <tr class="odd">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/cardinal-curriculum-level-1/understanding-cost-policy-dor-1101">Understanding Cost Policy</a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+            DOR-1101          </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/cardinal-curriculum-level-1/overview-research-and-regulatory-environment-dor-1102">Overview of Research and the Regulatory Environment </a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+            DOR-1102          </td>
+              </tr>
+          <tr class="odd views-row-last">
+                  <td class="views-field views-field-title">
+            <a href="/https://doresearch.stanford.edu/training/research-administration/overview-research-and-regulatory-environment-companion-workshop-dor-1103">Overview of Research and the Regulatory Environment: Companion Workshop DoR 1103</a>          </td>
+                  <td class="views-field views-field-field-course-id-1 active">
+            DOR-1103          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="/https://doresearch.stanford.edu/training?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/https://doresearch.stanford.edu/training?page=2">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="/https://doresearch.stanford.edu/training?page=3">4</a></li>
+<li class="pager-next"><a href="/https://doresearch.stanford.edu/training?page=1">Next</a></li>
+<li class="pager-last last"><a href="/https://doresearch.stanford.edu/training?page=3"></a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+          </div><!-- /#content -->
+
+    
+    
+  </div><!-- /#main -->
+
+  
+	<div id="footer-wrapper">
+		<div id="footer-links">
+  		  <footer id="footer" class="region region-footer">
+    <div id="block-menu-block-1" class="block block-menu-block first last odd" role="navigation">
+
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-1672"><a class="menu__link" href="/https://doresearch.stanford.edu/research-offices">Research Offices</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-942"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/dor-office-vice-provost-and-dean-research">Vice Provost and Dean of Research</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1053"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/business-affairs">Business Affairs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1733"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/node/154697/revision/157655/view">Earth Sciences Research Administration</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1284"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/engineering-research-administration">Engineering Research Administration</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1283"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/environmental-health-safety">Environmental Health &amp; Safety</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1710"><a title="" class="menu__link" href="/http://doresearch.stanford.edu/research-offices/humanities-sciences-research-administration">Humanities and Sciences Research Administration </a></li>
+<li class="menu__item is-leaf leaf menu-mlid-940"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/industrial-contracts">Industrial Contracts</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1282"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/international-affairs">International Affairs</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-5915"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/office-research-administration">Office of Research Administration </a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-952"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/osr-office-sponsored-research">Office of Sponsored Research (OSR)</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-5921"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/rfcs-research-finanancial-compliance-and-services">Research Financial Compliance &amp; Services</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-5918"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/pmo-property-management">PMO (Property Management)</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-944"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/postdoctoral-affairs">Post Doctoral Affairs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3080"><a title="" class="menu__link" href="/https://acp.stanford.edu/privacy/privacy-office">Privacy Office</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-951"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/research-compliance">Research Compliance</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-950"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/research-management-group-rmg">Research Management Group</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-949"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/school-medicine-health-and-safety-programs">School of Medicine Health and Safety Programs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-948"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/science-outreach">Science Outreach</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-947"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/sexual-harassment-policy-office">Sexual Harassment Policy Office</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-946"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/slac-national-accelerator-laboratory">SLAC </a></li>
+<li class="menu__item is-leaf leaf menu-mlid-945"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/spectrum">SPECTRUM</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-941"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/otl-office-technology-licensing">Technology Licensing (OTL)</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1285"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/university-corporate-and-foundation-relations">University Corporate and Foundation Relations</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1287"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/vice-provost-graduate-education">Vice Provost for Graduate Education</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-5534"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/research-offices/office-vice-provost-and-dean-research/training-and-communication">Webmaster - DoResearch Website</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-937"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/stanford-online-systems-overview">Stanford Online Systems</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-953"><a title="" class="menu__link" href="/https://axess.stanford.edu/">AXESS</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-955"><a title="" class="menu__link" href="/https://crisp.stanford.edu">CRISP</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-956"><a title="" class="menu__link" href="/https://eprotocol.stanford.edu/">eProtocol</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-957"><a title="" class="menu__link" href="/https://esubmit.stanford.edu/ora/f?p=103:1">eSubmit</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-958"><a title="" class="menu__link" href="/http://www.stanford.edu/group/fms/fingate/faculty/acctrepting/fin_inquiry_tool_faculty.html">FFIT</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-964"><a title="" class="menu__link" href="/http://www.stanford.edu/group/fms/fingate/">Fingate</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1811"><a title="" class="menu__link" href="/https://sharedfacilities.stanford.edu/account/login">iLabs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-4389"><a title="" class="menu__link" href="/https://sera.stanford.edu/apex/f?p=200:34:3332473655104">My Accounts</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-4388"><a title="" class="menu__link" href="/https://bi.stanford.edu/analytics/saw.dll?bieehome">OBI</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-965"><a title="" class="menu__link" href="/https://sera.stanford.edu/pls/apex/f?p=opacs:dashboard:2538779529766957">OPACS</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-959"><a title="" class="menu__link" href="/http://www.stanford.edu/group/fms/fingate/staff/finauthority/oracle_systems.html">Oracle</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-960"><a title="" class="menu__link" href="/http://www.stanford.edu/group/fms/fingate/staff/finreporting/res_jobaid/access_reptmart3.html">ReportMart3</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-961"><a title="" class="menu__link" href="/https://sera.stanford.edu/">SeRA</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1860"><a title="Serves as a portal for common property tasks and acts as a supplemental front-end for certain Sunflower activities." class="menu__link" href="/https://sparc.stanford.edu/ora/f?p=300:20:7122374210237112">SPARC</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-954"><a title="" class="menu__link" href="/https://profiles.stanford.edu">Stanford Profiles</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-963"><a title="" class="menu__link" href="/https://axess.stanford.edu/">STARS</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-962"><a title="" class="menu__link" href="/https://ofweb.stanford.edu:">Sunflower</a></li>
+</ul></li>
+<li class="menu__item is-expanded last expanded menu-mlid-938"><a title="" class="menu__link" href="/https://doresearch.stanford.edu/federal-sponsor-systems">Federal Sponsor Systems</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-969"><a title="" class="menu__link" href="/http://www.grants.gov">Grants.gov</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-970"><a title="" class="menu__link" href="/http://science.nasa.gov/researchers/sara/how-to-guide/nspires-registration/">NASA: Nspires</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-971"><a title="" class="menu__link" href="/https://public.era.nih.gov/elf/jsp/commons/login.jsp?TYPE=33554433&amp;REALMOID=06-1edb031f-46c7-44b3-b803-60b537de74d2&amp;GUID=&amp;SMAUTHREASON=0&amp;METHOD=GET&amp;SMAGENTNAME=-SM-938PYmoLVb4VrDeXo04LZUDVDvc%2b3899ByInEAjuSUvWNIGfB2zRpWiCivYGCogG&amp;TARGET=-SM-http%3a%2f%2f">NIH eRA Commons</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-972"><a title="" class="menu__link" href="/https://www.fastlane.nsf.gov/">NSF: Fastlane</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1812"><a title="" class="menu__link" href="/http://research.gov">Research.gov</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-966"><a title="" class="menu__link" href="/https://www.g5.gov/ext/wps/portal/!ut/p/b1/04_SjzQyNDSwNDEzNzfQj9CPykssy0xPLMnMz0vMAfGjzOIt3UKD_I29g0P9TANMDTwN_D3NQzxNjA0MjPRzoxwVAW9OB8g!/">G5 Department of Education</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-967"><a title="" class="menu__link" href="/http://www.wingovernmentcontracts.com/us-department-of-energys-ecenter.htm">Department of Energy E-Center</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-968"><a title="" class="menu__link" href="/https://www.fedconnect.net/FedConnect/Default.htm">FedConnect</a></li>
+</ul></li>
+</ul></div>
+
+</div><!-- /.block -->
+  </footer>
+		</div>
+	</div>
+  </div> <!-- #su-content end -->
+  </div> <!-- #su-wrap end -->
+
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+  <div class="container">
+  <div class="row">
+    <div id="bottom-logo" class="span2">
+      <a href="/https://www.stanford.edu">
+        <img alt="Stanford University" width="105" height="49" src="/https://www-media.stanford.edu/su-identity/images/footer-stanford-logo@2x.png">
+      </a>
+    </div>
+    <!-- #bottom-logo end -->
+    <div id="bottom-text" class="span10">
+      <ul>
+        <li class="home"><a href="/https://www.stanford.edu">Stanford Home</a></li>
+        <li class="maps alt"><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+        <li class="search-stanford"><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+        <li class="emergency alt"><a href="/https://emergency.stanford.edu">Emergency Info</a></li>
+      </ul>
+      <ul id="policy-links">
+        <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+        <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy/">Privacy</a></li>
+        <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+        <li><a title="Ownership and use of Stanford trademarks and images" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+        <li><a title="Non-discrimination policy" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+        <li><a title="Report web accessibility issues" href="/https://www.stanford.edu/site/accessibility">Accessibility</a></li>
+      </ul>
+    </div> <!-- .bottom-text end -->
+    <div class="clear"></div>
+    <p class="copyright vcard">© <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.
+    </p>
+  </div> <!-- .row end -->
+  </div> <!-- .container end -->
+  </div> <!-- global-footer end -->
+  <!-- Global footer snippet end -->
+
+</div><!-- /#page -->
+
+  <script>/**
+ * @file
+ *   Main JavaScript file for Dismiss module
+ */
+
+(function ($) {
+
+  Drupal.behaviors.dismiss = {
+    attach: function (context, settings) {
+
+      // Prepend the Dismiss button to each message box.
+      $('.messages').each(function () {
+        var flag = $(this).children().hasClass('dismiss');
+
+        if (!flag) {
+          $(this).prepend('<button class="dismiss"><span class="element-invisible">' + Drupal.t('Close this message.') + '</span></button>');
+        }
+      });
+
+      // When the Dismiss button is clicked hide this set of messages.
+      $('.dismiss').click(function (event) {
+        $(this).parent().hide('fast');
+        // In case this message is inside a form, prevent form submission.
+        event.preventDefault();
+      });
+
+      // Fadeout out status messages when positive value defined.
+      if (Drupal.settings.dismiss.fadeout > 0) {
+        setTimeout(function () { $('.messages.status').fadeOut(); }, Drupal.settings.dismiss.fadeout);
+      }
+
+    }
+  }
+
+})(jQuery);
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"bd66f7a086","applicationID":"1485180","transactionName":"ZVxRZBQFVxEHUBUKXVwWclMSDVYMSUMABFdtVFJeBwNcEDlDAARXbVxLVQURTQc=","queueTime":0,"applicationTime":274,"atts":"SRtSElwfRB8=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+</body></html>

@@ -1,0 +1,97 @@
+body {
+    background-color: #fdfdf7;
+}
+
+.undergrad-row {
+    border-bottom: 1px #ccc solid;
+}
+
+.sidebar-second .block {
+    margin-bottom: 5px;
+}
+
+body, 
+form-textarea {font-family:"Source Sans Pro",Arial,Helvetica,sans-serif;font-size:14px;font-weight:400;letter-spacing:0.01em;line-height:1.4em;}
+
+.node .content div img {
+margin-left: 0px;
+}
+
+.accordion-group {
+    margin-bottom: 0px;
+    border: none;
+}
+
+.view-aad .view-filters {
+    border-top: none;
+}
+
+
+h4 {
+margin-left: 10px;
+}
+
+.testimonial {
+min-height: 125px;
+}
+
+.pull-left img {
+margin-right: 20px;
+}
+
+.social-instagram a {
+  background-image: url(/sites/default/files/styles/page-width/public/images/2015/04/instagram-logo-circle.png);
+background-repeat: none !important;
+}
+
+.social-mail a {
+  background-image: url(/sites/default/files/styles/page-width/public/images/2015/04/mail-logo-circle3.png);
+  background-repeat: none !important;
+}
+
+.social-instagram a {
+  color: transparent;
+  display: inline-block;
+  float: left;
+  font-size: 0;
+  height: 48px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 48px;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+
+.social-mail a  {
+  color: transparent;
+  display: inline-block;
+  float: left;
+  font-size: 0;
+  height: 48px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 49px;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+.social-instagram a:hover, .social-mail a:hover  {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.region-sidebar-second .nolink {
+    color: #8b1515;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border-bottom: 1px solid #e0dcd4;
+    display: block;
+}
+
+.color-block .view-content, .color-block .newpostcard {
+    background-color: #f2f1eb;
+    padding: 12px 20px;
+}

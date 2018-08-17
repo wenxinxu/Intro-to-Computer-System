@@ -1,0 +1,248 @@
+<!DOCTYPE html><!--[if IE 7]> <html lang="en" class="ie7"> <![endif]--><!--[if IE 8]> <html lang="en" class="ie8"> <![endif]--><!--[if IE 9]> <html lang="en" class="ie9"> <![endif]--><!--[if !IE]><!--><html lang="en"><!--<![endif]--><head>
+<title>Emergency Information | Stanford University</title>
+
+<!-- Meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Stanford University">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Emergency Information | Stanford University">
+<meta property="og:description" content="Stanford University">
+<meta property="og:url" content="/">
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/http://emergency.stanford.edu/wp-content/themes/cardinal/css/bootstrap.min.css?v=1.2.1">
+<link rel="stylesheet" type="text/css" href="/http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/http://emergency.stanford.edu/wp-content/themes/cardinal/css/base.min.css?v=1.2.1">
+<link rel="stylesheet" type="text/css" href="/http://emergency.stanford.edu/wp-content/themes/emergency/style.css?v=1.2.0">
+<!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="/wp-content/themes/cardinal/css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="/wp-content/themes/cardinal/css/ie/ie7.css" />
+<![endif]-->
+<!-- JS and jQuery --> 
+<script src="/http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="/http://emergency.stanford.edu/wp-content/themes/cardinal/js/bootstrap.min.js"></script> 
+
+<!--[if lt IE 9]>
+	<script src="/wp-content/themes/cardinal/js/respond.js"></script>
+<![endif]--> 
+
+<!-- custom JS -->
+<script src="/http://emergency.stanford.edu/wp-content/themes/cardinal/js/base.js"></script>
+<script src="/http://emergency.stanford.edu/wp-content/themes/cardinal/js/custom.js"></script>
+
+<!-- wp_head(); -->
+<meta name="robots" content="noindex,follow">
+<link rel="dns-prefetch" href="/http://s.w.org">
+<link rel="https://api.w.org/" href="/http://emergency.stanford.edu/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/http://emergency.stanford.edu/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/http://emergency.stanford.edu/wp-includes/wlwmanifest.xml"> 
+		<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+#main-content {
+  font-size: 18px;
+}
+#main-content h1 {
+  font-size: 2.7em;
+}		</style>
+	
+</head>
+
+<body class="home blog">
+<div id="su-wrap"> <!-- used to force footer to bottom of short pages -->
+  <div id="su-content"> <!-- used to force footer to bottom of short pages --> 
+    
+    <!--=== Top ===-->
+    <div id="top">
+      <div class="container"> 
+        <!--=== Skip links ===-->
+        <div id="skip"> <a onclick="$('#content').focus()" href="/http://emergency.stanford.edu/">Skip to content</a> </div>
+        <!-- /Skip links --> 
+      </div>
+    </div>
+    <!--/top--> 
+    
+    <!--=== Header ===-->
+    <div id="header" class="clearfix" role="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8"> 
+            <!-- Logo -->
+            <div id="logo" class="clearfix"> <a href="/http://www.stanford.edu/"><img class="img-responsive" alt="Stanford University" src="/http://emergency.stanford.edu/wp-content/themes/cardinal/images/stanford-white@2x.png"></a> </div>
+            <!-- /logo -->
+            <div id="signature">
+              <div id="site-name">
+                <a href="/http://emergency.stanford.edu/">Emergency Information</a>
+              </div>
+              <div id="site-slogan">
+                <a href="/http://emergency.stanford.edu/">Stanford University</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Menu -->
+    <div id="mainmenu" class="clearfix" role="navigation">
+      <div class="container">
+        <div class="navbar navbar-default"> 
+          
+          <!-- main navigation -->
+          <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="menu-text">Menu</span></button>
+          <!-- /nav-collapse -->
+          
+          <div class="navbar-collapse collapse"> 
+            <!--search box-->
+            <div id="nav-search" role="search">
+                          </div>
+            <div role="navigation">
+              <div id="primary-nav" class="menu-emergency-menu-container"><ul id="menu-emergency-menu" class="nav navbar-nav" aria-label="primary navigation"><li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-30"><a href="/http://emergency.stanford.edu/">Home</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="/http://emergency.stanford.edu/resources/">Resources</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="/http://emergency.stanford.edu/about-this-site/">About this site</a></li>
+</ul></div>            </div>
+          </div>
+          <!-- /nav-collapse --> 
+        </div>
+        <!-- /navbar --> 
+        
+      </div>
+      <!-- /container --> 
+    </div>
+    <!-- /mainmenu --> 
+    
+    <!-- main content -->
+    <div id="content" class="container" tabindex="0">
+      <div class="row">
+        <!-- Main column -->
+          <div id="main-content" class="col-md-7" role="main">
+            <div class="post-listing">
+<div class="sticky current-status">
+
+  <h2>Current Status</h2>
+
+  <div id="the-status">
+    <p>There is currently no emergency at Stanford.</p>
+  </div>
+  
+  <hr>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Emergency Hotlines</h3>
+      <p>
+        650-725-5555<br>
+        844-ALERTSU (844-253-7878)
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <h3>For Emergency Assistance</h3>
+      <p>
+        Dial 911<br>
+        (9-911 from campus phones)
+      </p>
+    </div>
+  </div>
+
+</div><!-- .current-status -->
+</div>
+	<div class="post-listing-post">
+		<h2>About this site</h2>
+		<p class="lead">
+			In the event of a disaster or emergency affecting the Stanford community,
+			this site will provide up-to-date information and important instructions
+			pertaining to the situation.
+		</p>
+	</div>
+          </div>
+
+          <!-- Right sidebar -->
+          <div id="sidebar-second" class="col-md-5" role="complementary">
+            <div class="well">
+<h2 class="widgettitle">Recent AlertSU Notices</h2>
+	<div class="dpe-flexible-posts no-posts">
+		<p>No recent alerts</p>
+	</div>
+
+	<p style="text-align: right;">
+  <a class="more-link" href="/https://police.stanford.edu/alertsu.html">
+    <i class="fa fa-chevron-circle-right"></i>
+    <span>See all alerts</span>
+  </a>
+</p></div><!-- well -->
+<div class="well">
+<h2 class="widgettitle">AlertSU</h2>
+<p><a href="/http://alertsu.stanford.edu">AlertSU</a> is the Stanford University emergency notification system. It delivers time-sensitive emergency notifications via phone, email, text-mesaging and outdoor warning sirens to all members of the Stanford community.</p>
+<p><a class="more-link" href="/http://alertsu.stanford.edu/"><i class="fa fa-chevron-circle-right"></i> Learn more about AlertSU</a></p></div><!-- well -->
+<div class="well">
+<h2 class="widgettitle">Public Safety Alerts</h2>
+<p><a href="/https://police.stanford.edu/alertsu.html">Community Public Safety Alerts</a> include non-emergency alerts about crimes and issues which could potentially affect the larger Stanford community.</p>
+<p><a class="more-link" href="/https://police.stanford.edu/alertsu.html"><i class="fa fa-chevron-circle-right"></i> See community alerts</a></p></div><!-- well -->
+          </div>
+
+      </div> <!-- row -->
+    </div>
+    <!-- #content--> 
+    
+  </div>
+  <!-- #su-content --> 
+</div>
+<!-- #su-wrap --> 
+
+<!-- BEGIN footer -->
+<div id="footer" class="clearfix footer" role="contentinfo">
+    
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-sm-12 col-md-2">
+          <a href="/https://www.stanford.edu">
+            <img alt="Stanford University" width="105" height="49" src="/https://www-media.stanford.edu/su-identity/images/footer-stanford-logo@2x.png">
+          </a>
+        </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text">
+          <div class="col-xs-5 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-10">
+            <ul id="primary-links">
+              <li class="home"><a href="/https://www.stanford.edu">Stanford Home</a></li>
+              <li class="maps alt"><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+              <li class="search-stanford"><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+              <li class="emergency alt"><a href="/https://emergency.stanford.edu">Emergency Info</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-12 col-md-10">
+            <ul id="policy-links">
+              <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+              <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy/">Privacy</a></li>
+              <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+              <li><a title="Ownership and use of Stanford trademarks and images" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+              <li><a title="Non-discrimination policy" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+              <li><a title="Report web accessibility issues" href="/https://www.stanford.edu/site/accessibility">Accessibility</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-10 col-md-offset-2">
+            <p class="copyright vcard">© <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+          </div>
+        </div> <!-- .bottom-text end -->
+      </div><!-- .row end -->
+    </div><!-- .container end -->
+  </div><!-- Global footer snippet end -->
+  
+</div>
+<!-- END footer --> 
+
+<script type="text/javascript" src="/http://emergency.stanford.edu/wp-includes/js/wp-embed.min.js?ver=4.9.6"></script>
+
+
+</body></html>

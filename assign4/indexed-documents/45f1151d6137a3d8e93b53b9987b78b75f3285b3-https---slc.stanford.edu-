@@ -1,0 +1,378 @@
+<!DOCTYPE html><!--[if lt IE 7]> <html class="ie6 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 7]>    <html class="ie7 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 8]>    <html class="ie8 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 9]>    <html class="ie9 ie" lang="en" dir="ltr"> <![endif]--><!--[if !IE]> --><html lang="en" dir="ltr"><!-- <![endif]--><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="apple-touch-icon" sizes="120x120" href="/https://slc.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/https://slc.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/https://slc.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/https://slc.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/https://slc.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" href="/https://slc.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/https://slc.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="167x167" href="/https://slc.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-167x167.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/https://slc.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/https://slc.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-57x57.png">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/https://slc.stanford.edu/sites/all/themes/stanford_framework/favicon.ico">
+<meta name="google-site-verification" content="tUJ214wF9k79KCsAn5wIOyOFR2eH0RlBANimm5MCFfU">
+<meta name="generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="/https://slc.stanford.edu/">
+<link rel="shortlink" href="/https://slc.stanford.edu/">
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Schwab Learning Center (SLC) | Student Affairs</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/https://slc.stanford.edu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://slc.stanford.edu/sites/default/files/css/css_JsNupfpWENtZl3PsbtMoRvOBlo9YKAdVhAdHLPsR8FE.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/https://slc.stanford.edu/sites/default/files/css/css_pJrjlTCQYxONS4cH7zbz6b5jUVNs6jJyg9rubORVZBw.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://slc.stanford.edu/sites/default/files/css/css_6Hvv3qw7p_WHNfT8djwG8tMHSVwXTzLcz8vkWRZevto.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://slc.stanford.edu/sites/default/files/css/css_jheXxkOZgHBmWI0l7n7aRyCx705IuYGeebLRmZpK3QA.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://slc.stanford.edu/sites/default/files/css/css_s0Z8VLWh03DtHJQV3ZRRQeh2_w2qy1y9KiMwmDIVCqc.css">
+<link type="text/css" rel="stylesheet" media="print" href="/https://slc.stanford.edu/sites/default/files/css/css_nGZ0EUi6HATidAf3pITrpLdyTGtTsmfVAzXLpUp2gr4.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://slc.stanford.edu/sites/default/files/css/css_fd2nQEI2tGauoRxQDSjxYihPOfatIz-IHo--V7fyLB0.css">
+  <script type="text/javascript" src="/https://slc.stanford.edu/sites/default/files/js/js_ZDOaep6HA5A0eriyiN-YaNv7MHsjd-FIuFyilZ2o5cw.js"></script>
+<script type="text/javascript" src="/https://slc.stanford.edu/sites/default/files/js/js_g98Ekqvuj1mMaUqTkLdcrMmJymw4aFC5YyzBQBviahY.js"></script>
+<script type="text/javascript" src="/https://slc.stanford.edu/sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script type="text/javascript" src="/https://slc.stanford.edu/sites/default/files/js/js_TbmiqlpotakUipNFrxWdWculCnIMp9cMxmgBP8VwRMo.js"></script>
+<script type="text/javascript" src="/https://slc.stanford.edu/sites/default/files/js/js_C-8OfSBdpbskJL573t2aSMRNI6BHsJnY81T7nPXh2sE.js"></script>
+<script type="text/javascript" src="/https://slc.stanford.edu/sites/default/files/js/js_1qD_1XBt88hnJOWRytwJrEQ7BFJXkq2AwwKjiEJEsjM.js"></script>
+<script type="text/javascript" src="/https://slc.stanford.edu/sites/default/files/js/js_9cK0ID99e4vgND5XBb3ButI-3Cx3e37QuFo8f7KyqAg.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stanford_framework","theme_token":"3ld5OSPhXoTiL3t_6tWx4YksbHQyghInx7btHHcDDC8","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"misc\/ui\/jquery.ui.slider.css":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/stanford\/stanford_bean_types\/css\/social-media.css":1,"sites\/all\/modules\/stanford\/stanford_bean_types\/css\/icon-block.css":1,"sites\/all\/modules\/stanford\/stanford_bean_types\/css\/full-width-banner.css":1,"sites\/all\/modules\/stanford\/stanford_gallery\/css\/stanford_gallery.css":1,"sites\/all\/modules\/stanford\/stanford_jumpstart\/css\/jumpstart.css":1,"sites\/all\/modules\/stanford\/stanford_jumpstart\/css\/jumpstart-theme-fixes.css":1,"sites\/all\/modules\/stanford\/stanford_jumpstart_home\/css\/stanford_jumpstart_home.css":1,"sites\/all\/modules\/stanford\/stanford_jumpstart\/modules\/stanford_jumpstart_shortcuts\/css\/shortcuts.css":1,"sites\/all\/modules\/stanford\/stanford_jumpstart_vpsa\/modules\/stanford_jumpstart_vpsa_layouts\/css\/stanford_jumpstart_vpsa_layouts.css":1,"sites\/all\/modules\/stanford\/stanford_landing_page\/css\/stanford_landing_page.css":1,"sites\/all\/modules\/stanford\/stanford_news\/css\/stanford_news.css":1,"sites\/all\/modules\/stanford\/stanford_person\/css\/stanford_person.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/context_accordion\/context_accordion.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap.min.css":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap-responsive.min.css":1,"sites\/all\/themes\/open_framework\/packages\/font-awesome-3.2.1\/css\/font-awesome.min.css":1,"sites\/all\/themes\/open_framework\/css\/open_framework.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford-framework.css":1,"sites\/all\/themes\/stanford_framework\/css\/ie.css":1,"sites\/all\/themes\/open_framework\/css\/open_framework_print.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_light\/fonts-sans.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_light\/stanford-light.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_light\/styles-light.css":1,"public:\/\/css_injector\/css_injector_1.css":1},"js":{"misc\/jquery.js":1,"sites\/all\/themes\/open_framework\/js\/jquery-migrate-1.2.1.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"misc\/ui\/jquery.ui.mouse.min.js":1,"misc\/ui\/jquery.ui.slider.min.js":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-sliderAccess.js":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.js":1,"sites\/all\/modules\/stanford\/stanford_bean_types\/js\/stanford-bean-types.js":1,"sites\/all\/modules\/stanford\/stanford_events_importer\/js\/stanford_event_nodes.js":1,"sites\/all\/modules\/stanford\/stanford_events_importer\/js\/stanford_events_calendar.js":1,"sites\/all\/modules\/stanford\/stanford_jumpstart\/js\/jumpstart.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/context_accordion\/context_accordion.js":1,"misc\/collapse.js":1,"misc\/form.js":1,"sites\/all\/modules\/stanford\/stanford_date_timepicker\/js\/stanford_date_timepicker.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/js\/bootstrap.min.js":1,"sites\/all\/themes\/open_framework\/js\/open_framework.js":1,"sites\/all\/themes\/open_framework\/js\/jquery.placeholder.min.js":1,"sites\/all\/themes\/open_framework\/js\/override.js":1,"sites\/all\/themes\/stanford_framework\/js\/stanford-framework.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"field_group":{"div":"default"},"urlIsAjaxTrusted":{"\/":true},"stanford_date_timepicker":{"classes":"","default_date_format":"yy-mm-dd","default_time_format":"hh:mm","default_separator":" "}});
+//--><!]]>
+</script>
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/sites/all/themes/open_framework/packages/font-awesome-3.2.1/css/font-awesome-ie7.min.css" />  <![endif]-->
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="/sites/all/themes/open_framework/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-69 node-type-stanford-page stanford-jumpstart-home-panama active-home-context        style-custom  header-bkg-image header-bkg-text-light style-custom-styles-light style-custom-fonts-sans">
+    <div id="wrap"><a class="element-invisible element-focusable" href="/https://slc.stanford.edu/">Skip to content</a>
+    <a class="element-invisible element-focusable" href="/https://slc.stanford.edu/">Skip to navigation</a>
+    <!-- /#skipnav -->
+    <!-- /#admin-shortcuts -->
+  <div id="global-header">
+    <div class="container">
+      <div class="row-fluid">
+        <div id="top-logo" class="span4"><a href="/http://www.stanford.edu"><img alt="Stanford University" src="/https://slc.stanford.edu/sites/all/themes/stanford_framework/images/header-stanford-logo@2x.png"></a></div>
+                <div id="top-menu" class="span8"><div class="region region-global-header clearfix">
+  <div id="block-webauth-webauth-login-block" class="clearfix block block-webauth">     <h2>WebAuth Login</h2>
+      <div class="content"> <div id="webauth_login_url">
+  <a class="button" href="/https://slc.stanford.edu/sites/default/webauth/login?destination=node/69">SUNetID Login</a>
+</div>
+ </div>
+</div></div>
+ <!-- /.region -->
+</div>
+              </div>
+    </div>
+  </div>
+  <!-- /#global-header -->
+  <div id="header" class="clearfix header line1 line3" role="banner">
+    <div class="container">
+      <div class="row">
+        <div class="span9">
+                    <div id="logo" class=" "> <a title="Home" rel="home" href="/https://slc.stanford.edu/"> <img alt="Stanford" role="presentation" src="/https://slc.stanford.edu/sites/all/themes/stanford_framework/logo.png"> </a>
+                      </div>
+                    <!-- /#logo -->
+                    <div id="name-and-slogan" class="with-logo two-lines">
+                                    <div id="site-title-first-line"><a title="Home" rel="home" href="/https://slc.stanford.edu/">Schwab Learning Center</a></div>
+                                                <div id="site-title-line3" class="site-title-small-italics"><a title="Home" rel="home" href="/https://slc.stanford.edu/">Student Affairs</a></div>
+                                  </div>
+                                        <!-- /#name-and-slogan -->
+                    <div id="header-content" class="row-fluid header-content header-content-margin"><div class="region region-header clearfix">
+  <div id="block-bean-sub-sub-title" class="clearfix block block-bean">       <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/sub-sub-title" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p class="sub-slogan">Preparation for the Lifespan</p>
+<p class="sub-slogan">&nbsp;</p>
+<script type="text/javascript" src="/https://bot.ivy.ai/bot/script/category/vqz4xVN0nYy3wOl3aOMKk7LERmrZ12Xb"></script></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div></div>
+ <!-- /.region -->
+</div>
+                    <!-- /#header-content -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#header -->
+    <div id="main-menu" class="clearfix site-main-menu">
+    <div class="container">
+      <div class="navbar">
+                <div class="navbar-inner">
+                              <div id="nav-search" class="nav-search"> <div class="region region-search-box clearfix">
+  <div id="block-search-form" class="clearfix block block-search" role="search">       <div class="content"> <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." class="input-medium search-query form-text" placeholder="Search this site..." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128">
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input class="btn-search form-submit" alt="Search" type="image" id="edit-submit" name="submit" src="/https://slc.stanford.edu/sites/all/themes/open_framework/images/searchbutton.png"></div><input type="hidden" name="form_build_id" value="form-9xw_CErRQFUgGoUzKhhKUyAS0ErLt-tuOh2fGOoODS0">
+<input type="hidden" name="form_id" value="search_block_form">
+</div>
+</div></form> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+                              <button aria-label="Navigation menu" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse"> <span class="hide">Navigation menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <div class="nav-collapse collapse">
+            <nav id="main-nav" role="navigation">
+                                          <div class="region region-navigation clearfix">
+  <div id="block-menu-block-stanford-jsvpsa-layouts-1" class="clearfix block block-menu-block">     <h2>Main menu</h2>
+      <div class="content"> <div class="menu-block-wrapper menu-block-stanford_jsvpsa_layouts-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first leaf has-children menu-mlid-1075"><a title="Our history and our staff" href="/https://slc.stanford.edu/about-us">About Us</a></li>
+<li class="leaf has-children menu-mlid-1857"><a title="" href="/https://slc.stanford.edu/learner-variablity/learning-differences">Learner Variability</a></li>
+<li class="leaf has-children menu-mlid-1841"><a title="Instructions for Students, Faculty, Parents/Guardians and Stanford Affiliated Professionals" href="/https://slc.stanford.edu/getting-started">Getting Started</a></li>
+<li class="leaf has-children menu-mlid-1861"><a title="What we do" href="/https://slc.stanford.edu/what-we-do">Services</a></li>
+<li class="leaf has-children menu-mlid-1067"><a title="UDL defined and our partnership with CAST" href="/https://slc.stanford.edu/research">UDL Innovation Studio</a></li>
+<li class="leaf menu-mlid-2057"><a href="/https://slc.stanford.edu/partners">Partners</a></li>
+<li class="leaf menu-mlid-2029"><a title="For students with or seeking accommodations" href="/https://slc.stanford.edu/students-accommodations">Accommodations</a></li>
+<li class="last leaf menu-mlid-1991"><a title="Stanford Converter Into Braille and E-text" href="/https://slc.stanford.edu/scribe">SCRIBE</a></li>
+</ul></div>
+ </div>
+</div></div>
+ <!-- /.region -->
+                          </nav>
+          </div>
+                                      </div>
+              </div>
+    </div>
+  </div>
+  <!-- /#main-menu -->
+  
+  
+  <div id="main" class="clearfix main" role="main">
+  	          <div id="main-top" class="row-fluid main-top">
+      	<div class="container"> <div class="region region-main-top clearfix">
+  <div id="block-bean-jumpstart-homepage-tall-banner" class="clearfix block block-bean span12">       <div class="content"> <div class="entity entity-bean bean-stanford-banner clearfix" about="/block/jumpstart-homepage-tall-banner" typeof="">
+
+  <div class="content">
+    <div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-12-col-banner-tall field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/33" typeof="">
+  <div class="content">
+    <div class="border-simple border-shadow border-bottom"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-12-col-banner-tall" typeof="foaf:Image" width="1200" height="500" alt="Arch in the main quad of Stanford University" src="/https://slc.stanford.edu/sites/default/files/styles/12-col-banner-tall/public/slc_homepage_iage.png?itok=vILhfXOH"></div></div></div><div class="banner-overlay"><div class="field field-name-field-s-image-caption field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><h2>Welcome to Schwab Learning Center</h2>
+</div></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+ </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+      </div>
+        <div class="container">
+            <div id="main-content" class="row main-content">
+                <div id="content" class="mc-content span12">
+          <div id="content-wrapper" class="content-wrapper">
+            <div id="content-head" class="row-fluid content-head">
+                                                        <h1 class="title" id="page-title"> Home </h1>
+                                                                                                </div>
+                                                <div id="content-body" class="row-fluid content-body"> <div class="region region-content clearfix">
+  <div id="block-system-main" class="clearfix block block-system">       <div class="content"> <article id="node-69" class="node node-stanford-page clearfix" about="/home" typeof="sioc:Item foaf:Document">      <span property="dc:title" content="Home" class="rdf-meta element-hidden"></span>    <div class="content">
+      </div>
+    </article> </div>
+</div></div>
+ <!-- /.region -->
+  </div>
+                                                                        <div id="content-col3" class="row-fluid content-col3">
+                            <div class="span4">
+                <div id="content-col3-1" class="span12 clearfix clear-row"> <div class="region region-content-col3-1 clearfix">
+  <div id="block-bean-homepage-about-block" class="clearfix block block-bean well">     <h2>About the Schwab Learning Center</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/homepage-about-block" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><h3>SLC embodies:</h3>
+<ul><li>A commitment to globally shifting the paradigm of disability to a strengths-based model of learner variability through education, innovation, and outcomes;</li>
+	<li>Expert staff who are compassionate and dedicated to teaching students to leverage their gifts and talents through self-awareness and efficacy-based practice; and</li>
+	<li>Innovative services, tools, and programs to prepare students to live meaningfully across the lifespan using the principles of Universal Design for Learning (UDL).</li>
+</ul></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div><div id="block-bean-quick-links" class="clearfix block block-bean well">     <h2>Quick Links</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-large-block clearfix" about="/block/quick-links" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-s-large-block-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><ul><li><a href="/https://slc.stanford.edu/what-we-do">Are you new to the SLC?</a></li>
+	<li><a href="/https://slc.stanford.edu/getting-started">Getting Started</a></li>
+	<li><a href="/https://slc.stanford.edu/apply-be-tutor-schwab-learning-center">Apply to be a tutor</a></li>
+</ul></div></div></div>  </div>
+</div>
+ </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+              </div>
+                                          <div class="span4">
+                <div id="content-col3-2" class="span12 clearfix clear-row"> <div class="region region-content-col3-2 clearfix">
+  <div id="block-bean-spotlight-slc" class="clearfix block block-bean well">     <h2>Spotlight on the SLC</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-big-text-block clearfix" about="/block/spotlight-slc" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-s-big-text-block-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Check out the positive mention of the Schwab Learning Center in alumnus Max Savage's article in Medium:</p>
+<p><a rel="nofollow" href="/https://medium.com/@maxsavage/back-to-school-but-still-depressed-2caa2f090cc5"><em><strong>Back to School but Still Depressed</strong></em></a></p>
+</div></div></div>  </div>
+</div>
+ </div>
+</div><div id="block-views-abc070ba0c716af6a7697b40517d2633" class="clearfix block block-views well column">     <h2>Recent News</h2>
+      <div class="content"> <div class="view view-slc-news view-id-slc_news view-display-id-block_2_item_recent_news_list view-dom-id-6d08744ed5a50016fdde39af2eb4d3aa">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div>        <div><div class="descriptor"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-06-26T00:00:00-07:00">Jun 26 2018</span> </div>
+      <div class="postcard-left">
+
+      <div class="postcard-image">
+           <div class="news-image"></div>
+      </div>
+      <div class="postcard-content">
+           <div class="normal-link"><h3><a href="/https://slc.stanford.edu/news/inclusive-housing-community-advocacy-workshops">Inclusive Housing Community Advocacy Workshops</a></h3></div>
+      </div>
+
+      </div>
+      <div class="edit-link"></div></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div>        <div><div class="descriptor"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-06-23T00:00:00-07:00">Jun 23 2018</span> </div>
+      <div class="postcard-left">
+
+      <div class="postcard-image">
+           <div class="news-image"></div>
+      </div>
+      <div class="postcard-content">
+           <div class="normal-link"><h3><a href="/https://slc.stanford.edu/news/find-strength-every-student">Find the Strength in Every Student</a></h3></div>
+      </div>
+
+      </div>
+      <div class="edit-link"></div></div>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/https://slc.stanford.edu/news/recent-news">
+    See more news  </a>
+</div>
+  
+  
+  
+</div> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+              </div>
+                                          <div class="span4">
+                <div id="content-col3-3" class="span12 clearfix clear-row"> <div class="region region-content-col3-3 clearfix">
+  <div id="block-views-stanford-events-views-block" class="clearfix block block-views well">     <h2>Upcoming Events</h2>
+      <div class="content"> <div class="view view-stanford-events-views view-id-stanford_events_views view-display-id-block view-dom-id-02ddb03d8f781bd08dd1a981675cd33b">
+        
+  
+  
+      <div class="view-empty">
+      <p>Currently, no future events are scheduled.</p>
+  <p><a class="more-link" rel="nofollow" href="/https://slc.stanford.edu/events/past-events">View Past Events</a></p>    </div>
+  
+  
+  
+  
+  
+  
+</div> </div>
+</div><div id="block-bean-udl-front" class="clearfix block block-bean well column">     <h2>Let's Talk Universal Design for Learning</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-large-block clearfix" about="/block/udl-front" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-s-large-block-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><ul><li><a rel="nofollow" href="/http://www.cast.org/our-work/publications/2018/udl-learning-brain-neuroscience.html">UDL and the Learning Brain</a>&nbsp;(NEW!)</li>
+	<li><a rel="nofollow" href="/http://udlguidelines.cast.org/">CAST Launches a new home for the UDL Guidelines</a></li>
+	<li><a rel="nofollow" href="/https://er.educause.edu/articles/2017/12/igniting-a-universal-design-mindset-on-campus">Igniting a Universal Design Mindset on Campus</a></li>
+	<li><a rel="nofollow" href="/http://udloncampus.cast.org/page/udl_landing">UDL on Campus</a></li>
+	<li><a rel="nofollow" href="/http://udloncampus.cast.org/page/assessment_udl">UDL and Assessment in Higher Education</a></li>
+	<li><a rel="nofollow" href="/https://www.edweek.org/tm/articles/2018/01/24/when-it-comes-to-universal-design-for.html">When it Comes to Universal Design for Learning, Don't Wait to Be an Expert</a></li>
+</ul></div></div></div>  </div>
+</div>
+ </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+              </div>
+                          </div>
+                                                                      </div>
+          <!-- /#content-wrap -->
+        </div>
+        <!-- /#content -->
+              </div>
+                </div>
+  </div>
+  <!-- /#main, /#main-wrapper -->
+    <div id="push"></div>
+  <!-- /#push -->
+</div>
+<!-- /#wrap -->
+<div id="footer" class="clearfix footer site-footer">
+  <div class="container">
+        <div id="footer-content" class="row-fluid footer-content"> <div class="region region-footer clearfix">
+  <div id="block-bean-vpsa-student-affairs-block" class="clearfix block block-bean span4">       <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/vpsa-student-affairs-block" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><div class="summary"><a href="/https://studentaffairs.stanford.edu"><strong>Student Affairs</strong></a></div>
+<p>The Schwab Learning Center is proud to be part of&nbsp;<a href="/https://studentaffairs.stanford.edu">Student Affairs</a>, which advances student development and learning; fosters community engagement; promotes diversity,&nbsp;inclusion,&nbsp;and respect; and empowers students to thrive.</p>
+</div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-vpsa-helpful-links-footer-block" class="clearfix block block-bean span4">     <h2>Helpful Links</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/vpsa-helpful-links-footer-block" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://wellness.stanford.edu/">Get emergency assistance or find help</a></div><div class="field-item odd"><a class="more-link" href="/https://studentaffairs.stanford.edu/policies">View the Stanford non-discrimination policy</a></div><div class="field-item even"><a class="more-link" href="/http://www.stanford.edu/site/accessibility">Student Affairs supports accessibility</a></div><div class="field-item odd"><a class="more-link" href="/http://sawebhelp.stanford.edu">Report a website problem</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-jumpstart-footer-contact-block" class="clearfix block block-bean span4">     <h2>Contact Us</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-contact clearfix" about="/block/jumpstart-footer-contact-block" typeof="">
+
+  <div class="content">
+    <div><div class="field field-name-field-s-contact-address-line-1 field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Schwab Learning Center</div></div></div><div class="field field-name-field-s-contact-address-line-2 field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">563 Salvatierra Walk, Rm 126</div></div></div><div class="field field-name-field-s-contact-city-state-zip field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Stanford, CA 94305</div></div></div></div><div class="field field-name-field-s-contact-phone field-type-text field-label-inline clearfix"><div class="field-label">Phone:&nbsp;</div><div class="field-items"><div class="field-item even">650-497-3391</div></div></div><div class="field field-name-field-s-contact-email field-type-email field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/https://slc.stanford.edu/mailto:schwablearningcenter@stanford.edu">schwablearningcenter@stanford.edu</a></div></div></div><div class="field field-name-field-s-contact-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/http://campus-map.stanford.edu">Campus Map</a></div></div></div>  </div>
+</div>
+ </div>
+</div>
+</div>
+ <!-- /.region -->
+ </div>
+      </div>
+</div>
+<!-- /#footer -->
+<div id="global-footer" role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2"><a href="/http://www.stanford.edu"><img alt="Stanford University" src="/https://slc.stanford.edu/sites/all/themes/stanford_framework/images/footer-stanford-logo@2x.png"></a></div>
+      <div id="bottom-menu" class="span10">
+
+                  <ul class="top-links clearfix">
+                          <li><a href="/https://www.stanford.edu">Stanford Home</a></li>
+                          <li><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+                          <li><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+                          <li><a href="/https://emergency.stanford.edu/">Emergency Info</a></li>
+                      </ul>
+                  <ul class="bottom-links clearfix">
+                          <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+                          <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy">Privacy</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/https://www.stanford.edu/site/accessibility/">Accessibility</a></li>
+                      </ul>
+        
+        <p class="vcard">© <span class="fn org">Stanford University</span>, <span class="adr"><span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /#global-footer -->
+  
+
+</body></html>

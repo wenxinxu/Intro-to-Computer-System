@@ -1,0 +1,452 @@
+<!DOCTYPE html><!--[if IE 7]> <html lang="en" class="ie7"> <![endif]--><!--[if IE 8]> <html lang="en" class="ie8"> <![endif]--><!--[if IE 9]> <html lang="en" class="ie9"> <![endif]--><!--[if !IE]><!--><html lang="en"><!--<![endif]--><head>
+  <title>Stanford Report — daily news email | Stanford News</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Stanford University">
+
+
+  <!--
+    _____ _               __              _
+   / ____| |             / _|            | |
+  | (___ | |_ __ _ _ __ | |_ ___  _ __ __| |
+   \___ \| __/ _` | '_ \|  _/ _ \| '__/ _` |
+   ____) | || (_| | | | | || (_) | | | (_| |
+  |_____/ \__\__,_|_| |_|_| \___/|_|  \__,_|
+  -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/css/base.min.css?v=1.2.0">
+    <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/css/page.min.css?v=1.2.0">
+    <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/style.css?v=1.2.0">
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="//news.stanford.edu/wp-content/themes/news/css/ie/ie8.css?v=1.2.0" />
+  <![endif]-->
+  <!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="//news.stanford.edu/wp-content/themes/news/css/ie/ie7.css?v=1.2.0" />
+  <![endif]-->
+
+  <!-- JS and jQuery -->
+  <script src="/https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="/https://news.stanford.edu/wp-content/themes/news/js/modernizr.custom.17475.js"></script>
+  <script src="/https://news.stanford.edu/wp-content/themes/news/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="//news.stanford.edu/wp-content/themes/news/js/respond.js"></script>
+  <![endif]-->
+
+  <!-- custom JS -->
+  <script src="/https://news.stanford.edu/wp-content/themes/news/js/base.js?v=1.2.0"></script>
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-180x180.png">
+
+  <link rel="icon" type="image/png" sizes="196x196" href="/https://www-media.stanford.edu/assets/favicon/favicon-196x196.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/https://www-media.stanford.edu/assets/favicon/favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="/https://www-media.stanford.edu/assets/favicon/favicon-128.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/https://www-media.stanford.edu/assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/https://www-media.stanford.edu/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/https://www-media.stanford.edu/assets/favicon/favicon-16x16.png">
+
+  <link rel="mask-icon" color="#ffffff" href="/https://www-media.stanford.edu/assets/favicon/safari-pinned-tab.svg">
+  <meta name="application-name" content="Stanford University">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="//www-media.stanford.edu/assets/favicon/mstile-144x144.png">
+  <meta name="msapplication-square70x70logo" content="//www-media.stanford.edu/assets/favicon/mstile-70x70.png">
+  <meta name="msapplication-square150x150logo" content="//www-media.stanford.edu/assets/favicon/mstile-150x150.png">
+  <meta name="msapplication-square310x310logo" content="//www-media.stanford.edu/assets/favicon/mstile-310x310.png">
+
+  <!-- Google analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-1860414-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- wp_head(); -->
+  
+<!-- This site is optimized with the Yoast SEO Premium plugin v3.2.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="news_keywords" content="">
+<link rel="original-source" href="/https://news.stanford.edu/stanford-report/">
+<link rel="canonical" href="/https://news.stanford.edu/stanford-report/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Stanford Report — daily news email | Stanford News">
+<meta property="og:url" content="https://news.stanford.edu/stanford-report/">
+<meta property="og:site_name" content="Stanford News">
+<meta property="og:image" content="https://news-media.stanford.edu/wp-content/uploads/2016/03/30160018/Stanford_News_hero_image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="628">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stanford Report — daily news email | Stanford News">
+<meta name="twitter:image" content="https://news-media.stanford.edu/wp-content/uploads/2016/03/30160018/Stanford_News_hero_image.jpg">
+<meta property="DC.date.issued" content="2016-03-28T16:56:29-07:00">
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel="dns-prefetch" href="/https://s.w.org">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/news.stanford.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="awesome-weather-css" type="text/css" media="all" href="/https://news.stanford.edu/wp-content/plugins/awesome-weather-pro/awesome-weather.css?ver=4.9.7">
+<script type="text/javascript" src="/https://news.stanford.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/plugins/wp-retina-2x/js/picturefill.min.js?ver=3.0.2"></script>
+<link rel="https://api.w.org/" href="/https://news.stanford.edu/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/https://news.stanford.edu/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/https://news.stanford.edu/wp-includes/wlwmanifest.xml"> 
+<link rel="shortlink" href="/http://stanford.io/1U6ki8p">
+<link rel="alternate" type="application/json+oembed" href="/https://news.stanford.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.stanford.edu%2Fstanford-report%2F">
+<link rel="alternate" type="text/xml+oembed" href="/https://news.stanford.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.stanford.edu%2Fstanford-report%2F&amp;format=xml">
+<style>.post-thumbnail img[src$='.svg'] { width: 100%; height: auto; }</style>
+</head>
+<body class="page-template page-template-page-stanford-report page-template-page-stanford-report-php page page-id-20 stanford-report">
+<div id="su-wrap"> <!-- used to force footer to bottom of short pages -->
+  <div id="su-content"> <!-- used to force footer to bottom of short pages -->
+
+    <!--=== Top ===-->
+    <div id="top" class="hidden-print nocontent" data-ga-category="header">
+      <div class="container">
+        <!--=== Skip links ===-->
+        <div id="skip"> <a onclick="$('#content').focus()" data-ga-action="skip-link" data-ga-label="content" href="/https://news.stanford.edu/stanford-report/">Skip to content</a> </div>
+        <!-- /Skip links -->
+      </div>
+    </div>
+    <!--/top-->
+
+    <!--=== Header ===-->
+    <div id="header" class="clearfix" role="banner" data-ga-category="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <!-- Logo -->
+            <div id="logo" class="clearfix"> <a data-ga-action="logo" href="/http://www.stanford.edu/"><img class="img-responsive" alt="Stanford University" src="/https://news.stanford.edu/wp-content/themes/news/images/stanford-white@2x.png"></a> </div>
+            <!-- /logo -->
+            <div id="signature">
+              <div id="site-name">
+                <a data-ga-action="site-name" href="/https://news.stanford.edu/"><span id="site-name-1">News</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu -->
+    <div id="mainmenu" class="clearfix hidden-print nocontent" role="navigation" data-ga-category="header" data-ga-action="nav">
+      <div class="container">
+        <div class="navbar navbar-default">
+
+          <!-- main navigation -->
+          <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse">Menu</button>
+          <!-- /nav-collapse -->
+
+          <div id="nav-search" role="search">
+  <form action="/search" method="get" id="search-form" accept-charset="UTF-8">
+    <h2 class="hidden">Search form</h2>
+    <input type="hidden" name="cx" value="010498062362927390610:dlcoultwj8i">
+    <input type="hidden" name="cof" value="FORID:9">
+    <input type="hidden" name="ie" value="UTF-8">
+    <label class="hidden" for="search-field">Search term</label>
+    <input type="text" id="search-field" name="q" title="Search string" class="input-medium" placeholder="Search Stanford news…" value="" size="15" maxlength="128">
+    <button id="search-btn" type="submit" name="submit" aria-label="Search" formmethod="get"><i class="fa fa-search"></i></button>
+  </form>
+</div>
+
+          <div class="navbar-collapse collapse">
+            <div role="navigation">
+              <div id="primary-nav" class="menu-top-nav-container"><ul id="menu-top-nav" class="nav navbar-nav" aria-label="primary navigation"><li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-32"><a data-ga-label="Home" href="/https://news.stanford.edu/">Home</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a data-ga-label="Find Stories" href="/https://news.stanford.edu/find-stories/">Find Stories</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a data-ga-label="For Journalists" href="/https://news.stanford.edu/for-journalists/">For Journalists</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a data-ga-label="Contact" href="/https://news.stanford.edu/contact/">Contact</a></li>
+</ul></div>            </div>
+          </div>
+          <!-- /nav-collapse -->
+        </div>
+        <!-- /navbar -->
+
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /mainmenu -->
+
+    <!-- main content -->
+
+<!-- main content -->
+<div id="content" class="container" role="main" tabindex="0">
+  <!-- Main column -->
+
+  <div class="row find-stories">
+    <div class="col-sm-10 col-sm-push-1">
+
+
+      <h1>Stanford Report — daily news email</h1>
+
+      
+      <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-7">
+                          <div class="lead"><em>Stanford Report</em> delivers news and information about the Stanford community via email each weekday. It includes the latest news, campus announcements and event listings, with extensive links to the Stanford News website for detailed coverage.</div>
+                        <div class="center-block margin-bottom-30" style="width:200px">
+              <a class="btn btn-block btn-one" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=56857f90d3">Read the current issue</a>
+            </div>
+            <h2>Subscribe to <em>Stanford Report</em></h2>
+            <p>Stanford Report is sent automatically to all Stanford faculty and staff.  Others are invited to subscribe by entering your email address below.</p>
+            <div id="mc_embed_signup" class="margin-bottom-30">
+              <form action="https://stanford.us5.list-manage.com/subscribe/post?u=a8e6569da943904e9ac369cde&amp;id=29ce9f751e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                <div class="form-group">
+                  <label for="mce-EMAIL">Your email address</label><br>
+                  <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Enter email" required="" ="">
+                </div>
+                 <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">
+              </form>
+              </div>
+            <div id="unsubscribe" class="margin-bottom-50">
+              <h2>Unsubscribe</h2>
+              <p>We’re sorry to see you go.  If you wish to no longer receive <em>Stanford Report</em>,
+                you may <a href="/https://stanford.us5.list-manage.com/unsubscribe?u=a8e6569da943904e9ac369cde&amp;id=29ce9f751e">unsubscribe</a>.
+              </p>
+              </div>
+            </div>
+          <div class="col-md-5">
+            <div class="well">
+              <h2>Missed an issue?</h2>
+              <p>Browse <a data-toggle="modal" data-target="#recentIssues" href="/https://news.stanford.edu/stanford-report/">recent issues</a> of the <em>Stanford Report</em>.</p>
+              <h2>Advertise</h2>
+              <p>Stanford affiliates are invited to place ads in <em>Stanford Report</em> for campus-related programs and activities. <a href="/http://srads.stanford.edu">Learn how to advertise</a>.</p>
+              <h2>Contact us</h2>
+              <p>We’d love to hear from you!<br>
+                Send us your comments, questions and story suggestions.</p>
+              <div class="center-block margin-bottom-30" style="width:200px">
+                <a class="btn btn-block btn-one" href="/https://news.stanford.edu/contact">Call or email us</a>
+              </div>
+              </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+<style>
+  .modal-header {
+    background-color: #8C1515;
+  }
+  .modal-header h3 {
+    color: #ffffff;
+  }
+  .modal-body a {
+    font-weight: inherit;
+  }
+</style>
+  <!-- Recent issues modal -->
+  <div class="modal fade" id="recentIssues" tabindex="-1" role="dialog" aria-labelledby="resultModalTitle">
+    <div class="modal-dialog modal-md" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="resultModalTitle">Recent issues of Stanford Report</h3>
+        </div>
+        <div class="modal-body" id="resultModalText">
+          <div>08/02/2018 - <a title="Fields Medal; Fishing ban;\u00a0James Breedlove" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=56857f90d3">Fields Medal; Fishing ban;\u00a0James Breedlove</a></div>
+<div>08/01/2018 - <a title="Depression biomarker; copyright law; predicting disease\u00a0" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=4477ed19d5">Depression biomarker; copyright law; predicting disease\u00a0</a></div>
+<div>07/31/2018 - <a title="Public speaking; why we plan; battling salmonella" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=9b0ca727ed">Public speaking; why we plan; battling salmonella</a></div>
+<div>07/30/2018 - <a title="3D printing; well-being calculation; predicting osteoporosis" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=38057f6f08">3D printing; well-being calculation; predicting osteoporosis</a></div>
+<div>07/27/2018 - <a title="End-of-life issues; staff recognition; Bruce Baker" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=4e1bf62167">End-of-life issues; staff recognition; Bruce Baker</a></div>
+<div>07/26/2018 - <a title="Border biodiversity; sugar spikes; workplace bias" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=bcb52c609d">Border biodiversity; sugar spikes; workplace bias</a></div>
+<div>07/25/2018 - <a title="Security talks; nutrition flaws; John Bunzel" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=0afc49253b">Security talks; nutrition flaws; John Bunzel</a></div>
+<div>07/24/2018 - <a title="Play spotlights women; suicide risk; groundwater contamination" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=698ce76988">Play spotlights women; suicide risk; groundwater contamination</a></div>
+<div>07/23/2018 - <a title="Measuring sweat; better batteries; Nicholas Donatiello" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=d8cb97cda8">Measuring sweat; better batteries; Nicholas Donatiello</a></div>
+<div>07/20/2018 - <a title="Burton Richter; new antibiotic target; mysterious medieval text" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=ac87d66d01">Burton Richter; new antibiotic target; mysterious medieval text</a></div>
+<div>07/19/2018 - <a title="Doctor diversity; Autism brains; Summit outcomes" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=34ba07c9f1">Doctor diversity; Autism brains; Summit outcomes</a></div>
+<div>07/18/2018 - <a title="Organ transplants; tools for change; ad tracking" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=76cc46137d">Organ transplants; tools for change; ad tracking</a></div>
+<div>07/17/2018 - <a title="Design for neediest; cancer detection; Capital One Cup" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=633cbf4d3c">Design for neediest; cancer detection; Capital One Cup</a></div>
+<div>07/16/2018 - <a title="Climate policy; nicotine's effects; Iraq rumors" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=77cf511f6a">Climate policy; nicotine's effects; Iraq rumors</a></div>
+<div>07/13/2018 - <a title="Aiding PhD students; teaching math; exploring economic growth" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=6d25f6e7ba">Aiding PhD students; teaching math; exploring economic growth</a></div>
+<div>07/12/2018 - <a title="Elephant behavior; doctor burnout; diabetes care" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=cdd4da6508">Elephant behavior; doctor burnout; diabetes care</a></div>
+<div>07/11/2018 - <a title="Drug side effects; racial diversity in marketing; leading in a storm" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=c3062e6717">Drug side effects; racial diversity in marketing; leading in a storm</a></div>
+<div>07/10/2018 - <a title="Storm mapping; spreading stereotypes; blockchain research" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=b3b02754e9">Storm mapping; spreading stereotypes; blockchain research</a></div>
+<div>07/09/2018 - <a title="Global service; blood infections; nuclear waste" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=a0cd391fb0">Global service; blood infections; nuclear waste</a></div>
+<div>07/06/2018 - <a title="Emotions and job interviews; atomic movies; new operating suites" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=9b9139032a">Emotions and job interviews; atomic movies; new operating suites</a></div>
+<div>07/05/2018 - <a title="Stanford summer; what matters; heart conditions" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=5e1ad8c87e">Stanford summer; what matters; heart conditions</a></div>
+<div>07/03/2018 - <a title="Audible lessons; Directors' Cup; melting gold" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=5a3b9fd4ce">Audible lessons; Directors' Cup; melting gold</a></div>
+<div>07/02/2018 - <a title="CS certificate; ocean policy; water purification" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=152a45aab9">CS certificate; ocean policy; water purification</a></div>
+<div>06/29/2018 - <a title="Brain function; murder solved; swarm lessons" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=5d514086b5">Brain function; murder solved; swarm lessons</a></div>
+<div>06/28/2018 - <a title="Infant mortality; cloud-based computing; coastal resilience" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=3ee5732d0f">Infant mortality; cloud-based computing; coastal resilience</a></div>
+<div>06/27/2018 - <a title="Honoring Saller; Stanford griffins; rare disease" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=671c1b1cf4">Honoring Saller; Stanford griffins; rare disease</a></div>
+<div>06/26/2018 - <a title="Home runs; periodic table; family separation" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=fad2049f89">Home runs; periodic table; family separation</a></div>
+<div>06/25/2018 - <a title="Online education; science &amp; faith; prototyping experience" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=373ee15788">Online education; science &amp; faith; prototyping experience</a></div>
+<div>06/22/2018 - <a title="Border crisis; dance workshop; overrated influencers" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=f777cc72d9">Border crisis; dance workshop; overrated influencers</a></div>
+<div>06/21/2018 - <a title="Hazmat overheating; volcano science; shaping reality" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=a6e56a5920">Hazmat overheating; volcano science; shaping reality</a></div>
+<div>06/20/2018 - <a title="Passionate advice; Stanford Earth and GSE graduations" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=b7ed2a21c5">Passionate advice; Stanford Earth and GSE graduations</a></div>
+<div>06/19/2018 - <a title="Trustees; GSB and Law graduations" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=6e0e5925c0">Trustees; GSB and Law graduations</a></div>
+<div>06/18/2018 - <a title="Commencement; Baccalaureate; med school; Deisseroth" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=61d84160a3">Commencement; Baccalaureate; med school; Deisseroth</a></div>
+<div>06/15/2018 - <a title="Flu; Faculty Senate; housing solutions; South Korea" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=7eeeda4ade">Flu; Faculty Senate; housing solutions; South Korea</a></div>
+<div>06/14/2018 - <a title="Commencement; education inequality; concealing corruption\u00a0\u00a0" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=b9ff008149">Commencement; education inequality; concealing corruption\u00a0\u00a0</a></div>
+<div>06/13/2018 - <a title="Time capsule; opportunity zones; ancient ruins" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=edbc6e0d22">Time capsule; opportunity zones; ancient ruins</a></div>
+<div>06/12/2018 - <a title="Graduation awards; coexistence; neutron star" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=ef25d3fe0b">Graduation awards; coexistence; neutron star</a></div>
+<div>06/11/2018 - <a title="Wacky Walk; Fulbright grants; shark cafe" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=3e01a4e7dd">Wacky Walk; Fulbright grants; shark cafe</a></div>
+<div>06/08/2018 - <a title="External relations reorganized; messy data; premature births" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=3135bf7e5a">External relations reorganized; messy data; premature births</a></div>
+<div>06/07/2018 - <a title="Parking passes; arsenic in groundwater; Robert Eustis" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=c93cc06237">Parking passes; arsenic in groundwater; Robert Eustis</a></div>
+<div>06/06/2018 - <a title="Wrong prescriptions; fishing efficiency; ocean classroom" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=b163db883a">Wrong prescriptions; fishing efficiency; ocean classroom</a></div>
+<div>06/05/2018 - <a title="Earthquake foreshocks; residence experience; neurons from blood" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=0afb21f0f1">Earthquake foreshocks; residence experience; neurons from blood</a></div>
+<div>06/04/2018 - <a title="Study spaces; artificial nerves; ACA dropouts" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=8ef4c822df">Study spaces; artificial nerves; ACA dropouts</a></div>
+<div>06/01/2018 - <a title="Racial status; midterm elections; senior reflections" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=92f2d1631f">Racial status; midterm elections; senior reflections</a></div>
+<div>05/31/2018 - <a title="Campus vision; Cardinal Conversation; Ku retiring; North Korea" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=b98d99a044">Campus vision; Cardinal Conversation; Ku retiring; North Korea</a></div>
+<div>05/30/2018 - <a title="Dean of research; sharing food; recruiting women; strange event" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=6ef9f8625a">Dean of research; sharing food; recruiting women; strange event</a></div>
+<div>05/29/2018 - <a title="Future of energy; Nipah virus; illustrating disparities" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=9471731667">Future of energy; Nipah virus; illustrating disparities</a></div>
+<div>05/25/2018 - <a title="University budget; faculty diversity; North Korea; Cardinal Conversation" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=e9f79405b2">University budget; faculty diversity; North Korea; Cardinal Conversation</a></div>
+<div>05/24/2018 - <a title="Data protection; climate economics; HHMI investigators" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=7bd4cce676">Data protection; climate economics; HHMI investigators</a></div>
+<div>05/23/2018 - <a title="Women in the workplace; NCAA champs; diversity awards; rock records" target="_blank" href="/http://us5.campaign-archive.com/?u=a8e6569da943904e9ac369cde&amp;id=f05be739e2">Women in the workplace; NCAA champs; diversity awards; rock records</a></div>        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal" id="resultModalButton">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	</div><!-- #su-content -->
+</div><!-- #su-wrap -->
+
+<!-- BEGIN footer -->
+<div id="footer" class="clearfix footer hidden-print nocontent" role="contentinfo">
+
+	  <!-- Fat footer start -->
+  <div class="container">
+    <div id="footer-content" class="row" data-ga-category="footer">
+      <div class="col-sm-6 col-md-3">
+<h3 class="widgettitle">Stanford Report</h3>
+			<div class="textwidget"><div id="mc_embed_signup">
+  <form action="//stanford.us5.list-manage.com/subscribe/post?u=a8e6569da943904e9ac369cde&amp;id=29ce9f751e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <label for="mce-EMAIL">Receive daily Stanford news.</label><br>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" size="30" placeholder="your email address" required="">
+    <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default" style="margin-top: -3px; padding: 6px;">
+  </form>
+</div>
+<p><a href="/https://news.stanford.edu/stanford-report/">More about <em>Stanford Report</em></a></p></div>
+		</div>
+<div class="col-sm-6 col-md-3">
+<h3 class="widgettitle">For Journalists</h3>
+			<div class="textwidget"><ul>
+  <li><a href="/https://news.stanford.edu/press-releases/">Press Releases</a></li>
+  <li><a href="/https://news.stanford.edu/contact/media-contacts/">Media Contacts</a></li>
+  <li><a href="/https://news.stanford.edu/experts/">Stanford Experts</a></li>
+</ul></div>
+		</div>
+<div class="col-sm-6 col-md-3">
+<h3 class="widgettitle">See Also</h3>
+			<div class="textwidget"><ul>
+  <li><a href="/https://news.stanford.edu/contact/">Contact Stanford News</a></li>
+  <li><a target="_blank" href="/http://ucomm.stanford.edu/facstaff/">Faculty / Staff Resources <i class="fa fa-external-link"></i></a></li>
+</ul></div>
+		</div>
+<div class="col-sm-6 col-md-3">
+			<div class="textwidget"><div id="weather" class="col-xs-6">
+
+  <h3>Weather</h3>
+<div id="awesome-weather-widget">
+
+  
+  
+    <div class="awesome-weather-current-temp">
+      <i class="wi wi-yahoo-32" aria-label="sunny" title="sunny"></i>      67<sup>°</sup>
+    </div><!-- /.awesome-weather-current-temp -->
+    <div class="awesome-weather-more-weather-link" data-ga-category="footer"><a data-ga-action="weather" target="_blank" href="/http://www.weather.com/weather/tenday/l/Stanford+CA+94305:4:US">Stanford forecast</a></div></div><!-- /.awesome-weather-wrap: custom --> 
+
+</div>
+<div id="events" class="col-xs-6">
+  <h3>Events</h3>
+  <a href="/http://events.stanford.edu/">
+    <i class="fa fa-calendar fa-3x"></i><span class="sr-only">Events calendar</span>
+  </a>
+</div></div>
+		</div>
+			<div id="site-credit" class="col-xs-12">
+				<p>Stanford News is a publication of <a href="/https://ucomm.stanford.edu">Stanford University Communications</a></p>
+			</div>
+    </div>
+  </div>
+  <!-- Fat footer end -->
+      
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-sm-12 col-md-2">
+          <a href="/https://www.stanford.edu">
+            <img alt="Stanford University" width="105" height="49" src="/https://www-media.stanford.edu/su-identity/images/footer-stanford-logo@2x.png">
+          </a>
+        </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text">
+          <div class="col-xs-5 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-10">
+            <ul id="primary-links">
+              <li class="home"><a href="/https://www.stanford.edu">Stanford Home</a></li>
+              <li class="maps alt"><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+              <li class="search-stanford"><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+              <li class="emergency alt"><a href="/https://emergency.stanford.edu">Emergency Info</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-12 col-md-10">
+            <ul id="policy-links">
+              <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+              <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy/">Privacy</a></li>
+              <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+              <li><a title="Ownership and use of Stanford trademarks and images" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+              <li><a title="Non-discrimination policy" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+              <li><a title="Report web accessibility issues" href="/https://www.stanford.edu/site/accessibility">Accessibility</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-10 col-md-offset-2">
+            <p class="copyright vcard">© <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+          </div>
+        </div> <!-- .bottom-text end -->
+      </div><!-- .row end -->
+    </div><!-- .container end -->
+  </div><!-- Global footer snippet end -->
+
+</div>
+<!-- END footer -->
+
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/plugins/awesome-weather-pro/js/awesome-weather-widget-frontend.js?ver=1.1"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/plugins/awesome-weather-pro/js/js-cookie.js?ver=1.1"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-includes/js/wp-embed.min.js?ver=4.9.7"></script>
+
+
+</body></html>

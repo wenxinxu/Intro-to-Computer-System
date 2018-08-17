@@ -1,0 +1,586 @@
+<!DOCTYPE html><!--[if IE 7]> <html lang="en" class="ie7"> <![endif]--><!--[if IE 8]> <html lang="en" class="ie8"> <![endif]--><!--[if IE 9]> <html lang="en" class="ie9"> <![endif]--><!--[if !IE]><!--><html lang="en"><!--<![endif]--><head>
+  <title>Stanford researchers advance the future of energy | Stanford News</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Stanford University">
+
+
+  <!--
+    _____ _               __              _
+   / ____| |             / _|            | |
+  | (___ | |_ __ _ _ __ | |_ ___  _ __ __| |
+   \___ \| __/ _` | '_ \|  _/ _ \| '__/ _` |
+   ____) | || (_| | | | | || (_) | | | (_| |
+  |_____/ \__\__,_|_| |_|_| \___/|_|  \__,_|
+  -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/css/base.min.css?v=1.2.0">
+    <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/css/story.min.css?v=1.2.0">
+    <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/style.css?v=1.2.0">
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="//news.stanford.edu/wp-content/themes/news/css/ie/ie8.css?v=1.2.0" />
+  <![endif]-->
+  <!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="//news.stanford.edu/wp-content/themes/news/css/ie/ie7.css?v=1.2.0" />
+  <![endif]-->
+
+  <!-- JS and jQuery -->
+  <script src="/https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="/https://news.stanford.edu/wp-content/themes/news/js/modernizr.custom.17475.js"></script>
+  <script src="/https://news.stanford.edu/wp-content/themes/news/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="//news.stanford.edu/wp-content/themes/news/js/respond.js"></script>
+  <![endif]-->
+
+  <!-- custom JS -->
+  <script src="/https://news.stanford.edu/wp-content/themes/news/js/base.js?v=1.2.0"></script>
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-180x180.png">
+
+  <link rel="icon" type="image/png" sizes="196x196" href="/https://www-media.stanford.edu/assets/favicon/favicon-196x196.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/https://www-media.stanford.edu/assets/favicon/favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="/https://www-media.stanford.edu/assets/favicon/favicon-128.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/https://www-media.stanford.edu/assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/https://www-media.stanford.edu/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/https://www-media.stanford.edu/assets/favicon/favicon-16x16.png">
+
+  <link rel="mask-icon" color="#ffffff" href="/https://www-media.stanford.edu/assets/favicon/safari-pinned-tab.svg">
+  <meta name="application-name" content="Stanford University">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="//www-media.stanford.edu/assets/favicon/mstile-144x144.png">
+  <meta name="msapplication-square70x70logo" content="//www-media.stanford.edu/assets/favicon/mstile-70x70.png">
+  <meta name="msapplication-square150x150logo" content="//www-media.stanford.edu/assets/favicon/mstile-150x150.png">
+  <meta name="msapplication-square310x310logo" content="//www-media.stanford.edu/assets/favicon/mstile-310x310.png">
+
+  <!-- Google analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-1860414-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- wp_head(); -->
+  
+<!-- This site is optimized with the Yoast SEO Premium plugin v3.2.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Through collaborations at Stanford and with colleagues worldwide, many research areas once considered high-risk and experimental are starting to pay off.">
+<meta name="news_keywords" content="climate change, energy, future of energy, interdisciplinary, sustainability">
+<link rel="original-source" href="/https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/">
+<meta name="robots" content="noodp">
+<link rel="canonical" href="/https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Stanford researchers advance the future of energy | Stanford News">
+<meta property="og:description" content="Through collaborations at Stanford and with colleagues worldwide – as well as through the many energy companies founded by Stanford faculty – many research areas once considered high-risk and experimental are starting to pay off.">
+<meta property="og:url" content="https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/">
+<meta property="og:site_name" content="Stanford News">
+<meta property="article:tag" content="Climate change">
+<meta property="article:tag" content="Energy">
+<meta property="article:tag" content="Future of energy">
+<meta property="article:tag" content="Interdisciplinary">
+<meta property="article:tag" content="sustainability">
+<meta property="article:section" content="In the Spotlight">
+<meta property="article:published_time" content="2017-10-05T11:00:38-07:00">
+<meta property="article:modified_time" content="2017-10-10T12:15:50-07:00">
+<meta property="og:updated_time" content="2017-10-10T12:15:50-07:00">
+<meta property="og:image" content="https://news-media.stanford.edu/wp-content/uploads/2019/08/05110551/energy_feature_0072.jpg">
+<meta property="og:image:width" content="1499">
+<meta property="og:image:height" content="999">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Through collaboration many research areas once considered experimental are starting to pay off.">
+<meta name="twitter:title" content="Stanford researchers advance the future of energy | Stanford News">
+<meta name="twitter:image" content="https://news-media.stanford.edu/wp-content/uploads/2019/08/05110551/energy_feature_0072.jpg">
+<meta property="DC.date.issued" content="2017-10-05T11:00:38-07:00">
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel="dns-prefetch" href="/https://s.w.org">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/news.stanford.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="sunews-panels-css-css" type="text/css" media="all" href="/https://news.stanford.edu/wp-content/themes/news/css/panels.css?ver=1.1.9">
+<link rel="stylesheet" id="awesome-weather-css" type="text/css" media="all" href="/https://news.stanford.edu/wp-content/plugins/awesome-weather-pro/awesome-weather.css?ver=4.9.7">
+<script type="text/javascript" src="/https://news.stanford.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/plugins/wp-retina-2x/js/picturefill.min.js?ver=3.0.2"></script>
+<link rel="https://api.w.org/" href="/https://news.stanford.edu/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/https://news.stanford.edu/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/https://news.stanford.edu/wp-includes/wlwmanifest.xml"> 
+<link rel="shortlink" href="/http://stanford.io/2xjw8rX">
+<link rel="alternate" type="application/json+oembed" href="/https://news.stanford.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.stanford.edu%2F2017%2F10%2F05%2Fcollaboration-brings-energy-transformation-stanford%2F">
+<link rel="alternate" type="text/xml+oembed" href="/https://news.stanford.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.stanford.edu%2F2017%2F10%2F05%2Fcollaboration-brings-energy-transformation-stanford%2F&amp;format=xml">
+<style>.post-thumbnail img[src$='.svg'] { width: 100%; height: auto; }</style>
+</head>
+<body class="post-template-default single single-post postid-16199 single-format-image">
+<div id="su-wrap"> <!-- used to force footer to bottom of short pages -->
+  <div id="su-content"> <!-- used to force footer to bottom of short pages -->
+
+    <!--=== Top ===-->
+    <div id="top" class="hidden-print nocontent" data-ga-category="header">
+      <div class="container">
+        <!--=== Skip links ===-->
+        <div id="skip"> <a onclick="$('#content').focus()" data-ga-action="skip-link" data-ga-label="content" href="/https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/">Skip to content</a> </div>
+        <!-- /Skip links -->
+      </div>
+    </div>
+    <!--/top-->
+
+    <!--=== Header ===-->
+    <div id="header" class="clearfix" role="banner" data-ga-category="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <!-- Logo -->
+            <div id="logo" class="clearfix"> <a data-ga-action="logo" href="/http://www.stanford.edu/"><img class="img-responsive" alt="Stanford University" src="/https://news.stanford.edu/wp-content/themes/news/images/stanford-white@2x.png"></a> </div>
+            <!-- /logo -->
+            <div id="signature">
+              <div id="site-name">
+                <a data-ga-action="site-name" href="/https://news.stanford.edu/"><span id="site-name-1">News</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu -->
+    <div id="mainmenu" class="clearfix hidden-print nocontent" role="navigation" data-ga-category="header" data-ga-action="nav">
+      <div class="container">
+        <div class="navbar navbar-default">
+
+          <!-- main navigation -->
+          <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse">Menu</button>
+          <!-- /nav-collapse -->
+
+          <div id="nav-search" role="search">
+  <form action="/search" method="get" id="search-form" accept-charset="UTF-8">
+    <h2 class="hidden">Search form</h2>
+    <input type="hidden" name="cx" value="010498062362927390610:dlcoultwj8i">
+    <input type="hidden" name="cof" value="FORID:9">
+    <input type="hidden" name="ie" value="UTF-8">
+    <label class="hidden" for="search-field">Search term</label>
+    <input type="text" id="search-field" name="q" title="Search string" class="input-medium" placeholder="Search Stanford news…" value="" size="15" maxlength="128">
+    <button id="search-btn" type="submit" name="submit" aria-label="Search" formmethod="get"><i class="fa fa-search"></i></button>
+  </form>
+</div>
+
+          <div class="navbar-collapse collapse">
+            <div role="navigation">
+              <div id="primary-nav" class="menu-top-nav-container"><ul id="menu-top-nav" class="nav navbar-nav" aria-label="primary navigation"><li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-32"><a data-ga-label="Home" href="/https://news.stanford.edu/">Home</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a data-ga-label="Find Stories" href="/https://news.stanford.edu/find-stories/">Find Stories</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a data-ga-label="For Journalists" href="/https://news.stanford.edu/for-journalists/">For Journalists</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a data-ga-label="Contact" href="/https://news.stanford.edu/contact/">Contact</a></li>
+</ul></div>            </div>
+          </div>
+          <!-- /nav-collapse -->
+        </div>
+        <!-- /navbar -->
+
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /mainmenu -->
+
+    <!-- main content -->
+
+<article class="no-margin post-16199 post type-post status-publish format-image has-post-thumbnail hentry category-spotlight category-science-technology tag-climate-change tag-energy tag-future-of-energy tag-interdisciplinary tag-sustainability post_format-post-format-image message-solutions" id="post-16199" data-ga-category="story">
+        <div id="story-banner-wrapper" role="banner">
+        <div id="story-banner" class="banner-full-screen">
+          <div id="banner-image" style="background-image: url(https://news-media.stanford.edu/wp-content/uploads/2019/08/03141624/energy_0072_banner.jpg)"></div>
+          <p class="sr-only">Robots clean a solar panel</p>
+        </div><!-- #story-banner -->
+
+        <div id="banner-caption-wrapper">
+          <div class="container" id="banner-caption">
+                        <div class="row">
+              <div class="col-lg-10 col-lg-offset-1 col-md-12">
+                <p class="media-caption">Stanford’s solar array uses robots to clean the panels. The robots, which use less than half a cup of water per panel, can increase efficiency of the energy harvest by up to 15 percent.<span class="media-attrib"> (Image credit: L.A. Cicero)</span></p>
+              </div>
+            </div>
+                      </div><!-- #banner-caption -->
+        </div><!-- #banner-caption-wrapper -->
+
+        <div id="banner-head">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 col-lg-offset-1 col-md-12">
+                <time datetime="2017-10-05T11:00:38+00:00">October 5, 2017</time>
+                <h1>Collaboration brings energy transformation to Stanford</h1>
+                <p class="excerpt">Fifteen years ago, a novel industry partnership sparked an energy revolution at Stanford. Since then, research into renewable energy, batteries, carbon capture and storage, the electric grid and natural gas have sprung up around campus, helping to move the world to a more sustainable future of energy.</p>
+              </div><!-- .col -->
+            </div><!-- .row -->
+          </div><!-- .container -->
+        </div><!-- #banner-head -->
+      </div><!-- #story-banner-wrapper" -->
+      <script>
+        $(window).bind('resizeEnd', function() {
+          var banner                 = $( '#story-banner.banner-full-screen' )
+            , bannerHead             = $( '#banner-head' ) // text overlay - date, title, summary
+            , bannerCaptionWrapper   = $( '#banner-caption-wrapper' )
+            , captionHeight          = $( '#banner-caption' ).outerHeight()
+            , xsBannerHeight         = $(window).height() - captionHeight - 50
+            , bannerHeight           = xsBannerHeight - SUNEWS.headerHeight()
+            ;
+
+
+          
+          if ( SUNEWS.size() == 'lg' ) {
+            banner.css('height', bannerHeight);
+            bannerCaptionWrapper.css('margin-top', '0');
+            if ( bannerHead.parent().is( '#story-banner-wrapper' ) ) {
+              bannerHead.appendTo('#story-banner')
+            }
+          }
+          else {
+            banner.css('height', xsBannerHeight + 'px');
+            bannerCaptionWrapper.css('margin-top', bannerHeight + 'px');
+
+            if ( bannerHead.parent().is( '#story-banner' ) ) {
+              bannerHead.appendTo('#story-banner-wrapper')
+            }
+          }
+        });
+      </script>
+
+  <div id="content-wrapper">
+  
+  <div id="content" class="container" role="main" tabindex="0">
+
+    <div class="story-margin-top row">
+
+      <div class="col-sm-1 col-lg-offset-1 social-share hidden-print">
+        <ul class="list-inline" data-ga-category="share">
+  <li><a data-ga-action="facebook" data-ga-label="sidebar" onclick="window.open('https://www.facebook.com/sharer.php?u=http%3A%2F%2Fstanford.io%2F2xjw8rX', '_blank','height=570, width=520, scrollbars=yes, status=no');" data-provider="facebook" rel="nofollow" title="Share on Facebook" href="/https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/"><i class="fa fa-facebook-square fa-3x"></i><span class="sr-only">Facebook</span></a></li>
+  <li><a data-ga-action="twitter" data-ga-label="sidebar" onclick="window.open('https://www.twitter.com/intent/tweet?url=http%3A%2F%2Fstanford.io%2F2xjw8rX&amp;via=Stanford','_blank','height=570, width=520, scrollbars=yes, status=no');" data-provider="twitter" rel="nofollow" title="Share on Twitter" href="/https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/"><i class="fa fa-twitter-square fa-3x"></i><span class="sr-only">Twitter</span></a></li>
+  <li><a data-ga-action="email" data-ga-label="sidebar" data-provider="mail" target="_blank" rel="nofollow" title="Share by email" href="/https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/mailto:?subject=An%20interesting%20article%20from%20Stanford%20News&amp;body=I%20want%20to%20share%20this%20news%20story%20from%20Stanford%20University%20with%20you%3A%20http%3A%2F%2Fstanford.io%2F2xjw8rX"><i class="fa fa-envelope-square fa-3x"></i><span class="sr-only">Email</span></a></li>
+</ul>
+      </div>
+
+      <div class="col-sm-10 col-md-10 col-lg-8">
+        <p class="byline">By Mark Shwartz</p>
+          <div id="story-content">
+          <p><a href="/https://profiles.stanford.edu/michael-mcgehee">Mike McGehee</a> is now part of a thriving community working on solar technology at Stanford, but when he joined the faculty in April 2000, the field that had been vibrant in the 1970s had faded.</p>
+<p>The only member of the engineering faculty working on solar cells, McGehee quickly recruited seven graduate students to his fledgling photovoltaics research group, but within three years, his research money had run out.</p>
+<div class="pull-left pull-left-wide"><img class="wp-image-10891 size-medium img-responsive" alt="" srcset="https://news-media.stanford.edu/wp-content/uploads/2016/10/17144216/perovskite_news-555x370.jpg 555w, https://news-media.stanford.edu/wp-content/uploads/2016/10/17144216/perovskite_news-795x530.jpg 795w, https://news-media.stanford.edu/wp-content/uploads/2016/10/17144216/perovskite_news-960x640.jpg 960w, https://news-media.stanford.edu/wp-content/uploads/2016/10/17144216/perovskite_news-705x470.jpg 705w, https://news-media.stanford.edu/wp-content/uploads/2016/10/17144216/perovskite_news-345x230.jpg 345w, https://news-media.stanford.edu/wp-content/uploads/2016/10/17144216/perovskite_news-375x250.jpg 375w, https://news-media.stanford.edu/wp-content/uploads/2016/10/17144216/perovskite_news.jpg 1440w" sizes="(max-width: 555px) 100vw, 555px" src="/http://news-media.stanford.edu/wp-content/uploads/2016/10/17144216/perovskite_news-555x370.jpg"><p></p>
+<p class="media-caption">Stanford postdoctoral scholar Tomas Leijtens and Professor Mike McGehee examine perovskite tandem solar cells.<span class="media-attrib"> (Image credit: L.A. Cicero)</span></p>
+</div>
+<p>“By October 2003, my startup funds were gone, and I was going to have to lay off some students,” he recalled. “I couldn’t pay them.”</p>
+<p>Delivering the grim financial news at a group meeting, McGehee warned some students to start looking for a new faculty advisor, then returned to his office a few doors down the hall.</p>
+<p>“I checked my computer and there it was: a congratulatory email saying I’d been awarded a $900,000 grant to study solar cells,” he said. “I ran back to the meeting room. The students were still there, and I shared the good news. There was a great celebration.”</p>
+<p>McGehee’s $900,000 windfall came from the <a href="/https://energy.stanford.edu/gcep-pioneering-partnership">Global Climate and Energy Project</a> (GCEP), a research funding program established at Stanford in 2002 in collaboration with industry as a way to spark technologies that provide energy to a growing population without contributing to greenhouse gas emissions.</p>
+<p>For McGehee, a professor of materials science and engineering, the money couldn’t have come at a better time. “It’s very personal to me,” he said. “Without GCEP funding, I might very well have left Stanford and taken a job at a solar startup company.”</p>
+<aside class="pull-right pull-right-wide pushdown card story-supplement">
+<div class="story-supplement-content">
+<h2>A pioneering partnership</h2>
+<p>The <a href="/http://gcep.stanford.edu/">Global Climate and Energy Project</a> (GCEP), a pioneering partnership between Stanford and industry, supports research on new technologies that address the growing demand for energy while reducing greenhouse gas emissions. Since 2002, GCEP has awarded $177 million to more than 900 researchers at Stanford and other institutions to develop technologies often judged too risky for traditional funding sources. GCEP is sponsored by ExxonMobil, Schlumberger and Bank of America, with previous support from GE, Toyota and DuPont.</p>
+<p><a href="/https://energy.stanford.edu/gcep-pioneering-partnership">Read more about GCEP’s history and accomplishments.</a></p></div>
+</aside>
+<p>Instead, McGehee continued his photovoltaics research at Stanford and is now an internationally recognized expert on new materials for more efficient solar cells. And he’s not alone. Fifteen years later, Stanford has more than 200 faculty members with expertise on energy, from renewable technologies – like solar and wind power – to issues affecting policy and economics. Stanford also hosts more than a dozen <a href="/https://energy.stanford.edu/research/centers-programs">centers and programs</a> focused on energy research.</p>
+<p>“GCEP was a creativity engine. We combined advances in materials science, biology, physics, chemistry, geology and engineering science with the know-how of our industrial partners,” said <a href="/https://profiles.stanford.edu/sally-benson">Sally Benson</a>, director of GCEP and a professor of energy resources engineering in Stanford’s <a href="/https://earth.stanford.edu/">School of Earth, Energy &amp; Environmental Sciences</a>.</p>
+<h2>Energy renaissance</h2>
+<p>Like McGehee, other faculty were able to focus and even expand their research on everything from renewable technologies to carbon capture and sequestration – all with an eye to improving energy availability worldwide while moving away from fossil fuels.</p>
+<div class="pullquote pull-left pull-left-narrow">
+<blockquote>
+<p>“GCEP was a creativity engine.”</p>
+<p class="quote-attrib">—Sally Benson</p>
+<p class="quote-attrib supplemental">Director, GCEP; Co-Director, Precourt Institute for Energy</p>
+</blockquote>
+</div>
+<p>“It became clear to many of us that this sprawling energy community of scientists, engineers and other scholars needed a home, a visionary place to create more interactions and encourage collaboration,” said <a href="/https://profiles.stanford.edu/franklin-orr">Lynn Orr</a>, founding director of GCEP. “We also wanted an avenue to greater interaction beyond campus.”</p>
+<p>That vision was fulfilled in 2009 with a large gift from alumnus Jay Precourt to establish the <a href="/https://energy.stanford.edu/">Precourt Institute for Energy</a> with Orr as director. Now co-led by Benson and <a href="/https://profiles.stanford.edu/arun-majumdar">Arun Majumdar</a>, a professor of mechanical engineering and of photon science, the Precourt Institute provides a focal point for campus energy programs, including a major research <a href="/https://peec.stanford.edu/">center on energy efficiency</a> created in 2006, also with support from Jay Precourt.</p>
+<p>Majumdar frames the world’s energy challenge as three big questions: “First, how do developed economies&nbsp;decarbonize and continue economic growth? Second, how do we provide affordable, clean energy to every human being in this world so they have a shot at their own prosperity? Third, how do we make our energy infrastructure resilient and reliable against threats, both natural and manmade?”</p>
+<h2>Parallel paths</h2>
+<p>Former U.S. Energy Secretary <a href="/https://profiles.stanford.edu/steve-chu">Steven Chu</a>, now a professor of physics and of molecular and cellular physiology at Stanford, says that responding to climate change is going to require a significant transformation. “<span style="font-weight: 400">We have to decarbonize,” he says. “By the end of the century really, it has to be 100 percent.”</span></p>
+<p>Reaching the goal of zero carbon emissions will involve many research tracks happening in parallel. The most visible is that of developing the technology to harness energy from the sun, wind, rivers and other sources. But even more challenging is the need for better technologies for storing that energy for when people need it most – when the sun isn’t shining or the wind isn’t blowing – and distributing it through a smarter electricity grid. Our homes, buildings and transportation also need to be more efficient so that more people can benefit from the energy that is produced.</p>
+<p>Meeting the world’s increasing energy demands while slowing global warming will also require reducing carbon dioxide emissions from the fossil fuels that will continue to be an important energy source. That includes safer ways of removing fuels from the earth as well as technologies for capturing and sequestering the carbon they produce. Finally, in order to support renewable energy research and encourage its adoption, we need policies and financial strategies to incentivize business, government and citizens. These are all areas where faculty groups are working together and with external partners and governments to make progress toward a carbon-free future.</p>
+        </div><!-- #story-content -->
+      </div>
+    </div>
+  </div><!-- #content .container -->
+    </div><!-- #content-wrapper -->
+  
+<div class="panel-collection">
+	<div class="panel stories-masonry container" id="masonry-1">
+      <div class="masonry-grid columns-5">
+          <div class="card large masonry-item">
+          <div class="card-photo">
+    <a tabindex="-1" aria-hidden="true" role="presentation" data-ga-action="position-1" href="/http://news.stanford.edu/2017/10/05/future-energy-renewables/"><img class="attachment-card-sm size-card-sm hidden-xs" alt="Birds and wind turbines" srcset="https://news-media.stanford.edu/wp-content/uploads/2017/07/19134715/grants_birds-345x230.jpg 345w, https://news-media.stanford.edu/wp-content/uploads/2017/07/19134715/grants_birds-555x370.jpg 555w, https://news-media.stanford.edu/wp-content/uploads/2017/07/19134715/grants_birds-795x530.jpg 795w, https://news-media.stanford.edu/wp-content/uploads/2017/07/19134715/grants_birds-960x640.jpg 960w, https://news-media.stanford.edu/wp-content/uploads/2017/07/19134715/grants_birds-705x470.jpg 705w, https://news-media.stanford.edu/wp-content/uploads/2017/07/19134715/grants_birds-375x250.jpg 375w, https://news-media.stanford.edu/wp-content/uploads/2017/07/19134715/grants_birds.jpg 1500w" sizes="(max-width: 345px) 100vw, 345px" src="/https://news-media.stanford.edu/wp-content/uploads/2017/07/19134715/grants_birds-345x230.jpg"><img class="attachment-post-thumbnail size-post-thumbnail visible-xs" alt="Birds and wind turbines" src="/https://news-media.stanford.edu/wp-content/uploads/2017/07/19134715/grants_birds-100x100.jpg"></a>
+  </div>  <div class="card-content">
+    <h3><a data-ga-action="position-1" href="/http://news.stanford.edu/2017/10/05/future-energy-renewables/">Renewable energy</a></h3>
+    <p class="teaser">Advances in materials and technology are improving the cost and efficiency of renewable sources of energy.</p>
+  </div>      </div>
+          <div class="card large masonry-item">
+          <div class="card-photo">
+    <a tabindex="-1" aria-hidden="true" role="presentation" data-ga-action="position-2" href="/http://news.stanford.edu/2017/10/05/future-energy-storage/"><img class="attachment-card-sm size-card-sm hidden-xs" alt="Solar panels on house" srcset="https://news-media.stanford.edu/wp-content/uploads/2017/02/06143507/battery_news-345x230.jpg 345w, https://news-media.stanford.edu/wp-content/uploads/2017/02/06143507/battery_news-555x370.jpg 555w, https://news-media.stanford.edu/wp-content/uploads/2017/02/06143507/battery_news-795x530.jpg 795w, https://news-media.stanford.edu/wp-content/uploads/2017/02/06143507/battery_news-960x640.jpg 960w, https://news-media.stanford.edu/wp-content/uploads/2017/02/06143507/battery_news-705x470.jpg 705w, https://news-media.stanford.edu/wp-content/uploads/2017/02/06143507/battery_news-375x250.jpg 375w, https://news-media.stanford.edu/wp-content/uploads/2017/02/06143507/battery_news.jpg 1200w" sizes="(max-width: 345px) 100vw, 345px" src="/https://news-media.stanford.edu/wp-content/uploads/2017/02/06143507/battery_news-345x230.jpg"><img class="attachment-post-thumbnail size-post-thumbnail visible-xs" alt="Solar panels on house" src="/https://news-media.stanford.edu/wp-content/uploads/2017/02/06143507/battery_news-100x100.jpg"></a>
+  </div>  <div class="card-content">
+    <h3><a data-ga-action="position-2" href="/http://news.stanford.edu/2017/10/05/future-energy-storage/">Energy storage</a></h3>
+    <p class="teaser">Storing energy and improving our electric grid will get energy to people when and where they need it most.</p>
+  </div>      </div>
+          <div class="card large masonry-item">
+          <div class="card-photo">
+    <a tabindex="-1" aria-hidden="true" role="presentation" data-ga-action="position-3" href="/http://news.stanford.edu/2017/10/05/future-energy-fossil-fuels/"><img class="attachment-card-sm size-card-sm hidden-xs" alt="Natural gas field" srcset="https://news-media.stanford.edu/wp-content/uploads/2016/10/26094739/naturalgas_news-345x230.jpg 345w, https://news-media.stanford.edu/wp-content/uploads/2016/10/26094739/naturalgas_news-555x369.jpg 555w, https://news-media.stanford.edu/wp-content/uploads/2016/10/26094739/naturalgas_news.jpg 705w, https://news-media.stanford.edu/wp-content/uploads/2016/10/26094739/naturalgas_news-375x250.jpg 375w" sizes="(max-width: 345px) 100vw, 345px" src="/https://news-media.stanford.edu/wp-content/uploads/2016/10/26094739/naturalgas_news-345x230.jpg"><img class="attachment-post-thumbnail size-post-thumbnail visible-xs" alt="Natural gas field" src="/https://news-media.stanford.edu/wp-content/uploads/2016/10/26094739/naturalgas_news-100x100.jpg"></a>
+  </div>  <div class="card-content">
+    <h3><a data-ga-action="position-3" href="/http://news.stanford.edu/2017/10/05/future-energy-fossil-fuels/">Cleaner fossil fuels</a></h3>
+    <p class="teaser">New developments are helping to extract and burn fossil fuels as efficiently as possible.</p>
+  </div>      </div>
+          <div class="card large masonry-item">
+          <div class="card-photo">
+    <a tabindex="-1" aria-hidden="true" role="presentation" data-ga-action="position-4" href="/http://news.stanford.edu/2017/10/05/future-energy-efficiency/"><img class="attachment-card-sm size-card-sm hidden-xs" alt="" srcset="https://news-media.stanford.edu/wp-content/uploads/2016/11/11111835/altcar-345x230.jpg 345w, https://news-media.stanford.edu/wp-content/uploads/2016/11/11111835/altcar-555x370.jpg 555w, https://news-media.stanford.edu/wp-content/uploads/2016/11/11111835/altcar-795x530.jpg 795w, https://news-media.stanford.edu/wp-content/uploads/2016/11/11111835/altcar-960x640.jpg 960w, https://news-media.stanford.edu/wp-content/uploads/2016/11/11111835/altcar-705x470.jpg 705w, https://news-media.stanford.edu/wp-content/uploads/2016/11/11111835/altcar-375x250.jpg 375w, https://news-media.stanford.edu/wp-content/uploads/2016/11/11111835/altcar.jpg 1440w" sizes="(max-width: 345px) 100vw, 345px" src="/https://news-media.stanford.edu/wp-content/uploads/2016/11/11111835/altcar-345x230.jpg"><img class="attachment-post-thumbnail size-post-thumbnail visible-xs" alt="" src="/https://news-media.stanford.edu/wp-content/uploads/2016/11/11111835/altcar-100x100.jpg"></a>
+  </div>  <div class="card-content">
+    <h3><a data-ga-action="position-4" href="/http://news.stanford.edu/2017/10/05/future-energy-efficiency/">Energy efficiency</a></h3>
+    <p class="teaser">With less demand from efficient buildings, transportation and appliances, the energy we make can go further. </p>
+  </div>      </div>
+          <div class="card large masonry-item">
+          <div class="card-photo">
+    <a tabindex="-1" aria-hidden="true" role="presentation" data-ga-action="position-5" href="/http://news.stanford.edu/2017/10/05/future-energy-policy/"><img class="attachment-card-sm size-card-sm hidden-xs" alt="solar and wind power" srcset="https://news-media.stanford.edu/wp-content/uploads/2016/04/08182144/15347-climate_teaser-345x230.jpg 345w, https://news-media.stanford.edu/wp-content/uploads/2016/04/08182144/15347-climate_teaser-555x370.jpg 555w, https://news-media.stanford.edu/wp-content/uploads/2016/04/08182144/15347-climate_teaser-705x470.jpg 705w, https://news-media.stanford.edu/wp-content/uploads/2016/04/08182144/15347-climate_teaser-375x250.jpg 375w, https://news-media.stanford.edu/wp-content/uploads/2016/04/08182144/15347-climate_teaser.jpg 780w" sizes="(max-width: 345px) 100vw, 345px" src="/https://news-media.stanford.edu/wp-content/uploads/2016/04/08182144/15347-climate_teaser-345x230.jpg"><img class="attachment-post-thumbnail size-post-thumbnail visible-xs" alt="solar and wind power" src="/https://news-media.stanford.edu/wp-content/uploads/2016/04/08182144/15347-climate_teaser-100x100.jpg"></a>
+  </div>  <div class="card-content">
+    <h3><a data-ga-action="position-5" href="/http://news.stanford.edu/2017/10/05/future-energy-policy/">Policy &amp; finance</a></h3>
+    <p class="teaser">The right policies and financial structures will accelerate the adoption of green technologies.</p>
+  </div>      </div>
+      </div>
+</div>
+
+<div class="container" id="content-column-2">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+              <h2>Optimistic outlook</h2>
+      
+      <p>Through collaborations at Stanford and with colleagues worldwide – as well as through the many energy companies founded by Stanford faculty – many research areas once considered high-risk and experimental are starting to pay off.</p>
+<aside class="pull-right pull-right-wide pushdown card story-supplement">
+<div class="story-supplement-content">
+<h2>Transferring innovation</h2>
+<p>Convincing energy companies to invest in new technologies can be a major hurdle for innovators. To address the problem, Stanford’s <a href="/http://news.stanford.edu/2017/06/06/innovation-transfer-program-helps-students/">TomKat Center for Sustainable Energy</a> created the Innovation Transfer Program, which helps students turn novel energy concepts into viable commercial products.</p>
+<p>“We want to get some of the great ideas being worked on at Stanford out beyond the university walls,” said&nbsp;<a href="/https://profiles.stanford.edu/stacey-bent">Stacey Bent</a>, a professor of chemical engineering and director of the TomKat Center. “We provide a little extra time, a little bit of money and a lot of mentorship to bridge the gap between research and commercialization.”</p>
+</div>
+</aside>
+<p>For example, clean-energy technologies – especially solar and wind power – have experienced explosive growth worldwide as prices have plummeted in recent years.</p>
+<p>In 1975, it cost $101 to generate a single watt of electricity from a silicon solar panel. By 2016, the <a href="/http://www.nrel.gov/docs/fy17osti/68425.pdf">price</a> had dropped as low as 35¢ per watt. The U.S. solar industry, virtually nonexistent 15 years ago, is now valued at about $30 billion and employs some 260,000 Americans. And green cars are following a similar path. Electric cars are expected to outsell their gas-fueled counterparts in some parts of the world within the next two decades.</p>
+<p>For Mike McGehee, whose research trajectory changed so dramatically with GCEP funding, the trend is positive.</p>
+<p>“I take the long view,” he said. “Climate change is not going away. Demand for energy globally is going up. If there are improvements in grid-scale energy storage, and if electric vehicles become significantly more popular, we could have massive growth in the solar industry for decades.”</p>
+<aside class="align-center center-block pushdown card story-supplement">
+<div class="story-supplement-content">
+<div class="pull-left pull-left-portrait"><a href="/https://energy.stanford.edu/research/research-areas"><img class=" wp-image-16628 img-responsive" alt="" srcset="https://news-media.stanford.edu/wp-content/uploads/2017/09/25105901/PIEHexStickerV3-final2-555x669.png 555w, https://news-media.stanford.edu/wp-content/uploads/2017/09/25105901/PIEHexStickerV3-final2.png 741w" sizes="(max-width: 132px) 100vw, 132px" src="/https://s3-us-west-1.amazonaws.com/stanford.ucomm.newsms.media/wp-content/uploads/2017/09/25105901/PIEHexStickerV3-final2-555x669.png"></a></div>
+<p><a href="/https://energy.stanford.edu/research/research-areas">Explore all energy research and faculty at Stanford.</a></p>
+</div>
+</aside>
+    </div> <!-- /columns -->
+  </div> <!-- /row -->
+</div> <!-- /container -->
+</div>
+<div id="main-bottom-wrapper">
+  <div id="main-bottom" class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-sm-push-1 col-lg-8 col-lg-push-2">
+
+        
+        <hr>
+
+        <div class="pull-left hidden-print" data-ga-category="term-buttons">
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/section/spotlight/">In The Spotlight</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/section/science-technology/">Science &amp; Technology</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/climate-change/">Climate Change</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/energy/">Energy</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/future-of-energy/">Future Of Energy</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/interdisciplinary/">Interdisciplinary</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/sustainability/">Sustainability</a></div>
+</div>
+
+        <div class="pull-right social-share">
+          <ul class="list-inline" data-ga-category="share">
+  <li><a data-ga-action="facebook" data-ga-label="bottom" onclick="window.open('https://www.facebook.com/sharer.php?u=http%3A%2F%2Fstanford.io%2F2xjw8rX', '_blank','height=570, width=520, scrollbars=yes, status=no');" data-provider="facebook" rel="nofollow" title="Share on Facebook" href="/https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/"><i class="fa fa-facebook-square fa-3x"></i><span class="sr-only">Facebook</span></a></li>
+  <li><a data-ga-action="twitter" data-ga-label="bottom" onclick="window.open('https://www.twitter.com/intent/tweet?url=http%3A%2F%2Fstanford.io%2F2xjw8rX&amp;via=Stanford','_blank','height=570, width=520, scrollbars=yes, status=no');" data-provider="twitter" rel="nofollow" title="Share on Twitter" href="/https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/"><i class="fa fa-twitter-square fa-3x"></i><span class="sr-only">Twitter</span></a></li>
+  <li><a data-ga-action="email" data-ga-label="bottom" data-provider="mail" target="_blank" rel="nofollow" title="Share by email" href="/https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/mailto:?subject=An%20interesting%20article%20from%20Stanford%20News&amp;body=I%20want%20to%20share%20this%20news%20story%20from%20Stanford%20University%20with%20you%3A%20http%3A%2F%2Fstanford.io%2F2xjw8rX"><i class="fa fa-envelope-square fa-3x"></i><span class="sr-only">Email</span></a></li>
+</ul>
+        </div>
+
+      </div><!-- content column -->
+    </div><!-- .row -->
+  </div><!-- #main-bottom .container -->
+
+	</div><!-- #main-bottom-wrapper -->
+</article>
+<div id="bottom-wrapper">
+  <div id="bottom" class="container">
+    <div id="what-to-read-next" class="row hidden-print nocontent" data-ga-category="what-to-read-next">
+  <h2 class="text-center">What to read next:</h2>
+  <div class="col-md-4">
+    <div class="card short eq-height nocontent">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" data-ga-action="position-1" href="/https://news.stanford.edu/2018/08/02/longtime-stanford-librarian-james-breedlove-dies/"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="James M. Breedlove works at the Stanford University Libraries in this 1976 photo." srcset="https://news-media.stanford.edu/wp-content/uploads/2018/08/01100542/Breedlove_F922-9-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/08/01100542/Breedlove_F922-9-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/08/01100542/Breedlove_F922-9-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta"><a href="/https://news.stanford.edu/section/obituaries/">Obituaries</a></div>
+    <h3><a data-ga-action="position-1" href="/https://news.stanford.edu/2018/08/02/longtime-stanford-librarian-james-breedlove-dies/">Longtime Stanford librarian James Breedlove dies</a></h3>
+    <p class="teaser">James M. Breedlove, a longtime Stanford librarian who gathered thousands of Latin American and Iberian materials, died on June 12.</p>
+  </div>    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card short eq-height nocontent">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" data-ga-action="position-2" href="/https://news.stanford.edu/2018/08/02/akshay-venkatesh-wins-fields-medal/"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Akshay Venkatesh" srcset="https://news-media.stanford.edu/wp-content/uploads/2018/08/01125302/venkatesh-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/08/01125302/venkatesh-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/08/01125302/venkatesh-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta"><a href="/https://news.stanford.edu/section/awards/">Awards</a></div>
+    <h3><a data-ga-action="position-2" href="/https://news.stanford.edu/2018/08/02/akshay-venkatesh-wins-fields-medal/">Akshay Venkatesh wins Fields Medal</a></h3>
+    <p class="teaser">Mathematics Professor Akshay Venkatesh won the Fields Medal, the most prestigious prize in mathematics. He is known as someone with broad expertise who has contributed to many areas of math.</p>
+  </div>    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card short eq-height nocontent">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" data-ga-action="position-3" href="/https://news.stanford.edu/2018/08/02/fishing-bans-protect-fish-dont-harm-fishing-communities/"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Fishing vessels like this one were tracked during a short-lived trawling moratorium in the Adriatic Sea as part of a Stanford study." srcset="https://news-media.stanford.edu/wp-content/uploads/2019/04/26101415/adriatic1-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2019/04/26101415/adriatic1-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2019/04/26101415/adriatic1-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta"><a href="/https://news.stanford.edu/section/science-technology/">Science &amp; Technology</a></div>
+    <h3><a data-ga-action="position-3" href="/https://news.stanford.edu/2018/08/02/fishing-bans-protect-fish-dont-harm-fishing-communities/">Fishing bans protect fish and don’t harm fishing communities</a></h3>
+    <p class="teaser">Fishers who complied with a moratorium in the Adriatic Sea maintained catch levels by fishing in other areas. The findings help justify extending regional protection and provide insight for ocean management elsewhere.</p>
+  </div>    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+	</div><!-- #su-content -->
+</div><!-- #su-wrap -->
+
+<!-- BEGIN footer -->
+<div id="footer" class="clearfix footer hidden-print nocontent" role="contentinfo">
+
+	  <!-- Fat footer start -->
+  <div class="container">
+    <div id="footer-content" class="row" data-ga-category="footer">
+      <div class="col-sm-6 col-md-3">
+<h3 class="widgettitle">Stanford Report</h3>
+			<div class="textwidget"><div id="mc_embed_signup">
+  <form action="//stanford.us5.list-manage.com/subscribe/post?u=a8e6569da943904e9ac369cde&amp;id=29ce9f751e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <label for="mce-EMAIL">Receive daily Stanford news.</label><br>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" size="30" placeholder="your email address" required="">
+    <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default" style="margin-top: -3px; padding: 6px;">
+  </form>
+</div>
+<p><a href="/https://news.stanford.edu/stanford-report/">More about <em>Stanford Report</em></a></p></div>
+		</div>
+<div class="col-sm-6 col-md-3">
+<h3 class="widgettitle">For Journalists</h3>
+			<div class="textwidget"><ul>
+  <li><a href="/https://news.stanford.edu/press-releases/">Press Releases</a></li>
+  <li><a href="/https://news.stanford.edu/contact/media-contacts/">Media Contacts</a></li>
+  <li><a href="/https://news.stanford.edu/experts/">Stanford Experts</a></li>
+</ul></div>
+		</div>
+<div class="col-sm-6 col-md-3">
+<h3 class="widgettitle">See Also</h3>
+			<div class="textwidget"><ul>
+  <li><a href="/https://news.stanford.edu/contact/">Contact Stanford News</a></li>
+  <li><a target="_blank" href="/http://ucomm.stanford.edu/facstaff/">Faculty / Staff Resources <i class="fa fa-external-link"></i></a></li>
+</ul></div>
+		</div>
+<div class="col-sm-6 col-md-3">
+			<div class="textwidget"><div id="weather" class="col-xs-6">
+
+  <h3>Weather</h3>
+<div id="awesome-weather-widget">
+
+  
+  
+    <div class="awesome-weather-current-temp">
+      <i class="wi wi-yahoo-32" aria-label="sunny" title="sunny"></i>      67<sup>°</sup>
+    </div><!-- /.awesome-weather-current-temp -->
+    <div class="awesome-weather-more-weather-link" data-ga-category="footer"><a data-ga-action="weather" target="_blank" href="/http://www.weather.com/weather/tenday/l/Stanford+CA+94305:4:US">Stanford forecast</a></div></div><!-- /.awesome-weather-wrap: custom --> 
+
+</div>
+<div id="events" class="col-xs-6">
+  <h3>Events</h3>
+  <a href="/http://events.stanford.edu/">
+    <i class="fa fa-calendar fa-3x"></i><span class="sr-only">Events calendar</span>
+  </a>
+</div></div>
+		</div>
+			<div id="site-credit" class="col-xs-12">
+				<p>Stanford News is a publication of <a href="/https://ucomm.stanford.edu">Stanford University Communications</a></p>
+			</div>
+    </div>
+  </div>
+  <!-- Fat footer end -->
+      
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-sm-12 col-md-2">
+          <a href="/https://www.stanford.edu">
+            <img alt="Stanford University" width="105" height="49" src="/https://www-media.stanford.edu/su-identity/images/footer-stanford-logo@2x.png">
+          </a>
+        </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text">
+          <div class="col-xs-5 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-10">
+            <ul id="primary-links">
+              <li class="home"><a href="/https://www.stanford.edu">Stanford Home</a></li>
+              <li class="maps alt"><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+              <li class="search-stanford"><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+              <li class="emergency alt"><a href="/https://emergency.stanford.edu">Emergency Info</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-12 col-md-10">
+            <ul id="policy-links">
+              <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+              <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy/">Privacy</a></li>
+              <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+              <li><a title="Ownership and use of Stanford trademarks and images" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+              <li><a title="Non-discrimination policy" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+              <li><a title="Report web accessibility issues" href="/https://www.stanford.edu/site/accessibility">Accessibility</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-10 col-md-offset-2">
+            <p class="copyright vcard">© <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+          </div>
+        </div> <!-- .bottom-text end -->
+      </div><!-- .row end -->
+    </div><!-- .container end -->
+  </div><!-- Global footer snippet end -->
+
+</div>
+<!-- END footer -->
+
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/plugins/awesome-weather-pro/js/awesome-weather-widget-frontend.js?ver=1.1"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/plugins/awesome-weather-pro/js/js-cookie.js?ver=1.1"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-includes/js/wp-embed.min.js?ver=4.9.7"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/themes/news/panels/js/imagesloaded.pkgd.min.js?ver=1.1.9"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/themes/news/panels/js/masonry.pkgd.min.js?ver=1.1.9"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/themes/news/panels/js/stories-masonry.js?ver=1.1.9"></script>
+
+
+</body></html>

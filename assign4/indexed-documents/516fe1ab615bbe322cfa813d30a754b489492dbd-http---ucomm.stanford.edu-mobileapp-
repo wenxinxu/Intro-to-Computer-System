@@ -1,0 +1,211 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Stanford Mobile is the official mobile app of Stanford University.">
+    <meta name="author" content="Office of University Communications">
+    <title>Stanford Mobile</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="/http://ucomm.stanford.edu/mobileapp/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/http://www.stanford.edu/su-identity/css/su-identity.css">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" type="text/css" href="/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" type="text/css" href="/http://ucomm.stanford.edu/mobileapp/css/animate.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/http://ucomm.stanford.edu/mobileapp/css/creative.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie8.css" />
+	<![endif]-->
+    <!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie7.css" />
+	<![endif]-->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-1860414-9']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+      })();
+
+    </script>
+    </head>
+
+    <body id="page-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand page-scroll" href="/http://ucomm.stanford.edu/mobileapp/">Stanford Mobile</a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+        <li> <a class="page-scroll" href="/http://ucomm.stanford.edu/mobileapp/">About</a> </li>
+        <li> <a class="page-scroll" href="/http://ucomm.stanford.edu/mobileapp/">FAQ</a> </li>
+        <li> <a class="page-scroll" href="/http://ucomm.stanford.edu/mobileapp/">Contact</a> </li>
+        <li> <a class="page-scroll" href="/http://ucomm.stanford.edu/mobileapp/">Install</a> </li>
+      </ul>
+        </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+      <!-- /.container-fluid --> 
+    </nav>
+<header>
+      <div class="dimming-shim"></div>
+      <div class="header-content">
+    <div class="header-content-inner">
+          <h1>Stanford Mobile</h1>
+          <hr class="light">
+          <p>The official mobile app of Stanford University</p>
+          <p><a class="btn btn-primary btn-xl page-scroll" href="/http://ucomm.stanford.edu/mobileapp/">Get Stanford Mobile</a></p>
+        </div>
+  </div>
+    </header>
+<section class="bg-primary" id="about">
+      <div class="container">
+    <div class="row">
+          <div class="col-lg-12 text-center">
+        <h2 class="section-heading">About Stanford Mobile</h2>
+        <hr class="light">
+      </div>
+        </div>
+    <div class="row">
+          <div class="col-lg-12">
+        <p style="text-align: left;" class="light">Stanford Mobile is the official mobile app for Stanford University. It provides access to essential Stanford information and services anytime, anywhere on your mobile device.</p>
+        <p style="text-align: left">Stanford Mobile allows you to:</p>
+        <ul style="text-align: left">
+              <li>Search the campus map</li>
+              <li>Search the campus directory</li>
+              <li>Find dining locations and hours</li>
+              <li>Check shuttle bus routes and schedules</li>
+              <li>Read university news</li>
+              <li>Browse our event calendar</li>
+              <li>Explore courses</li>
+              <li>Search library collections </li>
+              <li>Get news and schedules for Cardinal sports</li>
+              <li>Stay connected on social media</li>
+              <li>Receive Stanford info alerts, including push notifications</li>
+              <li>And more</li>
+            </ul>
+        <p style="text-align: left" class="light">The app is maintained by <a href="/http://ucomm.stanford.edu">Stanford's Office of University Communications</a>.</p>
+      </div>
+        </div>
+  </div>
+    </section>
+<section id="faq">
+      <div class="container">
+    <div class="row">
+          <div class="col-lg-12 text-center">
+        <h2 class="section-heading">FAQ</h2>
+        <hr class="primary">
+      </div>
+        </div>
+
+         <div class="row">
+          <div class="col-lg-12">
+      <dl>
+    <dt>Do I have to pay to install Stanford Mobile?</dt>
+    <dd>No. The app is free for both iOS and Android.</dd>
+    <dt>How do I install Stanford Mobile?</dt>
+    <dd>Open this page on your iOS or Android mobile device.  Click the appropriate install link and you will be directed to the iOS App Store or Google Play Store page to install the app.  You will need to log into your store account. </dd>
+    <dt>Can I use Stanford Mobile without an iOS or Android mobile device?</dt>
+    <dd> Yes.  You can access and use all the basic functionality of Stanford Mobile by visiting <a href="/http://m.stanford.edu">m.stanford.edu</a>. </dd>
+    <dt>I'm asked to allow push notifications from Stanford Mobile.  What is this used for?</dt>
+    <dd>We will occasionally send messages to users of Stanford Mobile about new features.  We will also send AlertSU emergency messages to users via push notification in the event of a campus emergency. </dd>
+    <dt>Does Stanford Mobile collect any personal information from my device?</dt>
+    <dd>The Stanford Mobile app complies with Stanford University's <a href="/https://adminguide.stanford.edu/chapter-1/subchapter-6/policy-1-6-1">Privacy Policy</a>.  It does not gather any personal information which is not directly related to functionality within the app.</dd>
+  </dl>
+           </div>
+  </div>
+  </div>
+    </section>
+<section id="contact" class="bg-dark">
+      <div class="container">
+    <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading">Contact Us</h2>
+        <hr class="light">
+        <p>For more information or for assistance with Stanford Mobile:</p>
+      </div>
+          <div class="col-lg-4 col-lg-offset-2 text-center"> <i class="fa fa-phone fa-3x wow bounceIn"></i>
+        <p>650-723-2558</p>
+      </div>
+          <div class="col-lg-4 text-center"> <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+        <p><a style="color:#fff" href="/http://ucomm.stanford.edu/mobileapp/mailto:mobile-app@stanford.edu">mobile-app@stanford.edu</a></p>
+      </div>
+        </div>
+  </div>
+    </section>
+<section id="install">
+      <div class="container">
+    <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading">Install</h2>
+        <hr class="primary">
+        <p>Find Stanford Mobile at <a href="/http://m.stanford.edu">m.stanford.edu</a> using a web browser on your phone or tablet, or download the native application in the <a href="/https://itunes.apple.com/us/app/stanford-mobile/id292922029?mt=8">iTunes App Store</a> and on <a href="/https://play.google.com/store/apps/details?id=edu.stanford.m">Google Play</a>.</p>
+      </div>
+          <div class="col-lg-4 col-lg-offset-2 text-center" style="padding-top: 20px"> <a href="/https://itunes.apple.com/us/app/stanford-mobile/id292922029?mt=8"><img width="260" src="/http://ucomm.stanford.edu/mobileapp/img/app-store.svg"></a> </div>
+          <div class="col-lg-4 text-center"> <a href="/https://play.google.com/store/apps/details?id=edu.stanford.m"><img width="300" src="/http://ucomm.stanford.edu/mobileapp/img/google-play.png"></a> </div>
+        </div>
+  </div>
+    </section>
+
+<!-- Global footer snippet start -->
+<div id="global-footer" style="margin-top: 50px;">
+      <div class="container">
+    <div class="row">
+          <div id="bottom-logo" class="span2"> <a href="/http://www.stanford.edu"> <img alt="Stanford University" width="105" height="49" src="/https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png"> </a> </div>
+          <!-- #bottom-logo end -->
+          <div id="bottom-text" class="span10">
+        <ul>
+              <li class="home"><a href="/http://www.stanford.edu">SU Home</a></li>
+              <li class="maps alt"><a href="/http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+              <li class="search-stanford"><a href="/http://www.stanford.edu/search/">Search Stanford</a></li>
+              <li class="terms alt"><a href="/http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+              <li class="emergency-info"><a href="/http://emergency.stanford.edu">Emergency Info</a></li>
+            </ul>
+      </div>
+          <!-- .bottom-text end -->
+          <div class="clear"></div>
+          <p class="copyright vcard">© <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.&nbsp;&nbsp; <span id="copyright-complaint"><a class="copyright-complaint" href="/http://www.stanford.edu/group/security/dmca.html">Copyright Complaints</a></span> </p>
+        </div>
+    <!-- .row end --> 
+  </div>
+      <!-- .container end --> 
+    </div>
+<!-- global-footer end --> 
+<!-- Global footer snippet end --> 
+
+<!-- jQuery --> 
+<script src="/http://ucomm.stanford.edu/mobileapp/js/jquery.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="/http://ucomm.stanford.edu/mobileapp/js/bootstrap.min.js"></script> 
+
+<!-- Plugin JavaScript --> 
+<script src="/http://ucomm.stanford.edu/mobileapp/js/jquery.easing.min.js"></script> 
+<script src="/http://ucomm.stanford.edu/mobileapp/js/jquery.fittext.js"></script> 
+<script src="/http://ucomm.stanford.edu/mobileapp/js/wow.min.js"></script> 
+
+<!-- Custom Theme JavaScript --> 
+<script src="/http://ucomm.stanford.edu/mobileapp/js/creative.js"></script> 
+<script src="/http://use.fontawesome.com/aff1ed173f.js"></script>
+
+
+</body></html>

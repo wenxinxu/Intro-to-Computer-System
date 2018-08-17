@@ -1,0 +1,2008 @@
+<!DOCTYPE html><html lang="en"><head>
+    <title>Stanford Searchable Map</title>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta content="" name="description">
+    <meta content="" name="author">
+	<link rel="shortcut icon" type="image/ico" href="/https://www.stanford.edu/favicon.ico">
+    <!-- Styles -->
+    <link rel="stylesheet" href="/https://campus-map.stanford.edu/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/https://campus-map.stanford.edu/css/custom.css">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<!-- from Stanford identity -->
+	<link rel="stylesheet" href="/https://web.stanford.edu/su-identity/css/su-identity.css">
+	<link rel="stylesheet" type="text/css" href="/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+	<link rel="stylesheet" href="/https://campus-map.stanford.edu/css/chardinjs.css">
+	<link rel="stylesheet" href="/https://campus-map.stanford.edu/css/printgm.css">
+	<!--[if IE 8]>
+	  <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie8.css" />
+	<![endif]-->
+	<!--[if IE 7]>
+	  <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie7.css" />
+	<![endif]-->
+	 <!-- End from Stanford identity -->
+	<script type="text/javascript" src="/https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="/https://campus-map.stanford.edu/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    
+
+	<script type="text/javascript" src="/https://campus-map.stanford.edu/js/custom.js"></script>
+	<script type="text/javascript" src="/https://campus-map.stanford.edu/js/google-geolocation.js"></script>
+	<script src="/https://campus-map.stanford.edu/js/chardinjs.min.js"></script>
+    <script type="text/javascript" src="/https://maps.google.com/maps/api/js?sensor=false&amp;libraries=places&amp;v=3.17"></script>
+	<script type="text/javascript" src="/https://campus-map.stanford.edu/js/stan_cm_js.cfm"></script>
+    
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-67559572-1', 'auto');
+	  ga('send', 'pageview');
+  </script>
+	<script>
+		var device = {
+            is_android: function() {
+                return navigator.userAgent.match(/Android/i);
+            },
+            is_blackberry: function() {
+                return navigator.userAgent.match(/BlackBerry/i);
+            },
+            is_iphone: function() {
+                return navigator.userAgent.match(/iPhone/i);
+            },
+            is_ipad: function() {
+                return navigator.userAgent.match(/iPad/i);
+            },
+            is_ipod: function() {
+                return navigator.userAgent.match(/iPod/i);
+            },
+            is_ios: function() {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+            },
+            is_windows_phone: function() {
+                return navigator.userAgent.match(/IEMobile/i);
+            },
+            is_mobile: function() {
+                return (device.is_android() || device.is_blackberry() || device.is_ios() || device.is_windows_phone() );
+            }
+
+        };
+
+	 /*function printMap(){
+    	var content = window.document.getElementById("map_canvas"); // get you map details
+		var newWindow = window.open(); // open a new window
+		newWindow.document.write(content.innerHTML); // write the map into the new window
+		newWindow.print();
+   	 }
+	 */
+	 function printMap2(){
+	 	$('#printarea').fadeIn(1000);
+		$('.searchBlock').fadeOut(1000);
+    	$('#printarea').removeClass('hide');
+		//window.print();
+
+   	 }
+
+	$(document).ready(function(){
+
+
+
+		$('#cancelprinting').on('click', function(){
+			$('#printarea').fadeOut(1000);
+			$('.searchBlock').fadeIn(1000);
+		});
+
+		/*Add ESC key to cancel printing when pressed*/
+		$(document).keyup(function(e){
+			if(e.keyCode==27 && $('#printarea').css('display') == 'block'){
+				$('#printarea').fadeOut(1000);
+				$('.searchBlock').fadeIn(1000);
+			}
+		});
+
+
+		$(document).on('click', '#take_a_tour', function(e) {
+			$('#infoLinkBlock').popover('hide');
+			$('#watch_video_modal').modal('show');
+			$('#iframe_video_holder').html('<iframe width="100%" height="360" src="//www.youtube.com/embed/C8CVygm8iDQ" frameborder="0"></iframe>');
+		});
+
+
+		/*******************Set Cookie to check the first time user********************/
+		/*
+		expiry = new Date();
+		//expiry.setTime(new Date().getTime()+(10*60*1000)); // ten minutes
+                expiry.setTime(new Date().getTime()+ 31536000000)// (525600*60*1000) == one year
+		if (document.cookie.indexOf("visited") >= 0) {
+		  // They've been here before.
+		  document.cookie = "visited" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+		  document.cookie = "visited=yes; expires=" + expiry.toGMTString();
+		}else{
+			// set a new cookie
+		  document.cookie = "visited=yes; expires=" + expiry.toGMTString();
+		  * */
+		  /*******Tutorial overlay to load ********/
+		  /*var url = window.location.href;
+			if(url.indexOf('?id=') == -1){
+			$('.introLogoBlock').removeClass('hide');
+			$('body').chardinJs('start');
+			$('.searchBlock').css('z-index', '99999999999');
+			$('.searchBlock').css('pointer-events', 'none');
+
+			//$('#searchButton').addClass('chardinjs-helper-layer');
+
+			$('#searchButton').css('pointer-events','none');
+			$('.topright').css('pointer-events', 'none');
+			$('body').on('chardinJs:stop', function(){
+				$('.searchBlock').css('z-index', '10');
+				$('.introLogoBlock').addClass('hide');
+				$('.searchBlock').css('pointer-events', 'all');
+				$('.topright').css('pointer-events', 'all');
+				$('#searchButton').css('pointer-events','all');
+			});
+
+			$('.stanfordLogo').on('click', function(){
+				$('body').chardinJs('stop');
+			});
+			$('.stanfordMapWelcomeButton').on('click', function(){
+				$('body').chardinJs('stop');
+			});
+		}
+
+		}*/
+
+		$("#questionsBlock").on('click', function(){
+			$('.introLogoBlock').removeClass('hide');
+			$('body').chardinJs('start');
+			$('.searchBlock').css('z-index', '99999999999');
+			$('.searchBlock').css('pointer-events', 'none');
+
+			//$('#searchButton').addClass('chardinjs-helper-layer');
+
+			$('#searchButton').css('pointer-events','none');
+			$('.topright').css('pointer-events', 'none');
+			$('body').on('chardinJs:stop', function(){
+				$('.searchBlock').css('z-index', '10');
+				$('.introLogoBlock').addClass('hide');
+				$('.searchBlock').css('pointer-events', 'all');
+				$('.topright').css('pointer-events', 'all');
+				$('#searchButton').css('pointer-events','all');
+			});
+
+			$('.stanfordLogo').on('click', function(){
+				$('body').chardinJs('stop');
+			});
+			$('.stanfordMapWelcomeButton').on('click', function(){
+				$('body').chardinJs('stop');
+			});
+		});
+
+
+		$(document).on('click', '#get_curr_loc', function(e) {
+			 e.preventDefault();
+			 var GeoMarker = new GeolocationMarker(map);
+	  	     GeoMarker.setCircleOptions({fillColor: '#808080'});
+
+			  google.maps.event.addListenerOnce(GeoMarker, 'geolocation_error', function(){
+			  	$('#current_location_note').css('display', 'block');
+
+	  		});
+
+			 google.maps.event.addListenerOnce(GeoMarker, 'position_changed', function() {
+		                    map.setCenter(this.getPosition());
+		                    map.fitBounds(this.getBounds());
+							console.log(this.getPosition().lat());
+							set_driv_orig(this.getPosition().lat(), this.getPosition().lng())
+			    });
+		});
+
+		$('[data-toggle="popover"]').popover();
+		$('[data-toggle="tooltip"]').tooltip();
+
+
+		/*Click on the anywhere to close the Popover bubbles*/
+		$('body').on('click', function (e) {
+
+
+			 $('#mapLegendBlock, #relativeLinkBlock, #selfTourBlock, #bugReportBlock, #infoLinkBlock').each(function () {
+	            //the 'is' for buttons that trigger popups
+	            //the 'has' for icons within a button that triggers a popup
+	                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+	                $(this).popover('hide');
+	            }
+	        });
+
+		});
+		/******************************************************/
+
+
+		/*******************SHOW THE BUG**********************/
+		$('#bugReportBlock').each(function(){
+				$(this).addClass("floating");
+
+		});
+
+
+		/*$(document).on('click', '#reportSubmit', function(e){
+			e.preventDefault();
+			var submitData = true;
+			var newJsonData = {};
+			newJsonData["reportName"] = $("#reportName").val();
+			newJsonData["reportIssue"] = $("#reportIssue").val();
+
+			if ($("#reportIssue").val().length === 0){submitData = false;}
+
+			newJsonData["reportBrowser"] = navigator.userAgent;
+			newJsonData["reportOS"] = navigator.appVersion;
+			newJsonData["reportCookie"] = navigator.cookieEnabled;
+			//console.log(JSON.stringify(newJsonData));
+
+			if (submitData){
+				$.ajax({
+					type: "POST",
+					url: "notification.cfc",
+					dataType: "json",
+					data: {
+						method: "sendNotification",
+						JSONPacket: JSON.stringify(newJsonData)
+					},
+					success: function(data){
+						if(data == 0){
+							$('#bugReportBlock-form').addClass('hide');
+							$('#bugReportBlock-thankyou').removeClass('hide');
+						}else {
+							alert("System Error! cannot report the issue.");
+						}
+					},
+					error: function(e){
+						console.log(e);
+					}
+				});
+			}else{
+				$("#reportIssue").effect("highlight", {}, 3000);
+			}
+		});*/
+
+
+		$(document).on('click', '#campus_tour_button', function(e){
+			e.preventDefault();
+			window.location.href="https://web.stanford.edu/group/lbre_apps_forms/Story_Map/Stanford_Campus_Tour/";
+		});
+		/*****************************************************/
+
+
+
+
+		var currentPanel = $('#currentPanel');
+		currentPanel.text($('#menuPanel').attr('id'));
+		var currentOpener =$('#currentOpener');
+		currentOpener.text($('#openerExploreSU').attr('id'));
+
+		if (device.is_mobile()) {
+			$('#get_curr_loc').css('display', 'block');
+        }
+
+		/*tooltip show for menu*/
+		/*var om = $('#openerMain');
+    	om.tooltip('show');
+		setTimeout(function(){
+      		om.tooltip('hide');
+    	}, 5000);
+*/
+		brb = $('#bugReportBlock');
+    	brb.tooltip('show');
+		setTimeout(function(){
+      		brb.tooltip('hide');
+    	}, 5000);
+
+
+		$(document).on('click', '#get_dir', function(e) {
+			 e.preventDefault();
+			 set_driv_dest($("#bldg_addr").text())
+			 $('#myModal').modal('hide');
+			 $('#cm_bgOverlay').addClass('modal-backdrop');
+			 fnOpenDirection();
+		});
+		$(document).on('click', '#eateries_get_dir', function(e) {
+			 e.preventDefault();
+			 set_driv_dest($("#eateries_addr").val())
+			 $('#myModal').modal('hide');
+			 $('#cm_bgOverlay').addClass('modal-backdrop');
+			 fnOpenDirection();
+		})
+		$(document).on('click', '#info_modal_get_dir', function(e) {
+			 e.preventDefault();
+			 var latlng = $("#info_modal_lat").val() + ", " + $("#info_modal_lng").val();
+			 set_driv_dest(latlng);
+			 $('#myModal').modal('hide');
+			 $('#cm_bgOverlay').addClass('modal-backdrop');
+			 fnOpenDirection();
+		});
+
+		//reverse directions
+		$(document).on('click', '#rev_addr', function(e) {
+                e.preventDefault();
+				 //Get the values
+			    var fromVal = $("#orig").val();
+			    var toVal = $("#dest").val();
+			    //Set the values
+			    $("#orig").val(toVal);
+			    $("#dest").val(fromVal);
+				reverse_orig_dest();
+        });
+
+		//get directions
+		$(document).on('click', '#searchdir', function(e) {
+                e.preventDefault();
+				map_driv_dir(0);
+        });
+
+		//search clear button
+		$("#search_address").keyup(function(){
+                    $("#searchclear").toggle(Boolean($(this).val()));
+                });
+        $("#searchclear").toggle(Boolean($("#search_address").val()));
+		$("#searchclear").click(function(){
+			$("#search_address").val('').focus();
+            $(this).hide();
+		});
+		//end search clear button
+
+		/*close the slide panel when search box is on focus*/
+		$('#search_address').focus(function(){
+			var panel = $('.slide-panel');
+			var px_to_close = $('.slidepanelclose').css('margin-left');
+			panel.removeClass('visible').animate({'margin-left': px_to_close});
+		});
+
+		$('#openerMain').on('click', function() {
+			var panel = $('.slide-panel');
+			panel.addClass('visible').animate({'margin-left':'0px'});
+			map.getStreetView().setVisible(false);
+			$('#cm_bgOverlay').addClass('modal-backdrop');
+			//$('#cover').css('display','block');
+			$('#' + currentPanel.text()).show();
+			$('#openerExploreSU').removeAttr('style');
+			$('#openerDirection2').removeAttr('style');
+			$('#openerSearch2').removeAttr('style');
+			$('#' + currentOpener.text()).css('opacity', '1.0');
+
+			return false;
+		});
+
+		$('#openerMain').on('mouseenter', function() {
+			/*tooltip show for menu*/
+			var that = $(this);
+    		that.tooltip('show');
+			setTimeout(function(){
+      			that.tooltip('hide');
+    		}, 1000);
+		});
+
+
+		$('#openerExploreSU').on('click', function() {
+			var panel = $('.slide-panel');
+			panel.addClass('visible').animate({'margin-left':'0px'});
+				currentPanel.text($('#menuPanel').attr('id'));
+				currentOpener.text($(this).attr('id'));
+				$('#menuPanel').show();
+				$('#searchPanel').hide();
+				$('#directionPanel').hide();
+				$(this).css('opacity', '1.0');
+				$('#openerDirection2').removeAttr('style');
+				$('#openerSearch2').removeAttr('style');
+			return false;
+		});
+
+
+		$('.cm-searchResult').on('click', function() {
+			var panel = $('.slide-panel');
+				panel.addClass('visible').animate({'margin-left':'0px'});
+				currentPanel.text($('#searchPanel').attr('id'));
+				currentOpener.text($(this).attr('id'));
+				$('#menuPanel').hide();
+				$('#searchPanel').show();
+				$('#directionPanel').hide();
+				$(this).css('opacity', '1.0');
+				$('#openerDirection2').removeAttr('style');
+				$('#openerExploreSU').removeAttr('style');
+			return false;
+		});
+
+		function fnOpenDirection(){
+				var panel = $('.slide-panel');
+				panel.addClass('visible').animate({'margin-left':'0px'});
+				currentPanel.text($('#directionPanel').attr('id'));
+				currentOpener.text($(this).attr('id'));
+				$('#menuPanel').hide();
+				$('#searchPanel').hide();
+				$('#directionPanel').show();
+				$('#openerDirection2').css('opacity', '1.0');
+				$('#openerExploreSU').removeAttr('style');
+				$('#openerSearch2').removeAttr('style');
+			return false;
+		}
+
+		$('#openerDirection2').on('click', function() {
+			var panel = $('.slide-panel');
+				panel.addClass('visible').animate({'margin-left':'0px'});
+				currentPanel.text($('#directionPanel').attr('id'));
+				currentOpener.text($(this).attr('id'));
+				$('#menuPanel').hide();
+				$('#searchPanel').hide();
+				$('#directionPanel').show();
+				$(this).css('opacity', '1.0');
+				$('#openerExploreSU').removeAttr('style');
+				$('#openerSearch2').removeAttr('style');
+			return false;
+		});
+
+		$('#openerSearch2').on('click', function() {
+			currentOpener.text($(this).attr('id'));
+
+		});
+
+		$('#closeButton2, #cm_bgOverlay').on('click', function() {
+			var panel = $('.slide-panel');
+			var px_to_close = $('.slidepanelclose').css('margin-left');
+			panel.removeClass('visible').animate({'margin-left': px_to_close});
+			$('#openerExploreSU').css('opacity', '1.0');
+			$('#openerDirection2').removeAttr('style');
+			$('#openerSearch2').removeAttr('style');
+			$('#cm_bgOverlay').removeClass('modal-backdrop');
+			return false;
+		});
+
+		$('#relativeLinkBlock').popover({
+	        animate: false,
+	        html: true,
+	        placement: 'bottom',
+			trigger: 'manual',
+	        title: function(){return $('#relativeLinkBlock-title').html();},
+			content: function (){return $('#relativeLinkBlock-content').html();}
+		}).click(function(){
+				$(this).popover('toggle');
+		});
+
+		$('#selfTourBlock').popover({
+	        animate: false,
+	        html: true,
+	        placement: 'bottom',
+			trigger: 'manual',
+	        title: function(){return $('#selfTourBlock-title').html();},
+			content: function (){return $('#selfTourBlock-content').html();}
+		}).click(function(){
+				$(this).popover('toggle');
+		});
+
+
+		$('#infoLinkBlock').popover({
+	        animate: false,
+	        html: true,
+	        placement: 'bottom',
+			trigger: 'manual',
+	        title: function(){return $('#infoLinkBlock-title').html();},
+			content: function (){return $('#infoLinkBlock-content').html();}
+		}).click(function(){
+			$(this).popover('toggle');
+		});
+
+		$('#mapLegendBlock').popover({
+	        animate: false,
+	        html: true,
+	        placement: 'bottom',
+			trigger: 'manual',
+			content: function (){return $('#mapLegendBlock-content').html();}
+		}).click(function(){
+			$(this).popover('toggle');
+		});
+
+		$('#bugReportBlock').popover({
+	        animate: false,
+	        html: true,
+	        placement: 'right',
+			trigger: 'manual',
+	        title: function(){return $('#bugReportBlock-title').html();},
+			content: function (){return $('#bugReportBlock-content').html();}
+		}).click(function(){
+			$(this).popover('toggle');
+		});
+
+		$('#close').click(function(){
+			$('#current_location_note').css('display','none');
+		});
+	});
+
+	$('input:checkbox').click( function(){
+    	$(this).parent('label').toggleClass('highlight', this.checked);
+	});
+
+
+
+	//google.maps.event.addDomListener(window, 'load', initialize);
+
+	 </script>
+
+	<style>
+
+	html{
+		margin:0;
+		padding:0;
+		overflow: hidden;
+	}
+	body {
+    	background-color: #f2f1eb; /*#fbfbf9*/
+    	color: #696969;
+    	font-family: "Source Sans Pro", Arial, sans-serif;
+    	font-size: 14px;
+    	line-height: 1.6;
+    	overflow: hidden;
+        -ms-content-zoom-chaining: none;
+        -ms-touch-action: none;
+	}
+
+	/*google info box text*/
+	.gm-style {
+	    font-family: "Source Sans Pro", Arial, sans-serif;
+	}
+	/* For carousel settings */
+	.slider-size {
+		height: 225px; /* This is your slider height */
+	}
+	.carousel {
+		width:80%;
+		margin:0 auto; /* center your carousel if other than 100% */
+	}
+	/* end - For carousel settings */
+
+	#search_address{
+		z-index: 1001;
+	}
+	.searchbar-container{
+		padding-left: 0px;
+		/*padding-top: 2px;
+		padding-bottom: 2px;*/
+		margin-left: -10px;
+		z-index: 2000;
+		/*height: 0px;*/
+	}
+	/* For desktop and larger screen devices */
+	@media(min-width: 1025px)  {
+    	/*.navbar .navbar-form {
+        	width: 450px;
+        	padding-left:0px;
+
+    	}*/
+
+		#search_address {
+			width: 600px;
+		}
+
+		.ui-menu{
+			width: 600px;
+		}
+
+		.container {
+			width: 100%;
+			padding-left : 10px;
+		}
+
+		.popover{
+			min-width: 250px;
+  			max-width: 500px;
+			}
+
+
+		.slidepanelclose{
+			margin-left: -317px;
+		}
+
+
+		.topright2{
+			float:none !important;
+			position: absolute !important;
+			margin-left: 39% !important;
+		/*margin: 0 0 0px 10px;*/
+
+	}
+
+	}
+
+	/* For iPad  and tablet screen devices */
+	@media(min-width: 768px) and (max-width: 1024px) {
+    	/*.navbar .navbar-form {
+        	width: 450px;
+        	padding-left:0px;
+
+    	}*/
+
+
+		#search_address {
+			width: 400px;
+		}
+
+		.ui-menu{
+			width: 400px;
+		}
+
+		.container {
+			width: 100%;
+			padding-left : 10px;
+		}
+
+		.popover{
+			min-width: 250px;
+  			max-width: 500px;
+			}
+
+
+		.slidepanelclose{
+			margin-left: -317px;
+		}
+
+		.tooltip{
+			display:none !important;
+		}
+
+
+	}
+	/*For iPhone 6/6 Plus and Larger Android devices*/
+	@media only screen and (min-device-width: 375px) and (max-width: 767px) {
+    	/*.navbar .navbar-form {
+        	width: 300px;
+        	padding-left:0px;
+
+    	}*/
+
+		#search_address {
+			width: 180px;
+		}
+
+		.ui-menu{
+			width: 300px;
+		}
+
+		/*.container {
+			width: 100%;
+			padding-left : 10px;
+		}*/
+
+		.slidepanelclose{
+			margin-left: -317px;
+		}
+
+		.popover{
+			min-width: 250px;
+  			max-width: 320px;
+		}
+
+		.tooltip{
+			display:none !important;
+		}
+
+
+	}
+	/*For iPhone 4/5 or Android devices*/
+	/*@media only screen  and (min-device-width:320px) and (max-width: 374px) and (orientation: landscape)  {*/
+	@media only screen  and (min-device-width:320px)  and (max-device-width:480px)   {
+    	/*.navbar .navbar-form {
+        	width: 210px;
+			padding-left:0px;
+        	padding-right:0px;
+    	}*/
+
+		#search_address {
+			width: 130px;
+		}
+
+		.ui-menu{
+			width: 250px;
+		}
+		.popover{
+			min-width: 250px;
+  			max-width: 320px;
+			}
+
+
+		/* For carousel settings */
+		.slider-size {
+			height: 125px;
+		}
+		.carousel {
+			width:100%;
+		}
+
+		.tooltip{
+			display:none !important;
+		}
+
+		.slide-panel{
+			width: 270px !important;
+		}
+
+		.slidepanelclose{
+			margin-left: -270px;
+		}
+
+		.betaText {
+			font-size: 1.6em !important;
+
+		}
+
+		.circle {
+
+			margin-left: 110px !important;
+			margin-top: -95px !important;
+
+		}
+
+	}
+
+
+	.searchBlock{
+    	position: absolute;
+		z-index: 10;
+		margin-top : 5px;
+		margin-left: 20px;
+    }
+
+	.topright{
+		float: right;
+		margin: 0 0 0px 10px;
+		line-height: 1.5;
+	}
+	.topright2{
+		float: right;
+
+		/*margin: 0 0 0px 10px;*/
+
+	}
+
+	.blink_me {
+	    -webkit-animation-name: blinker;
+	    -webkit-animation-duration: 1s;
+	    -webkit-animation-timing-function: linear;
+	    -webkit-animation-iteration-count: infinite;
+
+	    -moz-animation-name: blinker;
+	    -moz-animation-duration: 1s;
+	    -moz-animation-timing-function: linear;
+	    -moz-animation-iteration-count: infinite;
+
+	    animation-name: blinker;
+	    animation-duration: 1s;
+	    animation-timing-function: linear;
+	    animation-iteration-count: infinite;
+	}
+
+	@-moz-keyframes blinker {
+	    0% { opacity: 1.0; }
+	    50% { opacity: 0.0; }
+	    100% { opacity: 1.0; }
+	}
+
+	@-webkit-keyframes blinker {
+	    0% { opacity: 1.0; }
+	    50% { opacity: 0.0; }
+	    100% { opacity: 1.0; }
+	}
+
+	@keyframes blinker {
+	    0% { opacity: 1.0; }
+	    50% { opacity: 0.0; }
+	    100% { opacity: 1.0; }
+	}
+
+	.bar-link {
+  		color: #f2f1eb;
+  		font-size: 20px;
+  		font-weight: 300;
+  		margin-left: 15px;
+		text-decoration: none;
+	}
+
+	.bar-link:hover{
+		background-color: #820000;
+		color: #f2f1eb;
+		text-decoration: none;
+		border-radius:5px 5px 5px 5px;
+	}
+
+	.bar-link:visited {
+  		color: #f2f1eb;
+  		text-decoration: none;
+	}
+
+	/*Overriding Bootstrap btn class, the panel opener button*/
+	.menubtn{
+		padding: 7px 10px;
+	}
+
+	/*Overriding Bootstrap btn class for search result button */
+	.searchresultbtn{
+		padding: 6px 12px;
+		font-size:1.2em;
+	}
+
+	/*refresh button icon css*/
+	#refreshbtn{
+		padding: 6px 12px;
+	}
+
+	/*Overriding Bootstrap Accordion-moz-binding*/
+	.panel{
+
+		border-style: none;
+	}
+	.panel-heading{
+		background-color: #f2f1eb !important;
+	}
+
+	.panel-heading.accordion-toggle:after {
+		bottom : 36px !important;
+		font-size: 18pt !important;
+	}
+
+
+	/*Overriding the jQuery UI autocomplete classes*/
+	.ui-autocomplete {
+		  position: absolute;
+		  top: 100%;
+		  left: 0;
+		  z-index: 2000;
+		  float: left;
+		  display: none;
+		  min-width: 160px;
+		  _width: 160px;
+		  padding: 4px 0;
+		  margin: 2px 0 0 0;
+		  list-style: none;
+		  background-color: #ffffff;
+		  border-color: #ccc;
+		  border-color: rgba(0, 0, 0, 0.2);
+		  border-style: solid;
+		  border-width: 1px;
+		  -webkit-border-radius: 5px;
+		  -moz-border-radius: 5px;
+		  border-radius: 5px;
+		  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+		  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+		  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+		  -webkit-background-clip: padding-box;
+		  -moz-background-clip: padding;
+		  background-clip: padding-box;
+		  *border-right-width: 2px;
+		  *border-bottom-width: 2px;
+		  max-height: 80%;
+		  overflow-y: scroll;
+		  overflow-x: hidden;
+	}
+	.ui-menu {
+
+		list-style:none;
+		padding: 2px;
+		margin: 0;
+		display:block;
+		float: left;
+	}
+	.ui-menu .ui-menu {
+		margin-top: -3px;
+	}
+	.ui-menu .ui-menu-item {
+		margin:0;
+		padding: 0;
+		zoom: 1;
+		float: left;
+		clear: left;
+		width: 100%;
+	}
+	.ui-menu .ui-menu-item a {
+		text-decoration:none;
+		display:block;
+		padding:.2em .4em;
+		line-height:1.5;
+		font-size:1.5em;
+		zoom:1;
+	}
+	.ui-menu .ui-menu-item a.ui-state-hover,
+	.ui-menu .ui-menu-item:hover,
+	.ui-menu .ui-menu-item:active,
+	.ui-menu .ui-menu-item a.ui-state-active{
+		background-color:#8C1515;
+		color:#FFFFFF;
+		-webkit-text-fill-color: #FFFFFF; /*Code for Safari*/
+		-moz-text-decoration-color: #8C1515; /* Code for Firefox */
+		font-weight: normal;
+		margin: -1px;
+	}
+	/*End of overriding*/
+
+	/*For slide panel */
+	.slide-panel {
+    	width:315px;
+    	height:100%;
+    	padding:0px;
+    	background:#f2f1eb;
+    	margin-left:-317px;
+		z-index:2000;
+		position: absolute;
+		left: 0px;
+    	top: 0px;
+		box-shadow: 2px -2px 2px 0px #d0d0d0;
+		-webkit-box-shadow: 2px -2px 2px 0px #d0d0d0;
+		-moz-box-shadow: 2px -2px 0px 2px #d0d0d0;
+
+	}
+
+
+	.cm-navbar{
+		padding-top: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 5px;
+
+	}
+	/* For Slide panel Nav bar main menu right */
+	.cm-navbar .right {
+    	display: block;
+		margin-left: 70px;
+		height: 70px;
+    	width: auto;
+		/*border-bottom-width:1px;
+   		border-bottom-color: #b1b1b1;
+   		border-bottom-style: solid;*/
+	}
+
+	.cm-navbar .rightBottom {
+    	display: block;
+		margin-left: 70px;
+		height: 30px;
+    	width: auto;
+		border-bottom-width:1px;
+   		border-bottom-color: #b1b1b1;
+   		border-bottom-style: solid;
+	}
+	/* For Slide panel Nav bar main menu left (has background picture) */
+	.cm-navbar .left {
+    	width: 70px;
+		height: 100px;
+    	background-image: url("images/new/hoover2.png");
+    	float: left;
+		border-bottom-width:1px;
+   		border-bottom-color: #b1b1b1;
+   		border-bottom-style: solid;
+	}
+
+	.cm-searchResult{
+		position: absolute;
+		right:12px;
+
+	}
+
+	.cm-buttons{
+		position: absolute;
+		right:0px;
+		padding: 10px
+	}
+
+	.cm-button-effect{
+		opacity: 0.4;
+		filter: alpha(opacity=40);
+	}
+
+	.cm-button-effect .changed{
+		opacity: 1.0;
+		filter: alpha(opacity=100);
+	}
+
+	.cm-button-effect:hover{
+		opacity: 1.0;
+		filter: alpha(opacity=100);
+	}
+
+	 .tabclass:hover{
+	 	background:#FFFFFF;
+	 }
+
+	 #openerSearch {
+  	  	float:right;
+    	margin:85px -50px 0px 0px;
+    	border-radius:0px 5px 5px 0px;
+		background:#8C1515;
+		border:none;
+		/*border-color:#8C1515;*/
+		visibility:hidden;
+	 }
+
+	 .scrollPanelPadding{
+
+		padding-left: 10px;
+	 }
+	 .ScrollPanel{
+	 	 height: calc(100% - 170px);
+	 	 overflow:auto;
+   		 overflow-x:hidden;
+		 position: relative;
+
+	 }
+
+	 .directionBox{
+	 	padding : 2px;
+	 }
+
+	 /*override the box shadow for input box*/
+	 .form-control{
+
+		box-shadow: none;
+		-webkit-appearance: none;
+		-moz-box-shadow: none;
+	 }
+
+	  /*override to 0px*/
+	 .col-md-12{
+		padding-left: 0px;
+		padding-right: 0px;
+
+	 }
+
+	/*header fixed in modal */
+	.modal-body.suModal-Body {
+    	max-height: calc(100vh - 210px);
+    	overflow-y: auto;
+	}
+	.modal-header, .modal-footer {
+		padding-top:4px;
+		padding-bottom: 4px;
+	}
+	.modal-header .close {
+    	margin-top: 0;
+	}
+
+	#searchclear {
+    	position: absolute;
+    	right: 50px;
+    	top: 0;
+    	bottom: 0;
+    	height: 20px;
+    	margin: auto;
+    	font-size: 20px;
+    	cursor: pointer;
+    	color: #ccc;
+		z-index:1001;
+	}
+
+
+	/*print button css start*/
+	.custom-control-container {
+    		margin: 5px;
+	}
+	.custom-control {
+    	cursor: pointer;
+    	direction: ltr;
+	    overflow: hidden;
+	    text-align: center;
+	    position: relative;
+	    color: rgb(0, 0, 0);
+	    font-family: "Roboto", Arial, sans-serif;
+	    -webkit-user-select: none;
+	    font-size: 11px !important;
+	    background-color: rgb(255, 255, 255);
+	    padding: 1px 6px;
+	    border-bottom-left-radius: 2px;
+	    border-top-left-radius: 2px;
+	    -webkit-background-clip: padding-box;
+	    background-clip: padding-box;
+	    border: 1px solid rgba(0, 0, 0, 0.14902);
+	    -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+	    box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+	    min-width: 28px;
+	    font-weight: 500;
+	}
+
+	.custom-control:hover {
+    	font-weight: 900 !important;
+	}
+	/*print button css end*/
+   #maplink
+   {
+       padding:10px 15px 12px 10px;
+       position:absolute;
+       right:0;
+       top:0;
+       background:#F8F8F8;
+       border:1px solid #9A9A9A;
+       border-top-style:none;
+       z-index:100;
+       width:300px;
+       margin:0;
+   }
+
+   #maplink_box
+   {
+       font-size:.9em;
+       width:280px;
+       margin-top:3px;
+   }
+   #maplink_close
+   {
+       z-index:200;
+       cursor:pointer;
+       right:5px;
+       top:5px;
+       position:absolute;
+       background:transparent url("//www.google.com/intl/en_ALL/mapfiles/iwcimgs0.png") no-repeat scroll -24px 0;
+       height:12px;
+       width:12px;
+   }
+
+   #srch_add_btn_group {
+    display: flex;
+   }
+
+   /* accordion expand/collapse */
+  	.panel-heading.accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family:'Glyphicons Halflings';
+    /* essential for enabling glyphicon */
+    content:"\e259";
+    /* adjust as needed, taken from bootstrap.css */
+    float: right;
+    position: relative;
+    bottom: 23px;
+    font-size: 15pt;
+    /* adjust as needed */
+    color: grey;
+    /* adjust as needed */
+	}
+	.panel-heading.accordion-toggle.collapsed:after {
+	    /* symbol for "collapsed" panels */
+	    content:"\e258";
+	    /* adjust as needed, taken from bootstrap.css */
+	}
+
+	.panel-heading:hover {
+	    cursor: pointer;
+	}
+
+	.panel-heading:hover h4 {
+	    text-decoration: none;
+	}
+	  /* accordion expand/collapse */
+
+	 /*get direction swap button*/
+	.table tbody>tr>td.vert-align{
+	    vertical-align: middle;
+	}
+	.table tbody>tr>td.no-border-top{
+	    border-top: none;
+	}
+	/* well*/
+	.well.padding5{
+		padding:5px;
+	}
+
+	/* well*/
+	.panel-body.panel-body-explore{
+		padding:10px;
+	}
+	     .msg {
+	        color: white;
+	     }
+		 </style>
+		<style>
+		/* Base for label styling */
+	[type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked {
+	  position: absolute;
+	  left: -9999px;
+	}
+	[type="checkbox"]:not(:checked) + label,
+	[type="checkbox"]:checked + label {
+	  position: relative;
+	  padding-left: 25px;
+	  cursor: pointer;
+	}
+
+	/* checkbox aspect */
+	[type="checkbox"]:not(:checked) + label:before,
+	[type="checkbox"]:checked + label:before {
+	  content: '';
+	  position: absolute;
+	  left:0; top: 4px;
+	  width: 17px; height: 17px;
+	  border: 1px solid #aaa;
+	  background: #f8f8f8;
+	  border-radius: 3px;
+	  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+	}
+	/* checked mark aspect */
+	[type="checkbox"]:not(:checked) + label:after,
+	[type="checkbox"]:checked + label:after {
+	  content: '✔';
+	  position: absolute;
+	  top: 0; left: 4px;
+	  font-size: 14px;
+	  color: #8C1515;
+	  transition: all .2s;
+	}
+	/* checked mark aspect changes */
+	[type="checkbox"]:not(:checked) + label:after {
+	  opacity: 0;
+	  transform: scale(0);
+	}
+	[type="checkbox"]:checked + label:after {
+	  opacity: 1;
+	  transform: scale(1);
+	}
+	/* disabled checkbox */
+	[type="checkbox"]:disabled:not(:checked) + label:before,
+	[type="checkbox"]:disabled:checked + label:before {
+	  box-shadow: none;
+	  border-color: #bbb;
+	  background-color: #ddd;
+	}
+	[type="checkbox"]:disabled:checked + label:after {
+	  color: #999;
+	}
+	[type="checkbox"]:disabled + label {
+	  color: #aaa;
+	}
+	/* accessibility */
+	[type="checkbox"]:checked:focus + label:before,
+	[type="checkbox"]:not(:checked):focus + label:before {
+	  border: 1px solid blue;
+	}
+
+	/* hover style just for information */
+	label:hover:before {
+	  border: 1px solid #4778d9!important;
+	}
+
+	/*dotted line for btn */
+	.btn-link.btn-link-su  {
+    	color: #2c2d29;
+		text-decoration-style: dotted;
+
+	}
+	.btn-link.btn-link-su:hover, .btn-link.btn-link-su:focus, .btn-link.btn-link-su:active {
+	 	color:#8c1515;
+
+	}
+	#within_bldg a, .sucmlinks{
+		border-bottom: 1px dotted #696969;
+		text-decorcation : none;
+	}
+
+	/*extra padding for tab in bldg info*/
+	.tab-content {
+	  padding: 10px;
+	  > .tab-pane {
+	    display: none;
+	  }
+	  > .active {
+	    display: block;
+	  }
+	}
+	.modal-backdrop
+	{
+    	opacity:0.5 !important;
+
+		/*height:1500px;
+		width:1500px;*/
+		height: 100% !important;
+		height: 100vh !important;
+		width: 100% !important;
+		width: 100vw !important;
+	}
+
+	.chardinjs-overlay{
+		height: 100% !important;
+		height: 100vh !important;
+		width: 100% !important;
+		width: 100vw !important;
+	}
+	.form-control-feedback.pt-events-auto {pointer-events: auto;}
+	.form-group.no-margin-bottom {margin-bottom: 0px;}
+
+	.betaText{
+		color: #FFFFFF;
+		line-height: 1.0;
+		font-size: 1.5em;
+		display: none;
+	}
+
+	#bugReportBlock {
+    	position: absolute;
+		z-index: 13;
+		/*margin-top : 80px;*/
+		bottom: 0;
+		margin-left: 10px;
+		display: block;
+		height: 50px;
+		width: 50px;
+		margin-bottom: 120px;
+		background: url('images/new/start_tour.png') no-repeat center;
+		background-size: contain;
+
+	}
+
+	/*#bugReportBlock {
+    	position: absolute;
+		z-index: 13;
+		margin-top : 80px;
+		margin-left: 10px;
+		display: block;
+		height: 50px;
+		width: 50px;
+		margin-bottom: 120px;
+		background: url('images/new/bug-report.png') no-repeat center;
+		background-size: contain;
+		display: none;
+	}*/
+
+
+	/*
+	==============================================
+	floating
+	==============================================
+	*/
+
+	.floating{
+		animation-name: floating;
+		-webkit-animation-name: floating;
+
+		animation-duration: 1.5s;
+		-webkit-animation-duration: 1.5s;
+
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+
+		visibility: visible !important;
+	}
+
+	@keyframes floating {
+		0% {
+			transform: translateY(0%);
+		}
+		50% {
+			transform: translateY(30%);
+		}
+		100% {
+			transform: translateY(0%);
+		}
+	}
+
+	@-webkit-keyframes floating {
+		0% {
+			-webkit-transform: translateY(0%);
+		}
+		50% {
+			-webkit-transform: translateY(30%);
+		}
+		100% {
+			-webkit-transform: translateY(0%);
+		}
+	}
+
+
+	#cover{
+		position:absolute; /* absolute position (so we can position it where we want)*/
+	    bottom:0px; /* position will be on bottom */
+	    left:0px;
+	    width:100%;
+		height: 100%;
+	    /* styling below */
+	    background-color:black;
+	    opacity:0.6; /* transparency */
+	    filter:alpha(opacity=60); /* IE transparency */
+		z-index: 15;
+	}
+
+
+	#current_location_note {
+	    position: absolute;
+	    z-index: 9999999;
+	    bottom: 0;
+		margin-bottom:30px;
+	    left: 0;
+	    right: 0;
+		color: #FFFFFF;
+	    background: #4D4F53;
+	    text-align: center;
+	    line-height: 2.5;
+	    overflow: hidden;
+	    -webkit-box-shadow: 0 0 5px black;
+	    -moz-box-shadow:    0 0 5px black;
+	    box-shadow:         0 0 5px black;
+		display: none;
+	}
+
+	#current_location_note a{
+	    color: #FFFFFF;
+		font-weight: bold;
+		text-decoration: underline;
+
+	}
+
+	/*@-webkit-keyframes slideDown {
+	    0%, 100% { -webkit-transform: translateY(50px); }
+	    10%, 90% { -webkit-transform: translateY(0px); }
+	}
+	@-moz-keyframes slideDown {
+	    0%, 100% { -moz-transform: translateY(50px); }
+	    10%, 90% { -moz-transform: translateY(0px); }
+	}
+	*/
+	.cssanimations.csstransforms #current_location_note {
+	    -webkit-transform: translateY(50px);
+	    -webkit-animation: slideUp 2.5s 1.0s 1 ease forwards;
+	    -moz-transform:    translateY(50px);
+	    -moz-animation:    slideUp 2.5s 1.0s 1 ease forwards;
+	}
+
+	.cssanimations.csstransforms #close {
+	  display: none;
+	}
+	/*.slide-panel:target, .slide-panel:target + #cover{
+		display:block;
+		opacity:0.2;
+	}*/
+
+	.container-fluid, .row ,.col-md-12, su_map { height: 100% }
+	#map_canvas {
+		width:100%;
+	 	height:calc(100% - 30px);
+	}
+
+
+	.introLogoBlock{
+		position: absolute;
+		z-index: 99999999;
+		top: 40%;
+		left: 50%;
+
+	}
+
+	.stanfordLogo {
+    	position: absolute;
+		z-index: 99999999;
+		/*bottom: 0;*/
+		display: block;
+		margin-left: -50px;
+		margin-top: -50px;
+		height: 100px;
+		width: 100px;
+		background: url('images/new/stanford_logo_g1.png') no-repeat center;
+		background-size: contain;
+	}
+
+	.circle {
+		display:block;
+		background: #FFFFFF;
+		margin-left: 200px;
+		margin-top: -175px;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		width:10px;
+		height:10px;
+		border-radius: 50px;
+		z-index: 99999999;
+	}
+
+	.stanfordMapWelcome{
+		position: absolute;
+		z-index: 99999999;
+		margin-left: -117px;
+		margin-top: 40px;
+		width:250px;
+		color: #FFFFFF;
+	}
+
+	.stanfordMapWelcomeButton{
+		position: absolute;
+		z-index: 99999999;
+		margin-left: -60px;
+		margin-top: 100px;
+		width:150px;
+	}
+
+	.stanfordMapWelcomeButton .btn{
+		background-color:#8c1515;
+		border-color: #761212;
+	}
+
+	.highlight-suggestion{
+		padding:.2em .4em;
+		line-height:1.5;
+		font-size:1.5em;
+		zoom:1;
+	}
+
+	.custom-control-container {
+		height:110px;
+	}
+
+	.inMapButton{
+		margin-bottom: 3px;
+	}
+
+	.form-control .txtarea{
+		color: #b7b5b5;
+	}
+
+
+	</style>
+
+  </head>
+  <body>
+
+
+        <!-- Brandbar snippet start -->
+        
+
+
+			<div id="printable-brandbar" style="display: none;">
+                <div id="printable-wrapper" style="padding: 4px 10px 0;">
+                        <img alt="Stanford University" src="/https://campus-map.stanford.edu/images/new/printable-stanford.png">
+                </div>
+            </div>
+
+            <div id="brandbar">
+                <div id="wrapper" style="padding: 4px 10px 0;">
+                    <a href="/http://www.stanford.edu">
+                        <img alt="Stanford University" width="152" height="23" src="/https://web.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png">
+                    </a>
+
+					<span class="topright">
+					<a id="selfTourBlock" href="/https://campus-map.stanford.edu/">
+						<img width="23" height="23" data-intro="Virtual Tour" data-position="left" title="Virtual Visitor Tour" src="/https://campus-map.stanford.edu/images/new/camera.png">
+					</a>
+
+					<div id="selfTourBlock-title" class="hide">Virtual Visitor Tour</div>
+					<div id="selfTourBlock-content" class="hide">
+						<p>
+						    </p><div class="col-sm-12">
+								<img class="img-responsive" src="/https://campus-map.stanford.edu/images/new/main_quad.png">
+							</div>
+							 <div class="col-sm-12">
+								 &nbsp;
+							 </div>
+						    <div class="col-sm-12">
+						      <button id="campus_tour_button" type="submit" class="btn btn-primary">Let's Get Started!</button>
+						    </div>
+						    <div class="col-sm-12">
+								 &nbsp;
+							 </div>
+						<p></p>
+
+					</div>
+
+					<a id="relativeLinkBlock" href="/https://campus-map.stanford.edu/">
+						<img width="23" height="23" data-intro="Related Websites" data-position="left" title="Related Websites" src="/https://campus-map.stanford.edu/images/new/relative_link_g1.png">
+					</a>
+					<div id="relativeLinkBlock-title" class="hide">Related Websites</div>
+					<div id="relativeLinkBlock-content" class="hide">
+						<p><a target="_blank" href="/http://maps.stanford.edu/mapsportal/">Maps Portal</a></p>
+						<p><a target="_blank" href="/http://transportation.stanford.edu/">Parking &amp; Transportation</a></p>
+						<p><a target="_blank" href="/http://visit.stanford.edu/">Visitor Information</a></p>
+						<p><a target="_blank" href="/https://web.stanford.edu/group/lbre_apps_forms/Story_Map/Stanford_Campus_Tour/">Virtual Visitor Tour</a> &nbsp;<img src="/https://campus-map.stanford.edu/images/new/newly-added.png"></p>
+						<p><a target="_blank" href="/http://stanfordwho.stanford.edu/">Stanford Who</a></p>
+
+					</div>
+					&nbsp;
+					
+					<a id="mapLegendBlock" href="/https://campus-map.stanford.edu/">
+						<img width="23" height="23" data-intro="Map Legend" data-position="bottom" title="Map Legend" src="/https://campus-map.stanford.edu/images/new/map_legend_g1.png">
+					</a>
+					<div id="mapLegendBlock-content" class="hide">
+						<p><img width="227" src="/https://campus-map.stanford.edu/images/new/map_legend_actual_3.png"></p>
+					</div>
+                    &nbsp;
+					<a id="infoLinkBlock" href="/https://campus-map.stanford.edu/">
+						<img alt="Information" width="23" height="23" data-intro="Info" data-position="bottom" title="Information" src="/https://campus-map.stanford.edu/images/faq_1.png">
+					</a>
+					<div id="infoLinkBlock-title" class="hide">Info Links</div>
+					<div id="infoLinkBlock-content" class="hide">
+						<p><a id="take_a_tour" href="/https://campus-map.stanford.edu/">Take a tour</a></p>
+						
+						<p><a target="_blank" href="/https://campus-map.stanford.edu/faq/FAQ.html">FAQ</a></p>
+						<p><a target="_blank" href="/https://stanford.service-now.com/services?id=get_help&amp;cmdb_ci=a3df6a3f1302260019813598d144b0ef">Contact Us</a></p>
+
+					</div>
+					<a id="questionsBlock" href="/https://campus-map.stanford.edu/">
+						<img alt="questions" width="23" height="23" src="/https://campus-map.stanford.edu/images/new/questions.png">
+					</a>
+				   </span>
+				   <span class="topright2">
+						<span class="betaText blink_me">Beta</span>
+					</span>
+
+                </div>
+
+            </div>
+	
+	<!-- Brandbar snippet end -->
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-12 su_map">
+        		    <div id="maplink" style="display: none;">
+		            <div id="maplink_close" onclick="tog_share(); return false;"></div>
+		            <div>
+		                Copy and paste link:
+		            </div>
+
+		            <div><input id="maplink_box">
+					</div>
+					<div>
+					Tip: Easily create your custom maps with
+					<a target="_blank" class="sucmlinks" href="/http://mapmaker.stanford.edu/">Stanford's Custom Map Maker
+						<span class="glyphicon glyphicon-lock" aria-hidden="true" style="font-size:12px"></span>
+					</a>
+					</div>
+		        </div>
+
+
+          
+		  <div class="slidepanelclose"></div>
+		  <div id="currentPanel" style="display:none;"></div>
+		  <div id="currentOpener" style="display:none;"></div>
+          <div class="slide-panel">
+          	 <div class="cm-navbar">
+			 	<div class="cm-navbar left"></div>
+				<div class="cm-navbar right">
+					<div class="cm-buttons">
+						<a href="/https://campus-map.stanford.edu/"><img id="openerExploreSU" class="cm-button-effect" data-toggle="tooltip" data-placement="bottom" data-original-title="Explore Stanford" src="/https://campus-map.stanford.edu/images/new/explore_g2.png"></a>
+						<a href="/https://campus-map.stanford.edu/"><img id="openerDirection2" class="cm-button-effect" data-toggle="tooltip" data-placement="bottom" data-original-title="Get Directions" src="/https://campus-map.stanford.edu/images/new/directions_g2.png"></a>
+						
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="/https://campus-map.stanford.edu/"><img id="closeButton2" class="cm-button-effect" data-toggle="tooltip" data-placement="bottom" data-original-title="Close" src="/https://campus-map.stanford.edu/images/new/closemenu_g1.png"></a>
+					</div>
+				</div>
+				<div class="cm-navbar rightBottom">
+					<div class="cm-searchResult" style="display:none;">
+						 <button id="openerSearch2" type="button" class="btn btn-default btn-xs">Search Result(s)</button>
+					</div>
+				</div>
+			 </div>
+
+
+			<div id="searchPanel" class="ScrollPanel scrollPanelPadding" style="text-transform: capitalize;">
+			</div>
+
+
+		   <div id="directionPanel" class="ScrollPanel " style="display:none;">
+				<div>
+					   <table class="table table-condensed">
+					      <tbody>
+							<tr>
+						  	<td colspan="2" align="center" class="no-border-top">
+						  		<a href="/https://campus-map.stanford.edu/"><img alt="By Car" title="Car" onclick="map_driv_dir(0);" width="40px" src="/https://campus-map.stanford.edu/images/new/direction_car_g2.png"></a>
+								<a href="/https://campus-map.stanford.edu/"><img alt="Transit" title="Transit" onclick="map_driv_dir(3);" width="40px" src="/https://campus-map.stanford.edu/images/new/direction_bus_g2.png"></a>
+								<a href="/https://campus-map.stanford.edu/"><img alt="Biking" title="Biking" onclick="map_driv_dir(1);" width="40px" src="/https://campus-map.stanford.edu/images/new/direction_bike_g2.png"></a>
+								<a href="/https://campus-map.stanford.edu/"><img alt="Walking" title="Walking" onclick="map_driv_dir(2);" width="40px" src="/https://campus-map.stanford.edu/images/new/direction_walking_g2.png"></a>
+							</td>
+						  </tr>
+					       <tr>
+					         <td class="no-border-top">
+					         	<div class="directionBox">
+								  <div class="form-group no-margin-bottom has-feedback">
+									<input class="form-control" autocomplete="off" id="orig" placeholder="From" type="text">
+									<img style="display:none;" id="get_curr_loc" class="form-control-feedback pt-events-auto" alt="Get Currecnt Location" title="Get Currecnt Location" src="/https://campus-map.stanford.edu/images/new/cm-target.png">
+								  </div>
+								</div>
+								<div class="directionBox">
+									<input class="form-control" autocomplete="off" id="dest" placeholder="To" type="text">
+								</div>
+							</td>
+					    	<td class="vert-align no-border-top">
+					    		<a href="/https://campus-map.stanford.edu/"><span id="rev_addr" aria-hidden="true" title="Reverse starting point and destination"><img src="/https://campus-map.stanford.edu/images/dir1.png"></span></a>
+							 </td>
+					      </tr>
+						  <tr>
+						  	<td class="no-border-top">
+						  	<a class="btn btn-default" id="searchdir" href="/https://campus-map.stanford.edu/">
+						              <i class="glyphicon glyphicon-road"></i>
+						              Get Directions
+						            </a>
+							</td>
+						  </tr>
+					        </tbody>
+					    </table>
+	        	</div>
+				<div id="dir_driv_info" class="tab-content">
+				</div>
+		   </div>
+
+			<div id="menuPanel" class="ScrollPanel" style="display:none;">
+			
+
+			<div class="panel-group" id="accordions">
+
+										
+
+													<div class="panel panel-default">
+														<div class="panel-heading accordion-toggle " data-toggle="collapse" data-parent="#accordion" data-target="#collapse_10" title="Visiting Campus">
+															<div><h4 class="panel-title">
+															
+																<img src="/https://campus-map.stanford.edu/images/new/visitingCampus_g1.png">
+															
+															&nbsp;&nbsp;&nbsp;Visiting Campus</h4></div>
+														</div>
+
+														<div id="collapse_10" class="panel-collapse collapse in">
+															<div class="panel-body panel-body-explore">
+													
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_poi" autocomplete="off" id="checkbox_poi_10" onclick="tog_cust_layer('poi');">
+															    <label id="poi" for="checkbox_poi_10" title="Points of Interest"><img src="/https://campus-map.stanford.edu/images/cat/poi.png"> Points of Interest</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_park-v" autocomplete="off" id="checkbox_park-v_10" onclick="tog_cust_layer('park-v');">
+															    <label id="park-v" for="checkbox_park-v_10" title="Time Limit Parking 20 Minutes"><img src="/https://campus-map.stanford.edu/images/cat/visitor_parking.png"> Time Limit Parking 20 Minutes</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_park-vp" autocomplete="off" id="checkbox_park-vp_10" onclick="tog_cust_layer('park-vp');">
+															    <label id="park-vp" for="checkbox_park-vp_10" title="Visitor Parking (pay station)"><img src="/https://campus-map.stanford.edu/images/cat/visitor_parking_pay_station.png"> Visitor Parking (pay station)</label>
+															    </p>
+														   
+															</div>
+														</div>
+													</div>
+												   
+
+													<div class="panel panel-default">
+														<div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapse_20" title="Life on Campus">
+															<div><h4 class="panel-title">
+															
+																<img src="/https://campus-map.stanford.edu/images/new/campusLife_g1.png">
+															
+															&nbsp;&nbsp;&nbsp;Life on Campus</h4></div>
+														</div>
+
+														<div id="collapse_20" class="panel-collapse collapse ">
+															<div class="panel-body panel-body-explore">
+													
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_din" autocomplete="off" id="checkbox_din_20" onclick="tog_cust_layer('din');">
+															    <label id="din" for="checkbox_din_20" title="Eateries"><img src="/https://campus-map.stanford.edu/images/cat/eateries.png"> Eateries</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_acad" autocomplete="off" id="checkbox_acad_20" onclick="tog_cust_layer('acad');">
+															    <label id="acad" for="checkbox_acad_20" title="Academic Programs"><img src="/https://campus-map.stanford.edu/images/cat/academic_prog.png"> Academic Programs</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_lib" autocomplete="off" id="checkbox_lib_20" onclick="tog_cust_layer('lib');">
+															    <label id="lib" for="checkbox_lib_20" title="Libraries"><img src="/https://campus-map.stanford.edu/images/cat/library.png"> Libraries</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_hfd" autocomplete="off" id="checkbox_hfd_20" onclick="tog_cust_layer('hfd');">
+															    <label id="hfd" for="checkbox_hfd_20" title="Housing Front Desks"><img src="/https://campus-map.stanford.edu/images/cat/HFD.png"> Housing Front Desks</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_well" autocomplete="off" id="checkbox_well_20" onclick="tog_cust_layer('well');">
+															    <label id="well" for="checkbox_well_20" title="Wellness Rooms"><img src="/https://campus-map.stanford.edu/images/cat/wellness.png"> Wellness Rooms</label>
+															    </p>
+														   
+															</div>
+														</div>
+													</div>
+												   
+
+													<div class="panel panel-default">
+														<div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapse_30" title="Parking &amp; Transportation">
+															<div><h4 class="panel-title">
+															
+																<img src="/https://campus-map.stanford.edu/images/new/bus_g1.png">
+															
+															&nbsp;&nbsp;&nbsp;Parking &amp; Transportation</h4></div>
+														</div>
+
+														<div id="collapse_30" class="panel-collapse collapse ">
+															<div class="panel-body panel-body-explore">
+													
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_park-v" autocomplete="off" id="checkbox_park-v_30" onclick="tog_cust_layer('park-v');">
+															    <label id="park-v" for="checkbox_park-v_30" title="Time Limit Parking 20 Minutes"><img src="/https://campus-map.stanford.edu/images/cat/visitor_parking.png"> Time Limit Parking 20 Minutes</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_park-vp" autocomplete="off" id="checkbox_park-vp_30" onclick="tog_cust_layer('park-vp');">
+															    <label id="park-vp" for="checkbox_park-vp_30" title="Visitor Parking (pay station)"><img src="/https://campus-map.stanford.edu/images/cat/visitor_parking_pay_station.png"> Visitor Parking (pay station)</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_load" autocomplete="off" id="checkbox_load_30" onclick="tog_cust_layer('load');">
+															    <label id="load" for="checkbox_load_30" title="Loading Zone"><img src="/https://campus-map.stanford.edu/images/cat/loading.png"> Loading Zone</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_m_stop" autocomplete="off" id="checkbox_m_stop_30" onclick="tog_cust_layer('m_stop');">
+															    <label id="m_stop" for="checkbox_m_stop_30" title="Marguerite Stop"><img src="/https://campus-map.stanford.edu/images/cat/bus_stop_small.png"> Marguerite Stop</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_park-a" autocomplete="off" id="checkbox_park-a_30" onclick="tog_cust_layer('park-a');">
+															    <label id="park-a" for="checkbox_park-a_30" title="Permit Parking A"><img src="/https://campus-map.stanford.edu/images/cat/a.png"> Permit Parking A</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_park-c" autocomplete="off" id="checkbox_park-c_30" onclick="tog_cust_layer('park-c');">
+															    <label id="park-c" for="checkbox_park-c_30" title="Permit Parking C"><img src="/https://campus-map.stanford.edu/images/cat/c.png"> Permit Parking C</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_zip-c" autocomplete="off" id="checkbox_zip-c_30" onclick="tog_cust_layer('zip-c');">
+															    <label id="zip-c" for="checkbox_zip-c_30" title="Car-Sharing Vehicle"><img src="/https://campus-map.stanford.edu/images/cat/car_share.png"> Car-Sharing Vehicle</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_c-rent" autocomplete="off" id="checkbox_c-rent_30" onclick="tog_cust_layer('c-rent');">
+															    <label id="c-rent" for="checkbox_c-rent_30" title="Car Rental"><img src="/https://campus-map.stanford.edu/images/cat/car_rent.png"> Car Rental</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_buspk" autocomplete="off" id="checkbox_buspk_30" onclick="tog_cust_layer('buspk');">
+															    <label id="buspk" for="checkbox_buspk_30" title="Bus Parking"><img src="/https://campus-map.stanford.edu/images/cat/bus_park.png"> Bus Parking</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_park-dis" autocomplete="off" id="checkbox_park-dis_30" onclick="tog_cust_layer('park-dis');">
+															    <label id="park-dis" for="checkbox_park-dis_30" title="Disabled Parking"><img src="/https://campus-map.stanford.edu/images/cat/disabled.png"> Disabled Parking</label>
+															    </p>
+														   
+															</div>
+														</div>
+													</div>
+												   
+
+													<div class="panel panel-default">
+														<div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapse_50" title="Safety &amp; Security">
+															<div><h4 class="panel-title">
+															
+																<img src="/https://campus-map.stanford.edu/images/new/safety_g1.png">
+															
+															&nbsp;&nbsp;&nbsp;Safety &amp; Security</h4></div>
+														</div>
+
+														<div id="collapse_50" class="panel-collapse collapse ">
+															<div class="panel-body panel-body-explore">
+													
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_b_twr" autocomplete="off" id="checkbox_b_twr_50" onclick="tog_cust_layer('b_twr');">
+															    <label id="b_twr" for="checkbox_b_twr_50" title="Blue Towers/Emergency Phones"><img src="/https://campus-map.stanford.edu/images/cat/blue_towers.png"> Blue Towers/Emergency Phones</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_eap" autocomplete="off" id="checkbox_eap_50" onclick="tog_cust_layer('eap');">
+															    <label id="eap" for="checkbox_eap_50" title="Emergency Assembly Points"><img src="/https://campus-map.stanford.edu/images/cat/eap.png"> Emergency Assembly Points</label>
+															    </p>
+														   
+														    	<p>
+															    <input name="layerbox" type="checkbox" class="checkbox_aed" autocomplete="off" id="checkbox_aed_50" onclick="tog_cust_layer('aed');">
+															    <label id="aed" for="checkbox_aed_50" title="Automated External Defibrillator"><img src="/https://campus-map.stanford.edu/images/cat/aed.png"> Automated External Defibrillator</label>
+															    </p>
+														   
+													<br>
+													</div>
+													</div>
+													</div>
+										  
+										  <div id="clrSelectionLink" style="display:none;"><center><a onclick="hide_all_cats();" class="sucmlinks" href="/https://campus-map.stanford.edu/">Clear Selections</a></center></div>
+
+				</div>
+			
+
+          </div>
+
+		</div>
+		
+		 <div id="printarea" class="printarea hide">
+		 	<div class="wording">Print Area</div>
+			<div class="wording-vertical">Print Area</div>
+		 	<button class="print btn btn-primary" onclick="javascript:window.print()"><span class="glyphicon glyphicon-print"></span> Print</button>
+			<button id="cancelprinting" class="print-cancel btn btn-primary"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+		 </div>
+		<div class="searchBlock">
+		<form class="searchbar-container" role="search" action="javascript:bldg_srch('')">
+            	<div class="input-group">
+             		<div class="btn-group" id="srch_add_btn_group">
+						<button type="button" src="" id="openerMain" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" data-trigger="manual" data-original-title="Menu" data-intro="Menu [Click here to see additional points of interest]" data-position="bottom">
+         					<span class="glyphicon glyphicon-menu-hamburger"></span>
+         				</button>
+			   			<input class="form-control" id="search_address" placeholder="Search" type="text" autocorrect="off" autocapitalize="off" data-intro="[Search for building name, id, classrooms.]" data-position="bottom">
+		       				<span id="searchclear" class="glyphicon glyphicon-remove-circle"></span>
+               				
+               				
+                  			<button id="searchButton" type="submit" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" data-original-title="Search" data-intro="Search" data-position="bottom">
+                  				<span class="glyphicon glyphicon-search"></span>
+							</button>
+
+						<div id="parking" class="hide">Explore pane <img width="23" height="23" alt="explore" src="/https://campus-map.stanford.edu/images/explore_1black.png"></div>
+               		
+			  		</div>
+            	</div>
+
+        </form>
+		</div>
+
+		
+		
+
+		
+			<div id="cm_bgOverlay"></div>
+		
+		<div class="introLogoBlock hide">
+
+			<div class="stanfordLogo"></div>
+			<div class="stanfordMapWelcome">
+				<h3>Got it! Use the map now. </h3>
+			</div>
+			<div class="stanfordMapWelcomeButton">
+				<button class="btn btn-primary">Let's Get Started!</button>
+			</div>
+			<div class="circle" data-intro="Click on a building" data-position="bottom"></div>
+		</div>
+
+		<div id="current_location_note">Stanford Map could not determine your precise location. Please turn <b>ON</b> your location services. <a id="close" href="/https://campus-map.stanford.edu/">[Close]</a></div>
+          <div id="map_canvas" class="printmap"></div>
+		  
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Building Information</h4>
+		      </div>
+		      <div class="modal-body suModal-Body">
+
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		
+		<div id="watch_video_modal" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h4 class="modal-title">Take A Tour Video</h4>
+					</div>
+					<div class="modal-body centered" id="iframe_video_holder">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		</div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+  
+
+</body></html>

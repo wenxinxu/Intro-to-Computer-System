@@ -1,0 +1,439 @@
+<!DOCTYPE html><!--[if lt IE 7]> <html class="ie6 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 7]>    <html class="ie7 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 8]>    <html class="ie8 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 9]>    <html class="ie9 ie" lang="en" dir="ltr"> <![endif]--><!--[if !IE]> --><html lang="en" dir="ltr"><!-- <![endif]--><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="apple-touch-icon" sizes="120x120" href="/https://uit.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/https://uit.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/https://uit.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/https://uit.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" href="/https://uit.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/https://uit.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="167x167" href="/https://uit.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-167x167.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/https://uit.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/https://uit.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/https://uit.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-72x72.png">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/https://uit.stanford.edu/sites/all/themes/stanford_uit/favicon.ico">
+<meta name="generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="/https://uit.stanford.edu/security">
+<link rel="shortlink" href="/https://uit.stanford.edu/security">
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Information Security | University IT</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/https://uit.stanford.edu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://uit.stanford.edu/sites/default/files/css/css_8WsBE51ZLaFfp0zwBAlE3X3LwLPjbG0g87gpHZu-DlA.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://uit.stanford.edu/sites/default/files/css/css_NshYWyMx-dYOiinYmZQbLyrS7pLDJld7jpR2KaJlzhQ.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://uit.stanford.edu/sites/default/files/css/css_IYke5BwO7H_wNFUtV0Bnu9QPgL0OyXI7phguRWznGi8.css">
+<link type="text/css" rel="stylesheet" media="print" href="/https://uit.stanford.edu/sites/default/files/css/css_nGZ0EUi6HATidAf3pITrpLdyTGtTsmfVAzXLpUp2gr4.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://uit.stanford.edu/sites/all/themes/stanford_uit/css/stanford_uit_custom.css?pcr8ck">
+<link type="text/css" rel="stylesheet" media="all" href="/https://uit.stanford.edu/sites/default/files/css/css_s13XPKgOxEcUtDyVz74RlEygcOH0TtJttQLQ7E8eGnw.css">
+<style type="text/css" media="screen">
+<!--/*--><![CDATA[/*><!--*/
+body {background: url(https://uit.stanford.edu/sites/default/files/wavegrid.png) repeat top left;}.header{background-image:url(https://uit.stanford.edu/sites/default/files/wavegrid.png);}
+.header{background-image:url(https://uit.stanford.edu/sites/default/files/wavegrid.png) !important;}
+
+/*]]>*/-->
+</style>
+  <script type="text/javascript" src="/https://uit.stanford.edu/sites/default/files/js/js_xvYJgU6LChHqbcSh4y1AvdXfD5QBIwT3GVGVUeuksbM.js"></script>
+<script type="text/javascript" src="/https://uit.stanford.edu/sites/default/files/js/js_BLxotNs2yt7YGlf9QRI9L9AMfdnkQfnN-_ADBTW3SiE.js"></script>
+<script type="text/javascript" src="/https://uit.stanford.edu/sites/default/files/js/js_US_DuCQ7ocjdQEimZ_NqCfdlPZoMGZmQyc1nqO2T95s.js"></script>
+<script type="text/javascript" src="/https://uit.stanford.edu/sites/default/files/js/js_mmhEOUfeaXMO8JhMpTNF1cV2TKtkndFLKkawej7kLT4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-2886499-18", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="/https://uit.stanford.edu/sites/default/files/js/js_JANM9ig2uJ29_gBdABx1Ns5bkljRjlcQBk_hozjJM70.js"></script>
+<script type="text/javascript" src="/https://uit.stanford.edu/sites/default/files/js/js_gfQk5pWfxN3_Ub6VcJ4PlCrGF6Monf5uJ5T91LAAxDY.js"></script>
+<script type="text/javascript" src="/https://uit.stanford.edu/sites/default/files/js_injector/js_injector_10.js?pcr8ck"></script>
+<script type="text/javascript" src="/https://uit.stanford.edu/sites/default/files/js_injector/js_injector_11.js?pcr8ck"></script>
+<script type="text/javascript" src="/https://uit.stanford.edu/sites/default/files/js_injector/js_injector_12.js?pcr8ck"></script>
+<script type="text/javascript" src="/https://uit.stanford.edu/sites/default/files/js/js_XDfISTchxIKi8i7WyBs1gtFH-gKrY7cMXalibmcVm3o.js"></script>
+<script type="text/javascript" src="/https://uit.stanford.edu/sites/default/files/js_injector/js_injector_26.js?pcr8ck"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stanford_uit","theme_token":"OyhCdU81awZaOfKzaJ7xnG0PrGM42461wiXuOKT2V1U","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/simple_registration\/all.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap.min.css":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap-responsive.min.css":1,"sites\/all\/themes\/open_framework\/packages\/font-awesome-4.7.0\/css\/font-awesome.min.css":1,"sites\/all\/themes\/open_framework\/css\/open_framework.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford-framework.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_default\/stanford-default.css":1,"sites\/all\/themes\/stanford_framework\/css\/ie.css":1,"sites\/all\/themes\/stanford_uit\/css\/stanford_uit.css":1,"sites\/all\/themes\/stanford_uit\/footable\/css\/footable.css":1,"sites\/all\/themes\/stanford_uit\/fancybox\/jquery.fancybox.css":1,"sites\/all\/themes\/open_framework\/css\/open_framework_print.css":1,"sites\/all\/themes\/stanford_uit\/css\/stanford_uit_custom.css":1,"public:\/\/css_injector\/css_injector_12.css":1,"public:\/\/css_injector\/css_injector_33.css":1,"public:\/\/css_injector\/css_injector_37.css":1,"public:\/\/css_injector\/css_injector_39.css":1,"0":1,"1":1,"2":1},"js":{"sites\/default\/files\/js_injector\/js_injector_28.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/itservices\/js\/google_cse.js":1,"sites\/all\/modules\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/js\/bootstrap.min.js":1,"sites\/all\/themes\/open_framework\/js\/open_framework.js":1,"sites\/all\/themes\/open_framework\/js\/jquery.placeholder.min.js":1,"sites\/all\/themes\/stanford_uit\/js\/override.js":1,"sites\/all\/themes\/stanford_framework\/js\/stanford-framework.js":1,"sites\/all\/themes\/stanford_uit\/js\/stanford_uit.js":1,"sites\/all\/themes\/stanford_uit\/footable\/js\/footable.js":1,"sites\/all\/themes\/stanford_uit\/fancybox\/jquery.fancybox.pack.js":1,"sites\/default\/files\/js_injector\/js_injector_10.js":1,"sites\/default\/files\/js_injector\/js_injector_11.js":1,"sites\/default\/files\/js_injector\/js_injector_12.js":1,"sites\/default\/files\/js_injector\/js_injector_19.js":1,"sites\/default\/files\/js_injector\/js_injector_26.js":1}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:20519151dcc4b743607d19968c5fec6c":{"view_name":"events","view_display_id":"block","view_args":"","view_path":"node\/24784","view_base_path":"events","view_dom_id":"20519151dcc4b743607d19968c5fec6c","pager_element":0},"views_dom_id:7e44e8fc0d88276f5d5ab8636904a12e":{"view_name":"events","view_display_id":"block","view_args":"","view_path":"node\/24784","view_base_path":"events","view_dom_id":"7e44e8fc0d88276f5d5ab8636904a12e","pager_element":0}}},"urlIsAjaxTrusted":{"\/views\/ajax":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip|dmg"}});
+//--><!]]>
+</script>
+  <!--[if IE 7]>
+    <![endif]-->
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="/sites/all/themes/open_framework/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-24784 node-type-guide  bodybg       style-uit header-bkg header-bkg-wallpaper header-bkg-text-dark 0 subsite-nav">
+    <div id="wrap"><a class="element-invisible element-focusable" href="/https://uit.stanford.edu/security/">Skip to content</a>
+      <a class="element-invisible element-focusable" href="/https://uit.stanford.edu/security/">Skip to site navigation</a>
+        <a class="element-invisible element-focusable" href="/https://uit.stanford.edu/security/">Skip to service navigation</a>
+    <!-- /#skipnav -->
+    <!-- /#admin-shortcuts -->
+    <!-- /#global-header -->
+  <div id="header" class="clearfix header" role="banner">
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span4">
+                    <div id="logo" class="logo-mobile  "> <a title="Home" rel="home" href="/https://uit.stanford.edu/"> <img alt="Stanford" src="/https://uit.stanford.edu/sites/all/themes/stanford_uit/logo.svg"> </a>
+                      </div>
+                    <!-- /#logo -->
+                    <div id="name-and-slogan" class="with-logo">
+                        <div id="site-name" class="site-name"><a title="Home" rel="home" href="/https://uit.stanford.edu/">University IT</a></div>
+                                                                      </div>
+                                        <!-- /#name-and-slogan -->
+                    <!-- /#header-content -->
+        </div>
+        <div class="span8">
+          <div id="header-menu">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <button aria-label="Navigation menu" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse"> <span class="hide">Navigation menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <div class="nav-collapse collapse">
+                  <nav id="header-nav" role="navigation">
+                    <ul class="menu nav"><li class="first leaf"><a href="/https://uit.stanford.edu/services">Explore services</a></li>
+<li class="expanded dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://uit.stanford.edu">I want to ... <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/https://uit.stanford.edu/videoconferencing">Use video conferencing tools</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/service/techtraining/schedule">Get IT training</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/newsletter/how-can-i-build-web-forms-and-surveys-free">Create web forms and surveys</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/emailcalendar/config">Set up email</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/service/authentication/twostep">Set up two-step authentication</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/service/sponsorship/person">Sponsor a SUNet ID</a></li>
+<li class="leaf"><a href="/http://software.stanford.edu">Get software</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/guide/connecting-to-network">Connect to the network</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/service/mobiledevice/management">Secure my mobile device</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/guide/website">Publish a website</a></li>
+<li class="last leaf"><a href="/https://uit.stanford.edu/guide/tools">Get started with IT at Stanford</a></li>
+</ul></li>
+<li class="expanded dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://uit.stanford.edu/">Log into ... <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/https://webmail.stanford.edu">Email and calendar</a></li>
+<li class="leaf"><a href="/https://stanford.zoom.us">Zoom video conferencing</a></li>
+<li class="leaf"><a href="/https://stanford.app.box.com/">Box file storage</a></li>
+<li class="leaf"><a href="/https://stanfordmedicine.box.com/">Medicine Box file storage</a></li>
+<li class="leaf"><a href="/https://mailman.stanford.edu/mailman/ownerlistinfo">Mailing lists</a></li>
+<li class="leaf"><a href="/https://accounts.stanford.edu">Stanford Accounts</a></li>
+<li class="leaf"><a href="/https://mydevices.stanford.edu">MyDevices</a></li>
+<li class="leaf"><a href="/https://stanforduniversity.qualtrics.com/">Qualtrics survey tool</a></li>
+<li class="leaf"><a href="/https://webdocs.stanford.edu">Google Drive</a></li>
+<li class="leaf"><a href="/http://lynda.stanford.edu/login">Lynda.com training</a></li>
+<li class="leaf"><span class="separator"><hr></span></li>
+<li class="last leaf"><a href="/https://uit.stanford.edu/guide/single-sign-on">Understanding single sign on</a></li>
+</ul></li>
+<li class="leaf"><a href="/https://stanford.service-now.com/services?id=services_status">View alerts</a></li>
+<li class="last expanded dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://stanford.service-now.com/it_services">Get support <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/https://stanford.service-now.com/it_services?id=kb_home">Find answers</a></li>
+<li class="leaf"><a href="/https://stanford.service-now.com/it_services?id=sc_home">Request something</a></li>
+<li class="last leaf"><a href="/https://stanford.service-now.com/services?id=get_help">Get help</a></li>
+</ul></li>
+</ul>                    <div id="search-icon"><button id="search-button"><span class="element-invisible">Open Search</span></button></div>
+                    <div id="google-search">
+                        <div class="region region-search-box clearfix">
+  <div id="block-its-search-its-search-search" class="clearfix block block-its-search">       <div class="content"> <gcse:searchbox-only linktarget="https://uit.stanford.edu" queryparametername="q_as"></gcse:searchbox-only> </div>
+</div></div>
+ <!-- /.region -->
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div id="main-menu" class="clearfix site-main-menu">
+      <div class="container">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="nav-collapse collapse">
+              <nav id="main-nav" role="navigation">
+                <div class="region region-navigation clearfix">
+  <div id="block-menu-menu-security-category" class="clearfix block block-menu">     <h2><a class="block-title-link" href="/https://uit.stanford.edu/security">Information Security</a></h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf active-trail"><a title="" class="active-trail active" href="/https://uit.stanford.edu/security">Overview</a></li>
+<li class="expanded dropdown"><a title="" class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://uit.stanford.edu/services/category/security">I want to... <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a title="" href="/https://stanforduniversity.qualtrics.com/jfe/form/SV_bjBzjluc9oKMLQN">Report a lost or stolen device</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/guide/encrypt">Encrypt my computer</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/service/mobiledevice/management">Secure my mobile device</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/service/ess">Protect my computer from viruses</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/security/copyright-infringement">Report alleged copyright infringement</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/service/secureemail">Send High Risk Data via email</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/service/authentication/twostep/token">Get a hardware token</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/service/code42crashplan">Back up my files and data</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/service/mydevices">See all of my devices</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/security/dra">Request a security review</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/security/exception">Request a compliance exception</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/security/report-incident">Report an incident</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/security/travel">Travel to a foreign country</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/security/password-manager">Use a password manager</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/security/identity-theft">Avoid identity theft</a></li>
+<li class="last leaf"><a title="" href="/https://uit.stanford.edu/services/category/security">View all security tools and services</a></li>
+</ul></li>
+<li class="expanded dropdown"><a title="" class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://uit.stanford.edu/security/getting-started">Guides <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a title="" href="/https://uit.stanford.edu/security/getting-started">Getting started</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/security/sysadmin">System administrator</a></li>
+<li class="leaf"><a title="" href="/https://accounts.stanford.edu/manage/">Watch Information Security Awareness Video</a></li>
+<li class="last leaf"><a title="" href="/https://uit.stanford.edu/security/resources">Other Stanford security resources</a></li>
+</ul></li>
+<li class="expanded dropdown"><a title="" class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://uit.stanford.edu/guide/riskclassifications">Policies <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a title="" href="/https://adminguide.stanford.edu/category/information-security">Administrative Guide: Information Security</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/guide/encrypt">Encryption at Stanford</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/guide/riskclassifications">Risk Classifications</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/guide/securitystandards">Minimum Security Standards</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/security/asp">Third party security requirements</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/security/data-sanitization">Data Sanitization</a></li>
+<li class="leaf"><a title="" href="/https://pcicompliance.stanford.edu/">Payment Card Industry (PCI)</a></li>
+<li class="leaf"><a title="" href="/https://uit.stanford.edu/security/hipaa">HIPAA</a></li>
+<li class="last leaf"><a title="" href="/http://exploredegrees.stanford.edu/academicpoliciesandstatements/">FERPA</a></li>
+</ul></li>
+<li class="leaf"><a title="ISO internship" href="/https://uit.stanford.edu/security/internship">Get involved</a></li>
+<li class="last leaf"><a title="" href="/https://uit.stanford.edu/organization/iso">About</a></li>
+</ul> </div>
+</div></div>
+ <!-- /.region -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#main-menu -->
+      </div>
+  <!-- /#header -->
+      <div id="fullwidth-top" class="row-fluid fullwidth">
+                              <section class="hero " style="background-image: url(https://uit.stanford.edu/sites/default/files/styles/hero/public/banners/isoimage05.jpg?itok=ap4Esdfq);">
+        <div class="hero-content">
+          <h1>Information Security</h1>
+                    <p>Protecting the information assets important to Stanford</p>
+                    <div class="hero-link">
+                    </div>
+        </div>
+      </section>
+                </div>
+  
+  <div id="main" class="clearfix main" role="main">
+    <div class="container">
+                        <div id="main-content" class="row main-content">
+        <div id="content-title" class="span12">                      </div>
+                <div id="content" class="mc-content span7">
+          <div id="content-wrapper" class="content-wrapper">
+            <div id="content-head" class="row-fluid content-head">
+                                                                                  </div>
+                        <div id="content-top" class="row-fluid content-top"> <div class="region region-content-top clearfix">
+  <div id="block-block-24" class="clearfix block block-block">       <div class="content"> <div class="card card-orange">
+<h2><i class="fa fa-heart-o" aria-hidden="true"></i>Educating and motivating through positivity and metrics</h2>
+
+<p class="center margin-0"><a title="Learn more about cybersecurity fitness" href="/https://uit.stanford.edu/news/cybersecurity-fitness"><img alt="Cybersecurity Fitness" style="width: 400px;" src="/https://uit.stanford.edu/sites/default/files/images/2018/07/18/cyber-fitness-logo.png"></a></p>
+</div>
+ </div>
+</div><div id="block-block-21" class="clearfix block block-block card card-blue">       <div class="content"> <h2><i class="fa fa-lg fa-arrow-circle-right"></i>I want to...</h2>
+
+<div class="row-fluid">
+<div class="span6">
+<ul>
+	<li><a href="/https://stanforduniversity.qualtrics.com/jfe/form/SV_bjBzjluc9oKMLQN">Report a lost or stolen device</a></li>
+	<li><a href="/https://uit.stanford.edu/guide/encrypt">Encrypt my computer</a></li>
+	<li><a href="/https://uit.stanford.edu/service/mobiledevice/management">Secure my mobile device</a></li>
+	<li><a href="/https://uit.stanford.edu/service/ess">Protect my computer from viruses</a></li>
+	<li><a href="/https://uit.stanford.edu/security/copyright-infringement">Report alleged copyright infringement</a></li>
+	<li><a href="/https://uit.stanford.edu/service/secureemail">Send High Risk Data via email</a></li>
+	<li><a href="/https://uit.stanford.edu/service/webauth/twostep/token">Get a hardware token</a></li>
+	<li><a href="/https://uit.stanford.edu/service/crashplanproe">Back up my files and data</a></li>
+</ul>
+</div>
+
+<div class="span6">
+<ul>
+	<li><a href="/https://uit.stanford.edu/service/mydevices">See all of my devices</a></li>
+	<li><a href="/http://dra.stanford.edu">Request a security&nbsp;review</a></li>
+	<li><a href="/https://uit.stanford.edu/security/exception">Request a compliance exception</a></li>
+	<li><a href="/https://uit.stanford.edu/security/report-incident">Report an incident</a></li>
+	<li><a href="/https://uit.stanford.edu/security/travel">Travel to a foreign country</a></li>
+	<li><a href="/https://uit.stanford.edu/security/password-manager">Use a password&nbsp;manager</a></li>
+	<li><a href="/https://uit.stanford.edu/service/identity-theft">Avoid identity theft</a></li>
+	<li><a href="/https://uit.stanford.edu/services/category/security">View all security tools and services</a></li>
+</ul>
+</div>
+</div>
+ </div>
+</div><div id="block-block-22" class="clearfix block block-block span6 next-row card card-green column">       <div class="content"> <h2><i class="fa fa-lg fa-user"></i>Guides</h2>
+
+<ul>
+	
+	<li><a href="/https://uit.stanford.edu/security/getting-started">Getting started</a></li>
+	<li><a href="/https://uit.stanford.edu/security/sysadmin">System administrator</a></li>
+	<li><a href="/https://accounts.stanford.edu/manage/">Watch Information Security Awareness Video <i class="fa fa-lock"></i></a></li>
+	<li><a href="/https://uit.stanford.edu/sites/default/files/2017/02/17/Information%20Privacy%20and%20Security%20Quick%20Reference%20Guide%20v1.pdf">Quick Reference Guide</a></li>
+	<li><a href="/https://uit.stanford.edu/security/resources">Other Stanford security resources</a></li>
+</ul>
+ </div>
+</div><div id="block-block-23" class="clearfix block block-block span6 card card-green column">       <div class="content"> <h2><i class="fa fa-lg fa-book"></i>Policies</h2>
+
+<ul>
+	<li><a href="/https://adminguide.stanford.edu/category/information-security">Administrative Guide: Information Security</a></li>
+	<li><a href="/https://uit.stanford.edu/guide/encrypt">Encryption at Stanford</a></li>
+	<li><a href="/https://uit.stanford.edu/guide/riskclassifications">Risk Classifications</a></li>
+	<li><a href="/https://uit.stanford.edu/guide/securitystandards">Minimum Security Standards</a></li>
+	<li><a href="/https://uit.stanford.edu/security/asp">Third party security requirements</a></li>
+	<li><a href="/https://uit.stanford.edu/security/data-sanitization">Data sanitization</a></li>
+	<li>Regulatory: <a href="/https://pcicompliance.stanford.edu/">PCI</a> | <a href="/https://uit.stanford.edu/security/hipaa">HIPAA</a> | <a href="/http://exploredegrees.stanford.edu/academicpoliciesandstatements/">FERPA</a></li>
+</ul>
+ </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+                                                <div id="content-body" class="row-fluid content-body"> <div class="region region-content clearfix">
+  <div id="block-system-main" class="clearfix block block-system">       <div class="content"> <article id="node-24784" class="node node-guide clearfix">          <div class="content">
+      </div>
+    </article> </div>
+</div></div>
+ <!-- /.region -->
+  </div>
+                                                                                                                      </div>
+          <!-- /#content-wrap -->
+        </div>
+        <!-- /#content -->
+                <div id="sidebar-second" class="sidebar sidebar-second span5">
+          <div class="row-fluid"><div class="region region-sidebar-second clearfix">
+  <div id="block-views-announcements-block-3" class="clearfix block block-views card card-orange">       <div class="content"> <div class="view view-announcements view-id-announcements view-display-id-block_3 view-dom-id-147f49a77c4b2d86c9d355b43f64e9e9">
+            <div class="view-header">
+      <h2><i class="fa fa-lg fa-bullhorn"></i>Announcements</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul class="linebreak">          <li class="views-row views-row-1 views-row-odd views-row-first">  
+          <span class="field-content announcement-date"><span class="date-display-single">July 16, 2018</span></span>    
+          <div class="announcement-title"><a href="/https://uit.stanford.edu/news/tone-cybersecurity-fitness">Tone Up With Cybersecurity Fitness&nbsp;</a></div>  </li>
+          <li class="views-row views-row-2 views-row-even">  
+          <span class="field-content announcement-date"><span class="date-display-single">June 19, 2018</span></span>    
+          <div class="announcement-title"><a href="/https://uit.stanford.edu/news/announcing-stanford%E2%80%99s-file-storage-security-plan">Announcing Stanford’s File Storage Security Plan&nbsp;</a></div>  </li>
+          <li class="views-row views-row-3 views-row-odd">  
+          <span class="field-content announcement-date"><span class="date-display-single">May 9, 2018</span></span>    
+          <div class="announcement-title"><a href="/https://uit.stanford.edu/news/unencrypted-macos-high-sierra-computers">Unencrypted macOS High Sierra Computers&nbsp;</a></div>  </li>
+          <li class="views-row views-row-4 views-row-even">  
+          <span class="field-content announcement-date"><span class="date-display-single">April 16, 2018</span></span>    
+          <div class="announcement-title"><a href="/https://uit.stanford.edu/news/phishing-awareness-stanford-expands">Phishing Awareness at Stanford Expands&nbsp;</a></div>  </li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+          <span class="field-content announcement-date"><span class="date-display-single">February 22, 2018</span></span>    
+          <div class="announcement-title"><a href="/https://uit.stanford.edu/news/changes-weblogin-and-two-step-authentication-coming-march-30">Changes to WebLogin and Two-Step Authentication Coming March 30&nbsp;</a></div>  </li>
+      </ul></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <!--<p class="center"><a href="https://uit.stanford.edu/announcements/security" class="more-link">View all</a></p>-->    </div>
+  
+  
+</div> </div>
+</div>
+<div id="block-views-events-block" class="clearfix block block-views card card-orange">       <div class="content"> <div class="view view-events view-id-events view-display-id-block view-dom-id-20519151dcc4b743607d19968c5fec6c">
+        
+  
+  
+      <div class="view-empty">
+      <h2><i class="fa fa-lg fa-paper-plane"></i>Upcoming events</h2>
+<p>There are no upcoming events at this time.</p>    </div>
+  
+  
+  
+  
+  
+  
+</div> </div>
+</div>
+</div>
+ <!-- /.region -->
+</div>
+        </div>
+        <!-- /#sidebar-second -->
+              </div>
+                </div>
+  </div>
+  <!-- /#main, /#main-wrapper -->
+    <div id="fullwidth-bottom" class="row-fluid fullwidth">
+    <div class="container"> <div class="region region-fullwidth-bottom clearfix">
+  <div id="block-views-guide-sections-block" class="clearfix block block-views">       <div class="content"> <div class="view view-guide-sections view-id-guide_sections view-display-id-block view-dom-id-e10dc3be7159613505a409c26d42f547">
+        
+  
+  
+      <div class="view-content">
+      
+  
+                </div>
+  
+  
+  
+  
+  
+  
+</div> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+  </div>
+    <div id="push"></div>
+  <!-- /#push -->
+</div>
+<!-- /#wrap -->
+<div id="footer" class="clearfix footer">
+  <div class="container">
+        <div id="footer-content" class="row-fluid footer-content"> <div class="region region-footer clearfix">
+  <div id="block-menu-menu-footer-services" class="clearfix block block-menu span3">     <h2>Services</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a href="/https://uit.stanford.edu/services">Explore all services</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/guide/tools">Get started with IT</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/guide/security">Practice secure computing</a></li>
+<li class="last leaf"><a href="/https://uit.stanford.edu/guide/perks">IT perks</a></li>
+</ul> </div>
+</div>
+<div id="block-menu-menu-support" class="clearfix block block-menu span3">     <h2>Support</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a href="/https://stanford.service-now.com/it_services?id=kb_home">Find answers</a></li>
+<li class="leaf"><a href="/https://stanford.service-now.com/it_services?id=sc_home">Request something</a></li>
+<li class="leaf"><a href="/https://stanford.service-now.com/services?id=get_help">Get help</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/status-metrics">View system and project status</a></li>
+<li class="last leaf"><a href="/https://uit.stanford.edu/guide/browser-recommendations">Browser recommendations</a></li>
+</ul> </div>
+</div>
+<div id="block-menu-menu-university-it" class="clearfix block block-menu span3">     <h2>University IT</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a href="/https://uit.stanford.edu/organization">About us</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/organization/priorities">2018 Priorities</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/organization/orgchart">Organization chart</a></li>
+<li class="last leaf"><a href="/https://careersearch.stanford.edu/">Current job openings</a></li>
+</ul> </div>
+</div>
+<div id="block-menu-menu-news" class="clearfix block block-menu span3">     <h2>Connect</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a href="/https://uit.stanford.edu/news">News</a></li>
+<li class="leaf"><a href="/https://uit.stanford.edu/events">Events</a></li>
+<li class="leaf"><a href="/https://cop.stanford.edu/">Communities of Practice</a></li>
+<li class="last leaf"><a href="/https://uitcommunity.stanford.edu/">UIT Community (UIT staff only)</a></li>
+</ul> </div>
+</div>
+<div id="block-stanford-saml-block-stanford-saml-block-login-block" class="clearfix block block-stanford-saml-block span3">     <h2>UIT Web Editors</h2>
+      <div class="content"> <a href="/https://uit.stanford.edu/sso/login">Login</a> </div>
+</div>
+</div>
+ <!-- /.region -->
+ </div>
+      </div>
+</div>
+<!-- /#footer -->
+<div id="global-footer" role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2"><a href="/https://www.stanford.edu"><img alt="Stanford University" src="/https://uit.stanford.edu/sites/all/themes/stanford_uit/images/footer-stanford-logo@2x.png"></a></div>
+      <div id="bottom-menu" class="span10">
+        <ul id="global-links">
+          <li><a href="/https://www.stanford.edu/">Stanford Home</a></li>
+          <li><a href="/http://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+          <li><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+          <li><a href="/http://emergency.stanford.edu/">Emergency Info</a></li>
+        </ul>
+        <ul id="global-policy-links">
+          <li><a href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+          <li><a href="/https://www.stanford.edu/site/privacy">Privacy Policy</a></li>
+          <li><a href="/https://uit.stanford.edu/security/copyright-infringement">Copyright Complaints</a></li>
+          <li><a href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademark Notice</a></li>
+        </ul>
+      </div>
+      <div id="copyright" class="span10 offset2">
+        <p class="vcard"><span aria-hidden="true">©</span> <span class="sr-only-text">Copyright</span> <span class="fn org">Stanford University</span>. <span class="adr"><span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span>.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /#global-footer -->
+   <!-- /.region -->
+<script type="text/javascript" src="/https://uit.stanford.edu/sites/default/files/js/js_ayLNthpYLmDu8KfjP52Q2z7dtJvBYA40FqhVhVi0yKQ.js"></script>
+
+
+</body></html>

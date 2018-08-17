@@ -1,0 +1,522 @@
+<!DOCTYPE html><!--[if lt IE 7]> <html class="ie6 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 7]>    <html class="ie7 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 8]>    <html class="ie8 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 9]>    <html class="ie9 ie" lang="en" dir="ltr"> <![endif]--><!--[if !IE]> --><html lang="en" dir="ltr"><!-- <![endif]--><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="apple-touch-icon" sizes="144x144" href="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-167x167.png">
+<link rel="apple-touch-icon" href="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-76x76.png">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-57x57.png">
+<meta name="generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="/https://interdisciplinary.stanford.edu/labs-centers-institutes">
+<link rel="shortlink" href="/https://interdisciplinary.stanford.edu/labs-centers-institutes">
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Independent Laboratories, Centers, and Institutes | Stanford Interdisciplinary</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/https://interdisciplinary.stanford.edu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://interdisciplinary.stanford.edu/sites/default/files/css/css_I6fsoMizZU8Ub0MdyFhqooKouJAsAJ8CuFISgki9F-8.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/https://interdisciplinary.stanford.edu/sites/default/files/css/css_pJrjlTCQYxONS4cH7zbz6b5jUVNs6jJyg9rubORVZBw.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://interdisciplinary.stanford.edu/sites/default/files/css/css_AFvCxgvd3XawD5Hx7xMmKMHrJMaH18qEk6U6p6-3JTw.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://interdisciplinary.stanford.edu/sites/default/files/css/css_Nz9TmRe_pIjfRkOfXJGEYIvcVaofrIMDQF-t4nNePss.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://interdisciplinary.stanford.edu/sites/default/files/css/css_s0Z8VLWh03DtHJQV3ZRRQeh2_w2qy1y9KiMwmDIVCqc.css">
+<link type="text/css" rel="stylesheet" media="print" href="/https://interdisciplinary.stanford.edu/sites/default/files/css/css_nGZ0EUi6HATidAf3pITrpLdyTGtTsmfVAzXLpUp2gr4.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://interdisciplinary.stanford.edu/sites/default/files/css/css_s7zhW6t9IusIoZtHMU7qIMHSu2qNNWeygt-bz2UGlEU.css">
+<style type="text/css" media="screen">
+<!--/*--><![CDATA[/*><!--*/
+body.front{background-image:url(https://interdisciplinary.stanford.edu/sites/default/files/stanford_jumpstart_home/header/vr_header_3.jpg);}
+.header{background-image:url(https://interdisciplinary.stanford.edu/sites/default/files/stanford_jumpstart_home/header/vr_header_3.jpg);}
+
+/*]]>*/-->
+</style>
+  <script type="text/javascript" src="/https://interdisciplinary.stanford.edu/sites/default/files/js/js_xvYJgU6LChHqbcSh4y1AvdXfD5QBIwT3GVGVUeuksbM.js"></script>
+<script type="text/javascript" src="/https://interdisciplinary.stanford.edu/sites/default/files/js/js_aCV5wsHOlXutyuDJVqSSEXe_JsnCGsAqUJflG18ScSI.js"></script>
+<script type="text/javascript" src="/https://interdisciplinary.stanford.edu/sites/default/files/js/js_slSZgYjIwkTAs1IvVFE0SalVFph1L355-12Uh9WJlJc.js"></script>
+<script type="text/javascript" src="/https://interdisciplinary.stanford.edu/sites/default/files/js/js_aol8Zm80ru1q5iS7IDlJB7OJoGyl_165qfyRSV2oPUE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-69674019-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="/https://interdisciplinary.stanford.edu/sites/default/files/js/js_jqieRtl_UYyhNjp5xnapeXOs2MKANENrFIuP1WS_49E.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function($) { $(document).ready(function() { var $container = $('#isotope-container'); $container.isotope('option', { getSortData : {  } }); $container.isotope('updateSortData', $('.isotope-element')); }); })(jQuery);
+//--><!]]>
+</script>
+<script type="text/javascript" src="/https://interdisciplinary.stanford.edu/sites/default/files/js/js_bMNcqAqOcpVB4VGYw6F9HDONHfb363vwhq0fr67kcxM.js"></script>
+<script type="text/javascript" src="/https://interdisciplinary.stanford.edu/sites/default/files/js/js_9cK0ID99e4vgND5XBb3ButI-3Cx3e37QuFo8f7KyqAg.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stanford_framework","theme_token":"DVMSOiW-rm5pi-pBaNumubbfkgUukHMaKSUhjVCwUBU","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"misc\/ui\/jquery.ui.slider.css":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/default\/modules\/stanford\/stanford_bean_types\/css\/social-media.css":1,"sites\/default\/modules\/stanford\/stanford_jumpstart\/css\/jumpstart.css":1,"sites\/default\/modules\/stanford\/stanford_jumpstart\/css\/jumpstart-theme-fixes.css":1,"sites\/default\/modules\/stanford\/stanford_jumpstart_home\/css\/stanford_jumpstart_home.css":1,"sites\/default\/modules\/stanford\/stanford_jumpstart\/modules\/stanford_jumpstart_shortcuts\/css\/shortcuts.css":1,"sites\/default\/modules\/stanford\/stanford_landing_page\/css\/stanford_landing_page.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/context_accordion\/context_accordion.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/default\/modules\/contrib\/views_isotope\/views_isotope.css":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap.min.css":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap-responsive.min.css":1,"sites\/all\/themes\/open_framework\/packages\/font-awesome-3.2.1\/css\/font-awesome.min.css":1,"sites\/all\/themes\/open_framework\/css\/open_framework.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford-framework.css":1,"sites\/all\/themes\/stanford_framework\/css\/ie.css":1,"sites\/all\/themes\/open_framework\/css\/open_framework_print.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_light\/fonts-sans.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_light\/stanford-light.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_light\/styles-plain.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"0":1,"1":1},"js":{"sites\/default\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/default\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/default\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/default\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/default\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"sites\/default\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/default\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.slider.min.js":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-sliderAccess.js":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.js":1,"sites\/default\/modules\/stanford\/stanford_bean_types\/js\/stanford-bean-types.js":1,"sites\/default\/modules\/stanford\/stanford_jumpstart\/js\/jumpstart.js":1,"sites\/default\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/context_accordion\/context_accordion.js":1,"sites\/default\/modules\/stanford\/stanford_indies\/js\/imagesloaded.pkgd.min.js":1,"sites\/default\/modules\/stanford\/stanford_indies\/js\/stanford_indies.js":1,"sites\/default\/libraries\/jquery.isotope\/jquery.isotope.min.js":1,"sites\/default\/modules\/contrib\/views_isotope\/views_isotope.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/default\/modules\/stanford\/stanford_date_timepicker\/js\/stanford_date_timepicker.js":1,"1":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/js\/bootstrap.min.js":1,"sites\/all\/themes\/open_framework\/js\/open_framework.js":1,"sites\/all\/themes\/open_framework\/js\/jquery.placeholder.min.js":1,"sites\/all\/themes\/open_framework\/js\/override.js":1,"sites\/all\/themes\/stanford_framework\/js\/stanford-framework.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"stanford_date_timepicker":{"classes":"","default_date_format":"yy-mm-dd","default_time_format":"hh:mm","default_separator":" "}});
+//--><!]]>
+</script>
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/sites/all/themes/open_framework/packages/font-awesome-3.2.1/css/font-awesome-ie7.min.css" />  <![endif]-->
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="/sites/all/themes/open_framework/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-labs-centers-institutes active-home-context        style-custom header-bkg header-bkg-image header-bkg-text-light header-bkg-style-frontbleed style-custom-styles-plain style-custom-fonts-sans">
+    <div id="wrap"><a class="element-invisible element-focusable" href="/https://interdisciplinary.stanford.edu/labs-centers-institutes">Skip to content</a>
+    <a class="element-invisible element-focusable" href="/https://interdisciplinary.stanford.edu/labs-centers-institutes">Skip to navigation</a>
+    <!-- /#skipnav -->
+    <!-- /#admin-shortcuts -->
+  <div id="global-header">
+    <div class="container">
+      <div class="row-fluid">
+        <div id="top-logo" class="span4"><a href="/http://www.stanford.edu"><img alt="Stanford University" src="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/images/header-stanford-logo@2x.png"></a></div>
+                <div id="top-menu" class="span8"><div class="region region-global-header clearfix">
+  <div id="block-webauth-webauth-login-block" class="clearfix block block-webauth">     <h2>WebAuth Login</h2>
+      <div class="content"> <div id="webauth_login_url">
+  <a class="button" href="/https://interdisciplinary.stanford.edu/sites/default/webauth/login?destination=labs-centers-institutes">SUNetID Login</a>
+</div>
+ </div>
+</div></div>
+ <!-- /.region -->
+</div>
+              </div>
+    </div>
+  </div>
+  <!-- /#global-header -->
+  <div id="header" class="clearfix header" role="banner">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+                    <!-- /#logo -->
+                                        <div id="site" class="hide">
+            <div id="name"><a href="/https://interdisciplinary.stanford.edu/">Stanford Interdisciplinary</a></div>
+          </div>
+                    <!-- /#name-and-slogan -->
+                    <div id="header-content" class="row-fluid header-content "><div class="region region-header clearfix">
+  <div id="block-block-1" class="clearfix block block-block">       <div class="content"> <p><a rel="nofollow" href="/https://interdisciplinary.stanford.edu/">Stanford Interdisciplinary</a></p>
+ </div>
+</div></div>
+ <!-- /.region -->
+</div>
+                    <!-- /#header-content -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#header -->
+    <div id="main-menu" class="clearfix site-main-menu">
+    <div class="container">
+      <div class="navbar">
+                <div class="navbar-inner">
+                                        <button aria-label="Navigation menu" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse"> <span class="hide">Navigation menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <div class="nav-collapse collapse">
+            <nav id="main-nav" role="navigation">
+                                          <div class="region region-navigation clearfix">
+  <div id="block-menu-block-stanford-jumpstart-layouts-1" class="clearfix block block-menu-block">     <h2>Main menu</h2>
+      <div class="content"> <div class="menu-block-wrapper menu-block-stanford_jumpstart_layouts-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-825"><a href="/https://interdisciplinary.stanford.edu/">Home</a></li>
+<li class="leaf active-trail active menu-mlid-3819"><a title="" class="active-trail active" href="/https://interdisciplinary.stanford.edu/labs-centers-institutes">Labs, Centers, and Institutes</a></li>
+<li class="leaf menu-mlid-1285"><a title="" href="/https://news.stanford.edu/topic/interdisciplinary/">Stories</a></li>
+<li class="leaf menu-mlid-1287"><a title="Video stories of collaborative approaches to research" href="/https://www.youtube.com/playlist?list=PLpGHT1n4-mAtBYgWuUL-mQ8aS4yNzyH-v">Videos</a></li>
+<li class="leaf menu-mlid-1279"><a href="/https://interdisciplinary.stanford.edu/students">For Students</a></li>
+<li class="leaf menu-mlid-1281"><a href="/https://interdisciplinary.stanford.edu/faculty">For Faculty</a></li>
+<li class="last leaf menu-mlid-1289"><a href="/https://interdisciplinary.stanford.edu/stanford-interdisciplinary">About</a></li>
+</ul></div>
+ </div>
+</div></div>
+ <!-- /.region -->
+                          </nav>
+          </div>
+                                      </div>
+              </div>
+    </div>
+  </div>
+  <!-- /#main-menu -->
+  
+  
+  <div id="main" class="clearfix main" role="main">
+  	        <div class="container">
+            <div id="main-content" class="row main-content">
+                <div id="content" class="mc-content span12">
+          <div id="content-wrapper" class="content-wrapper">
+            <div id="content-head" class="row-fluid content-head">
+                                                        <h1 class="title" id="page-title"> Independent Laboratories, Centers, and Institutes </h1>
+                                                                                                </div>
+                                                <div id="content-body" class="row-fluid content-body"> <div class="region region-content clearfix">
+  <div id="block-system-main" class="clearfix block block-system">       <div class="content"> <div>
+  <div class="view view-ilci-filter view-id-ilci_filter view-display-id-default view-dom-id-726df27b2627850130e6eecfb9d0bdc9">
+            <div class="view-header">
+      Stanford has 18 designated independent laboratories, centers and institutes, that provide a physical and intellectual intersection between schools and disciplines. These interdisciplinary institutes are in line with Stanford's longstanding tradition of crossing boundaries to tackle large problems, engaging faculty and their students in collaborations that range from international and economic studies to challenges facing the environment, energy and health.<p></p><p>
+
+The designated independent laboratories, center and institutes are directed by the Vice Provost and Dean of Research, Dr. Ann Arvin.</p>    </div>
+  
+  
+  
+      <div class="view-content">
+      
+<div class="isotope-options">
+  <ul class="isotope-filters option-set clearfix" data-option-key="filter">
+  
+  	<li><a data-option-value="*" class="selected" href="/https://interdisciplinary.stanford.edu/labs-centers-institutes">Show All</a></li>
+          
+                
+      <li><a class="filterbutton" data-option-value=".chemistry-\+-biology" href="/https://interdisciplinary.stanford.edu/labs-centers-institutes"><div class="views-field views-field-name">        <span class="field-content">Chemistry + Biology</span>  </div></a></li>
+			
+          
+                
+      <li><a class="filterbutton" data-option-value=".culture-\+-economics" href="/https://interdisciplinary.stanford.edu/labs-centers-institutes"><div class="views-field views-field-name">        <span class="field-content">Culture + Economics</span>  </div></a></li>
+			
+          
+                
+      <li><a class="filterbutton" data-option-value=".environment-\+-climate" href="/https://interdisciplinary.stanford.edu/labs-centers-institutes"><div class="views-field views-field-name">        <span class="field-content">Environment + Climate</span>  </div></a></li>
+			
+          
+                
+      <li><a class="filterbutton" data-option-value=".medicine-\+-healthcare" href="/https://interdisciplinary.stanford.edu/labs-centers-institutes"><div class="views-field views-field-name">        <span class="field-content">Medicine + Healthcare</span>  </div></a></li>
+			
+          
+                
+      <li><a class="filterbutton" data-option-value=".physics-\+-materials-\+-energy-\+-space" href="/https://interdisciplinary.stanford.edu/labs-centers-institutes"><div class="views-field views-field-name">        <span class="field-content">Physics + Materials + Energy + Space</span>  </div></a></li>
+			
+        
+  </ul>  
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><div class="view view-ilci view-id-ilci view-display-id-default view-dom-id-bf9c79d95d041f39cf9cf140184a8f55">
+        
+  
+  
+      <div class="view-content">
+        <div id="isotope-container">
+                    <div class="isotope-element  physics-+-materials-+-energy-+-space" data-category="physics-+-materials-+-energy-+-space" data-id="1208332">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/kavli.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Kavli Institute for Particle Astrophysics and Cosmology (KIPAC)</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>KIPAC brings the resources of modern computational, experimental, observational and theoretical science to bear on our understanding of the universe at large.</p>
+<p><strong>Areas of focus:</strong>&nbsp;Black Holes,&nbsp;Blazars&nbsp;and Active Galactic Nuclei, Computational Astrophysics, Cosmic Microwave Background, Dark Matter and New Physics, Direct Dark Matter Detection, Indirect Dark Matter Detection, First Cosmological Objects, Galaxy Clusters, Galaxy Formation, Gamma-Ray Bursts, Gravitational&nbsp;Lensing, High Energy Particles From Space, Neutron Stars and Pulsars, Optical Surveys, Primordial Inflation,&nbsp;Reionization, Scientific Visualization and Data Analysis, Solar Physics - Science</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"><a href="/http://kipac.stanford.edu/kipac/people">Affiliated Scientists</a>, <a href="/http://kipac.stanford.edu/kipac/researchlist">Research Topics</a>, <a href="/http://kipac.stanford.edu/kipac/projectslist">Research Projects</a>, <a href="/http://kipac.stanford.edu/kipac/education_outreach">Education and Outreach</a>, <a href="/http://kipac.stanford.edu/kipac/prospective-graduate-students">Graduate Student Opportunities</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/http://kipac.stanford.edu/kipac/news">News</a>, <a href="/http://kipac.stanford.edu/kipac/event">Events</a>, <a href="/http://humsci.stanford.edu/kipac/gift_opportunities">Support</a>, <a href="/http://kipac.stanford.edu/kipac/kipac-blog">Blog</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://kipac.stanford.edu/kipac/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  physics-+-materials-+-energy-+-space" data-category="physics-+-materials-+-energy-+-space" data-id="1208331">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/simes.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Stanford Institute for Materials and Energy Sciences (SIMES)</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>SIMES addresses grand challenges in the science of energy-related materials.</p>
+<p><strong>Areas of focus:&nbsp;</strong>emergent properties of quantum materials, ultrafast&nbsp;photonic&nbsp;and electronic properties, energy conversion and storage (advanced photon conversion and chemical energy storage), organic and bio-inspired materials.</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/http://simes.stanford.edu/investigator/">Faculty</a>, <a href="/http://simes.stanford.edu/research-areas/emergent-properties-of-quantum-materials/">Research Topics</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/http://simes.stanford.edu/news/">News</a>, <a href="/http://simes.stanford.edu/seminars-public-lectures/">Calendar</a>, <a href="/http://simes.stanford.edu/publications/">Publications</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://simes.stanford.edu/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  chemistry-+-biology environment-+-climate physics-+-materials-+-energy-+-space" data-category="chemistry-+-biology environment-+-climate physics-+-materials-+-energy-+-space" data-id="1200503">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/precourt.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Precourt Institute for Energy</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Precourt Institute for Energy at Stanford serves as the hub of a broad and deep network of experts from various science, technology, behavioral, and policy disciplines who are working independently and collaboratively to solve the world's most pressing energy problems.</p>
+<p><strong>Areas of focus:</strong>&nbsp;energy</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"><a href="/https://energy.stanford.edu/research">Centers and Programs</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/https://energy.stanford.edu/people/senior-fellows">Institute Fellows</a>, <a href="/https://energy.stanford.edu/people/affiliated-faculty">Affiliated Faculty</a>, <a href="/https://energy.stanford.edu/seedgrants">Funded Research</a>, <a href="/https://energy.stanford.edu/grant-and-fellowship-opportunities">Funding opportunities</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"><a href="/https://energy.stanford.edu/courses">Courses</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/https://energy.stanford.edu/news">News</a>, <a href="/https://energy.stanford.edu/events">Events</a>, <a href="/https://makeagift.stanford.edu/get/page/makeagift?mop=CC&amp;gfty=G&amp;pgnTPC=399&amp;stp=195&amp;gdso=5&amp;tgso=6&amp;cturl=close&amp;olc=16117">Support</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://pie.stanford.edu/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  culture-+-economics" data-category="culture-+-economics" data-id="1208337">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/shc.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Stanford Humanities Center (SHC)</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The Stanford Humanities Center sponsors advanced research into the historical, philosophical, literary, artistic, and cultural dimensions of the human experience.</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/http://shc.stanford.edu/digital-humanities">Digital Humanities</a>, <a href="/http://shc.stanford.edu/fellowships">Fellowship opportunities</a>, <a href="/http://shc.stanford.edu/people/fellows">Center Fellows</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"><a href="/http://shc.stanford.edu/about/undergraduate-resources">Undergraduate resources</a>, <a href="/http://shc.stanford.edu/about/graduate-student-resources">PhD Resources</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/http://shc.stanford.edu/news">News</a>, <a href="/http://shc.stanford.edu/events">Events</a>, <a href="/http://shc.stanford.edu/support">Support</a>, <a href="/http://humanities.stanford.edu/publications">Publications</a>, <a href="/http://shc.stanford.edu/multimedia">Multimedia</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://shc.stanford.edu/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  culture-+-economics" data-category="culture-+-economics" data-id="1208303">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/csli_0.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Center for the Study of Language and Information (CSLI)</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>CSLI facilitates collaborations among researchers and thereby amplifies Stanford’s already considerable strengths in cognitive sciences.</p>
+<p><strong>Areas of focus:</strong>&nbsp;logic, language, computation, philosophy, and cognition</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/https://www-csli.stanford.edu/people?tid=1">Affiliated Faculty</a>, <a href="/https://www-csli.stanford.edu/projects">Programs</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/https://www-csli.stanford.edu/events">Events</a>, <a href="/http://web.stanford.edu/group/cslipublications/cslipublications/site/index.shtml">Publications</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://www-csli.stanford.edu/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  chemistry-+-biology medicine-+-healthcare" data-category="chemistry-+-biology medicine-+-healthcare" data-id="1208339">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/sni_0.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Stanford Neurosciences Institute</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The goal of the Stanford Neurosciences Institute is to understand how the brain gives rise to mental life and behavior.</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"><a href="/https://neuroscience.stanford.edu/research/programs/big-ideas-neuroscience">Big Ideas in Neuroscience</a>, <a href="/https://neuroscience.stanford.edu/research/programs">Programs</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/https://neuroscience.stanford.edu/research/funded-research">Funded Projects</a>, <a href="/https://neuroscience.stanford.edu/research/neurodiscovery">NeuroDiscovery</a>, <a href="/https://neuroscience.stanford.edu/research/neuroengineering">NeuroEngineering</a>, <a href="/https://neuroscience.stanford.edu/research/neurohealth">NeuroHealth</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"><a href="/https://neuroscience.stanford.edu/research/programs/interdisciplinary-scholar-awards">Postdoctoral Scholars</a>, <a href="/https://neuroscience.stanford.edu/research/programs/interdisciplinary-graduate-fellowships">Graduate Fellows</a>, <a href="/https://neuroscience.stanford.edu/research/programs/stanford-institutes-medicine-summer-research-program">Summer Research</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/https://neuroscience.stanford.edu/news">News</a>, <a href="/https://neuroscience.stanford.edu/events/upcoming-events">Events</a>, <a href="/https://neuroscience.stanford.edu/get-involved/donors">Support</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/https://neuroscience.stanford.edu">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  chemistry-+-biology culture-+-economics medicine-+-healthcare" data-category="chemistry-+-biology culture-+-economics medicine-+-healthcare" data-id="1208306">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/spectrum.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">The Stanford Center for Clinical and Translational Research and Education (Spectrum)</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Spectrum accelerates and enhances medical research, from basic discovery to improved patient care.</p>
+<p><strong>Areas of focus:</strong>&nbsp;bioethics;&nbsp;biostatistics&nbsp;&amp; study design; clinical and translational research; career development and diversity; child health; clinical informatics; community engagement; enabling technologies; innovations &amp; pilots; operations, training and compliance; population health sciences; research education &amp; training; tracking and evaluation.</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"><a href="/http://spectrum.stanford.edu/accordions/clinical-trials">Clinical Trials</a>, <a href="/http://spectrum.stanford.edu/researcher-resources">Resources</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"><a href="/http://spectrum.stanford.edu/accordions/community-outreach">Community Outreach</a>, <a href="/http://spectrum.stanford.edu/education-mentoring">Education &amp; Mentoring</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/http://spectrum.stanford.edu/spectrum-news">News</a>, <a href="/https://zm07.pobox.stanford.edu/home/cal_sc_som_cal_spectrum_education@stanford.edu/Calendar.html?view=month&amp;color=blue">Events</a>, <a href="/http://spectrum.stanford.edu/page_listings/spectrum-programs">Programs</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://spectrum.stanford.edu/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  chemistry-+-biology medicine-+-healthcare" data-category="chemistry-+-biology medicine-+-healthcare" data-id="1208305">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/biox_0.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Stanford Bio-X</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Stanford Bio-X catalyzes discovery by crossing the boundaries between disciplines and fostering interdisciplinary solutions to create new knowledge of biological systems in benefit of human health.</p>
+<p><strong>Areas of focus:</strong>&nbsp;the intersection of bioscience with engineering, computer science, physics, chemistry, and other fields.</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"><a href="/https://biox.stanford.edu/research/partners">Partners</a>, <a href="/https://biox.stanford.edu/research/ventures">Ventures</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/https://biox.stanford.edu/research/seed-grants">Funding Opportunities</a>, <a href="/https://biox.stanford.edu/person-group/affiliated-faculty">Affiliated Faculty</a>, <a href="/https://biox.stanford.edu/research">Funded Research</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"><a href="/https://biox.stanford.edu/research/phd-fellows">PhD Fellowships</a>, <a href="/https://biox.stanford.edu/research/undergraduate-research">Undergraduate research</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/https://biox.stanford.edu/highlights">News</a>, <a href="/https://biox.stanford.edu/events">Events</a>, <a href="/https://biox.stanford.edu/get-involved/support">Support</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/https://biox.stanford.edu/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  culture-+-economics" data-category="culture-+-economics" data-id="1208304">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="640" height="360" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/casbs_2014.jpeg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Center for Advanced Study in the Behavioral Sciences (CASBS)</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>CASBS stimulates cutting edge social science on important societal problems.&nbsp;The Center&nbsp;supports researchers&nbsp;as they&nbsp;germinate&nbsp;new approaches and apply&nbsp;findings that will have a significant impact on how we lead our lives.</p>
+<p><strong>Areas of focus:</strong>&nbsp;Social sciences and related fields in humanities, sciences, medicine, and engineering</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"><a href="/http://www.casbs.org/informing-public">Informing the public</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/http://www.casbs.org/apply-fellowships">Residential Fellowships</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/http://www.casbs.org/news">News</a>, <a href="/http://www.casbs.org/calendar">Events</a>, <a href="/http://www.casbs.org/support-center">Support</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://www.casbs.org/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  physics-+-materials-+-energy-+-space" data-category="physics-+-materials-+-energy-+-space" data-id="1208334">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/ginzton_0.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">E. L. Ginzton Laboratory</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The Ginzton Lab combines the best ideas and technologies from engineering, nanoscience, photonic science and quantum science for new inventions and advances.</p>
+<p><strong>Areas of focus:</strong>&nbsp;applied physics, chemical engineering, chemistry, electrical engineering, materials science and engineering, mechanical engineering, and physics.</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/https://ginzton.stanford.edu/events">Events</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/https://ginzton.stanford.edu/our-faculty">Affiliated Faculty</a>, <a href="/https://ginzton.stanford.edu/our-faculty">Research Topics</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://www.stanford.edu/group/ginzton">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  culture-+-economics medicine-+-healthcare" data-category="culture-+-economics medicine-+-healthcare" data-id="1208302">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/scl_0.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Stanford Center on Longevity (SCL)</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The Center on Longevity studies the nature and development of the human life span, looking for innovative ways to use science and technology to solve the problems of people over 50 in order to improve the well-being of people of all ages.</p>
+<p><strong>Areas of focus:</strong>&nbsp;Mind, mobility, financial security, demographics</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"><a href="/http://longevity3.stanford.edu/center-on-longevity-corporate-affiliates-program/">Corporate Affiliates</a>, <a href="/http://dci.stanford.edu">Distinguished Careers Institute</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/http://longevity3.stanford.edu/seed-grants/v">Funded Research</a>, <a href="/http://longevity3.stanford.edu/people/faculty-affiliates/">Affiliated Faculty</a>, <a href="/http://longevity3.stanford.edu/blog/2012/08/21/mind/">Mind</a>, <a href="/http://longevity3.stanford.edu/blog/2012/08/21/mobility/">Mobility</a>, <a href="/http://longevity3.stanford.edu/blog/2012/08/21/financial-security/">Financial Security</a>, <a href="/http://longevity3.stanford.edu/blog/2012/08/22/demographic-lens/">Demographics</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/http://longevity3.stanford.edu/news/">News</a>, <a href="/http://longevity3.stanford.edu/events_scl/">Events</a>, <a href="/http://longevity3.stanford.edu/2412-2/">Support</a>, <a href="/http://longevity3.stanford.edu/publications/">Publications</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://longevity.stanford.edu/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  culture-+-economics environment-+-climate medicine-+-healthcare physics-+-materials-+-energy-+-space" data-category="culture-+-economics environment-+-climate medicine-+-healthcare physics-+-materials-+-energy-+-space" data-id="1208301">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/fsi_0.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Freeman Spogli Institute for International Studies at Stanford (FSI)</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>FSI is devoted to understanding the problems, policies, and processes that cross international borders and affect lives around the world.</p>
+<p><strong>Areas of focus:</strong>&nbsp;energy, environment, governance, health &amp; medicine, international development, international relations, security, society</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"><a href="/http://fsi.stanford.edu/content/all-partners">Partners</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/http://fsi.stanford.edu/topics">Research Topics</a>, <a href="/http://fsi.stanford.edu/content/impact">Impact</a>, <a href="/http://fsi.stanford.edu/people/faculty">Faculty</a>, <a href="/http://fsi.stanford.edu/docs/fsi_inititatives">Initiatives</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/http://fsi.stanford.edu/news">News</a>, <a href="/http://fsi.stanford.edu/publications">Publications</a>, <a href="/http://fsi.stanford.edu/events">Events</a>, <a href="/http://fsi.stanford.edu/docs/supporting_fsi">Support</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://fsi.stanford.edu/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  culture-+-economics" data-category="culture-+-economics" data-id="1208338">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/siepr.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Stanford Institute for Economic Policy Research (SIEPR)</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>A research institute focusing on economic policy that unites economists from all parts of Stanford University to conduct research on the critical economic policy issues facing the world today.</p>
+<p>SIEPR fosters dialogue between business leaders, policymakers and academic scholars.</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"><a href="/http://siepr.stanford.edu/node/911">Visiting Scholars</a>, <a href="/http://siepr.stanford.edu/postdoctoral-scholars">Postdoctoral Scholars</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/http://siepr.stanford.edu/Research_at_Siepr">Centers and Programs</a>, <a href="/http://scid.stanford.edu">SCID</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"><a href="/http://siepr.stanford.edu/fellowships_and_awards">Graduate Student Fellowships and Awards</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/http://siepr.stanford.edu/NewsArchive">News</a>, <a href="/http://siepr.stanford.edu/eventcalendar/1/All/">Events</a>, <a href="/http://siepr.stanford.edu/support">Support</a>, <a href="/http://siepr.stanford.edu/Publications">Publications</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://siepr.stanford.edu">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  chemistry-+-biology medicine-+-healthcare" data-category="chemistry-+-biology medicine-+-healthcare" data-id="1208312">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/chem-h_0.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">ChEM-H</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>An institute that strengthens the chemical foundations of biomedical science; to accelerate molecular discoveries that transform human health; and to provide an unparalleled training ground for the brightest young physicians, scientists and engineers who are motivated by the goal of reinventing the healthcare industry from the ground floor upwards.</p>
+<p><strong>Areas of focus:</strong>&nbsp;biomedical science</p>
+<p>Visit the<strong>&nbsp;Chem-H website.</strong></p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"><a href="/https://chemh.stanford.edu/knowledge-centers/overview">Knowledge Centers</a>, <a href="/https://chemh.stanford.edu/StanfordAIM">Stanford AIM</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/https://chemh.stanford.edu/programs/funding-opportunities">Funding Opportunities</a>, <a href="/https://chemh.stanford.edu/programs/seed-grant-opportunities/funded-seed-grant-projects">Funded Research</a>, <a href="/https://chemh.stanford.edu/people/institute-fellows">Institute Fellows</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"><a href="/https://chemh.stanford.edu/undergrad-programs">Undergraduate Programs</a>, <a href="/https://chemh.stanford.edu/programs/graduate-student-programs">Graduate Student Programs</a>, <a href="/https://chemh.stanford.edu/programs/postdoc-programs">Postdoc Programs</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/https://chemh.stanford.edu/news-and-press-releases">News</a>, <a href="/https://chemh.stanford.edu/events/upcoming-events">Events</a>, <a href="/https://chemh.stanford.edu/giving-stanford-chem-h">Support</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/https://chemh.stanford.edu/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  environment-+-climate medicine-+-healthcare" data-category="environment-+-climate medicine-+-healthcare" data-id="1200501">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="700" height="125" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/woods_1.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Stanford Woods Institute for the Environment</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The Stanford Woods Institute for the Environment is working toward a future in which societies meet people’s needs for water, food, health and other vital services while protecting and nurturing the planet.</p>
+<p><strong>Areas of focus</strong>: climate change, ecosystem services and conservation, food security, freshwater, oceans, public health, sustainable development</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"><a href="/https://woods.stanford.edu/research/centers-programs">Centers and Programs</a>, <a href="/https://woods.stanford.edu/educating-leaders/leadership-programs">Leadership Programs</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/https://woods.stanford.edu/about/woods-faculty-researchers">Affiliated Faculty</a>, <a href="/https://woods.stanford.edu/research/environmental-venture-projects">Environmental Venture Projects</a>, <a href="/https://woods.stanford.edu/research/public-opinion-research">Public Opinion Research</a>, <a href="/https://woods.stanford.edu/research/climate">Climate</a>, <a href="/https://woods.stanford.edu/research/ecosystem-services-and-conservation">Ecosystem Services and Conservation</a>, <a href="/https://woods.stanford.edu/research/food-security">Food Security</a>, <a href="/https://woods.stanford.edu/research/freshwater">Freshwater</a>, <a href="/https://woods.stanford.edu/research/oceans">Oceans</a>, <a href="/https://woods.stanford.edu/research/public-health">Public Health</a>, <a href="/https://woods.stanford.edu/research/sustainable-development">Sustainable Development</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"><a href="/https://woods.stanford.edu/educating-leaders/education">Education opportunities</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/https://woods.stanford.edu/news-events/news">News</a>, <a href="/https://woods.stanford.edu/news-events/calendar">Events</a>, <a href="/https://woods.stanford.edu/get-involved/donors">Support</a>, <a href="/https://woods.stanford.edu/publications/directory">Publications</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://woods.stanford.edu/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  medicine-+-healthcare physics-+-materials-+-energy-+-space" data-category="medicine-+-healthcare physics-+-materials-+-energy-+-space" data-id="1208333">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/hepl_0.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">W. W. Hansen Experimental Physics Laboratory (HEPL)</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The Hansen Experimental Physics Laboratory supports interdisciplinary research programs in fundamental science and engineering.</p>
+<p><strong>Areas of focus: </strong>satellite-based&nbsp;instruments for investigating gravity (GP-B), gamma-rays (Fermi&nbsp;Large Area Telescope) and solar physics (SDO-HMI), the Laser in Space Antenna (LISA), the search for cryogenic dark matter (CDMS), the Enriched Xenon Observatory (EXO), advanced GPS satellites, the overlap regions of atoms, lasers and fast electronics, photovoltaic retinal prosthesis, laser tissue interactions, and the encoding, processing and transmission of visual information.</p>
+<p>Visit the<a href="/http://www.stanford.edu/group/hepl/"><strong>&nbsp;HEPL&nbsp;website</strong></a>.</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/http://web.stanford.edu/group/hepl/research.html">Research Topics</a>, <a href="/http://web.stanford.edu/group/hepl/directory.html">Affiliated Faculty</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/http://web.stanford.edu/group/hepl/news.html">News</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/http://www.stanford.edu/group/hepl/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  chemistry-+-biology culture-+-economics physics-+-materials-+-energy-+-space" data-category="chemistry-+-biology culture-+-economics physics-+-materials-+-energy-+-space" data-id="1208336">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/pulse.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">PULSE Institute for Ultrafast Energy Science</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>PULSE provides world leadership in ultrafast and short wavelength science and technology.</p>
+<p><strong>Areas of focus:</strong>&nbsp;atomic physics, chemistry, materials science and structural biology.</p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"><a href="/https://ultrafast.stanford.edu/partners">Partners</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/https://ultrafast.stanford.edu/pulse-postdoctoral-fellowships">Postdoctoral Fellowships</a>, <a href="/https://ultrafast.stanford.edu/research">Research Topics</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/https://ultrafast.stanford.edu/calendar-node-field-date">Events</a>, <a href="/https://ultrafast.stanford.edu/biblio">Publications</a>, <a href="/https://ultrafast.stanford.edu/principal-investigators">Faculty</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/https://ultrafast.stanford.edu/">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+                <div class="isotope-element  physics-+-materials-+-energy-+-space" data-category="physics-+-materials-+-energy-+-space" data-id="1208335">
+			  <div class="tile-content">
+            
+  <div class="views-field views-field-field-s-image-image">        <div class="field-content"><img typeof="foaf:Image" width="630" height="126" alt="" src="/https://interdisciplinary.stanford.edu/sites/default/files/glam.jpg"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Geballe Laboratory for Advanced Materials (GLAM)</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>GLAM supports and fosters interdisciplinary education and research on advanced materials in science and engineering.</p>
+<p><strong>Areas of focus:</strong>&nbsp;applied physics, chemical engineering, chemistry, electrical engineering, materials science and engineering, mechanical engineering, and physics.</p>
+<p>Visit the&nbsp;<a href="/http://www.stanford.edu/group/glam/"><strong>GLAM website.</strong></a></p>
+<div class="embeds" style="display:none"></div></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-program">    <span class="views-label views-label-field-s-ilci-program">Program: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-research">    <span class="views-label views-label-field-s-ilci-research">Research: </span>    <div class="field-content"><a href="/https://glam.stanford.edu/research">Research</a>, <a href="/https://glam.stanford.edu/people/faculty">Affiliated Faculty</a>, <a href="/https://glam.stanford.edu/shared-facilities">Shared Facilities</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-education">    <span class="views-label views-label-field-s-ilci-education">Education: </span>    <div class="field-content"><a href="/https://glam.stanford.edu/glam-fellowships">Postdoctoral Fellowships</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-about">    <span class="views-label views-label-field-s-ilci-about">About: </span>    <div class="field-content"><a href="/https://glam.stanford.edu/calendar">Events</a></div>  </div>  
+  <div class="views-field views-field-field-s-ilci-site-1">        <div class="field-content"><a href="/https://glam.stanford.edu">VISIT SITE</a></div>  </div>  
+  <div>          </div>				</div>
+      </div>
+          </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div> </div>
+</div></div>
+ <!-- /.region -->
+  </div>
+                                                                                                                      </div>
+          <!-- /#content-wrap -->
+        </div>
+        <!-- /#content -->
+              </div>
+                </div>
+  </div>
+  <!-- /#main, /#main-wrapper -->
+    <div id="push"></div>
+  <!-- /#push -->
+</div>
+<!-- /#wrap -->
+<div id="global-footer" role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2"><a href="/http://www.stanford.edu"><img alt="Stanford University" src="/https://interdisciplinary.stanford.edu/sites/all/themes/stanford_framework/images/footer-stanford-logo@2x.png"></a></div>
+      <div id="bottom-menu" class="span10">
+
+                  <ul class="top-links clearfix">
+                          <li><a href="/https://www.stanford.edu">Stanford Home</a></li>
+                          <li><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+                          <li><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+                          <li><a href="/https://emergency.stanford.edu/">Emergency Info</a></li>
+                      </ul>
+                  <ul class="bottom-links clearfix">
+                          <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+                          <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy">Privacy</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/https://www.stanford.edu/site/accessibility/">Accessibility</a></li>
+                      </ul>
+        
+        <p class="vcard">© <span class="fn org">Stanford University</span>, <span class="adr"><span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /#global-footer -->
+  
+
+</body></html>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Stanford News</title>
+	<atom:link href="https://news.stanford.edu/feed/" rel="self" type="application/rss+xml" />
+	<link>https://news.stanford.edu</link>
+	<description>Latest news from Stanford University</description>
+	<lastBuildDate>Thu, 02 Aug 2018 18:56:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.7</generator>
+	<item>
+		<title>Longtime Stanford librarian James Breedlove dies</title>
+		<link>https://news.stanford.edu/2018/08/02/longtime-stanford-librarian-james-breedlove-dies/</link>
+		<pubDate>Thu, 02 Aug 2018 07:15:57 +0000</pubDate>
+		<dc:creator><![CDATA[Alex Shashkevich]]></dc:creator>
+				<category><![CDATA[Obituaries]]></category>
+		<category><![CDATA[history]]></category>
+		<category><![CDATA[obituary]]></category>
+
+		<guid isPermaLink="false">http://news.stanford.edu/?p=22375</guid>
+		<description><![CDATA[James M. Breedlove, a longtime Stanford librarian who gathered thousands of Latin American and Iberian materials, died on June 12.]]></description>
+		<enclosure url="http://news-media.stanford.edu/wp-content/uploads/2018/08/01100542/Breedlove_F922-9-705x470.jpg" type="image/jpeg" length="77228" />
+		</item>
+		<item>
+		<title>Akshay Venkatesh wins Fields Medal</title>
+		<link>https://news.stanford.edu/2018/08/02/akshay-venkatesh-wins-fields-medal/</link>
+		<pubDate>Thu, 02 Aug 2018 07:15:50 +0000</pubDate>
+		<dc:creator><![CDATA[Taylor Kubota, Ker Than and Amy Adams]]></dc:creator>
+				<category><![CDATA[Awards]]></category>
+		<category><![CDATA[awards]]></category>
+		<category><![CDATA[mathematics]]></category>
+
+		<guid isPermaLink="false">http://news.stanford.edu/?p=22370</guid>
+		<description><![CDATA[Mathematics Professor Akshay Venkatesh won the Fields Medal, the most prestigious prize in mathematics. He is known as someone with broad expertise who has contributed to many areas of math.]]></description>
+		<enclosure url="http://news-media.stanford.edu/wp-content/uploads/2018/08/01125302/venkatesh-705x470.jpg" type="image/jpeg" length="32570" />
+		</item>
+		<item>
+		<title>Fishing bans protect fish and don’t harm fishing communities</title>
+		<link>https://news.stanford.edu/2018/08/02/fishing-bans-protect-fish-dont-harm-fishing-communities/</link>
+		<pubDate>Thu, 02 Aug 2018 07:01:00 +0000</pubDate>
+		<dc:creator><![CDATA[Nicole Kravec]]></dc:creator>
+				<category><![CDATA[Science & Technology]]></category>
+		<category><![CDATA[Ecology & Environment]]></category>
+		<category><![CDATA[Economics]]></category>
+
+		<guid isPermaLink="false">http://news.stanford.edu/?p=20448</guid>
+		<description><![CDATA[Fishers who complied with a moratorium in the Adriatic Sea maintained catch levels by fishing in other areas. The findings help justify extending regional protection and provide insight for ocean management elsewhere.]]></description>
+		<enclosure url="http://news-media.stanford.edu/wp-content/uploads/2019/04/26101415/adriatic1-705x470.jpg" type="image/jpeg" length="87358" />
+		</item>
+		<item>
+		<title>Stanford Law helps develop legal education system in Kurdish Iraq</title>
+		<link>https://law.stanford.edu/press/stanford-law-school-helps-develop-a-strong-legal-education-system-in-kurdish-iraq/</link>
+		<pubDate>Wed, 01 Aug 2018 16:33:49 +0000</pubDate>
+		<dc:creator><![CDATA[Stephanie Ashe]]></dc:creator>
+				<category><![CDATA[Law & Policy]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[law]]></category>
+
+		<guid isPermaLink="false">http://news.stanford.edu/?post_type=teaser&#038;p=22362</guid>
+		<description><![CDATA[In 2012 Stanford Law School launched the Iraq Legal Education Initiative in partnership with the  American University of Iraq, Sulaimania.]]></description>
+		<enclosure url="http://news-media.stanford.edu/wp-content/uploads/2018/08/01093211/GettyImages-520126522-705x470.jpg" type="image/jpeg" length="81588" />
+		</item>
+		<item>
+		<title>Helping Latino businesses keep pace</title>
+		<link>https://www.gsb.stanford.edu/experience/news-history/helping-latino-businesses-keep-pace</link>
+		<pubDate>Tue, 31 Jul 2018 17:17:45 +0000</pubDate>
+		<dc:creator><![CDATA[Beth Jensen]]></dc:creator>
+				<category><![CDATA[Social Sciences]]></category>
+		<category><![CDATA[Business]]></category>
+		<category><![CDATA[Race and ethnicity]]></category>
+
+		<guid isPermaLink="false">http://news.stanford.edu/?post_type=teaser&#038;p=22347</guid>
+		<description><![CDATA[The Stanford Latino Entrepreneurship Initiative is amassing a huge database and network to nourish the fast-growing sector.]]></description>
+		<enclosure url="http://news-media.stanford.edu/wp-content/uploads/2018/07/31101930/GettyImages-948197202-705x470.jpg" type="image/jpeg" length="127569" />
+		</item>
+		<item>
+		<title>Study links depression to low blood levels of acetyl-L-carnitine</title>
+		<link>http://med.stanford.edu/news/all-news/2018/07/study-links-depression-to-low-blood-levels-of-acetyl-l-carnitine.html</link>
+		<pubDate>Tue, 31 Jul 2018 16:59:50 +0000</pubDate>
+		<dc:creator><![CDATA[Bruce Goldman]]></dc:creator>
+				<category><![CDATA[Science & Technology]]></category>
+		<category><![CDATA[Health]]></category>
+
+		<guid isPermaLink="false">http://news.stanford.edu/?post_type=teaser&#038;p=22344</guid>
+		<description><![CDATA[Investigators at Stanford and elsewhere have shown, for the first time in humans, that low blood levels of acetyl-L-carnitine track with the severity and duration of depression.]]></description>
+		<enclosure url="http://news-media.stanford.edu/wp-content/uploads/2018/07/31095838/GettyImages-680693460-705x470.jpg" type="image/jpeg" length="44306" />
+		</item>
+		<item>
+		<title>What the pros know about public speaking</title>
+		<link>https://www.gsb.stanford.edu/insights/what-pros-know-about-public-speaking</link>
+		<pubDate>Tue, 31 Jul 2018 16:44:02 +0000</pubDate>
+		<dc:creator><![CDATA[Beth Rimbey]]></dc:creator>
+				<category><![CDATA[Social Sciences]]></category>
+		<category><![CDATA[Business]]></category>
+
+		<guid isPermaLink="false">http://news.stanford.edu/?post_type=teaser&#038;p=22343</guid>
+		<description><![CDATA[Can anxiety be good for you? How do I start and end my talk? Graduate School of Business Lecturer Matt Abrahams shares what he knows about crafting meaningful presentations that make lasting impressions.]]></description>
+		<enclosure url="http://news-media.stanford.edu/wp-content/uploads/2018/07/30152822/publicspeaking_GettyImages-171592241-705x470.jpg" type="image/jpeg" length="66570" />
+		</item>
+		<item>
+		<title>People plan because it makes them feel free</title>
+		<link>https://news.stanford.edu/2018/07/31/people-plan-makes-feel-free/</link>
+		<pubDate>Tue, 31 Jul 2018 07:01:56 +0000</pubDate>
+		<dc:creator><![CDATA[Alex Shashkevich]]></dc:creator>
+				<category><![CDATA[Humanities]]></category>
+		<category><![CDATA[law]]></category>
+		<category><![CDATA[Philosophy]]></category>
+		<category><![CDATA[Sociology]]></category>
+
+		<guid isPermaLink="false">http://news.stanford.edu/?p=22329</guid>
+		<description><![CDATA[People’s ability to make rational plans is essential to their sense of personal freedom and autonomy, according to new research from philosophy Professor Michael Bratman.]]></description>
+		<enclosure url="http://news-media.stanford.edu/wp-content/uploads/2018/07/30122840/planning_bratman_hz.jpg" type="image/jpeg" length="102737" />
+		</item>
+		<item>
+		<title>Osteoporosis, fracture risk predicted with genetic screen</title>
+		<link>http://med.stanford.edu/news/all-news/2018/07/osteoporosis-fracture-risk-predicted-with-genetic-screen.html</link>
+		<pubDate>Fri, 27 Jul 2018 21:48:36 +0000</pubDate>
+		<dc:creator><![CDATA[Heidi Beck]]></dc:creator>
+				<category><![CDATA[Science & Technology]]></category>
+
+		<guid isPermaLink="false">http://news.stanford.edu/?post_type=teaser&#038;p=22321</guid>
+		<description><![CDATA[A new genetic screen may be able to predict low bone-mineral density, osteoporosis and fracture risk prior to clinical symptoms, according to a retrospective study of nearly 400,000 people by a Stanford researcher.]]></description>
+		<enclosure url="http://news-media.stanford.edu/wp-content/uploads/2018/07/27144742/osteoporosis-705x470.jpg" type="image/jpeg" length="75989" />
+		</item>
+		<item>
+		<title>Stanford launches new program to honor staff service</title>
+		<link>https://news.stanford.edu/2018/07/27/new-program-honor-staff-service/</link>
+		<pubDate>Fri, 27 Jul 2018 07:01:12 +0000</pubDate>
+		<dc:creator><![CDATA[Valerie Beeman]]></dc:creator>
+				<category><![CDATA[Faculty & Staff]]></category>
+
+		<guid isPermaLink="false">http://news.stanford.edu/?p=22307</guid>
+		<description><![CDATA[The new program conveys the university’s appreciation of service from staff.]]></description>
+		<enclosure url="http://news-media.stanford.edu/wp-content/uploads/2018/07/26153724/recognition_767x512-705x470.jpg" type="image/jpeg" length="100140" />
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,9 @@
+# assign7 .gitignore
+
+# don't track these build products, anchored to top-level dir
+/*.d
+/*.o
+/*.a
+
+# explicitly name project executables here
+proxy

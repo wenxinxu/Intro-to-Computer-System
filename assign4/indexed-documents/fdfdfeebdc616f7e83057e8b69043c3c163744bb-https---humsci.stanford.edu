@@ -1,0 +1,1317 @@
+<!DOCTYPE html><html lang="en" dir="ltr" xmlns:dc="http://purl.org/dc/terms/" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:product="http://ogp.me/ns/product#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#"><head>
+    <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-6274115-3", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<meta name="title" content="Discover academic freedom | Stanford Humanities and Sciences">
+<link rel="shortlink" href="/https://humsci.stanford.edu/">
+<link rel="canonical" href="/https://humsci.stanford.edu/">
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/https://humsci.stanford.edu/themes/custom/stanford_hs/favicon.ico">
+<link rel="canonical" href="/https://humsci.stanford.edu/home">
+<link rel="shortlink" href="/https://humsci.stanford.edu/node/40">
+<link rel="revision" href="/https://humsci.stanford.edu/home">
+
+    <title>Discover academic freedom | Stanford Humanities and Sciences</title>
+    <style id="prevent-fouc">
+      body {
+        opacity: 0;
+        transition: opacity .2s ease-out;
+      }
+    </style>
+    <link rel="stylesheet" media="all" href="/https://humsci.stanford.edu/sites/default/files/css/css_F7jT8w5zW2ZHTheWBKkUoeht-xZUMWVs-SJni9S9p28.css?pculld">
+<link rel="stylesheet" media="all" href="/https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i|Source+Sans+Pro:300,300i,400,400i,700,700i,900,900i">
+<link rel="stylesheet" media="all" href="/https://humsci.stanford.edu/sites/default/files/css/css_8CQFi5OLEF1PUYf-QOvQZyAfjXuCJ3dnN5mILppcE-0.css?pculld">
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+    <link rel="stylesheet" href="/https://www.stanford.edu/su-identity/css/su-identity.css">
+    <link rel="stylesheet" type="text/css" href="/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie8.css" />
+    <![endif]-->
+    <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie7.css" />
+    <![endif]-->
+  </head>
+  <body class="user-logged-out path-frontpage page-node-type-page path-home">
+    <div id="su-wrap"> <!-- #su-wrap start -->
+      <div id="su-content"> <!-- #su-content start -->
+        <a class="visually-hidden focusable skip-to-content" href="/https://humsci.stanford.edu">
+          Skip to main content
+        </a>
+        <!-- Brandbar snippet start -->
+        <div id="brandbar">
+          <div class="container">
+            <a href="/http://www.stanford.edu">
+              <img alt="Stanford University" width="152" height="23" src="/https://www.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png">
+            </a>
+          </div> <!-- .container end -->
+        </div> <!-- #brandbar end -->
+        <!-- Brandbar snippet end -->
+        
+        <div class="layout-container">
+
+  <header class="header">
+    <div class="navigation">
+	
+<div id="block-stanford-hs-branding" data-block-plugin-id="system_branding_block">
+  
+    
+      <div class="stanford-hs-branding__inner">
+              <a title="Home" rel="home" href="/https://humsci.stanford.edu/">
+          <img alt="School of Humanities and Sciences" src="/https://humsci.stanford.edu/themes/custom/stanford_hs/logo.svg">
+        </a>
+          </div>
+  </div>
+
+  
+<div id="block-stanfordsearchblock" data-block-plugin-id="stanford_search_block" class="block block-stanford-search block-stanford_search_block">
+  <div class="block-inner">
+    
+        
+          <div class="site-search"><h2 tabindex="0">Search</h2><form class="stanford-search-form site-search--search-form" data-drupal-selector="stanford-search-form" action="/" method="post" id="stanford-search-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item">
+      <label for="edit-keys" class="visually-hidden form-item__label">Search</label>
+        <input data-drupal-selector="edit-keys" size="22" placeholder="Search..." type="search" id="edit-keys" name="keys" value="" maxlength="128" class="form-search form-item__search" placeholder="Enter your keywords">
+
+        </div>
+<input data-drupal-selector="form-doq5pquh-jbubcyihrc5dy77qrv5ficep77oslp0oee" type="hidden" name="form_build_id" value="form-dOQ5PQUh_jbuBcyihrc5Dy77QRv5fICeP77oSlP0oEE" class="form-item__hidden">
+<input data-drupal-selector="edit-stanford-search-form" type="hidden" name="form_id" value="stanford_search_form" class="form-item__hidden">
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Search" class="button js-form-submit form-submit form-item__submit">
+</div>
+
+</form>
+</div>
+
+      </div>
+</div>
+<nav role="navigation" class="main-menu" aria-labelledby="block-stanford-hs-main-menu-menu" id="block-stanford-hs-main-menu" data-block-plugin-id="system_menu_block:main">
+  
+  <!-- Mobile menu toggle button (hamburger/x icon) -->
+  <input id="main-menu-state" type="checkbox">
+  <label class="main-menu-btn" for="main-menu-state">
+    <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+  </label>
+  
+            
+  <h2 class="visually-hidden" id="block-stanford-hs-main-menu-menu">Main navigation</h2>
+  
+
+        
+
+                  <ul class="menu sm">
+                            
+      <li class="menu__item">
+        <a class="menu__link_prospective-students menu__link" target="" data-drupal-link-system-path="node/58" href="/https://humsci.stanford.edu/prospective-students">Prospective Students</a>
+                                    <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_preparing-for-graduate-school menu__link" data-drupal-link-system-path="node/242" href="/https://humsci.stanford.edu/prospective-students/preparing-graduate-school">Preparing for Graduate School</a>
+                                    <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_gre-preparation menu__link" data-drupal-link-system-path="node/244" href="/https://humsci.stanford.edu/prospective-students/preparing-graduate-school/gre-preparation">GRE Preparation</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_graduate-school-prep-timeline menu__link" data-drupal-link-system-path="node/243" href="/https://humsci.stanford.edu/prospective-students/preparing-graduate-school/graduate-school-prep-timeline">Graduate School Prep Timeline</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_conducting-research-before-graduate-school menu__link" data-drupal-link-system-path="node/245" href="/https://humsci.stanford.edu/prospective-students/preparing-graduate-school/conducting-research-graduate-school">Conducting Research Before Graduate School</a>
+                                    <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_hs-summer-research-programs menu__link" data-drupal-link-system-path="node/247" href="/https://humsci.stanford.edu/prospective-students/preparing-graduate-school/conducting-research-graduate-school/hs-summer">H&amp;S Summer Research Programs</a>
+              </li>
+        </ul>
+  
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_paying-for-graduate-school menu__link" data-drupal-link-system-path="node/249" href="/https://humsci.stanford.edu/prospective-students/preparing-graduate-school/paying-graduate-school">Paying for Graduate School&nbsp;</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_current-students menu__link" target="" data-drupal-link-system-path="node/59" href="/https://humsci.stanford.edu/current-students">Current Students</a>
+                                    <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_diversity-resources-and-programs menu__link" data-drupal-link-system-path="node/250" href="/https://humsci.stanford.edu/current-students/diversity-resources-and-programs">Diversity Resources and Programs</a>
+                                    <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_humsci-201 menu__link" data-drupal-link-system-path="node/251" href="/https://humsci.stanford.edu/current-students/diversity-resources-and-programs/humsci-201">HumSci 201</a>
+              </li>
+        </ul>
+  
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_fellowships-and-funding menu__link" data-drupal-link-system-path="node/233" href="/https://humsci.stanford.edu/current-students/fellowships-and-funding">Fellowships and Funding</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_sterling-award-for-undergraduates menu__link" data-drupal-link-system-path="node/252" href="/https://humsci.stanford.edu/current-students/sterling-award-undergraduates">Sterling Award for Undergraduates</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_academic-and-community-resources menu__link" data-drupal-link-system-path="node/253" href="/https://humsci.stanford.edu/current-students/academic-and-community-resources">Academic and Community Resources</a>
+              </li>
+        </ul>
+  
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_academics-and-research menu__link" data-drupal-link-system-path="node/60" href="/https://humsci.stanford.edu/academics-and-research">Academics and Research</a>
+                                    <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_centers-institutes-and-affiliates menu__link" data-drupal-link-system-path="node/364" href="/https://humsci.stanford.edu/academics-and-research/centers-institutes-and-affiliates">Centers, Institutes, and Affiliates</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_careers-of-humanities-alumni menu__link" data-drupal-link-system-path="node/490" href="/https://humsci.stanford.edu/humanities-careers">Careers of Humanities Alumni</a>
+              </li>
+        </ul>
+  
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_news menu__link" data-drupal-link-system-path="node/304" href="/https://humsci.stanford.edu/news">News</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_about menu__link" target="" data-drupal-link-system-path="node/62" href="/https://humsci.stanford.edu/about">About</a>
+                                    <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_hs-dean menu__link" data-drupal-link-system-path="node/254" href="/https://humsci.stanford.edu/about/hs-dean">H&amp;S Dean</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_diversity-and-inclusion menu__link" data-drupal-link-system-path="node/269" href="/https://humsci.stanford.edu/about/diversity-and-inclusion">Diversity and Inclusion</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_hs-council menu__link" data-drupal-link-system-path="node/256" href="/https://humsci.stanford.edu/about/hs-council">H&amp;S Council</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_senior-associate-deans menu__link" data-drupal-link-system-path="node/255" href="/https://humsci.stanford.edu/about/senior-associate-deans">Senior Associate Deans</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_administrative-leads menu__link" data-drupal-link-system-path="node/257" href="/https://humsci.stanford.edu/about/administrative-leads">Administrative Leads</a>
+                                    <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_planning menu__link" data-drupal-link-system-path="node/363" href="/https://humsci.stanford.edu/about/administrative-leads/planning">Planning</a>
+              </li>
+        </ul>
+  
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_staff menu__link" target="" data-drupal-link-system-path="node/210" href="/https://humsci.stanford.edu/about/staff">Staff</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_national-awards menu__link" data-drupal-link-system-path="node/258" href="/https://humsci.stanford.edu/about/national-awards">National Awards</a>
+                                    <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_american-academy-of-arts-and-sciences menu__link" data-drupal-link-system-path="node/270" href="/https://humsci.stanford.edu/about/national-awards/american-academy-arts-and-sciences">American Academy of Arts and Sciences</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_macarthur-fellowship menu__link" data-drupal-link-system-path="node/271" href="/https://humsci.stanford.edu/about/national-awards/macarthur-fellowship">MacArthur Fellowship</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_national-academy-of-sciences menu__link" data-drupal-link-system-path="node/272" href="/https://humsci.stanford.edu/about/national-awards/national-academy-sciences">National Academy of Sciences</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_national-humanities-medal menu__link" data-drupal-link-system-path="node/273" href="/https://humsci.stanford.edu/about/national-awards/national-humanities-medal">National Humanities Medal</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_national-medal-of-science menu__link" data-drupal-link-system-path="node/274" href="/https://humsci.stanford.edu/about/national-awards/national-medal-science">National Medal of Science</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_nobel-prize menu__link" data-drupal-link-system-path="node/275" href="/https://humsci.stanford.edu/about/national-awards/nobel-prize">Nobel Prize</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_pulitzer-prize menu__link" data-drupal-link-system-path="node/276" href="/https://humsci.stanford.edu/about/national-awards/pulitzer-prize">Pulitzer Prize</a>
+              </li>
+        </ul>
+  
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_hs-history menu__link" data-drupal-link-system-path="node/259" href="/https://humsci.stanford.edu/about/hs-history">H&amp;S History</a>
+                                    <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_hs-past-deans menu__link" data-drupal-link-system-path="node/309" href="/https://humsci.stanford.edu/about/hs-history/hs-past-deans">H&amp;S Past Deans</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_giving menu__link" data-drupal-link-system-path="node/291" href="/https://humsci.stanford.edu/giving">Giving</a>
+                                    <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_ways-to-give menu__link" data-drupal-link-system-path="node/261" href="/https://humsci.stanford.edu/giving/ways-give">Ways to Give</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_annual-giving-to-graduate-education menu__link" data-drupal-link-system-path="node/264" href="/https://humsci.stanford.edu/giving/annual-giving-graduate-education">Annual Giving to Graduate Education</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_support-world-class-faculty menu__link" data-drupal-link-system-path="node/262" href="/https://humsci.stanford.edu/giving/support-world-class-faculty">Support World-Class Faculty</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_strengthen-graduate-scholarship menu__link" data-drupal-link-system-path="node/263" href="/https://humsci.stanford.edu/giving/strengthen-graduate-scholarship">Strengthen Graduate Scholarship</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_enhance-the-arts menu__link" data-drupal-link-system-path="node/265" href="/https://humsci.stanford.edu/giving/enhance-arts">Enhance the Arts</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_globalize-the-curriculum menu__link" data-drupal-link-system-path="node/266" href="/https://humsci.stanford.edu/giving/globalize-curriculum">Globalize the Curriculum</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_transform-science-education-and-research menu__link" data-drupal-link-system-path="node/267" href="/https://humsci.stanford.edu/giving/transform-science-education-and-research">Transform Science Education and Research</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_expand-our-understanding-of-the-universe menu__link" data-drupal-link-system-path="node/268" href="/https://humsci.stanford.edu/giving/expand-our-understanding-universe">Expand Our Understanding of the Universe</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+</div>
+  </header>
+
+  <main role="main" class="main">
+
+    <a id="main-content" tabindex="-1"></a>
+    <div class="main-admin">
+        <div>
+    
+
+  </div>
+
+    </div>
+    
+    
+    
+    <div class="main-content">
+        <div>
+    
+  
+<div id="block-stanford-hs-page-title" data-block-plugin-id="page_title_block" class="block block-core block-page_title_block">
+  <div class="block-inner">
+    
+        
+          
+
+
+
+      </div>
+</div>
+
+  
+<div id="block-stanford-hs-content" data-block-plugin-id="system_main_block" class="block block-system block-system_main_block">
+  <div class="block-inner">
+    
+        
+          <article class="node node--type-page node--view-mode-full clearfix">
+  
+    
+
+  <div>
+      <div class="layout layout--onecol">
+    <div class="layout__region layout__region--content">
+      <div class="block-region-content">
+
+
+
+
+    
+
+  <div data-block-plugin-id="block_content:0da5a584-fa85-4624-91e0-3f9069a0a32c" class="block block-block-content hero-title is-bg-color block-block_content block-0da5a584-fa85-4624-91e0-3f9069a0a32c">
+      <div class="hero-title__image">
+      
+
+
+            <div class="field field--name-field-hero-image field--type-image field--label-hidden field__item"><figure class="resp-image__wrapper resp-image__has-credit">
+  
+    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/hero_1170x560_xlarge_1x/public/sapp%20classroom%20hero%203200x1532_0.jpg?itok=qL8h6_t- 1x, /sites/default/files/styles/hero_1170x560_xlarge_2x/public/sapp%20classroom%20hero%203200x1532_0.jpg?itok=CHkUjGNe 2x" media="all and (min-width: 1200px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/hero_1170x560_large_1x/public/sapp%20classroom%20hero%203200x1532_0.jpg?itok=_xtBEhd- 1x, /sites/default/files/styles/hero_1170x560_large_2x/public/sapp%20classroom%20hero%203200x1532_0.jpg?itok=LmOvfAR9 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/hero_1170x560_medium_1x/public/sapp%20classroom%20hero%203200x1532_0.jpg?itok=BM8Lwf87 1x, /sites/default/files/styles/hero_1170x560_medium_2x/public/sapp%20classroom%20hero%203200x1532_0.jpg?itok=DlLaUVqw 2x" media="all and (min-width: 768px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/hero_1170x560_small_1x/public/sapp%20classroom%20hero%203200x1532_0.jpg?itok=hAFG0brM 1x, /sites/default/files/styles/hero_1170x560_small_2x/public/sapp%20classroom%20hero%203200x1532_0.jpg?itok=6wskTVKP 2x" media="all and (min-width: 576px)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+            <img alt="students in Sapp Center classroom" src="/https://humsci.stanford.edu/sites/default/files/styles/hero_1170x560_xlarge_1x/public/sapp%20classroom%20hero%203200x1532_0.jpg?itok=qL8h6_t-">
+
+  </picture>
+
+
+        <div class="resp-image__credit">
+      Eric Koziol
+    </div>
+  
+</figure>
+
+</div>
+      
+    </div>
+  
+  <div class="hero-title__inner">
+    <div class="hero__text contextual-region">
+      <div class="hero__text-inner">
+        
+        <h1>Discover academic freedom</h1>
+        
+                <a href="" class="down-button button">Skip to main content</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    
+
+
+  <div data-block-plugin-id="block_content:71885ccf-3611-415b-a8c2-70adfed4d11e" class="block block-block-content randomizer block-block_content block-71885ccf-3611-415b-a8c2-70adfed4d11e">
+  
+  <div class="randomizer__inner">
+    <div class="randomizer__text">
+      <div class="randomizer__text-inner">
+        <div>
+
+
+            <div class="field field--name-field-text field--type-text field--label-hidden field__item">Research and learning are the foundations of discovery.</div>
+      </div>        <a class="button" href="/https://humsci.stanford.edu/academics-research">Explore H&amp;S Departments and Programs</a>
+      </div>
+    </div>
+          <ul class="randomizer__images">
+                  <li class="randomizer__image">
+            <a href="/https://humsci.stanford.edu/academics-research">
+              <div class="randomizer__text-wrapper">
+                <p class="randomizer__title">Economics</p>
+                              </div>
+                              
+
+
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item"><figure class="resp-image__wrapper resp-image__no-credit">
+  
+    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/square_350x350_xlarge_1x/public/Economics-web_0.jpg?itok=KAEC4Tyj 1x, /sites/default/files/styles/1009/public/Economics-web_0.jpg?itok=-7c6t3HQ 2x" media="all and (min-width: 1200px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_large_1x/public/Economics-web_0.jpg?itok=bWzCc0M5 1x, /sites/default/files/styles/square_350x350_large_2x/public/Economics-web_0.jpg?itok=sWeCKCai 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_medium_1x/public/Economics-web_0.jpg?itok=xqTTTDta 1x, /sites/default/files/styles/square_350x350_medium_2x/public/Economics-web_0.jpg?itok=2pzyhiU4 2x" media="all and (min-width: 768px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_small_1x/public/Economics-web_0.jpg?itok=LJbsBfNC 1x, /sites/default/files/styles/square_350x350_small_2x/public/Economics-web_0.jpg?itok=qW3SHETf 2x" media="all and (min-width: 0)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+            <img alt="A blue and white globe sitting on a graph." src="/https://humsci.stanford.edu/sites/default/files/styles/square_350x350_xlarge_1x/public/Economics-web_0.jpg?itok=KAEC4Tyj">
+
+  </picture>
+
+
+    
+</figure>
+
+</div>
+      
+                          </a>
+          </li>
+                  <li class="randomizer__image">
+            <a href="/https://humsci.stanford.edu/academics-research">
+              <div class="randomizer__text-wrapper">
+                <p class="randomizer__title">Ethics in Society</p>
+                              </div>
+                              
+
+
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item"><figure class="resp-image__wrapper resp-image__no-credit">
+  
+    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/square_350x350_xlarge_1x/public/EthicsinSociety-web.jpg?itok=a95dqdpj 1x, /sites/default/files/styles/1009/public/EthicsinSociety-web.jpg?itok=5HsMJao_ 2x" media="all and (min-width: 1200px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_large_1x/public/EthicsinSociety-web.jpg?itok=GP7kXq-J 1x, /sites/default/files/styles/square_350x350_large_2x/public/EthicsinSociety-web.jpg?itok=uVBE_8cJ 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_medium_1x/public/EthicsinSociety-web.jpg?itok=RiRWkjhs 1x, /sites/default/files/styles/square_350x350_medium_2x/public/EthicsinSociety-web.jpg?itok=-anaRYFm 2x" media="all and (min-width: 768px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_small_1x/public/EthicsinSociety-web.jpg?itok=o3-8_JVp 1x, /sites/default/files/styles/square_350x350_small_2x/public/EthicsinSociety-web.jpg?itok=unZOrP2Y 2x" media="all and (min-width: 0)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+            <img alt="Old fashioned scale" src="/https://humsci.stanford.edu/sites/default/files/styles/square_350x350_xlarge_1x/public/EthicsinSociety-web.jpg?itok=a95dqdpj&amp;h=651b7884">
+
+  </picture>
+
+
+    
+</figure>
+
+</div>
+      
+                          </a>
+          </li>
+                  <li class="randomizer__image">
+            <a href="/https://humsci.stanford.edu/academics-research">
+              <div class="randomizer__text-wrapper">
+                <p class="randomizer__title">Music</p>
+                              </div>
+                              
+
+
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item"><figure class="resp-image__wrapper resp-image__no-credit">
+  
+    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/square_350x350_xlarge_1x/public/Music-web_0.jpg?itok=hiPbSRNA 1x, /sites/default/files/styles/1009/public/Music-web_0.jpg?itok=LJLWn50Y 2x" media="all and (min-width: 1200px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_large_1x/public/Music-web_0.jpg?itok=hhOwAZ-Z 1x, /sites/default/files/styles/square_350x350_large_2x/public/Music-web_0.jpg?itok=9Gmsqyar 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_medium_1x/public/Music-web_0.jpg?itok=-7C1ADi4 1x, /sites/default/files/styles/square_350x350_medium_2x/public/Music-web_0.jpg?itok=nVASsQbA 2x" media="all and (min-width: 768px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_small_1x/public/Music-web_0.jpg?itok=gQIcitA8 1x, /sites/default/files/styles/square_350x350_small_2x/public/Music-web_0.jpg?itok=6ERR61E3 2x" media="all and (min-width: 0)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+            <img alt="Sheet music." src="/https://humsci.stanford.edu/sites/default/files/styles/square_350x350_xlarge_1x/public/Music-web_0.jpg?itok=hiPbSRNA">
+
+  </picture>
+
+
+    
+</figure>
+
+</div>
+      
+                          </a>
+          </li>
+                  <li class="randomizer__image">
+            <a href="/https://humsci.stanford.edu/academics-research">
+              <div class="randomizer__text-wrapper">
+                <p class="randomizer__title">Biology</p>
+                              </div>
+                              
+
+
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item"><figure class="resp-image__wrapper resp-image__no-credit">
+  
+    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/square_350x350_xlarge_1x/public/Biology-web.jpg?itok=WSZL6iKH 1x, /sites/default/files/styles/1009/public/Biology-web.jpg?itok=2UBrQpUr 2x" media="all and (min-width: 1200px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_large_1x/public/Biology-web.jpg?itok=yO7Jn4cE 1x, /sites/default/files/styles/square_350x350_large_2x/public/Biology-web.jpg?itok=8Nuv2u4K 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_medium_1x/public/Biology-web.jpg?itok=FsSdcHUR 1x, /sites/default/files/styles/square_350x350_medium_2x/public/Biology-web.jpg?itok=L7fDnYiu 2x" media="all and (min-width: 768px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_small_1x/public/Biology-web.jpg?itok=hbA9mh1S 1x, /sites/default/files/styles/square_350x350_small_2x/public/Biology-web.jpg?itok=zRyAXe3X 2x" media="all and (min-width: 0)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+            <img alt="DNA strand" src="/https://humsci.stanford.edu/sites/default/files/styles/square_350x350_xlarge_1x/public/Biology-web.jpg?itok=WSZL6iKH">
+
+  </picture>
+
+
+    
+</figure>
+
+</div>
+      
+                          </a>
+          </li>
+              </ul>
+      </div>
+</div>
+    
+<div data-block-plugin-id="block_content:81b095aa-26ce-4f35-b1b2-3c44e942874c" class="is-bg-color--white block block-block-content block-block_content block-81b095aa-26ce-4f35-b1b2-3c44e942874c">
+  <div class="block-inner">
+    
+        
+          
+
+            <div class="text-long"><h2 class="text-align-center">The School of Humanities and Sciences is the center of a world-class liberal arts education.</h2></div>
+      
+      </div>
+</div>
+
+
+
+    
+
+
+      <div data-block-plugin-id="block_content:9baf0256-221a-49e0-83a6-668b9b5fb919" class="block block-block-content circle-stats block-block_content block-9baf0256-221a-49e0-83a6-668b9b5fb919">
+      
+    <ul class="circles">
+                                        <li class="circle-stats--length-2">
+            <span>
+
+
+            <div class="field field--name-field-cs-number field--type-string field--label-hidden field__item">46</div>
+      </span>            
+
+
+            <div class="field field--name-field-cs-text field--type-string field--label-hidden field__item">Departments and Programs</div>
+              </li>
+                                        <li class="circle-stats--length-2">
+            <span>
+
+
+            <div class="field field--name-field-cs-number field--type-string field--label-hidden field__item">48</div>
+      </span>            
+
+
+            <div class="field field--name-field-cs-text field--type-string field--label-hidden field__item">Undergraduate Majors</div>
+              </li>
+                                        <li class="circle-stats--length-2">
+            <span>
+
+
+            <div class="field field--name-field-cs-number field--type-string field--label-hidden field__item">44</div>
+      </span>            
+
+
+            <div class="field field--name-field-cs-text field--type-string field--label-hidden field__item">Master's Degrees</div>
+              </li>
+                                        <li class="circle-stats--length-2">
+            <span>
+
+
+            <div class="field field--name-field-cs-number field--type-string field--label-hidden field__item">33</div>
+      </span>            
+
+
+            <div class="field field--name-field-cs-text field--type-string field--label-hidden field__item">Doctoral Degrees</div>
+              </li>
+          </ul>
+  </div>
+
+
+
+    
+
+
+  <div data-block-plugin-id="block_content:60e9259d-7762-4924-8936-c25996fe32a8" class="is-bg-color--beige block block-block-content fifty-fifty fifty-fifty-image- block-block_content block-60e9259d-7762-4924-8936-c25996fe32a8">
+
+  <div class="fifty-fifty__inner">
+
+    
+    
+
+    <div class="fifty-fifty__image">
+                
+
+
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item"><figure class="resp-image__wrapper resp-image__has-credit">
+  
+    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/feature_540x270_xlarge_1x/public/Taps314.184_web.jpg?itok=67MWFj-L 1x, /sites/default/files/styles/feature_540x270_xlarge_2x/public/Taps314.184_web.jpg?itok=vw5tzdxC 2x" media="all and (min-width: 1200px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/feature_540x270_large_1x/public/Taps314.184_web.jpg?itok=Xcok2lko 1x, /sites/default/files/styles/feature_540x270_large_2x/public/Taps314.184_web.jpg?itok=zzJ_yhjc 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/feature_540x270_medium_1x/public/Taps314.184_web.jpg?itok=n_6bPpdL 1x, /sites/default/files/styles/feature_540x270_medium_2x/public/Taps314.184_web.jpg?itok=kt9vnVn6 2x" media="all and (min-width: 768px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/feature_540x270_small_1x/public/Taps314.184_web.jpg?itok=eIeyfFyW 1x, /sites/default/files/styles/feature_540x270_small_2x/public/Taps314.184_web.jpg?itok=gIjpuWrV 2x" media="all and (min-width: 576px)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+            <img alt="graduate seminar" src="/https://humsci.stanford.edu/sites/default/files/styles/feature_540x270_xlarge_2x/public/Taps314.184_web.jpg?itok=vw5tzdxC&amp;h=82f92a78">
+
+  </picture>
+
+
+        <div class="resp-image__credit">
+      Photo by Misha Bruk
+    </div>
+  
+</figure>
+
+</div>
+      
+          </div>
+
+          <div class="fifty-fifty__text">
+
+        
+          
+          
+
+            <div class="text-long"><h2>All of our professors and students have different backgrounds, perspectives, and dreams. But it’s the ways they work together and the qualities they share that make H&amp;S special.&nbsp;</h2>
+
+<p><a class="link--more" href="/https://humsci.stanford.edu/about">Learn More about H&amp;S</a></p></div>
+      
+
+          
+        
+        
+      </div>
+    
+  </div>
+
+</div>
+
+
+
+
+    
+<div class="views-element-container block block-views block-views_block block-latest_news-block_1" data-block-plugin-id="views_block:latest_news-block_1">
+  <div class="block-inner">
+    
+        
+          <div><div class="js-view-dom-id-904abdeed69342e7e8746d49fe4aa1f4efa21609d0aef904f64451342da566c3">
+  
+  
+  
+
+  
+  
+  <div class="views-element-container"><div class="js-view-dom-id-a5de252b6f1a2c22f0022e31ee24a05faaa566887eec9f9f042ae835501cba8f">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+    <article role="article">
+
+  <h2 class="heading-2">News</h2>
+
+  
+      <h3 class="heading-3">
+      <a rel="bookmark" href="/https://humsci.stanford.edu/stanford-news-post/stanfords-akshay-venkatesh-wins-fields-medal"><span>Stanford’s Akshay Venkatesh wins Fields Medal</span>
+</a>
+    </h3>
+    
+
+  
+  <div>
+    
+
+
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item"><figure class="resp-image__wrapper resp-image__has-credit">
+   <a href="/https://humsci.stanford.edu/stanford-news-post/stanfords-akshay-venkatesh-wins-fields-medal"> 
+    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/feature_560x360_xlarge_1x/public/RSD16_100_0213a.jpg?itok=t9eONgAz 1x, /sites/default/files/styles/feature_560x360_xlarge_2x/public/RSD16_100_0213a.jpg?itok=A9MVUXhg 2x" media="all and (min-width: 1200px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/feature_730x375_large_1x/public/RSD16_100_0213a.jpg?itok=vaq4xard 1x, /sites/default/files/styles/feature_560x360_large_2x/public/RSD16_100_0213a.jpg?itok=R2B7Pg3D 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/feature_560x360_medium_1x/public/RSD16_100_0213a.jpg?itok=QMelwmIX 1x, /sites/default/files/styles/feature_560x360_medium_2x/public/RSD16_100_0213a.jpg?itok=bMmdfe5L 2x" media="all and (min-width: 768px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/feature_560x360_small_1x/public/RSD16_100_0213a.jpg?itok=LA1hxbwy 1x, /sites/default/files/styles/feature_560x360_small_2x/public/RSD16_100_0213a.jpg?itok=L92z-9t3 2x" media="all and (min-width: 576px)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+            <img alt="Ashkay Venkatesh" src="/https://humsci.stanford.edu/sites/default/files/styles/feature_560x360_xlarge_2x/public/RSD16_100_0213a.jpg?itok=A9MVUXhg">
+
+  </picture>
+
+
+   </a>       <div class="resp-image__credit">
+      Rod Searcey
+    </div>
+  
+</figure>
+
+</div>
+      
+
+
+            <div class="field field--name-field-date field--type-datetime field--label-hidden field__item">August 2, 2018</div>
+      
+  </div>
+
+</article>
+
+  </div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+
+      <div class="views-row">
+    <article role="article">
+
+  
+      <h3 class="heading-3">
+      <a rel="bookmark" href="/https://humsci.stanford.edu/stanford-news-post/fishing-bans-protect-fish-and-dont-harm-fishing-communities"><span>Fishing bans protect fish and don’t harm fishing communities</span>
+</a>
+    </h3>
+    
+
+  
+  <div>
+    
+
+
+            <div class="field field--name-field-date field--type-datetime field--label-hidden field__item">August 2, 2018</div>
+      
+
+
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item"><figure class="resp-image__wrapper resp-image__no-credit">
+   <a href="/https://humsci.stanford.edu/stanford-news-post/fishing-bans-protect-fish-and-dont-harm-fishing-communities"> 
+    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/teaser_350x235_xlarge_1x/public/stanford_news_rss/adriatic1-705x470.jpg?itok=JXx9Vdj5 1x, /sites/default/files/styles/teaser_350x235_xlarge_2x/public/stanford_news_rss/adriatic1-705x470.jpg?itok=wStBKNOW 2x" media="all and (min-width: 1200px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/teaser_350x235_large_1x/public/stanford_news_rss/adriatic1-705x470.jpg?itok=iS3CA703 1x, /sites/default/files/styles/teaser_350x235_large_2x/public/stanford_news_rss/adriatic1-705x470.jpg?itok=ij7KEA4x 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/teaser_350x235_medium_1x/public/stanford_news_rss/adriatic1-705x470.jpg?itok=tUDKs_Tu 1x, /sites/default/files/styles/teaser_350x235_medium_2x/public/stanford_news_rss/adriatic1-705x470.jpg?itok=Lze4KlK7 2x" media="all and (min-width: 768px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/teaser_350x235_small_1x/public/stanford_news_rss/adriatic1-705x470.jpg?itok=aKIHlYZc 1x, /sites/default/files/styles/teaser_350x235_small_2x/public/stanford_news_rss/adriatic1-705x470.jpg?itok=PTy9aMDJ 2x" media="all and (min-width: 576px)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+            <img src="/https://humsci.stanford.edu/sites/default/files/styles/teaser_350x235_xlarge_2x/public/stanford_news_rss/adriatic1-705x470.jpg?itok=wStBKNOW">
+
+  </picture>
+
+
+   </a>   
+</figure>
+
+</div>
+      
+  </div>
+
+</article>
+
+  </div>
+    <div class="views-row">
+    <article role="article">
+
+  
+      <h3 class="heading-3">
+      <a rel="bookmark" href="/https://humsci.stanford.edu/stanford-news-post/stanford-geneticist-bruce-baker-dies-72"><span>Stanford geneticist Bruce Baker dies at 72</span>
+</a>
+    </h3>
+    
+
+  
+  <div>
+    
+
+
+            <div class="field field--name-field-date field--type-datetime field--label-hidden field__item">July 27, 2018</div>
+      
+
+
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item"><figure class="resp-image__wrapper resp-image__no-credit">
+   <a href="/https://humsci.stanford.edu/stanford-news-post/stanford-geneticist-bruce-baker-dies-72"> 
+    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/teaser_350x235_xlarge_1x/public/stanford_news_rss/baker_1996_hz-705x470.jpg?itok=jKu0nS0N 1x, /sites/default/files/styles/teaser_350x235_xlarge_2x/public/stanford_news_rss/baker_1996_hz-705x470.jpg?itok=Hv6YEh5W 2x" media="all and (min-width: 1200px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/teaser_350x235_large_1x/public/stanford_news_rss/baker_1996_hz-705x470.jpg?itok=yLCqbCIJ 1x, /sites/default/files/styles/teaser_350x235_large_2x/public/stanford_news_rss/baker_1996_hz-705x470.jpg?itok=SMHtlGkJ 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/teaser_350x235_medium_1x/public/stanford_news_rss/baker_1996_hz-705x470.jpg?itok=LZ_HXXwS 1x, /sites/default/files/styles/teaser_350x235_medium_2x/public/stanford_news_rss/baker_1996_hz-705x470.jpg?itok=YRR2bgSH 2x" media="all and (min-width: 768px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/teaser_350x235_small_1x/public/stanford_news_rss/baker_1996_hz-705x470.jpg?itok=NQcd2cga 1x, /sites/default/files/styles/teaser_350x235_small_2x/public/stanford_news_rss/baker_1996_hz-705x470.jpg?itok=mJ2_QmXR 2x" media="all and (min-width: 576px)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+            <img src="/https://humsci.stanford.edu/sites/default/files/styles/teaser_350x235_xlarge_2x/public/stanford_news_rss/baker_1996_hz-705x470.jpg?itok=Hv6YEh5W">
+
+  </picture>
+
+
+   </a>   
+</figure>
+
+</div>
+      
+  </div>
+
+</article>
+
+  </div>
+    <div class="views-row">
+    <article role="article">
+
+  
+      <h3 class="heading-3">
+      <a rel="bookmark" href="/https://humsci.stanford.edu/stanford-news-post/border-wall-threatens-biodiversity"><span>Border wall threatens biodiversity</span>
+</a>
+    </h3>
+    
+
+  
+  <div>
+    
+
+
+            <div class="field field--name-field-date field--type-datetime field--label-hidden field__item">July 24, 2018</div>
+      
+
+
+            <div class="field field--name-field-image field--type-image field--label-hidden field__item"><figure class="resp-image__wrapper resp-image__no-credit">
+   <a href="/https://humsci.stanford.edu/stanford-news-post/border-wall-threatens-biodiversity"> 
+    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/teaser_350x235_xlarge_1x/public/stanford_news_rss/border_wall1-705x470.jpg?itok=YFgFCo3b 1x, /sites/default/files/styles/teaser_350x235_xlarge_2x/public/stanford_news_rss/border_wall1-705x470.jpg?itok=F47MHuhd 2x" media="all and (min-width: 1200px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/teaser_350x235_large_1x/public/stanford_news_rss/border_wall1-705x470.jpg?itok=GQey1NhA 1x, /sites/default/files/styles/teaser_350x235_large_2x/public/stanford_news_rss/border_wall1-705x470.jpg?itok=oIEgMOuE 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/teaser_350x235_medium_1x/public/stanford_news_rss/border_wall1-705x470.jpg?itok=YF8YwTLM 1x, /sites/default/files/styles/teaser_350x235_medium_2x/public/stanford_news_rss/border_wall1-705x470.jpg?itok=ysO15F8c 2x" media="all and (min-width: 768px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/teaser_350x235_small_1x/public/stanford_news_rss/border_wall1-705x470.jpg?itok=7TJtWo1O 1x, /sites/default/files/styles/teaser_350x235_small_2x/public/stanford_news_rss/border_wall1-705x470.jpg?itok=WI2k8wjC 2x" media="all and (min-width: 576px)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+            <img src="/https://humsci.stanford.edu/sites/default/files/styles/teaser_350x235_xlarge_2x/public/stanford_news_rss/border_wall1-705x470.jpg?itok=F47MHuhd">
+
+  </picture>
+
+
+   </a>   
+</figure>
+
+</div>
+      
+  </div>
+
+</article>
+
+  </div>
+
+  
+  
+
+  
+  <div class="more-link"><a href="/https://humsci.stanford.edu/news">See all news</a></div>
+
+
+  
+  
+</div>
+</div>
+
+      </div>
+</div>
+
+
+    
+
+  <div data-block-plugin-id="block_content:19e763b1-76c7-41cb-9887-055b5632aba8" class="block block-block-content featured-quote block-block_content block-19e763b1-76c7-41cb-9887-055b5632aba8">
+  
+      <div class="featured-quote__image">
+              
+
+
+            <div class="field field--name-field-featured-quote-image field--type-image field--label-hidden field__item"><figure class="resp-image__wrapper resp-image__no-credit">
+  
+    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/square_350x350_xlarge_1x/public/miranda-stratton-110817-53-web_0.jpg?itok=EIg-jJbr 1x, /sites/default/files/styles/1009/public/miranda-stratton-110817-53-web_0.jpg?itok=sc8G3P1D 2x" media="all and (min-width: 1200px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_large_1x/public/miranda-stratton-110817-53-web_0.jpg?itok=4hucLBCY 1x, /sites/default/files/styles/square_350x350_large_2x/public/miranda-stratton-110817-53-web_0.jpg?itok=H1NAI4q8 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_medium_1x/public/miranda-stratton-110817-53-web_0.jpg?itok=Ccn2Y6OO 1x, /sites/default/files/styles/square_350x350_medium_2x/public/miranda-stratton-110817-53-web_0.jpg?itok=vsYvMwaW 2x" media="all and (min-width: 768px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/square_350x350_small_1x/public/miranda-stratton-110817-53-web_0.jpg?itok=U9CJQyKq 1x, /sites/default/files/styles/square_350x350_small_2x/public/miranda-stratton-110817-53-web_0.jpg?itok=2mRBhqeO 2x" media="all and (min-width: 0)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+            <img alt="Miranda Stratton" src="/https://humsci.stanford.edu/sites/default/files/styles/square_350x350_xlarge_1x/public/miranda-stratton-110817-53-web_0.jpg?itok=EIg-jJbr">
+
+  </picture>
+
+
+    
+</figure>
+
+</div>
+      
+          </div>
+  
+      <div class="featured-quote__text">
+      <blockquote>
+
+
+            <div class="field field--name-field-featured-quote-quote field--type-string-long field--label-hidden field__item">As the first in my family to go to college, I try to share every piece of information that I learn with them, to be a bridge for others to the world of scientific research. As a biologist, I focus a lot on articulating my work. At Stanford, I have found phenomenal mentors who are not only well-rounded academically, but also share my commitment to promoting diversity in the scientific community and conducting research that benefits society.</div>
+      </blockquote>      <span class="featured-quote__byline">
+
+
+            <div class="field field--name-field-featured-quote-source field--type-string field--label-hidden field__item">Miranda Stratton, Doctoral Candidate in Biology, 2017-19 DARE Fellow</div>
+      </span>    </div>
+  
+</div>
+
+
+
+
+    
+
+
+  <div data-block-plugin-id="block_content:40680068-4ea3-41dc-8494-b950f9e51e33" class="block block-block-content video-with-overlay is-bg-color block-block_content block-40680068-4ea3-41dc-8494-b950f9e51e33">
+
+  <div class="inner">
+            
+
+
+            <div class="field field--name-field-vo-video field--type-entity-reference field--label-hidden field__item"><article class="media media-video view-mode-embedded">
+      
+
+
+            <div class="field field--name-field-media-video-embed-field field--type-video-embed-field field--label-hidden field__item"><div class="video-embed-field-responsive-video"><iframe width="854" height="480" frameborder="0" allowfullscreen="allowfullscreen" src="/https://www.youtube.com/embed/sdGx99KG-vU?autoplay=0&amp;start=0&amp;rel=0"></iframe>
+</div>
+</div>
+      
+  </article>
+</div>
+      
+                
+
+
+            <div class="field field--name-field-vo-background-image field--type-image field--label-hidden field__item"><figure class="resp-image__wrapper resp-image__no-credit">
+  
+    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/hero_1170x560_xlarge_1x/public/Drone%20Video%20Overlay.jpg?itok=lKdndwMk 1x, /sites/default/files/styles/hero_1170x560_xlarge_2x/public/Drone%20Video%20Overlay.jpg?itok=fLf3P4xQ 2x" media="all and (min-width: 1200px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/hero_1170x560_large_1x/public/Drone%20Video%20Overlay.jpg?itok=N4Mv9Za6 1x, /sites/default/files/styles/hero_1170x560_large_2x/public/Drone%20Video%20Overlay.jpg?itok=eG-wzUIn 2x" media="all and (min-width: 992px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/hero_1170x560_medium_1x/public/Drone%20Video%20Overlay.jpg?itok=x4dVE4wu 1x, /sites/default/files/styles/hero_1170x560_medium_2x/public/Drone%20Video%20Overlay.jpg?itok=oD3nfxlt 2x" media="all and (min-width: 768px)" type="image/jpeg">
+              <source srcset="/sites/default/files/styles/hero_1170x560_small_1x/public/Drone%20Video%20Overlay.jpg?itok=rOsnyL52 1x, /sites/default/files/styles/hero_1170x560_small_2x/public/Drone%20Video%20Overlay.jpg?itok=ZGE2Dryb 2x" media="all and (min-width: 576px)" type="image/jpeg">
+            <!--[if IE 9]></video><![endif]-->
+            <img alt="" src="/https://humsci.stanford.edu/sites/default/files/styles/hero_1170x560_xlarge_1x/public/Drone%20Video%20Overlay.jpg?itok=lKdndwMk">
+
+  </picture>
+
+
+    
+</figure>
+
+</div>
+      
+              
+
+
+            <div class="field field--name-field-vo-background-video field--type-file field--label-hidden field__item" aria-hidden="true">/sites/default/files/2018-06/QUAD_FLYBY_DJI0034_0000000720%20Mobile.mp4</div>
+      <button aria-label="Play" type="button" class="play-button">
+  <i class="fa fa-pause-circle"></i>
+</button>
+              <div class="video-with-overlay__text">
+      <div class="inner">
+                  <h2>
+
+
+            <div class="field field--name-field-vo-title field--type-string field--label-hidden field__item">Begin your journey with the School of Humanities and Sciences</div>
+      </h2>
+                          <button class="button button--alt-4">
+
+
+            Watch the Video
+      </button>
+              </div>
+    </div>
+  </div>
+
+</div>
+</div>
+    </div>
+  </div>
+
+  </div>
+</article>
+
+      </div>
+</div>
+
+  </div>
+
+    </div>
+  </main>
+
+  
+  <footer class="footer">
+    <div class="footer__inner">
+              <div class="footer__footer1">
+            <div>
+    
+    
+<div id="block-footerabout" data-block-plugin-id="block_content:55baac1c-9fbb-49a4-8eb6-ae0e25cf9beb" class="is-bg-color--white block block-block-content block-block_content block-55baac1c-9fbb-49a4-8eb6-ae0e25cf9beb">
+  <div class="block-inner">
+    
+          <h2 class="heading-2">About</h2>
+        
+          
+
+            <div class="text-long"><p>The School of Humanities and Sciences is the foundation of a liberal arts education at Stanford. The school encompasses 23 departments and 23&nbsp;interdisciplinary programs. It is the university's home for fundamental research, where free, open, and critical inquiry is pursued across disciplines.</p>
+
+<p><a href="/https://humsci.stanford.edu/about">Learn more about H&amp;S</a></p></div>
+      
+      </div>
+</div>
+
+    
+<div id="block-footersociallinks" data-block-plugin-id="menu_block:footer-social-links" class="block block-menu-block block-menu_block block-footer-social-links">
+  <div class="block-inner">
+    
+        
+          
+
+                  <ul>
+                            
+      <li class="menu__item">
+        <a title="School of Humanities and Sciences on Facebook" class="menu__link_facebook menu__link" href="/https://www.facebook.com/stanford.humsci">Facebook</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a title="School of Humanities and Sciences on Twitter" class="menu__link_twitter menu__link" href="/https://twitter.com/stanfordhumsci">Twitter</a>
+              </li>
+        </ul>
+  
+
+
+      </div>
+</div>
+
+  </div>
+
+        </div>
+      
+              <div class="footer__footer2">
+            <div>
+    
+    
+<div id="block-footerhsresources" data-block-plugin-id="menu_block:footer" class="block block-menu-block block-menu_block block-footer">
+  <div class="block-inner">
+    
+          <h2 class="heading-2">H&amp;S resources</h2>
+        
+          
+
+                  <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_external-relations menu__link" data-drupal-link-system-path="node/261" href="/https://humsci.stanford.edu/giving/ways-give">External Relations</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_facilities-and-capital-planning- menu__link" target="" href="/http://web.stanford.edu/dept/humsci/cgi-bin/facilities/">Facilities and Capital Planning </a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_faculty-affairs menu__link" target="" href="/https://facultyaffairs-humsci.stanford.edu/">Faculty Affairs</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_finance menu__link" target="" href="/https://finance-humsci.stanford.edu/">Finance</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_graduate-and-undergraduate-studies menu__link" target="" href="/https://gus-humsci.stanford.edu/">Graduate and Undergraduate Studies</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_human-resources menu__link" href="/https://hshr.stanford.edu">Human Resources</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_information-technology menu__link" target="" href="/https://it-humsci.stanford.edu/">Information Technology</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_planning menu__link" data-drupal-link-system-path="node/363" href="/https://humsci.stanford.edu/about/administrative-leads/planning">Planning</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_public-relations menu__link" data-drupal-link-system-path="node/257" href="/https://humsci.stanford.edu/about/administrative-leads">Public Relations</a>
+              </li>
+        </ul>
+  
+
+
+      </div>
+</div>
+
+  </div>
+
+        </div>
+      
+              <div class="footer__footer3">
+            <div>
+    
+    
+<div id="block-footercontact" data-block-plugin-id="block_content:e93d367f-8371-441e-aa2b-58711870c8ef" class="is-bg-color--white block block-block-content block-block_content block-e93d367f-8371-441e-aa2b-58711870c8ef">
+  <div class="block-inner">
+    
+          <h2 class="heading-2">Contact Us</h2>
+        
+          
+
+            <div class="text-long"><p>Building 1, Main Quad<br>
+450 Serra Mall<br>
+Stanford, CA 94305-2070</p>
+
+<p>Phone: 650-723-2275<br>
+Fax: 650-723-3235</p></div>
+      
+      </div>
+</div>
+
+    
+<div id="block-footercontactlinks" data-block-plugin-id="menu_block:footer-contact-links" class="block block-menu-block block-menu_block block-footer-contact-links">
+  <div class="block-inner">
+    
+        
+          
+
+                  <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_hsdeansofclistsstanfordedu menu__link" target="_blank" aria-label="Email the Dean of H&amp;S" title="Email hsdeansofc@lists.stanford.edu" href="/https://humsci.stanford.edu/mailto:hsdeansofc@lists.stanford.edu">hsdeansofc@lists.stanford.edu</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a title="View the Campus Map" class="menu__link_campus-map menu__link" href="/https://campus-map.stanford.edu/?id=01-001&amp;lat=37.42780204&amp;lng=-122.1696657&amp;zoom=17&amp;srch=Building%201">Campus Map</a>
+              </li>
+        </ul>
+  
+
+
+      </div>
+</div>
+
+  </div>
+
+        </div>
+      
+              <div class="footer__footer4">
+            <div>
+    
+    
+<div id="block-footeruniversityresources" data-block-plugin-id="menu_block:footer-university-resources" class="block block-menu-block block-menu_block block-footer-university-resources">
+  <div class="block-inner">
+    
+          <h2 class="heading-2">University resources</h2>
+        
+          
+
+                  <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_report-a-website-problem menu__link" target="" href="/https://humsci.stanford.edu/mailto:hs-communications@stanford.edu">Report a website problem</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_stanford-non-discrimination-policy menu__link" target="" href="/https://studentaffairs.stanford.edu/policies">Stanford Non-Discrimination Policy</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_stanford-university menu__link" target="" href="/http://www.stanford.edu/">Stanford University</a>
+              </li>
+        </ul>
+  
+
+
+      </div>
+</div>
+
+  </div>
+
+        </div>
+          </div>
+  </footer>
+
+</div>
+        
+      </div> <!-- #su-content end -->
+    </div> <!-- #su-wrap end -->
+
+    <!-- Global footer snippet start -->
+    <div id="global-footer">
+      <div class="container">
+        <div class="row">
+          <div id="bottom-logo" class="span2">
+            <a href="/http://www.stanford.edu">
+              <img alt="Stanford University" width="105" height="49" src="/https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png">
+            </a>
+          </div> <!-- #bottom-logo end -->
+          <div id="bottom-text" class="span10">
+              <div>
+    <ul>
+                            
+      <li class="menu__item">
+        <a class="menu__link_stanford-home menu__link" href="/https://www.stanford.edu">Stanford Home</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_maps--directions menu__link" href="/https://visit.stanford.edu/plan">Maps &amp; Directions</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_search-stanford menu__link" href="/https://www.stanford.edu/search">Search Stanford</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_emergency-info menu__link" href="/https://emergency.stanford.edu">Emergency Info</a>
+              </li>
+        </ul>
+  
+      
+    
+  
+    
+          
+        
+          
+                  <ul>
+                            
+      <li class="menu__item">
+        <a title="Terms of use for sites" class="menu__link_terms-of-use menu__link" href="/https://www.stanford.edu/site/terms">Terms of Use</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a title="Privacy and cookie policy" class="menu__link_privacy menu__link" href="/https://www.stanford.edu/site/privacy">Privacy</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a class="menu__link_copyright menu__link" title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a title="Ownership and use of Stanford trademarks and images" class="menu__link_trademark menu__link" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademark</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a title="Non-discrimination policy" class="menu__link_non-discrimination menu__link" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination">Non-Discrimination</a>
+              </li>
+                        
+      <li class="menu__item">
+        <a title="Report web accessibility issues" class="menu__link_accessibility menu__link" href="/https://www.stanford.edu/site/accessibility">Accessibility</a>
+              </li>
+        </ul>
+  
+      
+    
+  
+    
+        
+          
+            <p>© Stanford University, Stanford, California 94305</p>
+  </div>
+
+          </div> <!-- .bottom-text end -->
+        </div> <!-- .row end -->
+      </div> <!-- .container end -->
+    </div> <!-- global-footer end -->
+    <!-- Global footer snippet end -->
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/40","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","fitvids":{"selectors":".node\r,.field","custom_vendors":"","ignore_selectors":""},"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"stanfordMediaVideoWithOverlay":{"40680068-4ea3-41dc-8494-b950f9e51e33":{"videoBackgroundSrc":"https:\/\/humsci.stanford.edu\/sites\/default\/files\/2018-06\/QUAD_FLYBY_DJI0034_0000000720%20Mobile.mp4","allowedBreakpoints":["large","xlarge"],"videoFieldWrapperClass":"field--name-field-vo-background-video","imageFieldWrapperClass":"field--name-field-vo-background-image"}},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"ajax":[],"user":{"uid":0,"permissionsHash":"d16e4becac1c26084dd9bc691d2b154c1e6fdd1b79bf7fbead689a74c759f04c"}}</script>
+<script src="/https://humsci.stanford.edu/sites/default/files/js/js_2_xbvQWepAjtk5kNvXgqEhcavc8YKUOsviScLB5jWpM.js"></script>
+
+  
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"1a8a693eb4","applicationID":"37875605","transactionName":"MQBTYURZWkAFVUUNDAhKcFZCUVtdS3JDERMHCW12WUpRbyJZQwk\/IApDWHRNXV8AU0NJXRQAX1FTSmRfBVVUDAwKAVRHcFdGXiVVRQ0MCA==","queueTime":0,"applicationTime":372,"atts":"HUdQFwxDSU4=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+</body></html>

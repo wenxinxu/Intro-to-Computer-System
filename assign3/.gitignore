@@ -1,0 +1,22 @@
+# assign4 .gitignore
+
+# don't track these build products, anchored to top-level dir
+/*.d
+/*.o
+/*.a
+
+# explicitly name project executables here
+conduit
+fpe
+int
+spin
+split
+stsh
+tstp
+stsh-parser/stsh-parse-test
+
+# Ignore generated scanner/parser
+stsh-parser/parser.cc
+stsh-parser/parser.h
+stsh-parser/parser.output
+stsh-parser/scanner.cc

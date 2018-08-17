@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta property="og:image" content="http://shc.stanford.edu/sites/default/files/slider/frontpage_shc_0.png">
+<meta property="og:site_name" content="Welcome to the Stanford Humanities Center">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/http://shc.stanford.edu/sites/all/themes/humanities/favicon.ico">
+<meta property="og:description" content="&amp;quot;The humanities are the tools through which we explore the human world. Everything that makes us human—that falls under the umbrella of the humanities.&amp;quot;
+— Caroline Winterer, Center Director 
+">
+<meta name="google-site-verification" content="bUEYTjT_rAaQxB_JMjA-vLBHyoLQm6N45e67K00Work">
+<meta name="generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="/http://shc.stanford.edu/">
+<link rel="shortlink" href="/http://shc.stanford.edu/">
+<meta property="og:site_name" content="Stanford Humanities">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://shc.stanford.edu/">
+<meta property="og:title" content="Stanford Humanities">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="http://shc.stanford.edu/">
+<meta name="twitter:title" content="Stanford Humanities">
+<meta name="dcterms.title" content="Stanford Humanities">
+<meta name="dcterms.type" content="Text">
+<meta name="dcterms.format" content="text/html">
+<meta name="dcterms.identifier" content="http://shc.stanford.edu/">
+  <link rel="apple-touch-icon" sizes="144x144" href="/http://shc.stanford.edu/sites/all/themes/humanities/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="114x114" href="/http://shc.stanford.edu/sites/all/themes/humanities/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/http://shc.stanford.edu/sites/all/themes/humanities/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" href="/http://shc.stanford.edu/sites/all/themes/humanities/apple-touch-icon.png">
+<link rel="apple-touch-startup-image" href="/http://shc.stanford.edu/sites/all/themes/humanities/apple-startup.png">
+  <title>Stanford Humanities |</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/http://shc.stanford.edu/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/http://shc.stanford.edu/sites/default/files/css/css_iq3UR42S_6W0FtEjATje1qgqjpa8xQgECA3Pb3uMa5o.css">
+<link type="text/css" rel="stylesheet" media="all" href="/http://shc.stanford.edu/sites/default/files/css/css_0jhXfYl9AczN0PN_4ESFzXbPPiHGA-GIkCmpE6nFpwo.css">
+<link type="text/css" rel="stylesheet" media="all" href="/http://shc.stanford.edu/sites/default/files/css/css_POYO8uo8hBvNkdnnoboXxJ9ktDmcG7au-KFhKC_zcYk.css">
+<link type="text/css" rel="stylesheet" media="all" href="/http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" media="all" href="/http://shc.stanford.edu/sites/default/files/css/css_VWhyBJHT3oBs3lw8dLHguBg2ib1mNuZ3bfwh-0CO70Y.css">
+
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" href="http://shc.stanford.edu/sites/all/themes/humanities/css/ie.css?p7sced" media="all" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://shc.stanford.edu/sites/all/themes/humanities/css/ie9.css?p7sced" media="all" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://shc.stanford.edu/sites/all/themes/humanities/css/ie8.css?p7sced" media="all" />
+<![endif]-->
+  <script src="/http://shc.stanford.edu/sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs.js"></script>
+<script src="/http://shc.stanford.edu/sites/default/files/js/js_CC-zfeuQHcDhFtVRuKW53h30TL7j_105J32Nz8b8R38.js"></script>
+<script src="/http://shc.stanford.edu/sites/default/files/js/js_NpX2cwCeepkWZZ194B6-ViyVBHleaYLOx5R9EWBOMRU.js"></script>
+<script src="/http://shc.stanford.edu/sites/default/files/js/js_UzpbWo_7-cUY3W7hvegLmZZCv798g59pWmXFglXL9sE.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-10321397-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="/http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+<script src="/http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<script src="/http://shc.stanford.edu/sites/default/files/js/js_scV2Z_wI7YC02B-K0Lde_Yi5TgelWhsPXpvczMWDMrg.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"humanities","theme_token":"CzCUDCK9EvAbfFBeZx-UKnrYMstiZTCGwi_MnRkTbvY","js":{"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/modules\/custom\/resp_img\/resp_img.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/contrib\/image_caption\/image_caption.min.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"http:\/\/cdnjs.cloudflare.com\/ajax\/libs\/modernizr\/2.0.6\/modernizr.min.js":1,"\/\/cdnjs.cloudflare.com\/ajax\/libs\/html5shiv\/3.7.3\/html5shiv.js":1,"sites\/all\/themes\/humanities\/js\/lte-ie7.js":1,"sites\/all\/themes\/humanities\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/themes\/humanities\/plugins\/layouts\/onecolumn-bootstrap\/onecolumn.css":1,"sites\/all\/themes\/humanities\/plugins\/layouts\/twocolumn-bootstrap\/twocolumn.css":1,"sites\/all\/themes\/humanities\/plugins\/layouts\/global\/global.css":1,"\/\/netdna.bootstrapcdn.com\/bootstrap\/3.0.2\/css\/bootstrap.min.css":1,"sites\/all\/themes\/circle\/css\/normalize.css":1,"sites\/all\/themes\/circle\/css\/circle.css":1,"sites\/all\/themes\/humanities\/fonts\/fonts.css":1,"sites\/all\/themes\/humanities\/css\/styles.css":1,"sites\/all\/themes\/humanities\/css\/ie.css":1,"sites\/all\/themes\/humanities\/css\/ie9.css":1,"sites\/all\/themes\/humanities\/css\/ie8.css":1}},"colorbox":{"transition":"fade","speed":"250","opacity":"0.85","slideshow":false,"slideshowAuto":false,"slideshowSpeed":"6000","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab","next":"\u00bb","close":"Close","overlayClose":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"300","initialHeight":"250","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"respImg":{"default_suffix":"","current_suffix":false,"forceRedirect":false,"forceResize":false,"reloadOnResize":false,"useDevicePixelRatio":false,"suffixes":{"":1}},"better_exposed_filters":{"views":{"home_recent_stories":{"displays":{"listing":{"filters":[]}}}}},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"urlIsAjaxTrusted":{"\/":true}});</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-home  ">
+  <div id="skip-link">
+    <a class="element-invisible element-focusable" href="/http://shc.stanford.edu/">
+      Skip to main content    </a>
+  </div>
+      <div class="mobile-sidebar">
+    <div class="panel-pane pane-block pane-sh-mobile-menu-mobile-menu">
+  
+      
+        <div class="pane-content col-md-12">
+      <a class="menu-home-link" href="/http://shc.stanford.edu/">Home</a><ul class="menu menu-menu-header-top"><li class="first leaf depth-1 item-menu-header-top"><a class="link-menu-header-top" href="/http://shc.stanford.edu/news">News</a></li>
+<li class="leaf depth-1 item-menu-header-top"><a class="link-menu-header-top" href="/http://shc.stanford.edu/multimedia">Multimedia</a></li>
+<li class="leaf depth-1 item-menu-header-top"><a class="link-menu-header-top" href="/http://shc.stanford.edu/digital-humanities">Digital Humanities</a></li>
+<li class="last leaf depth-1 item-menu-header-top"><a class="link-menu-header-top" href="/http://shc.stanford.edu/support">Support</a></li>
+</ul><ul class="menu menu-menu-header-bottom"><li class="first collapsed depth-1 item-menu-header-bottom"><a class="link-menu-header-bottom" href="/http://shc.stanford.edu/about-us">About</a></li>
+<li class="leaf depth-1 item-menu-header-bottom"><a class="link-menu-header-bottom" href="/http://shc.stanford.edu/fellowships">Fellowships</a></li>
+<li class="leaf depth-1 item-menu-header-bottom"><a class="link-menu-header-bottom" href="/http://shc.stanford.edu/workshops">Workshops</a></li>
+<li class="leaf depth-1 item-menu-header-bottom"><a class="link-menu-header-bottom" href="/http://shc.stanford.edu/events">Events</a></li>
+<li class="collapsed depth-1 item-menu-header-bottom"><a class="link-menu-header-bottom" href="/http://shc.stanford.edu/people">People</a></li>
+<li class="last leaf depth-1 item-menu-header-bottom"><a class="link-menu-header-bottom" href="/http://shc.stanford.edu/news/qa">Q&amp;As</a></li>
+</ul><ul class="menu menu-menu-social-share"><li class="first leaf depth-1 item-menu-social-share"><a class="facebook link-menu-social-share external-link" href="/https://www.facebook.com/HumanatStanford">Facebook</a></li>
+<li class="leaf depth-1 item-menu-social-share"><a class="twitter link-menu-social-share external-link" href="/https://twitter.com/HumanatStanford">Twitter</a></li>
+<li class="leaf depth-1 item-menu-social-share"><a class="youtube link-menu-social-share external-link" href="/http://www.youtube.com/user/StanfordHumanities">Youtube</a></li>
+<li class="last leaf depth-1 item-menu-social-share"><a class="subscribe link-menu-social-share" href="/http://shc.stanford.edu/subscribe">Subscribe</a></li>
+</ul>  </div>
+
+  
+  </div>
+  </div>
+<div class="global-layout ">
+    <div class="clearfix frame-header_menu frame-item-0">
+        <div class="panel-two-column clearfix container-fluid subheader-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 grid-system-column">
+                        <div class="row">
+                                                      <div class="panel-pane pane-menu-tree pane-menu-header-top">
+  
+      
+        <div class="pane-content col-md-12">
+      <div class="menu-block-wrapper menu-block-ctools-menu-header-top-1 menu-name-menu-header-top parent-mlid-menu-header-top-0 menu-level-1">
+  <ul class="menu menu-menu-header-top"><li class="first leaf menu-mlid-852 depth-1 item-menu-header-top"><a class="link-menu-header-top" href="/http://shc.stanford.edu/news">News</a></li>
+<li class="leaf menu-mlid-1418 depth-1 item-menu-header-top"><a class="link-menu-header-top" href="/http://shc.stanford.edu/multimedia">Multimedia</a></li>
+<li class="leaf menu-mlid-9941 depth-1 item-menu-header-top"><a class="link-menu-header-top" href="/http://shc.stanford.edu/digital-humanities">Digital Humanities</a></li>
+<li class="last leaf menu-mlid-706 depth-1 item-menu-header-top"><a class="link-menu-header-top" href="/http://shc.stanford.edu/support">Support</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+                                                  </div>
+                    </div>
+                    <div class="col-md-3 grid-system-column">
+                        <div class="row">
+                                                      <div class="panel-pane pane-block pane-sh-search-site-wide-search-block">
+  
+      
+        <div class="pane-content col-md-12">
+      <form class="site-search-form site-header-search-form--2" action="/" method="post" id="site-header-search-form--2" accept-charset="UTF-8"><div><div class="form-type-textfield form-item-site-header-search-form">  <label class="field-site_header_search_form-label" for="edit-site-header-search-form--4">Search </label>
+ <input class="field-site_header_search_form-textfield form-text" data-label="Search" type="text" id="edit-site-header-search-form--4" name="site_header_search_form" value="" size="15" maxlength="128"></div><input type="hidden" name="form_build_id" value="form-uxi1LNpwxvOlmIR9DYFvgp-kAo7Uw56DfFObpL0SJrs">
+<input type="hidden" name="form_id" value="site_header_search_form">
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit"></div></div></form>  </div>
+
+  
+  </div>
+                                                  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix frame-logo_and_social frame-item-1">
+        <div class="panel-two-column clearfix container-fluid header-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 grid-system-column">
+                        <div class="row">
+                                                      <div class="panel-pane pane-custom pane-2 mobile-menu-button-wrapper">
+  
+      
+        <div class="pane-content col-md-12">
+      <p><span class="mobile-menu-button">Menu</span></p>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-page-logo">
+  
+      
+        <div class="pane-content col-md-12">
+      <a rel="home" id="logo" title="Home" href="/http://shc.stanford.edu/"><img alt="Home" src="/http://shc.stanford.edu/sites/default/files/hum_red_retina.png"></a>  </div>
+
+  
+  </div>
+<div class="panel-pane pane-block pane-sh-search-site-wide-search-block mobile-search">
+  
+      
+        <div class="pane-content col-md-12">
+      <form class="site-search-form site-header-search-form" action="/" method="post" id="site-header-search-form" accept-charset="UTF-8"><div><div class="form-type-textfield form-item-site-header-search-form">  <label class="field-site_header_search_form-label" for="edit-site-header-search-form--2">Search </label>
+ <input class="field-site_header_search_form-textfield form-text" data-label="Search" type="text" id="edit-site-header-search-form--2" name="site_header_search_form" value="" size="15" maxlength="128"></div><input type="hidden" name="form_build_id" value="form-axqTXJLHvjTVb0_Em0nHPWafRfDO4qL_1VJoopXiPrc">
+<input type="hidden" name="form_id" value="site_header_search_form">
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit"></div></div></form>  </div>
+
+  
+  </div>
+                                                  </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-2 grid-system-column">
+                        <div class="row">
+                                                      <div class="panel-pane pane-block pane-menu-menu-social-share">
+  
+      
+        <div class="pane-content col-md-12">
+      <ul class="menu menu-menu-social-share"><li class="first leaf depth-1 item-menu-social-share"><a class="facebook link-menu-social-share external-link" href="/https://www.facebook.com/HumanatStanford">Facebook</a></li>
+<li class="leaf depth-1 item-menu-social-share"><a class="twitter link-menu-social-share external-link" href="/https://twitter.com/HumanatStanford">Twitter</a></li>
+<li class="leaf depth-1 item-menu-social-share"><a class="youtube link-menu-social-share external-link" href="/http://www.youtube.com/user/StanfordHumanities">Youtube</a></li>
+<li class="last leaf depth-1 item-menu-social-share"><a class="subscribe link-menu-social-share" href="/http://shc.stanford.edu/subscribe">Subscribe</a></li>
+</ul>  </div>
+
+  
+  </div>
+                                                  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix frame-main_menu frame-item-2">
+        <div class="panel-one-column clearfix container-fluid main-menu-wrapper">
+            <div class="container">
+                <div class="row">
+                                      <div class="panel-pane pane-menu-tree pane-menu-header-bottom">
+  
+      
+        <div class="pane-content col-md-12">
+      <div class="menu-block-wrapper menu-block-ctools-menu-header-bottom-1 menu-name-menu-header-bottom parent-mlid-menu-header-bottom-0 menu-level-1">
+  <ul class="menu menu-menu-header-bottom"><li class="first leaf has-children menu-mlid-684 depth-1 item-menu-header-bottom"><a class="link-menu-header-bottom" href="/http://shc.stanford.edu/about-us">About</a></li>
+<li class="leaf menu-mlid-1364 depth-1 item-menu-header-bottom"><a class="link-menu-header-bottom" href="/http://shc.stanford.edu/fellowships">Fellowships</a></li>
+<li class="leaf menu-mlid-1533 depth-1 item-menu-header-bottom"><a class="link-menu-header-bottom" href="/http://shc.stanford.edu/workshops">Workshops</a></li>
+<li class="leaf menu-mlid-704 depth-1 item-menu-header-bottom"><a class="link-menu-header-bottom" href="/http://shc.stanford.edu/events">Events</a></li>
+<li class="leaf has-children menu-mlid-1258 depth-1 item-menu-header-bottom"><a class="link-menu-header-bottom" href="/http://shc.stanford.edu/people">People</a></li>
+<li class="last leaf menu-mlid-11466 depth-1 item-menu-header-bottom"><a class="link-menu-header-bottom" href="/http://shc.stanford.edu/news/qa">Q&amp;As</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+                                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix frame-main_content frame-item-3">
+        <div class="panel-one-column clearfix container-fluid content-wrapper">
+            <div class="row">
+                              <div class="panel-pane pane-page-content">
+  
+  <div class="container"><div class="row">    </div></div>
+        <div class="pane-content col-md-12">
+      <div class="panels-frame"><div class="frame clearfix frame-slider frame-item-0"><div class="panel-one-column clearfix container-fluid slider-wrapper">
+            <div class="row">
+                  <div class="panel-pane pane-fieldable-panels-pane pane-current-3 pane-bundle-slideshow view-mode-full">
+  
+      
+        <div class="pane-content col-md-12">
+      
+      <div class="sh-slideshow sh-slideshow-front">
+      <ul class="slides sh-slideshow-items">
+                  <li class="sh-slideshow-item sh-slideshow-item-0">
+                                        <img class="style-slider_background" typeof="foaf:Image" width="1400" height="726" alt="" src="/http://shc.stanford.edu/sites/default/files/styles/slider_background/public/slider/frontpage_shc_0.png?itok=DqAxg7qx">                        <div class="container">
+                              <div class="sh-slideshow-box">
+                                      <h3 class="sh-slideshow-title">Welcome to the Stanford Humanities Center</h3>
+                                                        <p class="sh-slideshow-body">"The humanities are the tools through which we explore the human world. Everything that makes us human—that falls under the umbrella of the humanities."
+— Caroline Winterer, Center Director 
+</p>
+                                                        <a class="sh-slideshow-link" href="/http://shc.stanford.edu/directors-letter-2017-18">Letter from the Director</a>                                  </div>
+                          </div>
+          </li>
+                  <li class="sh-slideshow-item sh-slideshow-item-1">
+                                        <img class="style-slider_background" typeof="foaf:Image" width="1400" height="726" alt="" src="/http://shc.stanford.edu/sites/default/files/styles/slider_background/public/slider/FELLOSHIP_FRONTPAGE.png?itok=A5anZjyv">                        <div class="container">
+                              <div class="sh-slideshow-box">
+                                      <h3 class="sh-slideshow-title">Fellowships</h3>
+                                                        <p class="sh-slideshow-body">The Center's year-long residential fellowships bring together scholars from different disciplines, career stages, and academic institutions in an environment of intellectual discovery and exchange. </p>
+                                                        <a class="sh-slideshow-link" href="/http://shc.stanford.edu/fellowships">More information</a>                                  </div>
+                          </div>
+          </li>
+                  <li class="sh-slideshow-item sh-slideshow-item-2">
+                                        <img class="style-slider_background" typeof="foaf:Image" width="1400" height="726" alt="" src="/http://shc.stanford.edu/sites/default/files/styles/slider_background/public/slider/event_front_page.jpg?itok=2LNf8_A1">                        <div class="container">
+                              <div class="sh-slideshow-box">
+                                      <h3 class="sh-slideshow-title">Events</h3>
+                                                        <p class="sh-slideshow-body">The Humanities Center’s endowed lectures and co-sponsored events bring leading scholars, artists, and writers to campus to address major subjects in the humanities and arts. Events are free and open to the public.</p>
+                                                        <a class="sh-slideshow-link" href="/http://shc.stanford.edu/events">More information</a>                                  </div>
+                          </div>
+          </li>
+                  <li class="sh-slideshow-item sh-slideshow-item-3">
+                                        <img class="style-slider_background" typeof="foaf:Image" width="1400" height="726" alt="" src="/http://shc.stanford.edu/sites/default/files/styles/slider_background/public/slider/frontpage_workshop2.png?itok=HDgKIZg-">                        <div class="container">
+                              <div class="sh-slideshow-box">
+                                      <h3 class="sh-slideshow-title">Workshops</h3>
+                                                        <p class="sh-slideshow-body">Stanford Humanities Center workshops bring together faculty and graduate students to share works in progress and explore new ideas of inquiry. </p>
+                                                        <a class="sh-slideshow-link" href="/http://shc.stanford.edu/workshops">More information</a>                                  </div>
+                          </div>
+          </li>
+              </ul>
+    </div>
+  
+
+  </div>
+
+  
+  </div>
+              </div>
+      </div>
+</div><div class="frame clearfix frame-recent_stories frame-item-1"><div class="panel-one-column clearfix container-fluid front-white">
+            <div class="container">
+          <div class="row">
+                  <div class="panel-pane pane-views-panes pane-home-recent-stories-listing title-red-light title-30">
+  
+        <h2 class="pane-title col-md-12 pane-title-home-recent-stories-listing">Humanities News</h2>
+    
+        <div class="pane-content col-md-12">
+      
+<section role="item-listing" class="view view-home-recent-stories view-id-home_recent_stories view-display-id-listing news-teaser default-teaser row view-dom-id-8b78ebefedbc4ffa864924a23941aa77">
+        
+  
+  
+      <section class="view-content" role="item-listing-items">
+        <div class="views-row views-row-1 views-row-odd views-row-first col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="views-field views-field-field-image-news">        <div class="field-content"><a href="/http://shc.stanford.edu/news/news-research/applications-open-2019-2020-fellowships"><img class="style-220x160" typeof="foaf:Image" width="526" height="380" alt="" src="/http://shc.stanford.edu/sites/default/files/styles/220x160/public/news/Humanities-Center.jpg?itok=mAFRLLRk"></a></div>  </div>    <div class="views-field views-field-title">        <span class="field-content"><a target="_blank" href="/http://shc.stanford.edu/news/news-research/applications-open-2019-2020-fellowships">Applications open for 2019-2020 fellowships</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="views-field views-field-field-image-news">        <div class="field-content"><a href="/http://shc.stanford.edu/news/research/learning-through-sound"><img class="style-220x160" typeof="foaf:Image" width="526" height="380" alt="" src="/http://shc.stanford.edu/sites/default/files/styles/220x160/public/news/hilton.jpg?itok=B21FR7dg"></a></div>  </div>    <div class="views-field views-field-title">        <span class="field-content"><a target="_blank" href="/http://shc.stanford.edu/news/research/learning-through-sound">Learning through sound</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="views-field views-field-field-image-news">        <div class="field-content"><a href="/http://shc.stanford.edu/news/research/what-adam-smith-can-teach-us-about-inequality"><img class="style-220x160" typeof="foaf:Image" width="526" height="380" alt="" src="/http://shc.stanford.edu/sites/default/files/styles/220x160/public/news/Glory_Liu.png?itok=EQ4eK2z1"></a></div>  </div>    <div class="views-field views-field-title">        <span class="field-content"><a target="_blank" href="/http://shc.stanford.edu/news/research/what-adam-smith-can-teach-us-about-inequality">What Adam Smith can teach us about inequality</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="views-field views-field-field-image-news">        <div class="field-content"><a href="/http://shc.stanford.edu/news/research/hume-fellows-calvin-baker-and-nathan-large-win-golden-medal-awards"><img class="style-220x160" typeof="foaf:Image" width="526" height="380" alt="" src="/http://shc.stanford.edu/sites/default/files/styles/220x160/public/news/Doc1.jpg?itok=M20FCc1t"></a></div>  </div>    <div class="views-field views-field-title">        <span class="field-content"><a target="_blank" href="/http://shc.stanford.edu/news/research/hume-fellows-calvin-baker-and-nathan-large-win-golden-medal-awards">Hume Fellows Calvin Baker and Nathan Large win Golden Medal Awards</a></span>  </div>  </div>
+    </section>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/http://shc.stanford.edu/news">
+    More news  </a>
+</div>
+  
+  
+  
+</section>  </div>
+
+  
+  </div>
+              </div>
+          </div>
+      </div>
+</div><div class="frame clearfix frame-links_and_events frame-item-2"><div class="panel-two-column clearfix container-fluid yellow-bg">
+  </div>
+</div></div>  </div>
+
+  
+  </div>
+                          </div>
+        </div>
+    </div>
+    <div class="clearfix frame-stanford_footer frame-item-4">
+        <div class="panel-two-column clearfix container-fluid footer-wrapper">
+          <div class="container">
+            <div class="row">
+                              <div class="panel-pane pane-file-display col-xs-6 col-sm-2 view-mode--custom-display">
+  
+      
+        <div class="pane-content col-md-12">
+      <img typeof="foaf:Image" width="210" height="98" alt="Stanford University" title="Stanford University" src="/http://shc.stanford.edu/sites/default/files/footer-stanford-logo2x.png">  </div>
+
+  
+  </div>
+                                            <div class="panel-pane pane-block pane-menu-menu-footer-menu">
+  
+      
+        <div class="pane-content col-md-12">
+      <ul class="menu menu-menu-footer-menu"><li class="first leaf depth-1 item-menu-footer-menu"><a class="link-menu-footer-menu external-link" href="/http://www.stanford.edu/">SU Home</a></li>
+<li class="leaf depth-1 item-menu-footer-menu"><a class="link-menu-footer-menu external-link" href="/http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+<li class="leaf depth-1 item-menu-footer-menu"><a class="link-menu-footer-menu external-link" href="/http://www.stanford.edu/search/">Search Stanford</a></li>
+<li class="leaf depth-1 item-menu-footer-menu"><a class="link-menu-footer-menu external-link" href="/http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+<li class="last leaf depth-1 item-menu-footer-menu"><a class="link-menu-footer-menu external-link" href="/http://emergency.stanford.edu/">Emergency Info</a></li>
+</ul>  </div>
+
+  
+  </div>
+<div class="panel-pane pane-custom pane-1 pane-footer-last">
+  
+      
+        <div class="pane-content col-md-12">
+      <p>© Stanford University, Stanford, California 94305.&nbsp;&nbsp; <a class="copyright-complaint" href="/http://www.stanford.edu/group/security/dmca.html">Copyright Complaints</a></p>
+  </div>
+
+  
+  </div>
+                          </div>
+          </div>
+        </div>
+    </div>
+</div>  <script src="/http://shc.stanford.edu/sites/default/files/js/js_eeMVXXbA1A-hygRxOMuizbajGFMjUJ8ADSPxQK788l4.js"></script>
+
+
+</body></html>

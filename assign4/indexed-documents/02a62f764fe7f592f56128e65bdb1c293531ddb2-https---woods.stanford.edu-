@@ -1,0 +1,426 @@
+<!DOCTYPE html><!--[if lt IE 7]> <html class="ie6 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 7]>    <html class="ie7 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 8]>    <html class="ie8 ie" lang="en" dir="ltr"> <![endif]--><!--[if gt IE 8]> <!--><html class="" lang="en" dir="ltr"><!--<![endif]--><head>
+		<title>Stanford Woods Institute</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8;">
+<meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="alternate" type="application/rss+xml" title="Stanford Woods Institute RSS" href="/https://woods.stanford.edu/rss.xml">
+<meta name="description" content="The Stanford Woods Institute for the Environment is Stanford University's hub of environment and sustainability research, serving as the go-to place for collaboration across sectors and disciplines to find solutions to the most critical, complex environmental and sustainability challenges.">
+<link rel="shortcut icon" type="image/png" href="/https://woods.stanford.edu/sites/default/files/favicon_2.png">
+<!-- Set the viewport width to device width for mobile -->
+<!--    name="viewport" content="width=980" -->
+		<meta name="viewport" content="width=device-width, initial-scale=.30"><meta name="google-site-verification" content="wQYjsZdFpy6Yq8mCc1-EISquYYoA7CBHrxTFs2yrSdU">
+<style type="text/css" media="all">
+@import url("https://woods.stanford.edu/modules/system/system.base.css?pcp746");
+@import url("https://woods.stanford.edu/modules/system/system.menus.css?pcp746");
+@import url("https://woods.stanford.edu/modules/system/system.messages.css?pcp746");
+@import url("https://woods.stanford.edu/modules/system/system.theme.css?pcp746");
+</style>
+<style type="text/css" media="all">
+@import url("https://woods.stanford.edu/sites/all/modules/calendar/css/calendar_multiday.css?pcp746");
+@import url("https://woods.stanford.edu/sites/all/modules/date/date_api/date.css?pcp746");
+@import url("https://woods.stanford.edu/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pcp746");
+@import url("https://woods.stanford.edu/sites/all/modules/date/date_repeat_field/date_repeat_field.css?pcp746");
+@import url("https://woods.stanford.edu/modules/field/theme/field.css?pcp746");
+@import url("https://woods.stanford.edu/modules/node/node.css?pcp746");
+@import url("https://woods.stanford.edu/modules/user/user.css?pcp746");
+@import url("https://woods.stanford.edu/sites/all/modules/views/css/views.css?pcp746");
+@import url("https://woods.stanford.edu/sites/all/modules/ckeditor/css/ckeditor.css?pcp746");
+@import url("https://woods.stanford.edu/sites/all/modules/media/modules/media_wysiwyg/css/media_wysiwyg.base.css?pcp746");
+</style>
+<style type="text/css" media="all">
+@import url("https://woods.stanford.edu/sites/all/modules/ctools/css/ctools.css?pcp746");
+@import url("https://woods.stanford.edu/sites/default/files/css/menu_icons.css?pcp746");
+@import url("https://woods.stanford.edu/sites/all/modules/panels/css/panels.css?pcp746");
+@import url("https://woods.stanford.edu/sites/all/libraries/isotope/jquery.isotope.css?pcp746");
+</style>
+<style type="text/css" media="all">
+@import url("https://woods.stanford.edu/sites/all/themes/woods/../../libraries/fancybox/jquery.fancybox.css?pcp746");
+@import url("https://woods.stanford.edu/sites/all/themes/woods/css/style.css?pcp746");
+@import url("https://woods.stanford.edu/sites/all/themes/woods/css/overrides.css?pcp746");
+@import url("https://woods.stanford.edu/sites/all/themes/woods/css/webfonts/leaguegothic.css?pcp746");
+</style>
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+    <script async src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<script type="text/javascript" src="/https://woods.stanford.edu/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="/https://woods.stanford.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="/https://woods.stanford.edu/misc/drupal.js?pcp746"></script>
+<script type="text/javascript" src="/https://woods.stanford.edu/sites/all/libraries/isotope/jquery.isotope.js?pcp746"></script>
+<script type="text/javascript" src="/https://woods.stanford.edu/sites/all/themes/woods/js/implement-slider.js?pcp746"></script>
+<script type="text/javascript" src="/https://woods.stanford.edu/sites/all/themes/woods/js/cycle.js?pcp746"></script>
+<script type="text/javascript" src="/https://s7.addthis.com/js/250/addthis_widget.js"></script>
+<script type="text/javascript" src="/https://woods.stanford.edu/sites/all/themes/woods/js/css_browser_selector.js?pcp746"></script>
+<script type="text/javascript" src="/https://woods.stanford.edu/sites/all/themes/woods/js/jquery.tabs.js?pcp746"></script>
+<script type="text/javascript" src="/https://woods.stanford.edu/sites/all/themes/woods/js/modernizr.js?pcp746"></script>
+<script type="text/javascript" src="/https://woods.stanford.edu/sites/all/themes/woods/../../libraries/fancybox/jquery.fancybox.pack.js?pcp746"></script>
+<script type="text/javascript" src="/https://woods.stanford.edu/sites/all/themes/woods/js/application.js?pcp746"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"woods","theme_token":"i9SGMKKc7SOHphKTfiKblIX-SbJgjVYFTYkykiunA3c","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/isotope\/jquery.isotope.js":1,"sites\/all\/themes\/woods\/js\/implement-slider.js":1,"sites\/all\/themes\/woods\/js\/cycle.js":1,"https:\/\/s7.addthis.com\/js\/250\/addthis_widget.js#pubid=woodsinstitute":1,"sites\/all\/themes\/woods\/js\/css_browser_selector.js":1,"sites\/all\/themes\/woods\/js\/jquery.tabs.js":1,"sites\/all\/themes\/woods\/js\/modernizr.js":1,"sites\/all\/themes\/woods\/..\/..\/libraries\/fancybox\/jquery.fancybox.pack.js":1,"sites\/all\/themes\/woods\/js\/application.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"public:\/\/css\/menu_icons.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/isotope\/jquery.isotope.css":1,"sites\/all\/themes\/woods\/..\/..\/libraries\/fancybox\/jquery.fancybox.css":1,"sites\/all\/themes\/woods\/css\/style.css":1,"sites\/all\/themes\/woods\/css\/overrides.css":1,"sites\/all\/themes\/woods\/css\/webfonts\/leaguegothic.css":1}}});
+//--><!]]>
+</script>
+<!--[if lte IE 7]>
+    <link href="/sites/all/themes/woods/css/iehacks.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+<!--[if IE]>
+    <link href="/sites/all/themes/woods/css/ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+<!--[if lte IE 7]>
+    <link href="/sites/all/themes/woods/css/ie7.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+	</head>
+	<body class="html front not-logged-in no-sidebars page-node">
+<!-- Google Tag Manager -->
+<noscript><iframe height="0" width="0" style="display:none;visibility:hidden" src="/https://www.googletagmanager.com/ns.html?id=GTM-MJ9D9H"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJ9D9H');</script>
+<!-- End Google Tag Manager -->
+<ul class="ym-skiplinks">
+    <li>
+        <a class="ym-skip" href="/https://woods.stanford.edu/">
+            Skip to navigation (Press Enter)
+        </a>
+    </li>
+    <li>
+        <a class="ym-skip" href="/https://woods.stanford.edu/">
+            Skip to main content (Press Enter)
+        </a>
+    </li>
+</ul>
+<div id="wrapper">
+    <header>
+        <div class="ym-wrapper">
+            <div class="ym-g960-3 ym-gl">
+                <div class="ym-gbox no-left">
+                    <h1>
+                        Stanford Woods Institute for the Environment
+                    </h1>
+                    <a title="Home" href="/https://woods.stanford.edu/">
+                        <img alt="Stanford Woods Institute for the Environment" src="/https://woods.stanford.edu/sites/all/themes/woods/img/logo.png">
+                    </a>
+                </div>
+            </div>
+            <div class="ym-g960-4 ym-push-5 ym-gl">
+                <div class="ym-gbox no-right">
+                    <ul id="global-nav">
+<li><a href="/https://woods.stanford.edu/get-involved/donors">Make a Gift</a></li><li><a href="/https://woods.stanford.edu/contact">Contact</a></li><li><a href="/http://eepurl.com/c2BP6T">Subscribe</a></li><li class="last"><a class="nolink"><none></none></a></li>                    </ul>
+                    <div class="social">
+                        <a target="_blank" href="/http://www.facebook.com/WoodsInstitute">
+							<img alt="Facebook" title="Facebook" src="/https://woods.stanford.edu/sites/all/themes/woods/img/icon-facebook.png">
+						</a>
+						<a target="_blank" href="/https://twitter.com/">
+							<img alt="Twitter" title="Twitter" src="/https://woods.stanford.edu/sites/all/themes/woods/img/icon-twitter.png">
+						</a>
+						<a target="_blank" href="/https://www.linkedin.com/company/stanford-woods-institute-for-the-environment">
+							<img alt="Linkedin" title="Linkedin" src="/https://woods.stanford.edu/sites/all/themes/woods/img/icon-linkedin.png">
+						</a>
+						<a target="_blank" href="/http://www.youtube.com/woodsinstitute1">
+							<img alt="YouTube" title="YouTube" src="/https://woods.stanford.edu/sites/all/themes/woods/img/icon-youtube.png">
+						</a>
+						<a target="_blank" href="/https://www.instagram.com/stanfordwoods/">
+							<img alt="Instagram" title="Instagram" src="/https://woods.stanford.edu/sites/all/themes/woods/img/icon-instagram.png">
+						</a>
+                    </div>
+                    <div id="search">
+                        <form action="/search" id="cse-search-box" class="ym-searchform">
+                            <div>
+                                <input type="hidden" name="cx" value="001317231834265821864:wk7egxotc90"> <input type="hidden" name="cof" value="FORID:10"> <input type="hidden" name="ie" value="UTF-8"> <input type="text" class="ym-searchfield" name="as_q" size="31"> <input id="submit" type="submit" class="ym-searchbutton" name="sa" value="Search"> 
+                            </div>
+                        </form>
+<script async="" type="text/javascript" src="/https://cse.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ym-clearfix">
+        </div>
+    </header>
+    <nav id="nav">
+        <div class="ym-wrapper">
+            <div class="ym-hlist">
+                <ul class="menu">
+                    <li class="first"> 
+<a href="/https://woods.stanford.edu/research">Research</a>                    <ul>
+                        <li>
+<a href="/https://woods.stanford.edu/research/centers-programs">Centers and Programs</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/research/environmental-venture-projects">Environmental Venture Projects</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/research/realizing-environmental-innovation-program">Realizing Environmental Innovation Program</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/research/funding-opportunities">Funding Opportunities</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/research/public-opinion-research">Public Opinion Research</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/research/climate">Climate</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/research/ecosystem-services-and-conservation">Ecosystem Services and Conservation</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/research/food-security">Food Security</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/research/freshwater">Freshwater</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/research/oceans">Oceans</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/research/public-health">Public Health</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/research/sustainable-development">Sustainable Development</a>                    </li>
+                </ul>
+            </li>
+                    <li> 
+<a href="/https://woods.stanford.edu/educating-leaders/education-leadership-programs">Educating Leaders</a>                    <ul>
+                        <li>
+<a href="/https://woods.stanford.edu/educating-leaders/first-nations-futures-institute">First Nations' Futures Institute</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/educating-leaders/forum-for-undergraduate-environmental-leadership">Forum for Undergraduate Environmental Leadership (FUEL)</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/educating-leaders/rising-environmental-leaders-program">Rising Environmental Leaders Program (RELP)</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/news-events/event/young-environmental-scholars-yes-annual-conference">Young Environmental Scholars (YES) Annual Conference</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/educating-leaders/leading-interdisciplinary-collaborations">Leading Interdisciplinary Collaborations (LInC)</a>                    </li>
+                        <li>
+<a href="/https://leopoldleadership.stanford.edu">Leopold Leadership Program</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/educating-leaders/mel-lane-student-grants-program">Mel Lane Student Grants Program</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/educating-leaders/mentoring-undergraduates-interdisciplinary-research-program-muir">Mentoring Undergraduates in Interdisciplinary Research Program (MUIR)</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/educating-leaders/stanford-interdisciplinary-graduate-fellowships-sigf">Stanford Interdisciplinary Graduate Fellowships (SIGF)</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/educating-leaders/education/stanford-environmental-internships-in-california">Stanford Environmental Internships in California</a>                    </li>
+                </ul>
+            </li>
+                    <li> 
+<a href="/https://woods.stanford.edu/get-involved">Get Involved</a>                    <ul>
+                        <li>
+<a href="/https://woods.stanford.edu/get-involved/researchers">Faculty</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/get-involved/decision-makers">Decision-Makers</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/get-involved/students">Students</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/get-involved/donors">Donors</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/get-involved/partners">Partners</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/research/centers-programs/dc-office/linking-research-to-policy">Policy Engagement</a>                    </li>
+                </ul>
+            </li>
+                    <li> 
+<a href="/https://woods.stanford.edu/publications">Publications</a>                    <ul>
+                        <li>
+<a href="/https://woods.stanford.edu/publications/directory">Publications Directory</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/publications/research-digest">Research Digest</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/publications/videos">Videos</a>                    </li>
+                </ul>
+            </li>
+                    <li> 
+<a href="/https://woods.stanford.edu/news-events">News and Events</a>                    <ul>
+                        <li>
+<a href="/https://woods.stanford.edu/news-events/calendar">Calendar</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/news-events/environmental-forum">Environmental Forums</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/news-events/dialogues-workshops">Forums, Briefings &amp; Dialogues</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/news-events/conversations">Conversations</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/news-events/news">News and Press Releases</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/news-events/media-coverage">Media Coverage</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/news-events/newsletter">People&amp;Planet</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/news-events/awards-recognition">Awards and Recognition</a>                    </li>
+                </ul>
+            </li>
+                    <li> 
+<a href="/https://woods.stanford.edu/about">About</a>                    <ul>
+                        <li>
+<a href="/https://woods.stanford.edu/about/overview">Overview</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/contact">Contact Us</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/about/woods-faculty-researchers">Stanford Woods Institute Faculty and Researchers</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/about/woods-staff">Stanford Woods Institute Staff</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/about/advisory-council">Advisory Council</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/about/annual-reports">Annual Reports</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/about/Decade-of-Solutions">Decade of Solutions</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/about/history">History</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/about/faqs">FAQs</a>                    </li>
+                        <li>
+<a href="/https://woods.stanford.edu/sustainable-stanford">Sustainable Stanford</a>                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
+<div id="main">
+<!-- BEGIN slider elements -->
+    <div class="view-homepage ym-wrapper">
+        <div class="view-content">
+<div class="slide"><img class="bg" src="/https://woods.stanford.edu/sites/default/files/styles/homepage_hero/public/foxeshero.jpg?itok=w-7n8aHc">            <div id="intro">
+<div class="grey" id="mission">
+<h2>2018 Research Awards</h2>
+
+<div>
+<p>New Woods research awards will fund 10 projects tackling wildfire, health and environmental risks through the EVP and REIP grants.</p>
+
+<p class="more"><em><a href="/https://woods.stanford.edu/news-events/news/tackling-wildfire-health-and-environmental-risks">Read more</a></em></p>
+</div>
+</div>
+            </div>
+<!-- end view-intro -->
+            <div class="splash-title">
+                <p>
+<a style="color:white;text-decoration:none" href="/https://woods.stanford.edu/news-events/news/tackling-wildfire-health-and-environmental-risks">Interdisciplinary research teams from across Stanford will work to develop innovations ranging from tracking parasitic disease transmission to a hydrogel that can be sprayed on trees to prevent the spread of wildfire. </a>                </p>
+            </div>
+            <div class="location">
+Stanford, CA            </div>
+            <div class="ym-gl north-america" id="map">
+            </div>
+<!-- end slide -->
+<!-- end of slider elements -->
+        </div>
+<div class="slide"><img class="bg" src="/https://woods.stanford.edu/sites/default/files/styles/homepage_hero/public/netzero.jpg?itok=UQAjD92K">            <div id="intro">
+<div class="grey" id="mission">
+<h2>Net-Zero Emissions</h2>
+
+<div>
+<p>Stanford experts comment on a new review of paths and technologies that could get the world to net-zero carbon emissions energy systems.</p>
+
+<p class="more"><em><a href="/https://woods.stanford.edu/news-events/news/getting-net-zero-emissions-qa-stanford-experts">Read more</a></em></p>
+</div>
+</div>
+            </div>
+<!-- end view-intro -->
+            <div class="splash-title">
+                <p>
+<a style="color:white;text-decoration:none" href="/https://woods.stanford.edu/news-events/news/getting-net-zero-emissions-qa-stanford-experts">Demand for air travel, one of the hardest parts of the economy to decarbonize, is only expected to increase in the coming decades. </a>                </p>
+            </div>
+            <div class="location">
+Stanford, CA            </div>
+            <div class="ym-gl north-america" id="map">
+            </div>
+<!-- end slide -->
+<!-- end of slider elements -->
+        </div>
+<div class="slide"><img class="bg" src="/https://woods.stanford.edu/sites/default/files/styles/homepage_hero/public/yellowfin.png?itok=2gnl1AoJ">            <div id="intro">
+<div class="grey" id="mission">
+<h2>Conservation Collaboration</h2>
+
+<div>
+<p>What can&nbsp;global leaders and influencers from business, civil society and the public sector do to conserve the ocean?</p>
+
+<p class="more"><em><a href="/https://woods.stanford.edu/news-events/news/how-can-global-partnerships-help-conserve-ocean">Read more</a></em></p>
+</div>
+</div>
+            </div>
+<!-- end view-intro -->
+            <div class="splash-title">
+                <p>
+<a style="color:white;text-decoration:none" href="/https://woods.stanford.edu/news-events/news/how-can-global-partnerships-help-conserve-ocean">Stanford Center for Ocean Solutions Co-Director discusses involvement with a global initiative to help conserve and sustainably use the world’s oceans.</a>                </p>
+            </div>
+            <div class="location">
+Pacific Ocean            </div>
+            <div class="ym-gl pacific-ocean" id="map">
+            </div>
+<!-- end slide -->
+<!-- end of slider elements -->
+        </div>
+<div class="slide"><img class="bg" src="/https://woods.stanford.edu/sites/default/files/styles/homepage_hero/public/EVDecision_hero.jpg?itok=XIWkNAOf">            <div id="intro">
+<div class="grey" id="mission">
+<h2>California Utilities</h2>
+
+<div>
+<p>Given looming wildfire lawsuits, can California utilities afford a new plan to spend $768 million on electric vehicle infrastructure?</p>
+
+<p class="more"><em><a href="/https://woods.stanford.edu/news-events/news/can-utilities-afford-electric-vehicle-investments">Read more</a></em></p>
+</div>
+</div>
+            </div>
+<!-- end view-intro -->
+            <div class="splash-title">
+                <p>
+<a style="color:white;text-decoration:none" href="/https://woods.stanford.edu/news-events/news/can-utilities-afford-electric-vehicle-investments">Energy policy expert Michael Wara comments on CPUC decision to approve transportation electrification projects and how it could affect utilities, the environment and ratepayers.</a>                </p>
+            </div>
+            <div class="location">
+California            </div>
+            <div class="ym-gl north-america" id="map">
+            </div>
+<!-- end slide -->
+<!-- end of slider elements -->
+        </div>
+<div class="slide"><img class="bg" src="/https://woods.stanford.edu/sites/default/files/styles/homepage_hero/public/biofuelshero2.jpg?itok=K4gTHuGU">            <div id="intro">
+<div class="grey" id="mission">
+<h2>Carbon Capture</h2>
+
+<div>
+<p>New financial incentives create opportunity for carbon capture and sequestration from U.S. biofuel production.</p>
+
+<p class="more"><em><a href="/https://woods.stanford.edu/news-events/news/carbon-capture-financial-opportunity-us-biofuels">Read more</a></em></p>
+</div>
+</div>
+            </div>
+<!-- end view-intro -->
+            <div class="splash-title">
+                <p>
+<a style="color:white;text-decoration:none" href="/https://woods.stanford.edu/news-events/news/carbon-capture-financial-opportunity-us-biofuels">Stanford experts discussed carbon removal technologies and opportunities at a Washington, D.C. forum.</a>                </p>
+            </div>
+            <div class="location">
+United States            </div>
+            <div class="ym-gl north-america" id="map">
+            </div>
+<!-- end slide -->
+<!-- end of slider elements -->
+        </div>
+    </div>
+<!-- end view-content -->
+    <div id="blurbs">
+        <div class="ym-gl box">
+            <h4>
+Heatwaves and Climate Change            </h4>
+<p>Stanford's Noah Diffenbaugh joins experts to discuss how our experience with&nbsp;extreme weather is shaping views on global warming on San Francisco's <a href="/http://kalw.org/post/one-planet-heatwaves-and-climate-change?linkId=54339643">KALW radio</a>.</p>
+        </div>
+        <div class="ym-gl box last">
+            <h4>
+                Stanford Woods Institute News
+            </h4>
+            <h3>
+<a href="/https://news.stanford.edu/2018/07/24/border-wall-threatens-biodiversity/">Over the Borderline</a>            </h3>
+            <p class="more">
+                <a href="/https://woods.stanford.edu/news-events/news">
+                    News &amp; Press Releases
+                </a>
+            </p>
+        </div>
+        <div class="ym-clearfix">
+        </div>
+    </div>
+</div>
+<!-- ym-wrapper -->
+</div>
+<!-- main -->
+<footer><div class="ym-wrapper"><div class="ym-gbox"><p>© Stanford Woods Institute for the Environment</p><ul id="footer-nav"><li><a target="_blank" href="/http://stanford.edu/site/terms.html">Terms of Use</a></li><li><a target="_blank" href="/https://www.stanford.edu/site/privacy/">Privacy</a></li><li><a target="_blank" href="/http://www.stanford.edu/">Stanford University</a></li><li><a target="" href="/https://woods.stanford.edu/about/jobs">Employment Opportunities</a></li></ul></div></div></footer></div>
+<!-- wrapper -->
+<!-- full skip link functionality in webkit browsers -->
+<script async="" src="/https://woods.stanford.edu/sites/all/themes/woods/js/yaml-focusfix.js"></script> 
+
+
+
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"34182db491","applicationID":"688981","transactionName":"NVYEYxdTX0pTUhAPCwwcM0UMHR5QXFUBHkoSWxY=","queueTime":0,"applicationTime":114,"atts":"GREHFV9JTEQ=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+</body></html><!-- END FOOTER -->

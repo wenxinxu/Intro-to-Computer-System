@@ -1,0 +1,16 @@
+# assign8 .gitignore
+
+# don't track these build products, anchored to top-level dir
+/*.d
+/*.o
+/*.a
+
+# make-generated helper files
+Makefile.dependencies
+
+# explicitly name project executables here
+mr
+mrm
+mrr
+word-count-mapper
+word-count-reducer

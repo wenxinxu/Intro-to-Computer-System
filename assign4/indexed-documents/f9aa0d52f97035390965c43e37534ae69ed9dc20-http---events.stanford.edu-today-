@@ -1,0 +1,537 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat"><html lang="en"><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <!-- Meta -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Stanford Event Calendar">
+      <meta name="description" content="thursday, august 2, 2018">
+      <meta name="application-name" content="Stanford Event Calendar" data-date="2018-08-02">
+      <title>Stanford Event Calendar: thursday, august 2, 2018</title>
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/http://events.stanford.edu/xml/today/rss.xml">
+      
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/http://events.stanford.edu/v4/assets/cardinal/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" href="/v4/responsive-calendar/0.7/css/responsive-calendar.css" type="text/css" /> -->
+<link rel="stylesheet" href="/http://events.stanford.edu/v4/datepicker/css/datepicker.css">
+<link rel="stylesheet" type="text/css" href="/http://events.stanford.edu/v4/assets/cardinal/css/base.min.css?v=0.5">
+<link rel="stylesheet" type="text/css" href="/http://events.stanford.edu/v4/assets/cardinal/css/custom.css?v=0.4">
+
+<!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/v4/assets/cardinal/css/ie/ie8.css" />
+    <![endif]-->
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/v4/assets/cardinal/css/ie/ie7.css" />
+    <![endif]-->
+
+<!-- JS -->
+<script src="/http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+<script src="/http://events.stanford.edu/v4/assets/cardinal/js/modernizr.custom.17475.js"></script> 
+<script src="/http://events.stanford.edu/v4/assets/cardinal/js/bootstrap.min.js"></script> 
+<script src="/http://events.stanford.edu/v4/datepicker/js/datepicker.js"></script>
+<!--<script src="/v4/responsive-calendar/0.7/js/responsive-calendar.js"></script> -->
+<script src="/http://events.stanford.edu/v4/assets/cardinal/js/base.js?v=0.4"></script>
+<script src="/http://events.stanford.edu/v4/assets/cardinal/js/custom.js?v=0.4"></script>
+
+<!--[if lt IE 9]>
+    <script src="/v4/assets/cardinal/js/respond.js"></script>
+    <![endif]--> 
+
+<!-- Google Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1860414-5', 'stanford.edu');
+  ga('send', 'pageview');
+
+</script>
+
+
+   </head>
+   <body class="nav-2">
+      <div id="su-wrap">
+         <div id="su-content">
+            <!--=== Load Facebook SDK for Javascript ==-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1517644075158710';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--=== Top ===-->
+<div id="top">
+  <div class="container"> 
+    <!--=== Skip links ===-->
+    <div id="skip"> <a onclick="$('#content').focus()" href="/http://events.stanford.edu/today/">Skip to content</a> </div><!-- /Skip links --> 
+  </div>
+</div><!--/top--> 
+
+<!--=== Header ===-->
+<div id="header" class="clearfix" role="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8"> 
+        <!-- Logo -->
+        <div id="logo" class="clearfix"> <a href="/http://www.stanford.edu/"><img class="img-responsive" alt="Stanford University" src="/http://events.stanford.edu/v4/assets/cardinal/images/stanford-white%402x.png"></a> </div>
+        <!-- /logo -->
+        <div id="signature">
+          <div id="site-name"> 
+	    <a href="/http://events.stanford.edu/"><span id="site-name-1">Event Calendar</span></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- /Header --> 
+
+
+
+<!-- Menu -->
+<div id="mainmenu" class="clearfix" role="navigation">
+  <div class="container">
+    <div class="navbar navbar-default"> 
+      <!-- main navigation -->
+      <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="menu-text">Menu</span></button>
+      <!-- /nav-collapse -->
+      
+      <div class="navbar-collapse collapse"> 
+        <!--search box-->
+        <div id="nav-search" role="search">
+          <form action="/jse/jsp/search.jsp" method="get" id="search-form" accept-charset="UTF-8">
+            <h2 class="hidden">Search form</h2>
+            <label class="hidden" for="search-field">Search term</label>
+            <input name="oe" type="hidden" value="en">
+            <input name="qor" type="hidden" value="">
+            <input title="Search string" class="input-medium" placeholder="Search this site…" type="text" id="search-field" name="q" value="" size="15" maxlength="128">
+            <button id="search-btn" type="submit" name="submit" aria-label="Search" formmethod="get"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <div role="navigation">
+          <div id="primary-nav">
+            <ul class="nav navbar-nav" aria-label="primary navigation">
+              <li id="nav-1"> <a href="/http://events.stanford.edu/">Featured Events</a></li>
+              <li id="nav-2"> <a href="/http://events.stanford.edu/today/">Today's Events</a> </li>
+
+              <li id="nav-3">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="/http://events.stanford.edu/today/">Browse by Type <b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a href="/http://events.stanford.edu/byCategory/2">Lecture / Reading / Talk</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/3">Conference / Symposium</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/26">Seminar</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/19">Class</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/12">Meeting</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/27">Information Session</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/4">Performance</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/7">Exhibition</a></li>
+                  <li><a href="/http://events.stanford.edu/byCategory/31">Screening</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/15">Tour</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/10">Recreational Sports</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/13">Religious</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/14">Social</a></li>
+		</ul>
+              </li>
+              <li id="nav-4">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="/http://events.stanford.edu/today/">Browse by Subject <b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a style="border-bottom: none;" href="/http://events.stanford.edu/byCategory/0">All Arts</a></li>
+		  <li><a style="border-bottom: none;" href="/http://events.stanford.edu/byCategory/9">&nbsp;&nbsp;&nbsp;Music</a></li>
+		  <li><a style="border-bottom: none;" href="/http://events.stanford.edu/byCategory/6">&nbsp;&nbsp;&nbsp;Drama / Theater</a></li>
+		  <li><a style="border-bottom: none;" href="/http://events.stanford.edu/byCategory/5">&nbsp;&nbsp;&nbsp;Dance</a></li>
+		  <li><a style="border-bottom: none;" href="/http://events.stanford.edu/byCategory/20">&nbsp;&nbsp;&nbsp;Visual Arts</a></li>
+		  <li><a style="border-bottom: none;" href="/http://events.stanford.edu/byCategory/8">&nbsp;&nbsp;&nbsp;Film</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/25">&nbsp;&nbsp;&nbsp;Literary Arts</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/35">Education</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/22">Engineering</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/21">Environment</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/24">Health / Wellness</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/23">Humanities</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/18">International</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/11">Public Service</a></li>
+         	  <li><a href="/http://events.stanford.edu/byCategory/30">Science</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/28">Careers</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/17">Ph.D. Orals</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/1">University Events</a></li>
+		</ul>
+	      </li>
+              <li id="nav-5" class="dropdown">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="/http://events.stanford.edu/today/">Browse by Organization <b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a href="/http://events.stanford.edu/byOrganization/departmentalOrganizationList.shtml">Departments</a></li>
+		  <li><a href="/http://events.stanford.edu/byOrganization/studentOrganizationList.shtml">Student Groups</a></li>
+		</ul>
+	      </li>
+            </ul>
+	    <div class="hidden-md hidden-lg" id="date-jump">
+	      <form role="form">
+		<label for="date-input">Browse by Date:</label>
+		<input type="hidden" id="date-input" name="date-input" value="">
+		<input class="form-control" type="date" placeholder="mm/dd/yyyy" id="date-input-mobile" name="date-input-mobile" value="" maxlength="10" required="" min="2016-01-01" max="2020-12-31" aria-describedby="date-input-help">
+		<input type="button" value="Go" id="jump-button" class="btn btn-default">
+		<p class="sr-only" id="date-input-help"> Expected format: M M/D D/Y Y Y Y</p>
+	      </form>
+	    </div> 
+          </div>
+        </div>
+
+
+      </div>
+      <!-- /nav-collapse --> 
+      
+    </div><!-- /navbar -->     
+  </div><!-- /container --> 
+</div><!-- /mainmenu --> 
+<!-- /Menu --> 
+
+
+            <div id="content" class="container" role="main" tabindex="0">
+               <div class="row">
+                  <div id="main-content" class="col-md-8" role="main">
+                     <h1>thursday, august 2, 2018</h1><a class="postcard-link" href="/http://events.stanford.edu/events/787/78731">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/about/defaultimages/default_image.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Git and GitHub Workshop (Lecture)</h3>
+                              <p><strong>Thursday, August 2, 2018.
+                                    	  &nbsp;9:00 AM.</strong><br>Redwood Hall, Room G19
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/791/79169">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/about/defaultimages/default_image.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>SEWSS Seminar Series: Pigs, People, and Parasites: Redefining Taenia solium borden
+                                 and designing eradication strategies
+                              </h3>
+                              <p><strong>Thursday, August 2, 2018.
+                                    	  &nbsp;4:00 PM.</strong><br>Shriram Center for Bioengineering &amp; Chemical Engineering, Room 104
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/759/75979">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/759/75979/75979-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Stanford Summer Human Rights Series: Tomorrow</h3>
+                              <p><strong>Thursday, August 2, 2018.
+                                    	  &nbsp;7:00 PM.</strong><br>Hewlett Teaching Center, Room 201
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/783/78397">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/783/78397/78397-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>SJW Jazz Institute Showcase</h3>
+                              <p><strong>Thursday, August 2, 2018.
+                                    	  &nbsp;7:00 PM.</strong><br>Multiple venues; see stanfordjazz.org
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix">
+                     <h1>ongoing</h1><a class="postcard-link" href="/http://events.stanford.edu/events/768/76839">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/768/76839/76839-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>The Baltic Way: History and Culture in Estonia, Latvia, and Lithuania 1918–2018</h3>
+                              <p><strong>
+                                    	    Ongoing every day from May 7, 2018 through August 18, 2018.
+                                    	    </strong><br>Munger Rotunda, Cecil H. Green Library (557 Escondido Mall, Stanford)
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/791/79139">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/791/79139/79139-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Salon Style II: Collected Marks on Paper</h3>
+                              <p><strong>
+                                    	    Ongoing every day from March 8, 2018 through August 20, 2018.
+                                    	    </strong><br>Anderson Collection
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/790/79041">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/790/79041/79041-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Adelante Comunidad: Graphic Arts by the Stanford Chicanx &amp; Latinx Community</h3>
+                              <p><strong>
+                                    	    Ongoing every day from July 10, 2018 through October 31, 2018.
+                                    	    &nbsp;8:00 AM.</strong><br>Green Library, East Wing
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/782/78213">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/782/78213/78213-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>In the Surface: Material Expressions of Iron-Bearing Ceramics</h3>
+                              <p><strong>
+                                    	    Ongoing every weekday (M-F) from May 15, 2018 through January 31, 2019.
+                                    	    &nbsp;8:30 AM.</strong><br>488 Escondido Mall, Bldg 500, Stanford, CA 94305
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/785/78589">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/785/78589/78459-3.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Our Dark Materials: Rediscovering an Egyptian Collection</h3>
+                              <p><strong>
+                                    	    Ongoing every weekday (M-F) from June 4, 2018 through May 16, 2019.
+                                    	    &nbsp;8:30 AM.</strong><br>Stanford Archaeology Center, Bldg. 500, 488 Escondido Mall, Stanford, CA
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/707/70709">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/707/70709/70709-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>In Dialogue: African Arts--ongoing</h3>
+                              <p><strong>
+                                    	    Ongoing every day from September 15, 2017 through December 31, 2018.
+                                    	    &nbsp;11:00 AM.</strong><br>Cantor Arts Center, just off Palm Drive, at Museum Way and Lomita Drive
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/736/73681">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/736/73681/73681-2.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>墨境 Ink Worlds: Contemporary Chinese Painting from the Collection of Akiko Yamazaki
+                                 and Jerry Yang
+                              </h3>
+                              <p><strong>
+                                    	    Ongoing every day from May 23, 2018 through September 3, 2018.
+                                    	    &nbsp;11:00 AM.</strong><br>Cantor Arts Center, just off Palm Drive, at Museum Way and Lomita Drive
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/739/73979">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/739/73979/73979-2.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Betray the Secret: Humanity in the Age of "Frankenstein"</h3>
+                              <p><strong>
+                                    	    Ongoing every day from April 4, 2018 through August 5, 2018.
+                                    	    &nbsp;11:00 AM.</strong><br>Cantor Arts Center, just off Palm Drive, at Museum Way and Lomita Drive
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/756/75665">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/756/75665/75665-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>The Dancing Sowei: Performing Beauty in Sierra Leone</h3>
+                              <p><strong>
+                                    	    Ongoing every day from March 21, 2018 through March 2, 2019.
+                                    	    &nbsp;11:00 AM.</strong><br>Cantor Arts Center, just off Palm Drive, at Museum Way and Lomita Drive
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/756/75667">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/756/75667/75667-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Hidden Beneath Diebenkorn's "Window"</h3>
+                              <p><strong>
+                                    	    Ongoing every day from April 18, 2018 through August 12, 2018.
+                                    	    &nbsp;11:00 AM.</strong><br>Cantor Arts Center, just off Palm Drive, at Museum Way and Lomita Drive
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/777/77785">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/777/77785/77785-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>We Shot the War: Overseas Weekly in Vietnam</h3>
+                              <p><strong>
+                                    	    Ongoing every day from May 24, 2018 through December 8, 2018.
+                                    	    &nbsp;11:00 AM.</strong><br>Herbert Hoover Memorial Exhibit Pavilion (next to Hoover Tower)
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/781/78173">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/781/78173/78173-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Do Ho Suh: The Spaces in Between</h3>
+                              <p><strong>
+                                    	    Ongoing every day from May 10, 2018 through February 25, 2019.
+                                    	    &nbsp;11:00 AM.</strong><br>Cantor Arts Center, just off Palm Drive, at Museum Way and Lomita Drive
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/784/78449">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/784/78449/78449-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Alphabété: The World Through the Eyes of Frédéric Bruly Bouabré</h3>
+                              <p><strong>
+                                    	    Ongoing every day from June 20, 2018 through March 2, 2019.
+                                    	    &nbsp;11:00 AM.</strong><br>Cantor Arts Center, just off Palm Drive, at Museum Way and Lomita Drive
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/782/78233">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/782/78233/78233-2.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Image—Script</h3>
+                              <p><strong>
+                                    	    Ongoing every day from July 17, 2018 through August 26, 2018.
+                                    	    &nbsp;12:00 PM.</strong><br>STANFORD ART GALLERY
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/786/78619">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/786/78619/78619-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Academic Practice: Bay Area Photography Now</h3>
+                              <p><strong>
+                                    	    Ongoing every day from July 24, 2018 through August 26, 2018.
+                                    	    &nbsp;12:00 PM.</strong><br>COULTER ART GALLERY
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/774/77407">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/774/77407/77407-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Public Tour: Betray the Secret: Humanity in the Age of "Frankenstein"</h3>
+                              <p><strong>
+                                    	    Ongoing  from April 19, 2018 through August 5, 2018.
+                                    	    See details for exact dates and times.</strong><br>Meet in museum atrium
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/764/76477">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/764/76477/76187-2.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Public Tour: Cantor Highlights</h3>
+                              <p><strong>
+                                    	    Ongoing every week from March 22, 2018 through December 31, 2020.
+                                    	    &nbsp;1:00 PM.</strong><br>Meet in the museum atrium
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix"><a class="postcard-link" href="/http://events.stanford.edu/events/773/77385">
+                        <div class="postcard-left">
+                           <div class="postcard-image"><img alt="" src="/http://events.stanford.edu/events/773/77385/77385-1.jpg"></div>
+                           <div class="postcard-text">
+                              <h3>Nevertheless They Persisted: Euripides' Hecuba/Helen</h3>
+                              <p><strong>
+                                    	    Ongoing  from July 26, 2018 through August 19, 2018.
+                                    	    See details for exact dates and times.</strong><br>Roble Studio Theater
+                              </p>
+                           </div>
+                        </div></a><hr class="clearfix">
+                  </div>
+                  <!-- Start #sidebar-second -->
+                  <div id="sidebar-second" class="col-md-3 col-md-offset-1 hidden-print">
+                     <div id="responsive-calendar"></div>
+
+<script type="text/javascript">
+     var today = new Date();
+     var lowDate = new Date();
+     var highDate = new Date();
+     lowDate.setFullYear(lowDate.getFullYear(), lowDate.getMonth() - 24);
+     highDate.setFullYear(highDate.getFullYear(), highDate.getMonth() + 24);
+     var metaDate = $('meta[name=application-name]').attr("data-date");
+     if (metaDate != null && metaDate.length == 10) {
+         metaDate = metaDate.replace(/-/g,'');
+     }
+     $("#date-input").val("");
+     
+     datePickerController.createDatePicker({
+     // Associate the text input to a DD/MM/YYYY date format                            
+     formElements: { "date-input": "%m/%d/%Y" },
+     noFadeEffect: true,
+     labelText: "Go to date",
+     cursorDate: metaDate,
+     staticPos: true,
+     fillGrid: false,
+     constrainSelection: false,
+     positioned: "responsive-calendar",
+     callbackFunctions:{"datereturned":[gotoDate]}
+        });
+
+     datePickerController.setRangeLow("date-input", lowDate);
+     datePickerController.setRangeHigh("date-input", highDate);
+
+
+      function gotoDate(argObj) {
+         var url = datePickerController.printFormattedDate(argObj.date, "/%Y/%F/%j", false);
+         window.location = url;
+      }
+</script>
+
+                                   <div class="info-box hidden-print">
+                <div class="icon-container"> <i class="fa fa-envelope-o fa-4x"></i> </div>
+                <div class="text-container">
+                  <h2>Stanford For You</h2>
+		    <p>A <a href="/http://foryou.stanford.edu">monthly email newsletter</a> highlighting upcoming campus events.</p>
+                </div>
+              </div>
+
+              <div class="info-box hidden-print">
+                <div class="icon-container"> <i class="fa fa-info-circle fa-4x"></i> </div>
+                <div class="text-container">
+                  <h2>About this site</h2>
+                  <ul style="list-style: none;">
+                    <li><a href="/http://events.stanford.edu/about">Policies &amp; Procedures</a></li>
+                    <li><a href="/http://events.stanford.edu/about/rss">RSS &amp; iCal Feeds</a></li>
+                    <li><a href="/http://events.stanford.edu/about/contact">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+
+	      <div class="well hidden-print">
+		<h2>Post an event</h2>
+		<p>Campus organizations are invited to add their events to the calendar.</p>
+
+		  <a class="margin-bottom-20 btn btn-default btn-one btn-block" href="/http://events.stanford.edu/eventadmin/">
+		    <i class="fa fa-key fa-lg"></i>
+		    <span style="text-transform: uppercase; margin-left: 10px;">Login</span>
+		  </a>
+		  <p><strong>New user?</strong>  <em> <a href="/http://events.stanford.edu/account-request/">Request an account</a></em></p>
+	      </div>
+
+
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="footer" class="clearfix footer" role="contentinfo">
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-sm-12 col-md-2">
+          <a href="/https://www.stanford.edu">
+            <img alt="Stanford University" width="105" height="49" src="/https://www-media.stanford.edu/su-identity/images/footer-stanford-logo@2x.png">
+          </a>
+        </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text">
+          <div class="col-xs-5 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-10">
+            <ul id="primary-links">
+              <li class="home"><a href="/https://www.stanford.edu">Stanford Home</a></li>
+              <li class="maps alt"><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+              <li class="search-stanford"><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+              <li class="emergency alt"><a href="/https://emergency.stanford.edu">Emergency Info</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-12 col-md-10">
+            <ul id="policy-links">
+              <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+              <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy/">Privacy</a></li>
+              <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+              <li><a title="Ownership and use of Stanford trademarks and images" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+              <li><a title="Non-discrimination policy" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+              <li><a title="Report web accessibility issues" href="/https://www.stanford.edu/site/accessibility">Accessibility</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-10 col-md-offset-2">
+            <p class="copyright vcard">© <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+          </div>
+        </div> <!-- .bottom-text end -->
+      </div><!-- .row end -->
+    </div><!-- .container end -->
+  </div><!-- Global footer snippet end -->
+  
+</div>
+
+   
+</body></html>

@@ -1,0 +1,411 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="icon" type="image/x-icon" href="/http://web.stanford.edu/favicon.ico">
+    <script type="text/javascript" src="/https://cdn.ravenjs.com/3.16.0/raven.min.js"></script>
+    <script type="text/javascript">Raven.config('https://3ae64ae6429a495db79a232ad3ac19c8@app.getsentry.com/78580', {
+        shouldSendCallback: function () {
+            return typeof document.addEventListener !== 'undefined';
+        }
+    }).install()</script>
+    <script type="text/javascript">
+    (function () {
+        window.$buoop = {c:2};
+
+        function $buo_f(){
+            var e = document.createElement("script");
+
+            e.src = "//browser-update.org/update.min.js";
+
+            document.body.appendChild(e);
+        };
+
+        try {
+            document.addEventListener("DOMContentLoaded", $buo_f,false);
+        }  catch(e) {
+            window.attachEvent("onload", $buo_f);
+        }
+    }());
+    </script>
+    <script type="text/javascript" async="" src="/https://www.googletagmanager.com/gtag/js?id=UA-114908914-1"></script>
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114908914-1');
+    </script>
+
+<title>Stanford Faculty Staff Housing</title>
+<script type="text/javascript" src="/https://fsh.stanford.edu/js2/jquery.js?1234"></script>
+<link rel="stylesheet" type="text/css" href="/https://fsh.stanford.edu/css/styles.css?1234">
+
+<script type="text/javascript" src="/https://fsh.stanford.edu/js2/light.slide.js"></script>
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #003366
+}
+
+.greenBg{
+    background-color: #88d07e;
+}
+-->
+</style>
+</head>
+<body id="home_page" class="bodytext ">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tbody><tr>
+		<!-- LEFT GUTTER -->
+		<td valign="top" style="width: 35%;">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tbody><tr>
+				<td style="height: 23px;"><img width="1" style="height: 18px;" alt="" src="/https://fsh.stanford.edu/images/shim.gif"></td>
+			</tr>
+			<tr>
+				<td style="height: 39px;" class="website-bars-colour"><img style="height: 35px;" width="1" alt="" src="/https://fsh.stanford.edu/images/red_pixel.gif"></td>
+			</tr>
+			<tr>
+				<td style="height: 2px; background-image:url(https://fsh.stanford.edu/images/yellow.gif);"></td>
+			</tr>
+		</tbody></table>
+		</td>
+		<!-- CENTER BODY -->
+		<td valign="top" style="width: 665px;">
+		<table border="0" cellpadding="0" cellspacing="0" width="665px" bgcolor="#FFFFFF">
+			<tbody><tr>
+				<td style="height: 23px;" align="right"><a style="text-decoration: none;" href="/http://www.stanford.edu"><span style=""> <img width="229" style="height: 18px;" border="0" alt="" src="/https://fsh.stanford.edu/images/stanford_university_home.gif">
+				</span> </a></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="height: 39px;" class="website-bars-colour">
+					<span class="nameplate">FACULTY STAFF HOUSING</span>
+					<span class="dev-environment-notice">
+                        DEVELOPMENT
+                    </span>
+				</td>
+			</tr>
+			<tr>
+				<td style="height: 2px; background-image:url(https://fsh.stanford.edu/images/yellow.gif);"></td>
+			</tr>
+		</tbody></table>
+		<table border="0" cellpadding="0" cellspacing="0" width="665" bgcolor="#FFFFFF">
+
+			<tbody><tr>
+				<td width="1" rowspan="2" bgcolor="#CCCCCC"><img width="1" alt="" src="/https://fsh.stanford.edu/images/p.gif"></td>
+				<!-- BEGIN NAVBAR -->
+				<td valign="top" width="160">
+				<table width="160" border="0" cellspacing="0" cellpadding="0">
+					<tbody><tr>
+						<td><img alt="" src="/https://fsh.stanford.edu/images/nav0.gif"></td>
+					</tr>
+					<tr>
+						<td width="160" height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+					<tr>
+						<td class="navtext"><a id="home" href="/https://fsh.stanford.edu/index.shtml">Home</a></td>
+					</tr>
+					<tr>
+						<td width="160" height="1" bgcolor="#CCCCCC"></td>
+
+					</tr>
+					<tr>
+						<td class="navtext"><a id="about" href="/https://fsh.stanford.edu/about/index.shtml">About
+						FSH</a></td>
+					</tr>
+					<tr>
+						<td width="160" height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+					<tr>
+						<td class="navtext"><a id="homebuyers" href="/https://fsh.stanford.edu/homebuyers/index.shtml">For
+						New Homebuyers</a></td>
+					</tr>
+					<tr>
+						<td width="160" height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+					<tr>
+						<td class="navtext"><a id="homeowners" href="/https://fsh.stanford.edu/homeowners/index.shtml">For
+						Current Homeowners</a></td>
+
+					</tr>
+					<tr>
+						<td width="160" height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+					<tr>
+						<td class="navtext"><a id="hfs_ind" href="/https://fsh.stanford.edu/cgi-bin/HFSindex.php">Homes for Sale and Rent</a><br>
+						<table id="subnavtable_hfs" width="100%">
+							<tbody><tr>
+								<td class="subnavtext">• <a id="camp_hous" href="/https://fsh.stanford.edu/cgi-bin/CHS.php">Housing Sales <br>&nbsp;&nbsp;Summary </a></td>
+							</tr>
+							<tr>
+								<td class="subnavtext">• <a id="sch_map" href="/https://fsh.stanford.edu/hfs/schools.shtml">School
+								District</a></td>
+							</tr>
+							<tr>
+								<td class="subnavtext">• <a id="eleg" href="/https://fsh.stanford.edu/brochures/Eligibility.pdf">Eligibility</a></td>
+							</tr>
+							<tr>
+								<td class="subnavtext">• <a id="disc" href="/https://fsh.stanford.edu/homebuyers/index.shtml">On-Campus<br>&nbsp;&nbsp;Disclosures</a></td>
+							</tr>
+
+
+						</tbody></table>
+						</td>
+					</tr>
+					<tr>
+						<td width="160" height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+					<tr>
+						<td class="navtext"><a id="nfh_ind" href="/https://fsh.stanford.edu/nfh/UT/universityTerrace.shtml">New Faculty Housing</a></td>
+					</tr>
+					<tr>
+						<td width="160" height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+					<tr>
+						<td class="navtext"><a id="rentals" href="/https://fsh.stanford.edu/rentals/index.shtml">Rental
+						Resources</a></td>
+					</tr>
+					<tr>
+						<td width="160" height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+					<tr>
+						<td class="navtext"><a id="faq" href="/https://fsh.stanford.edu/faq/index.shtml">FAQ</a>
+						<table id="subnavtable" width="100%">
+							<tbody><tr>
+								<td class="subnavtext">• <a id="index" href="/https://fsh.stanford.edu/faq/index.shtml">New
+								Homebuyers</a></td>
+							</tr>
+							<tr>
+								<td class="subnavtext">• <a id="currentborrowers" href="/https://fsh.stanford.edu/faq/faq_currentborrowers.shtml">Current
+								Borrowers</a></td>
+							</tr>
+							<tr>
+								<td class="subnavtext"><a id="campusowners" href="/https://fsh.stanford.edu/faq/faq_campusowners.shtml">•
+								Leaseholders</a></td>
+							</tr>
+						</tbody></table>
+						</td>
+					</tr>
+					<tr>
+						<td width="160" height="1" bgcolor="#CCCCCC"></td>
+
+					</tr>
+					<tr>
+						<td class="navtext"><a id="contact" href="/https://fsh.stanford.edu/contact/index.shtml">Contact
+						Us</a></td>
+					</tr>
+					<tr>
+						<td width="160" height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+					<tr>
+						<td class="navtext"><a id="portal" href="/https://fsh.stanford.edu/cgi-bin/portalIndex.php">FSH Online</a></td>
+					</tr>
+					<tr>
+						<td width="160" height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+
+					<tr>
+						<td align="center" valign="middle"><br>
+					</td></tr><tr>
+
+	<td valign="TOP" class="content_td"><a name="top"></a>
+
+
+
+
+<br>
+
+<table width="90%" border="1" cellpadding="2" cellspacing="0" style="bordercolor: C2B7A1">
+	<tbody><tr>
+		<td bgcolor=""><a class="searchtext" href="/https://fsh.stanford.edu/cgi-bin/CHS.php">Housing Sales </a></td>
+	</tr>
+</tbody></table>
+<br>
+<table width="90%" border="1" cellpadding="2" cellspacing="0" style="bordercolor: C2B7A1">
+	<tbody><tr>
+		<td bgcolor="" class="searchtext style1"><a href="/https://fsh.stanford.edu/ProgChg/tenure.shtml">Programs for Newly Tenured Faculty</a></td>
+	</tr>
+</tbody></table>
+<br>
+<table width="90%" border="1" cellpadding="2" cellspacing="0" style="bordercolor: C2B7A1">
+	<tbody><tr>
+		<td bgcolor="" class="searchtext style1"><a href="/https://fsh.stanford.edu/CE/index.shtml">Clinician Educator Housing Programs</a></td>
+	</tr>
+</tbody></table><br>
+
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody></table>
+</td>
+<!-- END NAVBAR -->
+<td width="1" rowspan="2" bgcolor="#CCCCCC">
+<img width="1" alt="" src="/https://fsh.stanford.edu/images/shim.gif"></td>
+<td width="502" rowspan="2" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="10">&nbsp;</td>
+<td valign="TOP" class="content_td">
+<a name="top"></a>
+    <script>
+        (function() {
+            var cx = '018160681285114419811:6mbx_ki9rg0';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+    </script>
+    <gcse:search></gcse:search>
+
+</td></tr><tr>
+	<td valign="top" colspan="3">
+		<div class="slide-container">
+			<ul>
+				<li><img alt="Homepage Photos" src="/http://fsh.stanford.edu/images/slides/1.jpg"></li>
+				<li><img alt="Homepage Photos" src="/http://fsh.stanford.edu/images/slides/2.jpg"></li>
+				<li><img alt="Homepage Photos" src="/http://fsh.stanford.edu/images/slides/3.jpg"></li>
+				<li><img alt="Homepage Photos" src="/http://fsh.stanford.edu/images/slides/4.jpg"></li>
+				<li><img alt="Homepage Photos" src="/http://fsh.stanford.edu/images/slides/6.jpg"></li>
+				<li><img alt="Homepage Photos" src="/http://fsh.stanford.edu/images/slides/5.jpg"></li>
+			</ul>
+		</div>
+	</td>
+</tr>
+
+<tr>
+	<td width="10">&nbsp;</td>
+
+	<td valign="top" class="content_td">
+
+		<p>
+			Faculty Staff Housing, a division of the Office of the Provost,
+			provides a variety of programs and information to help eligible
+			Stanford faculty and staff make the transition into a new home as
+			smooth as possible.
+		</p>
+
+		<strong><span class="">University Terrace</span></strong><br>
+
+		<br>
+		<div class="warningDivDark">
+			The Interest List for Lottery 4 is now closed. Visit
+			<a target="_blank" href="/https://universityterrace.stanford.edu/lottery/results">universityterrace.stanford.edu/lottery/results</a>
+			to obtain more information and to see the results. <span class="redtext">(updated July 3, 2018)</span><br>
+		</div>
+
+		<br>
+		<div class="">
+			Condominium Homes are now available for purchase by Eligible Faculty.
+			A model unit is now open and other completed units are available to tour.
+			The current inventory is available on the University Terrace interactive map at
+			<a target="_blank" href="/https://universityterrace.stanford.edu/condominium-homes/floor-plans">https://universityterrace.stanford.edu/condominium-homes/floor-plans</a>.
+			<span class="redtext">(updated February 20, 2018)</span>
+		</div>
+
+		<br>
+		<div class="">
+			The Purchase Consultants have moved to the community at 2500 Columbia Street, Unit 116.
+			Interested parties should stop by or schedule an appointment: <a target="_blank" href="/http://fsh.stanford.edu/mailto:info@theuniversityterrace.com?subject=University Terrace Inquiry">info@theuniversityterrace.com</a> or 650.724.7262.
+			<span class="redtext">(updated February 20, 2018)</span>
+		</div>
+
+		<br>
+		<div class="">
+			<strong><span class="">Lottery Reminder</span></strong><br>
+			Eligible Faculty may register for more than one lottery, however Eligible Faculty who have a reservation
+			or a contract on a single-family home in one FSH Housing Lottery are no longer eligible to participate in
+			another FSH Housing Lottery. This does not apply to those who have a reservation or a contract on a
+			condominium home. <span class="redtext">(updated November 1, 2016)</span>
+		</div>
+
+		<br>
+		<div class="">
+			<strong><span class="">Notices</span></strong><br>
+
+			<em><span style="text-decoration: underline;" class="">Reduced Interest Program</span></em> - As a result of the University’s long-range planning process, the President and Provost have approved
+			a change to the Reduced Interest Program (RIP) for faculty and clinician educators effective
+			June 1, 2018. This change should help address the affordability challenges of first time buyers who
+			purchase a home within the qualifying area.<br><br>
+			The loan amount will increase from $100,000 to $300,000. All of the other terms and conditions of the
+			loan program will remain the same, including the interest rate of
+			zero percent. <span class="redtext">(updated June 1, 2018)</span><br><br>
+
+			<em><span style="text-decoration: underline;" class="">Building Homes and Jobs Act</span></em> - In September 2017, the Governor signed the Building Homes and Jobs Act approved by the California
+			legislature, which as of January 1, 2018, imposed a new fee in the amount of $75.00 to be collected by
+			each county for every real estate instrument required by law to be recorded. This fee is commonly known
+			as the affordable housing fee.<br><br>
+
+			This fee will now be charged on most of the documents prepared by Faculty Staff Housing related to real
+			estate transactions. If Faculty Staff Housing records the documents, the fee will be collected.
+			<span class="redtext">(updated February 20, 2018)</span>
+		</div>
+
+       <br>
+	<br>
+	</td>
+	<td width="10">&nbsp;</td>
+</tr>
+</tbody></table>
+</td>
+<td width="1" rowspan="2" bgcolor="#CCCCCC"><img width="1" height="50" alt="" src="/https://fsh.stanford.edu/images/spacer.gif"></td>
+</tr>
+<tr>
+	<td align="center" valign="bottom"><!-- edit sidebar below --><a href="/http://www.stanford.edu"><img alt="Stanford Home" name="seal" width="102" height="102" border="0" src="/https://fsh.stanford.edu/images/seal.gif"></a> <!-- end edit sidebar --> <br>
+	<br>
+	</td>
+
+</tr>
+</tbody></table>
+</td>
+<!--RIGHT GUTTER-->
+<td valign="top" width="35%">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tbody><tr>
+		<td style="height: 23px;"><img style="height: 18px;" width="1" alt="" src="/https://fsh.stanford.edu/images/shim.gif"></td>
+	</tr>
+	<tr>
+		<td style="height: 39px;" class="website-bars-colour"><img style="height: 35px;" width="1" alt="" src="/https://fsh.stanford.edu/images/red_pixel.gif"></td>
+	</tr>
+	<tr>
+		<td style="height: 2px; background-image:url(https://fsh.stanford.edu/images/yellow.gif);"></td>
+	</tr>
+</tbody></table>
+</td>
+
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr align="center">
+		<td align="center" width="100%" height="17" class="website-bars-colour">
+		<p class="footertext"><b><a class="botnav" href="/https://fsh.stanford.edu/contact/index.shtml">Contact</a>&nbsp;| &nbsp;
+		<a class="botnav" href="/http://web.stanford.edu/dept/visitorinfo/plan/maps.html">Directions</a>
+		| <span class="style2"><a class="botnav" href="/https://fsh.stanford.edu/about/privacy.shtml">PRIVACY POLICY</a>&nbsp;| &nbsp;
+				<a href="/https://fsh.stanford.edu/hfs/termsOfUse.shtml">FSH Terms of Use</a></span></b></p>
+		</td>
+	</tr>
+	<tr>
+		<td align="center" width="100%" height="21"><div id="copyright">
+	© Stanford University.  All Rights Reserved.  Stanford, CA  94305. (650) 723-2300.
+			<a href="/http://web.stanford.edu/site/terms.html">Terms of Use</a>&nbsp;|&nbsp;
+			<a href="/http://web.stanford.edu/group/security/dmca.html">Copyright Complaints</a>
+</div></td>
+	</tr>
+	<tr>
+		<td align="center" height="20" valign="top" class="bodytext"><br>
+		<br>
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+
+</body></html>

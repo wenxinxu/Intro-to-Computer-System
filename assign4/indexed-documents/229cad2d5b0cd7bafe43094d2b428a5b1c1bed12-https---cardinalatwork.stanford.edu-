@@ -1,0 +1,607 @@
+<!DOCTYPE html><!--[if lt IE 7]> <html class="ie6 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 7]>    <html class="ie7 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 8]>    <html class="ie8 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 9]>    <html class="ie9 ie" lang="en" dir="ltr"> <![endif]--><!--[if !IE]> --><html lang="en" dir="ltr"><!-- <![endif]--><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="apple-touch-icon" sizes="114x114" href="/https://cardinalatwork.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/https://cardinalatwork.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/https://cardinalatwork.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/https://cardinalatwork.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/https://cardinalatwork.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" href="/https://cardinalatwork.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/https://cardinalatwork.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="167x167" href="/https://cardinalatwork.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-167x167.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/https://cardinalatwork.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/https://cardinalatwork.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-57x57.png">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/favicon_2.ico">
+<meta name="google-site-verification" content="tUJ214wF9k79KCsAn5wIOyOFR2eH0RlBANimm5MCFfU">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><meta name="google-site-verification" content="tUJ214wF9k79KCsAn5wIOyOFR2eH0RlBANimm5MCFfU">
+<meta name="generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="/https://cardinalatwork.stanford.edu/">
+<link rel="shortlink" href="/https://cardinalatwork.stanford.edu/">
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Cardinal at Work |</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/https://cardinalatwork.stanford.edu/s3fs-css/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://cardinalatwork.stanford.edu/s3fs-css/css/css_JsNupfpWENtZl3PsbtMoRvOBlo9YKAdVhAdHLPsR8FE.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/https://cardinalatwork.stanford.edu/s3fs-css/css/css_9tSZ0nPz-1H4xvY-ur8aWaAgaF4oAzsrLDvWf6KvPSU.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://cardinalatwork.stanford.edu/s3fs-css/css/css_0XDvGz6L0_pNKyQ2eMu1kJ98Y14D_J2G7R_xXR3a0ec.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/https://cardinalatwork.stanford.edu/s3fs-css/css/css_N7sR9xJhpUrqJMLbLfAalK-7CB-vByTDk9tzB2C4uSA.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://cardinalatwork.stanford.edu/s3fs-css/css/css_a69kR1oLcFzZ7qanYFRGwTI7iClFThM3S5TWtkkoC6A.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://cardinalatwork.stanford.edu/s3fs-css/css/css_424VbFsugMHJdsiTMLKGMXK_-qzkY47JwqlFIakOjnA.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://cardinalatwork.stanford.edu/s3fs-css/css/css_s0Z8VLWh03DtHJQV3ZRRQeh2_w2qy1y9KiMwmDIVCqc.css">
+<link type="text/css" rel="stylesheet" media="print" href="/https://cardinalatwork.stanford.edu/s3fs-css/css/css_nGZ0EUi6HATidAf3pITrpLdyTGtTsmfVAzXLpUp2gr4.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://cardinalatwork.stanford.edu/s3fs-css/css/css_U26J7unxWPiG5wRtR7xTTGyTpkP8XujECxFw4Zjbdc0.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://cardinalatwork.stanford.edu/s3fs-css/css_injector/css_injector_32.css?pcuepl">
+<link type="text/css" rel="stylesheet" media="all" href="/https://cardinalatwork.stanford.edu/s3fs-css/css/css_oHr44Crp5taI7x43cSgL68hB8sdxXKJ9CqTq89_h-Ok.css">
+  <script type="text/javascript" src="/https://cardinalatwork.stanford.edu/s3fs-js/js/js_rw38AxUHsPWFiaNN4ohZmtH4SiTP_fDZVPT4UdJ505w.js"></script>
+<script type="text/javascript" src="/https://cardinalatwork.stanford.edu/s3fs-js/js/js_ZDOaep6HA5A0eriyiN-YaNv7MHsjd-FIuFyilZ2o5cw.js"></script>
+<script type="text/javascript" src="/https://cardinalatwork.stanford.edu/s3fs-js/js/js_g98Ekqvuj1mMaUqTkLdcrMmJymw4aFC5YyzBQBviahY.js"></script>
+<script type="text/javascript" src="/https://cardinalatwork.stanford.edu/s3fs-js/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _prum=[['id', '54d232c4abe53d1c6539824e'], ['mark', 'firstbyte',
+      (new Date()).getTime()]]; (function() {
+      var s=document.getElementsByTagName('script')[0],
+      p=document.createElement('script');
+      p.async='async'; p.src='//rum-static.pingdom.net/prum.min.js';s.parentNode.insertBefore(p,s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="/https://cardinalatwork.stanford.edu/s3fs-js/js/js_8Fj3JcXcVEdT9ijvhprIYXjLMtcgCqoHWNL6XzAzQ-U.js"></script>
+<script type="text/javascript" src="/https://cardinalatwork.stanford.edu/s3fs-js/js/js_taSbDoE4s62P3ENLwdbv0l01FjE19r5c4qZG-gXHYmw.js"></script>
+<script type="text/javascript" src="/https://cardinalatwork.stanford.edu/s3fs-js/js/js_KMiQkAnwlzPiJv3nfqEvcFsECD6B_C7klY5VCMMp3B8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-26605114-41", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="/https://cardinalatwork.stanford.edu/s3fs-js/js/js_aVgpAHF5iRvLmfnTU7TWyso_2padFeznmgA5aRyQoxc.js"></script>
+<script type="text/javascript" src="/https://cardinalatwork.stanford.edu/s3fs-js/js/js_9cK0ID99e4vgND5XBb3ButI-3Cx3e37QuFo8f7KyqAg.js"></script>
+<script type="text/javascript" src="/https://cardinalatwork.stanford.edu/s3fs-js/js/js_6lEiBKPgYd0J4j7bMPiKzKQR5ow6mo0LR6Gtg_UkEpo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stanford_framework","theme_token":"lHXHZ3bRPZzl-tvBncM8Dwr6ScDj82Wq-0pWeVbXdOc","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"misc\/ui\/jquery.ui.slider.css":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/custom\/caw_helper\/css\/wysiwyg_editor.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"sites\/all\/modules\/contrib\/siteimprove\/css\/siteimprove.css":1,"sites\/all\/modules\/stanford\/stanford_bean_types\/css\/social-media.css":1,"sites\/all\/modules\/stanford\/stanford_carousel\/css\/stanford_carousel.css":1,"sites\/all\/modules\/stanford\/stanford_gallery\/css\/stanford_gallery.css":1,"sites\/all\/modules\/stanford\/stanford_jumpstart\/css\/jumpstart.css":1,"sites\/all\/modules\/stanford\/stanford_jumpstart\/css\/jumpstart-theme-fixes.css":1,"sites\/all\/modules\/stanford\/stanford_jumpstart_academic\/css\/jumpstart-academic.css":1,"sites\/all\/modules\/stanford\/stanford_jumpstart_home\/css\/stanford_jumpstart_home.css":1,"sites\/all\/modules\/stanford\/stanford_jumpstart\/modules\/stanford_jumpstart_shortcuts\/css\/shortcuts.css":1,"sites\/all\/modules\/stanford\/stanford_landing_page\/css\/stanford_landing_page.css":1,"sites\/all\/modules\/stanford\/stanford_news\/css\/stanford_news.css":1,"sites\/all\/modules\/stanford\/stanford_program_service\/css\/stanford_program_service.css":1,"sites\/all\/modules\/stanford\/stanford_search_api\/css\/stanford_search_api.css":1,"sites\/all\/modules\/stanford\/stanford_sweeteners\/modules\/stanford_sweeteners_isotope\/css\/stanford_sweeteners_isotope.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/context_accordion\/context_accordion.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/slick\/slick\/slick.css":1,"sites\/all\/libraries\/slick\/slick\/slick-theme.css":1,"sites\/all\/modules\/stanford\/stanford_sweeteners\/css\/stanford_sweeteners.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap.min.css":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap-responsive.min.css":1,"sites\/all\/themes\/open_framework\/packages\/font-awesome-3.2.1\/css\/font-awesome.min.css":1,"sites\/all\/themes\/open_framework\/css\/open_framework.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford-framework.css":1,"sites\/all\/themes\/stanford_framework\/css\/ie.css":1,"sites\/all\/themes\/open_framework\/css\/open_framework_print.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_light\/fonts-sans.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_light\/stanford-light.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_light\/styles-plain.css":1,"public:\/\/css_injector\/css_injector_15.css":1,"public:\/\/css_injector\/css_injector_27.css":1,"public:\/\/css_injector\/css_injector_30.css":1,"public:\/\/css_injector\/css_injector_32.css":1,"public:\/\/css_injector\/css_injector_33.css":1,"public:\/\/css_injector\/css_injector_34.css":1,"sites\/all\/modules\/custom\/caw_helper\/css\/caw_helper.css":1},"js":{"0":1,"public:\/\/google_tag\/google_tag.script.js":1,"misc\/jquery.js":1,"sites\/all\/themes\/open_framework\/js\/jquery-migrate-1.2.1.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"1":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"modules\/locale\/locale.datepicker.js":1,"misc\/ui\/jquery.ui.mouse.min.js":1,"misc\/ui\/jquery.ui.slider.min.js":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-sliderAccess.js":1,"sites\/all\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.js":1,"sites\/all\/modules\/custom\/caw_events_tweaks\/js\/caw_events_tweaks.js":1,"sites\/all\/modules\/contrib\/nojs\/nojs.js":1,"sites\/all\/modules\/stanford\/stanford_bean_types\/js\/stanford-bean-types.js":1,"sites\/all\/modules\/stanford\/stanford_carousel\/js\/stanford_carousel.js":1,"sites\/all\/modules\/stanford\/stanford_events_importer\/js\/stanford_event_nodes.js":1,"sites\/all\/modules\/stanford\/stanford_events_importer\/js\/stanford_events_calendar.js":1,"sites\/all\/modules\/stanford\/stanford_jumpstart\/js\/jumpstart.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/context_accordion\/context_accordion.js":1,"sites\/all\/libraries\/slick\/slick\/slick.min.js":1,"sites\/all\/modules\/stanford\/stanford_sweeteners\/js\/stanford_sweeteners.slick.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/modules\/stanford\/stanford_search_api\/js\/stanford_search_api.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/modules\/stanford\/stanford_date_timepicker\/js\/stanford_date_timepicker.js":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/js\/bootstrap.min.js":1,"sites\/all\/themes\/open_framework\/js\/open_framework.js":1,"sites\/all\/themes\/open_framework\/js\/jquery.placeholder.min.js":1,"sites\/all\/themes\/open_framework\/js\/override.js":1,"sites\/all\/themes\/stanford_framework\/js\/stanford-framework.js":1,"sites\/all\/modules\/stanford\/stanford_carousel\/js\/stanford_carousel_aria.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"field_group":{"div":"default","link":"stanford_tiles"},"stanford_sweeteners":{"slickblock-caw-homepage-sweetener-carouse-0":{"dots":true,"variableHeight":true,"infinite":true,"speed":500,"easing":"easeOutQuint","slidesToShow":5,"slidesToScroll":5,"appendArrows":".sweetener-arrows","appendDots":".sweetener-dots","reInit":"Drupal.behaviors.stanford_sweeteners.move_buttons","responsive":[{"breakpoint":1199,"settings":{"slidesToShow":4,"slidesToScroll":4,"infinite":true,"dots":true}},{"breakpoint":979,"settings":{"slidesToShow":3,"slidesToScroll":3,"infinite":true,"dots":true}},{"breakpoint":767,"settings":{"slidesToShow":1,"slidesToScroll":1,"infinite":true,"dots":false}},{"breakpoint":480,"settings":{"slidesToShow":2,"slidesToScroll":2,"infinite":true,"dots":false}},{"breakpoint":330,"settings":{"slidesToShow":1,"slidesToScroll":1,"infinite":true,"dots":false}}]}},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"","extInclude":"","extCssExclude":"#navbar,#block-bean-search-jobs-button,*:has(\u003E a.btn),.btn-arrow-right,.views-field-field-caw-registration-link,.views-field-field-caw-course-enrollment-link,.no-external,*:has(\u003E a.no-external),.field-name-field-s-resource-download,.more-link,*:has(\u003E a.more-link)","extCssExplicit":".content","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"urlIsAjaxTrusted":{"\/search\/content":true},"jquery":{"ui":{"datepicker":{"isRTL":false,"firstDay":0}}},"stanford_date_timepicker":{"classes":"","default_date_format":"yy-mm-dd","default_time_format":"hh:mm","default_separator":" "}});
+//--><!]]>
+</script>
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/sites/all/themes/open_framework/packages/font-awesome-3.2.1/css/font-awesome-ie7.min.css" />  <![endif]-->
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="/sites/all/themes/open_framework/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-139 node-type-stanford-page no-js  active-home-context        style-custom  header-bkg-image header-bkg-text-light style-custom-styles-plain style-custom-fonts-sans">
+  <noscript><iframe height="0" width="0" style="display:none;visibility:hidden" src="/https://www.googletagmanager.com/ns.html?id=GTM-WHCFJTT"></iframe></noscript>  <div id="wrap"> <a class="element-invisible element-focusable" href="/https://cardinalatwork.stanford.edu/">Skip to content</a>
+    <a class="element-invisible element-focusable" href="/https://cardinalatwork.stanford.edu/">Skip to navigation</a>
+    <!-- /#skipnav -->
+    <!-- /#admin-shortcuts -->
+  <div id="global-header">
+    <div class="container">
+      <div class="row-fluid">
+        <div id="top-logo" class="span4"><a href="/http://www.stanford.edu"><img alt="Stanford University" src="/https://cardinalatwork.stanford.edu/sites/all/themes/stanford_framework/images/header-stanford-logo@2x.png"></a></div>
+              </div>
+    </div>
+  </div>
+  <!-- /#global-header -->
+  <div id="header" class="clearfix header" role="banner">
+    <div class="container">
+      <div class="row">
+        <div class="span9">
+                    <div id="logo" class="logo-mobile  site-logo"> <a title="Home" rel="home" href="/https://cardinalatwork.stanford.edu/"> <img alt="Cardinal at Work" role="presentation" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/caw-logo.png"> </a></div>
+                    <!-- /#logo -->
+                              <div id="site" class="hide">
+            <div id="name"><a href="/https://cardinalatwork.stanford.edu/">Cardinal at Work</a></div>
+          </div>
+                    <!-- /#name-and-slogan -->
+                    <!-- /#header-content -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#header -->
+
+    <div id="main-menu" class="clearfix site-main-menu">
+    <div class="container">
+      <div class="navbar">
+                <div class="navbar-inner">
+        
+                    <div id="nav-search" class="nav-search"> <div class="region region-search-box clearfix">
+  <div id="block-stanford-search-api-search-api-search-block" class="clearfix block block-stanford-search-api">       <div class="content"> <form action="/search/content" method="post" id="stanford-search-api-search-block-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-keywords">
+ <input placeholder="Search this site..." class="input-medium search-query form-text" type="text" id="edit-keywords" name="keywords" value="" size="60" maxlength="128">
+</div>
+<input class="btn-search form-submit" alt="Search" type="image" id="edit-search" name="search" value="Search" src="/https://cardinalatwork.stanford.edu/sites/all/themes/open_framework/images/searchbutton.png"><input type="hidden" name="form_build_id" value="form-0Jua7PJH6EB9X4KfVf1AKBqrbGOjDmlFRmSwD11vbiw">
+<input type="hidden" name="form_id" value="stanford_search_api_search_block_form">
+</div></form> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+          
+                    <button aria-label="Navigation menu" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse"> <span class="hide">Navigation menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <div class="nav-collapse collapse">
+            <nav id="main-nav" role="navigation">
+              <div class="region region-navigation clearfix">
+  <div id="block-menu-block-1" class="clearfix block block-menu-block">     <h2>Main menu</h2>
+      <div class="content"> <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first leaf active menu-mlid-889"><a class="active" href="/https://cardinalatwork.stanford.edu/">Home</a></li>
+<li class="expanded menu-mlid-1989 dropdown"><a title="" class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://cardinalatwork.stanford.edu/benefits-rewards">Benefits &amp; Rewards <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-2073"><a href="/https://cardinalatwork.stanford.edu/benefits-rewards">Overview</a></li>
+<li class="leaf menu-mlid-4553"><a href="/https://cardinalatwork.stanford.edu/benefits-rewards/my-offerings">My Offerings</a></li>
+<li class="leaf menu-mlid-4551"><a href="/https://cardinalatwork.stanford.edu/benefits-rewards/health">Health</a></li>
+<li class="leaf menu-mlid-2877"><a href="/https://cardinalatwork.stanford.edu/benefits-rewards/retirement">Retirement Savings</a></li>
+<li class="leaf menu-mlid-3011"><a href="/https://cardinalatwork.stanford.edu/benefits-rewards/worklife">WorkLife</a></li>
+<li class="leaf menu-mlid-3013"><a href="/https://cardinalatwork.stanford.edu/benefits-rewards/compensation">Compensation</a></li>
+<li class="leaf menu-mlid-6738"><a href="/https://cardinalatwork.stanford.edu/benefits-rewards/time-away">Time Away</a></li>
+<li class="leaf menu-mlid-2885"><a title="" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners">Sweeteners</a></li>
+<li class="leaf menu-mlid-2101"><span title="" class="separator"><hr></span></li>
+<li class="leaf menu-mlid-2111"><a href="/https://cardinalatwork.stanford.edu/benefits-rewards/my-benefits">My Benefits</a></li>
+<li class="leaf menu-mlid-2535"><a href="/https://cardinalatwork.stanford.edu/benefits-rewards/health/medical-life/medical-plans/comparison-tool">Comparison Tool</a></li>
+<li class="leaf menu-mlid-4335"><a href="/https://cardinalatwork.stanford.edu/benefits-rewards/time-away/holiday-schedule">Holidays</a></li>
+<li class="last leaf menu-mlid-6411"><a title="" href="/https://cardinalatwork.stanford.edu/benefits-rewards/resources">Resources</a></li>
+</ul></li>
+<li class="expanded menu-mlid-2123 dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://cardinalatwork.stanford.edu/learning-stanford">Learning at Stanford <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-2801"><a href="/https://cardinalatwork.stanford.edu/learning-stanford">Overview</a></li>
+<li class="leaf menu-mlid-3557"><a href="/https://cardinalatwork.stanford.edu/learning-stanford/career-guidance">Career Guidance</a></li>
+<li class="leaf menu-mlid-8330"><a href="/https://cardinalatwork.stanford.edu/learning-stanford/performance-management">Performance Management</a></li>
+<li class="leaf menu-mlid-3589"><a href="/https://cardinalatwork.stanford.edu/learning-stanford/professional-development">Professional Development</a></li>
+<li class="leaf menu-mlid-4247"><a title="" href="/https://cardinalatwork.stanford.edu/learning-stanford/resources">Resources</a></li>
+<li class="last leaf has-children menu-mlid-4433"><a href="/https://cardinalatwork.stanford.edu/learning-stanford/tuition-training-assistance">Tuition &amp; Training Assistance</a></li>
+</ul></li>
+<li class="expanded menu-mlid-8326 dropdown"><a title="" class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://cardinalatwork.stanford.edu/working-stanford">Working at Stanford <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-8351"><a title="" href="/https://cardinalatwork.stanford.edu/working-stanford">Overview</a></li>
+<li class="leaf menu-mlid-8382"><a href="/https://cardinalatwork.stanford.edu/working-stanford/address-concerns">Address Concerns</a></li>
+<li class="leaf menu-mlid-8381"><a href="/https://cardinalatwork.stanford.edu/working-stanford/policies">Policies</a></li>
+<li class="leaf menu-mlid-8352"><a href="/https://cardinalatwork.stanford.edu/working-stanford/recognition">Recognition</a></li>
+<li class="leaf menu-mlid-8350"><a title="" href="/https://cardinalatwork.stanford.edu/working-stanford/redwood-city">Redwood City</a></li>
+<li class="last leaf menu-mlid-8353"><a href="/https://cardinalatwork.stanford.edu/working-stanford/staff-survey">Staff Survey</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-1945 dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://cardinalatwork.stanford.edu/engage">Engage <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-1963"><a href="/https://cardinalatwork.stanford.edu/engage">Overview</a></li>
+<li class="leaf menu-mlid-1217"><a title="" href="/https://cardinalatwork.stanford.edu/engage/events">Calendar</a></li>
+<li class="leaf menu-mlid-1209"><a title="" href="/https://cardinalatwork.stanford.edu/engage/news">Employee News</a></li>
+<li class="leaf menu-mlid-2083"><a title="" href="/http://www.facebook.com/cardinalatwork">Facebook</a></li>
+<li class="leaf has-children menu-mlid-1967"><a href="/https://cardinalatwork.stanford.edu/engage/staff-groups">Join a Group</a></li>
+<li class="last leaf menu-mlid-4371"><a href="/https://cardinalatwork.stanford.edu/engage/volunteer">Volunteer</a></li>
+</ul></li>
+</ul></div>
+ </div>
+</div><div id="block-menu-menu-contact-us-top-level" class="clearfix block block-menu menu-resources">     <h2>Contact Us Top Level</h2>
+      <div class="content"> <ul class="menu nav"><li class="first last leaf"><a title="" href="/https://cardinalatwork.stanford.edu/contact-us">Contact Us</a></li>
+</ul> </div>
+</div><div id="block-bean-search-jobs-button" class="clearfix block block-bean">       <div class="content"> <div about="/block/search-jobs-button" typeof="" class="ds-1col entity entity-bean bean-stanford-postcard view-mode-default clearfix">
+
+  
+  <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a class="btn btn-arrow-right" target="_blank" href="/http://stanfordcareers.stanford.edu/job-search?utm_source=web&amp;utm_medium=button&amp;utm_campaign=Search Jobs">Search Jobs</a></p>
+</div></div></div></div></div></div>
+
+ </div>
+</div></div>
+ <!-- /.region -->
+            </nav>
+          </div>
+          
+                </div>
+              </div>
+    </div>
+  </div>
+  <!-- /#main-menu -->
+      <div id="main" class="clearfix main" role="main">
+              <div id="main-top" class="row-fluid main-top">
+        <div class="container"> <div class="region region-main-top clearfix">
+  <div id="block-bean-homepage-staging-block-3" class="clearfix block block-bean span4 homepage-banner">       <div class="content"> <div about="/block/homepage-staging-block-3" typeof="" class="ds-1col entity entity-bean bean-stanford-postcard view-mode-default clearfix">
+
+  
+  <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><h2>We are a community whose collective efforts make our world a bit brighter.</h2>
+<h3>We are Cardinal at Work.</h3>
+</div></div></div></div></div></div>
+
+ </div>
+</div><div id="block-bean-homepage-staging-block-1" class="clearfix block block-bean span4 column">       <div class="content"> <div class="ds-1col entity entity-bean bean-stanford-postcard view-mode-stanford_tiles clearfix">
+
+  
+  <div class="tile"><a class="tile-link" href="/https://cardinalatwork.stanford.edu/working-stanford/recognition/service/stanford-celebrates-you"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-tiles field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4435" typeof="">
+  <div class="content">
+    <div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" width="370" height="210" alt="Screen shot from Stanford Celebrates You video" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-med-landscape/public/su_celebrates_you_video_screen_shot.jpg?itok=O-phIY2T"></div></div></div>  </div>
+</div>
+</div></div></div></div></div><div class="field field-name-title-wrapper field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h2>New Ways to Recognize Service of Staff</h2></div></div></div><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Stanford Celebrates You: Recognizing Staff Careers offers new approaches to share Stanford's appreciation of service provided by staff.</p>
+</div></div></div></a></div></div>
+
+ </div>
+</div><div id="block-bean-homepage-staging-block-2" class="clearfix block block-bean span4 column">       <div class="content"> <div class="ds-1col entity entity-bean bean-stanford-postcard view-mode-stanford_tiles clearfix">
+
+  
+  <div class="tile"><a class="tile-link" href="/https://cardinalatwork.stanford.edu/learning-stanford/professional-development/course-calendar"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-tiles field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4591" typeof="">
+  <div class="content">
+    <div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" width="370" height="210" alt="Summer professional development courses available" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-med-landscape/public/homepage_card1.png?itok=Xg0xedMx"></div></div></div>  </div>
+</div>
+</div></div></div></div></div><div class="field field-name-title-wrapper field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h2>Summer professional development courses now available</h2></div></div></div><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Soak up new skills!&nbsp; Summer p<span>rofessional development courses can help you learn new skills and keep you on track for success.</span></p>
+</div></div></div></a></div></div>
+
+ </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+      </div>
+        <div class="container">
+            <div id="main-content" class="row main-content">
+                <div id="content" class="mc-content span12">
+          <div id="content-wrapper" class="content-wrapper">
+            <div id="content-head" class="row-fluid content-head">
+                                                        <h1 class="title" id="page-title"> Home </h1>
+                                                                                                </div>
+                                                <div id="content-body" class="row-fluid content-body"> <div class="region region-content clearfix">
+  <div id="block-system-main" class="clearfix block block-system">       <div class="content"> <article id="node-139" class="node node-stanford-page clearfix" about="/home" typeof="sioc:Item foaf:Document">      <span property="dc:title" content="Home" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    <div class="content">
+      </div>
+    </article> </div>
+</div></div>
+ <!-- /.region -->
+  </div>
+                                                                                                            <div id="content-lower" class="row-fluid content-lower"> <div class="region region-content-lower clearfix">
+  <div id="block-views-204b04ffe25d8d52655a3c71de8c4d97" class="clearfix block block-views span4">     <h2>Calendar</h2>
+      <div class="content"> <div class="view view-cardinal-at-work-stanford-events-list view-id-cardinal_at_work_stanford_events_list view-display-id-block_10 view-dom-id-23b1d64cc999f799c2b5c1e1881cd014">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div>        <div><div class="postcard-left">
+
+  <div class="date-stacked">
+  <div class="date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-02T08:30:00-07:00">Aug</span></div>
+  <div class="date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-02T08:30:00-07:00">02</span></div>
+  </div>
+
+  <div>
+  <div class="event-title normal-link"><h3><a href="/https://cardinalatwork.stanford.edu/engage/events/design-thinking-action-boost-creativity-innovation-workplace-day-3">Design Thinking in Action: Boost Creativity &amp; Innovation in the Workplace (Day 3)</a></h3></div>
+  <div class="edit-link"></div>
+  </div>
+
+  </div></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div>        <div><div class="postcard-left">
+
+  <div class="date-stacked">
+  <div class="date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-03T00:00:00-07:00">Aug</span></div>
+  <div class="date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-03T00:00:00-07:00">03</span></div>
+  </div>
+
+  <div>
+  <div class="event-title normal-link"><h3><a href="/https://cardinalatwork.stanford.edu/engage/events/individual-financial-counseling-fidelity-investments-29">Individual Financial Counseling with Fidelity Investments</a></h3></div>
+  <div class="edit-link"></div>
+  </div>
+
+  </div></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div>        <div><div class="postcard-left">
+
+  <div class="date-stacked">
+  <div class="date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-06T00:00:00-07:00">Aug</span></div>
+  <div class="date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-06T00:00:00-07:00">06</span></div>
+  </div>
+
+  <div>
+  <div class="event-title normal-link"><h3><a href="/https://cardinalatwork.stanford.edu/engage/events/individual-financial-counseling-fidelity-investments-26">Individual Financial Counseling with Fidelity Investments</a></h3></div>
+  <div class="edit-link"></div>
+  </div>
+
+  </div></div>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/https://cardinalatwork.stanford.edu/events/upcoming-events">
+    View full calendar  </a>
+</div>
+  
+  
+  
+</div> </div>
+</div><div id="block-bean-redwood-city-site-promo" class="clearfix block block-bean span4 well column">       <div class="content"> <div about="/block/redwood-city-site-promo" typeof="" class="ds-1col entity entity-bean bean-stanford-postcard view-mode-default clearfix">
+
+  
+  <div class="postcard"><div class="postcard"><div class="field field-name-title-wrapper field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h2>Manage &amp; Lead</h2></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-block field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4037" typeof="">
+  <div class="content">
+    <div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" width="370" height="210" alt="" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-med-landscape/public/helen_hsu_gary_hamilton-1043.png?itok=fqHduD8p"></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Explore the library of resources, tools, and training that are designed to support your effectiveness as a Stanford manager.</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://cardinalatwork.stanford.edu/manage-lead">Visit the Manage &amp; Lead website</a></div></div></div></div></div></div>
+
+ </div>
+</div><div id="block-bean-homepage-i-want-to-block" class="clearfix block block-bean well well-nav span4 column">       <div class="content"> <div about="/block/homepage-i-want-to-block" typeof="" class="ds-1col entity entity-bean bean-stanford-postcard view-mode-default clearfix">
+
+  
+  <div class="postcard"><div class="postcard"><div class="field field-name-title-wrapper field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h2>I want to...</h2></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><ul><li><a rel="nofollow" href="/https://cardinalatwork.stanford.edu/UHR-service-team">Contact the University HR Service Team</a></li>
+	<li><a rel="nofollow" href="/https://cardinalatwork.stanford.edu/benefits-rewards/health/change-your-benefits">Change my benefits</a></li>
+	<li><a rel="nofollow" href="/https://cardinalatwork.stanford.edu/benefits-rewards/time-away/holiday-schedule">View Stanford holidays</a></li>
+	<li><a rel="nofollow" href="/https://cardinalatwork.stanford.edu/benefits-rewards/compensation/staff/job-descriptions">View the Job Description Library</a></li>
+	<li><a rel="nofollow" href="/https://cardinalatwork.stanford.edu/learning-stanford/tuition-training-assistance">Get help paying for tuition or training</a></li>
+	<li><a rel="nofollow" href="/https://cardinalatwork.stanford.edu/children-family">Discover child care offerings and resources</a></li>
+	<li><a rel="nofollow" href="/https://cardinalatwork.stanford.edu/learning-stanford/career-guidance">Explore career development opportunities</a></li>
+	<li><a rel="nofollow" href="/https://cardinalatwork.stanford.edu/manage-lead">Find tips and resources for managers</a></li>
+	<li><a rel="nofollow" href="/https://cardinalatwork.stanford.edu/working-stanford/address-concerns">Address a workplace concern</a></li>
+	<li><a rel="nofollow" href="/https://cardinalatwork.stanford.edu/resources/video-library">View the video library</a></li>
+</ul></div></div></div></div></div></div>
+
+ </div>
+</div><div id="block-bean-homepage-about-block" class="clearfix block block-bean span4 clear-row well well-white block-no-bottom-margin">       <div class="content"> <div about="/block/homepage-about-block" typeof="" class="ds-1col entity entity-bean bean-stanford-postcard view-mode-default clearfix">
+
+  
+  <div class="postcard"><div class="postcard"><div class="field field-name-title-wrapper field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h2>Join Us On Facebook</h2></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><div id="fb-root"></div>
+<script>
+<!--//--><![CDATA[// ><!--
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+//--><!]]>
+</script><div class="fb-page" data-href="https://www.facebook.com/cardinalatwork" data-width="370" data-height="375" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-show-posts="true">
+<div class="fb-xfbml-parse-ignore">
+<blockquote cite="https://www.facebook.com/cardinalatwork"><a href="/https://www.facebook.com/cardinalatwork">Cardinal at Work</a></blockquote>
+</div>
+</div>
+</div></div></div></div></div></div>
+
+ </div>
+</div><div id="block-views-9864b4744e3ce9494b61e22ca029cd0b" class="clearfix block block-views span8 home-news well well-white block-no-bottom-margin">     <h2>News</h2>
+      <div class="content"> <div class="view view-cardinal-at-work-news view-id-cardinal_at_work_news view-display-id-featured_block news-double-wide view-dom-id-2c1b4f90f9e571e7f1623cda9dc41da5">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div>        <div><div class="news-image"><a href="/https://cardinalatwork.stanford.edu/engage/news/expanding-support-breastfeeding-parents"><div class="field-collection-view clearfix view-mode-stanford-block field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4954" typeof="">
+  <div class="content">
+    <div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" width="370" height="210" alt="" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-med-landscape/public/parents_feeding_baby_boy_bottle_adobestock_68469047_1.jpeg?itok=wIDl3p-k"></div></div></div>  </div>
+</div>
+</div></a></div>
+<div class="descriptor"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-01T00:00:00-07:00">August 1, 2018</span></div>
+<div><h3><a href="/https://cardinalatwork.stanford.edu/engage/news/expanding-support-breastfeeding-parents">Expanding Support for Breastfeeding Parents </a></h3></div>
+<div class="edit-link"></div></div>  </div>  </div>
+    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-cardinal-at-work-news view-id-cardinal_at_work_news view-display-id-attachment_2">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div>        <div><div class="descriptor"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-07-25T00:00:00-07:00">July 25, 2018</span></div>
+<div class="normal-link"><h3><a href="/https://cardinalatwork.stanford.edu/engage/news/stanford-redwood-city-parking-and-transportation-programs-announced">Stanford Redwood City parking and transportation programs announced</a></h3></div>
+<div class="edit-link"></div></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div>        <div><div class="descriptor"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-07-06T00:00:00-07:00">July 6, 2018</span></div>
+<div class="normal-link"><h3><a href="/https://cardinalatwork.stanford.edu/engage/news/faculty-and-staff-creating-cardinal-moments-matter-every-day">Faculty and staff creating Cardinal moments that matter every day</a></h3></div>
+<div class="edit-link"></div></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div>        <div><div class="descriptor"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-06-26T00:00:00-07:00">June 26, 2018</span></div>
+<div class="normal-link"><h3><a href="/https://cardinalatwork.stanford.edu/engage/news/srwc-debunking-myths">SRWC: Debunking the myths</a></h3></div>
+<div class="edit-link"></div></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a class="more-link" rel="nofollow" href="/https://cardinalatwork.stanford.edu/engage/news">More news</a>    </div>
+  
+  
+</div>    </div>
+  
+  
+  
+  
+</div> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+                                    <div id="content-bottom" class="row-fluid content-bottom"> <div class="region region-content-bottom clearfix">
+  <div id="block-bean-dividing-line" class="clearfix block block-bean span12">       <div class="content"> <div class="entity entity-bean bean-stanford-large-block clearfix" about="/block/dividing-line" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-s-large-block-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p><img alt="" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/caw-shadow_0.png"></p>
+</div></div></div>  </div>
+</div>
+ </div>
+</div><div id="block-bean-sweeteners-short-branding-bloc" class="clearfix block block-bean span2 clear-row">       <div class="content"> <div class="entity entity-bean bean-stanford-large-block clearfix" about="/block/sweeteners---short-branding-bloc" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-s-large-block-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p><a rel="nofollow" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners"><img alt="Stanford Sweeteners" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/stanfordsweetener_460px_cawred.png"></a></p>
+<p>Check out the best perks and rewards at Stanford.</p>
+</div></div></div><div class="field field-name-field-s-large-blk-read-more-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners">View all Sweeteners</a></div></div></div>  </div>
+</div>
+ </div>
+</div><div id="block-bean-caw-homepage-sweetener-carouse-0" class="clearfix block block-bean span10 slick-items-5">       <div class="content"> <div class="view view-sweeteners view-id-sweeteners view-display-id-sweetener_carousel_category sweetener-carousel slick-carousel slickblock-caw-homepage-sweetener-carouse-0 view-dom-id-70f7d69ec545483c570bd31c5e3e494b">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/golf-course"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Golfers playing 18 holes on a sunny day at the Stanford Golf Course." src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/stanford_golf_course_870x330.png?itok=dQzd_jef"></div>
+  <h3>Golf Course</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/worklife-workshops"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Brown lunch bag with yellow apple on table top against sky blue panelled wall." src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/brownbaglunchwithapplevintage_870x398.png?itok=xXygrCfU"></div>
+  <h3>WorkLife Workshops</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/well-time"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Wellness Fair activities outside Arrillaga Center for Sports &amp; Recreation, including a horse petting station" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/wellnessfair2014_outside_870x330.png?itok=K-tKM3-P"></div>
+  <h3>Well Time</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/cardinal-kids-club"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/cardinal_club_for_kids.jpg?itok=x1dWS9Us"></div>
+  <h3>Cardinal Kids Club</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/health-improvement-program-hip-classes"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Participants following instructor in a HIP yoga or pilates class." src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/0331_pilatesclass_belafishbeyn_870x336.png?itok=BvqpkUxi"></div>
+  <h3>Health Improvement Program (HIP) Classes</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/stanford-continuing-studies"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Mature female student smiling with hands on stack of books, in classroom with other students" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/continuingstudies_maturefemalestudent_61323167_1200x740_0.png?itok=CrZAI1k4"></div>
+  <h3>Stanford Continuing Studies</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/stanford-travel-service"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Commercial airplane flying among clouds at dusk" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/commercialairplane_dpc_870x330.png?itok=ZcDwICVw"></div>
+  <h3>Stanford Travel Service</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/walk-labyrinth"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Labyrinth next to the Windhover contemplative center." src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/141003-7927_870x330.png?itok=FdJRPAUa"></div>
+  <h3>Walk the Labyrinth</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/odonohue-family-stanford-educational-farm"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Man talking to volunteers or students in field of greens at the O'Donohue Family Stanford Educational Farm" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/patrickteaching_odonohueeducationalfarm_870x330_2_0.png?itok=KvaHtK5O"></div>
+  <h3>O'Donohue Family Stanford Educational Farm </h3></a></span>  </div>  </div>
+  <div class="views-row views-row-10 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/stanford-travelstudy"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Venice waterways" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/venice_shutterstock_401496307_870x330.png?itok=_ID3Weiq"></div>
+  <h3>Stanford Travel/Study</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-11 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/personal-mobile-device-plan-discounts"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Person using mobile phone" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/stanfordit-0080-cell-phone_870x330.png?itok=CjatheLl"></div>
+  <h3>Personal Mobile Device Plan Discounts</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-12 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/stanford-live-discounts"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Bing Concert Hall at night, with light glowing through glass walls." src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/bingatnight_728x330_1.png?itok=9wy0Tijs"></div>
+  <h3>Stanford Live Discounts</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-13 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/campus-cafe-discounts"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/stanfordhr2014365-red-umbrellas-outdoorcafe_860x571_0.png?itok=chZG074F"></div>
+  <h3>Campus Cafe Discounts</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-14 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/staff-tuition-reimbursement-program"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Man studying with laptop and book in library." src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/strp_manstudyingbookstore_76438475_870x368.png?itok=2YCzW6BS"></div>
+  <h3>Staff Tuition Reimbursement Program</h3></a></span>  </div>  </div>
+  <div class="views-row views-row-15 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a class="sweetener-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/sweeteners/vta-eco-pass"><div class="sweetener-thumb"><img typeof="foaf:Image" width="230" height="130" alt="Front of VTA bus stopped at a plaform" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/styles/caw-sm-landscape/public/sweeteners/santa_teresa_vta_1472_14_870x330.png?itok=pG7FsQi0"></div>
+  <h3>VTA Eco Pass</h3></a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><div class="sweetener-arrows sweetener-dots"></div> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+                      </div>
+          <!-- /#content-wrap -->
+        </div>
+        <!-- /#content -->
+              </div>
+                </div>
+  </div>
+  <!-- /#main, /#main-wrapper -->
+    <div id="push"></div>
+  <!-- /#push -->
+</div>
+<!-- /#wrap -->
+<div id="footer" class="clearfix footer site-footer">
+  <div class="container">
+        <div id="footer-content" class="row-fluid footer-content"> <div class="region region-footer clearfix">
+  <div id="block-bean-cardinal-at-work-tagline-footer" class="clearfix block block-bean span4 block-bottom-no-margin">       <div class="content"> <div class="entity entity-bean bean-stanford-large-block clearfix" about="/block/cardinal-at-work-tagline-footer" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-s-large-block-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/https://cardinalatwork.stanford.edu"><img alt="Cardinal At Work" height="27" width="230" src="/https://files-cardinalatwork-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/caw-logo-horizontal.png"></a></p>
+<p><strong>Your online destination for all employee-related information brought to you by University Human Resources.</strong></p>
+<p><a class="more-link" href="/https://cardinalatwork.stanford.edu/about-cardinal-work">What is Cardinal at Work?</a><br><a class="more-link" href="/https://cardinalatwork.stanford.edu/helpful-website-tips">Helpful Website Tips</a></p>
+<div class="content">
+<div class="entity entity-bean bean-stanford-social-media-connect clearfix" typeof="" about="/block/jumpstart-footer-social-media--0">
+<div class="content">
+<div class="field field-name-field-s-smc-facebook field-type-link-field field-label-hidden">
+<div class="field-items">
+<div class="field-item even">
+<a class="ext" href="/http://www.facebook.com/cardinalatwork">Facebook</a>
+</div>
+</div>
+</div>
+<div class="field field-name-field-s-smc-youtube field-type-link-field field-label-hidden">
+<div class="field-items">
+<div class="field-item even">
+<a class="ext" href="/https://www.youtube.com/user/StanfordUniversityHR">YouTube</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-menu-menu-footer-news-events-menu" class="clearfix block block-menu span2">     <h2>Explore</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a title="" class="active" href="/https://cardinalatwork.stanford.edu/">Home</a></li>
+<li class="leaf"><a title="" href="/https://cardinalatwork.stanford.edu/benefits-rewards">Benefits &amp; Rewards</a></li>
+<li class="leaf"><a title="" href="/https://cardinalatwork.stanford.edu/contact-us">Contact Us</a></li>
+<li class="leaf"><a title="" href="/https://cardinalatwork.stanford.edu/engage">Engage</a></li>
+<li class="leaf"><a title="" href="/https://cardinalatwork.stanford.edu/learning-stanford">Learning at Stanford</a></li>
+<li class="leaf"><a title="" href="/https://cardinalatwork.stanford.edu/programs-services">Programs &amp; Services A-Z</a></li>
+<li class="last leaf"><a title="" href="/https://cardinalatwork.stanford.edu/working-stanford">Working at Stanford</a></li>
+</ul> </div>
+</div>
+<div id="block-menu-menu-see-also" class="clearfix block block-menu span2">     <h2>See Also</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a title="" href="/https://adminguide.stanford.edu">Administrative Guide</a></li>
+<li class="leaf"><a title="" href="/https://axess.sahr.stanford.edu/">Axess</a></li>
+<li class="leaf"><a title="" href="/https://cardinalatwork.stanford.edu/faculty-staff-help-center">Faculty Staff Help Center</a></li>
+<li class="leaf"><a title="" href="/https://hr.stanford.edu?utm_source=see-also&amp;utm_medium=hr-stanford&amp;utm_campaign=CAW-Footer">HR at Stanford</a></li>
+<li class="leaf"><a title="" href="/https://ourvision.stanford.edu/">Long-Range Plan/Vision</a></li>
+<li class="leaf"><a title="" href="/https://cardinalatwork.stanford.edu/manage-lead">Manage &amp; Lead</a></li>
+<li class="leaf"><a title="" href="/http://stanfordcareers.stanford.edu?utm_source=see-also&amp;utm_medium=stanford-careers&amp;utm_campaign=CAW-Footer">Stanford Careers</a></li>
+<li class="last leaf"><a title="" href="/https://cardinalatwork.stanford.edu/welcome-center">Welcome Center</a></li>
+</ul> </div>
+</div>
+</div>
+ <!-- /.region -->
+ </div>
+      </div>
+</div>
+<!-- /#footer -->
+<div id="global-footer" role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2"><a href="/http://www.stanford.edu"><img alt="Stanford University" src="/https://cardinalatwork.stanford.edu/sites/all/themes/stanford_framework/images/footer-stanford-logo@2x.png"></a></div>
+      <div id="bottom-menu" class="span10">
+
+                  <ul class="top-links clearfix">
+                          <li><a href="/https://www.stanford.edu">Stanford Home</a></li>
+                          <li><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+                          <li><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+                          <li><a href="/https://emergency.stanford.edu/">Emergency Info</a></li>
+                      </ul>
+                  <ul class="bottom-links clearfix">
+                          <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+                          <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy">Privacy</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/https://www.stanford.edu/site/accessibility/">Accessibility</a></li>
+                      </ul>
+        
+        <p class="vcard">© <span class="fn org">Stanford University</span>, <span class="adr"><span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /#global-footer -->
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_6123826.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+
+//--><!]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"15c3a61720","applicationID":"9184790","transactionName":"NQFTbBMHDREAVhFQWwxLZEoISQoMBVAdF0QKFA==","queueTime":0,"applicationTime":231,"atts":"GUZQGlsdHh8=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+</body></html>

@@ -1,0 +1,692 @@
+<!DOCTYPE html><!--[if lt IE 7]> <html class="ie6 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 7]>    <html class="ie7 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 8]>    <html class="ie8 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 9]>    <html class="ie9 ie" lang="en" dir="ltr"> <![endif]--><!--[if !IE]> --><html lang="en" dir="ltr"><!-- <![endif]--><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="apple-touch-icon" sizes="144x144" href="/https://vpge.stanford.edu/sites/default/themes/stanford_framework/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/https://vpge.stanford.edu/sites/default/themes/stanford_framework/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/https://vpge.stanford.edu/sites/default/themes/stanford_framework/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="/https://vpge.stanford.edu/sites/default/themes/stanford_framework/apple-touch-icon-167x167.png">
+<link rel="apple-touch-icon" href="/https://vpge.stanford.edu/sites/default/themes/stanford_framework/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/https://vpge.stanford.edu/sites/default/themes/stanford_framework/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/https://vpge.stanford.edu/sites/default/themes/stanford_framework/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/https://vpge.stanford.edu/sites/default/themes/stanford_framework/apple-touch-icon-76x76.png">
+<link rel="canonical" href="/https://vpge.stanford.edu/gradgateway">
+<meta name="Generator" content="Drupal 7 (http://drupal.org)">
+<link rel="shortlink" href="/https://vpge.stanford.edu/node/2827">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/https://vpge.stanford.edu/sites/all/themes/stanford_wilbur/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/https://vpge.stanford.edu/sites/default/themes/stanford_framework/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/https://vpge.stanford.edu/sites/default/themes/stanford_framework/apple-touch-icon-72x72.png">
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Gateway for New Graduate Students | Office of the Vice Provost for Graduate Education</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/https://vpge.stanford.edu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://vpge.stanford.edu/sites/default/files/css/css_JsNupfpWENtZl3PsbtMoRvOBlo9YKAdVhAdHLPsR8FE.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/https://vpge.stanford.edu/sites/default/files/css/css_ikO0Dxm7cLx8sij8aCz93A0aaPm7Vn5LlfEi4H4knHY.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://vpge.stanford.edu/sites/default/files/css/css_PQIzzMFPqEezw2agyQhTx5Cl2mK2441RAq3w0gpYrYk.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://vpge.stanford.edu/sites/default/files/css/css_AlAIslTv5Jw_QZg7h3SLn3Agam88bxHoV2RwIs_YFio.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://vpge.stanford.edu/sites/default/files/css/css_fLQTd8PZ-NRdLRGc7xLWuA9nXftpnTYYYhrqXr9h0Fw.css">
+<link type="text/css" rel="stylesheet" media="print" href="/https://vpge.stanford.edu/sites/default/files/css/css_nGZ0EUi6HATidAf3pITrpLdyTGtTsmfVAzXLpUp2gr4.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://vpge.stanford.edu/sites/default/files/css/css_B2Ot7vtr6kT1g3gv9wf0I3y7nfANme03nnW6REwkorw.css">
+  <script type="text/javascript" src="/https://vpge.stanford.edu/sites/default/files/js/js_ZDOaep6HA5A0eriyiN-YaNv7MHsjd-FIuFyilZ2o5cw.js"></script>
+<script type="text/javascript" src="/https://vpge.stanford.edu/sites/default/files/js/js_g98Ekqvuj1mMaUqTkLdcrMmJymw4aFC5YyzBQBviahY.js"></script>
+<script type="text/javascript" src="/https://vpge.stanford.edu/sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script type="text/javascript" src="/https://vpge.stanford.edu/sites/default/files/js/js_yP3AG0oywwlnM49HcobZ7WgJFzKhwMKpDG9pUHX6nh8.js"></script>
+<script type="text/javascript" src="/https://vpge.stanford.edu/sites/default/files/js/js_vknc2yPS3GpGbENaHL83zadi9QSSvqdVvyB388xfS5Q.js"></script>
+<script type="text/javascript" src="/https://vpge.stanford.edu/sites/default/files/js/js_JBII3plGAkBIQcH8MpZqJ7Uj5btcZVHAZUjy1Gt2TyY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-36497246-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="/https://vpge.stanford.edu/sites/default/files/js/js_PJhTnkxydMuVbMTmxqAHkqjfBvIpFssfwf4u5a-Jteg.js"></script>
+<script type="text/javascript" src="/https://vpge.stanford.edu/sites/default/files/js/js_lwzJeXOXdNPAbw7ThjcrhrPFAUgW_lR49bJ8nQYUbcY.js"></script>
+<script type="text/javascript" src="/https://vpge.stanford.edu/sites/default/files/js/js_6lEiBKPgYd0J4j7bMPiKzKQR5ow6mo0LR6Gtg_UkEpo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(function($) {
+  var ts = $("table.views-table tr td.views-field, .field-name-field-s-learning-experience .field-items a");
+  $.each(ts, function(index) {
+    var t_str = this.innerHTML;
+    t_str = t_str.replace(/(Mostly learn by self)/gi,'<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/learning-1.png" />');
+    t_str = t_str.replace(/(Learn with one other or small group)/gi,'<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/learning-2.png" />');
+    t_str = t_str.replace(/(Mostly learn with others)/gi,'<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/learning-3.png" />');
+    
+    t_str = $.trim(t_str);
+    this.innerHTML = t_str;
+  });
+
+  var ts = $("table.views-table tr td.views-field, .field-name-field-professional-development-r .field-items a");
+  $.each(ts, function(index) {
+    var t_str = this.innerHTML;
+    t_str = t_str.replace(/(level 1)/gi,'<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/flame.png" />');
+    t_str = t_str.replace(/(level 2)/gi,'<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/flame.png" /><img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/flame.png" />');
+    t_str = t_str.replace(/(level 3)/gi,'<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/flame.png" /><img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/flame.png" /><img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/flame.png" />');
+    t_str = t_str.replace(/(level 4)/gi,'<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/flame.png" /><img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/flame.png" /><img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/flame.png" /><img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/flame.png" />');
+    t_str = $.trim(t_str);
+    this.innerHTML = t_str;
+  });
+
+  var ts = $("table.views-table tr td.views-field, .field-name-field-depth .field-items a");
+  $.each(ts, function(index) {
+    var t_str = this.innerHTML;
+    t_str = t_str.replace(/(1 \(shallow \/ tip of the iceberg\))/gi,'<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/pyramid-tip.png" />');
+    t_str = t_str.replace(/(2 \(medium \/ half of the iceberg\))/gi,'<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/pyramid-half.png" />');
+    t_str = t_str.replace(/(3 \(deep \/ all of the iceberg\))/gi,'<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/pyramid-full.png" />');
+    t_str = $.trim(t_str);
+    this.innerHTML = t_str;
+  });
+
+  var ts = $("table.views-table tr td.views-field, .field-name-field-time-commitment .field-items a");
+  $.each(ts, function(index) {
+    var t_str = this.innerHTML;
+    t_str = t_str.replace(/(&lt; 3 hours)/gi, '<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/clock.png" />');
+    t_str = t_str.replace(/(3 - 8 hours)/gi, '<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/clock.png" /><img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/clock.png" />');
+    t_str = t_str.replace(/(&gt; 8 hours)/gi, '<img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/clock.png" /><img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/clock.png" /><img class="gpdf-icon" src="//web.stanford.edu/group/vpge/cgi-bin/gpdfpub/images/clock.png" />');
+    t_str = $.trim(t_str);
+    this.innerHTML = t_str;
+  });
+
+$('.field-name-field-s-program-professional-dev .term-tree-list > .term .term, .field-name-field-s-partner-professional-dev .term-tree-list > .term .term, .field-name-field-s-resource-professionl-dev .term-tree-list > .term .term, .field-name-field-s-event-professional-dev .term-tree-list > .term .term').hide();
+
+var ts = $(".field-name-field-s-program-professional-dev .field-items a, .field-name-field-s-partner-professional-dev .field-items a, .field-name-field-s-resource-professionl-dev .field-items a, .field-name-field-s-event-professional-dev .field-items a");
+$.each(ts, function(index) {
+  var t_str = this.innerHTML;
+  t_str = t_str.replace(/Specialized Content Knowledge &amp; Skills/gi, '<img src="//vpge.stanford.edu/sites/default/files/content-skills-small.png" />');
+  t_str = t_str.replace(/Teaching/gi, '<img src="//vpge.stanford.edu/sites/default/files/teaching-small.png" />');
+  t_str = t_str.replace(/Communication/gi, '<img src="//vpge.stanford.edu/sites/default/files/communication-small.png" />');
+  t_str = t_str.replace(/Leadership &amp; Management/gi, '<img src="//vpge.stanford.edu/sites/default/files/leadership-small.png" />');
+  t_str = t_str.replace(/Personal Development/gi, '<img src="//vpge.stanford.edu/sites/default/files/diversity-small.png" />');
+  t_str = t_str.replace(/Career Development/gi, '<img src="//vpge.stanford.edu/sites/default/files/career-small.png" />');
+  t_str = t_str.replace(/<ul>/gi, '').replace(/<\/ul>/gi, '').replace(/<li>(.+)<\/li>/gi, "$1");
+  t_str = $.trim(t_str);
+  this.innerHTML = t_str;
+});
+
+var ts = $(".field-name-field-s-program-professional-dev .field-items ul, .field-name-field-s-partner-professional-dev .field-items ul, .field-name-field-s-resource-professionl-dev .field-items ul, .field-name-field-s-event-professional-dev .field-items ul");
+$.each(ts, function() {
+  $(this).replaceWith(this.innerHTML);
+});
+
+var ts = $(".field-name-field-s-program-professional-dev .field-items li, .field-name-field-s-partner-professional-dev .field-items li, .field-name-field-s-resource-professionl-dev .field-items li, .field-name-field-s-event-professional-dev .field-items li");
+$.each(ts, function() {
+  $(this).replaceWith(this.innerHTML);
+});
+
+});
+//--><!]]>
+</script>
+<script type="text/javascript" src="/https://vpge.stanford.edu/sites/default/files/js_injector/js_injector_17.js?pcuf0z"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stanford_wilbur","theme_token":"HG6ILQ6rMKqWtslb7jwvqP8M317uGK3VBhR0ChtCPJ0","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"misc\/ui\/jquery.ui.slider.css":1,"sites\/default\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/default\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/default\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/stanford\/stanford_bean_types\/css\/social-media.css":1,"sites\/all\/modules\/stanford\/stanford_bean_types\/css\/icon-block.css":1,"sites\/all\/modules\/stanford\/stanford_bean_types\/css\/full-width-banner.css":1,"sites\/default\/modules\/stanford\/stanford_carousel\/css\/stanford_carousel.css":1,"sites\/default\/modules\/stanford\/stanford_fwb\/css\/stanford_fwb.css":1,"sites\/default\/modules\/stanford\/stanford_jumpstart\/css\/jumpstart.css":1,"sites\/default\/modules\/stanford\/stanford_jumpstart\/css\/jumpstart-theme-fixes.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/context_accordion\/context_accordion.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap.min.css":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap-responsive.min.css":1,"sites\/all\/themes\/open_framework\/packages\/font-awesome-3.2.1\/css\/font-awesome.min.css":1,"sites\/all\/themes\/open_framework\/css\/open_framework.css":1,"sites\/default\/themes\/stanford_framework\/css\/stanford-framework.css":1,"sites\/default\/themes\/stanford_framework\/css\/stanford_default\/stanford-default.css":1,"sites\/default\/themes\/stanford_framework\/css\/ie.css":1,"sites\/all\/themes\/stanford_wilbur\/css\/stanford_wilbur.css":1,"sites\/all\/themes\/open_framework\/css\/open_framework_print.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_5.css":1,"public:\/\/css_injector\/css_injector_7.css":1,"public:\/\/css_injector\/css_injector_9.css":1,"public:\/\/css_injector\/css_injector_11.css":1,"public:\/\/css_injector\/css_injector_13.css":1,"public:\/\/css_injector\/css_injector_15.css":1,"public:\/\/css_injector\/css_injector_17.css":1,"public:\/\/css_injector\/css_injector_19.css":1,"public:\/\/css_injector\/css_injector_21.css":1,"public:\/\/css_injector\/css_injector_23.css":1,"public:\/\/css_injector\/css_injector_25.css":1,"public:\/\/css_injector\/css_injector_27.css":1,"public:\/\/css_injector\/css_injector_29.css":1,"public:\/\/css_injector\/css_injector_37.css":1,"public:\/\/css_injector\/css_injector_39.css":1,"public:\/\/css_injector\/css_injector_48.css":1,"public:\/\/css_injector\/css_injector_50.css":1,"public:\/\/css_injector\/css_injector_52.css":1,"public:\/\/css_injector\/css_injector_53.css":1},"js":{"misc\/jquery.js":1,"sites\/all\/themes\/open_framework\/js\/jquery-migrate-1.2.1.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"misc\/ui\/jquery.ui.mouse.min.js":1,"misc\/ui\/jquery.ui.slider.min.js":1,"sites\/default\/libraries\/jquery-ui-timepicker\/jquery-ui-sliderAccess.js":1,"sites\/default\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.js":1,"sites\/all\/modules\/stanford\/stanford_bean_types\/js\/stanford-bean-types.js":1,"sites\/default\/modules\/stanford\/stanford_carousel\/js\/stanford_carousel.js":1,"sites\/all\/modules\/stanford\/stanford_events_importer\/js\/stanford_event_nodes.js":1,"sites\/all\/modules\/stanford\/stanford_events_importer\/js\/stanford_events_calendar.js":1,"sites\/default\/modules\/stanford\/stanford_jumpstart\/js\/jumpstart.js":1,"sites\/all\/modules\/contrib\/context_accordion\/context_accordion.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/modules\/stanford\/stanford_date_timepicker\/js\/stanford_date_timepicker.js":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/js\/bootstrap.min.js":1,"sites\/all\/themes\/open_framework\/js\/open_framework.js":1,"sites\/all\/themes\/open_framework\/js\/jquery.placeholder.min.js":1,"sites\/all\/themes\/open_framework\/js\/override.js":1,"sites\/default\/themes\/stanford_framework\/js\/stanford-framework.js":1,"sites\/all\/themes\/stanford_wilbur\/js\/stanford_wilbur.js":1,"sites\/default\/modules\/stanford\/stanford_carousel\/js\/stanford_carousel_aria.js":1,"1":1,"sites\/default\/files\/js_injector\/js_injector_17.js":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/gradgateway":true},"field_group":{"div":"default"},"stanford_date_timepicker":{"classes":"","default_date_format":"yy-mm-dd","default_time_format":"hh:mm","default_separator":" "}});
+//--><!]]>
+</script>
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/sites/all/themes/open_framework/packages/font-awesome-3.2.1/css/font-awesome-ie7.min.css" />  <![endif]-->
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="/sites/all/themes/open_framework/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-2827 node-type-stanford-page        style-default  header-bkg-image header-bkg-text-light">
+    <div id="wrap"><a class="element-invisible element-focusable" href="/https://vpge.stanford.edu/gradgateway">Skip to content</a>
+    <a class="element-invisible element-focusable" href="/https://vpge.stanford.edu/gradgateway">Skip to navigation</a>
+    <!-- /#skipnav -->
+    <!-- /#admin-shortcuts -->
+  <div id="global-header">
+    <div class="container">
+      <div class="row-fluid">
+        <div id="top-logo" class="span4"><a href="/http://www.stanford.edu"><img alt="Stanford University" src="/https://vpge.stanford.edu/sites/default/themes/stanford_framework/images/header-stanford-logo@2x.png"></a></div>
+                <div id="top-menu" class="span8"><div class="region region-global-header clearfix">
+  <div id="block-webauth-webauth-login-block" class="clearfix block block-webauth">     <h2>WebAuth Login</h2>
+      <div class="content"> <div id="webauth_login_url">
+  <a class="button" href="/https://vpge.stanford.edu/sites/default/webauth/login?destination=node/2827">SUNetID Login</a>
+</div>
+ </div>
+</div></div>
+ <!-- /.region -->
+</div>
+              </div>
+    </div>
+  </div>
+  <!-- /#global-header -->
+  <div id="header" class="clearfix header line1 line2" role="banner">
+    <div class="container">
+      <div class="row">
+        <div class="span9">
+                    <div id="logo" class=" "> <a title="Home" rel="home" href="/https://vpge.stanford.edu/"> <img alt="Stanford" role="presentation" src="/https://vpge.stanford.edu/sites/all/themes/stanford_wilbur/logo.png"> </a>
+                      </div>
+                    <!-- /#logo -->
+                    <div id="name-and-slogan" class="with-logo two-lines">
+                                    <div id="site-title-first-line"><a title="Home" rel="home" href="/https://vpge.stanford.edu/">Office of the Vice Provost</a></div>
+                                    <div id="site-title-second-line"><a title="Home" rel="home" href="/https://vpge.stanford.edu/">for Graduate Education</a></div>
+                                              </div>
+                                        <!-- /#name-and-slogan -->
+                    <!-- /#header-content -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#header -->
+    <div id="main-menu" class="clearfix site-main-menu">
+    <div class="container">
+      <div class="navbar">
+                <div class="navbar-inner">
+                              <div id="nav-search" class="nav-search"> <div class="region region-search-box clearfix">
+  <div id="block-search-form" class="clearfix block block-search" role="search">       <div class="content"> <form action="/gradgateway" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." class="input-medium search-query form-text" placeholder="Search this site..." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128">
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input class="btn-search form-submit" alt="Search" type="image" id="edit-submit" name="submit" src="/https://vpge.stanford.edu/sites/all/themes/open_framework/images/searchbutton.png"></div><input type="hidden" name="form_build_id" value="form-jgYd1ICx1kIsaKI46drBiTBr1gepkfMn0O2j8j-tU1I">
+<input type="hidden" name="form_id" value="search_block_form">
+</div>
+</div></form> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+                              <button aria-label="Navigation menu" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse"> <span class="hide">Navigation menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <div class="nav-collapse collapse">
+            <nav id="main-nav" role="navigation">
+                                          <div class="region region-navigation clearfix">
+  <div id="block-menu-block-2" class="clearfix block block-menu-block">       <div class="content"> <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-1241"><a href="/https://vpge.stanford.edu/">Home</a></li>
+<li class="expanded menu-mlid-1395 dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://vpge.stanford.edu/academic-guidance">Academic Guidance <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-1525"><a href="/https://vpge.stanford.edu/academic-guidance/overview">Overview</a></li>
+<li class="leaf has-children menu-mlid-1407"><a href="/https://vpge.stanford.edu/academic-guidance/advising-mentoring">Advising &amp; Mentoring</a></li>
+<li class="leaf has-children menu-mlid-1409"><a href="/https://vpge.stanford.edu/academic-guidance/policies-planning">Policies &amp; Planning</a></li>
+<li class="last leaf has-children menu-mlid-1411"><a href="/https://vpge.stanford.edu/academic-guidance/problem-solving-crisis-intervention">Problem Solving &amp; Crisis Intervention</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1413 dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://vpge.stanford.edu/diversity-initiatives">Diversity Initiatives <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-1523"><a href="/https://vpge.stanford.edu/diversity-initiatives/overview">Overview</a></li>
+<li class="leaf menu-mlid-1415"><a href="/https://vpge.stanford.edu/diversity-initiatives/commitment">Commitment to Diversity</a></li>
+<li class="leaf menu-mlid-1421"><a href="/https://vpge.stanford.edu/diversity-initiatives/recruitment">Recruitment</a></li>
+<li class="leaf menu-mlid-3970"><a href="/https://vpge.stanford.edu/diversity-initiatives/programs-funding">Programs &amp; Funding</a></li>
+<li class="last leaf has-children menu-mlid-3788"><a href="/https://vpge.stanford.edu/diversity-initiatives/academic-achievement-awards">Awards</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1423 dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://vpge.stanford.edu/professional-development">Professional Development <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-1429"><a href="/https://vpge.stanford.edu/professional-development/overview">Overview</a></li>
+<li class="leaf has-children menu-mlid-1427"><a href="/https://vpge.stanford.edu/professional-development/framework">GPD Framework</a></li>
+<li class="leaf has-children menu-mlid-3753"><a href="/https://vpge.stanford.edu/professional-development/career-planning">Career Planning</a></li>
+<li class="leaf menu-mlid-1665"><a href="/https://vpge.stanford.edu/professional-development/programs">Programs</a></li>
+<li class="leaf menu-mlid-2863"><a href="/https://vpge.stanford.edu/professional-development/courses">Courses</a></li>
+<li class="last leaf menu-mlid-3784"><a title="" href="/https://vpge.stanford.edu/professional-development/videos">Videos</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1453 dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://vpge.stanford.edu/interdisciplinary-learning">Interdisciplinary Learning <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-1455"><a href="/https://vpge.stanford.edu/interdisciplinary-learning/overview">Overview</a></li>
+<li class="leaf has-children menu-mlid-1457"><a href="/https://vpge.stanford.edu/interdisciplinary-learning/sgsi">Stanford Graduate Summer Institute</a></li>
+<li class="leaf menu-mlid-1467"><a href="/https://vpge.stanford.edu/interdisciplinary-learning/networking-learning">Networking &amp; Learning</a></li>
+<li class="leaf menu-mlid-1989"><a href="/https://vpge.stanford.edu/interdisciplinary-learning/programs">Programs</a></li>
+<li class="leaf menu-mlid-1471"><a href="/https://vpge.stanford.edu/interdisciplinary-learning/funding">Funding</a></li>
+<li class="last leaf menu-mlid-2859"><a title="" href="/https://vpge.stanford.edu/courses/interdisciplinary">Courses</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-1473 dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/https://vpge.stanford.edu/fellowships-funding">Fellowships &amp; Funding <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-1475"><a href="/https://vpge.stanford.edu/fellowships-funding/overview">Overview</a></li>
+<li class="leaf has-children menu-mlid-1995"><a href="/https://vpge.stanford.edu/fellowships-funding/graduate-student-funding">Graduate Student Funding</a></li>
+<li class="leaf has-children menu-mlid-1971"><a title="" href="/https://vpge.stanford.edu/fellowships-funding/all">VPGE Fellowships</a></li>
+<li class="leaf has-children menu-mlid-1477"><a href="/https://vpge.stanford.edu/fellowships-funding/policies">VPGE Fellowship Policies</a></li>
+<li class="leaf menu-mlid-2401"><a title="" href="/https://vpge.stanford.edu/fellowships-funding/other">VPGE Funding Opportunities</a></li>
+<li class="last leaf has-children menu-mlid-1997"><a href="/https://vpge.stanford.edu/fellowships-funding/current-vpge-fellows">Current VPGE Fellows</a></li>
+</ul></li>
+</ul></div>
+ </div>
+</div></div>
+ <!-- /.region -->
+                          </nav>
+          </div>
+                                      </div>
+              </div>
+    </div>
+  </div>
+  <!-- /#main-menu -->
+  
+  
+  <div id="main" class="clearfix main" role="main">
+  	        <div class="container">
+            <div id="main-content" class="row main-content">
+                <div id="sidebar-first" class="sidebar site-sidebar-first span3">
+          <div class="row-fluid"><div class="region region-sidebar-first clearfix">
+  <div id="block-bean-welcome-to-stanford-" class="clearfix block block-bean well">     <h2>Welcome to Stanford!</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/welcome-to-stanford-" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-3-col-header field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4161" typeof="">
+  <div class="content">
+    <div id="field-collection-item-field-s-image-info-stanford-3-col-header-group-s-image-border-style" class="border-simple-nowidth border-shadow group-s-image-border-style field-group-div"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-3-col-header" typeof="foaf:Image" width="270" height="100" alt="Stanford Arcades" src="/https://vpge.stanford.edu/sites/default/files/styles/3-col-header/public/img_1496_0.jpg?itok=L7l3pyxR"></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Explore the Grad Gateway. Find the resources you need to begin your graduate career at Stanford. Check your school and department websites for important information, too.</p>
+<p>Haven’t applied yet? Visit the <a href="/https://vpge.stanford.edu/gateways/prospective-students">Prospective Student Gateway</a> to learn more about the application process.</p>
+</div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-filters" class="clearfix block block-bean well">     <h2>Filters</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-filters" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Use these filters to sort the blocks and find the information you need:</p>
+<p><a class="more-link" href="/https://vpge.stanford.edu/gradgateway/before-arriving">Before Arriving</a><br><a class="more-link" href="/https://vpge.stanford.edu/gradgateway/upon-arrival">Upon Arrival</a><br><a class="more-link" href="/https://vpge.stanford.edu/gradgateway/settle-in-and-thrive">Settle in &amp; Thrive</a><br><a class="more-link" href="/https://vpge.stanford.edu/gradgateway/general-resources">General Resources</a><br><a class="more-link" href="/https://vpge.stanford.edu/gradgateway">All</a></p>
+<form>
+<p>Trying to find something specific? Highlight keywords as you type:</p>
+<p>		<input id="keywords" size="20"></p>
+</form>
+<script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+// Original JavaScript code by Chirp Internet: www.chirp.com.au
+// Please acknowledge use of this code by including this header.
+
+function Hilitor(id, tag)
+{
+
+  var targetNode = document.getElementById(id) || document.body;
+  var hiliteTag = tag || "EM";
+  var skipTags = new RegExp("^(?:" + hiliteTag + "|SCRIPT|FORM|SPAN)$");
+  var colors = ["#ff6", "#a0ffff", "#9f9", "#f99", "#f6f"];
+  var wordColor = [];
+  var colorIdx = 0;
+  var matchRegex = "";
+  var openLeft = false;
+  var openRight = false;
+
+  this.setMatchType = function(type)
+  {
+    switch(type)
+    {
+      case "left":
+        this.openLeft = false;
+        this.openRight = true;
+        break;
+      case "right":
+        this.openLeft = true;
+        this.openRight = false;
+        break;
+      case "open":
+        this.openLeft = this.openRight = true;
+        break;
+      default:
+        this.openLeft = this.openRight = false;
+    }
+  };
+
+  this.setRegex = function(input)
+  {
+    input = input.replace(/^[^\w]+|[^\w]+$/g, "").replace(/[^\w'-]+/g, "|");
+    var re = "(" + input + ")";
+    if(!this.openLeft) re = "\\b" + re;
+    if(!this.openRight) re = re + "\\b";
+    matchRegex = new RegExp(re, "i");
+  };
+
+  this.getRegex = function()
+  {
+    var retval = matchRegex.toString();
+    retval = retval.replace(/(^\/(\\b)?|\(|\)|(\\b)?\/i$)/g, "");
+    retval = retval.replace(/\|/g, " ");
+    return retval;
+  };
+
+  // recursively apply word highlighting
+  this.hiliteWords = function(node)
+  {
+    if(node === undefined || !node) return;
+    if(!matchRegex) return;
+    if(skipTags.test(node.nodeName)) return;
+
+    if(node.hasChildNodes()) {
+      for(var i=0; i < node.childNodes.length; i++)
+        this.hiliteWords(node.childNodes[i]);
+    }
+    if(node.nodeType == 3) { // NODE_TEXT
+      if((nv = node.nodeValue) && (regs = matchRegex.exec(nv))) {
+        if(!wordColor[regs[0].toLowerCase()]) {
+          wordColor[regs[0].toLowerCase()] = colors[colorIdx++ % colors.length];
+        }
+
+        var match = document.createElement(hiliteTag);
+        match.appendChild(document.createTextNode(regs[0]));
+        match.style.backgroundColor = wordColor[regs[0].toLowerCase()];
+        match.style.fontStyle = "inherit";
+        match.style.color = "#000";
+
+        var after = node.splitText(regs.index);
+        after.nodeValue = after.nodeValue.substring(regs[0].length);
+        node.parentNode.insertBefore(match, after);
+      }
+    };
+  };
+
+  // remove highlighting
+  this.remove = function()
+  {
+    var arr = document.getElementsByTagName(hiliteTag);
+    while(arr.length && (el = arr[0])) {
+      var parent = el.parentNode;
+      parent.replaceChild(el.firstChild, el);
+      parent.normalize();
+    }
+  };
+
+  // start highlighting at target node
+  this.apply = function(input)
+  {
+    this.remove();
+    if(input === undefined || !input) return;
+    this.setRegex(input);
+    this.hiliteWords(targetNode);
+  };
+
+}
+
+//--><!]]>
+</script><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+
+  var myHilitor2;
+
+  document.addEventListener("DOMContentLoaded", function() {
+    myHilitor2 = new Hilitor("content-row3");
+    myHilitor2.setMatchType("left");
+  }, false);
+
+  document.getElementById("keywords").addEventListener("keyup", function() {
+    myHilitor2.apply(this.value);
+  }, false);
+
+
+//--><!]]>
+</script></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-vp-gumport-letter" class="clearfix block block-bean">       <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/vp-gumport-letter" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+#sgsi {
+margin-bottom: 0px !important;
+} 
+
+/*--><!]]>*/
+</style><p id="sgsi"><a href="/http://mailchi.mp/stanford/4taa0liy8n-1103297"><img src="/https://vpge.stanford.edu/sites/default/files/gumport-welcome-letter-v4.png"></a></p>
+</div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-schools" class="clearfix block block-bean well">     <h2>Stanford's Seven Schools</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-schools" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/http://www.gsb.stanford.edu/">Graduate School of Business</a></div><div class="field-item odd"><a class="more-link" href="/http://earth.stanford.edu/">School of Earth, Energy &amp; Environmental Sciences</a></div><div class="field-item even"><a class="more-link" href="/http://ed.stanford.edu/">Graduate School of Education</a></div><div class="field-item odd"><a class="more-link" href="/http://engineering.stanford.edu/">School of Engineering</a></div><div class="field-item even"><a class="more-link" href="/http://humsci.stanford.edu/">School of Humanities &amp; Sciences</a></div><div class="field-item odd"><a class="more-link" href="/http://www.law.stanford.edu/">School of Law</a></div><div class="field-item even"><a class="more-link" href="/http://med.stanford.edu/">School of Medicine</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-sgsi-ad" class="clearfix block block-bean">       <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/sgsi-ad" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+#sgsi {
+margin-bottom: 0px !important;
+} 
+
+/*--><!]]>*/
+</style><p id="sgsi"><a href="/https://vpge.stanford.edu/interdisciplinary-learning/sgsi"><img src="/https://vpge.stanford.edu/sites/default/files/sgsi-ad-template_1.png"></a></p>
+</div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+</div>
+ <!-- /.region -->
+</div>
+        </div>
+        <!-- /#sidebar-first -->
+                <div id="content" class="mc-content span9">
+          <div id="content-wrapper" class="content-wrapper">
+            <div id="content-head" class="row-fluid content-head">
+                                                        <h1 class="title" id="page-title"> Gateway for New Graduate Students </h1>
+                                                                                                </div>
+                                                <div id="content-body" class="row-fluid content-body"> <div class="region region-content clearfix">
+  <div id="block-system-main" class="clearfix block block-system">       <div class="content"> <article id="node-2827" class="node node-stanford-page clearfix" about="/gradgateway" typeof="sioc:Item foaf:Document">      <span property="dc:title" content="Gateway for New Graduate Students" class="rdf-meta element-hidden"></span>    <div class="content">
+      </div>
+    </article> </div>
+</div></div>
+ <!-- /.region -->
+  </div>
+                                                            <div id="content-row3" class="row-fluid content-row3"> <div class="region region-content-row3 clearfix">
+  <div id="block-bean-new-student-gateway-block2" class="span4 clearfix block block-bean well">     <h2>ESSENTIAL FIRST STEPS</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-block2" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p id="YouTube">
+<iframe width="213.125" height="78.925" frameborder="0" allowfullscreen="" src="/https://www.youtube.com/embed/SyVGbmOgZtE?rel=0&amp;showinfo=0"></iframe></p>
+<p>Accept your admissions offer. Complete the Grad Admissions checklist. Find information about courses and enrollment. Submit your medical information.</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://gradadmissions.stanford.edu/admitted-students">Information for New Students</a></div><div class="field-item odd"><a class="more-link" href="/https://gradadmissions.stanford.edu/admitted-students/important-dates-and-deadlines">Important Dates &amp; Deadlines</a></div><div class="field-item even"><a class="more-link" href="/https://studentservicescenter.stanford.edu">Student Services Center</a></div><div class="field-item odd"><a class="more-link" href="/https://registrar.stanford.edu/students">Enrollment &amp; Registrar's Office</a></div><div class="field-item even"><a class="more-link" href="/https://vaden.stanford.edu/about/entrance-requirements">Medical Requirements</a></div><div class="field-item odd"><a class="more-link" href="/https://glo.stanford.edu/ngso">New Grad Student Orientation</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-block3" class="span4 clearfix block block-bean well">     <h2>International Students</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-block3" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p id="YouTube">
+<iframe width="213.125" height="78.925" frameborder="0" allowfullscreen="" src="/https://www.youtube.com/embed/xLj26MOveUE?rel=0&amp;showinfo=0"></iframe></p>
+<p>Learn about visa and other requirements. Get answers from the Bechtel International Center. Explore language courses.</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://gradadmissions.stanford.edu/admitted-students/entering-stanford/international-students">Admissions Checklist for International Students</a></div><div class="field-item odd"><a class="more-link" href="/https://bechtel.stanford.edu/">Bechtel International Center</a></div><div class="field-item even"><a class="more-link" href="/https://bechtel.stanford.edu/immigration/information-visas-and-supporting-documents/applying-visa">Visa Application Information</a></div><div class="field-item odd"><a class="more-link" href="/http://immigration.stanford.edu/">Immigration Issues and Resources</a></div><div class="field-item even"><a class="more-link" href="/https://bechtel.stanford.edu/coming-stanford/health-insurance">Health Insurance Information</a></div><div class="field-item odd"><a class="more-link" href="/https://language.stanford.edu/programs/efs/languages/english-foreign-students">English Language Courses</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-block6" class="span4 clearfix block block-bean well">     <h2>Housing</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-block6" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-3-col-header field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4075" typeof="">
+  <div class="content">
+    <div id="field-collection-item-field-s-image-info-stanford-3-col-header-group-s-image-border-style--2" class="border-simple-nowidth border-shadow group-s-image-border-style field-group-div"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-3-col-header" typeof="foaf:Image" width="270" height="100" alt="Kennedy Commons" src="/https://vpge.stanford.edu/sites/default/files/styles/3-col-header/public/kennedy_commons_exterior.png?itok=nqQ7GW1N"></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Apply for on-campus housing when you accept your admissions offer. Or explore off-campus&nbsp;housing resources. Take advantage of CalTrain to commute to campus.</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://rde.stanford.edu/studenthousing">Main Housing site</a></div><div class="field-item odd"><a class="more-link" href="/https://rde.stanford.edu/studenthousing/apply-housing">Housing Application</a></div><div class="field-item even"><a class="more-link" href="/https://rde.stanford.edu/studenthousing/housing-options">On-Campus Housing Options</a></div><div class="field-item odd"><a class="more-link" href="/https://rde.stanford.edu/studenthousing/community-housing">Off-Campus Housing Resources</a></div><div class="field-item even"><a class="more-link" href="/http://transportation.stanford.edu/pilotgopass/">Caltrain Ticket Subsidy</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-block9" class="span4 clearfix block block-bean well">     <h2>FINANCES</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-block9" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-3-col-header field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4081" typeof="">
+  <div class="content">
+    <div id="field-collection-item-field-s-image-info-stanford-3-col-header-group-s-image-border-style--3" class="border-simple-nowidth border-shadow group-s-image-border-style field-group-div"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-3-col-header" typeof="foaf:Image" width="270" height="100" alt="Arcade at Stanford" src="/https://vpge.stanford.edu/sites/default/files/styles/3-col-header/public/quad_l.a._cicero_stanford_news_service_0.jpg?itok=Kd8Uvwqn"></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Understand your Stanford bill and the billing cycle. Learn about funding and other financial matters relevant to your graduate studies.&nbsp;</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://sfs.stanford.edu">Student Financial Services</a></div><div class="field-item odd"><a class="more-link" href="/http://financialaid.stanford.edu/grad/">Financial Aid Basics</a></div><div class="field-item even"><a class="more-link" href="/http://financialaid.stanford.edu/grad/budget/index.html">Graduate Student Budget</a></div><div class="field-item odd"><a class="more-link" href="/https://financialaid.stanford.edu/grad/funding/emergency.html">Emergency Aid Fund</a></div><div class="field-item even"><a class="more-link" href="/https://sfs.stanford.edu/mind-over-money">Mind Over Money</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-block7" class="span4 clearfix block block-bean well">     <h2>HEALTH &amp; WELLNESS</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-block7" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-3-col-header field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4077" typeof="">
+  <div class="content">
+    <div id="field-collection-item-field-s-image-info-stanford-3-col-header-group-s-image-border-style--4" class="border-simple-nowidth border-shadow group-s-image-border-style field-group-div"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-3-col-header" typeof="foaf:Image" width="270" height="100" alt="Vaden Health Center" src="/https://vpge.stanford.edu/sites/default/files/styles/3-col-header/public/vaden.png?itok=YTK8W9l6"></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Learn about campus health services and your insurance options. Prepare the documents you need before arrival. Explore campus recreation and wellness resources.</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://vaden.stanford.edu/about/entrance-requirements">MUST-DO Requirements</a></div><div class="field-item odd"><a class="more-link" href="/http://vaden.stanford.edu">Vaden Health Center</a></div><div class="field-item even"><a class="more-link" href="/https://issuu.com/studenthealthmatters/docs/2017-18-student-health-matters-new-?e=12557722/47992202">Vaden's 2017-2018 Student Health Matters</a></div><div class="field-item odd"><a class="more-link" href="/http://vaden.stanford.edu/insurance/cardinal-care">Cardinal Care Student Health Plan</a></div><div class="field-item even"><a class="more-link" href="/https://wellness.stanford.edu">Wellness Resources</a></div><div class="field-item odd"><a class="more-link" href="/http://recreation.stanford.edu/">Stanford Recreation</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-block13" class="span4 clearfix block block-bean well">     <h2>Diversity</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-block13" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-3-col-header field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4107" typeof="">
+  <div class="content">
+    <div id="field-collection-item-field-s-image-info-stanford-3-col-header-group-s-image-border-style--5" class="border-simple-nowidth border-shadow group-s-image-border-style field-group-div"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-3-col-header" typeof="foaf:Image" width="270" height="100" alt="Students" src="/https://vpge.stanford.edu/sites/default/files/styles/3-col-header/public/diveristyoverview_vpge_2012_1.png?itok=PpVJg2Ce"></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Explore the diversity of Stanford and the Bay Area. Find resources that support diversity. See how you can contribute to campus diversity.</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://diversityworks.stanford.edu">Diversity Works at Stanford</a></div><div class="field-item odd"><a class="more-link" href="/https://graddiversity.stanford.edu">Graduate Diversity</a></div><div class="field-item even"><a class="more-link" href="/https://studentaffairs.stanford.edu/who-we-are/student-affairs-offices-and-centers">Community &amp; Ethnic Centers</a></div><div class="field-item odd"><a class="more-link" href="/https://vpge.stanford.edu/diversity-initiatives/recruitment">School Diversity Officers</a></div><div class="field-item even"><a class="more-link" href="/https://diversityandfirstgen.stanford.edu">Diversity &amp; First-Gen Office</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-block10" class="span4 clearfix block block-bean well">     <h2>Student Life</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-block10" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-3-col-header field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/12078" typeof="">
+  <div class="content">
+    <div id="field-collection-item-field-s-image-info-stanford-3-col-header-group-s-image-border-style--6" class="border-simple-nowidth border-shadow group-s-image-border-style field-group-div"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-3-col-header" typeof="foaf:Image" width="270" height="100" alt="Students" src="/https://vpge.stanford.edu/sites/default/files/styles/3-col-header/public/el-centro-chicano_0_0.png?itok=KiIemQ4g"></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Get involved. Meet other students. Find and expand your community at Stanford. Contribute to a vibrant and diverse graduate community.</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://glo.stanford.edu">Graduate Life Office</a></div><div class="field-item odd"><a class="more-link" href="/http://assu.stanford.edu/gsc/">Graduate Student Council</a></div><div class="field-item even"><a class="more-link" href="/https://studentaffairs.stanford.edu/who-we-are/student-affairs-offices-and-centers">Community &amp; Ethnic Centers </a></div><div class="field-item odd"><a class="more-link" href="/https://bechtel.stanford.edu">Bechtel International Center</a></div><div class="field-item even"><a class="more-link" href="/https://sal.stanford.edu">Student Organizations</a></div><div class="field-item odd"><a class="more-link" href="/https://military.stanford.edu">Office for Military-Affiliated Communities</a></div><div class="field-item even"><a class="more-link" href="/http://web.stanford.edu/group/religiouslife/cgi-bin/wordpress/">Office of Religious Life</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-block11" class="span4 clearfix block block-bean well">     <h2>Family Life</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-block11" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-3-col-header field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4119" typeof="">
+  <div class="content">
+    <div id="field-collection-item-field-s-image-info-stanford-3-col-header-group-s-image-border-style--7" class="border-simple-nowidth border-shadow group-s-image-border-style field-group-div"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-3-col-header" typeof="foaf:Image" width="270" height="100" alt="" src="/https://vpge.stanford.edu/sites/default/files/styles/3-col-header/public/screen_shot_2014-08-07_at_2.42.24_pm.png?itok=9MqK1DFX"></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Settle your family in the Stanford community. Learn about housing, insurance, childcare, schooling and other services.</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://rde.stanford.edu/studenthousing/housing-options">Campus Family Housing</a></div><div class="field-item odd"><a class="more-link" href="/https://vaden.stanford.edu/insurance/dependent-insurance-coverage">Dependent Health Insurance</a></div><div class="field-item even"><a class="more-link" href="/http://www.pausd.org">Palo Alto Unified School District</a></div><div class="field-item odd"><a class="more-link" href="/https://cardinalatwork.stanford.edu/benefits-rewards/worklife/children-family/on-site-child-care">Campus Child Care</a></div><div class="field-item even"><a class="more-link" href="/http://mailman.stanford.edu/mailman/listinfo/PARENT-NET">Stanford Parent-Net Mailing List</a></div><div class="field-item odd"><a class="more-link" href="/https://worklife.stanford.edu">WorkLife Office</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-block19" class="span4 clearfix block block-bean well">     <h2>Policies &amp; Standards</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-block19" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-3-col-header field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4123" typeof="">
+  <div class="content">
+    <div id="field-collection-item-field-s-image-info-stanford-3-col-header-group-s-image-border-style--8" class="border-simple-nowidth border-shadow group-s-image-border-style field-group-div"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-3-col-header" typeof="foaf:Image" width="270" height="100" alt="Stanford University" src="/https://vpge.stanford.edu/sites/default/files/styles/3-col-header/public/intro_about.png?itok=g66Bum8i"></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Become a responsible member of the Stanford community. Embrace the Honor Code and Fundamental Standard. Learn about Graduate Academic Policies.</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/http://gap.stanford.edu">Graduate Academic Policies &amp; Procedures</a></div><div class="field-item odd"><a class="more-link" href="/https://communitystandards.stanford.edu/student-conduct-process/honor-code-and-fundamental-standard">Honor Code &amp; Fundamental Standard</a></div><div class="field-item even"><a class="more-link" href="/https://titleix.stanford.edu">Title IX Office</a></div><div class="field-item odd"><a class="more-link" href="/https://gradadmissions.stanford.edu/admitted-students/entering-stanford/policy-patents-and-copyrights">Copyright agreement</a></div><div class="field-item even"><a class="more-link" href="/https://doresearch.stanford.edu/taxonomy/term/446">Responsible Conduct of Research</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-block14" class="span4 clearfix block block-bean well">     <h2>Academic Support</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-block14" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-3-col-header field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4109" typeof="">
+  <div class="content">
+    <div id="field-collection-item-field-s-image-info-stanford-3-col-header-group-s-image-border-style--9" class="border-simple-nowidth border-shadow group-s-image-border-style field-group-div"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-3-col-header" typeof="foaf:Image" width="270" height="100" alt="Two women talking" src="/https://vpge.stanford.edu/sites/default/files/styles/3-col-header/public/ocp_0.png?itok=zyHAhfcp"></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Use Stanford's academic support services&nbsp;to ease the transition to graduate school. Build and expand your academic skills.</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://oae.stanford.edu">Office of Accessible Education</a></div><div class="field-item odd"><a class="more-link" href="/https://slc.stanford.edu/">Schwab Learning Center</a></div><div class="field-item even"><a class="more-link" href="/https://undergrad.stanford.edu/tutoring-support/hume-center">Hume Center for Writing and Speaking</a></div><div class="field-item odd"><a class="more-link" href="/http://vptl.stanford.edu">Office of the Vice Provost for Teaching and Learning</a></div><div class="field-item even"><a class="more-link" href="/https://language.stanford.edu/programs/efs/languages/english-foreign-students">English Language Courses</a></div><div class="field-item odd"><a class="more-link" href="/https://undergrad.stanford.edu/tutoring-support/hume-center/speaking">Oral Communication Program</a></div><div class="field-item even"><a class="more-link" href="/https://vpge.stanford.edu/professional-development/overview">VPGE Professional Development Resources</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-block16" class="span4 clearfix block block-bean well">     <h2>Career Centers</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-block16" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-3-col-header field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4113" typeof="">
+  <div class="content">
+    <div id="field-collection-item-field-s-image-info-stanford-3-col-header-group-s-image-border-style--10" class="border-simple-nowidth border-shadow group-s-image-border-style field-group-div"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-3-col-header" typeof="foaf:Image" width="270" height="100" alt="Students at Career Fair" src="/https://vpge.stanford.edu/sites/default/files/styles/3-col-header/public/edcareers_0.png?itok=gJHCU3JM"></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Find out what Stanford's five career centers offer. Begin planning and preparing for your career.</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/https://beam.stanford.edu">BEAM, Stanford Career Education</a></div><div class="field-item odd"><a class="more-link" href="/https://ed.stanford.edu/careers">Stanford EdCareers</a></div><div class="field-item even"><a class="more-link" href="/http://med.stanford.edu/careercenter/">School of Medicine Career Center</a></div><div class="field-item odd"><a class="more-link" href="/http://www.gsb.stanford.edu/cmc">Career Management Center (GSB)</a></div><div class="field-item even"><a class="more-link" href="/https://law.stanford.edu/office-of-career-services/">Office of Career Services (Law)</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-new-student-gateway-block4" class="span4 clearfix block block-bean well">     <h2>Getting Around</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/new-student-gateway-block4" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard"><div class="field-collection-container clearfix"><div class="field field-name-field-s-image-info field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-stanford-3-col-header field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-s-image-info clearfix" about="/field-collection/field-s-image-info/4071" typeof="">
+  <div class="content">
+    <div id="field-collection-item-field-s-image-info-stanford-3-col-header-group-s-image-border-style--11" class="border-simple-nowidth border-shadow group-s-image-border-style field-group-div"><div class="field field-name-field-s-image-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img class="image-style-3-col-header" typeof="foaf:Image" width="270" height="100" alt="People on bicycles" src="/https://vpge.stanford.edu/sites/default/files/styles/3-col-header/public/f481054d056b4bbc6f251447e2a51db9.jpg?itok=nIwJTQ-6"></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div></div><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Get around campus and the Bay Area by foot, bike, or shuttle. Explore Parking &amp; Transportation's extensive transportation resources.&nbsp;</p>
+</div></div></div><div class="field field-name-field-s-postcard-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a class="more-link" href="/http://campus-map.stanford.edu">Searchable Campus Map</a></div><div class="field-item odd"><a class="more-link" href="/https://vpge.stanford.edu/map">Interactive Map: Grad Life at Stanford</a></div><div class="field-item even"><a class="more-link" href="/https://transportation.stanford.edu">Parking &amp; Transportation Services</a></div><div class="field-item odd"><a class="more-link" href="/http://transportation.stanford.edu/marguerite/">Marguerite Campus Shuttle </a></div><div class="field-item even"><a class="more-link" href="/https://diversityandaccess.stanford.edu">Diversity &amp; Access Office</a></div><div class="field-item odd"><a class="more-link" href="/https://transportation-forms.stanford.edu/pilotgopass/">CalTrain Ticket Subsidy</a></div><div class="field-item even"><a class="more-link" href="/https://transportation.stanford.edu/transit">Bay Area Public Transportation</a></div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+</div>
+ <!-- /.region -->
+ </div>
+                                                                                  </div>
+          <!-- /#content-wrap -->
+        </div>
+        <!-- /#content -->
+              </div>
+                </div>
+  </div>
+  <!-- /#main, /#main-wrapper -->
+    <div id="push"></div>
+  <!-- /#push -->
+</div>
+<!-- /#wrap -->
+<div id="footer" class="clearfix footer site-footer">
+  <div class="container">
+        <div id="footer-content" class="row-fluid footer-content"> <div class="region region-footer clearfix">
+  <div id="block-bean-vpge-shield" class="clearfix block block-bean span2">       <div class="content"> <div class="entity entity-bean bean-stanford-postcard clearfix" about="/block/vpge-shield" typeof="">
+
+  <div class="content">
+    <div class="postcard"><div class="postcard-content"><div class="field field-name-field-s-postcard-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/https://vpge.stanford.edu/about/our-mission"><img alt="VPGE Shield Logo" src="/https://vpge.stanford.edu/sites/default/files/vpge-sheild.png"></a></p>
+</div></div></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-menu-menu-footer-about-menu" class="clearfix block block-menu span2">     <h2>About VPGE</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a title="" href="/https://vpge.stanford.edu/about/about-vpge">Overview</a></li>
+<li class="leaf"><a title="" href="/https://vpge.stanford.edu/about/meet-vice-provost">Meet the Vice Provost</a></li>
+<li class="leaf"><a title="" href="/https://vpge.stanford.edu/about/staff">Staff</a></li>
+<li class="last leaf"><a title="" href="/https://vpge.stanford.edu/about-vpge/contact-us">Contact Us</a></li>
+</ul> </div>
+</div>
+<div id="block-menu-menu-quick-links" class="clearfix block block-menu span2">     <h2>Quick Links</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a title="" href="/https://vpge.stanford.edu/events/upcoming-events">Calendar</a></li>
+<li class="leaf"><a title="" href="/https://vpge.stanford.edu/events/programs">Programs</a></li>
+<li class="leaf"><a title="" href="/https://vpge.stanford.edu/news/recent-news">Recent News</a></li>
+<li class="last leaf"><a title="" href="/https://vpge.stanford.edu/partners">Partners</a></li>
+</ul> </div>
+</div>
+<div id="block-menu-menu-vpge-footer-menu-see-also" class="clearfix block block-menu span4">     <h2>Bookmarks</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a title="" href="/http://gap.stanford.edu/">Graduate Academic Policies</a></li>
+<li class="leaf"><a title="" href="/http://studentaffairs.stanford.edu/gradadmissions">Graduate Admissions</a></li>
+<li class="leaf"><a title="Information about funding graduate school" href="/http://www.stanford.edu/dept/finaid/grad/">Graduate Funding</a></li>
+<li class="leaf"><a title="" href="/http://studentaffairs.stanford.edu/glo">Graduate Life Office</a></li>
+<li class="last leaf"><a title="" href="/http://studentaffairs.stanford.edu/registrar">Office of the Registrar</a></li>
+</ul> </div>
+</div>
+<div id="block-bean-jumpstart-footer-social-media-0" class="clearfix block block-bean span2">     <h2>Connect</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-social-media-connect clearfix" about="/block/jumpstart-footer-social-media--0" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-s-smc-facebook field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/https://www.facebook.com/StanfordVPGE">Facebook</a></div></div></div><div class="field field-name-field-s-smc-twitter field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/https://twitter.com/StanfordVPGE">Twitter</a></div></div></div><div class="field field-name-field-s-smc-youtube field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/https://www.youtube.com/user/stanfordvpge/">YouTube</a></div></div></div><div class="field field-name-field-s-smc-instagram field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/http://instagram.com/stanfordvpge">Instagram</a></div></div></div><div class="field field-name-field-s-smc-tumblr field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/http://vpgefellows.tumblr.com">Tumblr</a></div></div></div><div class="field field-name-field-s-smc-flickr field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/https://www.flickr.com/stanfordvpge">Flickr</a></div></div></div>  </div>
+</div>
+ </div>
+</div>
+</div>
+ <!-- /.region -->
+ </div>
+      </div>
+</div>
+<!-- /#footer -->
+<div id="global-footer" role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2"><a href="/http://www.stanford.edu"><img alt="Stanford University" src="/https://vpge.stanford.edu/sites/default/themes/stanford_framework/images/footer-stanford-logo@2x.png"></a></div>
+      <div id="bottom-menu" class="span10">
+        <ul>
+          <li><a "="" href="/http://www.stanford.edu">SU Home</a></li>
+          <li><a href="/http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+          <li><a href="/http://www.stanford.edu/search/">Search Stanford</a></li>
+          <li><a href="/http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+          <li><a href="/http://emergency.stanford.edu/">Emergency Info</a></li>
+        </ul>
+      </div>
+      <div id="copyright" class="span10 offset2">
+        <p class="vcard">© <span class="fn org">Stanford University</span>, <span class="adr"><span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>. <span class="copyright-links"><a href="/https://uit.stanford.edu/security/copyright-infringement">Copyright Complaints</a></span></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /#global-footer -->
+  
+
+</body></html>

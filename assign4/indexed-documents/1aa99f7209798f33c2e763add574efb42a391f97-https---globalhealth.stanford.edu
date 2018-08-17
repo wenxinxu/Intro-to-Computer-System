@@ -1,0 +1,3399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7 "> <![endif]--><!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8 "> <![endif]--><!--[if IE 8]>         <html lang="en" class="no-js lt-ie9 "> <![endif]--><!--[if gt IE 8]><!--><html lang="en" class="no-js "><!--<![endif]--><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,200italic,300italic,400italic,700italic|Fjord+One">
+    
+    
+    
+    
+    
+    
+        
+            
+        
+        
+    
+    
+    <meta property="og:title" content="Center for Innovation in Global Health - Stanford University School of Medicine">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="Stanford Center for Innovation<br> in Global Health">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="">
+    <meta name="twitter:creator" content="Stanford Center for Innovation<br> in Global Health">
+    <meta name="twitter:title" content="Center for Innovation in Global Health - Stanford University School of Medicine">
+    <meta name="twitter:description" content="">
+    
+    
+
+
+
+
+
+
+    
+    
+		
+    
+
+
+
+    
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+    
+      
+    
+    
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+<script type="text/javascript">var dataLayer = {"specVersion": "1.0.0","site": {"name": "Stanford Center for Innovation in Global Health","url": "http://globalhealth.stanford.edu/","platform": "AEM","locale": "en","google": {"analytics": "UA-8214842-35"}},"page": {"id": "content-sm-globalhealth","title": "Center for Innovation in Global Health","navTitle": "Center for Innovation in Global Health","url": "http://med.stanford.edu/globalhealth.html","description": "","keywords": [],"template": "McKinley Design","publishedDate": "2018-07-09T16:01:10.246-07:00","modifiedDate": "2018-07-09T16:01:10.246-07:00","content": {"title": "","author": {"name": "","email": "","phone": ""}}}}</script>
+    
+        <script type="text/javascript">
+            window.googleAnalyticsId2 = "UA-8214842-35";
+        </script>
+    
+    
+
+<script>(function(w){w.init={a:[],add:function(s,c,r,i,p,t){c=this;r=1;p=c.a;for(i=0,t=p.length;i<t;i++)if(""+p[i]===""+s)r=0;if(r)c.a.push(s)}};w.SM={components:{}};}(window));</script>
+<script src="/https://assets.adobedtm.com/2b02a6b36f7b0182d4b9286f1307f16aa7d507a3/satelliteLib-31367a551e48d2f5c09eef9ae33fbefa973adbbb.js"></script>
+
+
+<script type="text/javascript">CQURLInfo={"requestPath":"/content/sm/globalhealth","extension":"html","selectors":[],"systemId":"7e262fcb-81c6-4486-bee6-a73a9d1677c8","runModes":"prod,crx3,nosamplecontent,publish,crx3tar,pub02"};</script>
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/rte/collapse_text.eec1c350dcf273de9d109b12a13a9f5a.css">
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/base/navigation.2feb661b991ba1e5bc46f3d7f6433ff1.css">
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/base/mobile-navigation-panel.5a8b39fdb014218b71f6a2521bb9cfcf.css">
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/bootstrap.e9f69e87613122f9bbbe2f2a09f1be1f.css">
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/fontawesome.0810027139be788bb4cc466e707a86ea.css">
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/jquery.royalslider.c1fe93bbfa950c6b160fbc4c1cca1592.css">
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/magnific-popup.5204575709689d82cb68a40b7cfbaded.css">
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/selectize.cfac217b743abcf296b6f4c25341029f.css">
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/base.83f9c7dbb8510e363c4b4b761eb2ec31.css">
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/base/components.a9429255346e449b935b85238cc033d4.css">
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/everest.6c44ed661dd0da5a2f540ec55698cd8d.css">
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/mckinley-navigation.d684f4f4b517673970f127555eaaa218.css">
+<link rel="stylesheet" type="text/css" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/mckinley.499bb2f14925126987a1c2317920238e.css">
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/rte/collapse_text.5a522e8bb25cfee191fc1b5164b5bff5.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/granite/jquery.d311399a202bbfe8f6b94a4546a2a025.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/lodash.cc0e77ea4b5cff53737689007687320c.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/base/utils.202868df0e21b76e7e0c0efc6792cc04.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/base/resize-end.ef87d86dc0938cf55dc2d0972956ae9e.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/base/accessibility.111317412af58be4f545f67de3aee113.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/base/navigation.4f8466902ca8e46b9108729dbd8ec0ab.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/base/mobile-navigation-panel.7fdccb375d578f79a5a24bebe8e6f0af.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/bootstrap.0f80cc9c041a0edb918f852a948e1422.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/modernizr.b0bf3cb95f7afab821ac26b29ae5493a.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/granite/utils.960d4a24cc6fa3b473b4ae2018d5c364.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/granite/jquery/granite.1cd927e8b915fa4931c6c086a8cfda10.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/foundation/jquery.04c02883bbd8d131b579412d156fbd96.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/jquery.royalslider.2e281f890e2740344f4b7dba8ea1f4e6.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/holderjs.82791be67835b3cea68b279494b0511b.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/jquery.touchSwipe.0cc92c6123cee62e2db015fb06c5fd3c.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/jquery.zrssfeed.eea2059e9c5dec027343b7dd949abaa5.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/magnific-popup.9fbebd26b0e584d643216a372bd53266.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/readmore.ba90b5b4bd1a7e093ad3ad90320a66c7.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/vendor/selectize.8711dffafb2f2aa3b97a8c756ce39005.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/base.3898e7bc5affc89c7b6ae2728ff1add2.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/base/components.37c69e81f6da06eef2edb8700df77204.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/everest.4519107f92f2d65128f3aa635bdac38c.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/mckinley-navigation.1ac2a9c2f48cf2a849093aa598f0a56d.js"></script>
+<script type="text/javascript" src="/https://globalhealth.stanford.edu/etc/clientlibs/sm/mckinley.410f3833dc2d332e254f28b960e9ade8.js"></script>
+
+
+
+
+
+    
+    
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/images/SM-Shield-152x152.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/images/SM-Shield-120x120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/images/SM-Shield-114x114.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/images/SM-Shield-76x76.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/images/SM-Shield-72x72.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/images/SM-Shield-60x60.png">
+    <link rel="apple-touch-icon" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/images/SM-Shield-57x57.png">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/images/favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/https://globalhealth.stanford.edu/etc/clientlibs/sm/images/favicon.ico">
+    
+
+
+    
+    
+        
+        
+    
+    
+    
+        
+    
+    <title>Center for Innovation in Global Health - Stanford University School of Medicine | Stanford Center for Innovation  in Global Health | Stanford Medicine</title>
+    <!--[if lte IE 8]><script type="text/javascript" src="/etc/clientlibs/sm/vendor/respond.js"></script>
+<![endif]-->
+    
+
+    
+</head>
+
+  
+
+
+<body class="mckinley-home">
+  
+
+
+  
+
+
+
+
+
+  
+  <div id="outerContainer">
+    
+
+
+
+
+
+<header role="banner" class="header-local header-global-offset">
+
+
+<div class="container">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- test file -->
+
+    
+        
+    
+    
+
+
+
+
+
+
+<span class="skip-to-links">
+    <a class="sr-only" href="/https://globalhealth.stanford.edu">Skip to Content</a>
+    <a class="sr-only" href="/https://globalhealth.stanford.edu">Skip to Local Navigation</a>
+    <a class="sr-only" href="/https://globalhealth.stanford.edu">Skip to Global Navigation</a>
+</span>
+<div class="brand">
+    <a class="brand-logo" href="/http://med.stanford.edu/">Stanford Medicine</a>
+    <a class="brand-sitename" href="/https://globalhealth.stanford.edu/">
+        <span class="wrap">
+            <span class="brand-sitename-title">Stanford Center for Innovation<br> in Global Health</span>
+            
+        </span>
+    </a>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <button type="button" class="navbar-toggle">
+        <span class="sr-only">Site Nav</span>
+        <span class="fa fa-bars"></span>
+    </button>
+</div>
+
+
+
+
+
+
+
+
+<div class="social-links">
+    <p></p>
+    
+        <ul>
+            
+                <li>
+                    <a href="/https://twitter.com/StanfordCIGH">
+                        <span class="sr-only">See us on twitter</span>
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/https://www.youtube.com/channel/UCF4HGKvL2dAKncReTMOmT1Q">
+                        <span class="sr-only">See us on youtube</span>
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/https://www.flickr.com/photos/143675700@N03/">
+                        <span class="sr-only">See us on flickr</span>
+                        <i class="fa fa-flickr"></i>
+                    </a>
+                </li>
+            
+        </ul>
+    
+</div>
+
+</div>
+</header>
+
+
+
+
+<header class="header-global">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <nav class="navbar navbar-global navbar-dropdown container" id="navigationGlobal" role="navigation" aria-label="Secondary Navigation" tabindex="0">
+
+        <ul class="nav navbar-nav pull-right">
+            <li class="nav-item health">
+                <a href="/https://globalhealth.stanford.edu">Health Care</a>
+                
+                <div class="nav-item-panel">
+                    <section>
+                        <ul class="menu">
+                            <li><a tabindex="-1" href="/https://globalhealth.stanford.edu"><h3>Find a doctor</h3></a></li>
+                            <li><a href="/http://stanfordhealthcare.org/content/shc/en/search-results.doctors.html">Adult-care doctor</a></li>
+                            <li><a href="/http://www.stanfordchildrens.org/en/search/default?tab=doctors">Pediatrician or pediatric specialist</a></li>
+                            <li><a href="/http://www.stanfordchildrens.org/en/search/default?tab=doctors&amp;search-term=Obstetrics">Obstetrician</a></li>
+                            <li><a tabindex="-1" href="/https://globalhealth.stanford.edu"><h3>Clinics &amp; Services</h3></a></li>
+                            <li><a href="/http://stanfordhealthcare.org/content/shc/en/search-results.clinics.html">Adult care</a></li>
+                            <li><a href="/http://www.stanfordchildrens.org/en/service/index?">Pediatric care</a></li>
+                            <li><a href="/http://www.stanfordchildrens.org/en/service/index?">Obstetrics</a></li>
+                            <li><a href="/https://med.stanford.edu/clinicaltrials/">Clinical trials</a></li>
+                        </ul>
+
+                        <aside class="menu-box">
+                            <ul class="menu">
+                                <li><a tabindex="-1" href="/https://globalhealth.stanford.edu"><h3>Locations</h3></a></li>
+                                <li><a href="/http://stanfordhealthcare.org/content/shc/en/search-results.clinics.html">Stanford Health Care</a></li>
+                                <li><a href="/http://www.stanfordchildrens.org/en/locations-directions">Stanford Children's Health</a></li>
+                                <li><a href="/http://stanfordhealthcare.org/medical-clinics/emergency-department.html">Emergency Department</a></li>
+                                <li><em>Dial 911 in the event of a medical emergency</em></li>
+                            </ul>
+                        </aside>
+
+                        <aside class="menu-box menu-box-explore bg-icon-user-md ">
+                            <a href="/https://med.stanford.edu/health-care.html">
+                                <h3>Explore Health Care</h3>
+                                <p>Learn how we are healing patients through science &amp; compassion <i class="fa fa-arrow-right"></i></p>
+                            </a>
+                        </aside>
+
+                        <a class="back" href="/https://globalhealth.stanford.edu"><i class="fa fa-angle-left"></i> Back</a>
+                    </section>
+                </div>
+            </li>
+            <li class="nav-item research ">
+                <a href="/https://globalhealth.stanford.edu">Research</a>
+                <div class="nav-item-panel">
+                    <section>
+                        <ul class="menu">
+                            <li><a href="/https://med.stanford.edu/school/directory/basic-science-departments.html">Basic science departments</a></li>
+                            <li><a href="/https://med.stanford.edu/school/directory/clinical-science-departments.html">Clinical science departments</a></li>
+                            <li><a href="/https://med.stanford.edu/school/directory/stanford-medicine-institutes.html">Institutes</a></li>
+                            <li><a href="/https://med.stanford.edu/school/directory/research-centers-and-programs.html">Research centers</a></li>
+                            <li><a href="/https://med.stanford.edu/school/directory.html">See full directory</a></li>
+                            <li><a tabindex="-1" href="/https://globalhealth.stanford.edu"><h3>Research Resources</h3></a></li>
+                            <li><a href="/https://med.stanford.edu/school/directory/research-administration.html">Research administration</a></li>
+                            <li><a href="/https://med.stanford.edu/profiles/">Academic profiles</a></li>
+                            <li><a href="/https://med.stanford.edu/clinicaltrials/">Clinical trials</a></li>
+                            <li><a href="/https://med.stanford.edu/rmg/funding/">Funding opportunities</a></li>
+                            <li><a href="/https://med.stanford.edu/school/directory/researcher-resources.html">See all</a></li>
+                            <li><a tabindex="-1" href="/https://globalhealth.stanford.edu"><h3>Professional Training</h3></a></li>
+                            <li><a href="/https://postdocs.stanford.edu">Postdoctoral scholars</a></li>
+                            <li><a href="/https://gme.stanford.edu">Clinical research fellows</a></li>
+                        </ul>
+
+                        
+                            
+                                <aside class="menu-box menu-box-news">
+                                    <a href="/https://med.stanford.edu/content/sm/news/all-news/2018/03/clearing-clumps-of-protein-in-aging-neural-stem-cells-boosts-activity.html">
+                                        <h3>Research News</h3>
+                                        <img alt="Clearing clumps of protein in aging neural stem cells boosts their activity" src="/https://med.stanford.edu/news/all-news/2018/03/clearing-clumps-of-protein-in-aging-neural-stem-cells-boosts-activity/jcr:content.thumbnail.140.100.jpg">
+                                        <p>Clearing clumps of protein in aging neural stem cells boosts their activity <i class="fa fa-arrow-right"></i></p>
+                                    </a>
+                                </aside>
+                            
+                        
+
+                        <aside class="menu-box menu-box-explore bg-icon-book">
+                            <a href="/https://med.stanford.edu/research.html">
+                                <h3>Explore Research</h3>
+                                <p>Learn how we are fueling innovation <i class="fa fa-arrow-right"></i></p>
+                            </a>
+                        </aside>
+
+                        <a class="back" href="/https://globalhealth.stanford.edu"><i class="fa fa-angle-left"></i> Back</a>
+                    </section>
+                </div>
+            </li>
+            <li class="nav-item education position-right">
+                <a href="/https://globalhealth.stanford.edu">Education</a>
+                <div class="nav-item-panel">
+                    <section>
+                        <ul class="menu">
+                            <li><a href="/https://med.stanford.edu/md.html">MD program</a></li>
+                             <li><a href="/https://med.stanford.edu/pa.html">PA Programs</a></li>
+                            <li><a href="/https://med.stanford.edu/education/phd-programs.html">PhD programs</a></li>
+                            <li><a href="/https://med.stanford.edu/education/masters-programs.html">Masters programs</a></li>
+                            <li><a href="/https://med.stanford.edu/cme/">Continuing Medical Education</a></li>
+                            <li><a href="/https://postdocs.stanford.edu">Postdoctoral scholars</a></li>
+                            <li><a href="/https://gme.stanford.edu">Residencies &amp; fellowships</a></li>
+                            <li><a href="/https://med.stanford.edu/education/high-school-undergraduate-programs">High school and undergraduate programs</a></li>
+                            <li><a href="/https://med.stanford.edu/education.html">See all</a></li>
+                            <li><a tabindex="-1" href="/https://globalhealth.stanford.edu"><h3>Education Resources</h3></a></li>
+                            <li><a href="/https://med.stanford.edu/profiles/">Academic profiles</a></li>
+                            <li><a href="/https://med.stanford.edu/school/deans-office.html">School Administration</a></li>
+                            <li><a href="/https://med.stanford.edu/school/directory/basic-science-departments.html">Basic science departments</a></li>
+                            <li><a href="/https://med.stanford.edu/school/directory/clinical-science-departments.html">Clinical science departments</a></li>
+                            <li><a href="/https://med.stanford.edu/alumni/">Alumni services</a></li>
+                            <li><a href="/https://med.stanford.edu/school/directory/academic-resources.html">Faculty resources</a></li>
+                            <li><a href="/https://med.stanford.edu/about/diversity.html">Diversity programs</a></li>
+                            <li><a href="/http://lane.stanford.edu/index.html">Lane Library</a></li>
+                            <li><a href="/https://med.stanford.edu/school/directory/academic-resources.html">Student resources</a></li>
+                        </ul>
+
+                        
+                            
+                                <aside class="menu-box menu-box-news">
+                                    <a href="/https://med.stanford.edu/content/sm/news/all-news/2018/07/program-marks-30-years-of-medical-education-for-low-income-teens.html">
+                                        <h3>Education News</h3>
+                                        <img alt="Program marks 30 years of bringing medical education to low-income teens" src="/https://med.stanford.edu/news/all-news/2018/07/program-marks-30-years-of-medical-education-for-low-income-teens/jcr:content.thumbnail.140.100.jpg">
+                                        <p>Program marks 30 years of bringing medical education to low-income teens <i class="fa fa-arrow-right"></i></p>
+                                    </a>
+                                </aside>
+                            
+                        
+
+                        <aside class="menu-box menu-box-explore bg-icon-money">
+                            <a href="/https://med.stanford.edu/education">
+                                <h3>Explore Education</h3>
+                                <p>Learn how we empower tomorrow's leaders <i class="fa fa-arrow-right"></i></p>
+                            </a>
+                        </aside>
+
+                        <a class="back" href="/https://globalhealth.stanford.edu"><i class="fa fa-angle-left"></i> Back</a>
+                    </section>
+                </div>
+            </li>
+            <li class="nav-item give position-right">
+                <a href="/https://globalhealth.stanford.edu">Give</a>
+                <div class="nav-item-panel">
+                    <section>
+                        <aside class="menu-box-special first-special-box">
+                            <a href="/https://medicalgiving.stanford.edu">
+                                <h3>Support Stanford Medicine</h3>
+                            </a>
+                        </aside>
+
+                        <ul class="menu">
+                            <li><p><a class="link-w-arrow" href="/https://medicalgiving.stanford.edu">Support teaching, research, and patient care.</a> </p></li>
+                            <li><a href="/https://medicalgiving.stanford.edu/ways-to-give.html">Ways to give</a></li>
+                            <li><a href="/https://medicalgiving.stanford.edu/why-giving-matters.html">Why giving matters</a></li>
+                            <li><a href="/http://pgnet.stanford.edu/goto/medgift">Make a gift online</a></li>
+                        </ul>
+
+                        <aside class="menu-box-special second-special-box">
+                            <a href="/https://www.supportlpch.org/">
+                                <h3>Support Children's Health</h3>
+                            </a>
+                        </aside>
+
+                        <aside class="menu-box">
+                            <ul class="menu">
+                                <li><p><a class="link-w-arrow" href="/https://www.supportlpch.org">Support Lucile Packard Children's Hospital Stanford and child and maternal health</a></p></li>
+                                <li><a href="/http://www.supportlpch.org/Waystogive">Ways to give</a></li>
+                                <li><a href="/http://www.supportlpch.org/page.aspx?pid=358">How your gift helps</a></li>
+                                <li><a href="/http://www.supportlpch.org/donate">Make an online gift</a></li>
+                            </ul>
+                        </aside>
+                        
+                        <a class="back" href="/https://globalhealth.stanford.edu"><i class="fa fa-angle-left"></i> Back</a>
+                    </section>
+                </div>
+            </li>
+            <li class="nav-item about position-right">
+                <a href="/https://globalhealth.stanford.edu">About</a>
+                <div class="nav-item-panel">
+                    <section>
+                        <ul class="menu">
+                            <li><a href="/https://med.stanford.edu/about.html">About us</a></li>
+                            <li><a href="/https://med.stanford.edu/news.html">News</a></li>
+                            <li><a href="/https://med.stanford.edu/about/contacts.html">Contacts</a></li>
+                            <li><a href="/https://med.stanford.edu/about/contacts/maps-directions.html">Maps &amp; directions</a></li>
+                            <li><a href="/https://med.stanford.edu/about.html">Leadership</a></li>
+                            <li><a href="/https://med.stanford.edu/about/vision.html">Vision</a></li>
+                            <li><a href="/https://med.stanford.edu/about/diversity.html">Diversity</a></li>
+                            <li><a href="/https://globalhealth.stanford.edu">Global health</a></li>
+                            <li><a href="/https://med.stanford.edu/about/community-engagement.html">Community engagement</a></li>
+                            <li><a href="/https://med.stanford.edu/about/events.html">Events</a></li>
+                            <li><a href="/https://med.stanford.edu/about/how-to-help.html">How you can help</a></li>
+                        </ul>
+
+                        <aside class="menu-box">
+                            <p><a class="logo-stanford-school-of-medicine" href="/https://med.stanford.edu/school.html">Stanford School of Medicine</a></p>
+                            <p><a class="logo-stanford-hospital-clinics" href="/http://stanfordhealthcare.org">Stanford Health Care</a></p>
+                            <p><a class="logo-stanford-childrens-health" href="/http://www.stanfordchildrens.org">Stanford Children's Health</a></p>
+                        </aside>
+
+                        <a class="back" href="/https://globalhealth.stanford.edu"><i class="fa fa-angle-left"></i> Back</a>
+                    </section>
+                </div>
+            </li>
+
+
+            
+            
+            
+            
+
+            <li class="nav-item search position-right">
+                <a class="search-button" href="/https://globalhealth.stanford.edu"><span class="sr-only">Site Search</span></a>
+                <div class="nav-item-panel nav-item-search-panel ">
+
+                    
+
+
+    
+      
+        
+        
+        
+        
+          
+        
+      
+    
+    
+
+
+  <form class="search-form" action="https://med.stanford.edu/search-results/school.html" role="search">
+    <label class="sr-only" for="search-Thu Aug 02 13:02:53 PDT 2018">Search by name or topic...</label>
+    <div class="input-group">
+      <input id="search-Thu Aug 02 13:02:53 PDT 2018" name="q" type="text" value="" placeholder="Search by name or topic..." class="form-control" tabindex="0" maxlength="2048">
+      <input id="siteUrl" name="site" type="hidden" value="">
+                    
+                
+                
+                    <input id="siteRootName" name="siteRootName" type="hidden" value="globalhealth">
+                
+                
+                    
+                        
+                            <input id="siteBrand" name="siteBrand" type="hidden" value="Stanford Center for Innovation<br> in Global Health">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="submit"><span class="sr-only">Submit Search Query</span></button>
+      </span>
+    </div>
+  </form>
+                    
+                    <!-- Hack to fix bug CQ-1230 -->
+                    <a tabindex="-1" style="display: none;" href="/https://globalhealth.stanford.edu"></a>
+                </div>
+            </li>
+        </ul>
+    </nav></header>
+
+
+
+
+
+
+
+
+<div class="nav-outer">
+    <nav class="container navbar navbar-local navbar-dropdown navbar-dropdown-mckinley " id="navigationLocal" role="navigation" aria-label="Primary Navigation" tabindex="0">
+    
+        <ul class="nav navbar-nav qty-7 ">
+        <li class="nav-item top-level">
+        <a href="/https://globalhealth.stanford.edu/about.html"><span class="link-text-wrapper">About Us</span>
+        </a>
+        <div class="nav-item-panel"><section><h3 class="nav-item-heading"><a tabindex="-1" href="/https://globalhealth.stanford.edu/about.html">About Us</a></h3><ul class="nav navbar-nav"><li class="nav-item"><a href="/https://globalhealth.stanford.edu/about/goals.html">Goals</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/about/contacts.html">Our Team</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/about/Fellows.html">Fellows</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/about/GlobalProjectsMap.html">Global Projects Map</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/about/working-groups.html">Working Groups</a></li>
+            </ul>
+            
+
+
+
+
+
+
+  
+
+
+
+
+
+
+            </section>
+          </div>
+          
+        </li>
+        <li class="nav-item top-level">
+        <a href="/https://globalhealth.stanford.edu/research.html"><span class="link-text-wrapper">Research</span>
+        </a>
+        <div class="nav-item-panel"><section><h3 class="nav-item-heading"><a tabindex="-1" href="/https://globalhealth.stanford.edu/research.html">Research</a></h3><ul class="nav navbar-nav"><li class="nav-item"><a href="/https://globalhealth.stanford.edu/research/seed-grants.html">Seed Grants</a><div class="nav-item-panel"><section><h3 class="nav-item-heading"><a tabindex="-1" href="/https://globalhealth.stanford.edu/research/seed-grants.html">Seed Grants</a></h3><ul class="nav navbar-nav"><li class="nav-item"><a href="/https://globalhealth.stanford.edu/research/seed-grants/2018seedgrants.html">2018 Seed Grants</a></li></ul></section></div></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/research/fogarty.html">Fogarty Global Health Equity Scholars Fellowship</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/research/ResearchConvening2018.html">Stanford Global Health Research Convening 2018</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/research/global-child-health.html">Global Child Health</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/research/research-methods-retreat2017.html">Research Methods Retreat</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/research/stanford-refugee-research-project.html">Stanford Refugee Research Project</a></li>
+            </ul>
+            
+
+
+
+
+
+
+  
+
+
+
+
+
+
+            </section>
+          </div>
+          
+        </li>
+        <li class="nav-item top-level">
+        <a href="/https://globalhealth.stanford.edu/education.html"><span class="link-text-wrapper">Education</span>
+        </a>
+        <div class="nav-item-panel"><section><h3 class="nav-item-heading"><a tabindex="-1" href="/https://globalhealth.stanford.edu/education.html">Education</a></h3><ul class="nav navbar-nav"><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/undergrads.html">Undergraduates</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/md-students.html">MD Students</a><div class="nav-item-panel"><section><h3 class="nav-item-heading"><a tabindex="-1" href="/https://globalhealth.stanford.edu/education/md-students.html">MD Students</a></h3><ul class="nav navbar-nav"><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/md-students/OGH.html">OGH</a></li></ul></section></div></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/graduate-students.html">Graduate Students</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/residents.html">Residents &amp; Fellows</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/faculty.html">Faculty</a><div class="nav-item-panel"><section><h3 class="nav-item-heading"><a tabindex="-1" href="/https://globalhealth.stanford.edu/education/faculty.html">Faculty</a></h3><ul class="nav navbar-nav"><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/faculty/program-leadership-council.html">Program Leadership Council</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/faculty/senior-fellow-program.html">CIGH Fellow Program</a></li></ul></section></div></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/cigh-sponsored-courses.html">CIGH Sponsored Courses</a><div class="nav-item-panel"><section><h3 class="nav-item-heading"><a tabindex="-1" href="/https://globalhealth.stanford.edu/education/cigh-sponsored-courses.html">CIGH Sponsored Courses</a></h3><ul class="nav navbar-nav"><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/cigh-sponsored-courses/ethical-challenges.html">Ethical Challenges in Short-Term Global Health Training Web-based Course</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/cigh-sponsored-courses/global-health-intensive-course.html">Global Health: Beyond Diseases</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/cigh-sponsored-courses/practical-approaches-to-global-health-research.html">Practical Approaches to Global Health Research</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/cigh-sponsored-courses/global-child-health.html">Global Child Health</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/cigh-sponsored-courses/social-innovation-scales.html">Ensuring Social Innovation Scales</a></li></ul></section></div></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/education/student-council.html">Student Council</a></li>
+            </ul>
+            
+
+
+
+
+
+
+  
+
+
+
+
+
+
+            </section>
+          </div>
+          
+        </li>
+        <li class="nav-item top-level">
+        <a href="/https://globalhealth.stanford.edu/field-service.html"><span class="link-text-wrapper">Experiential Programs</span>
+        </a>
+        <div class="nav-item-panel"><section><h3 class="nav-item-heading"><a tabindex="-1" href="/https://globalhealth.stanford.edu/field-service.html">Experiential Programs</a></h3><ul class="nav navbar-nav"><li class="nav-item"><a href="/https://globalhealth.stanford.edu/field-service/mary-duke.html">Mary Duke Biddle Clinical Scholars Program</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/field-service/johnson-and-johnson.html">Yale/Stanford Johnson &amp; Johnson Global Health Scholars Program</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/field-service/mepi-nectar.html">MEPI/Nectar</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/field-service/media-fellowship.html">Stanford Global Health Media Fellowship</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/field-service/shc-independent-rotation.html">Independent Away Rotations</a></li>
+            </ul>
+            
+
+
+
+
+
+
+  
+
+
+
+
+
+
+            </section>
+          </div>
+          
+        </li>
+        <li class="nav-item top-level">
+        <a href="/https://globalhealth.stanford.edu/news.html"><span class="link-text-wrapper">News</span>
+        </a>
+        <div class="nav-item-panel"><section><h3 class="nav-item-heading"><a tabindex="-1" href="/https://globalhealth.stanford.edu/news.html">News</a></h3><ul class="nav navbar-nav"><li class="nav-item"><a href="/https://globalhealth.stanford.edu/news/director-updates.html">From the Global Health Director's Desk</a></li>
+            </ul>
+            
+
+
+
+
+
+
+  
+
+
+
+
+
+
+            </section>
+          </div>
+          
+        </li>
+        <li class="nav-item top-level">
+        <a href="/https://globalhealth.stanford.edu/events.html"><span class="link-text-wrapper">Events</span>
+        </a>
+        <div class="nav-item-panel"><section><h3 class="nav-item-heading"><a tabindex="-1" href="/https://globalhealth.stanford.edu/events.html">Events</a></h3><ul class="nav navbar-nav"><li class="nav-item"><a href="/https://globalhealth.stanford.edu/events/Conversations.html">Conversations in Global Health</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/events/Madagascar2017.html">Madagascar Symposium 2017</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/events/events-archive.html">Events Archive</a></li>
+            </ul>
+            
+
+
+
+
+
+
+  
+
+
+
+
+
+
+            </section>
+          </div>
+          
+        </li>
+        <li class="nav-item top-level">
+        <a href="/https://globalhealth.stanford.edu/resources.html"><span class="link-text-wrapper">Resources</span>
+        </a>
+        <div class="nav-item-panel"><section><h3 class="nav-item-heading"><a tabindex="-1" href="/https://globalhealth.stanford.edu/resources.html">Resources</a></h3><ul class="nav navbar-nav"><li class="nav-item"><a href="/https://globalhealth.stanford.edu/resources/global-health-interest-group.html">Global Health Interest Group</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/resources/bay-area-global-health-hub.html">Bay Area Global Health Hub</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/resources/faculty-mentor-list.html">Faculty Mentor List</a></li><li class="nav-item"><a href="/https://globalhealth.stanford.edu/resources/campus-partners.html">Campus Partners</a></li>
+            </ul>
+            
+
+
+
+
+
+
+  
+
+
+
+
+
+
+            </section>
+          </div>
+          
+        </li>
+        
+      </ul>
+    
+    </nav>
+</div>
+
+
+
+
+
+<section class="hero-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="hero parsys"><div class="reference parbase section">
+</div>
+<div class="hero-banner parbase section">
+
+
+
+
+  
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    <div class="hero-banner-container  " data-container-background-color="#8C1515" data-hatched-style="" data-layout="fullpage" data-node-id="hero_hero_banner">
+      <div class="royalSlider rsDefault banner-loading" autoplayenabled="">
+        
+          
+            
+            
+              
+              
+
+
+
+          
+            <div class="rsContent" id="hero_hero_banner_content_1" aria-labeledby="hero_hero_banner_control_1">
+
+              
+                <div class="image " data-picture="" data-alt="Stanford researcher Laila Soudi volunteering with the Syrian American Medical Society at a Syrian refugee camp in Greece" data-group=""><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.320.low.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.320.medium.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.320.high.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.476.low.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.476.medium.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.476.high.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.620.low.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.620.medium.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.620.high.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.780.low.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.780.medium.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.780.high.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.845.low.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.845.medium.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.845.high.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.1024.low.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.1024.medium.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.1024.high.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.1200.low.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.1200.medium.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.1200.high.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.full.low.jpg" data-media="(min-width: 1201px) " data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.full.medium.jpg" data-media="(min-width: 1201px) " data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.full.high.jpg" data-media="(min-width: 1201px) " data-quality="high"></div><noscript><img alt="Stanford researcher Laila Soudi volunteering with the Syrian American Medical Society at a Syrian refugee camp in Greece" src="/https://globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.620.high.jpg"></noscript></div><!--[if lt IE 8]><img alt="Stanford researcher Laila Soudi volunteering with the Syrian American Medical Society at a Syrian refugee camp in Greece" src='//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide6.img.620.high.jpg' /><![endif]-->
+
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 main-content">
+                    <div class="hero-banner-infobox-container">
+                      <div class="hero-banner-infobox-inner">
+                        
+                        
+                          
+                        
+
+                        <div class="hero-banner-infobox  rsABlock" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+                          <div class="infobox-heading-wrapper">
+                          
+
+                            
+                            <a class="hero-banner-link" href="/https://globalhealth.stanford.edu/research/stanford-refugee-research-project.html">
+                            
+
+                              <h2>Stanford Refugee Research Project Launched
+                                
+                                  <div class="hero-banner-more-link">
+                                    <span>Learn more <i class="fa fa-arrow-right"></i></span>
+                                  </div>
+                                
+                              </h2>
+
+                            
+                            </a>
+                            
+                            
+                          
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div><!-- end .col- -->
+                </div><!-- end .row -->
+              </div><!-- end .container -->
+            </div><!-- end .rsContent -->
+          
+            <div class="rsContent" id="hero_hero_banner_content_2" aria-labeledby="hero_hero_banner_control_2">
+
+              
+                <div class="image " data-picture="" data-alt="coast of Senegal" data-group=""><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.320.low.png" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.320.medium.png" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.320.high.png" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.476.low.png" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.476.medium.png" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.476.high.png" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.620.low.png" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.620.medium.png" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.620.high.png" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.780.low.png" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.780.medium.png" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.780.high.png" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.845.low.png" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.845.medium.png" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.845.high.png" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.1024.low.png" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.1024.medium.png" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.1024.high.png" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.1200.low.png" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.1200.medium.png" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.1200.high.png" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.full.low.png" data-media="(min-width: 1201px) " data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.full.medium.png" data-media="(min-width: 1201px) " data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.full.high.png" data-media="(min-width: 1201px) " data-quality="high"></div><noscript><img alt="coast of Senegal" src="/https://globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.620.high.png"></noscript></div><!--[if lt IE 8]><img alt="coast of Senegal" src='//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide15.img.620.high.png' /><![endif]-->
+
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 main-content">
+                    <div class="hero-banner-infobox-container">
+                      <div class="hero-banner-infobox-inner">
+                        
+                        
+                          
+                        
+
+                        <div class="hero-banner-infobox hero-banner-position-rt rsABlock" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+                          <div class="infobox-heading-wrapper">
+                          
+
+                            
+                            <a class="hero-banner-link" href="/https://globalhealth.stanford.edu/research/ResearchConvening2018.html">
+                            
+
+                              <h2>2018 Global Health Research Convening: Planetary Health in a Changing Climate
+                                
+                                  <div class="hero-banner-more-link">
+                                    <span>Learn more <i class="fa fa-arrow-right"></i></span>
+                                  </div>
+                                
+                              </h2>
+
+                            
+                            </a>
+                            
+                            
+                          
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div><!-- end .col- -->
+                </div><!-- end .row -->
+              </div><!-- end .container -->
+            </div><!-- end .rsContent -->
+          
+            <div class="rsContent" id="hero_hero_banner_content_3" aria-labeledby="hero_hero_banner_control_3">
+
+              
+                <div class="image " data-picture="" data-alt="WLGH 2017 conference_Mamphela Ramphele and Susan Chira" data-group=""><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.320.low.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.320.medium.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.320.high.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.476.low.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.476.medium.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.476.high.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.620.low.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.620.medium.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.620.high.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.780.low.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.780.medium.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.780.high.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.845.low.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.845.medium.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.845.high.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.1024.low.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.1024.medium.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.1024.high.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.1200.low.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.1200.medium.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.1200.high.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.full.low.jpg" data-media="(min-width: 1201px) " data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.full.medium.jpg" data-media="(min-width: 1201px) " data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.full.high.jpg" data-media="(min-width: 1201px) " data-quality="high"></div><noscript><img alt="WLGH 2017 conference_Mamphela Ramphele and Susan Chira" src="/https://globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.620.high.jpg"></noscript></div><!--[if lt IE 8]><img alt="WLGH 2017 conference_Mamphela Ramphele and Susan Chira" src='//globalhealth.stanford.edu/_jcr_content/hero/hero_banner/images/imageSlide12.img.620.high.jpg' /><![endif]-->
+
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 main-content">
+                    <div class="hero-banner-infobox-container">
+                      <div class="hero-banner-infobox-inner">
+                        
+                        
+                          
+                        
+
+                        <div class="hero-banner-infobox hero-banner-position-rt rsABlock" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+                          <div class="infobox-heading-wrapper">
+                          
+
+                            
+                            <a class="hero-banner-link" href="/https://www.wlghconference.org/call-to-action">
+                            
+
+                              <h2>Call to Action from the inaugural Women Leaders in Global Health conference
+                                
+                                  <div class="hero-banner-more-link">
+                                    <span>Add your voice <i class="fa fa-arrow-right"></i></span>
+                                  </div>
+                                
+                              </h2>
+
+                            
+                            </a>
+                            
+                            
+                          
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div><!-- end .col- -->
+                </div><!-- end .row -->
+              </div><!-- end .container -->
+            </div><!-- end .rsContent -->
+          
+            <div class="rsContent" id="hero_hero_banner_content_4" aria-labeledby="hero_hero_banner_control_4">
+
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 main-content">
+                    <div class="hero-banner-infobox-container">
+                      <div class="hero-banner-infobox-inner">
+                        
+                        
+                          
+                        
+
+                        <div class="hero-banner-infobox hero-banner-position-rt rsABlock" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+                          <div class="infobox-heading-wrapper">
+                          
+
+                            
+                            <a class="hero-banner-link" href="/https://www.eventbrite.com/e/rise-with-refugees-a-deep-dive-into-an-accelerating-crisis-tickets-45691689072">
+                            
+
+                              <h2>RISE WITH REFUGEES
+A Deep Dive into An Accelerating Crisis
+                                
+                                  <div class="hero-banner-more-link">
+                                    <span>Register here <i class="fa fa-arrow-right"></i></span>
+                                  </div>
+                                
+                              </h2>
+
+                            
+                            </a>
+                            
+                            
+                          
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div><!-- end .col- -->
+                </div><!-- end .row -->
+              </div><!-- end .container -->
+            </div><!-- end .rsContent -->
+          
+            
+          
+        
+      </div>
+    </div>
+  
+  
+
+
+<script>
+  (function(w){
+    w.init.add(function(){
+    
+    });
+  }(window));
+</script></div>
+
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<main class="container" id="mainContent" role="main" tabindex="0">
+  
+
+
+<div class="row content-panels">
+  <div class="col-md-12">
+    <div class="main parsys"><div class="panel_builder parbase section">
+
+
+
+
+
+
+
+    
+    
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <div class="color-row row-has-padding white-bg">
+
+    <div class="row ">
+
+        
+
+        
+            
+                
+                    
+                
+                
+                
+                
+            
+            <div class="col-sm-12 ">
+                
+                    
+                    
+                        <div class="panel_0 parsys"><div class="text parbase section">
+
+
+
+
+
+
+<div id="main_panel_builder_1397527202_panel_0_text" class=" ">
+    <p>&nbsp; &nbsp;</p>
+
+
+
+</div>
+
+<script>
+    $().ready(function() {
+    	if (RTECollapse !== undefined) {
+    		RTECollapse.init("main_panel_builder_1397527202_panel_0_text");
+    	}
+    });
+</script></div>
+<div class="panel_builder parbase section">
+
+
+
+
+
+
+
+    
+        
+    
+    
+    
+    
+    
+
+
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row ">
+
+        
+
+        
+            
+                
+                
+                    
+                
+                
+                
+            
+            <div class="col-sm-4 panel-builder-33-col panel-builder-left">
+                
+                    
+                    
+                        <div class="panel_0 parsys"><div class="feature-box parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="feature-box-container border-and-shadow feature-box-layout-1 ">
+
+    
+    
+         
+            
+            
+        		<div class="image " data-picture="" data-alt="Sarnquist Kenya" data-group=""><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.320.low.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.320.medium.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.320.high.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.476.low.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.476.medium.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.476.high.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.620.low.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.620.medium.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.620.high.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.780.low.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.780.medium.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.780.high.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.845.low.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.845.medium.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.845.high.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.1024.low.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.1024.medium.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.1024.high.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.1200.low.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.1200.medium.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.1200.high.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.full.low.jpg" data-media="(min-width: 1201px) " data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.full.medium.jpg" data-media="(min-width: 1201px) " data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.full.high.jpg" data-media="(min-width: 1201px) " data-quality="high"></div><noscript><img alt="Sarnquist Kenya" src="/https://globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.620.high.jpg"></noscript></div><!--[if lt IE 8]><img alt="Sarnquist Kenya" src='//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_0/feature_box.img.620.high.jpg' /><![endif]-->
+
+            
+        
+    
+    
+        <div class="feature-box-icon-container">
+            <div class="feature-box-content-icon">
+                <i class="fa fa-lightbulb-o"></i>
+            </div>
+        </div>
+    
+
+    
+        
+
+
+
+
+
+	<h2 class="feature-box-main-heading ">RESEARCH</h2>
+
+    
+
+    <div class="feature-box-body">
+        <p style="text-align: center;">Seed and facilitate discovery and innovation<br>
+&nbsp;</p>
+
+
+
+
+        
+            
+            
+                
+                <ul class="feature-box-footer-links feature-box-footer-align-center">
+                    
+                        
+                        
+                            <li>
+                                
+                                
+                                <a class="" href="/https://globalhealth.stanford.edu/research.html">
+                                    
+                                    Learn more <i class="fa fa-arrow-right default-icon"></i>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            
+            
+            
+        
+    </div>
+</div></div>
+
+</div>
+
+                    
+                
+            </div>
+        
+            
+                
+                
+                
+                
+                    
+                
+            
+            <div class="col-sm-4 panel-builder-33-col panel-builder-mid">
+                
+                    
+                    
+                        <div class="panel_1 parsys"><div class="feature-box parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="feature-box-container border-and-shadow feature-box-layout-1 ">
+
+    
+    
+         
+            
+            
+        		<div class="image " data-picture="" data-alt="AdamWas_Uganda" data-group=""><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.320.low.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.320.medium.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.320.high.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.476.low.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.476.medium.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.476.high.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.620.low.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.620.medium.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.620.high.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.780.low.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.780.medium.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.780.high.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.845.low.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.845.medium.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.845.high.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.1024.low.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.1024.medium.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.1024.high.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.1200.low.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.1200.medium.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.1200.high.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.full.low.jpg" data-media="(min-width: 1201px) " data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.full.medium.jpg" data-media="(min-width: 1201px) " data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.full.high.jpg" data-media="(min-width: 1201px) " data-quality="high"></div><noscript><img alt="AdamWas_Uganda" src="/https://globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.620.high.jpg"></noscript></div><!--[if lt IE 8]><img alt="AdamWas_Uganda" src='//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_1/feature_box.img.620.high.jpg' /><![endif]-->
+
+            
+        
+    
+    
+        <div class="feature-box-icon-container">
+            <div class="feature-box-content-icon">
+                <i class="fa fa-globe"></i>
+            </div>
+        </div>
+    
+
+    
+        
+
+
+
+
+
+	<h2 class="feature-box-main-heading ">EDUCATION &amp; TRAINING</h2>
+
+    
+
+    <div class="feature-box-body">
+        <p style="text-align: center;">Create opportunities to integrate classroom teachings with real-world experiences</p>
+
+
+
+
+        
+            
+            
+                
+                <ul class="feature-box-footer-links feature-box-footer-align-center">
+                    
+                        
+                        
+                            <li>
+                                
+                                
+                                <a class="" href="/https://globalhealth.stanford.edu/education.html">
+                                    
+                                    Learn more <i class="fa fa-arrow-right default-icon"></i>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            
+            
+            
+        
+    </div>
+</div></div>
+
+</div>
+
+                    
+                
+            </div>
+        
+            
+                
+                
+                
+                    
+                
+                
+            
+            <div class="col-sm-4 panel-builder-33-col panel-builder-right">
+                
+                    
+                    
+                        <div class="panel_2 parsys"><div class="feature-box parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="feature-box-container border-and-shadow feature-box-layout-1 ">
+
+    
+    
+         
+            
+            
+        		<div class="image " data-picture="" data-alt="Michele Barry, John Openshaw at summer solstice gathering" data-group=""><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.320.low.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.320.medium.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.320.high.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.476.low.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.476.medium.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.476.high.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.620.low.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.620.medium.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.620.high.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.780.low.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.780.medium.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.780.high.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.845.low.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.845.medium.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.845.high.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.1024.low.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.1024.medium.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.1024.high.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.1200.low.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.1200.medium.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.1200.high.jpg" data-media="(min-width: 1025px) and (max-width: 1200px)" data-quality="high"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.full.low.jpg" data-media="(min-width: 1201px) " data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.full.medium.jpg" data-media="(min-width: 1201px) " data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.full.high.jpg" data-media="(min-width: 1201px) " data-quality="high"></div><noscript><img alt="Michele Barry, John Openshaw at summer solstice gathering" src="/https://globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.620.high.jpg"></noscript></div><!--[if lt IE 8]><img alt="Michele Barry, John Openshaw at summer solstice gathering" src='//globalhealth.stanford.edu/_jcr_content/main/panel_builder_1397527202/panel_0/panel_builder/panel_2/feature_box.img.620.high.jpg' /><![endif]-->
+
+            
+        
+    
+    
+        <div class="feature-box-icon-container">
+            <div class="feature-box-content-icon">
+                <i class="fa fa-globe"></i>
+            </div>
+        </div>
+    
+
+    
+        
+
+
+
+
+
+	<h2 class="feature-box-main-heading ">COMMUNITY-BUILDING</h2>
+
+    
+
+    <div class="feature-box-body">
+        <p style="text-align: center;">Bring new and existing voices together on campus to develop networks and encourage advocacy</p>
+
+
+
+
+        
+            
+            
+                
+                <ul class="feature-box-footer-links feature-box-footer-align-center">
+                    
+                        
+                        
+                            <li>
+                                
+                                
+                                <a class="" href="">
+                                    
+                                    Connect <i class="fa fa-arrow-right default-icon"></i>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            
+            
+            
+        
+    </div>
+</div></div>
+
+</div>
+
+                    
+                
+            </div>
+        
+
+    </div><!-- row -->
+    
+
+
+<script>
+    (function(w){
+      w.init.add(function(){
+        if(w.SM.components.PanelBuilder !== undefined) {
+          w.SM.components.PanelBuilder.init();
+        }
+      });
+    }(window));
+</script></div>
+<div class="text parbase section">
+
+
+
+
+
+
+<div id="main_panel_builder_1397527202_panel_0_text_562848144" class=" ">
+    <p>&nbsp; &nbsp;&nbsp;</p>
+
+
+
+</div>
+
+<script>
+    $().ready(function() {
+    	if (RTECollapse !== undefined) {
+    		RTECollapse.init("main_panel_builder_1397527202_panel_0_text_562848144");
+    	}
+    });
+</script></div>
+
+</div>
+
+                    
+                
+            </div>
+        
+
+    </div><!-- row -->
+    
+
+  </div>
+
+
+<script>
+    (function(w){
+      w.init.add(function(){
+        if(w.SM.components.PanelBuilder !== undefined) {
+          w.SM.components.PanelBuilder.init();
+        }
+      });
+    }(window));
+</script></div>
+<div class="text parbase section">
+
+
+
+
+
+
+<div id="main_text" class=" ">
+    <p>&nbsp; &nbsp;</p>
+
+
+
+</div>
+
+<script>
+    $().ready(function() {
+    	if (RTECollapse !== undefined) {
+    		RTECollapse.init("main_text");
+    	}
+    });
+</script></div>
+<div class="panel_builder parbase section">
+
+
+
+
+
+
+
+    
+        
+    
+    
+    
+    
+    
+
+
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row ">
+
+        
+
+        
+            
+                
+                
+                    
+                
+                
+                
+            
+            <div class="col-sm-6 panel-builder-50-col panel-builder-left">
+                
+                    
+                    
+                        <div class="panel_0 parsys"><div class="panel_builder parbase section">
+
+
+
+
+
+
+
+    
+    
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <div class="border-and-shadow blue-x-dark-bg">
+
+    <div class="row ">
+
+        
+
+        
+            
+                
+                    
+                
+                
+                
+                
+            
+            <div class="col-sm-12 ">
+                
+                    
+                    
+                        <div class="panel_0 parsys"><div class="heading parbase section">
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+
+
+
+<hgroup class="section-header modern heading-level-3">
+  
+    <h3 class="black">
+	    
+	    Join the Stanford Global Health Community
+	    
+    </h3>
+    
+  
+ </hgroup></div>
+<div class="button parbase section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+
+        
+        
+            
+        
+    
+    
+    
+    
+    
+
+
+
+    
+    
+        
+    
+
+
+<div class="left ">
+    <a class="btn btn-default no-icon white color-blue-dark " rel="nofollow" href="/http://stanford.us11.list-manage.com/subscribe?u=fa265b7b9a8433cade78d9d3f&amp;id=559d3fd814">
+      
+        <span class="btn-text">Sign up to receive updates</span>
+
+        <span class="btn-decoration fa"></span>
+    </a>
+</div>
+</div>
+<div class="horizontal_rule parbase section">
+
+
+
+
+<hr class="clearfix ">
+</div>
+<div class="heading parbase section">
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+
+
+
+<hgroup class="section-header modern heading-level-3">
+  
+    <h3 class="black">
+	    
+	    	<a href="/https://globalhealth.stanford.edu/news/director-updates.html">
+			
+	    From the Director's Desk
+	    
+	      </a>
+	    
+    </h3>
+    
+  
+    <p class="subheading">Read the latest update from Michele Barry</p>
+  
+ </hgroup></div>
+<div class="image adaptiveimage parbase section">
+
+
+
+
+
+
+
+
+
+
+
+<div class="pull-right image-half-width
+
+	
+
+" data-fullscreen-modal="">
+	<div class="clearfix"></div>
+	
+	    
+	        
+
+
+	    
+	    
+	
+    
+        
+        
+            <div id="hero_hero_banner" class="sm-image background-color-333333 no-caption">
+        
+    
+
+    
+        
+    
+    
+
+
+
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+        
+            
+            
+	    <div class="image " data-picture="" data-alt="Michele Barry" data-group=""><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_294792409/panel_0/panel_builder_1550243890/panel_0/image.img.full.low.jpg" data-media="(min-width: 1px) " data-quality="low"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_294792409/panel_0/panel_builder_1550243890/panel_0/image.img.full.medium.jpg" data-media="(min-width: 1px) " data-quality="medium"></div><div data-src="//globalhealth.stanford.edu/_jcr_content/main/panel_builder_294792409/panel_0/panel_builder_1550243890/panel_0/image.img.full.high.jpg" data-media="(min-width: 1px) " data-quality="high"></div><noscript><img alt="Michele Barry" src="/https://globalhealth.stanford.edu/_jcr_content/main/panel_builder_294792409/panel_0/panel_builder_1550243890/panel_0/image.img.620.high.jpg"></noscript></div><!--[if lt IE 8]><img alt="Michele Barry" src='//globalhealth.stanford.edu/_jcr_content/main/panel_builder_294792409/panel_0/panel_builder_1550243890/panel_0/image.img.620.high.jpg' /><![endif]-->
+
+            
+        
+
+	    
+	</div>
+	<div class="clearfix"></div>
+</div></div>
+<div class="text parbase section">
+
+
+
+
+
+
+<div id="main_panel_builder_294792409_panel_0_panel_builder_1550243890_panel_0_text" class=" ">
+    <blockquote class="small">"As we look toward summer solstice, I wanted to provide you with some new and exciting updates from the Center. It has been a fast-paced few months, marked with exciting collaborations both locally and internationally. This year marked the 3rd Bay Area Global Health Innovation Challenge,...</blockquote>
+</div>
+
+<script>
+    $().ready(function() {
+    	if (RTECollapse !== undefined) {
+    		RTECollapse.init("main_panel_builder_294792409_panel_0_panel_builder_1550243890_panel_0_text");
+    	}
+    });
+</script></div>
+
+</div>
+
+                    
+                
+            </div>
+        
+
+    </div><!-- row -->
+    
+
+  </div>
+
+
+<script>
+    (function(w){
+      w.init.add(function(){
+        if(w.SM.components.PanelBuilder !== undefined) {
+          w.SM.components.PanelBuilder.init();
+        }
+      });
+    }(window));
+</script></div>
+
+</div>
+
+                    
+                
+            </div>
+        
+            
+                
+                
+                
+                    
+                
+                
+            
+            <div class="col-sm-6 panel-builder-50-col panel-builder-right">
+                
+                    
+                    
+                        <div class="panel_1 parsys"><div class="panel_builder parbase section">
+
+
+
+
+
+
+
+    
+    
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <div class="border-and-shadow blue-x-dark-bg">
+
+    <div class="row ">
+
+        
+
+        
+            
+                
+                    
+                
+                
+                
+                
+            
+            <div class="col-sm-12 ">
+                
+                    
+                    
+                        <div class="panel_0 parsys"><div class="heading parbase section">
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+
+
+
+<hgroup class="section-header modern heading-level-3">
+  
+    <h3 class="black">
+	    
+	    Highlights from the 2017 Women Leaders in Global Health conference
+	    
+    </h3>
+    
+  
+ </hgroup></div>
+<div class="youtube section">
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+    
+    
+        
+
+            
+
+            
+
+            
+
+            
+
+            
+
+             
+
+             
+
+             
+
+            
+
+            
+                
+             
+
+            
+                
+             
+
+            
+
+            
+
+              
+
+            
+
+                       
+
+            
+            <div class="videoWrapper">
+                <iframe width="640" height="360" allowscriptaccess="always" allowfullscreen="true" src="/https://www.youtube.com/embed/ybJFxcVJJjw?version=3&amp;autoplay=0&amp;autohide=1&amp;color=red&amp;rel=0">
+			    </iframe>
+            </div>
+        
+    
+</div>
+
+</div>
+
+                    
+                
+            </div>
+        
+
+    </div><!-- row -->
+    
+
+  </div>
+
+
+<script>
+    (function(w){
+      w.init.add(function(){
+        if(w.SM.components.PanelBuilder !== undefined) {
+          w.SM.components.PanelBuilder.init();
+        }
+      });
+    }(window));
+</script></div>
+
+</div>
+
+                    
+                
+            </div>
+        
+
+    </div><!-- row -->
+    
+
+
+<script>
+    (function(w){
+      w.init.add(function(){
+        if(w.SM.components.PanelBuilder !== undefined) {
+          w.SM.components.PanelBuilder.init();
+        }
+      });
+    }(window));
+</script></div>
+<div class="text parbase section">
+
+
+
+
+
+
+<div id="main_text_290758323" class=" ">
+    <p>&nbsp; &nbsp;</p>
+
+
+
+</div>
+
+<script>
+    $().ready(function() {
+    	if (RTECollapse !== undefined) {
+    		RTECollapse.init("main_text_290758323");
+    	}
+    });
+</script></div>
+<div class="panel_builder parbase section">
+
+
+
+
+
+
+
+    
+    
+        
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <div class="color-row row-has-padding white-bg">
+
+    <div class="row ">
+
+        
+
+        
+            
+                
+                
+                    
+                
+                
+                
+            
+            <div class="col-sm-8 panel-builder-66-col panel-builder-left">
+                
+                    
+                    
+                        <div class="panel_0 parsys"><div class="panel_builder parbase section">
+
+
+
+
+
+
+
+    
+        
+    
+    
+    
+    
+    
+
+
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row ">
+
+        
+
+        
+            
+                
+                    
+                
+                
+                
+                
+            
+            <div class="col-sm-12 ">
+                
+                    
+                    
+                        <div class="panel_0 parsys"><div class="heading parbase section">
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+
+
+
+<hgroup class="section-header modern heading-level-3">
+  
+    <h3 class="red">
+	    
+	    Latest News
+	    
+    </h3>
+    
+  
+ </hgroup></div>
+<div class="news-builder list parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<ul class="news">
+
+
+
+
+
+  
+
+
+
+
+    
+    
+      
+      
+      
+      
+        
+        
+      
+      
+    
+
+  
+
+  
+
+    
+    
+
+    
+                
+                
+              
+    <li class="newsfeed-item row">
+      <div class="col-xs-3 col-sm-4">
+      
+        
+          
+            <div class="newsfeed-item-container newsfeed-item-image-container">
+              <a href="/http://med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women.html"><div class="image " data-picture="" data-alt="Toward a malaria vaccine for pregnant women" data-group=""><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.320.low.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.320.medium.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.320.high.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.476.low.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.476.medium.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.476.high.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.620.low.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.620.medium.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.620.high.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.780.low.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.780.medium.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.780.high.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.845.low.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.845.medium.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.845.high.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.1024.low.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.1024.medium.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.1024.high.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.full.low.jpg" data-media="(min-width: 1025px) " data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.full.medium.jpg" data-media="(min-width: 1025px) " data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.full.high.jpg" data-media="(min-width: 1025px) " data-quality="high"></div><noscript><img alt="Toward a malaria vaccine for pregnant women" src="/https://med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.620.high.jpg"></noscript></div><!--[if lt IE 8]><img alt="Toward a malaria vaccine for pregnant women" src='//med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women/_jcr_content/image.img.620.high.jpg' /><![endif]--></a>
+
+            </div>
+          
+          
+          
+        
+      
+    </div>
+      <div class="col-xs-9 col-sm-8">
+        <a href="/http://med.stanford.edu/news/all-news/2018/08/prize-winner-hopes-to-develop-malaria-vaccine-for-pregnant-women.html"><h3 class="newsfeed-item-title">Toward a malaria vaccine for pregnant women</h3></a>
+        
+          <p class="newsfeed-item-excerpt">Prasanna Jagannathan said the $100,000 prize will allow his lab team to ramp up their research in Uganda.</p>
+        
+
+        <hr>
+
+        <div class="newsfeed-item-footer">
+          
+            <div class="pull-left">
+              <time datetime="2018-08-01T12:00:00.000-07:00"><i class="fa fa-clock-o"></i> Yesterday</time>
+            </div>
+          
+          <ul class="pull-right">
+            
+
+              
+              
+                
+                  
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+
+                        <li class="brand-link brand-feature-color">
+                          <a class="" href="/http://med.stanford.edu/news/all-news/brands/feature.html"> News Feature <i class="fa fa-arrow-right"></i></a>
+                        </li>
+                  
+                  
+                
+              
+
+              
+              
+            
+          </ul>
+        </div>
+      </div>
+    </li>
+
+
+
+
+
+
+  
+
+
+
+
+    
+    
+      
+      
+      
+      
+        
+        
+      
+      
+    
+
+  
+
+  
+
+    
+    
+
+    
+                
+                
+              
+    <li class="newsfeed-item row">
+      <div class="col-xs-3 col-sm-4">
+      
+        
+          
+            <div class="newsfeed-item-container newsfeed-item-image-container">
+              <a href="/http://med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india.html"><div class="image " data-picture="" data-alt="IUD device aids contraception in India" data-group=""><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.320.low.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.320.medium.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.320.high.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.476.low.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.476.medium.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.476.high.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.620.low.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.620.medium.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.620.high.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.780.low.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.780.medium.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.780.high.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.845.low.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.845.medium.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.845.high.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.1024.low.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.1024.medium.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.1024.high.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.full.low.jpg" data-media="(min-width: 1025px) " data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.full.medium.jpg" data-media="(min-width: 1025px) " data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.full.high.jpg" data-media="(min-width: 1025px) " data-quality="high"></div><noscript><img alt="IUD device aids contraception in India" src="/https://med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.620.high.jpg"></noscript></div><!--[if lt IE 8]><img alt="IUD device aids contraception in India" src='//med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india/_jcr_content/image.img.620.high.jpg' /><![endif]--></a>
+
+            </div>
+          
+          
+          
+        
+      
+    </div>
+      <div class="col-xs-9 col-sm-8">
+        <a href="/http://med.stanford.edu/news/all-news/2018/06/5-questions-paul-blumenthal-on-contraception-in-india.html"><h3 class="newsfeed-item-title">IUD device aids contraception in India</h3></a>
+        
+          <p class="newsfeed-item-excerpt">Stanford researchers and their colleagues have tested a new contraceptive device that they say could provide broader access to long-acting contraception in developing countries.</p>
+        
+
+        <hr>
+
+        <div class="newsfeed-item-footer">
+          
+            <div class="pull-left">
+              <time datetime="2018-06-19T15:00:00.000-07:00"><i class="fa fa-clock-o"></i> Jun 19, 2018</time>
+            </div>
+          
+          <ul class="pull-right">
+            
+
+              
+              
+                
+                  
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+
+                        <li class="brand-link brand-five-color">
+                          <a class="" href="/http://med.stanford.edu/news/all-news/brands/five.html"> Five Questions <i class="fa fa-arrow-right"></i></a>
+                        </li>
+                  
+                  
+                
+              
+
+              
+              
+            
+          </ul>
+        </div>
+      </div>
+    </li>
+
+
+
+
+
+
+  
+
+
+
+
+    
+    
+      
+      
+      
+      
+        
+        
+      
+      
+    
+
+  
+
+  
+
+    
+    
+
+    
+                
+                
+              
+    <li class="newsfeed-item row">
+      <div class="col-xs-3 col-sm-4">
+      
+        
+          
+            <div class="newsfeed-item-container newsfeed-item-image-container">
+              <a href="/http://med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility.html"><div class="image " data-picture="" data-alt="Biomarker for flu susceptibility discovered" data-group=""><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.320.low.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.320.medium.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.320.high.jpg" data-media="(min-width: 1px) and (max-width: 320px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.476.low.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.476.medium.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.476.high.jpg" data-media="(min-width: 321px) and (max-width: 476px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.620.low.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.620.medium.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.620.high.jpg" data-media="(min-width: 477px) and (max-width: 620px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.780.low.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.780.medium.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.780.high.jpg" data-media="(min-width: 621px) and (max-width: 767px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.845.low.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.845.medium.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.845.high.jpg" data-media="(min-width: 768px) and (max-width: 845px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.1024.low.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.1024.medium.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.1024.high.jpg" data-media="(min-width: 846px) and (max-width: 1024px)" data-quality="high"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.full.low.jpg" data-media="(min-width: 1025px) " data-quality="low"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.full.medium.jpg" data-media="(min-width: 1025px) " data-quality="medium"></div><div data-src="//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.full.high.jpg" data-media="(min-width: 1025px) " data-quality="high"></div><noscript><img alt="Biomarker for flu susceptibility discovered" src="/https://med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.620.high.jpg"></noscript></div><!--[if lt IE 8]><img alt="Biomarker for flu susceptibility discovered" src='//med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility/_jcr_content/image.img.620.high.jpg' /><![endif]--></a>
+
+            </div>
+          
+          
+          
+        
+      
+    </div>
+      <div class="col-xs-9 col-sm-8">
+        <a href="/http://med.stanford.edu/news/all-news/2018/06/stanford-scientists-discover-biomarker-for-flu-susceptibility.html"><h3 class="newsfeed-item-title">Biomarker for flu susceptibility discovered</h3></a>
+        
+          <p class="newsfeed-item-excerpt">Scientists at Stanford are believed to be the first to have discovered a biomarker that can predict who will be most susceptible to influenza.</p>
+        
+
+        <hr>
+
+        <div class="newsfeed-item-footer">
+          
+            <div class="pull-left">
+              <time datetime="2018-06-13T17:00:00.000-07:00"><i class="fa fa-clock-o"></i> Jun 13, 2018</time>
+            </div>
+          
+          <ul class="pull-right">
+            
+
+              
+              
+                
+                  
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+
+                        <li class="brand-link brand-feature-color">
+                          <a class="" href="/http://med.stanford.edu/news/all-news/brands/feature.html"> News Feature <i class="fa fa-arrow-right"></i></a>
+                        </li>
+                  
+                  
+                
+                  
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+
+                        <li class="brand-link brand-press-color">
+                          <a class="" href="/http://med.stanford.edu/news/all-news/brands/press.html"> Press Releases <i class="fa fa-arrow-right"></i></a>
+                        </li>
+                  
+                  
+                
+              
+
+              
+              
+            
+          </ul>
+        </div>
+      </div>
+    </li>
+</ul>
+
+
+
+    
+
+
+</div>
+
+</div>
+
+                    
+                
+            </div>
+        
+
+    </div><!-- row -->
+    
+
+
+<script>
+    (function(w){
+      w.init.add(function(){
+        if(w.SM.components.PanelBuilder !== undefined) {
+          w.SM.components.PanelBuilder.init();
+        }
+      });
+    }(window));
+</script></div>
+
+</div>
+
+                    
+                
+            </div>
+        
+            
+                
+                
+                
+                    
+                
+                
+            
+            <div class="col-sm-4 panel-builder-33-col panel-builder-right">
+                
+                    
+                    
+                        <div class="panel_1 parsys"><div class="panel_builder parbase section">
+
+
+
+
+
+
+
+    
+        
+    
+    
+    
+    
+    
+
+
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row ">
+
+        
+
+        
+            
+                
+                    
+                
+                
+                
+                
+            
+            <div class="col-sm-12 ">
+                
+                    
+                    
+                        <div class="panel_0 parsys"><div class="twtr-timeline section">
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+
+
+	
+	
+	<a class="twitter-timeline" data-screen-name="StanfordCIGH" data-link-color="#007c92" data-widget-id="516798958643847169" data-chrome="nofooter transparent" data-show-replies="true" data-aria-polite="polite" href="/https://twitter.com/StanfordCIGH">
+	Tweets by StanfordCIGH</a>
+	
+	
+	 
+
+
+
+<div class="clearfix"></div>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+</div>
+
+</div>
+
+                    
+                
+            </div>
+        
+
+    </div><!-- row -->
+    
+
+
+<script>
+    (function(w){
+      w.init.add(function(){
+        if(w.SM.components.PanelBuilder !== undefined) {
+          w.SM.components.PanelBuilder.init();
+        }
+      });
+    }(window));
+</script></div>
+
+</div>
+
+                    
+                
+            </div>
+        
+
+    </div><!-- row -->
+    
+
+  </div>
+
+
+<script>
+    (function(w){
+      w.init.add(function(){
+        if(w.SM.components.PanelBuilder !== undefined) {
+          w.SM.components.PanelBuilder.init();
+        }
+      });
+    }(window));
+</script></div>
+<div class="heading parbase section">
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+
+
+
+<hgroup class="section-header modern heading-level-3">
+  
+    <h3 class="red">
+	    
+	    Quick Links
+	    
+    </h3>
+    
+  
+ </hgroup></div>
+<div class="panel_builder parbase section">
+
+
+
+
+
+
+
+    
+        
+    
+    
+    
+    
+    
+
+
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row ">
+
+        
+
+        
+            
+                
+                
+                    
+                
+                
+                
+            
+            <div class="col-sm-6 panel-builder-50-col panel-builder-left">
+                
+                    
+                    
+                        <div class="panel_0 parsys"><div class="text parbase section">
+
+
+
+
+
+
+<div id="main_panel_builder_354083160_panel_0_text" class=" ">
+    <p class="p-link-w-arrow"><a href="/https://globalhealth.stanford.edu/about/Fellows.html">Stanford Global Health Faculty Fellows</a></p>
+
+<p class="p-link-w-arrow"><a href="/https://globalhealth.stanford.edu/about/working-groups.html">Learn more about Stanofrd Global Health Working Groups</a></p>
+
+<p class="p-link-w-arrow"><a href="/https://globalhealth.stanford.edu/research/seed-grants.html">Global Health Seed Grants</a>&nbsp;</p>
+
+<p class="p-link-w-arrow"><a href="/https://globalhealth.stanford.edu/research/ResearchConvening2018.html">Global Health Research Convening</a></p>
+
+
+
+</div>
+
+<script>
+    $().ready(function() {
+    	if (RTECollapse !== undefined) {
+    		RTECollapse.init("main_panel_builder_354083160_panel_0_text");
+    	}
+    });
+</script></div>
+
+</div>
+
+                    
+                
+            </div>
+        
+            
+                
+                
+                
+                    
+                
+                
+            
+            <div class="col-sm-6 panel-builder-50-col panel-builder-right">
+                
+                    
+                    
+                        <div class="panel_1 parsys"><div class="text parbase section">
+
+
+
+
+
+
+<div id="main_panel_builder_354083160_panel_1_text" class=" ">
+    <p class="p-link-w-arrow"><a href="/https://globalhealth.stanford.edu/field-service/johnson-and-johnson.html">The Yale/Stanford Johnson &amp; Johnson Global Health Scholars Program</a></p>
+
+<p class="p-link-w-arrow"><a href="/https://globalhealth.stanford.edu/research/fogarty.html">The Fogarty Global Health Equity Scholars Program</a></p>
+
+<p class="p-link-w-arrow"><a href="/https://globalhealth.stanford.edu/field-service/media-fellowship.html">The Stanford Global Health and Medical Fellowship</a></p>
+
+<p class="p-link-w-arrow"><a target="_blank" href="/https://globalhealth.stanford.edu/education/cigh-sponsored-courses/ethical-challenges.html">Ethical Challenges in Short-term Global Health Training Web Course</a></p>
+
+
+
+</div>
+
+<script>
+    $().ready(function() {
+    	if (RTECollapse !== undefined) {
+    		RTECollapse.init("main_panel_builder_354083160_panel_1_text");
+    	}
+    });
+</script></div>
+
+</div>
+
+                    
+                
+            </div>
+        
+
+    </div><!-- row -->
+    
+
+
+<script>
+    (function(w){
+      w.init.add(function(){
+        if(w.SM.components.PanelBuilder !== undefined) {
+          w.SM.components.PanelBuilder.init();
+        }
+      });
+    }(window));
+</script></div>
+
+</div>
+
+  </div>
+</div>
+
+</main>
+
+
+
+<div class="footer" id="footer" role="contentinfo">
+  
+
+
+
+<footer class="footer-local container">
+
+
+
+
+
+
+
+
+    
+    
+    
+        <div class="content">
+            
+
+
+
+
+
+
+
+<div class="simple-footer">
+    <div class="legal-text col-sm-6">©<span id="footerCurrentYear">2018</span> Stanford Medicine</div>
+    <div class="links col-sm-6">
+        <ul class="unstyled clearfix">
+
+            
+            <li class="link">
+                <a href="/http://www.stanford.edu/site/privacy">Privacy Policy</a>
+            </li>
+            <li class="link">
+                <a href="/http://www.stanford.edu/site/terms">Terms of Use</a>
+            </li>
+            <li class="link link-social social-links">
+                <a href="/https://www.facebook.com/stanfordmedicine">
+                    <span class="sr-only">See us on Facebook</span><i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li class="link link-social social-links">
+                <a href="/https://twitter.com/StanfordCIGH">
+                    <span class="sr-only">See us on Twitter</span><i class="fa fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+        </div>
+    
+</footer>
+
+
+  
+
+
+<footer class="footer-global">
+
+
+  <ul class="container ">
+    <li class="footer-item">
+      <a class="logo logo-stanford" title="Stanford University logo" href="/https://www.stanford.edu">Stanford University</a>
+    </li>
+    <li class="footer-item">
+      <a class="logo logo-stanford-som" title="Stanford School of Medicine logo" href="/https://med.stanford.edu">Stanford School of Medicine</a>
+    </li>
+    <li class="footer-item">
+      <a class="logo logo-stanford-hospital" title="Stanford Health Care" href="/http://stanfordhealthcare.org">Stanford Health Care</a>
+    </li>
+    <li class="footer-item">
+      <a class="logo logo-stanford-childrens" title="Stanford Children's Health logo" href="/http://www.stanfordchildrens.org">Stanford Children's Health</a>
+    </li>
+    <li class="footer-item">
+      <a class="logo logo-lpch" title="Lucile Packard Children's Hospital Stanford logo" href="/http://www.stanfordchildrens.org">Lucile Packard Children's Hospital Stanford</a>
+    </li>
+    <li class="footer-item">
+      <a class="logo logo-stanford-healthcare" title="University Healthcare Alliance logo" href="/http://universityhealthcarealliance.org">University Healthcare Alliance</a>
+    </li>
+  </ul></footer>
+
+<a id="backToTop" title="scroll back to top" href="/https://globalhealth.stanford.edu"><i class="fa fa-chevron-up"></i></a>
+</div>
+  </div>
+  
+
+
+<div class="cloudservices servicecomponents"><script type="text/javascript">_satellite.pageBottom();</script>
+</div>
+
+  
+
+
+
+
+
+
+
+<!--
+More detailed timing info is available by uncommenting some code in the timing.jsp component
+Timing chart URL:
+http://chart.apis.google.com/chart?chtt=globalhealth.html+%28219ms%29&cht=bhs&chxt=x&chco=c6d9fd,4d89f9&chbh=a&chds=0,219,0,219&chxr=0,0,219&chd=t:3,4,4,4,6,6,6,7,7,7,8,8,8,8,8,8,8,9,9,9,10,15,15,16,16,17,18,19,20,20,20,20,21,21,21,105,105,106,106,106,107,107,108,129,131,131,153,154,154,168,169,169,170,170,170,170,171,171,171,171,172,172,174,175,175,175,175,175,176,176,177,177,177,177,178,178,178,178,182,194,204,214,214,214,215,215,215,216,216,216,216,217,217,217,217,217,218,218,218,218|5,0,0,2,0,1,1,0,0,0,0,0,0,0,1,1,210,0,0,6,5,0,5,0,1,0,0,1,0,0,85,85,0,84,84,112,112,1,63,63,23,62,22,0,23,23,0,14,15,0,0,0,4,4,5,6,0,0,0,1,0,2,0,0,0,1,1,1,0,1,37,37,37,38,0,0,36,36,12,10,10,1,1,1,0,0,2,0,0,1,1,0,0,0,1,1,0,0,1,1&chly=head.jsp|body_class.jsp|theme_body_class.jsp|analytics_datalayer_ob...|component-initializer.jsp|servicelibs.jsp|headlibs.jsp|dtm_include.jsp|headlibs.jsp|init.jsp|simulator.jsp|opengraph_meta.jsp|client_context.jsp|emergency_broadcast.jsp|local_header.jsp|local_header.jsp|body_layout.jsp|brand.jsp|socialLinks.jsp|global_navigation.jsp|global_navigation.jsp|local_site_search.jsp|navigation.jsp|nav-related-resources.jsp|nav-related-resources.jsp|nav-related-resources.jsp|nav-related-resources.jsp|nav-related-resources.jsp|nav-related-resources.jsp|nav-related-resources.jsp|parsys.jsp|hero.jsp|reference.jsp|version_one_slide.jsp|hero-banner.jsp|parsys.jsp|content.jsp|text.jsp|parsys.jsp|panel_builder.jsp|parsys.jsp|panel_builder.jsp|feature-box.jsp|feature-heading.jsp|feature-box.jsp|parsys.jsp|feature-heading.jsp|feature-box.jsp|parsys.jsp|feature-heading.jsp|text.jsp|text.jsp|parsys.jsp|panel_builder.jsp|parsys.jsp|panel_builder.jsp|heading.jsp|button.jsp|horizontal_rule.jsp|heading.jsp|noCaption.jsp|image.jsp|text.jsp|org.apache.sling.servl...|heading.jsp|parsys.jsp|panel_builder.jsp|parsys.jsp|youtube.jsp|text.jsp|parsys.jsp|panel_builder.jsp|parsys.jsp|panel_builder.jsp|heading.jsp|init.jsp|list.jsp|news-builder.jsp|listitem_news.jsp|listitem_news.jsp|listitem_news.jsp|parsys.jsp|panel_builder.jsp|parsys.jsp|twitter-timeline.jsp|heading.jsp|panel_builder.jsp|text.jsp|parsys.jsp|text.jsp|parsys.jsp|simple_footer.jsp|local_footer.jsp|local_footer.jsp|global_footer.jsp|global_footer.jsp|dtm_include.jsp|dynamictagmanagement.jsp|servicecomponents.jsp|cloud_services.jsp&chs=600x500
+-->
+
+
+
+
+
+</body></html>

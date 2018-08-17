@@ -1,0 +1,13 @@
+# assign3 .gitignore
+
+# don't track these build products, anchored to top-level dir
+/*.d
+/*.o
+/*.a
+
+# explicitly name project executables here
+farm
+trace
+.trace_signatures.txt
+*-test
+*-test?

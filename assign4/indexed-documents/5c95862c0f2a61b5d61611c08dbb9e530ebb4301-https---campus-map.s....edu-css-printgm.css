@@ -1,0 +1,86 @@
+
+
+@media print{
+		#brandbar{
+			display:none !important;
+		}
+		
+		#printable-brandbar{
+			display:block !important;
+		}
+		
+		.slide-panel{
+			display:none !important;
+		}
+		
+		.searchBlock{
+			display:none !important;
+		}
+		
+		.printmap{
+			/*overwriting the actual print size 800*620 */
+   		 	width: 800px !important;
+   		 	height: 620px !important;
+    		position: absolute !important;
+    		background-color: rgb(229, 227, 223) !important;
+		}   
+		
+		.custom-control-container{
+			display: none !important;
+		}
+		
+		.printarea{
+			display: none !important;
+		}
+		
+		.wording{display:none !important;}
+		.wording-vertical{display:none !important;}
+		.print{display:none !important;}
+		.print-cancel{display:none !important;}
+			
+}
+
+.printarea {
+		position: absolute;
+		z-index: 10;
+		padding:0px;
+		width: 800px;
+		height: 620px;
+		background-image: url('../images/new/ants-vertical.gif'), url('../images/new/ants-horizontal.gif'), url('../images/new/ants-vertical.gif'), url('../images/new/ants-horizontal.gif');
+		background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
+		background-position: top left, top right, bottom left, top left;
+		pointer-events: none;
+}
+
+.printarea .print{
+	position: absolute;
+	margin-top: 30px;
+	margin-left:620px;
+	pointer-events: all;
+}
+
+.printarea .print-cancel{
+	position: absolute;
+	margin-top: 30px;
+	margin-left:700px;
+	pointer-events: all;
+}
+
+.printarea .wording{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left:-140px;
+	font-size: 5em;
+}
+
+#map_canvas img{ max-width: none !important;}  
+
+.printarea .wording-vertical{
+	position: absolute;
+	bottom: 50%;
+	right: 0;
+	margin-right: -90px;
+	font-size: 5em;
+	transform: rotate(270deg);
+}

@@ -1,0 +1,359 @@
+body {margin: 0px; padding: 0px; background: #fff; color: #333; font-family: Arial, Verdana, Sans-serif; background-image: url("body_bg2.jpg"); background-repeat: repeat-x; text-align: center;}
+
+
+
+pre {font-size: 1.2em; font-weight: bold;}
+code {font-size: 1.2em; font-weight: bold;}
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+* html pre {font-size: 1em; font-weight: bold;}
+*:first-child+html pre {font-size: 1em; font-weight: bold;}
+* html code {font-size: 1em; font-weight: bold;}
+*:first-child+html code {font-size: 1em; font-weight: bold;}
+/* End hide from IE5-mac */
+
+form {margin: 0px;}
+map {margin: 0px;}
+.inline {display: inline;}
+.inline-end {margin-top: 15px;}
+
+ul {list-style: square; margin-top: 0px;}
+ul li {margin-bottom: 0px;}
+ul.linebreak {list-style: square;}
+ul.linebreak li {margin-bottom: 15px;}
+ul.linebreak ol li {margin-bottom: 0px;}
+
+ul.none {list-style: none;}
+ul.none li {margin-bottom: 0px;}
+ul.none-linebreak {list-style: none;}
+ul.none-linebreak li {margin-bottom: 15px;}
+ul.none-linebreak ol li {margin-bottom: 0px;}
+	
+/* Ordered List --------------------------------- */
+ol {list-style: decimal; margin-top: 0px;}
+ol li {margin-bottom: 0px;}
+ol.linebreak {list-style: decimal;}
+ol.linebreak li {margin-bottom: 15px;}
+ol.linebreak ul li {margin-bottom: 0px;}
+
+/* Definition Lists --------------------------------- */
+dl dd {margin-top: 0px;}
+dl.linebreak dd {margin-top: 0px; margin-bottom: 15px;}
+dl.nobreak dd {margin-top: 0px; margin-bottom: 0px;}
+
+.largest {font-size: 1.3em;}
+.larger {font-size: 1.2em;}
+.large {font-size: 1.1em;}
+.medium {font-size: 1em;}
+.small {font-size: 0.9em;}
+.smaller {font-size: 0.8em;}
+.smallest {font-size: 0.7em;}
+
+.important {color: #900; font-weight: bold;}
+.highlight {background: #ffc; padding: 0px 2px 0px 2px;}
+.select {color: #900;}
+.error {color: #900;}
+
+.box {border:1px solid #E7D19A; padding: 5px; width: auto; margin: 0px 0px 15px 0px; background: #fff;}
+.color-box {border:1px solid #E7D19A; padding: 5px; width: auto; margin: 0px 0px 15px 0px; background: #F7F6EC;}
+.center-box {border:1px solid #E7D19A; padding: 5px; width: 80%; margin: 0px auto 15px auto; background: #fff;}
+.left-box {border:1px solid #E7D19A; padding: 5px; width: 200px; float: left; margin: 0px 10px 15px 0px; background: #fff;}
+.right-box {border:1px solid #E7D19A; padding: 5px; width: 200px; float: right; margin: 0px 0px 15px 10px; background: #fff;}
+
+#printbanner {display: none;}
+
+a {color:#565347; text-decoration:underline;}
+a:link {color:#565347;}
+a:visited {color:#565347;}
+a:hover, a:active {color:#820000;}
+
+hr { background:#eae9e6;border:0;clear:both;height:1px }
+img {border: none;}
+.clear { clear: both }
+h1 {font-family: Georgia, Times, serif; font-size: 18px; color: #565347; margin: 0px; padding: 0px;}
+h2 {font-family: Georgia, Times, serif; font-size: 14px; color: #565347; margin: 0px; padding: 0px;}
+h3 {font-family: Georgia, Times, serif; font-size: 12px; color: #565347; margin: 0px; padding: 0px;}
+
+#container {width: 960px; min-width:960px; margin: 0px auto 20px auto; text-align: left;}
+#header {width: 960px; min-width:960px; height: 90px; margin: 0 auto; color: #fff;}
+#header a {text-decoration: none; border: none;}
+#container_header {height: 90px; width: 100%; background-image: url("red_header_bg.jpg"); background-repeat: repeat-x;}
+#content_main {max-width: 955px; clear: both; border: 1px solid #ddcf99; padding: 0px; font-size: 92%;} 
+#logo {width: 700px; float: left; margin-top: 15px; margin-left: 0px; margin-right: 10px; height: 38px }
+
+#footer {width: 960px; margin: 0 auto; text-align: center; padding-top: 10px; background: #fff;}
+#footer a {text-decoration: none; border-bottom: 1px dotted #81785a; color: #565347; }
+#footer a:focus {outline:1px #8a887d dotted }
+#footer a:hover {color: #820000 }
+#footer p, #footer ul {margin: 0px 0px 0px 5px; padding: 0px;}
+#nav_footer li a {font-size: 12px; text-decoration: none; color: #3f3c30; border: none;}
+#nav_footer li a:hover {color: #820000;}
+#nav_footer li { display: inline; padding-left: 10px; padding-right: 10px; border-right: 1px solid #eae9e6; }
+#nav_footer .last {border: 0px;}
+
+#jobs {padding-right: 10px; border-right: 1px solid #eae9e6;}
+#gift, #emergency, #contact, #about_this_site {padding-left: 10px; padding-right: 10px; border-right: 1px solid #eae9e6; }
+#accreditation {padding-left: 10px;}
+#date {color: #333; font-size: 0.8em; margin-top: 25px;}
+
+#copyright { padding-top: 10px;  font-size: 10px; }
+
+
+/* Import the main Stanford Search site styles to support the non-SWho portions of the page */
+/* not required for portable media */
+/* @import url("http://www.stanford.edu/search/css/styles.css"); */
+
+/********** TAGS ***********/
+form {padding: 0px; margin: 0px;}
+h1 {clear: both; text-align: center; padding: 0px; margin: 0px; font-size: 1em; font-weight: bold; color: #3C3623;}
+img {border: none; vertical-align: baseline;}
+select {font-size: .9em; display: inline;}
+fieldset {clear: both; width: auto; margin: 0px; padding: 0px; border: none;}
+	div.fieldgroup {float: left;}
+	div.fieldgroup a {font-size: .8em;}
+	fieldset h1 {text-align: left;}
+label {font-size: 0.9em;}
+span.link {font-size: 0.9em; display: block;}
+dl {clear: both; margin-top: 5px;}
+
+/********** TOP NAVIGATION AND TABS ***********/
+
+#topnav {float: left; background: transparent; width: 100%; color: #666; padding: 0px; font-size: 12px; margin: 40px 0px 0.19em 0px;}
+#topnav a {position: relative; color:#333; text-decoration: none; background: #eee; margin: 0px; padding: 0.2em 0.5em 0.2em 0.5em; border: 1px solid #ccc; border-bottom: 0px; font-weight: normal; white-space: nowrap;}
+/* Hide from IE5-mac. \*/
+#topnav a {line-height: 14px;}
+/* End hide from IE5-mac */
+
+#topnav ul {padding: 0px; margin: 0px;}
+#topnav ul li {display: block; margin: 0px;	padding: 0px 0px 0px 0.7em;	float:left;}
+#topnav ul ul {display: none;}
+#topnav a:hover {background: #f6f3e5; border: 1px solid #ddcf99; border-bottom: 0px;}
+#topnav a.here {background: #f6f3e5; border: 1px solid #ddcf99; border-bottom: 0px; font-weight: bold;}
+
+/********** SUB NAVIGATION ***********/
+
+#subnav {clear: both; color: #666; font-weight: bold; padding: 10px; font-size: 0.8em; margin: 0px; border: 0px; background-color: #fff;}
+.stanford #subnav {background-color: #fff;}
+#subnav a, #subnav form {background: url("icon-arrow.gif") no-repeat; padding: 0.1em 15px 0.5em 18px; text-decoration: none; background-color: transparent; white-space: nowrap;}
+#subnav ul {padding: 0px; margin: 0px;}
+#subnav ul li {display: inline; list-style-type: none; border: 0px; position: relative; margin: 0px; padding: 0px;}
+#subnav ul li.whatsnew a {display: none; background: url("icon-arrow-anim.gif") no-repeat; padding: 0.1em 15px 0.5em 18px; text-decoration: none; background-color: transparent; white-space: nowrap; color: #820000;}
+#subnav ul ul {display: none;}
+
+#subnav a:link {color: #666; text-decoration: none;}
+#subnav a:visited {color: #666; text-decoration: none;}
+#subnav a:hover {color: #820000;}
+#subnav a:active {color: #820000;}
+
+/********** SEARCH BOX ***********/
+#SWhoBody {clear: both; margin: 0px; padding: 10px; min-height: 300px; text-align: left; background-color: #FFF;}
+#SWhoBody.stanford {background-color: #fff;} /*#f6f3e5 #fbfbe2 #fafad1*/
+
+#SWhoLogin {float: right; font-size: 0.8em; padding-top: 10px;}
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+* html #SWhoLogin {padding-right: 3px;}
+/* End hide from IE5-mac */
+
+#SWhoSearch {float: left; width: 800px; padding-bottom: 15px;}
+#SWhoSearch2 {padding-top: 15px;}
+
+#SWhoSearch fieldset, #SWhoSearch2 fieldset {padding: 10px;}
+#SWhoSearch ul, #SWhoSearch2 ul {list-style-type: none; margin: 0px; padding: 0px; font-size: 1em;}
+#SWhoSearch li, #SWhoSearch2 li {margin: 5px 0px; /*display: inline;*/} 
+#SWhoSearch a, #SWhoSearch2 a {display: block;}
+
+#SearchError {font-size: .9em; color: #820000; line-height: 1.2em; width: 35em;}
+#SearchError ul {list-style-type: circle; list-style-image: url("alert.gif"); margin: 5px 0px 15px 20px;}
+#SearchError li {margin: 5px 0px 0px 0px; padding: 0px;}
+
+#SearchExtrasTop, #SearchExtrasBtm {display: block; width: 24.5em; padding: 0px 5px; border: 1px solid #CCC;}	
+#SearchExtrasTop input, #SearchExtrasBtm input {margin-left: 0px; padding-left: 0px}
+
+#SearchHeading, #SearchHeading2 {float: left; width: 25em; font-size: 1em; padding: 0px 15px 0px 0px;}
+* html #SearchHeading, * html #SearchHeading2 {padding-right: 7px;}
+*:first-child+html #SearchHeading, *:first-child+html #SearchHeading2 {padding-right: 7px;}
+
+#SearchString, #SearchString2 {clear: left; float: left; padding: 5px 5px 0px 0px;}
+#search_string, #search_string2 {width: 25em; margin-right: 5px; font-size: 1em;}
+* html #search_string, * html #search_string2 {width: 24.5em; margin-right: 0px; font-size: 1em;}
+*:first-child+html #search_string, *:first-child+html #search_string2 {width: 24.5em; margin-right: 0px; font-size: 1em;}
+
+#SearchStanford, #SearchStanford2 {display: inline; margin: 0px; font-size: .9em;}
+* html #SearchStanford, * html #SearchStanford2 {margin-left: -3px;}
+#SearchStanford input, #SearchStanford2 input {margin-left: 0px; padding-left: 0px;}
+
+#SearchSubmit, #SearchSubmit2 {margin: 0px; padding: 5px;}
+#ToggleShowTop, #ToggleShowBtm {display: none; font-size: 0.8em; padding: 5px 0px 5px 0px;}
+#ToggleHideTop, #ToggleHideBtm {display: none; font-size: 0.8em; padding: 5px 0px 5px 0px;}
+#ToggleLink {display: none;}
+
+#ResultsNav, #ResultsNav2 {clear: both; font-size: .8em; text-align: center; margin: 2px 0px 10px 0px;}
+
+#Toggle {clear: both; font-size: .85em; text-align: center; color: #fff; padding: 5px; background: #f6f3e5;}
+#Toggle2 {clear: both; font-size: .85em; text-align: center; color: #fff; padding: 5px; background: #f6f3e5;}
+#Toggle a, #Toggle2 a {color: #333;}
+	.stanford #Toggle, .stanford #Toggle2 {background: #820000;}
+	.stanford #Toggle a, .stanford #Toggle2 a {color: #fff;}
+
+/* sections of the profile, for spacing */
+
+#ProfileNav {clear: both; font-size: .85em; text-align: center; padding: 5px; background: #f6f3e5;}
+#ProfileNav2 {clear: both; font-size: .85em; text-align: center; padding: 5px; background: #f6f3e5;}
+#ProfileNav a, #ProfileNav2 a {color: #333;}
+	.stanford #ProfileNav, .stanford #ProfileNav2 {background: #820000;}
+	.stanford #ProfileNav a, .stanford #ProfileNav2 a {color: #fff;}
+
+#General, .Affiliation, #HomeInfo, #Ids, #Profile, #Contact {padding: 5px 0px 10px 0px; clear: both;}
+
+#Disclaimer {clear: both; padding: 2px 0px; margin: 10px; font-size: 0.8em; text-align: center; color: #820000; border-top: 1px solid #d0a760; border-bottom: 1px solid #d0a760; }
+
+/********** RESULTS PAGE ***********/
+#PublicResults, #StanfordResults {clear: both; padding: 0px 5px 15px 5px;}
+#PublicResults h2, #StanfordResults h2, #PublicProfile h3, #StanfordProfile h3 {border-bottom: 1px solid #bbb; padding: 0px 0px 2px 0px; clear: both;}
+
+#PublicResults h1 {font-family: Times, Georgia, serif; font-size: 2.2em; font-weight: normal; color: #820000; margin: 0px; line-height: 1.2em;}
+#PublicResults h2 {font-family: Times, Georgia, serif; font-size: 1.3em; color: #820000; margin: 0px; letter-spacing: 1px; line-height: 1.2em;}
+#PublicResults h3 {font-family: Times, Georgia, serif; font-size: 1.3em; color: #666; margin: 0px; line-height: 1.2em;}
+#PublicResults h4 {font-family: Times, Georgia, serif; font-size: 1.2em; color: #666; margin: 0px; line-height: 1.2em;}
+#PublicResults h5 {font-family: Times, Georgia, serif; font-size: 1.1em; color: #666; margin: 0px; line-height: 1.2em;}
+
+#StanfordResults h1 {font-family: Times, Georgia, serif; font-size: 2.2em; font-weight: normal; color: #820000; margin: 0px; line-height: 1.2em;}
+#StanfordResults h2 {font-family: Times, Georgia, serif; font-size: 1.3em; color: #820000; margin: 0px; letter-spacing: 1px; line-height: 1.2em;}
+#StanfordResults h3 {font-family: Times, Georgia, serif; font-size: 1.3em; color: #666; margin: 0px; line-height: 1.2em;}
+#StanfordResults h4 {font-family: Times, Georgia, serif; font-size: 1.2em; color: #666; margin: 0px; line-height: 1.2em;}
+#StanfordResults h5 {font-family: Times, Georgia, serif; font-size: 1.1em; color: #666; margin: 0px; line-height: 1.2em;}
+
+
+/********** NOT USED IN ORG
+#PublicResults dl, #StanfordResults dl {clear: both; margin: 0px 5px 5px 15px; padding: 0px;}
+#PublicResults dt, #StanfordResults dt {position: relative; float: left; width: 20%; margin: 0px; padding: 5px 0px; color: #333; font-weight: bold; text-align: left; border: none; font-size: 0.9em;}
+#PublicResults dt.stanford, #StanfordResults dt.stanford {padding: 5px 0px; margin: 0px; text-indent: 0px;}
+#PublicResults dt.stanford img, #StanfordResults dt.stanford img {position: absolute; left: -15px; vertical-align: bottom;}
+#PublicResults dd, #StanfordResults dd {float: right; width: 70%; color: #333; padding: 5px 0px 5px 0px; font-size: 0.9em;}
+#PublicResults dd ul, #StanfordResults dd ul {list-style-type: none; margin: 0px 0px 5px 0px;}
+#PublicResults dd ul li, #StanfordResults dd ul li {line-height: 1.3em;}
+#PublicResults dt, #StanfordResults dt {line-height: 1.3em;}
+	*/
+
+/********** FOR ZERO RESULTS PAGE ***********/
+#PublicResults dl {clear: both; margin: 0px 5px 5px 15px; padding: 0px;}
+#PublicResults dt {position: relative; float: left; width: 20%; margin: 0px; padding: 5px 0px; color: #333; font-weight: bold; text-align: left; border: none; font-size: 0.9em;}
+#PublicResults dd {float: right; width: 70%; color: #333; padding: 5px 0px 5px 0px; font-size: 0.9em;}
+#PublicResults dd ul {list-style-type: none; margin: 0px 0px 5px 0px;}
+#PublicResults dd ul li {line-height: 1.3em;}
+#PublicResults dt {line-height: 1.3em;}
+
+/********** ORG SEARCH RESULTS ***********/
+#GoogleStyle dl {clear: both; margin: 0px 5px 5px 10px; padding: 0px; width: auto;}
+
+#GoogleStyle dt {clear: both; width: auto; float: none; margin: 10px 0px 0px 0px; padding: 0px; color: #333;	
+	font-weight: normal; text-align: left; border: none; font-size: 0.9em;}
+	#GoogleStyle dt.school {font-size: 1.2em;}
+	#GoogleStyle dt a {font-weight: bold;}
+	#GoogleStyle dt.owner a {font-weight: normal;}
+#GoogleStyle dd {font-style: italic; color: #333; padding: 0px; font-size: 0.9em;}
+#GoogleStyle dd.accesspoint {font-style: normal; font-weight: bold; font-size: .9em;}
+
+	span.idlabel {font-size: .8em; text-transform: uppercase; background-color: #ffc; color: #820000; font-weight: bold; padding: 1px 3px; margin: 0px 5px;  border-top: 1px solid #820000; border-bottom: 1px solid #820000;}
+	span.aplabel, span.salabel {font-size: .8em; text-transform: uppercase; background-color: #ffF; color: #BF6900; font-weight: bold; padding: 1px 3px; margin: 0px 5px 0px 0px;  border-top: 1px solid #E7D19A; border-bottom: 1px solid #E7D19A; font-style: normal;}
+
+/* end org search results */
+
+#Toggle ul, #Toggle2 ul, #ProfileNav ul, #ProfileNav2 ul {list-style-type: none; margin: 0px; padding: 0px; font-size: 1em;}
+#Toggle li, #Toggle2 li, #ProfileNav li, #ProfileNav2 li {display: inline; text-align: center; padding: 0px 10px;} 
+/* for link on indiv profile page */
+#Toggle2 a.outnav {background: url("icon-arrow.gif") no-repeat; padding: 0 15px 0 18px; text-decoration: none; font-weight: bold; background-color: transparent; white-space: nowrap;}
+#Toggle2 a.outnav:hover, #Toggle2 a.outnav:active {color: #820000;}	
+
+#ResultsHead {position: relative; clear: both; text-align: center;}
+#ResultsHead h1 {display: inline; margin: 0px; padding: 0px;}
+#ResultsHead .key {position: absolute; top: 0px; right: 0px; font-size: 0.8em;}
+*html #ResultsHead .key {position: absolute; top: 0px; right: 13px; font-size: 0.8em;}
+
+#ResultsHead h1.noresults {color: #820000;}
+#PublicResults.noresults dl dt, #StanfordResults.noresults dl dt {width: 30%;}
+#PublicResults.noresults dd, #StanfordResults.noresults dd {width: 65%;}
+#PublicResults.noresults h2, #StanfordResults.noresults h2 {padding-top: 25px;}
+
+#errorHead h1 {color: #820000; font-size: 1.25em;}
+#AuthError {margin: 10px 20% 10px 20%}
+
+/********** PROFILE PAGE ***********/
+#PublicProfile, #StanfordProfile {clear: both; padding: 0px 5px 15px 5px;}
+#PublicProfile h2, #StanfordProfile h2 {text-align: center; margin: 0px; padding: 10px 0px 5px 5px; clear: both;}
+#PublicProfile h3, #StanfordProfile h3 {margin: 0px; padding: 0px;}
+
+#PublicProfile h1 {font-family: Times, Georgia, serif; font-size: 2.2em; font-weight: normal; color: #820000; margin: 0px; line-height: 1.2em;}
+#PublicProfile h2 {font-family: Times, Georgia, serif; font-size: 1.5em; color: #820000; margin: 0px; letter-spacing: 1px; line-height: 1.2em;}
+#PublicProfile h3 {font-family: Times, Georgia, serif; font-size: 1.3em; color: #666; margin: 0px; line-height: 1.2em;}
+#PublicProfile h4 {font-family: Times, Georgia, serif; font-size: 1.2em; color: #666; margin: 0px; line-height: 1.2em;}
+#PublicProfile h5 {font-family: Times, Georgia, serif; font-size: 1.1em; color: #666; margin: 0px; line-height: 1.2em;}
+
+#StanfordProfile h1 {font-family: Times, Georgia, serif; font-size: 2.2em; font-weight: normal; color: #820000; margin: 0px; line-height: 1.2em;}
+#StanfordProfile h2 {font-family: Times, Georgia, serif; font-size: 1.5em; color: #820000; margin: 0px; letter-spacing: 1px; line-height: 1.2em;}
+#StanfordProfile h3 {font-family: Times, Georgia, serif; font-size: 1.3em; color: #666; margin: 0px; line-height: 1.2em;}
+#StanfordProfile h4 {font-family: Times, Georgia, serif; font-size: 1.2em; color: #666; margin: 0px; line-height: 1.2em;}
+#StanfordProfile h5 {font-family: Times, Georgia, serif; font-size: 1.1em; color: #666; margin: 0px; line-height: 1.2em;}
+
+#PublicProfile dl, #StanfordProfile dl {margin: 0px 0px 5px 0px; padding: 0px;}
+#PublicProfile dt, #StanfordProfile dt {clear: both; width: 50%; float: left; margin: 0px; padding: 0px; color: #820000; font-weight: normal; text-align: right; border: none; font-size: 0.9em;}
+#PublicProfile dd, #StanfordProfile dd {float: left; width: 45%; text-align: left; color: #000; margin: 0px 0px 0px 5px; padding: 0px; font-size: 0.9em;}
+#PublicProfile dd ul, #StanfordProfile dd ul {list-style-type: none; padding: 0px; margin: 0px;}
+
+
+/********** ADDITIONAL ORG PROFILE STYLES  ***********/
+#PublicProfile div.card {clear: both; padding: 0px; margin: 0px;}
+#PublicProfile div.codes {clear: both; padding: 0px; margin: 0px;}
+span.codes {font-size: 0.9em;}
+#PublicProfile div.xrefs {clear: both; padding: 10px; margin: 0px;}
+#PublicProfile div.codes {font-size: .9em; color: #666;}
+#PublicProfile div.codes dl dt {color: #666;}
+#PublicProfile div.codes dl {margin: 10px 0px 5px 0px;}
+#PublicProfile div.xrefs {font-style: italic;}
+div.xrefs dd ul {list-style-type: none; padding: 0px; margin: 0px;}
+.orgregname {clear: both; margin: 0px; padding: 0px 0px 2px 0px; color: #000; text-align: center; }
+
+
+/********** CLASSES ***********/
+.hidden {position: absolute; left: -1000em; width: 20em; text-align: left;}
+.vcard {display: none;}
+.type {display: none;}
+.stanford {}
+.public {}
+.email {}
+.primaryphone {}
+.primary-sunetid {}
+.join {font-style: italic;}
+.affil {font-size: 0.9em; font-style: italic; float: right; width: 30%; text-align: right;}
+.searcherror {color: #C00;}
+.resultserror {color: #C00; text-align: center}
+.council {clear: both; margin: 0px; padding: 0px 0px 2px 0px; color: #000; text-align: center; }
+.facappt {clear: both; margin: 0px; padding: 0px 0px 2px 0px; color: #000; text-align: center; }
+.workphone {font-weight: bold; white-space: nowrap;}
+.noinfo {font-style: italic;}
+
+/********** PRINT ***********/
+@media print {
+	#container, #content_main, #header, #footer {width: auto; min-width: 0px;}
+	#header {padding-left: 10px; text-align: left;}
+	#PublicResults dl, #StanfordResults dl {width: 100%;}
+	#PublicResults dt, #StanfordResults dt {width: 30%;}
+	#PublicResults dd, #StanfordResults dd {clear: right; float: none; width: 68%; margin-left: 25%; min-height: 2em;}
+ } 
+ 
+ /********** HANDHELD MEDIA ***********/
+@media handheld {
+	#container, #content_main, #header, #footer {width: auto; min-width: 0px;}
+	#header {padding-left: 10px; text-align: left;}
+	#PublicResults dl, #StanfordResults dl {width: 100%;}
+	#PublicResults dt, #StanfordResults dt {width: 30%;}
+	#PublicResults dd, #StanfordResults dd {clear: right; float: none; width: 68%; margin-left: 25%; min-height: 2em;}
+ }
+ 
+/********** IE6 ***********/ 
+* html #ResultsNav, * html #ResultsNav2 {height: 1%;} 
+* html #PublicResults dd, * html #StanfordResults dd {height: 1%;} 
+* html #PublicResults h2, * html #StanfordResults h2 {height: 1%;} 
+* html #Toggle, * html #Toggle2 {height: 1%;} 
+* html #ProfileNav, * html #ProfileNav2 {height: 1%;} 
+* html #PublicProfile h2, * html #StanfordProfile h2 {height: 1%;} 
+* html #PublicProfile h3, * html #StanfordProfile h3 {height: 1%;}

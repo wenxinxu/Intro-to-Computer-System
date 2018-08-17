@@ -1,0 +1,440 @@
+<!DOCTYPE html><!--[if IE 7]> <html lang="en" class="ie7"> <![endif]--><!--[if IE 8]> <html lang="en" class="ie8"> <![endif]--><!--[if IE 9]> <html lang="en" class="ie9"> <![endif]--><!--[if !IE]><!--><html lang="en"><!--<![endif]--><head>
+  <title>Studying aquatic ecosystems | Stanford News</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Stanford University">
+
+
+  <!--
+    _____ _               __              _
+   / ____| |             / _|            | |
+  | (___ | |_ __ _ _ __ | |_ ___  _ __ __| |
+   \___ \| __/ _` | '_ \|  _/ _ \| '__/ _` |
+   ____) | || (_| | | | | || (_) | | | (_| |
+  |_____/ \__\__,_|_| |_|_| \___/|_|  \__,_|
+  -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/css/base.min.css?v=1.2.0">
+    <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/css/story.min.css?v=1.2.0">
+    <link rel="stylesheet" type="text/css" href="/https://news.stanford.edu/wp-content/themes/news/style.css?v=1.2.0">
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="//news.stanford.edu/wp-content/themes/news/css/ie/ie8.css?v=1.2.0" />
+  <![endif]-->
+  <!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="//news.stanford.edu/wp-content/themes/news/css/ie/ie7.css?v=1.2.0" />
+  <![endif]-->
+
+  <!-- JS and jQuery -->
+  <script src="/https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="/https://news.stanford.edu/wp-content/themes/news/js/modernizr.custom.17475.js"></script>
+  <script src="/https://news.stanford.edu/wp-content/themes/news/js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="//news.stanford.edu/wp-content/themes/news/js/respond.js"></script>
+  <![endif]-->
+
+  <!-- custom JS -->
+  <script src="/https://news.stanford.edu/wp-content/themes/news/js/base.js?v=1.2.0"></script>
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/https://www-media.stanford.edu/assets/favicon/apple-touch-icon-180x180.png">
+
+  <link rel="icon" type="image/png" sizes="196x196" href="/https://www-media.stanford.edu/assets/favicon/favicon-196x196.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/https://www-media.stanford.edu/assets/favicon/favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="/https://www-media.stanford.edu/assets/favicon/favicon-128.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/https://www-media.stanford.edu/assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/https://www-media.stanford.edu/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/https://www-media.stanford.edu/assets/favicon/favicon-16x16.png">
+
+  <link rel="mask-icon" color="#ffffff" href="/https://www-media.stanford.edu/assets/favicon/safari-pinned-tab.svg">
+  <meta name="application-name" content="Stanford University">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="//www-media.stanford.edu/assets/favicon/mstile-144x144.png">
+  <meta name="msapplication-square70x70logo" content="//www-media.stanford.edu/assets/favicon/mstile-70x70.png">
+  <meta name="msapplication-square150x150logo" content="//www-media.stanford.edu/assets/favicon/mstile-150x150.png">
+  <meta name="msapplication-square310x310logo" content="//www-media.stanford.edu/assets/favicon/mstile-310x310.png">
+
+  <!-- Google analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-1860414-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- wp_head(); -->
+  
+<!-- This site is optimized with the Yoast SEO Premium plugin v3.2.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Sophomore biology major Laura Anderson discusses what it’s like to have the ocean as her classroom at Hopkins Marine Station.">
+<meta name="news_keywords" content="student life">
+<link rel="original-source" href="/https://news.stanford.edu/2018/05/31/studying-aquatic-ecosystems/">
+<meta name="robots" content="noodp">
+<link rel="canonical" href="/https://news.stanford.edu/2018/05/31/studying-aquatic-ecosystems/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Studying aquatic ecosystems | Stanford News">
+<meta property="og:description" content="Sophomore biology major Laura Anderson discusses researching aquatic life at the Hopkins Marine Station, and what it’s like to have the ocean as her classroom.">
+<meta property="og:url" content="https://news.stanford.edu/2018/05/31/studying-aquatic-ecosystems/">
+<meta property="og:site_name" content="Stanford News">
+<meta property="article:tag" content="Student life">
+<meta property="article:section" content="Campus Life">
+<meta property="article:published_time" content="2018-05-31T15:00:49-07:00">
+<meta property="article:modified_time" content="2018-06-05T11:10:35-07:00">
+<meta property="og:updated_time" content="2018-06-05T11:10:35-07:00">
+<meta property="og:image" content="https://news-media.stanford.edu/wp-content/uploads/2018/05/31145636/laura_anderson.jpg">
+<meta property="og:image:width" content="1500">
+<meta property="og:image:height" content="1000">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Sophomore biology major Laura Anderson discusses researching aquatic life at the Hopkins Marine Station.">
+<meta name="twitter:title" content="Studying aquatic ecosystems | Stanford News">
+<meta name="twitter:image" content="https://news-media.stanford.edu/wp-content/uploads/2018/05/31145636/laura_anderson.jpg">
+<meta property="DC.date.issued" content="2018-05-31T15:00:49-07:00">
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel="dns-prefetch" href="/https://s.w.org">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/news.stanford.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="awesome-weather-css" type="text/css" media="all" href="/https://news.stanford.edu/wp-content/plugins/awesome-weather-pro/awesome-weather.css?ver=4.9.7">
+<script type="text/javascript" src="/https://news.stanford.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/plugins/wp-retina-2x/js/picturefill.min.js?ver=3.0.2"></script>
+<link rel="https://api.w.org/" href="/https://news.stanford.edu/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/https://news.stanford.edu/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/https://news.stanford.edu/wp-includes/wlwmanifest.xml"> 
+<link rel="shortlink" href="/https://stanford.io/2H9OJqt">
+<link rel="alternate" type="application/json+oembed" href="/https://news.stanford.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.stanford.edu%2F2018%2F05%2F31%2Fstudying-aquatic-ecosystems%2F">
+<link rel="alternate" type="text/xml+oembed" href="/https://news.stanford.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnews.stanford.edu%2F2018%2F05%2F31%2Fstudying-aquatic-ecosystems%2F&amp;format=xml">
+<style>.post-thumbnail img[src$='.svg'] { width: 100%; height: auto; }</style>
+</head>
+<body class="post-template-default single single-post postid-21190 single-format-standard">
+<div id="su-wrap"> <!-- used to force footer to bottom of short pages -->
+  <div id="su-content"> <!-- used to force footer to bottom of short pages -->
+
+    <!--=== Top ===-->
+    <div id="top" class="hidden-print nocontent" data-ga-category="header">
+      <div class="container">
+        <!--=== Skip links ===-->
+        <div id="skip"> <a onclick="$('#content').focus()" data-ga-action="skip-link" data-ga-label="content" href="/https://news.stanford.edu/2018/05/31/studying-aquatic-ecosystems/">Skip to content</a> </div>
+        <!-- /Skip links -->
+      </div>
+    </div>
+    <!--/top-->
+
+    <!--=== Header ===-->
+    <div id="header" class="clearfix" role="banner" data-ga-category="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <!-- Logo -->
+            <div id="logo" class="clearfix"> <a data-ga-action="logo" href="/http://www.stanford.edu/"><img class="img-responsive" alt="Stanford University" src="/https://news.stanford.edu/wp-content/themes/news/images/stanford-white@2x.png"></a> </div>
+            <!-- /logo -->
+            <div id="signature">
+              <div id="site-name">
+                <a data-ga-action="site-name" href="/https://news.stanford.edu/"><span id="site-name-1">News</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu -->
+    <div id="mainmenu" class="clearfix hidden-print nocontent" role="navigation" data-ga-category="header" data-ga-action="nav">
+      <div class="container">
+        <div class="navbar navbar-default">
+
+          <!-- main navigation -->
+          <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse">Menu</button>
+          <!-- /nav-collapse -->
+
+          <div id="nav-search" role="search">
+  <form action="/search" method="get" id="search-form" accept-charset="UTF-8">
+    <h2 class="hidden">Search form</h2>
+    <input type="hidden" name="cx" value="010498062362927390610:dlcoultwj8i">
+    <input type="hidden" name="cof" value="FORID:9">
+    <input type="hidden" name="ie" value="UTF-8">
+    <label class="hidden" for="search-field">Search term</label>
+    <input type="text" id="search-field" name="q" title="Search string" class="input-medium" placeholder="Search Stanford news…" value="" size="15" maxlength="128">
+    <button id="search-btn" type="submit" name="submit" aria-label="Search" formmethod="get"><i class="fa fa-search"></i></button>
+  </form>
+</div>
+
+          <div class="navbar-collapse collapse">
+            <div role="navigation">
+              <div id="primary-nav" class="menu-top-nav-container"><ul id="menu-top-nav" class="nav navbar-nav" aria-label="primary navigation"><li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-32"><a data-ga-label="Home" href="/https://news.stanford.edu/">Home</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a data-ga-label="Find Stories" href="/https://news.stanford.edu/find-stories/">Find Stories</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a data-ga-label="For Journalists" href="/https://news.stanford.edu/for-journalists/">For Journalists</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a data-ga-label="Contact" href="/https://news.stanford.edu/contact/">Contact</a></li>
+</ul></div>            </div>
+          </div>
+          <!-- /nav-collapse -->
+        </div>
+        <!-- /navbar -->
+
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /mainmenu -->
+
+    <!-- main content -->
+
+<article class="post-21190 post type-post status-publish format-standard has-post-thumbnail hentry category-campus-life category-teaching-students tag-student-life message-culture custom-feed-humsci" id="post-21190" data-ga-category="story">
+  <div id="content" class="container" role="main" tabindex="0">
+    <div id="story-head" class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-md-12" role="main">
+        <!-- todo: set the $rendered flag in news.php when it's a full screen banner -->
+        <time datetime="2018-05-31T22:00:49+00:00">May 31, 2018</time>        <h1>Studying aquatic ecosystems at Stanford’s Hopkins Marine Station</h1>        <p class="excerpt">Sophomore biology major Laura Anderson discusses researching aquatic life at the Hopkins Marine Station, and what it’s like to have the ocean as her classroom.</p>      </div>
+    </div>
+
+    <div class="story-margin-top row">
+
+      <div class="col-sm-1 col-lg-offset-1 social-share hidden-print">
+        <ul class="list-inline" data-ga-category="share">
+  <li><a data-ga-action="facebook" data-ga-label="sidebar" onclick="window.open('https://www.facebook.com/sharer.php?u=https%3A%2F%2Fstanford.io%2F2H9OJqt', '_blank','height=570, width=520, scrollbars=yes, status=no');" data-provider="facebook" rel="nofollow" title="Share on Facebook" href="/https://news.stanford.edu/2018/05/31/studying-aquatic-ecosystems/"><i class="fa fa-facebook-square fa-3x"></i><span class="sr-only">Facebook</span></a></li>
+  <li><a data-ga-action="twitter" data-ga-label="sidebar" onclick="window.open('https://www.twitter.com/intent/tweet?url=https%3A%2F%2Fstanford.io%2F2H9OJqt&amp;via=Stanford','_blank','height=570, width=520, scrollbars=yes, status=no');" data-provider="twitter" rel="nofollow" title="Share on Twitter" href="/https://news.stanford.edu/2018/05/31/studying-aquatic-ecosystems/"><i class="fa fa-twitter-square fa-3x"></i><span class="sr-only">Twitter</span></a></li>
+  <li><a data-ga-action="email" data-ga-label="sidebar" data-provider="mail" target="_blank" rel="nofollow" title="Share by email" href="/https://news.stanford.edu/2018/05/31/studying-aquatic-ecosystems/mailto:?subject=An%20interesting%20article%20from%20Stanford%20News&amp;body=I%20want%20to%20share%20this%20news%20story%20from%20Stanford%20University%20with%20you%3A%20https%3A%2F%2Fstanford.io%2F2H9OJqt"><i class="fa fa-envelope-square fa-3x"></i><span class="sr-only">Email</span></a></li>
+</ul>
+      </div>
+
+      <div class="col-sm-10 col-md-10 col-lg-8">
+        <p class="byline">By Alex Kekauoha</p>
+          <div id="story-content">
+          <p>Below the bluffs of the California coast is an ethereal place where the ocean meets the land. Home to thousands of tiny alien-like organisms, it’s one of the most biologically diverse places on the planet. It’s called an intertidal zone, and it’s also where you’ll find sophomore Laura Anderson studying how the creatures that live in this unique environment adapt to its ever-changing conditions.</p>
+<p>This particular intertidal zone is part of the <a href="/https://hopkinsmarinestation.stanford.edu/">Hopkins Marine Station</a>, a Stanford research facility located about 80 miles south of campus in Pacific Grove. Every year, undergraduate and graduate students leave the Farm to study for a quarter or more at the station. Overlooking the ocean, Hopkins offers classes in a range of science-related subjects that are open to students of all majors.</p>
+<p>Anderson, a biology major on the marine biology track, is spending spring quarter at Hopkins learning about evolution and marine conservation, as well as ecology, or the study of how organisms relate to each other and to their physical surroundings.</p>
+<p class="visible-print-inline-block visible-print-styles"><i class="fa fa-video-camera"></i> Go to the web site to view the video.</p>
+<div class="align-center hidden-print">
+<p class="media-attrib">Video by Kurt Hickman</p>
+<div class="embed-container">
+<iframe width="500" height="281" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" src="/https://www.youtube.com/embed/4zNm25jaJKQ?feature=oembed&amp;rel=0"></iframe>
+</div>
+<p class="media-caption">
+</p></div>
+<p>This intertidal zone is home to sea creatures ranging from sea stars and crabs to barnacles and mussels. But for her lab class, Anderson is focusing her research on one organism in particular. “I’m doing a project on owl limpets,” she says. “They’re a type of mollusk, and are related to sea snails.”</p>
+<p>Underneath their shell, owl limpets have an adhesive organ called a foot that they use to cling to rocks. The tiny organisms, inconspicuous to the untrained eye, blend in seamlessly to the rocks on which they live. But Anderson spots them easily.</p>
+<p>When the tide is low, she ventures into the intertidal zone to study limpets’ bodies and behaviors. Limpets frequently will have algae, which they graze on, or even other limpets attached to their shell. Anderson is researching whether these interactions determine where a limpet will live or if they affect the temperature of a limpet’s body.</p>
+<p>“With the intertidal, you can look at how organisms are interacting with each other and it provides a really cool space to test a lot of those interactions,” she says.</p>
+<p>Like in other intertidal zones, the conditions in this area are constantly changing. Whether it’s rising sea levels, changing water temperatures, daylight or darkness, Anderson says that organisms in intertidal zones must learn to adjust to the environment.</p>
+<div class="align-center inset-width center-block"><img class="wp-image-21192 size-full img-responsive" alt="" srcset="https://news-media.stanford.edu/wp-content/uploads/2018/05/31133037/hopkins_still_17.jpeg 640w, https://news-media.stanford.edu/wp-content/uploads/2018/05/31133037/hopkins_still_17-555x312.jpeg 555w" sizes="(max-width: 640px) 100vw, 640px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/05/31133037/hopkins_still_17.jpeg"><p></p>
+<p class="media-caption">Anderson is studying owl limpets, a type of mollusk.<span class="media-attrib"> (Image credit: Kurt Hickman)</span></p>
+</div>
+<p>“As you think about the way that the ocean might be changing, or the planet might be changing, you can start to think about how organisms would adapt to those different changes either behaviorally or physiologically,” she says.</p>
+<p>Anderson’s field research isn’t limited to just the intertidal zone. Last year she spent five weeks studying the kelp forest located just off the coast and a few hundred yards away from the Hopkins facility. Kelp forests, like intertidal zones, are dynamic aquatic ecosystems that serve as habitats for hundreds of species of invertebrates, fish and other algae. This summer Anderson, who is a certified scuba diver, will remain at Hopkins to continue studying the underwater forest.</p>
+<p>“Being able to work down here by the ocean is incredible. It’s an experience that I’m so lucky to be having,” she says. “And definitely something that I’ll want to do for as much of my life as possible.”</p>
+        </div><!-- #story-content -->
+      </div>
+    </div>
+  </div><!-- #content .container -->
+  
+<div class="panel-collection">
+	</div>
+<div id="main-bottom-wrapper">
+  <div id="main-bottom" class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-sm-push-1 col-lg-8 col-lg-push-2">
+
+        
+        <hr>
+
+        <div class="pull-left hidden-print" data-ga-category="term-buttons">
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/section/campus-life/">Campus Life</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/section/teaching-students/">Teaching &amp; Students</a></div>
+  <div class="btn btn-category"><a href="/https://news.stanford.edu/topic/student-life/">Student Life</a></div>
+</div>
+
+        <div class="pull-right social-share">
+          <ul class="list-inline" data-ga-category="share">
+  <li><a data-ga-action="facebook" data-ga-label="bottom" onclick="window.open('https://www.facebook.com/sharer.php?u=https%3A%2F%2Fstanford.io%2F2H9OJqt', '_blank','height=570, width=520, scrollbars=yes, status=no');" data-provider="facebook" rel="nofollow" title="Share on Facebook" href="/https://news.stanford.edu/2018/05/31/studying-aquatic-ecosystems/"><i class="fa fa-facebook-square fa-3x"></i><span class="sr-only">Facebook</span></a></li>
+  <li><a data-ga-action="twitter" data-ga-label="bottom" onclick="window.open('https://www.twitter.com/intent/tweet?url=https%3A%2F%2Fstanford.io%2F2H9OJqt&amp;via=Stanford','_blank','height=570, width=520, scrollbars=yes, status=no');" data-provider="twitter" rel="nofollow" title="Share on Twitter" href="/https://news.stanford.edu/2018/05/31/studying-aquatic-ecosystems/"><i class="fa fa-twitter-square fa-3x"></i><span class="sr-only">Twitter</span></a></li>
+  <li><a data-ga-action="email" data-ga-label="bottom" data-provider="mail" target="_blank" rel="nofollow" title="Share by email" href="/https://news.stanford.edu/2018/05/31/studying-aquatic-ecosystems/mailto:?subject=An%20interesting%20article%20from%20Stanford%20News&amp;body=I%20want%20to%20share%20this%20news%20story%20from%20Stanford%20University%20with%20you%3A%20https%3A%2F%2Fstanford.io%2F2H9OJqt"><i class="fa fa-envelope-square fa-3x"></i><span class="sr-only">Email</span></a></li>
+</ul>
+        </div>
+
+      </div><!-- content column -->
+    </div><!-- .row -->
+  </div><!-- #main-bottom .container -->
+
+	</div><!-- #main-bottom-wrapper -->
+</article>
+<div id="bottom-wrapper">
+  <div id="bottom" class="container">
+    <div id="what-to-read-next" class="row hidden-print nocontent" data-ga-category="what-to-read-next">
+  <h2 class="text-center">What to read next:</h2>
+  <div class="col-md-4">
+    <div class="card short eq-height nocontent">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" data-ga-action="position-1" href="/https://news.stanford.edu/2018/08/02/longtime-stanford-librarian-james-breedlove-dies/"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="James M. Breedlove works at the Stanford University Libraries in this 1976 photo." srcset="https://news-media.stanford.edu/wp-content/uploads/2018/08/01100542/Breedlove_F922-9-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/08/01100542/Breedlove_F922-9-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/08/01100542/Breedlove_F922-9-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta"><a href="/https://news.stanford.edu/section/obituaries/">Obituaries</a></div>
+    <h3><a data-ga-action="position-1" href="/https://news.stanford.edu/2018/08/02/longtime-stanford-librarian-james-breedlove-dies/">Longtime Stanford librarian James Breedlove dies</a></h3>
+    <p class="teaser">James M. Breedlove, a longtime Stanford librarian who gathered thousands of Latin American and Iberian materials, died on June 12.</p>
+  </div>    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card short eq-height nocontent">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" data-ga-action="position-2" href="/https://news.stanford.edu/2018/08/02/akshay-venkatesh-wins-fields-medal/"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Akshay Venkatesh" srcset="https://news-media.stanford.edu/wp-content/uploads/2018/08/01125302/venkatesh-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2018/08/01125302/venkatesh-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2018/08/01125302/venkatesh-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta"><a href="/https://news.stanford.edu/section/awards/">Awards</a></div>
+    <h3><a data-ga-action="position-2" href="/https://news.stanford.edu/2018/08/02/akshay-venkatesh-wins-fields-medal/">Akshay Venkatesh wins Fields Medal</a></h3>
+    <p class="teaser">Mathematics Professor Akshay Venkatesh won the Fields Medal, the most prestigious prize in mathematics. He is known as someone with broad expertise who has contributed to many areas of math.</p>
+  </div>    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card short eq-height nocontent">
+        <div class="card-photo ">
+    <a tabindex="-1" aria-hidden="true" role="presentation" data-ga-action="position-3" href="/https://news.stanford.edu/2018/08/02/fishing-bans-protect-fish-dont-harm-fishing-communities/"><img class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Fishing vessels like this one were tracked during a short-lived trawling moratorium in the Adriatic Sea as part of a Stanford study." srcset="https://news-media.stanford.edu/wp-content/uploads/2019/04/26101415/adriatic1-200x200.jpg 200w, https://news-media.stanford.edu/wp-content/uploads/2019/04/26101415/adriatic1-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" src="/https://news-media.stanford.edu/wp-content/uploads/2019/04/26101415/adriatic1-200x200.jpg"></a>
+  </div>  <div class="card-content">
+    <div class="meta"><a href="/https://news.stanford.edu/section/science-technology/">Science &amp; Technology</a></div>
+    <h3><a data-ga-action="position-3" href="/https://news.stanford.edu/2018/08/02/fishing-bans-protect-fish-dont-harm-fishing-communities/">Fishing bans protect fish and don’t harm fishing communities</a></h3>
+    <p class="teaser">Fishers who complied with a moratorium in the Adriatic Sea maintained catch levels by fishing in other areas. The findings help justify extending regional protection and provide insight for ocean management elsewhere.</p>
+  </div>    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+	</div><!-- #su-content -->
+</div><!-- #su-wrap -->
+
+<!-- BEGIN footer -->
+<div id="footer" class="clearfix footer hidden-print nocontent" role="contentinfo">
+
+	  <!-- Fat footer start -->
+  <div class="container">
+    <div id="footer-content" class="row" data-ga-category="footer">
+      <div class="col-sm-6 col-md-3">
+<h3 class="widgettitle">Stanford Report</h3>
+			<div class="textwidget"><div id="mc_embed_signup">
+  <form action="//stanford.us5.list-manage.com/subscribe/post?u=a8e6569da943904e9ac369cde&amp;id=29ce9f751e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <label for="mce-EMAIL">Receive daily Stanford news.</label><br>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" size="30" placeholder="your email address" required="">
+    <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default" style="margin-top: -3px; padding: 6px;">
+  </form>
+</div>
+<p><a href="/https://news.stanford.edu/stanford-report/">More about <em>Stanford Report</em></a></p></div>
+		</div>
+<div class="col-sm-6 col-md-3">
+<h3 class="widgettitle">For Journalists</h3>
+			<div class="textwidget"><ul>
+  <li><a href="/https://news.stanford.edu/press-releases/">Press Releases</a></li>
+  <li><a href="/https://news.stanford.edu/contact/media-contacts/">Media Contacts</a></li>
+  <li><a href="/https://news.stanford.edu/experts/">Stanford Experts</a></li>
+</ul></div>
+		</div>
+<div class="col-sm-6 col-md-3">
+<h3 class="widgettitle">See Also</h3>
+			<div class="textwidget"><ul>
+  <li><a href="/https://news.stanford.edu/contact/">Contact Stanford News</a></li>
+  <li><a target="_blank" href="/http://ucomm.stanford.edu/facstaff/">Faculty / Staff Resources <i class="fa fa-external-link"></i></a></li>
+</ul></div>
+		</div>
+<div class="col-sm-6 col-md-3">
+			<div class="textwidget"><div id="weather" class="col-xs-6">
+
+  <h3>Weather</h3>
+<div id="awesome-weather-widget">
+
+  
+  
+    <div class="awesome-weather-current-temp">
+      <i class="wi wi-yahoo-32" aria-label="sunny" title="sunny"></i>      67<sup>°</sup>
+    </div><!-- /.awesome-weather-current-temp -->
+    <div class="awesome-weather-more-weather-link" data-ga-category="footer"><a data-ga-action="weather" target="_blank" href="/http://www.weather.com/weather/tenday/l/Stanford+CA+94305:4:US">Stanford forecast</a></div></div><!-- /.awesome-weather-wrap: custom --> 
+
+</div>
+<div id="events" class="col-xs-6">
+  <h3>Events</h3>
+  <a href="/http://events.stanford.edu/">
+    <i class="fa fa-calendar fa-3x"></i><span class="sr-only">Events calendar</span>
+  </a>
+</div></div>
+		</div>
+			<div id="site-credit" class="col-xs-12">
+				<p>Stanford News is a publication of <a href="/https://ucomm.stanford.edu">Stanford University Communications</a></p>
+			</div>
+    </div>
+  </div>
+  <!-- Fat footer end -->
+      
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-sm-12 col-md-2">
+          <a href="/https://www.stanford.edu">
+            <img alt="Stanford University" width="105" height="49" src="/https://www-media.stanford.edu/su-identity/images/footer-stanford-logo@2x.png">
+          </a>
+        </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text">
+          <div class="col-xs-5 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-10">
+            <ul id="primary-links">
+              <li class="home"><a href="/https://www.stanford.edu">Stanford Home</a></li>
+              <li class="maps alt"><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+              <li class="search-stanford"><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+              <li class="emergency alt"><a href="/https://emergency.stanford.edu">Emergency Info</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-12 col-md-10">
+            <ul id="policy-links">
+              <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+              <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy/">Privacy</a></li>
+              <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+              <li><a title="Ownership and use of Stanford trademarks and images" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+              <li><a title="Non-discrimination policy" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+              <li><a title="Report web accessibility issues" href="/https://www.stanford.edu/site/accessibility">Accessibility</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-10 col-md-offset-2">
+            <p class="copyright vcard">© <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+          </div>
+        </div> <!-- .bottom-text end -->
+      </div><!-- .row end -->
+    </div><!-- .container end -->
+  </div><!-- Global footer snippet end -->
+
+</div>
+<!-- END footer -->
+
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/plugins/awesome-weather-pro/js/awesome-weather-widget-frontend.js?ver=1.1"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-content/plugins/awesome-weather-pro/js/js-cookie.js?ver=1.1"></script>
+<script type="text/javascript" src="/https://news.stanford.edu/wp-includes/js/wp-embed.min.js?ver=4.9.7"></script>
+
+
+</body></html>

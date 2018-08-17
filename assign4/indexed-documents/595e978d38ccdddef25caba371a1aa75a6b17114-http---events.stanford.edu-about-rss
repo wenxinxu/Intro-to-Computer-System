@@ -1,0 +1,376 @@
+<!DOCTYPE html><!--[if IE 7]> <html lang="en" class="ie7"> <![endif]--><!--[if IE 8]> <html lang="en" class="ie8"> <![endif]--><!--[if IE 9]> <html lang="en" class="ie9"> <![endif]--><!--[if !IE]><!--><html lang="en"><!--<![endif]--><head>
+    <title>Contact Us | Stanford Event Calendar</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Stanford Event Calendar">
+    <meta name="description" content="The latest events happening at Stanford University.">
+    
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/http://events.stanford.edu/v4/assets/cardinal/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" href="/v4/responsive-calendar/0.7/css/responsive-calendar.css" type="text/css" /> -->
+<link rel="stylesheet" href="/http://events.stanford.edu/v4/datepicker/css/datepicker.css">
+<link rel="stylesheet" type="text/css" href="/http://events.stanford.edu/v4/assets/cardinal/css/base.min.css?v=0.5">
+<link rel="stylesheet" type="text/css" href="/http://events.stanford.edu/v4/assets/cardinal/css/custom.css?v=0.4">
+
+<!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/v4/assets/cardinal/css/ie/ie8.css" />
+    <![endif]-->
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/v4/assets/cardinal/css/ie/ie7.css" />
+    <![endif]-->
+
+<!-- JS -->
+<script src="/http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+<script src="/http://events.stanford.edu/v4/assets/cardinal/js/modernizr.custom.17475.js"></script> 
+<script src="/http://events.stanford.edu/v4/assets/cardinal/js/bootstrap.min.js"></script> 
+<script src="/http://events.stanford.edu/v4/datepicker/js/datepicker.js"></script>
+<!--<script src="/v4/responsive-calendar/0.7/js/responsive-calendar.js"></script> -->
+<script src="/http://events.stanford.edu/v4/assets/cardinal/js/base.js?v=0.4"></script>
+<script src="/http://events.stanford.edu/v4/assets/cardinal/js/custom.js?v=0.4"></script>
+
+<!--[if lt IE 9]>
+    <script src="/v4/assets/cardinal/js/respond.js"></script>
+    <![endif]--> 
+
+<!-- Google Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1860414-5', 'stanford.edu');
+  ga('send', 'pageview');
+
+</script>
+
+
+  </head>
+  <!-- Stanford Cardinal Templates Version 1.0 -->
+  <!-- Template Property Options:                       
+       body_class: "home", "nav-1", "nav-2", etc.  - underlines active menu item
+       "two-line-header" - generates two line header signature
+       "site-slogan"     - adds site slogan to signature
+       e.g. <body class="two-line-header nav-4">            
+       h1        : "hide" - creates a hidden <h1> element
+    -->
+
+  <body>
+    <div id="su-wrap"> <!-- used to force footer to bottom of short pages -->
+      <div id="su-content"> <!-- used to force footer to bottom of short pages --> 
+	<!--=== Load Facebook SDK for Javascript ==-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1517644075158710';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--=== Top ===-->
+<div id="top">
+  <div class="container"> 
+    <!--=== Skip links ===-->
+    <div id="skip"> <a onclick="$('#content').focus()" href="/http://events.stanford.edu/about/rss">Skip to content</a> </div><!-- /Skip links --> 
+  </div>
+</div><!--/top--> 
+
+<!--=== Header ===-->
+<div id="header" class="clearfix" role="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8"> 
+        <!-- Logo -->
+        <div id="logo" class="clearfix"> <a href="/http://www.stanford.edu/"><img class="img-responsive" alt="Stanford University" src="/http://events.stanford.edu/v4/assets/cardinal/images/stanford-white%402x.png"></a> </div>
+        <!-- /logo -->
+        <div id="signature">
+          <div id="site-name"> 
+	    <a href="/http://events.stanford.edu/"><span id="site-name-1">Event Calendar</span></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- /Header --> 
+
+
+
+<!-- Menu -->
+<div id="mainmenu" class="clearfix" role="navigation">
+  <div class="container">
+    <div class="navbar navbar-default"> 
+      <!-- main navigation -->
+      <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="menu-text">Menu</span></button>
+      <!-- /nav-collapse -->
+      
+      <div class="navbar-collapse collapse"> 
+        <!--search box-->
+        <div id="nav-search" role="search">
+          <form action="/jse/jsp/search.jsp" method="get" id="search-form" accept-charset="UTF-8">
+            <h2 class="hidden">Search form</h2>
+            <label class="hidden" for="search-field">Search term</label>
+            <input name="oe" type="hidden" value="en">
+            <input name="qor" type="hidden" value="">
+            <input title="Search string" class="input-medium" placeholder="Search this site…" type="text" id="search-field" name="q" value="" size="15" maxlength="128">
+            <button id="search-btn" type="submit" name="submit" aria-label="Search" formmethod="get"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <div role="navigation">
+          <div id="primary-nav">
+            <ul class="nav navbar-nav" aria-label="primary navigation">
+              <li id="nav-1"> <a href="/http://events.stanford.edu/">Featured Events</a></li>
+              <li id="nav-2"> <a href="/http://events.stanford.edu/today/">Today's Events</a> </li>
+
+              <li id="nav-3">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="/http://events.stanford.edu/about/rss">Browse by Type <b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a href="/http://events.stanford.edu/byCategory/2">Lecture / Reading / Talk</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/3">Conference / Symposium</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/26">Seminar</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/19">Class</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/12">Meeting</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/27">Information Session</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/4">Performance</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/7">Exhibition</a></li>
+                  <li><a href="/http://events.stanford.edu/byCategory/31">Screening</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/15">Tour</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/10">Recreational Sports</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/13">Religious</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/14">Social</a></li>
+		</ul>
+              </li>
+              <li id="nav-4">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="/http://events.stanford.edu/about/rss">Browse by Subject <b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a style="border-bottom: none;" href="/http://events.stanford.edu/byCategory/0">All Arts</a></li>
+		  <li><a style="border-bottom: none;" href="/http://events.stanford.edu/byCategory/9">&nbsp;&nbsp;&nbsp;Music</a></li>
+		  <li><a style="border-bottom: none;" href="/http://events.stanford.edu/byCategory/6">&nbsp;&nbsp;&nbsp;Drama / Theater</a></li>
+		  <li><a style="border-bottom: none;" href="/http://events.stanford.edu/byCategory/5">&nbsp;&nbsp;&nbsp;Dance</a></li>
+		  <li><a style="border-bottom: none;" href="/http://events.stanford.edu/byCategory/20">&nbsp;&nbsp;&nbsp;Visual Arts</a></li>
+		  <li><a style="border-bottom: none;" href="/http://events.stanford.edu/byCategory/8">&nbsp;&nbsp;&nbsp;Film</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/25">&nbsp;&nbsp;&nbsp;Literary Arts</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/35">Education</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/22">Engineering</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/21">Environment</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/24">Health / Wellness</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/23">Humanities</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/18">International</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/11">Public Service</a></li>
+         	  <li><a href="/http://events.stanford.edu/byCategory/30">Science</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/28">Careers</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/17">Ph.D. Orals</a></li>
+		  <li><a href="/http://events.stanford.edu/byCategory/1">University Events</a></li>
+		</ul>
+	      </li>
+              <li id="nav-5" class="dropdown">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="/http://events.stanford.edu/about/rss">Browse by Organization <b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a href="/http://events.stanford.edu/byOrganization/departmentalOrganizationList.shtml">Departments</a></li>
+		  <li><a href="/http://events.stanford.edu/byOrganization/studentOrganizationList.shtml">Student Groups</a></li>
+		</ul>
+	      </li>
+            </ul>
+	    <div class="hidden-md hidden-lg" id="date-jump">
+	      <form role="form">
+		<label for="date-input">Browse by Date:</label>
+		<input type="hidden" id="date-input" name="date-input" value="">
+		<input class="form-control" type="date" placeholder="mm/dd/yyyy" id="date-input-mobile" name="date-input-mobile" value="" maxlength="10" required="" min="2016-01-01" max="2020-12-31" aria-describedby="date-input-help">
+		<input type="button" value="Go" id="jump-button" class="btn btn-default">
+		<p class="sr-only" id="date-input-help"> Expected format: M M/D D/Y Y Y Y</p>
+	      </form>
+	    </div> 
+          </div>
+        </div>
+
+
+      </div>
+      <!-- /nav-collapse --> 
+      
+    </div><!-- /navbar -->     
+  </div><!-- /container --> 
+</div><!-- /mainmenu --> 
+<!-- /Menu --> 
+
+
+        
+	<!-- main content -->
+	<div id="content" class="container" role="main" tabindex="0">
+	  <div class="row"> 
+            <!-- Main column -->
+            <div id="main-content" class="col-md-8" role="main"> 
+	      <h1>RSS feeds</h1>
+
+	      <p> Really Simple Syndication (RSS) is an XML-based format which can be accessed with "news reader" applications, embedded in blogs, and used in other ways.  Our Events at Stanford RSS feeds currently use RSS 2.0.
+	      </p>
+
+	      <h2>Look for this icon: <a role="button" class="btn btn-default btn-sm" id="rss-icon" href="/http://webmaster2.stanford.edu/xml/rss.xml"><i class="fa fa-rss"></i><span>RSS</span></a>
+</h2>
+
+	      <p>Click on the orange feed icon on any Event Calendar page to access the RSS feed.  We currently offer 
+		feeds for our featured events page, category listings, and individual organization pages.
+	      </p>
+
+	      <h2>How to access RSS feeds</h2>
+	      <p>There are a number of ways to access RSS feeds. You can install a news reader to manage RSS feeds, enabling you 
+		to view headlines from hundreds of different sources. After installing the news reader, you can add each feed by clicking 
+		on the feed icon.  Some sites may designate RSS feeds with alternative icons that read "RSS", "XML", or "Subscribe."</p>
+
+	      <p>An alternative to downloading a dedicated news reader is to use a Web-based news reader. For example, 
+		<a href="/http://my.yahoo.com">My Yahoo!</a> users can now add RSS feeds directly to their personal page.</p>
+
+	      <p>A listing of popular news readers is available from the <a href="/http://www.newsonfeeds.com/faq/aggregators">News on Feeds</a> website.</p>
+
+	      <hr>
+
+	      <h1>iCal feeds</h1>
+
+	      <p> iCalendar (iCal, .ics) is a popular calendar data exchange format which allows you to subscribe to a calendar and receive updates as calendar data changes.</p>
+
+	      <h2>Look for this icon: <a role="button" class="btn btn-default btn-sm" id="ical-icon" href="/http://webmaster2.stanford.edu/eventlist.ics"><i class="fa fa-calendar"></i><span>iCal</span></a></h2>
+
+	      <p>Click on the ICAL icon on any Event Calendar page to access the iCal feed.  We currently offer 
+		feeds for our featured events page, category listings, and individual organization pages.
+	      </p>
+
+	      <h2>How to access iCal feeds</h2>
+	      <p>A number of popular calendar applications on Mac and PC platforms support iCalendar (.ics) feeds.  These include "iCal" on the Mac and "Outlook" on the PC. <a href="/http://calendar.google.com/">Google Calendar</a> and other online calendar applications also support iCal.</p>
+
+
+            </div>
+            <!-- Start #sidebar-second  -->
+            <div id="sidebar-second" class="col-md-3 col-md-offset-1">
+	      <div id="responsive-calendar"></div>
+
+<script type="text/javascript">
+     var today = new Date();
+     var lowDate = new Date();
+     var highDate = new Date();
+     lowDate.setFullYear(lowDate.getFullYear(), lowDate.getMonth() - 24);
+     highDate.setFullYear(highDate.getFullYear(), highDate.getMonth() + 24);
+     var metaDate = $('meta[name=application-name]').attr("data-date");
+     if (metaDate != null && metaDate.length == 10) {
+         metaDate = metaDate.replace(/-/g,'');
+     }
+     $("#date-input").val("");
+     
+     datePickerController.createDatePicker({
+     // Associate the text input to a DD/MM/YYYY date format                            
+     formElements: { "date-input": "%m/%d/%Y" },
+     noFadeEffect: true,
+     labelText: "Go to date",
+     cursorDate: metaDate,
+     staticPos: true,
+     fillGrid: false,
+     constrainSelection: false,
+     positioned: "responsive-calendar",
+     callbackFunctions:{"datereturned":[gotoDate]}
+        });
+
+     datePickerController.setRangeLow("date-input", lowDate);
+     datePickerController.setRangeHigh("date-input", highDate);
+
+
+      function gotoDate(argObj) {
+         var url = datePickerController.printFormattedDate(argObj.date, "/%Y/%F/%j", false);
+         window.location = url;
+      }
+</script>
+
+	                    <div class="info-box hidden-print">
+                <div class="icon-container"> <i class="fa fa-envelope-o fa-4x"></i> </div>
+                <div class="text-container">
+                  <h2>Stanford For You</h2>
+		    <p>A <a href="/http://foryou.stanford.edu">monthly email newsletter</a> highlighting upcoming campus events.</p>
+                </div>
+              </div>
+
+              <div class="info-box hidden-print">
+                <div class="icon-container"> <i class="fa fa-info-circle fa-4x"></i> </div>
+                <div class="text-container">
+                  <h2>About this site</h2>
+                  <ul style="list-style: none;">
+                    <li><a href="/http://events.stanford.edu/about">Policies &amp; Procedures</a></li>
+                    <li><a href="/http://events.stanford.edu/about/rss">RSS &amp; iCal Feeds</a></li>
+                    <li><a href="/http://events.stanford.edu/about/contact">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+
+	      <div class="well hidden-print">
+		<h2>Post an event</h2>
+		<p>Campus organizations are invited to add their events to the calendar.</p>
+
+		  <a class="margin-bottom-20 btn btn-default btn-one btn-block" href="/http://events.stanford.edu/eventadmin/">
+		    <i class="fa fa-key fa-lg"></i>
+		    <span style="text-transform: uppercase; margin-left: 10px;">Login</span>
+		  </a>
+		  <p><strong>New user?</strong>  <em> <a href="/http://events.stanford.edu/account-request/">Request an account</a></em></p>
+	      </div>
+
+
+
+            </div>
+            <!-- End #sidebar-second --> 
+            
+	  </div>
+	</div>
+	<!-- #content--> 
+	
+      </div>
+      <!-- #su-content --> 
+    </div>
+    <!-- #su-wrap --> 
+
+    <!-- BEGIN footer -->
+    <div id="footer" class="clearfix footer" role="contentinfo">
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-sm-12 col-md-2">
+          <a href="/https://www.stanford.edu">
+            <img alt="Stanford University" width="105" height="49" src="/https://www-media.stanford.edu/su-identity/images/footer-stanford-logo@2x.png">
+          </a>
+        </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text">
+          <div class="col-xs-5 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-10">
+            <ul id="primary-links">
+              <li class="home"><a href="/https://www.stanford.edu">Stanford Home</a></li>
+              <li class="maps alt"><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+              <li class="search-stanford"><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+              <li class="emergency alt"><a href="/https://emergency.stanford.edu">Emergency Info</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-12 col-md-10">
+            <ul id="policy-links">
+              <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+              <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy/">Privacy</a></li>
+              <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+              <li><a title="Ownership and use of Stanford trademarks and images" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+              <li><a title="Non-discrimination policy" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+              <li><a title="Report web accessibility issues" href="/https://www.stanford.edu/site/accessibility">Accessibility</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-10 col-md-offset-2">
+            <p class="copyright vcard">© <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+          </div>
+        </div> <!-- .bottom-text end -->
+      </div><!-- .row end -->
+    </div><!-- .container end -->
+  </div><!-- Global footer snippet end -->
+  
+</div>
+
+    <!-- END footer --> 
+
+  
+
+
+
+</body></html>

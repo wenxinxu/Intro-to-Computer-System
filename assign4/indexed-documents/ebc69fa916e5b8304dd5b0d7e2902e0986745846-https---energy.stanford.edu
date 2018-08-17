@@ -1,0 +1,563 @@
+<!DOCTYPE html><!--[if lt IE 7]> <html class="ie6 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 7]>    <html class="ie7 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 8]>    <html class="ie8 ie" lang="en" dir="ltr"> <![endif]--><!--[if IE 9]>    <html class="ie9 ie" lang="en" dir="ltr"> <![endif]--><!--[if !IE]> --><html lang="en" dir="ltr"><!-- <![endif]--><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="apple-touch-icon" sizes="120x120" href="/https://energy.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/https://energy.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/https://energy.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/https://energy.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/https://energy.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" href="/https://energy.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/https://energy.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="167x167" href="/https://energy.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-167x167.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/https://energy.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/https://energy.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-57x57.png">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/https://energy.stanford.edu/sites/all/themes/stanford_framework/favicon.ico">
+<meta name="google-site-verification" content="tUJ214wF9k79KCsAn5wIOyOFR2eH0RlBANimm5MCFfU">
+<meta name="generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="/https://energy.stanford.edu/">
+<link rel="shortlink" href="/https://energy.stanford.edu/">
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Energy |</title>
+  <link type="text/css" rel="stylesheet" media="all" href="/https://energy.stanford.edu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://energy.stanford.edu/sites/default/files/css/css_JsNupfpWENtZl3PsbtMoRvOBlo9YKAdVhAdHLPsR8FE.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/https://energy.stanford.edu/sites/default/files/css/css_9tSZ0nPz-1H4xvY-ur8aWaAgaF4oAzsrLDvWf6KvPSU.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://energy.stanford.edu/sites/default/files/css/css_MeSv4g8grYPR5sLwQyCOjEVPCqfk8xoGx5GE3IbF_3E.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://energy.stanford.edu/sites/default/files/css/css_VXYI8cKrWX7RV3fYLQM6aHeSA2oP2GtXh7K6quyle3g.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://energy.stanford.edu/sites/default/files/css/css_s0Z8VLWh03DtHJQV3ZRRQeh2_w2qy1y9KiMwmDIVCqc.css">
+<link type="text/css" rel="stylesheet" media="print" href="/https://energy.stanford.edu/sites/default/files/css/css_nGZ0EUi6HATidAf3pITrpLdyTGtTsmfVAzXLpUp2gr4.css">
+<link type="text/css" rel="stylesheet" media="all" href="/https://energy.stanford.edu/sites/default/files/css/css_y5ZcTmA7_-MdRTJSW4H9p4tvUNqMUWYk-kwjKBZg2Pk.css">
+  <script type="text/javascript" src="/https://energy.stanford.edu/sites/default/files/js/js_ZDOaep6HA5A0eriyiN-YaNv7MHsjd-FIuFyilZ2o5cw.js"></script>
+<script type="text/javascript" src="/https://energy.stanford.edu/sites/default/files/js/js_g98Ekqvuj1mMaUqTkLdcrMmJymw4aFC5YyzBQBviahY.js"></script>
+<script type="text/javascript" src="/https://energy.stanford.edu/sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script type="text/javascript" src="/https://energy.stanford.edu/sites/default/files/js/js_btVsZ2B8GmUPiTe6SIfMzMsP6pc46Zf3IYQsAQLqRVg.js"></script>
+<script type="text/javascript" src="/https://energy.stanford.edu/sites/default/files/js/js_FqlseKdK7ORvMscaSAMFMeA4MjMa214DjeIc4ye48Hc.js"></script>
+<script type="text/javascript" src="/https://energy.stanford.edu/sites/default/files/js/js_e8_xAlUO33NVzjX6ub-uiUhNHOgN4LRpnjVGDoOL6h4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-32625237-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="/https://energy.stanford.edu/sites/default/files/js/js_PJhTnkxydMuVbMTmxqAHkqjfBvIpFssfwf4u5a-Jteg.js"></script>
+<script type="text/javascript" src="/https://energy.stanford.edu/sites/default/files/js/js_9cK0ID99e4vgND5XBb3ButI-3Cx3e37QuFo8f7KyqAg.js"></script>
+<script type="text/javascript" src="/https://energy.stanford.edu/sites/default/files/js/js_6lEiBKPgYd0J4j7bMPiKzKQR5ow6mo0LR6Gtg_UkEpo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stanford_framework","theme_token":"FVK3SgLj8VJONXZ9jGTX0W7iHkqOY9jflpw4VEbGHtw","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"misc\/ui\/jquery.ui.slider.css":1,"sites\/default\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/default\/modules\/stanford\/stanford_bean_types\/css\/social-media.css":1,"sites\/default\/modules\/stanford\/stanford_bean_types\/css\/icon-block.css":1,"sites\/default\/modules\/stanford\/stanford_carousel\/css\/stanford_carousel.css":1,"sites\/default\/modules\/stanford\/stanford_gallery\/css\/stanford_gallery.css":1,"sites\/default\/modules\/stanford\/stanford_jumpstart\/css\/jumpstart.css":1,"sites\/default\/modules\/stanford\/stanford_jumpstart\/css\/jumpstart-theme-fixes.css":1,"sites\/default\/modules\/stanford\/stanford_jumpstart_academic\/css\/jumpstart-academic.css":1,"sites\/all\/modules\/stanford\/stanford_jumpstart_home\/css\/stanford_jumpstart_home.css":1,"sites\/default\/modules\/stanford\/stanford_jumpstart\/modules\/stanford_jumpstart_shortcuts\/css\/shortcuts.css":1,"sites\/default\/modules\/stanford\/stanford_landing_page\/css\/stanford_landing_page.css":1,"sites\/all\/modules\/stanford\/stanford_news\/css\/stanford_news.css":1,"sites\/all\/modules\/stanford\/stanford_person\/css\/stanford_person.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/context_accordion\/context_accordion.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap.min.css":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/css\/bootstrap-responsive.min.css":1,"sites\/all\/themes\/open_framework\/packages\/font-awesome-3.2.1\/css\/font-awesome.min.css":1,"sites\/all\/themes\/open_framework\/css\/open_framework.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford-framework.css":1,"sites\/all\/themes\/stanford_framework\/css\/ie.css":1,"sites\/all\/themes\/open_framework\/css\/open_framework_print.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_light\/fonts-sans.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_light\/stanford-light.css":1,"sites\/all\/themes\/stanford_framework\/css\/stanford_light\/styles-light.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_5.css":1,"public:\/\/css_injector\/css_injector_34.css":1,"public:\/\/css_injector\/css_injector_36.css":1,"public:\/\/css_injector\/css_injector_57.css":1},"js":{"misc\/jquery.js":1,"sites\/all\/themes\/open_framework\/js\/jquery-migrate-1.2.1.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"misc\/ui\/jquery.ui.mouse.min.js":1,"misc\/ui\/jquery.ui.slider.min.js":1,"sites\/default\/libraries\/jquery-ui-timepicker\/jquery-ui-sliderAccess.js":1,"sites\/default\/libraries\/jquery-ui-timepicker\/jquery-ui-timepicker-addon.js":1,"sites\/default\/modules\/stanford\/stanford_bean_types\/js\/stanford-bean-types.js":1,"sites\/default\/modules\/stanford\/stanford_carousel\/js\/stanford_carousel.js":1,"sites\/all\/modules\/stanford\/stanford_events_importer\/js\/stanford_event_nodes.js":1,"sites\/all\/modules\/stanford\/stanford_events_importer\/js\/stanford_events_calendar.js":1,"sites\/default\/modules\/stanford\/stanford_jumpstart\/js\/jumpstart.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/context_accordion\/context_accordion.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/modules\/stanford\/stanford_date_timepicker\/js\/stanford_date_timepicker.js":1,"sites\/all\/themes\/open_framework\/packages\/bootstrap-2.3.1\/js\/bootstrap.min.js":1,"sites\/all\/themes\/open_framework\/js\/open_framework.js":1,"sites\/all\/themes\/open_framework\/js\/jquery.placeholder.min.js":1,"sites\/all\/themes\/open_framework\/js\/override.js":1,"sites\/all\/themes\/stanford_framework\/js\/stanford-framework.js":1,"sites\/default\/modules\/stanford\/stanford_carousel\/js\/stanford_carousel_aria.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"urlIsAjaxTrusted":{"\/":true},"field_group":{"div":"default"},"stanford_date_timepicker":{"classes":"","default_date_format":"yy-mm-dd","default_time_format":"hh:mm","default_separator":" "}});
+//--><!]]>
+</script>
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/sites/all/themes/open_framework/packages/font-awesome-3.2.1/css/font-awesome-ie7.min.css" />  <![endif]-->
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="/sites/all/themes/open_framework/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-145 node-type-stanford-page stanford-jumpstart-home-panama active-home-context        style-custom  header-bkg-image header-bkg-text-light style-custom-styles-light style-custom-fonts-sans">
+    <div id="wrap"> <a class="element-invisible element-focusable" href="/https://energy.stanford.edu">Skip to content</a>
+    <!-- /#skipnav -->
+    <!-- /#admin-shortcuts -->
+  <div id="global-header">
+    <div class="container">
+      <div class="row-fluid">
+        <div id="top-logo" class="span4"><a href="/http://www.stanford.edu"><img alt="Stanford University" src="/https://energy.stanford.edu/sites/all/themes/stanford_framework/images/header-stanford-logo@2x.png"></a></div>
+                <div id="top-menu" class="span8"><div class="region region-global-header clearfix">
+  <div id="block-webauth-webauth-login-block" class="clearfix block block-webauth">     <h2>WebAuth Login</h2>
+      <div class="content"> <div id="webauth_login_url">
+  <a class="button" href="/https://energy.stanford.edu/sites/default/webauth/login?destination=node/145">SUNetID Login</a>
+</div>
+ </div>
+</div></div>
+ <!-- /.region -->
+</div>
+              </div>
+    </div>
+  </div>
+  <!-- /#global-header -->
+  <div id="header" class="clearfix header" role="banner">
+    <div class="container">
+      <div class="row">
+        <div class="span9">
+                    <div id="logo" class=" "> <a title="Home" rel="home" href="/https://energy.stanford.edu/"> <img alt="Stanford" role="presentation" src="/https://energy.stanford.edu/sites/all/themes/stanford_framework/logo.png"> </a></div>
+                    <!-- /#logo -->
+                    <div id="name-and-slogan" class="with-logo">
+
+                                        <div id="site-name" class="site-name"><a title="Home" rel="home" href="/https://energy.stanford.edu/">Energy</a></div>
+                          
+            
+            
+                      </div>
+                                        <!-- /#name-and-slogan -->
+                    <div id="header-content" class="row-fluid header-content header-content-margin"><div class="region region-header clearfix">
+  <div id="block-bean-slogan-0" class="clearfix block block-bean">       <div class="content"> <div class="entity entity-bean bean-pie-text-block clearfix" about="/block/slogan-0" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-text-block-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><div>Stanford Precourt Institute for Energy</div></div></div></div>  </div>
+</div>
+ </div>
+</div></div>
+ <!-- /.region -->
+</div>
+                    <!-- /#header-content -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#header -->
+
+    <div id="main-menu" class="clearfix site-main-menu">
+    <div class="container">
+      <div class="navbar">
+        
+                    <div id="nav-search" class="nav-search"> <div class="region region-search-box clearfix">
+  <div id="block-bean-pathways" class="clearfix block block-bean">       <div class="content"> <div class="entity entity-bean bean-pie-text-block clearfix" about="/block/pathways" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-text-block-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><ul><li><a href="/https://energy.stanford.edu/students">Students</a></li>
+	<li><a href="/https://energy.stanford.edu/faculty-staff">Faculty &amp; Staff</a></li>
+	<li><a href="/https://energy.stanford.edu/industry">Industry</a></li>
+	<li><a href="/https://energy.stanford.edu/media">Media</a></li>
+</ul></div></div></div>  </div>
+</div>
+ </div>
+</div><div id="block-search-form" class="clearfix block block-search" role="search">       <div class="content"> <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." class="input-medium search-query form-text" placeholder="Search this site..." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128">
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input class="btn-search form-submit" alt="Search" type="image" id="edit-submit" name="submit" src="/https://energy.stanford.edu/sites/all/themes/open_framework/images/searchbutton.png"></div><input type="hidden" name="form_build_id" value="form-dzdvxWQvSL_v3vSTlEj0RdgQaHT01Oo2wesXz9JkJGg">
+<input type="hidden" name="form_id" value="search_block_form">
+</div>
+</div></form> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+          
+                    <button aria-label="Navigation menu" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse"> <span class="hide">Navigation menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <div class="nav-collapse collapse">
+            <nav id="main-nav" role="navigation">
+              <div class="region region-navigation clearfix">
+  <div id="block-menu-block-stanford-jsa-layouts-2" class="clearfix block block-menu-block">     <h2>Main menu</h2>
+      <div class="content"> <div class="menu-block-wrapper menu-block-stanford_jsa_layouts-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first leaf active menu-mlid-1123"><a class="active" href="/https://energy.stanford.edu/">Home</a></li>
+<li class="leaf has-children menu-mlid-1475"><a href="/https://energy.stanford.edu/about/about-us">About</a></li>
+<li class="leaf has-children menu-mlid-2424"><a href="/https://energy.stanford.edu/research/research-areas">Research</a></li>
+<li class="leaf has-children menu-mlid-2628"><a href="/https://energy.stanford.edu/education">Education</a></li>
+<li class="leaf has-children menu-mlid-1457"><a href="/https://energy.stanford.edu/news">News</a></li>
+<li class="leaf has-children menu-mlid-1465"><a href="/https://energy.stanford.edu/events">Events</a></li>
+<li class="leaf has-children menu-mlid-1447"><a href="/https://energy.stanford.edu/people">People</a></li>
+<li class="last leaf has-children menu-mlid-2654"><a href="/https://energy.stanford.edu/get-involved">Get Involved</a></li>
+</ul></div>
+ </div>
+</div></div>
+ <!-- /.region -->
+            </nav>
+          </div>
+          
+              </div>
+    </div>
+  </div>
+  <!-- /#main-menu -->
+      <div id="main" class="clearfix main" role="main">
+              <div id="main-top" class="row-fluid main-top">
+        <div class="container"> <div class="region region-main-top clearfix">
+  <div id="block-views-stanford-carousel-block-1" class="clearfix block block-views pie-front-carousel">       <div class="content"> <div class="view view-stanford-carousel view-id-stanford_carousel view-display-id-block_1 carousel slide view-dom-id-bf1aec9f85fcdd90c1491a79a245b141">
+            <div class="view-header">
+      <div class="offscreen" role="heading" aria-level="2">Carousel Start</div>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last item">
+      
+          <div class="carousel-caption-wrapper carousel-position-bottom">
+<div class="carousel-caption stanford-carousel-text carousel-light carousel-position-left">
+    <h2 class="slide-title"><a href="/https://energy.stanford.edu/news/new-high-voltage-liquid-metal-flow-battery-operates-room-temperature-1">High-voltage, liquid-metal flow battery</a></h2>
+    <div class="slide-caption"><a href="/https://energy.stanford.edu/news/new-high-voltage-liquid-metal-flow-battery-operates-room-temperature-1"></a></div>
+    <div class="edit-link"></div>
+    </div>
+</div>
+    <div><a href="/https://energy.stanford.edu/news/new-high-voltage-liquid-metal-flow-battery-operates-room-temperature-1"><div class="banner-image"><img typeof="foaf:Image" width="1500" height="500" alt="" src="/https://energy.stanford.edu/sites/default/files/styles/pie-full-page-banner/public/nak_cover_2000x667_at_96.jpg?itok=PwZBhZyh"></div></a></div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+      </div>
+        <div class="container">
+            <div id="main-content" class="row main-content">
+                <div id="content" class="mc-content span12">
+          <div id="content-wrapper" class="content-wrapper">
+            <div id="content-head" class="row-fluid content-head">
+                                                        <h1 class="title" id="page-title"> Home </h1>
+                                                                                                </div>
+                        <div id="content-top" class="row-fluid content-top"> <div class="region region-content-top clearfix">
+  <div id="block-views-pie-featured-reports-block-2" class="clearfix block block-views span9 front-featured-reports">     <h2>Featured Reports</h2>
+      <div class="content"> <div class="view view-pie-featured-reports view-id-pie_featured_reports view-display-id-block_2 views-row-lines view-dom-id-1e042fac60048f39a88ecee3581c1c46">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div>        <div><div class="news-image"><a href="/http://www.flow.caltech.edu/2018-winners"><img typeof="foaf:Image" width="270" height="200" alt="" src="/https://energy.stanford.edu/sites/default/files/styles/med-landscape/public/flow_2018.jpg?itok=9tXnK2Cp"></a></div>
+<div class="postcard-content">
+           <div class="descriptor"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-07-31T15:15:00-07:00">Jul 31, 2018</span> | CalTech</div>
+           <div><h3><a href="/http://www.flow.caltech.edu/2018-winners">Stanford-based startups win two of three prizes at FLOW 2018</a></h3></div>    
+</div>
+<div class="edit-link"></div></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div>        <div><div class="news-image"><a href="/https://ssir.org/articles/entry/the_moral_imperative_of_clean_household_energy"><img typeof="foaf:Image" width="270" height="200" alt="" src="/https://energy.stanford.edu/sites/default/files/styles/med-landscape/public/moral_imperative_of_clean_household_energy_ssir_360x267.jpg?itok=zvLQa-Ab"></a></div>
+<div class="postcard-content">
+           <div class="descriptor"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-07-29T22:30:00-07:00">Jul 29, 2018</span> | SSI Review</div>
+           <div><h3><a href="/https://ssir.org/articles/entry/the_moral_imperative_of_clean_household_energy">The moral imperative of clean household energy for the world’s poor</a></h3></div>    
+</div>
+<div class="edit-link"></div></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div>        <div><div class="news-image"><a href="/https://news.stanford.edu/thedish/2018/07/20/two-new-energy-frontier-research-centers-at-stanford/"><img typeof="foaf:Image" width="270" height="200" alt="" src="/https://energy.stanford.edu/sites/default/files/styles/med-landscape/public/dionne_kovscek_360x267.jpg?itok=lUennHNj"></a></div>
+<div class="postcard-content">
+           <div class="descriptor"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-07-20T20:30:00-07:00">Jul 20, 2018</span> | Stanford News</div>
+           <div><h3><a href="/https://news.stanford.edu/thedish/2018/07/20/two-new-energy-frontier-research-centers-at-stanford/">U.S. DOE funds two new Energy Frontier Research Centers at Stanford</a></h3></div>    
+</div>
+<div class="edit-link"></div></div>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/https://energy.stanford.edu/news/featured-reports">
+    More Featured Reports  </a>
+</div>
+  
+  
+  
+</div> </div>
+</div><div id="block-views-fc4ef72a85bac25850eed04d5a27b5b8" class="clearfix block block-views span3 front-in-news">     <h2>Stanford Energy in the News</h2>
+      <div class="content"> <div class="view view-pie-energy-in-the-news-content- view-id-pie_energy_in_the_news_content_ view-display-id-block view-dom-id-6b859cecc2c7ddad625f9ad2c5f7a2ea">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="descriptor"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-01T13:15:00-07:00">Aug 1, 2018</span> | Sempra Energy</div>
+<div><a href="/https://www.sempra.com/newsroom/press-releases/doe-and-socalgas-fund-project-uses-microbes-convert-carbon-dioxide">Stanford and LLNL get funds to research microbes that convert CO2 to renewable natural gas</a></div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="descriptor"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-07-24T19:15:00-07:00">Jul 24, 2018</span> | McClatchey</div>
+<div><a href="/https://www.mcclatchydc.com/news/nation-world/article215420210.html">Calif. vs. Trump ‘will be a giant case’ over car mileage, air rules</a></div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="descriptor"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-07-12T21:15:00-07:00">Jul 12, 2018</span> | The American Lawyer</div>
+<div><a href="/https://www.law.com/americanlawyer/2018/07/12/some-see-career-conundrum-in-law-firms-energy-work/?slreturn=20180626001822">Some see career conundrum in law firms' energy work</a></div></span>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/https://energy.stanford.edu/news/stanford-energy-in-news">
+    More News  </a>
+</div>
+  
+  
+  
+</div> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+                                    <div id="content-upper" class="row-fluid content-upper"> <div class="region region-content-upper clearfix">
+  <div id="block-views-stanford-events-views-block-4" class="clearfix block block-views front-upcoming-events">     <h2>Upcoming Events</h2>
+      <div class="content"> <div class="view view-stanford-events-views view-id-stanford_events_views view-display-id-block_4 views-row-lines view-dom-id-16c47c7aa2b87a316a1133d8b3f945a1">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div>        <div><div class="postcard-left">
+  <div>
+  <div class="event-date">
+    <div class="event-date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-15T00:00:00-07:00">Aug</span></div>
+    <div class="event-date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-15T00:00:00-07:00">15</span></div>
+  </div>
+  </div>
+  <div>
+  <div class="event-title"><h3><a href="/https://energy.stanford.edu/events/ere-summer-short-course-series-modern-well-test-analysis-august-15-17-2018">ERE Summer Short Course Series - Modern Well Test Analysis (August 15 - 17, 2018)</a></h3></div>
+  <div class="descriptor">
+  <div class="event-datetime"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-15T00:00:00-07:00">August 15, 2018 (All day)</span></div>
+  <div class="event-sponsor">Green Earth Sciences Building 367 Panama Street Stanford, CA 94305</div>
+  </div>
+  </div>
+  </div></div>  </div>  
+  <div class="edit-link">        <span></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div>        <div><div class="postcard-left">
+  <div>
+  <div class="event-date">
+    <div class="event-date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-20T00:00:00-07:00">Aug</span></div>
+    <div class="event-date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-20T00:00:00-07:00">20</span></div>
+  </div>
+  </div>
+  <div>
+  <div class="event-title"><h3><a href="/https://energy.stanford.edu/events/ere-summer-short-course-series-thermal-oil-recovery-august-20-23-2018">ERE Summer Short Course Series - Thermal Oil Recovery (August 20 - 23, 2018)</a></h3></div>
+  <div class="descriptor">
+  <div class="event-datetime"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-20T00:00:00-07:00">August 20, 2018 (All day)</span></div>
+  <div class="event-sponsor">Green Earth Sciences Building 367 Panama Street Stanford, CA 94305</div>
+  </div>
+  </div>
+  </div></div>  </div>  
+  <div class="edit-link">        <span></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div>        <div><div class="postcard-left">
+  <div>
+  <div class="event-date">
+    <div class="event-date-day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-02-11T00:00:00-08:00">Feb</span></div>
+    <div class="event-date-month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-02-11T00:00:00-08:00">11</span></div>
+  </div>
+  </div>
+  <div>
+  <div class="event-title"><h3><a href="/https://energy.stanford.edu/events/stanford-geothermal-workshop-feb-11-13">Stanford Geothermal Workshop (Feb 11-13)</a></h3></div>
+  <div class="descriptor">
+  <div class="event-datetime"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-02-11T00:00:00-08:00">February 11, 2019 (All day)</span></div>
+  <div class="event-sponsor">Frances C. Arrillaga Alumni Center 326 Galvez St. Stanford, CA 94305-6105</div>
+  </div>
+  </div>
+  </div></div>  </div>  
+  <div class="edit-link">        <span></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> </div>
+</div><div id="block-views-pie-research-centers-block" class="clearfix block block-views front-featured-energy-center">     <h2>Featured Energy Center</h2>
+      <div class="content"> <div class="view view-pie-research-centers view-id-pie_research_centers view-display-id-block view-dom-id-63363846a919d4f8f0b6708151744f84">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><img typeof="foaf:Image" width="585" height="300" alt="" src="/https://energy.stanford.edu/sites/default/files/styles/pie-center-585x300/public/cars.jpg?itok=wDOyrNPD">
+<h3><a href="/https://energy.stanford.edu/research/centers-programs/center-automotive-research-stanford">Center for Automotive Research at Stanford</a></h3>
+<p>The Center for Automotive Research at Stanford (CARS) brings together researchers, students, industry, government and the community to enable a future of human-centered mobility. Understanding how people and machines work together has never been so important than when building vehicles of the future. CARS supports educational experiences for students, infrastructure for research and events that bring students and campus researchers together with industry professionals and the broader community.</p>
+
+</span>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/https://energy.stanford.edu/research/centers-programs">
+    View All Energy Centers &amp; Programs  </a>
+</div>
+  
+  
+  
+</div> </div>
+</div></div>
+ <!-- /.region -->
+ </div>
+                                    <div id="content-body" class="row-fluid content-body"> <div class="region region-content clearfix">
+  <div id="block-views-pie-front-block-block" class="clearfix block block-views discover-stanford-energy-block">     <h2>Discover Stanford Energy</h2>
+      <div class="content"> <div class="view view-pie-front-block view-id-pie_front_block view-display-id-block view-dom-id-53255824c28f3408e778eb329ac90448">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="discover_grid">
+  <div class="discover_grid_image"><a href="/https://sites.stanford.edu/jumpstart-energy/research/research-areas"><img typeof="foaf:Image" width="270" height="270" alt="Researcher in the Fritz lab" src="/https://energy.stanford.edu/sites/default/files/styles/pie-270x270/public/front_block_research.jpg?itok=-YRDNlFO"></a></div>
+  <div class="discover_grid_text">
+    <div class="discover_grid_teaser"><a href="/https://sites.stanford.edu/jumpstart-energy/research/research-areas">Research</a></div>
+    <div class="discover_grid_desc"><a href="/https://sites.stanford.edu/jumpstart-energy/research/research-areas">Explore our Research Areas</a></div>
+  </div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="discover_grid">
+  <div class="discover_grid_image"><a href="/https://energy.stanford.edu/about/stanford-energy-report"><img typeof="foaf:Image" width="270" height="270" alt="Image of Stanford Energy Report book" src="/https://energy.stanford.edu/sites/default/files/styles/pie-270x270/public/stanford-energy-report-home-block.jpg?itok=4COabF62"></a></div>
+  <div class="discover_grid_text">
+    <div class="discover_grid_teaser"><a href="/https://energy.stanford.edu/about/stanford-energy-report">Stanford Energy Report</a></div>
+    <div class="discover_grid_desc"><a href="/https://energy.stanford.edu/about/stanford-energy-report"></a></div>
+  </div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="discover_grid">
+  <div class="discover_grid_image"><a href="/https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/"><img typeof="foaf:Image" width="270" height="270" alt="Solar panels with blue sky in background" src="/https://energy.stanford.edu/sites/default/files/styles/pie-270x270/public/stanford-energy-hometop-block.jpg?itok=VWjeeUAv"></a></div>
+  <div class="discover_grid_text">
+    <div class="discover_grid_teaser"><a href="/https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/">Stanford Energy Hometop</a></div>
+    <div class="discover_grid_desc"><a href="/https://news.stanford.edu/2017/10/05/collaboration-brings-energy-transformation-stanford/"></a></div>
+  </div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="discover_grid">
+  <div class="discover_grid_image"><a href="/https://sites.stanford.edu/jumpstart-energy/about/giving"><img typeof="foaf:Image" width="270" height="270" alt="" src="/https://energy.stanford.edu/sites/default/files/styles/pie-270x270/public/front_block_donate.png?itok=njW0rzDC"></a></div>
+  <div class="discover_grid_text">
+    <div class="discover_grid_teaser"><a href="/https://sites.stanford.edu/jumpstart-energy/about/giving">Donate</a></div>
+    <div class="discover_grid_desc"><a href="/https://sites.stanford.edu/jumpstart-energy/about/giving">Make a gift to support energy at Stanford</a></div>
+  </div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="discover_grid">
+  <div class="discover_grid_image"><a href="/https://sites.stanford.edu/jumpstart-energy/students"><img typeof="foaf:Image" width="270" height="270" alt="Students standing with solar car on Stanford campus" src="/https://energy.stanford.edu/sites/default/files/styles/pie-270x270/public/front_block_students.jpg?itok=lH1trEg_"></a></div>
+  <div class="discover_grid_text">
+    <div class="discover_grid_teaser"><a href="/https://sites.stanford.edu/jumpstart-energy/students">Students</a></div>
+    <div class="discover_grid_desc"><a href="/https://sites.stanford.edu/jumpstart-energy/students">Find Student Resources</a></div>
+  </div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="discover_grid">
+  <div class="discover_grid_image"><a href="/https://sites.stanford.edu/jumpstart-energy/people/faculty"><img typeof="foaf:Image" width="270" height="270" alt="Professor Chris Field sits at a roundtable discussion on climate change" src="/https://energy.stanford.edu/sites/default/files/styles/pie-270x270/public/front_block_researcher.jpg?itok=jsjr3HuK"></a></div>
+  <div class="discover_grid_text">
+    <div class="discover_grid_teaser"><a href="/https://sites.stanford.edu/jumpstart-energy/people/faculty">Experts</a></div>
+    <div class="discover_grid_desc"><a href="/https://sites.stanford.edu/jumpstart-energy/people/faculty">Find an Energy Researcher</a></div>
+  </div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="discover_grid">
+  <div class="discover_grid_image"><a href="/https://sites.stanford.edu/jumpstart-energy/research/seed-grants"><img typeof="foaf:Image" width="270" height="270" alt="Cluster of small leaves from single branch" src="/https://energy.stanford.edu/sites/default/files/styles/pie-270x270/public/front_block_grants_0.jpg?itok=NbB_eHNc"></a></div>
+  <div class="discover_grid_text">
+    <div class="discover_grid_teaser"><a href="/https://sites.stanford.edu/jumpstart-energy/research/seed-grants">Grants</a></div>
+    <div class="discover_grid_desc"><a href="/https://sites.stanford.edu/jumpstart-energy/research/seed-grants">Learn about funded energy research grants</a></div>
+  </div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="discover_grid">
+  <div class="discover_grid_image"><a href="/https://sites.stanford.edu/jumpstart-energy/news/subscribe-stanford-energy-newsletter"><img typeof="foaf:Image" width="270" height="270" alt="" src="/https://energy.stanford.edu/sites/default/files/styles/pie-270x270/public/front_block_newsletter.jpg?itok=DrPfavFI"></a></div>
+  <div class="discover_grid_text">
+    <div class="discover_grid_teaser"><a href="/https://sites.stanford.edu/jumpstart-energy/news/subscribe-stanford-energy-newsletter">Energy Newsletter</a></div>
+    <div class="discover_grid_desc"><a href="/https://sites.stanford.edu/jumpstart-energy/news/subscribe-stanford-energy-newsletter">Sign up for the Stanford Energy Newsletter</a></div>
+  </div>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> </div>
+</div><div id="block-system-main" class="clearfix block block-system">       <div class="content"> <article id="node-145" class="node node-stanford-page clearfix" about="/home" typeof="sioc:Item foaf:Document">      <span property="dc:title" content="Home" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    <div class="content">
+      </div>
+    </article> </div>
+</div></div>
+ <!-- /.region -->
+  </div>
+                                                                                                                      </div>
+          <!-- /#content-wrap -->
+        </div>
+        <!-- /#content -->
+              </div>
+                </div>
+  </div>
+  <!-- /#main, /#main-wrapper -->
+    <div id="push"></div>
+  <!-- /#push -->
+</div>
+<!-- /#wrap -->
+<div id="footer" class="clearfix footer site-footer">
+  <div class="container">
+        <div id="footer-content" class="row-fluid footer-content"> <div class="region region-footer clearfix">
+  <div id="block-menu-menu-menu-footer-research-menu" class="clearfix block block-menu span2">     <h2>Research</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a title="" href="/https://energy.stanford.edu/research/research-areas">Research Areas</a></li>
+<li class="leaf"><a title="" href="/https://energy.stanford.edu/research/centers-programs">Centers &amp; Programs</a></li>
+<li class="leaf"><a title="" href="/https://energy.stanford.edu/research/research-opportunities">Research Opportunities</a></li>
+<li class="last leaf"><a title="" href="/https://energy.stanford.edu/research/seed-grants">Seed Grants</a></li>
+</ul> </div>
+</div>
+<div id="block-menu-menu-menu-footer-education-menu" class="clearfix block block-menu span2">     <h2>Education</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a title="" href="/https://energy.stanford.edu/education/courses">Courses</a></li>
+<li class="leaf"><a title="" href="/https://energy.stanford.edu/education/energy-degrees">Energy Degrees</a></li>
+<li class="last leaf"><a title="" href="/https://energy.stanford.edu/education/energy-literacy">Energy Literacy</a></li>
+</ul> </div>
+</div>
+<div id="block-menu-menu-footer-news-events-menu" class="clearfix block block-menu span2">     <h2>News and Events</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a title="" href="/https://energy.stanford.edu/news/stanford-energy-newsletter">Stanford Energy Newsletter</a></li>
+<li class="leaf"><a href="/https://energy.stanford.edu/news/subscribe">Subscribe</a></li>
+<li class="leaf"><a href="/https://energy.stanford.edu/events/upcoming-events">Upcoming Events</a></li>
+<li class="last leaf"><a title="" href="/https://energy.stanford.edu/from-directors">Op-Ed: From the Directors</a></li>
+</ul> </div>
+</div>
+<div id="block-menu-menu-footer-people-menu" class="clearfix block block-menu span2">     <h2>People</h2>
+      <div class="content"> <ul class="menu nav"><li class="first leaf"><a title="" href="/https://energy.stanford.edu/people/precourt-institute-fellows">Institute Fellows</a></li>
+<li class="leaf"><a title="" href="/https://energy.stanford.edu/people/precourt-institute-energy-advisory-council">Advisory Council</a></li>
+<li class="last leaf"><a href="/https://energy.stanford.edu/people/staff">Staff</a></li>
+</ul> </div>
+</div>
+<div id="block-bean-jumpstart-footer-social-media-0" class="clearfix block block-bean span2">     <h2>Connect</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-social-media-connect clearfix" about="/block/jumpstart-footer-social-media--0" typeof="">
+
+  <div class="content">
+    <div class="field field-name-field-s-smc-facebook field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/https://www.facebook.com/StanfordEnergy">Facebook</a></div></div></div><div class="field field-name-field-s-smc-twitter field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/https://twitter.com/StanfordEnergy">Twitter</a></div></div></div><div class="field field-name-field-s-smc-youtube field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/http://www.youtube.com/PrecourtInstitute">YouTube</a></div></div></div><div class="field field-name-field-pie-smc-rss field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/https://energy.stanford.edu/news/rss-feeds">RSS</a></div></div></div>  </div>
+</div>
+ </div>
+</div>
+<div id="block-bean-jumpstart-footer-contact-block" class="clearfix block block-bean span2">     <h2>Contact Us</h2>
+      <div class="content"> <div class="entity entity-bean bean-stanford-contact clearfix" about="/block/jumpstart-footer-contact-block" typeof="">
+
+  <div class="content">
+    <div><div class="field field-name-field-s-contact-address-line-1 field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Yang and Yamazaki Energy &amp; Environment Building</div></div></div><div class="field field-name-field-s-contact-address-line-2 field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">473 Via Ortega</div></div></div><div class="field field-name-field-s-contact-address-line-3 field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Suite 324</div></div></div><div class="field field-name-field-s-contact-city-state-zip field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Stanford, CA 94305</div></div></div></div><div class="field field-name-field-s-contact-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/https://energy.stanford.edu/about/contact">Contact List</a></div><div class="field-item odd"><a href="/https://campus-map.stanford.edu/?id=04-070&amp;lat=37.4281062019&amp;lng=-122.175482405&amp;zoom=17">Campus Map</a></div></div></div>  </div>
+</div>
+ </div>
+</div>
+</div>
+ <!-- /.region -->
+ </div>
+      </div>
+</div>
+<!-- /#footer -->
+<div id="global-footer" role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2"><a href="/http://www.stanford.edu"><img alt="Stanford University" src="/https://energy.stanford.edu/sites/all/themes/stanford_framework/images/footer-stanford-logo@2x.png"></a></div>
+      <div id="bottom-menu" class="span10">
+
+                  <ul class="top-links clearfix">
+                          <li><a href="/https://www.stanford.edu">Stanford Home</a></li>
+                          <li><a href="/https://visit.stanford.edu/plan/">Maps &amp; Directions</a></li>
+                          <li><a href="/https://www.stanford.edu/search/">Search Stanford</a></li>
+                          <li><a href="/https://emergency.stanford.edu/">Emergency Info</a></li>
+                      </ul>
+                  <ul class="bottom-links clearfix">
+                          <li><a title="Terms of use for sites" href="/https://www.stanford.edu/site/terms/">Terms of Use</a></li>
+                          <li><a title="Privacy and cookie policy" href="/https://www.stanford.edu/site/privacy">Privacy</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/https://uit.stanford.edu/security/copyright-infringement">Copyright</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademarks</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/">Non-Discrimination</a></li>
+                          <li><a title="Report alleged copyright infringement" href="/https://www.stanford.edu/site/accessibility/">Accessibility</a></li>
+                      </ul>
+        
+        <p class="vcard">© <span class="fn org">Stanford University</span>, <span class="adr"><span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /#global-footer -->
+  
+
+</body></html>

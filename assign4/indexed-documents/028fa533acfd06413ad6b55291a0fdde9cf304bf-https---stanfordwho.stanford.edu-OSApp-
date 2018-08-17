@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<title>Searching Stanford</title>
+
+
+<link rel="stylesheet" type="text/css" media="all" href="/https://stanfordwho.stanford.edu/OSApp/jsp/common/swho-org.css">
+<script type="text/javascript" src="/https://stanfordwho.stanford.edu/OSApp/jsp/common/sos.js"></script>
+<link rel="index" title="Search Types " href="/https://stanfordwho.stanford.edu/OSApp/">
+<link rel="contents" title="Search Result " href="/https://stanfordwho.stanford.edu/OSApp/">
+<link rel="search" title="New Search " href="/https://stanfordwho.stanford.edu/OSApp/">
+</head>
+
+<body onload="startstate()">
+<div class="hidden"><a href="/https://stanfordwho.stanford.edu/OSApp/">jump to results</a> <a href="/https://stanfordwho.stanford.edu/OSApp/">skip navigation</a></div>
+
+	
+
+
+<div id="printbanner">
+	<h1>STANFORD UNIVERSITY</h1>
+	<h2>SEARCHING STANFORD: ORGANIZATION SEARCH</h2>
+</div>
+
+<div id="container"><!-- end of this div is in SearchStanford-foot.jsp -->
+	<div id="container_header">
+		<div id="header">
+			<div id="logo">
+				<a href="/http://www.stanford.edu"><img alt="Stanford University" style="float: left;" src="/https://stanfordwho.stanford.edu/OSApp/jsp/common/stanford_title.jpg"></a>
+				<img alt="Searching Stanford" src="/https://stanfordwho.stanford.edu/OSApp/jsp/common/searching_stanford.gif">
+			</div>
+		</div>
+	</div>
+	<div id="topnav">
+		<ul>
+		<li><a id="a0" onclick="return qs(this, 'web');" href="/http://www.stanford.edu/search">Stanford Web</a></li>
+		<li><a id="a1" onclick="return qs(this, 'who');" href="/http://stanfordwho.stanford.edu/SWApp/">People</a></li>
+		<li><a id="a2" onclick="return qs(this, 'org');" class="here" href="/https://stanfordwho.stanford.edu/OSApp">Organizations</a></li>
+		<li><a id="a3" onclick="return qs(this, 'map');" href="/http://campus-map.stanford.edu">Campus Map</a></li>
+		</ul>
+	</div>
+	
+	<div id="content_main"><!-- end of this div is in SearchStanford-foot.jsp -->
+		<div id="subnav">
+			<ul>
+				<li><a title="Tree View of University Org Code Hierarchy" href="/http://www.stanford.edu/dept/pres-provost/budget/org/orgchart/index.html">Tree View of University Org Code Hierarchy</a></li>
+				<li><a title="Organization Manager" href="/http://org.stanford.edu">Organization Manager</a></li>
+			</ul>
+		</div>		
+
+  <div id="SWhoBody"> 
+	 
+	<div id="SWhoLogin"> &nbsp; </div>
+	
+    <div id="SWhoSearch">
+	<form action="/OSApp/Search.do" id="searchform" method="post">
+		<fieldset>
+		<div id="SearchHeading">
+
+		<h1>
+		  <label for="search_string">Search by organization name or code</label>
+		</h1>
+		</div>
+		
+		<div id="SearchStanford">
+			&nbsp;
+		</div>
+
+	
+		  
+	
+		
+		<div id="SearchString"><input id="search_string" name="search" type="text" class="srchbox"> 
+		</div>
+		
+		<div id="SearchSubmit"><input name="btnG" type="submit" class="button" value="Search"></div>
+		</fieldset>
+	</form>
+</div>	
+	<br style="clear: both;">
+    </div>
+
+	<!-- <div id="content_main"> -->
+	</div>
+	<div class="clear" id="footer">
+		 <ul id="nav_footer">
+			<li><a href="/http://www.stanford.edu/">Stanford Home</a></li>
+			<li><a href="/http://helpsu.stanford.edu/">HelpSU</a></li>
+			<li class="last"><a href="/http://mais.stanford.edu/applications/orgsearch/">Help with Organization Search</a></li>			
+		 </ul>
+		 <div id="copyright">
+			 <p>© Stanford University. 450 Serra Mall, Stanford, California 94305. (650) 723-2300. <a href="/http://www.stanford.edu/site/terms.html">Terms of Use</a> | <a href="/http://www.stanford.edu/site/copyright.html">Copyright Complaints</a></p>
+		 </div>
+	</div>
+<!-- end of <div id="container"> -->
+</div>
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://analytics.stanford.edu/" : "http://analytics.stanford.edu/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 5);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img style="border:0" alt="" src="/https://analytics.stanford.edu/piwik.php?idsite=5"></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+
+</body></html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html><html lang="en"><head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stanford on iTunes U</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="/http://itunes.stanford.edu/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/https://www.stanford.edu/su-identity/css/su-identity.css">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" type="text/css" href="/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" type="text/css" href="/http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
+    <link rel="stylesheet" type="text/css" href="/http://itunes.stanford.edu/font-awesome/css/font-awesome.min.css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" type="text/css" href="/http://itunes.stanford.edu/css/animate.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/http://itunes.stanford.edu/css/creative.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie8.css" />
+	<![endif]-->
+    <!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie7.css" />
+	<![endif]-->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-1860414-9']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+      })();
+
+    </script>
+</head>
+
+<body id="page-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="/http://itunes.stanford.edu">Stanford on iTunes U</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="/http://itunes.stanford.edu">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/http://itunes.stanford.edu">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/http://itunes.stanford.edu">Contribute</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/http://itunes.stanford.edu">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+	<div class="dimming-shim"></div>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Stanford on iTunes U</h1>
+                <hr>
+                <p>Stanford is pleased to offer this collection of audio and video content from across the university on the iTunes platform. </p>
+                <a class="btn btn-primary btn-xl page-scroll" href="/https://itunes.apple.com/WebObjects/DZR.woa/wa/viewArtist?id=384228265">Launch Stanford on iTunes U</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Stanford.  To go.</h2>
+                    <hr class="light">
+                    <p class="light">Stanford on iTunes U is an archive of audio and video content from schools, departments, and programs across the university on Apple's popular iTunes platform.  The site includes Stanford course lectures, faculty presentations, event highlights, music and more.</p>
+		    <p class="light">Our collection is maintained by <a href="/http://ucomm.stanford.edu">Stanford's Office of University Communications</a>.</p>
+        <!--            <a href="#" class="btn btn-default btn-xl">Get Started!</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">FAQ</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+	    <dl>
+	      <dt>Do I have to pay to access Stanford on iTunes U?</dt>
+	      <dd>
+		<p>No. All of the content from Stanford on iTunes U is free.<br></p>
+	      </dd>
+	      
+	      <dt>How do I access Stanford on iTunes U?</dt>
+	      <dd>
+		<p>First, make sure you have  the most current version of iTunes installed on your Mac or PC computer.  To download the application, visit to <a href="/http://www.apple.com/itunes">www.apple.com/itunes</a>.</p>
+		
+		<p>Next, launch the iTunes application and click on <em>iTunes Store</em> in the source list.  Select <em>iTunes U</em> in the top navigation area, and click on <em>Stanford</em> on the resulting page. Alternatively, you can go directly to our iTunes U page via the “Launch Stanford on iTunes U” link above.</p>
+	      </dd>
+	      
+	      <dt>Is Stanford's content part of the iTunes Music Store?</dt>
+	      <dd><p>Yes!  You may now search for and access Stanford content directly in the iTunes Store.</p></dd>
+	      
+	      <dt>Is the Stanford on iTunes U content under copyright protection?</dt>
+	      <dd><p>While we do not implement any digital rights management (DRM) for our content, Stanford University does retain copyright to all  content in our iTunes U collection.<br></p></dd>
+	      
+
+	      <dt>Where did the idea for Stanford on iTunes U come from?</dt>
+	      <dd>
+		<p>Stanford on iTunes U  grew out of a pilot project with Apple, beginning in the spring of 2004, to deliver
+		  supplemental course content to registered students using iTunes. We soon realized that the same platform would be a great way to deliver Stanford content to alumni and the public as well.  Stanford launched the first publicly available iTunes U collection in 2005.<br></p>
+	      </dd>
+	    </dl>
+
+
+        </div>
+    </section>
+
+
+    <aside id="contribute" class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Contribute to Stanford on iTunes U</h2>
+		<p>Stanford departments and programs can contribute recordings of major events, faculty presentations and other programs and make them available to millions of iTunes users around the world.</p>
+                <p><a class="btn btn-default btn-xl wow tada" href="/http://ucomm.stanford.edu/contribute">Learn more</a></p>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <hr class="primary">
+                    <p>For more information or for assistance with Stanford on iTunes U:</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>650-723-2558</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="/http://itunes.stanford.edu/mailto:stanford-itunes@stanford.edu">stanford-itunes@stanford.edu</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Global footer snippet start -->
+<div id="global-footer" style="margin-top: 50px;">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2">
+        <a href="/http://www.stanford.edu">
+          <img alt="Stanford University" width="105" height="49" src="/https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png">
+        </a>
+      </div>
+      <!-- #bottom-logo end -->
+      <div id="bottom-text" class="span10">
+        <ul>
+          <li class="home"><a href="/http://www.stanford.edu">SU Home</a></li>
+          <li class="maps alt"><a href="/http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+          <li class="search-stanford"><a href="/http://www.stanford.edu/search/">Search Stanford</a></li>
+          <li class="terms alt"><a href="/http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+          <li class="emergency-info"><a href="/http://emergency.stanford.edu">Emergency Info</a></li>
+        </ul>
+      </div> <!-- .bottom-text end -->
+      <div class="clear"></div>
+      <p class="copyright vcard">© <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.&nbsp;&nbsp;
+      <span id="copyright-complaint"><a class="copyright-complaint" href="/http://www.stanford.edu/group/security/dmca.html">Copyright Complaints</a></span>
+      </p>
+    </div> <!-- .row end --> 
+  </div> <!-- .container end --> 
+</div> <!-- global-footer end -->
+<!-- Global footer snippet end -->
+
+    <!-- jQuery -->
+    <script src="/http://itunes.stanford.edu/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/http://itunes.stanford.edu/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/http://itunes.stanford.edu/js/jquery.easing.min.js"></script>
+    <script src="/http://itunes.stanford.edu/js/jquery.fittext.js"></script>
+    <script src="/http://itunes.stanford.edu/js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/http://itunes.stanford.edu/js/creative.js"></script>
+
+
+
+
+</body></html>
